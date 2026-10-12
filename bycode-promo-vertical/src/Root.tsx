@@ -11,9 +11,9 @@ import "./style.css";
 
 // Six authored scene nodes, with match cuts and motion within each scene.
 // No overlap: 180 + 120 + 300 + 300 + 240 + 300 = 1440 frames.
-export const SyntahVertical = () => (
+export const ByCodeVertical = () => (
   <TransitionSeries>
-    <TransitionSeries.Sequence name="01 · Syntah" durationInFrames={180}>
+    <TransitionSeries.Sequence name="01 · ByCode" durationInFrames={180}>
       <Opening />
     </TransitionSeries.Sequence>
     <TransitionSeries.Sequence
@@ -31,7 +31,7 @@ export const SyntahVertical = () => (
     <TransitionSeries.Sequence name="05 · Ecosistema" durationInFrames={240}>
       <Ecosystem />
     </TransitionSeries.Sequence>
-    <TransitionSeries.Sequence name="06 · Conocé Syntah" durationInFrames={300}>
+    <TransitionSeries.Sequence name="06 · Conocé ByCode" durationInFrames={300}>
       <Closing />
     </TransitionSeries.Sequence>
   </TransitionSeries>
@@ -40,8 +40,8 @@ export const SyntahVertical = () => (
 export const RemotionRoot = () => (
   <>
     <Composition
-      id="Syntah-Vertical"
-      component={SyntahVertical}
+      id="ByCode-Vertical"
+      component={ByCodeVertical}
       width={1080}
       height={1920}
       fps={60}

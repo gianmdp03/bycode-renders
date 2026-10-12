@@ -29,7 +29,7 @@ export const Opening = () => {
         }}
       />
       <Interactive.Div
-        name="Syntah mark"
+        name="ByCode mark"
         style={{
           position: "absolute",
           top: 385,
@@ -43,7 +43,7 @@ export const Opening = () => {
         }}
       >
         <Img
-          src={staticFile("logos/syntah.svg")}
+          src={staticFile("logos/bycode.svg")}
           style={{
             width: 260,
             height: 296,
@@ -53,7 +53,7 @@ export const Opening = () => {
         />
       </Interactive.Div>
       <Interactive.Div
-        name="Syntah name"
+        name="ByCode name"
         style={{
           position: "absolute",
           top: 732,
@@ -70,7 +70,7 @@ export const Opening = () => {
           }),
         }}
       >
-        Syntah
+        ByCode
       </Interactive.Div>
       <Interactive.Div
         name="Company descriptor"

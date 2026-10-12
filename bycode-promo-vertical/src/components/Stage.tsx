@@ -7,7 +7,7 @@ import {
   interpolate,
 } from "remotion";
 import { theme, clamp } from "../theme";
-import { SyntahBrand } from "./Brand";
+import { ByCodeBrand } from "./Brand";
 
 export const Background: React.FC<{ accent?: string }> = ({
   accent = "#244888",
@@ -56,8 +56,8 @@ export const Background: React.FC<{ accent?: string }> = ({
         }}
       >
         <Img
-          src={staticFile("logos/syntah.svg")}
-          style={{ width: 710, height: 830 }}
+          src={staticFile("logos/bycode.svg")}
+          style={{ width: 710, height: 830, objectFit: "contain" }}
         />
       </div>
     </AbsoluteFill>
@@ -76,7 +76,7 @@ export const Stage: React.FC<{
     <Background accent={accent} />
     {brand ? (
       <div style={{ position: "absolute", left: 90, top: 112, zIndex: 1 }}>
-        <SyntahBrand size={42} iconSize={55} />
+        <ByCodeBrand size={42} iconSize={55} />
       </div>
     ) : null}
     {children}

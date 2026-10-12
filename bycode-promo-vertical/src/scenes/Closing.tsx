@@ -34,13 +34,13 @@ export const Closing = () => {
         }}
       >
         <Img
-          src={staticFile("logos/syntah.svg")}
+          src={staticFile("logos/bycode.svg")}
           style={{ width: 238, height: 276, objectFit: "contain" }}
         />
         <strong
           style={{ fontSize: 158, lineHeight: 1, letterSpacing: "-.055em" }}
         >
-          Syntah
+          ByCode
         </strong>
       </Interactive.Div>
       <Interactive.Div
@@ -91,7 +91,7 @@ export const Closing = () => {
           }),
         }}
       >
-        syntah.com.ar
+        bycode.com.ar
         <Arrow size={40} />
       </Interactive.Div>
     </Stage>

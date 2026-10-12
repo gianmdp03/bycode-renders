@@ -2,7 +2,7 @@ import React from "react";
 import { Img, staticFile } from "remotion";
 import { theme } from "../theme";
 
-export const SyntahBrand: React.FC<{ size?: number; iconSize?: number }> = ({
+export const ByCodeBrand: React.FC<{ size?: number; iconSize?: number }> = ({
   size = 36,
   iconSize = 46,
 }) => (
@@ -15,7 +15,7 @@ export const SyntahBrand: React.FC<{ size?: number; iconSize?: number }> = ({
     }}
   >
     <Img
-      src={staticFile("logos/syntah.svg")}
+      src={staticFile("logos/bycode.svg")}
       style={{ height: iconSize, width: iconSize, objectFit: "contain" }}
     />
     <span
@@ -26,7 +26,7 @@ export const SyntahBrand: React.FC<{ size?: number; iconSize?: number }> = ({
         lineHeight: 1.1,
       }}
     >
-      Syntah
+      ByCode
     </span>
   </div>
 );

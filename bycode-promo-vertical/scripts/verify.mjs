@@ -28,7 +28,7 @@ try {
     puppeteerInstance: browser,
     onBrowserLog,
   });
-  const main = compositions.find((c) => c.id === "Syntah-Vertical");
+  const main = compositions.find((c) => c.id === "ByCode-Vertical");
   assert.ok(main);
   assert.deepEqual(
     [main.width, main.height, main.fps, main.durationInFrames],

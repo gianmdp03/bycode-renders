@@ -1,6 +1,6 @@
 import { Interactive, interpolate, useCurrentFrame } from "remotion";
 import {
-  SyntahBrand,
+  ByCodeBrand,
   DoctorMark,
   PointlyMark,
   Check,
@@ -15,7 +15,7 @@ export const Ecosystem = () => {
   return (
     <Stage brand={false}>
       <Interactive.Div
-        name="Syntah ecosystem parent"
+        name="ByCode ecosystem parent"
         style={{
           position: "absolute",
           top: 136,
@@ -28,7 +28,7 @@ export const Ecosystem = () => {
           }),
         }}
       >
-        <SyntahBrand size={76} iconSize={88} />
+        <ByCodeBrand size={76} iconSize={88} />
       </Interactive.Div>
       <Interactive.Div
         name="Portrait ecosystem headline"

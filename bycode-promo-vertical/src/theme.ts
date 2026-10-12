@@ -11,7 +11,7 @@ export const theme = {
   white: "#F8FAFF",
   muted: "#A5B3C8",
   blue: "#397BFF",
-  syntah: "#0F708B",
+  bycode: "#0F708B",
   pointly: "#1A73E8",
   doctor: "#006874",
   font: "Product Sans, sans-serif",

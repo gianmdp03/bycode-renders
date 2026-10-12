@@ -3,7 +3,7 @@ import path from "node:path";
 import crypto from "node:crypto";
 import assert from "node:assert/strict";
 
-const root = path.resolve("../syntah-promo-horizontal");
+const root = path.resolve("../bycode-promo-horizontal");
 const snapshot = path.resolve("qa/horizontal-baseline.json");
 const manifest = {};
 function walk(dir) {
