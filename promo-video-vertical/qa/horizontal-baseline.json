@@ -1,0 +1,118 @@
+[
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\src\\data.ts",
+    "Hash": "E13212E491B06919AFAEC6BAA08D8A76F0E45A81F8748AFC5C4C3C2A7799A798"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\src\\index.css",
+    "Hash": "8667D73D54030C22E18EEDD25A017E0F457A827FF3663935D12F8C50D274A86B"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\src\\index.ts",
+    "Hash": "957E481DD33A29B4A55AE0E95DBF763B7E48C37C427CA4BD1275FAF34BC07A74"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\src\\motion.tsx",
+    "Hash": "C6C1982D85F3E92A8F0B9358A7B8C507F58E6617CEFF9D3A7805D11AE6E8D189"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\src\\Root.tsx",
+    "Hash": "E1CF74A661E9C287B59931878CD9051EF88868DD85100084EEB4A341D5B3D3B4"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\src\\theme.ts",
+    "Hash": "F4CCB0A61C16E727BD046DCB17371CD3710631BBC8423647F105C3579904A929"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\src\\ui.tsx",
+    "Hash": "A034AB236973369232B14E15DCACDBF4249C78C8F450357088AE570803C18AF3"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\src\\Video.tsx",
+    "Hash": "39A092B3742F97D2B3E313BE326587B5AF71DC193BD0BF2BB86CDB0FC4A5CC37"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\src\\scenes\\01-Promise.tsx",
+    "Hash": "B429530C4EE703049B064F1BBE232895A38EB9BD8B61950414D981452727CF2F"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\src\\scenes\\02-Business.tsx",
+    "Hash": "51DF7A74C7F6FD6AA659931B4BDF933130510C355A8B7FACF886ACEB771097A2"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\src\\scenes\\03-Join.tsx",
+    "Hash": "A413A6BFDAA69C6FAC0389DAFD1E48A156FDE0EB228AB89D6AB9DA7132CA5767"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\src\\scenes\\04-Purchase.tsx",
+    "Hash": "A5BCFDE7588E7C93C4D1A0D3017D4229D89D6320A277524F5C5CDE1E788C3E2A"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\src\\scenes\\05-Balance.tsx",
+    "Hash": "87B1B160997D2B219CF8AA47F3CFAC4BDD146D74B1CD96C57BB9C54E87F6FB2F"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\src\\scenes\\06-Reward.tsx",
+    "Hash": "78E6BF50A16C90F1E742BCD4616358C3FE1CD09D8D84E7186221FE9D4FEEC304"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\src\\scenes\\07-Tiers.tsx",
+    "Hash": "BADEAD01030F08DB1DFFFFA42BF6558894EB909565C4E31C9100DEE244F33E01"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\src\\scenes\\08-Promotion.tsx",
+    "Hash": "55FC77104F8F903544AB7841ACCE15FCCF889BD51594F2C6A8F461EC0445DF04"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\src\\scenes\\09-Retention.tsx",
+    "Hash": "CEA6F6EF6D414A8DAE1F0C7CE393178D27C0427DEA4AD78D4D033571AA0695DA"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\src\\scenes\\10-Closing.tsx",
+    "Hash": "4F8C75FF23BF1016FCD0B8AF8EE9F3D17ACCFF6101939C097C7EA116229D8578"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\public\\logo.svg",
+    "Hash": "F54909C048E82F01D0510659621EAF7B8DF37318D78162BA18623AC0AF350A0F"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\public\\qr-demo.svg",
+    "Hash": "C371A7E4F3DE3A6E88BA62B9FC12359592AD030ACD484A3520B93CF3BE004AA1"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\public\\audio\\pointly-original-bed.wav",
+    "Hash": "1B8173B82AAB53279EB3B9E39CB5F7F75CFEE7255EC1657567956F50785E52BD"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\public\\audio\\pointly-ui-sfx.wav",
+    "Hash": "DB7EDFABC34813E4217DF51E67790181AA1C9533FA354AECEA5FB392D195D05D"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\public\\fonts\\google-sans-400.ttf",
+    "Hash": "1DB8FE3048D1B15519999C1B0372285DED006BF49E109455DF1A09E42876EC64"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\public\\fonts\\google-sans-500.ttf",
+    "Hash": "E9156F50951740B525F8E6D110E0BE344214CB6D5FCE1E76CD3E828A604997E9"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\public\\fonts\\google-sans-700.ttf",
+    "Hash": "E7A3BAEF8D5E96974A25D537CA253C5E4F25ED3BB0D9167D1F4773EA11D74F71"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\public\\fonts\\google-sans-source.css",
+    "Hash": "A462DEA9B4FDCE87D137457220A0D289142DA26966A7AEC67264E0459859E4E5"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\package.json",
+    "Hash": "4591A850FF88F6409DA3DDB3D88800322A859A8B2776B598282D0A22D50481F7"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\package-lock.json",
+    "Hash": "D7980E38DDB0029D46334F9082F78C39A7807D78C9A0FC9C5C52B97966AABFEF"
+  },
+  {
+    "Path": "C:\\Users\\gcast\\Desktop\\Render\\promo-video\\README.md",
+    "Hash": "B7ED18DFC736008700EBCBC04E801F5637925845802E04360868B494E93A0181"
+  }
+]

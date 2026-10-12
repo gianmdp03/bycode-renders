@@ -1,0 +1,116 @@
+[
+  {
+    "scene": "02-Negocio",
+    "kind": "click",
+    "localFrame": 94,
+    "frame": 286
+  },
+  {
+    "scene": "02-Negocio",
+    "kind": "click",
+    "localFrame": 156,
+    "frame": 348
+  },
+  {
+    "scene": "03-QR",
+    "kind": "click",
+    "localFrame": 54,
+    "frame": 576
+  },
+  {
+    "scene": "03-QR",
+    "kind": "click",
+    "localFrame": 260,
+    "frame": 782
+  },
+  {
+    "scene": "03-QR",
+    "kind": "success",
+    "localFrame": 270,
+    "frame": 792
+  },
+  {
+    "scene": "04-Compra",
+    "kind": "click",
+    "localFrame": 92,
+    "frame": 1004
+  },
+  {
+    "scene": "04-Compra",
+    "kind": "click",
+    "localFrame": 220,
+    "frame": 1132
+  },
+  {
+    "scene": "04-Compra",
+    "kind": "success",
+    "localFrame": 226,
+    "frame": 1138
+  },
+  {
+    "scene": "05-Puntos",
+    "kind": "click",
+    "localFrame": 50,
+    "frame": 1358
+  },
+  {
+    "scene": "05-Puntos",
+    "kind": "click",
+    "localFrame": 178,
+    "frame": 1486
+  },
+  {
+    "scene": "06-Premios",
+    "kind": "click",
+    "localFrame": 126,
+    "frame": 1902
+  },
+  {
+    "scene": "06-Premios",
+    "kind": "click",
+    "localFrame": 252,
+    "frame": 2028
+  },
+  {
+    "scene": "06-Premios",
+    "kind": "success",
+    "localFrame": 258,
+    "frame": 2034
+  },
+  {
+    "scene": "07-Rangos",
+    "kind": "success",
+    "localFrame": 288,
+    "frame": 2472
+  },
+  {
+    "scene": "08-Promociones",
+    "kind": "click",
+    "localFrame": 100,
+    "frame": 2704
+  },
+  {
+    "scene": "09-Retencion",
+    "kind": "click",
+    "localFrame": 42,
+    "frame": 3018
+  },
+  {
+    "scene": "09-Retencion",
+    "kind": "click",
+    "localFrame": 162,
+    "frame": 3138
+  },
+  {
+    "scene": "09-Retencion",
+    "kind": "click",
+    "localFrame": 370,
+    "frame": 3346
+  },
+  {
+    "scene": "09-Retencion",
+    "kind": "click",
+    "localFrame": 412,
+    "frame": 3388
+  }
+]

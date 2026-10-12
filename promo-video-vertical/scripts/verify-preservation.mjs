@@ -1,0 +1,18 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+import assert from 'node:assert/strict';
+import vm from 'node:vm';
+import ts from 'typescript';
+import {VIDEO,beats,demo,ledger,soundCues} from './project-timing.mjs';
+const baseline=JSON.parse(fs.readFileSync('qa/horizontal-baseline.json','utf8').replace(/^\uFEFF/,''));
+const hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex').toUpperCase();
+for(const entry of baseline)assert.equal(hash(entry.Path),entry.Hash,`Horizontal file changed: ${entry.Path}`);
+const original={exports:{}};
+vm.runInNewContext(ts.transpileModule(fs.readFileSync('../promo-video/src/data.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS}}).outputText,original);
+for(const[name,value]of Object.entries({beats,demo,ledger}))assert.equal(JSON.stringify(value),JSON.stringify(original.exports[name]),`${name} must match horizontal master`);
+assert.equal(VIDEO.frames,original.exports.VIDEO.frames);assert.equal(VIDEO.fps,original.exports.VIDEO.fps);
+assert.equal(JSON.stringify(soundCues),JSON.stringify(JSON.parse(fs.readFileSync('../promo-video/qa/audio-cues.json','utf8'))));
+for(const name of ['pointly-original-bed.wav','pointly-ui-sfx.wav'])assert.equal(hash(`public/audio/${name}`),hash(`../promo-video/public/audio/${name}`));
+const report={status:'PASS',horizontalFilesUnchanged:baseline.length,timingMatches:true,demoDataMatches:true,audioAndCueFramesMatch:true,verticalId:VIDEO.id};
+fs.writeFileSync('qa/preservation-report.json',JSON.stringify(report,null,2));
+console.log(report);

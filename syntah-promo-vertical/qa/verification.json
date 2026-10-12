@@ -1,0 +1,63 @@
+{
+  "compositionId": "Syntah-Vertical",
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "durationInFrames": 1440,
+  "durationSeconds": 24,
+  "verifiedFrames": 1440,
+  "browserErrors": [],
+  "browserWarnings": [],
+  "audio": "None - intentionally silent",
+  "encodedVideo": false,
+  "stills": [
+    {
+      "name": "opening.png",
+      "frame": 90
+    },
+    {
+      "name": "products.png",
+      "frame": 240
+    },
+    {
+      "name": "pointly-before.png",
+      "frame": 360
+    },
+    {
+      "name": "pointly-click.png",
+      "frame": 382
+    },
+    {
+      "name": "pointly.png",
+      "frame": 480
+    },
+    {
+      "name": "doctorchart-before.png",
+      "frame": 660
+    },
+    {
+      "name": "doctorchart-click.png",
+      "frame": 686
+    },
+    {
+      "name": "doctorchart.png",
+      "frame": 780
+    },
+    {
+      "name": "pullback.png",
+      "frame": 918
+    },
+    {
+      "name": "ecosystem.png",
+      "frame": 1020
+    },
+    {
+      "name": "closing.png",
+      "frame": 1320
+    },
+    {
+      "name": "last-frame.png",
+      "frame": 1439
+    }
+  ]
+}

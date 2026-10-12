@@ -1,0 +1,37 @@
+{
+  "name": "pointly-promo-vertical",
+  "version": "1.0.0",
+  "description": "Pointly vertical master — native 1080x1920 at 60 FPS",
+  "repository": {},
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@remotion/cli": "4.0.530",
+    "@remotion/fonts": "4.0.530",
+    "@remotion/media": "4.0.530",
+    "@remotion/transitions": "4.0.530",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.530"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.530",
+    "@types/node": "^26.6.3",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "9.39.5",
+    "prettier": "3.8.1",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.35.5",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio src/index.ts --port=3002",
+    "build": "remotion bundle",
+    "upgrade": "remotion upgrade",
+    "lint": "eslint src && tsc --noEmit",
+    "render": "remotion render src/index.ts Pointly-Vertical-Master out/pointly-promo-vertical-1080x1920-60fps.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p --audio-codec=aac --audio-bitrate=192k",
+    "qa:stills": "node scripts/render-qa.mjs"
+  }
+}
+

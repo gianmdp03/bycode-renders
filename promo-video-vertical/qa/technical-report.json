@@ -1,0 +1,286 @@
+{
+  "soundCues": [
+    {
+      "scene": "02-Negocio",
+      "kind": "click",
+      "localFrame": 94,
+      "frame": 286
+    },
+    {
+      "scene": "02-Negocio",
+      "kind": "click",
+      "localFrame": 156,
+      "frame": 348
+    },
+    {
+      "scene": "03-QR",
+      "kind": "click",
+      "localFrame": 54,
+      "frame": 576
+    },
+    {
+      "scene": "03-QR",
+      "kind": "click",
+      "localFrame": 260,
+      "frame": 782
+    },
+    {
+      "scene": "03-QR",
+      "kind": "success",
+      "localFrame": 270,
+      "frame": 792
+    },
+    {
+      "scene": "04-Compra",
+      "kind": "click",
+      "localFrame": 92,
+      "frame": 1004
+    },
+    {
+      "scene": "04-Compra",
+      "kind": "click",
+      "localFrame": 220,
+      "frame": 1132
+    },
+    {
+      "scene": "04-Compra",
+      "kind": "success",
+      "localFrame": 226,
+      "frame": 1138
+    },
+    {
+      "scene": "05-Puntos",
+      "kind": "click",
+      "localFrame": 50,
+      "frame": 1358
+    },
+    {
+      "scene": "05-Puntos",
+      "kind": "click",
+      "localFrame": 178,
+      "frame": 1486
+    },
+    {
+      "scene": "06-Premios",
+      "kind": "click",
+      "localFrame": 126,
+      "frame": 1902
+    },
+    {
+      "scene": "06-Premios",
+      "kind": "click",
+      "localFrame": 252,
+      "frame": 2028
+    },
+    {
+      "scene": "06-Premios",
+      "kind": "success",
+      "localFrame": 258,
+      "frame": 2034
+    },
+    {
+      "scene": "07-Rangos",
+      "kind": "success",
+      "localFrame": 288,
+      "frame": 2472
+    },
+    {
+      "scene": "08-Promociones",
+      "kind": "click",
+      "localFrame": 100,
+      "frame": 2704
+    },
+    {
+      "scene": "09-Retencion",
+      "kind": "click",
+      "localFrame": 42,
+      "frame": 3018
+    },
+    {
+      "scene": "09-Retencion",
+      "kind": "click",
+      "localFrame": 162,
+      "frame": 3138
+    },
+    {
+      "scene": "09-Retencion",
+      "kind": "click",
+      "localFrame": 370,
+      "frame": 3346
+    },
+    {
+      "scene": "09-Retencion",
+      "kind": "click",
+      "localFrame": 412,
+      "frame": 3388
+    }
+  ],
+  "composition": {
+    "id": "Pointly-Vertical-Master",
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "seconds": 63.8,
+    "frames": 3828
+  },
+  "sceneCount": 10,
+  "sceneTiming": [
+    {
+      "id": "01-Promesa",
+      "name": "La promesa",
+      "source": "01-Promise",
+      "frames": 192,
+      "startFrame": 0,
+      "start": 0,
+      "seconds": 3.2
+    },
+    {
+      "id": "02-Negocio",
+      "name": "Tu programa",
+      "source": "02-Business",
+      "frames": 330,
+      "startFrame": 192,
+      "start": 3.2,
+      "seconds": 5.5
+    },
+    {
+      "id": "03-QR",
+      "name": "Registro QR",
+      "source": "03-Join",
+      "frames": 390,
+      "startFrame": 522,
+      "start": 8.7,
+      "seconds": 6.5
+    },
+    {
+      "id": "04-Compra",
+      "name": "Compra y puntos",
+      "source": "04-Purchase",
+      "frames": 396,
+      "startFrame": 912,
+      "start": 15.2,
+      "seconds": 6.6
+    },
+    {
+      "id": "05-Puntos",
+      "name": "Saldo y catálogo",
+      "source": "05-Balance",
+      "frames": 468,
+      "startFrame": 1308,
+      "start": 21.8,
+      "seconds": 7.8
+    },
+    {
+      "id": "06-Premios",
+      "name": "Canje en el comercio",
+      "source": "06-Reward",
+      "frames": 408,
+      "startFrame": 1776,
+      "start": 29.6,
+      "seconds": 6.8
+    },
+    {
+      "id": "07-Rangos",
+      "name": "Visitas y rangos",
+      "source": "07-Tiers",
+      "frames": 420,
+      "startFrame": 2184,
+      "start": 36.4,
+      "seconds": 7
+    },
+    {
+      "id": "08-Promociones",
+      "name": "Promoción 2x",
+      "source": "08-Promotion",
+      "frames": 372,
+      "startFrame": 2604,
+      "start": 43.4,
+      "seconds": 6.2
+    },
+    {
+      "id": "09-Retencion",
+      "name": "Mensajes y retención",
+      "source": "09-Retention",
+      "frames": 612,
+      "startFrame": 2976,
+      "start": 49.6,
+      "seconds": 10.2
+    },
+    {
+      "id": "10-Pointly",
+      "name": "Pointly",
+      "source": "10-Closing",
+      "frames": 240,
+      "startFrame": 3588,
+      "start": 59.8,
+      "seconds": 4
+    }
+  ],
+  "ledger": [
+    {
+      "date": "01/09",
+      "amount": 1000,
+      "award": 100,
+      "redeemed": 100,
+      "balance": 0,
+      "purchases": 1,
+      "tier": "Bronce"
+    },
+    {
+      "date": "04/09",
+      "amount": 1000,
+      "award": 100,
+      "redeemed": 0,
+      "balance": 100,
+      "purchases": 2,
+      "tier": "Bronce"
+    },
+    {
+      "date": "08/09",
+      "amount": 1000,
+      "award": 100,
+      "redeemed": 0,
+      "balance": 200,
+      "purchases": 3,
+      "tier": "Plata"
+    },
+    {
+      "date": "12/09",
+      "amount": 1000,
+      "award": 150,
+      "redeemed": 0,
+      "balance": 350,
+      "purchases": 4,
+      "tier": "Plata"
+    },
+    {
+      "date": "17/09",
+      "amount": 1000,
+      "award": 150,
+      "redeemed": 0,
+      "balance": 500,
+      "purchases": 5,
+      "tier": "Plata"
+    },
+    {
+      "date": "24/09",
+      "amount": 1000,
+      "award": 150,
+      "redeemed": 0,
+      "balance": 650,
+      "purchases": 6,
+      "tier": "Oro"
+    }
+  ],
+  "finalBalance": 650,
+  "remotionVersion": "4.0.530",
+  "renderQueueExport": "function",
+  "audio": {
+    "sampleRate": 48000,
+    "channels": 2,
+    "duration": 63.8,
+    "mixPeakDbFS": -19.944907511319652,
+    "mixRmsDbFS": -37.012662054855504
+  },
+  "finalMp4Rendered": false
+}

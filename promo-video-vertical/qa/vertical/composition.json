@@ -1,0 +1,23 @@
+{
+  "id": "Pointly-Vertical-Master",
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "durationInFrames": 3828,
+  "props": {
+    "audio": true,
+    "musicVolume": 0.55,
+    "sfxVolume": 0.65
+  },
+  "defaultProps": {
+    "audio": true,
+    "musicVolume": 0.55,
+    "sfxVolume": 0.65
+  },
+  "defaultCodec": null,
+  "defaultOutName": null,
+  "defaultVideoImageFormat": null,
+  "defaultPixelFormat": null,
+  "defaultProResProfile": null,
+  "defaultSampleRate": null
+}

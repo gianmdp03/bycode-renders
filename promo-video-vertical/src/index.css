@@ -1,0 +1,3 @@
+* { box-sizing: border-box; }
+body { margin: 0; }
+/* All animations are deterministic and frame-driven. */
