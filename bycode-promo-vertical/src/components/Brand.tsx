@@ -32,27 +32,16 @@ export const ByCodeBrand: React.FC<{ size?: number; iconSize?: number }> = ({
 );
 
 export const DoctorMark: React.FC<{ size?: number }> = ({ size = 56 }) => (
-  <div
+  <Img
+    src={staticFile("logos/doctorchart.svg")}
     style={{
       width: size,
       height: size,
+      objectFit: "contain",
       borderRadius: size * 0.28,
-      background: theme.doctor,
-      color: "white",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
+      background: "white",
     }}
-  >
-    <svg
-      width={size * 0.58}
-      height={size * 0.58}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-    >
-      <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z" />
-    </svg>
-  </div>
+  />
 );
 
 export const PointlyMark: React.FC<{ size?: number }> = ({ size = 56 }) => (
