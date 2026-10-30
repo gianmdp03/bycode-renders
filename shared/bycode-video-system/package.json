@@ -1,0 +1,36 @@
+{
+  "name": "@bycode/video-system",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Opt-in brand and promotional components for existing Remotion projects",
+  "sideEffects": false,
+  "files": ["dist", "README.md"],
+  "exports": {
+    "./brand": { "types": "./dist/bycode-brand/index.d.ts", "default": "./dist/bycode-brand/index.js" },
+    "./promo": { "types": "./dist/bycode-promo/index.d.ts", "default": "./dist/bycode-promo/index.js" }
+  },
+  "peerDependencies": {
+    "react": ">=18.3.1 <20",
+    "react-dom": ">=18.3.1 <20",
+    "remotion": ">=4.0.530 <5"
+  },
+  "devDependencies": {
+    "@remotion/bundler": "4.0.530",
+    "@remotion/renderer": "4.0.530",
+    "@types/node": "22.10.2",
+    "@types/react": "19.2.7",
+    "pngjs": "7.0.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.530",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "check": "tsc --noEmit",
+    "test": "npm run build && node --test tests/brand.test.mjs",
+    "verify:frames": "node verification/render.mjs",
+    "prepack": "npm run build"
+  }
+}

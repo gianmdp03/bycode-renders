@@ -1,0 +1,4 @@
+interface:
+  display_name: "ByCode Promo"
+  short_description: "Reels promocionales con componentes de adopción gradual"
+  default_prompt: "Usá $bycode-promo para mejorar esta pieza promocional conservando su composición y tiempos actuales."
