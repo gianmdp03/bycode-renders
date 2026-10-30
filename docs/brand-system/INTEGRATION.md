@@ -53,6 +53,8 @@ Evidencia: `evidence/shared-frames.json`, PNG de Bycode/Pointly/lección, `docto
 
 ## Conservación y limpieza
 
-Respaldo adicional de fuente, renders y archivos ignorados del worktree en `.git/integration-backups/2026-10-30/`; dependencias regenerables desde el lockfile. La limpieza se ejecuta después del commit de integración y de validar el respaldo. Su resultado queda registrado en `evidence/cleanup.json`.
+Respaldo adicional de fuente, renders y 21 archivos ignorados del worktree verificados por SHA256 en `.git/integration-backups/2026-10-30/`; dependencias regenerables desde el lockfile. Tras el commit de integración `a8daca4` se eliminó `bycode-renders-brand-system` con `git worktree remove` y la rama temporal con `git branch -d`, sin opciones forzadas. El commit original continúa siendo ancestro de main. Sólo queda el worktree principal. Resultado registrado en `evidence/cleanup.json`.
+
+Después de la limpieza se repitieron las cuatro pruebas de integración y un render corto de DoctorChart para comprobar que el proyecto ya no depende del worktree eliminado; ambos pasaron.
 
 Los archivos ajenos que ya estaban sin seguimiento —otros videos, zip y documentación histórica— permanecen sin tocar. Los commits de esta integración no los incorporan indiscriminadamente. No se hicieron pushes, publicaciones ni despliegues.

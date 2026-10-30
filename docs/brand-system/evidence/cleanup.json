@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-30",
+  "branch": "main",
+  "integratedSourceCommit": "88a3a19a8af2cbeea7bd5a814a65d0a329c97c68",
+  "integrationCommit": "a8daca43784ef7250088c831fc79aa5c17ba5825",
+  "temporaryWorktreeRemoved": true,
+  "temporaryBranchRemoved": true,
+  "forceUsed": false,
+  "backedUpIgnoredFiles": 21,
+  "backup": ".git/integration-backups/2026-10-30",
+  "remainingWorktrees": "worktree C:/Users/gcast/Documents/GitHub/bycode-renders\nHEAD a8daca43784ef7250088c831fc79aa5c17ba5825\nbranch refs/heads/main",
+  "postCleanupIntegrationTests": {
+    "passed": 4,
+    "failed": 0
+  },
+  "postCleanupRemotionRender": "PASS"
+}
