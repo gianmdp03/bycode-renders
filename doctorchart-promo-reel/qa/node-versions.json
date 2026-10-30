@@ -1,0 +1,76 @@
+{
+  "version": "1.0.0",
+  "name": "doctorchart-promo-reel",
+  "dependencies": {
+    "@remotion/captions": {
+      "version": "4.0.539",
+      "resolved": "https://registry.npmjs.org/@remotion/captions/-/captions-4.0.539.tgz",
+      "overridden": false
+    },
+    "@remotion/cli": {
+      "version": "4.0.539",
+      "resolved": "https://registry.npmjs.org/@remotion/cli/-/cli-4.0.539.tgz",
+      "overridden": false
+    },
+    "@remotion/eslint-config-flat": {
+      "version": "4.0.539",
+      "resolved": "https://registry.npmjs.org/@remotion/eslint-config-flat/-/eslint-config-flat-4.0.539.tgz",
+      "overridden": false
+    },
+    "@remotion/media": {
+      "version": "4.0.539",
+      "resolved": "https://registry.npmjs.org/@remotion/media/-/media-4.0.539.tgz",
+      "overridden": false
+    },
+    "@remotion/transitions": {
+      "version": "4.0.539",
+      "resolved": "https://registry.npmjs.org/@remotion/transitions/-/transitions-4.0.539.tgz",
+      "overridden": false
+    },
+    "@types/react": {
+      "version": "19.2.7",
+      "resolved": "https://registry.npmjs.org/@types/react/-/react-19.2.7.tgz",
+      "overridden": false
+    },
+    "@types/web": {
+      "version": "0.0.166",
+      "resolved": "https://registry.npmjs.org/@types/web/-/web-0.0.166.tgz",
+      "overridden": false
+    },
+    "eslint": {
+      "version": "10.12.0",
+      "resolved": "https://registry.npmjs.org/eslint/-/eslint-10.12.0.tgz",
+      "overridden": false
+    },
+    "playwright": {
+      "version": "1.64.0",
+      "resolved": "https://registry.npmjs.org/playwright/-/playwright-1.64.0.tgz",
+      "overridden": false
+    },
+    "prettier": {
+      "version": "3.8.1",
+      "resolved": "https://registry.npmjs.org/prettier/-/prettier-3.8.1.tgz",
+      "overridden": false
+    },
+    "react-dom": {
+      "version": "19.2.3",
+      "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-19.2.3.tgz",
+      "overridden": false
+    },
+    "react": {
+      "version": "19.2.3",
+      "resolved": "https://registry.npmjs.org/react/-/react-19.2.3.tgz",
+      "overridden": false
+    },
+    "remotion": {
+      "version": "4.0.539",
+      "resolved": "https://registry.npmjs.org/remotion/-/remotion-4.0.539.tgz",
+      "overridden": false
+    },
+    "typescript": {
+      "version": "5.9.3",
+      "resolved": "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz",
+      "overridden": false
+    }
+  }
+}

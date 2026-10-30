@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-30",
+  "remotion": "4.0.539",
+  "sources": [
+    {
+      "repo": "doctorchart-frontend",
+      "commit": "14196974125e5769c5a95e309896397acad96e63",
+      "status": ""
+    },
+    {
+      "repo": "bycode-frontend",
+      "commit": "322bf2313b78d5292876b85a0a911f48c5dd1c3e",
+      "status": ""
+    },
+    {
+      "repo": "bycode-renders",
+      "commit": "7d22a02141e9e8ab8ffb0bb07367377a957c1453",
+      "status": "?? bycode-promo-horizontal/\n?? bycode-renders.zip\n?? docs/\n?? doctorchart-promo-reel/\n?? doctorchart-video-tutorial/\n?? promo-video/"
+    }
+  ],
+  "branding": {
+    "logo": "../../doctorchart-frontend/public/doctorchart-logo.svg",
+    "font": "Google Sans",
+    "colors": [
+      "#173B50",
+      "#12A89D"
+    ]
+  },
+  "sourcesAreScreenshots": true
+}

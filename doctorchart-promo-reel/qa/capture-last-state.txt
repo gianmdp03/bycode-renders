@@ -1,0 +1,96 @@
+DoctorChart
+Pediatría
+CLÍNICA
+Inicio
+Pacientes
+Vacunación
+Personalizar Fichas
+Modo oscuro
+ByCode
+A+
+Normal
+MD
+Personalizar fichas y consultas · Pediatría
+Restablecer valores iniciales
+Salir conservando borrador
+Paso 5 de 5
+Historia Clínica
+100% completado
+PASO 1
+Especialidad médica
+PASO 2
+Datos Personales
+PASO 3
+ANTECEDENTES FAMILIARES
+PASO 4
+DATOS FAMILIARES Y TUTORES
+5
+PASO 5
+Historia Clínica
+CATEGORÍAS Y CAMPOS
+Historia Clínica
+
+Agregá, quitá y organizá la información que necesitás registrar. Guardar el borrador permite continuar más adelante; aplicar cambios lo convierte en tu configuración activa.
+
+Organizar todas las categorías de la ficha
+
+Historia Clínica está presente en todas las especialidades. Sus categorías y campos se usan en cada consulta.
+
+Categorías
+
+Podés cambiar su nombre, orden y contenido.
+
+Motivo de consulta
+2 campos
+↑
+↓
+Activa
+Antropometría
+4 campos
+↑
+↓
+Activa
+Examen físico
+1 campos
+↑
+↓
+Activa
+Desarrollo
+2 campos
+↑
+↓
+Activa
+Evaluación
+1 campos
+↑
+↓
+Activa
+Plan e indicaciones
+2 campos
+↑
+↓
+Activa
+Nueva categoría
+Agregar categoría
+Nombre de la categoría
+Eliminar categoría
+Agregar posición de longitud / estatura
+Motivo de consulta
+Texto largo · Obligatorio
+↑
+↓
+Editar
+Duplicar
+Eliminar
+Evolución
+Texto largo · Opcional
+↑
+↓
+Editar
+Duplicar
+Eliminar
+Agregar campo
+Anterior
+Descartar edición
+Guardar borrador
+Aplicar cambios

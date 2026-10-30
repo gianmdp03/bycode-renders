@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checks": [
+    "caption groups 2-5 words",
+    "positive timestamps",
+    "contiguous scene coverage 0-28s",
+    "SRT timestamps"
+  ],
+  "captionWords": 48
+}

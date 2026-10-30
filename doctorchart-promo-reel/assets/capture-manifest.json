@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-30T20:30:27.890Z",
+  "records": [
+    {
+      "id": "patients",
+      "url": "http://localhost:[demo-id]/patients",
+      "viewport": {
+        "width": 1000,
+        "height": 1250
+      },
+      "deviceScaleFactor": 2,
+      "method": "Playwright screenshot of real frontend, real local demo API, no mocked responses",
+      "sha256": "adfd72444303b6fae668c99abd66aa968796378782db50d7be2132206c056db2"
+    },
+    {
+      "id": "record",
+      "url": "http://localhost:[demo-id]/patients/[demo-id]",
+      "viewport": {
+        "width": 1000,
+        "height": 1250
+      },
+      "deviceScaleFactor": 2,
+      "method": "Playwright screenshot of real frontend, real local demo API, no mocked responses",
+      "sha256": "0ed52b35309075de124ad30a4f5c5e411680223002ba07cbda19cac9b0bad4d9"
+    },
+    {
+      "id": "history",
+      "url": "http://localhost:[demo-id]/patients/[demo-id]",
+      "viewport": {
+        "width": 1000,
+        "height": 1250
+      },
+      "deviceScaleFactor": 2,
+      "method": "Playwright screenshot of real frontend, real local demo API, no mocked responses",
+      "sha256": "1a94a4d8f48c960ac5e3dc3bc4bb51fb68d79df9a63ab9a36a6437a5a1324bc7"
+    },
+    {
+      "id": "detail",
+      "url": "http://localhost:[demo-id]/encounters/[demo-id]",
+      "viewport": {
+        "width": 1000,
+        "height": 1250
+      },
+      "deviceScaleFactor": 2,
+      "method": "Playwright screenshot of real frontend, real local demo API, no mocked responses",
+      "sha256": "2f28097b48bf90d5bcd55f06360a39f017ca701ffef794e45afa27164121593b"
+    },
+    {
+      "id": "encounter",
+      "url": "http://localhost:[demo-id]/patients/[demo-id]",
+      "viewport": {
+        "width": 1000,
+        "height": 1250
+      },
+      "deviceScaleFactor": 2,
+      "method": "Playwright screenshot of real frontend, real local demo API, no mocked responses",
+      "sha256": "079d2ef04df4ec7b1e584e67fd3f0254efd9ebecbf5da64cfc8899ed265a787b"
+    },
+    {
+      "id": "customize",
+      "url": "http://localhost:[demo-id]/onboarding/setup",
+      "viewport": {
+        "width": 1000,
+        "height": 1250
+      },
+      "deviceScaleFactor": 2,
+      "method": "Playwright screenshot of real frontend, real local demo API, no mocked responses",
+      "sha256": "c30c28d40f986468357ed73518a753c3625d2e2d85dcc24839d2b5bd6f4ef1cd"
+    },
+    {
+      "id": "custom-fields",
+      "url": "http://localhost:[demo-id]/onboarding/setup",
+      "viewport": {
+        "width": 1000,
+        "height": 1250
+      },
+      "deviceScaleFactor": 2,
+      "method": "Playwright screenshot of real frontend, real local demo API, no mocked responses",
+      "sha256": "440fcf229a65fab2fc4b5ceaaf1e7660a8470babc7fd254f13788de85fed6b94"
+    }
+  ],
+  "errors": []
+}

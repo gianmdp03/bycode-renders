@@ -1,0 +1,15 @@
+{
+  "status": "estimated-preview-only",
+  "fps": 60,
+  "duration": 28,
+  "beats": [
+    {"id":"hook","start":0,"end":3.3,"text":"¿Tu consultorio sigue entre papeles y mil ventanas?"},
+    {"id":"reveal","start":3.3,"end":5.5,"text":"Con DoctorChart, reuní"},
+    {"id":"patients","start":5.5,"end":8.2,"text":"pacientes, historias clínicas"},
+    {"id":"history","start":8.2,"end":12.1,"text":"y consultas en un solo lugar."},
+    {"id":"customize","start":12.1,"end":16.9,"text":"Personalizá tus formularios según tu especialidad"},
+    {"id":"encounter","start":16.9,"end":20.3,"text":"y encontrá la información que necesitás."},
+    {"id":"focus","start":20.3,"end":24.4,"text":"Todo más organizado, para poner el foco en tus pacientes."},
+    {"id":"cta","start":24.4,"end":28,"text":"Conocé DoctorChart. Tu consultorio, mejor organizado."}
+  ]
+}
