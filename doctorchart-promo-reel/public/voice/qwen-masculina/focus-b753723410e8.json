@@ -1,0 +1,10 @@
+{
+  "id": "focus",
+  "text": "Todo más organizado, para poner el foco en tus pacientes.",
+  "spokenText": "Todo más organizado, para poner el foco en tus pacientes.",
+  "file": "public/voice/qwen-masculina/focus-b753723410e8.wav",
+  "duration": 3.76,
+  "sha256": "01c8c84714137a30574224eb94e27fef219a15fdbe5c88cac27fd925b452764c",
+  "seed": 20261033,
+  "generationSeconds": 9.16
+}

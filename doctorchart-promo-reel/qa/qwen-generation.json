@@ -1,0 +1,61 @@
+{
+  "synthetic": true,
+  "userVoiceUsed": false,
+  "profile": "doctorchart-masculina-01",
+  "referenceSHA256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "modelRevision": "5d83992436eae1d760afd27aff78a71d676296fc",
+  "modelLoadedOnce": true,
+  "takes": [
+    {
+      "id": "hook",
+      "text": "¿Tu consultorio sigue entre papeles y mil ventanas?",
+      "spokenText": "¿Tu consultorio sigue entre papeles y mil ventanas?",
+      "file": "public/voice/qwen-masculina/hook-cca77078236e.wav",
+      "duration": 3.12,
+      "sha256": "4ef53b029030bc1b236317f1deedd552293ee18152975a1565306f172c1d1c10",
+      "seed": 20261030,
+      "generationSeconds": 10.5
+    },
+    {
+      "id": "reveal",
+      "text": "Con DoctorChart, reuní pacientes, historias clínicas y consultas en un solo lugar.",
+      "spokenText": "Con Doctor Chart, reuní pacientes, historias clínicas y consultas en un solo lugar.",
+      "file": "public/voice/qwen-masculina/reveal-32596418cd8c.wav",
+      "duration": 5.2,
+      "sha256": "6176a89e38d0bca8bac3f10871e16ecbe1b511005fa20ed20cb80e619e516c21",
+      "seed": 20261031,
+      "generationSeconds": 15.22
+    },
+    {
+      "id": "customize",
+      "text": "Personalizá tus formularios según tu especialidad y encontrá la información que necesitás.",
+      "spokenText": "Personalizá tus formularios según tu especialidad y encontrá la información que necesitás.",
+      "file": "public/voice/qwen-masculina/customize-b75122c541f5.wav",
+      "duration": 5.76,
+      "sha256": "8879c51b3d6921444a6a30e1304dc825c9ca8e1f173c7c828e6360507d518d13",
+      "seed": 20261032,
+      "generationSeconds": 14.31
+    },
+    {
+      "id": "focus",
+      "text": "Todo más organizado, para poner el foco en tus pacientes.",
+      "spokenText": "Todo más organizado, para poner el foco en tus pacientes.",
+      "file": "public/voice/qwen-masculina/focus-b753723410e8.wav",
+      "duration": 3.76,
+      "sha256": "01c8c84714137a30574224eb94e27fef219a15fdbe5c88cac27fd925b452764c",
+      "seed": 20261033,
+      "generationSeconds": 9.16
+    },
+    {
+      "id": "cta",
+      "text": "Conocé DoctorChart. Tu consultorio, mejor organizado.",
+      "spokenText": "Conocé Doctor Chart. Tu consultorio, mejor organizado.",
+      "file": "public/voice/qwen-masculina/cta-28e4e6f8cdaa.wav",
+      "duration": 4.16,
+      "sha256": "45b48fd3efe12dfd03ecf8a9f0df5633e492f8a1b6799d021aac99db24471b88",
+      "seed": 20261034,
+      "generationSeconds": 11.61
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "duration": 28.016666666666666,
+  "words": 48,
+  "synthetic": true,
+  "humanRecordingUsed": false,
+  "profile": "doctorchart-masculina-01",
+  "referenceSHA256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "musicSource": "public/audio/musica-spot-provista.mp3",
+  "musicSHA256": "d14da11e4b8203a02a6bf12330ee52e3d58a0e77baac004dd09359f35a248fde",
+  "voiceLUFS": -16,
+  "musicLUFS": -35,
+  "sidechain": true,
+  "rateChanged": false,
+  "listeningReview": "pending user review"
+}

@@ -1,0 +1,450 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "groups": [
+    {
+      "id": "hook",
+      "expected": [
+        "¿Tu",
+        "consultorio",
+        "sigue",
+        "entre",
+        "papeles",
+        "y",
+        "mil",
+        "ventanas?"
+      ],
+      "words": [
+        {
+          "text": "Tu",
+          "start": 0.0,
+          "end": 0.16,
+          "confidence": 0.8696029782295227
+        },
+        {
+          "text": "consultorio",
+          "start": 0.16,
+          "end": 0.8,
+          "confidence": 0.9816058874130249
+        },
+        {
+          "text": "sigue",
+          "start": 0.8,
+          "end": 1.08,
+          "confidence": 0.9911201596260071
+        },
+        {
+          "text": "entre",
+          "start": 1.08,
+          "end": 1.36,
+          "confidence": 0.9933905601501465
+        },
+        {
+          "text": "papeles",
+          "start": 1.36,
+          "end": 1.94,
+          "confidence": 0.9775400757789612
+        },
+        {
+          "text": "y",
+          "start": 1.94,
+          "end": 2.16,
+          "confidence": 0.995272696018219
+        },
+        {
+          "text": "mil",
+          "start": 2.16,
+          "end": 2.34,
+          "confidence": 0.8610305190086365
+        },
+        {
+          "text": "ventanas.",
+          "start": 2.34,
+          "end": 2.78,
+          "confidence": 0.9727956056594849
+        }
+      ],
+      "matches": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7
+      },
+      "duration": 3.04,
+      "trimmed": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\doctorchart-promo-reel\\.local\\qwen\\hook-trimmed.wav",
+      "coverage": 1.0
+    },
+    {
+      "id": "reveal",
+      "expected": [
+        "Con",
+        "DoctorChart,",
+        "reuní",
+        "pacientes,",
+        "historias",
+        "clínicas",
+        "y",
+        "consultas",
+        "en",
+        "un",
+        "solo",
+        "lugar."
+      ],
+      "words": [
+        {
+          "text": "Con",
+          "start": 0.0,
+          "end": 0.14,
+          "confidence": 0.9094858169555664
+        },
+        {
+          "text": "DoctorChart",
+          "start": 0.14,
+          "end": 0.88,
+          "confidence": 0.36497822403907776
+        },
+        {
+          "text": "reuní",
+          "start": 1.14,
+          "end": 1.62,
+          "confidence": 0.9712810814380646
+        },
+        {
+          "text": "pacientes,",
+          "start": 1.62,
+          "end": 2.1,
+          "confidence": 0.9967131912708282
+        },
+        {
+          "text": "historias",
+          "start": 2.36,
+          "end": 2.8,
+          "confidence": 0.9961177110671997
+        },
+        {
+          "text": "clínicas",
+          "start": 2.8,
+          "end": 3.28,
+          "confidence": 0.9887538353602091
+        },
+        {
+          "text": "y",
+          "start": 3.28,
+          "end": 3.52,
+          "confidence": 0.9630196690559387
+        },
+        {
+          "text": "consultas",
+          "start": 3.52,
+          "end": 4.18,
+          "confidence": 0.9942341446876526
+        },
+        {
+          "text": "en",
+          "start": 4.18,
+          "end": 4.4,
+          "confidence": 0.9941642880439758
+        },
+        {
+          "text": "un",
+          "start": 4.4,
+          "end": 4.54,
+          "confidence": 0.9979292154312134
+        },
+        {
+          "text": "solo",
+          "start": 4.54,
+          "end": 4.76,
+          "confidence": 0.9854333996772766
+        },
+        {
+          "text": "lugar.",
+          "start": 4.76,
+          "end": 5.06,
+          "confidence": 0.9997138381004333
+        }
+      ],
+      "matches": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10,
+        "11": 11
+      },
+      "duration": 5.2,
+      "trimmed": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\doctorchart-promo-reel\\.local\\qwen\\reveal-trimmed.wav",
+      "coverage": 1.0
+    },
+    {
+      "id": "customize",
+      "expected": [
+        "Personalizá",
+        "tus",
+        "formularios",
+        "según",
+        "tu",
+        "especialidad",
+        "y",
+        "encontrá",
+        "la",
+        "información",
+        "que",
+        "necesitás."
+      ],
+      "words": [
+        {
+          "text": "Personaliza",
+          "start": 0.0,
+          "end": 0.66,
+          "confidence": 0.8308961987495422
+        },
+        {
+          "text": "tus",
+          "start": 0.66,
+          "end": 0.86,
+          "confidence": 0.031282782554626465
+        },
+        {
+          "text": "formularios",
+          "start": 0.86,
+          "end": 1.56,
+          "confidence": 0.987622857093811
+        },
+        {
+          "text": "según",
+          "start": 1.56,
+          "end": 1.9,
+          "confidence": 0.6220723986625671
+        },
+        {
+          "text": "tu",
+          "start": 1.9,
+          "end": 2.14,
+          "confidence": 0.009763701673364267
+        },
+        {
+          "text": "especialidad",
+          "start": 2.14,
+          "end": 2.8,
+          "confidence": 0.996799886226654
+        },
+        {
+          "text": "y",
+          "start": 2.8,
+          "end": 3.24,
+          "confidence": 0.8897578120231628
+        },
+        {
+          "text": "encontrá",
+          "start": 3.24,
+          "end": 3.74,
+          "confidence": 0.6358440667390823
+        },
+        {
+          "text": "la",
+          "start": 3.74,
+          "end": 3.86,
+          "confidence": 0.8159534931182861
+        },
+        {
+          "text": "información",
+          "start": 3.86,
+          "end": 4.16,
+          "confidence": 0.879109263420105
+        },
+        {
+          "text": "que",
+          "start": 4.16,
+          "end": 4.54,
+          "confidence": 0.9229706525802612
+        },
+        {
+          "text": "necesitás.",
+          "start": 4.54,
+          "end": 5.12,
+          "confidence": 0.486963614821434
+        }
+      ],
+      "matches": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10,
+        "11": 11
+      },
+      "duration": 5.27,
+      "trimmed": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\doctorchart-promo-reel\\.local\\qwen\\customize-trimmed.wav",
+      "coverage": 1.0
+    },
+    {
+      "id": "focus",
+      "expected": [
+        "Todo",
+        "más",
+        "organizado,",
+        "para",
+        "poner",
+        "el",
+        "foco",
+        "en",
+        "tus",
+        "pacientes."
+      ],
+      "words": [
+        {
+          "text": "Todo",
+          "start": 0.0,
+          "end": 0.22,
+          "confidence": 0.7934074997901917
+        },
+        {
+          "text": "más",
+          "start": 0.22,
+          "end": 0.48,
+          "confidence": 0.9320018887519836
+        },
+        {
+          "text": "organizado,",
+          "start": 0.48,
+          "end": 1.16,
+          "confidence": 0.9984299838542938
+        },
+        {
+          "text": "para",
+          "start": 1.4,
+          "end": 1.46,
+          "confidence": 0.9960022568702698
+        },
+        {
+          "text": "poner",
+          "start": 1.46,
+          "end": 1.78,
+          "confidence": 0.9969573020935059
+        },
+        {
+          "text": "el",
+          "start": 1.78,
+          "end": 1.96,
+          "confidence": 0.9982189536094666
+        },
+        {
+          "text": "foco",
+          "start": 1.96,
+          "end": 2.4,
+          "confidence": 0.9868571758270264
+        },
+        {
+          "text": "en",
+          "start": 2.4,
+          "end": 2.58,
+          "confidence": 0.9966940879821777
+        },
+        {
+          "text": "tus",
+          "start": 2.58,
+          "end": 2.76,
+          "confidence": 0.3172586188328144
+        },
+        {
+          "text": "pacientes.",
+          "start": 2.76,
+          "end": 3.24,
+          "confidence": 0.9965740740299225
+        }
+      ],
+      "matches": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9
+      },
+      "duration": 3.4799999999999995,
+      "trimmed": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\doctorchart-promo-reel\\.local\\qwen\\focus-trimmed.wav",
+      "coverage": 1.0
+    },
+    {
+      "id": "cta",
+      "expected": [
+        "Conocé",
+        "DoctorChart.",
+        "Tu",
+        "consultorio,",
+        "mejor",
+        "organizado."
+      ],
+      "words": [
+        {
+          "text": "Conocé",
+          "start": 0.0,
+          "end": 0.52,
+          "confidence": 0.5524409910043081
+        },
+        {
+          "text": "DoctorChart",
+          "start": 0.52,
+          "end": 1.1,
+          "confidence": 0.33468350768089294
+        },
+        {
+          "text": "Tu",
+          "start": 1.56,
+          "end": 2.0,
+          "confidence": 0.8710181713104248
+        },
+        {
+          "text": "consultorio,",
+          "start": 2.0,
+          "end": 2.7,
+          "confidence": 0.9865578015645345
+        },
+        {
+          "text": "mejor",
+          "start": 2.9,
+          "end": 3.18,
+          "confidence": 0.9811339378356934
+        },
+        {
+          "text": "organizado.",
+          "start": 3.18,
+          "end": 3.82,
+          "confidence": 0.9971316754817963
+        }
+      ],
+      "matches": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5
+      },
+      "duration": 3.98,
+      "trimmed": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\doctorchart-promo-reel\\.local\\qwen\\cta-trimmed.wav",
+      "coverage": 1.0
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "hook",
+  "text": "¿Tu consultorio sigue entre papeles y mil ventanas?",
+  "spokenText": "¿Tu consultorio sigue entre papeles y mil ventanas?",
+  "file": "public/voice/qwen-masculina/hook-cca77078236e.wav",
+  "duration": 3.12,
+  "sha256": "4ef53b029030bc1b236317f1deedd552293ee18152975a1565306f172c1d1c10",
+  "seed": 20261030,
+  "generationSeconds": 10.5
+}

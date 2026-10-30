@@ -11,8 +11,10 @@ import {Encounter} from './scenes/Encounter';
 import {Focus} from './scenes/Focus';
 import {Cta} from './scenes/Cta';
 import './style.css';
+import qwenRuntime from '../captions/qwen-runtime.json';
 export const RemotionRoot=()=> <BrandProvider brand={doctorChartBrand}>
  <Composition id="DoctorChart-Reel" component={Reel} width={1080} height={1920} fps={60} durationInFrames={1680} defaultProps={{runtime:null,mobileOverlay:false}} calculateMetadata={({props})=>({durationInFrames:Math.ceil((props.runtime?.duration??28)*60)})}/>
+ <Composition id="DoctorChart-Qwen-Masculina" component={Reel} width={1080} height={1920} fps={60} durationInFrames={1681} defaultProps={{runtime:qwenRuntime,mobileOverlay:false}} calculateMetadata={({props})=>({durationInFrames:Math.ceil((props.runtime?.duration??28)*60)})}/>
  <Composition id="Reels-Safe-Area" component={Reel} width={1080} height={1920} fps={60} durationInFrames={1680} defaultProps={{runtime:null,mobileOverlay:true}}/>
  <Folder name="Scenes">
   <Composition id="Hook" component={Hook} width={1080} height={1920} fps={60} durationInFrames={198} defaultProps={{duration:198}}/>

@@ -1,0 +1,47 @@
+1
+00:00:00,150 --> 00:00:01,510
+¿Tu consultorio sigue entre
+
+2
+00:00:01,510 --> 00:00:02,930
+papeles y mil ventanas?
+
+3
+00:00:04,183 --> 00:00:06,283
+Con DoctorChart, reuní pacientes,
+
+4
+00:00:06,543 --> 00:00:08,363
+historias clínicas y consultas
+
+5
+00:00:08,363 --> 00:00:09,243
+en un solo lugar.
+
+6
+00:00:11,367 --> 00:00:13,267
+Personalizá tus formularios según
+
+7
+00:00:13,267 --> 00:00:15,107
+tu especialidad y encontrá
+
+8
+00:00:15,107 --> 00:00:16,487
+la información que necesitás.
+
+9
+00:00:18,517 --> 00:00:19,977
+Todo más organizado, para
+
+10
+00:00:19,977 --> 00:00:21,097
+poner el foco en
+
+11
+00:00:21,097 --> 00:00:24,233
+tus pacientes. Conocé DoctorChart.
+
+12
+00:00:24,693 --> 00:00:26,953
+Tu consultorio, mejor organizado.

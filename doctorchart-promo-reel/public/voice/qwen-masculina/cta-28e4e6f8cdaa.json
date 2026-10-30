@@ -1,0 +1,10 @@
+{
+  "id": "cta",
+  "text": "Conocé DoctorChart. Tu consultorio, mejor organizado.",
+  "spokenText": "Conocé Doctor Chart. Tu consultorio, mejor organizado.",
+  "file": "public/voice/qwen-masculina/cta-28e4e6f8cdaa.wav",
+  "duration": 4.16,
+  "sha256": "45b48fd3efe12dfd03ecf8a9f0df5633e492f8a1b6799d021aac99db24471b88",
+  "seed": 20261034,
+  "generationSeconds": 11.61
+}

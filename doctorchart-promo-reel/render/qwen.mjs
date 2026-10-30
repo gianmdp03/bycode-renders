@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {spawnSync} from 'node:child_process';
+import {root,python,ffmpeg,ffprobe} from './tools.mjs';
+const profile=JSON.parse(fs.readFileSync(path.join(root,'../docs/tutorial-handoffs/VOZ_MASCULINA_DOCTORCHART.json')));
+const run=(bin,args,env=process.env)=>{const p=spawnSync(bin,args,{cwd:root,stdio:'inherit',windowsHide:true,env});if(p.error)throw p.error;if(p.status!==0)process.exit(p.status??1)};
+fs.writeFileSync(path.join(root,'qa/qwen-alignment.json'),JSON.stringify({status:'PENDING',product:'DoctorChart'}));
+run(profile.python_executable,['-u','render/qwen.py','generate']);
+run(python,['-u','render/qwen.py','align'],{...process.env,REEL_FFMPEG:ffmpeg,REEL_FFPROBE:ffprobe,PYTHONIOENCODING:'utf-8'});
+run(process.execPath,['render/render.mjs','qwen']);
+run(process.execPath,['render/qa.mjs','out/doctorchart_preview_qwen_masculina.mp4']);

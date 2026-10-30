@@ -14,6 +14,6 @@ const loud=run(ffmpeg,['-hide_banner','-i',file,'-af','loudnorm=I=-23:TP=-1:LRA=
 const loudness=JSON.parse(loud.slice(loud.lastIndexOf('{'),loud.lastIndexOf('}')+1));
 checks.decode=decode.stderr.trim()==='';checks.noBlackSegments=!black.includes('black_start:');checks.noClipping=Number(loudness.input_tp)<-1;
 const result={status:Object.values(checks).every(Boolean)?'PASS':'FAIL',file,checks,video:v,audio:a,format:probe.format,loudness,blackSegments:black.split('\n').filter(s=>s.includes('black_start:')),note:'Visual review and listening of final human voice remain separate checks.'};
-fs.writeFileSync(path.join(root,'qa/media-report.json'),JSON.stringify(result,null,2));
+fs.writeFileSync(path.join(root,file.includes('qwen')?'qa/qwen-media-report.json':'qa/media-report.json'),JSON.stringify(result,null,2));
 console.log(JSON.stringify({status:result.status,checks,loudness},null,2));
 if(result.status!=='PASS')process.exitCode=1;

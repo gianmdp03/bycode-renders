@@ -1,0 +1,10 @@
+{
+  "id": "customize",
+  "text": "Personalizá tus formularios según tu especialidad y encontrá la información que necesitás.",
+  "spokenText": "Personalizá tus formularios según tu especialidad y encontrá la información que necesitás.",
+  "file": "public/voice/qwen-masculina/customize-b75122c541f5.wav",
+  "duration": 5.76,
+  "sha256": "8879c51b3d6921444a6a30e1304dc825c9ca8e1f173c7c828e6360507d518d13",
+  "seed": 20261032,
+  "generationSeconds": 14.31
+}

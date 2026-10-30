@@ -1,0 +1,443 @@
+{
+  "duration": 28.016666666666666,
+  "voice": true,
+  "voiceSource": "qwen-masculina",
+  "audioFile": "audio/qwen-mix.wav",
+  "url": "",
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0,
+      "end": 4.033333333333333,
+      "text": "¿Tu consultorio sigue entre papeles y mil ventanas?"
+    },
+    {
+      "id": "reveal",
+      "start": 4.033333333333333,
+      "end": 5.716666666666667,
+      "text": "Con DoctorChart, reuní"
+    },
+    {
+      "id": "patients",
+      "start": 5.716666666666667,
+      "end": 7.383333333333334,
+      "text": "pacientes, historias clínicas"
+    },
+    {
+      "id": "history",
+      "start": 7.383333333333334,
+      "end": 11.216666666666667,
+      "text": "y consultas en un solo lugar."
+    },
+    {
+      "id": "customize",
+      "start": 11.216666666666667,
+      "end": 14.083333333333334,
+      "text": "Personalizá tus formularios según tu especialidad"
+    },
+    {
+      "id": "encounter",
+      "start": 14.083333333333334,
+      "end": 18.366666666666667,
+      "text": "y encontrá la información que necesitás."
+    },
+    {
+      "id": "focus",
+      "start": 18.366666666666667,
+      "end": 22.983333333333334,
+      "text": "Todo más organizado, para poner el foco en tus pacientes."
+    },
+    {
+      "id": "cta",
+      "start": 22.983333333333334,
+      "end": 28.016666666666666,
+      "text": "Conocé DoctorChart. Tu consultorio, mejor organizado."
+    }
+  ],
+  "captions": [
+    {
+      "text": " ¿Tu",
+      "startMs": 150,
+      "endMs": 310,
+      "timestampMs": 230,
+      "confidence": 0.8696029782295227,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " consultorio",
+      "startMs": 310,
+      "endMs": 950,
+      "timestampMs": 630,
+      "confidence": 0.9816058874130249,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " sigue",
+      "startMs": 950,
+      "endMs": 1230,
+      "timestampMs": 1090,
+      "confidence": 0.9911201596260071,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " entre",
+      "startMs": 1230,
+      "endMs": 1510,
+      "timestampMs": 1370,
+      "confidence": 0.9933905601501465,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " papeles",
+      "startMs": 1510,
+      "endMs": 2090,
+      "timestampMs": 1800,
+      "confidence": 0.9775400757789612,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " y",
+      "startMs": 2090,
+      "endMs": 2310,
+      "timestampMs": 2200,
+      "confidence": 0.995272696018219,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " mil",
+      "startMs": 2310,
+      "endMs": 2490,
+      "timestampMs": 2400,
+      "confidence": 0.8610305190086365,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " ventanas?",
+      "startMs": 2490,
+      "endMs": 2930,
+      "timestampMs": 2710,
+      "confidence": 0.9727956056594849,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Con",
+      "startMs": 4183,
+      "endMs": 4323,
+      "timestampMs": 4253,
+      "confidence": 0.9094858169555664,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " DoctorChart,",
+      "startMs": 4323,
+      "endMs": 5063,
+      "timestampMs": 4693,
+      "confidence": 0.36497822403907776,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " reuní",
+      "startMs": 5323,
+      "endMs": 5803,
+      "timestampMs": 5563,
+      "confidence": 0.9712810814380646,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " pacientes,",
+      "startMs": 5803,
+      "endMs": 6283,
+      "timestampMs": 6043,
+      "confidence": 0.9967131912708282,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " historias",
+      "startMs": 6543,
+      "endMs": 6983,
+      "timestampMs": 6763,
+      "confidence": 0.9961177110671997,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " clínicas",
+      "startMs": 6983,
+      "endMs": 7463,
+      "timestampMs": 7223,
+      "confidence": 0.9887538353602091,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " y",
+      "startMs": 7463,
+      "endMs": 7703,
+      "timestampMs": 7583,
+      "confidence": 0.9630196690559387,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " consultas",
+      "startMs": 7703,
+      "endMs": 8363,
+      "timestampMs": 8033,
+      "confidence": 0.9942341446876526,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " en",
+      "startMs": 8363,
+      "endMs": 8583,
+      "timestampMs": 8473,
+      "confidence": 0.9941642880439758,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " un",
+      "startMs": 8583,
+      "endMs": 8723,
+      "timestampMs": 8653,
+      "confidence": 0.9979292154312134,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " solo",
+      "startMs": 8723,
+      "endMs": 8943,
+      "timestampMs": 8833,
+      "confidence": 0.9854333996772766,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " lugar.",
+      "startMs": 8943,
+      "endMs": 9243,
+      "timestampMs": 9093,
+      "confidence": 0.9997138381004333,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Personalizá",
+      "startMs": 11367,
+      "endMs": 12027,
+      "timestampMs": 11697,
+      "confidence": 0.8308961987495422,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " tus",
+      "startMs": 12027,
+      "endMs": 12227,
+      "timestampMs": 12127,
+      "confidence": 0.031282782554626465,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " formularios",
+      "startMs": 12227,
+      "endMs": 12927,
+      "timestampMs": 12577,
+      "confidence": 0.987622857093811,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " según",
+      "startMs": 12927,
+      "endMs": 13267,
+      "timestampMs": 13097,
+      "confidence": 0.6220723986625671,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " tu",
+      "startMs": 13267,
+      "endMs": 13507,
+      "timestampMs": 13387,
+      "confidence": 0.009763701673364267,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " especialidad",
+      "startMs": 13507,
+      "endMs": 14167,
+      "timestampMs": 13837,
+      "confidence": 0.996799886226654,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " y",
+      "startMs": 14167,
+      "endMs": 14607,
+      "timestampMs": 14387,
+      "confidence": 0.8897578120231628,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " encontrá",
+      "startMs": 14607,
+      "endMs": 15107,
+      "timestampMs": 14857,
+      "confidence": 0.6358440667390823,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " la",
+      "startMs": 15107,
+      "endMs": 15227,
+      "timestampMs": 15167,
+      "confidence": 0.8159534931182861,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " información",
+      "startMs": 15227,
+      "endMs": 15527,
+      "timestampMs": 15377,
+      "confidence": 0.879109263420105,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " que",
+      "startMs": 15527,
+      "endMs": 15907,
+      "timestampMs": 15717,
+      "confidence": 0.9229706525802612,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " necesitás.",
+      "startMs": 15907,
+      "endMs": 16487,
+      "timestampMs": 16197,
+      "confidence": 0.486963614821434,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Todo",
+      "startMs": 18517,
+      "endMs": 18737,
+      "timestampMs": 18627,
+      "confidence": 0.7934074997901917,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " más",
+      "startMs": 18737,
+      "endMs": 18997,
+      "timestampMs": 18867,
+      "confidence": 0.9320018887519836,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " organizado,",
+      "startMs": 18997,
+      "endMs": 19677,
+      "timestampMs": 19337,
+      "confidence": 0.9984299838542938,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " para",
+      "startMs": 19917,
+      "endMs": 19977,
+      "timestampMs": 19947,
+      "confidence": 0.9960022568702698,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " poner",
+      "startMs": 19977,
+      "endMs": 20297,
+      "timestampMs": 20137,
+      "confidence": 0.9969573020935059,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " el",
+      "startMs": 20297,
+      "endMs": 20477,
+      "timestampMs": 20387,
+      "confidence": 0.9982189536094666,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " foco",
+      "startMs": 20477,
+      "endMs": 20917,
+      "timestampMs": 20697,
+      "confidence": 0.9868571758270264,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " en",
+      "startMs": 20917,
+      "endMs": 21097,
+      "timestampMs": 21007,
+      "confidence": 0.9966940879821777,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " tus",
+      "startMs": 21097,
+      "endMs": 21277,
+      "timestampMs": 21187,
+      "confidence": 0.3172586188328144,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " pacientes.",
+      "startMs": 21277,
+      "endMs": 21757,
+      "timestampMs": 21517,
+      "confidence": 0.9965740740299225,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " Conocé",
+      "startMs": 23133,
+      "endMs": 23653,
+      "timestampMs": 23393,
+      "confidence": 0.5524409910043081,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " DoctorChart.",
+      "startMs": 23653,
+      "endMs": 24233,
+      "timestampMs": 23943,
+      "confidence": 0.33468350768089294,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Tu",
+      "startMs": 24693,
+      "endMs": 25133,
+      "timestampMs": 24913,
+      "confidence": 0.8710181713104248,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " consultorio,",
+      "startMs": 25133,
+      "endMs": 25833,
+      "timestampMs": 25483,
+      "confidence": 0.9865578015645345,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " mejor",
+      "startMs": 26033,
+      "endMs": 26313,
+      "timestampMs": 26173,
+      "confidence": 0.9811339378356934,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " organizado.",
+      "startMs": 26313,
+      "endMs": 26953,
+      "timestampMs": 26633,
+      "confidence": 0.9971316754817963,
+      "pageBreakAfter": true
+    }
+  ]
+}

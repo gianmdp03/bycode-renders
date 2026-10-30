@@ -1,0 +1,10 @@
+{
+  "id": "reveal",
+  "text": "Con DoctorChart, reuní pacientes, historias clínicas y consultas en un solo lugar.",
+  "spokenText": "Con Doctor Chart, reuní pacientes, historias clínicas y consultas en un solo lugar.",
+  "file": "public/voice/qwen-masculina/reveal-32596418cd8c.wav",
+  "duration": 5.2,
+  "sha256": "6176a89e38d0bca8bac3f10871e16ecbe1b511005fa20ed20cb80e619e516c21",
+  "seed": 20261031,
+  "generationSeconds": 15.22
+}

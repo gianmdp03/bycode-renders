@@ -28,6 +28,8 @@
     "typescript": "5.9.3"
   },
   "scripts": {
+    "voice:qwen": "node render/qwen.mjs",
+    "render:qwen": "node render/render.mjs qwen",
     "predev": "npm --prefix .. run build:system",
     "dev": "remotion studio src/index.ts --port=3400 --no-open",
     "prerender:preview": "npm --prefix .. run build:system",

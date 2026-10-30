@@ -1,5 +1,15 @@
 # DoctorChart · Reel promocional
 
+## Prueba Qwen masculina y música del usuario
+
+El usuario autorizó posteriormente una prueba de **este reel de DoctorChart** con la referencia sintética masculina del tutorial, reemplazando la exigencia inicial de sólo voz humana para esta variante. No es su voz personal. No se modifican los proyectos de otros chats.
+
+Desde la raíz del repositorio: `npm run voice:qwen --workspace=doctorchart-promo-reel`. Reutiliza el modelo local instalado y su referencia fija verificada por hash; genera tomas recuperables con una sola carga de modelo, alinea palabras con Whisper local y ajusta los planos existentes sin acelerar la voz. La música aportada por el usuario se mantiene baja con ducking. Modelo CUDA y entorno ASR existentes bajo `.local` son requisitos ya instalados en esta máquina.
+
+Salida: `out/doctorchart_preview_qwen_masculina.mp4`, `out/subtitulos-qwen.srt`, `public/audio/qwen-mix.wav`. Runtime independiente: `captions/qwen-runtime.json`. Para repetir sólo el render: `npm run render:qwen --workspace=doctorchart-promo-reel`. Esta variante no reemplaza las previews originales ni el importador de grabaciones humanas descrito abajo.
+
+La pronunciación compartida correcta de Bycode es «báicod», acento en BAI. El guion de este reel sólo menciona DoctorChart. La calidad de voz y mezcla se revisa escuchando la prueba, sin presentarla como una versión final aprobada.
+
 Producción del workspace principal, 28 segundos, 1080×1920 a 60 FPS. Preview con música original y captions de tiempo estimado; NO contiene voz sintética ni humana. Sólo se usa la voz real que aporte el usuario para el final.
 
 Actualización: este reel está integrado al workspace principal `bycode-renders`. Marca, títulos, movimiento, captions y CTA se consumen desde `@bycode/video-system`; la identidad sigue **draft**. Instalación y comandos comunes desde la raíz del repositorio (`npm ci`, `npm run dev`, `npm run render:doctorchart`). No crear un segundo sistema ni instalar la biblioteca copiada dentro del reel.
