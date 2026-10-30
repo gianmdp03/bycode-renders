@@ -10,6 +10,9 @@ export type BrandTokens = {
     accent: string;
     onAccent: string;
     border: string;
+    backgroundDark: string;
+    onDark: string;
+    accentLight: string;
   };
   typography: {
     fontFamily: string;
@@ -30,7 +33,7 @@ export type BrandOverrides = Partial<Omit<BrandTokens, "colors" | "typography" |
 // Deliberately neutral: no experimental reel, font, product color or logo is canonical.
 // Freeze nested objects as well, so one consumer cannot change another's defaults.
 export const draftBrand: BrandTokens = Object.freeze({
-  name: "ByCode",
+  name: "Bycode",
   status: "draft",
   colors: Object.freeze({
     background: "#111111",
@@ -40,6 +43,9 @@ export const draftBrand: BrandTokens = Object.freeze({
     accent: "#FFFFFF",
     onAccent: "#111111",
     border: "#666666",
+    backgroundDark: "#111111",
+    onDark: "#FFFFFF",
+    accentLight: "#FFFFFF",
   }),
   typography: Object.freeze({
     fontFamily: "sans-serif",

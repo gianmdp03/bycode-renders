@@ -3,6 +3,7 @@ import { Img } from "remotion";
 import { draftBrand, type BrandTokens, type SafeInsets } from "./tokens";
 
 export * from "./tokens";
+export * from "./products";
 
 const BrandContext = createContext<BrandTokens>(draftBrand);
 
@@ -20,11 +21,12 @@ export type BrandLockupProps = {
   logoAlt?: string;
   size?: number;
   iconSize?: number;
+  logoStyle?: CSSProperties;
   style?: CSSProperties;
 };
 
 export const BrandLockup = ({
-  name, logoSrc, logoAlt = "", size = 40, iconSize = size * 1.2, style,
+  name, logoSrc, logoAlt = "", size = 40, iconSize = size * 1.2, logoStyle, style,
 }: BrandLockupProps) => {
   const brand = useBrand();
   return (
@@ -33,7 +35,7 @@ export const BrandLockup = ({
       color: brand.colors.text, fontFamily: brand.typography.fontFamily,
       fontSize: size, fontWeight: brand.typography.titleWeight, lineHeight: 1.1, ...style,
     }}>
-      {logoSrc ? <Img src={logoSrc} alt={logoAlt} style={{ width: iconSize, height: iconSize, objectFit: "contain" }} /> : null}
+      {logoSrc ? <Img src={logoSrc} alt={logoAlt} style={{ width: iconSize, height: iconSize, objectFit: "contain", ...logoStyle }} /> : null}
       <span>{name ?? brand.name}</span>
     </div>
   );

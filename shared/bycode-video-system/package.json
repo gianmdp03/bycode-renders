@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "commonjs",
-  "description": "Opt-in brand and promotional components for existing Remotion projects",
+  "description": "Fuente única de identidad audiovisual provisional y componentes reutilizables Bycode",
   "sideEffects": false,
   "files": ["dist", "README.md"],
   "exports": {
@@ -16,14 +16,15 @@
     "remotion": ">=4.0.530 <5"
   },
   "devDependencies": {
-    "@remotion/bundler": "4.0.530",
-    "@remotion/renderer": "4.0.530",
+    "@remotion/bundler": "4.0.539",
+    "@remotion/renderer": "4.0.539",
+    "@remotion/captions": "4.0.539",
     "@types/node": "22.10.2",
     "@types/react": "19.2.7",
     "pngjs": "7.0.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
-    "remotion": "4.0.530",
+    "remotion": "4.0.539",
     "typescript": "5.9.3"
   },
   "scripts": {

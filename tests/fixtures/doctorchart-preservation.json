@@ -1,0 +1,142 @@
+[
+  {
+    "path": "doctorchart-promo-reel/archive/pre-brand-integration/contact-sheet.jpg",
+    "text": false,
+    "sha256": "b2a805a5ed627d191d7e6c0c18c395414f540b3292643d4e8423a529469d9a68"
+  },
+  {
+    "path": "doctorchart-promo-reel/archive/pre-brand-integration/reel_preview_sin_voz.mp4",
+    "text": false,
+    "sha256": "20f65722c75c4b50c781ded4cceb4dea2eb3cb32212f4701e3d4778473e81189"
+  },
+  {
+    "path": "doctorchart-promo-reel/captions/README.md",
+    "text": true,
+    "sha256": "b0a9bf7605038d1df903a3e5e80977df1928bb642c34579b40e0a12507f13fe0"
+  },
+  {
+    "path": "doctorchart-promo-reel/captions/preview-runtime.json",
+    "text": true,
+    "sha256": "54b556abaf89591219db2a07a97e319ffd39e0cd45b59016fafe533015499dde"
+  },
+  {
+    "path": "doctorchart-promo-reel/captions/provisional.json",
+    "text": true,
+    "sha256": "aaad8e82b5842fd8099ae509b693e16952b4c5c22daa782dae580e8eefda579a"
+  },
+  {
+    "path": "doctorchart-promo-reel/captions/subtitulos-provisionales.srt",
+    "text": true,
+    "sha256": "3ee2e176ae913d692b1029e30c6c98bc516dd95179030f57806125c0234ab199"
+  },
+  {
+    "path": "doctorchart-promo-reel/public/assets/bycode-logo.svg",
+    "text": true,
+    "sha256": "553fd50b56cf8514f2294d6a8b304598d9bc8e46be985d1ca2a437191818fcfa"
+  },
+  {
+    "path": "doctorchart-promo-reel/public/assets/custom-fields.png",
+    "text": false,
+    "sha256": "440fcf229a65fab2fc4b5ceaaf1e7660a8470babc7fd254f13788de85fed6b94"
+  },
+  {
+    "path": "doctorchart-promo-reel/public/assets/customize.png",
+    "text": false,
+    "sha256": "c30c28d40f986468357ed73518a753c3625d2e2d85dcc24839d2b5bd6f4ef1cd"
+  },
+  {
+    "path": "doctorchart-promo-reel/public/assets/detail.png",
+    "text": false,
+    "sha256": "2f28097b48bf90d5bcd55f06360a39f017ca701ffef794e45afa27164121593b"
+  },
+  {
+    "path": "doctorchart-promo-reel/public/assets/doctorchart-logo.svg",
+    "text": true,
+    "sha256": "e410e6231308a8aa148a0677df405df4bfa9a8d8f8ebbf6748f2183926385862"
+  },
+  {
+    "path": "doctorchart-promo-reel/public/assets/encounter.png",
+    "text": false,
+    "sha256": "079d2ef04df4ec7b1e584e67fd3f0254efd9ebecbf5da64cfc8899ed265a787b"
+  },
+  {
+    "path": "doctorchart-promo-reel/public/assets/history.png",
+    "text": false,
+    "sha256": "1a94a4d8f48c960ac5e3dc3bc4bb51fb68d79df9a63ab9a36a6437a5a1324bc7"
+  },
+  {
+    "path": "doctorchart-promo-reel/public/assets/patients.png",
+    "text": false,
+    "sha256": "adfd72444303b6fae668c99abd66aa968796378782db50d7be2132206c056db2"
+  },
+  {
+    "path": "doctorchart-promo-reel/public/assets/record.png",
+    "text": false,
+    "sha256": "0ed52b35309075de124ad30a4f5c5e411680223002ba07cbda19cac9b0bad4d9"
+  },
+  {
+    "path": "doctorchart-promo-reel/public/audio/orden-original.wav",
+    "text": false,
+    "sha256": "6feee7bd8844466ecc06eed4c1374c201cf6119813740447f33ca43836595cee"
+  },
+  {
+    "path": "doctorchart-promo-reel/public/audio/preview-mix.wav",
+    "text": false,
+    "sha256": "04b99b6f4ae76c85b9db86254571197023dd8be37d6ce24a568b78eb650f9f76"
+  },
+  {
+    "path": "doctorchart-promo-reel/public/fonts/OFL.txt",
+    "text": true,
+    "sha256": "76efb90a3bf8d7d91a3498d15fb409ee59ff43b0bf614b4afa0a947b6d7c75d3"
+  },
+  {
+    "path": "doctorchart-promo-reel/public/fonts/README.md",
+    "text": true,
+    "sha256": "f47b913e4df2efe80dddd709939bdf44d9835a197c71a9f666091f92111fb3f0"
+  },
+  {
+    "path": "doctorchart-promo-reel/public/fonts/font-ready.js",
+    "text": true,
+    "sha256": "0a50768956aa3a3499fe2edc74719ce42def8a2c7fc29b0a8b387d0505116ac1"
+  },
+  {
+    "path": "doctorchart-promo-reel/public/fonts/google-sans-latin-italic-542322ed7963.woff2",
+    "text": false,
+    "sha256": "542322ed79633a85dd5c7adf61a16b46c9641a5666285c402b8856f04afa210f"
+  },
+  {
+    "path": "doctorchart-promo-reel/public/fonts/google-sans-latin-normal-b8059800eca3.woff2",
+    "text": false,
+    "sha256": "b8059800eca3c2343d0213c3660b814190b3b598d7f1a884def558da39f77e03"
+  },
+  {
+    "path": "doctorchart-promo-reel/public/fonts/google-sans.css",
+    "text": true,
+    "sha256": "de744c060649d33701f2eb5cd6348b44a5f32ef2c5b105f0cade350f0d0edb2b"
+  },
+  {
+    "path": "doctorchart-promo-reel/script/GUIA_PARA_GRABAR_TU_VOZ.md",
+    "text": true,
+    "sha256": "0163b6cbd6ff38d772f7df5463754817b823db0caeee1c597d1d3186baeaa87e"
+  },
+  {
+    "path": "doctorchart-promo-reel/script/guion-final.md",
+    "text": true,
+    "sha256": "a8289a2c00aee2d003fbe0ad73039f27c7a1d73ce8191c114a3ae135b30b2e7d"
+  },
+  {
+    "path": "doctorchart-promo-reel/script/variantes.md",
+    "text": true,
+    "sha256": "9b89424030f125c9433559989b9f2ae7241899accfda4d989c14c645d1938354"
+  },
+  {
+    "path": "doctorchart-promo-reel/script/voice-beats.json",
+    "text": true,
+    "sha256": "b592c5d7ebac9360a358f8f21a9c3c13770cda5739b75f10a177eee9ee9b9ca5"
+  },
+  {
+    "path": "doctorchart-promo-reel/storyboard/storyboard.md",
+    "text": true,
+    "sha256": "37014c672180639108573fad994e2f8b1d0ea03301252379056e6c01c2aee9c5"
+  }
+]

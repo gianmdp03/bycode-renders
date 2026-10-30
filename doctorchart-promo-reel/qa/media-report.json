@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "file": "out/reel_preview_sin_voz.mp4",
+  "file": "out/reel_preview_bycode_integrado.mp4",
   "checks": {
     "dimensions": true,
     "fps": true,
@@ -46,7 +46,7 @@
     "start_time": "0.000000",
     "duration_ts": 2520000,
     "duration": "28.000000",
-    "bit_rate": "2108843",
+    "bit_rate": "2131618",
     "bits_per_raw_sample": "8",
     "nb_frames": "1680",
     "extradata_size": 50,
@@ -130,15 +130,15 @@
     }
   },
   "format": {
-    "filename": "out/reel_preview_sin_voz.mp4",
+    "filename": "out/reel_preview_bycode_integrado.mp4",
     "nb_streams": 2,
     "nb_programs": 0,
     "nb_stream_groups": 0,
     "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
     "start_time": "0.000000",
     "duration": "28.011000",
-    "size": "8086866",
-    "bit_rate": "2309625",
+    "size": "8166697",
+    "bit_rate": "2332425",
     "probe_score": 100,
     "tags": {
       "major_brand": "isom",

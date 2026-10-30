@@ -4,6 +4,7 @@ import { useBrand } from "../bycode-brand/index";
 import { entranceProgress } from "./motion";
 
 export { entranceProgress } from "./motion";
+export {PromoCaptions,groupCaptionWords,captionGroupAt} from './captions';
 
 /** Add only to a scene whose background and base typography you intend to adopt. */
 export const PromoStage = ({ children, style }: { children: ReactNode; style?: CSSProperties }) => {

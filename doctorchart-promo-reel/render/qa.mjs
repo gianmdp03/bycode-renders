@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {spawnSync} from 'node:child_process';
 import {root,ffmpeg,ffprobe} from './tools.mjs';
-const file=process.argv[2]??'out/reel_preview_sin_voz.mp4';
+const file=process.argv[2]??'out/reel_preview_bycode_integrado.mp4';
 if(!fs.existsSync(path.join(root,file)))throw Error('Falta el MP4: '+file);
 function run(bin,args){const p=spawnSync(bin,args,{encoding:'utf8',maxBuffer:12e6});if(p.status!==0)throw Error(p.stderr);return p}
 const probe=JSON.parse(run(ffprobe,['-v','quiet','-show_format','-show_streams','-of','json',file]).stdout);

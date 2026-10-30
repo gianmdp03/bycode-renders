@@ -1,7 +1,7 @@
 {
   "name": "doctorchart-promo-reel",
   "version": "1.0.0",
-  "description": "My Remotion video",
+  "description": "Reel DoctorChart integrado al sistema audiovisual compartido de Bycode",
   "repository": {},
   "license": "UNLICENSED",
   "engines": {
@@ -9,6 +9,7 @@
   },
   "private": true,
   "dependencies": {
+    "@bycode/video-system": "0.1.0",
     "@remotion/captions": "4.0.539",
     "@remotion/cli": "4.0.539",
     "@remotion/media": "4.0.539",
@@ -27,14 +28,22 @@
     "typescript": "5.9.3"
   },
   "scripts": {
+    "predev": "npm --prefix .. run build:system",
     "dev": "remotion studio src/index.ts --port=3400 --no-open",
+    "prerender:preview": "npm --prefix .. run build:system",
     "render:preview": "node render/render.mjs preview",
+    "prerender:brand": "npm --prefix .. run build:system",
+    "render:brand": "node render/render.mjs brand",
+    "qa:brand": "node render/qa.mjs out/reel_preview_bycode_integrado.mp4",
+    "prerender:final": "npm --prefix .. run build:system",
     "render:final": "node render/render.mjs final",
     "ingest-voice": "node render/ingest-voice.mjs",
     "prepare:preview": "node render/prepare-preview.mjs",
     "stills": "node render/render.mjs stills",
     "qa": "node render/qa.mjs",
-    "build": "remotion bundle",
+    "prebuild": "npm --prefix .. run build:system",
+    "build": "remotion bundle src/index.ts",
+    "typecheck": "tsc --noEmit",
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc"
   }

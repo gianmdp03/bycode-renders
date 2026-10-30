@@ -10,11 +10,13 @@ import {Encounter} from './scenes/Encounter';
 import {Focus} from './scenes/Focus';
 import {Cta} from './scenes/Cta';
 import {Captions} from './Captions';
-import {theme as t} from './theme';
+import {theme as t,doctorChartBrand} from './theme';
+import {BrandProvider} from '@bycode/video-system/brand';
 import type {Runtime} from './types';
 import preview from '../captions/preview-runtime.json';
 export type Props={runtime:Runtime|null;mobileOverlay:boolean};
-export const Reel=({runtime,mobileOverlay}:Props)=>{const data=runtime??preview;const f=useCurrentFrame();const components={hook:Hook,reveal:Reveal,patients:Patients,history:History,customize:Customize,encounter:Encounter,focus:Focus,cta:Cta};return <AbsoluteFill style={{fontFamily:t.font,background:t.paper}}>
+export const Reel=(props:Props)=><BrandProvider brand={doctorChartBrand}><ReelContent {...props}/></BrandProvider>;
+const ReelContent=({runtime,mobileOverlay}:Props)=>{const data=runtime??preview;const f=useCurrentFrame();const components={hook:Hook,reveal:Reveal,patients:Patients,history:History,customize:Customize,encounter:Encounter,focus:Focus,cta:Cta};return <AbsoluteFill style={{fontFamily:t.font,background:t.paper}}>
  {data.beats.map((b,i)=>{const Component=components[b.id as keyof typeof components];const start=Math.round(b.start*60),end=Math.round(b.end*60);return <Sequence key={b.id} name={b.id} from={start} durationInFrames={end-start+12} style={{opacity:i===0?1:interpolate(f,[start,start+12],[0,1],{extrapolateLeft:'clamp',extrapolateRight:'clamp'})}}><Component duration={end-start} url={data.url}/></Sequence>})}
  {f<data.beats.find(b=>b.id==='cta')!.start*60?<Captions captions={data.captions}/>:null}
  {!data.voice?<div style={{position:'absolute',top:152,left:84,color:'#6C9299',fontSize:20,letterSpacing:2,fontWeight:700}}>PREVIEW SIN VOZ · SUBTÍTULOS PROVISIONALES</div>:null}

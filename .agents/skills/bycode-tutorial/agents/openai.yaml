@@ -1,0 +1,6 @@
+interface:
+  display_name: "Bycode Tutorial"
+  short_description: "Tutoriales con UI real y una narrativa educativa"
+  default_prompt: "Usá $bycode-tutorial y $bycode-brand para producir este tutorial con pasos reales y ritmo educativo."
+policy:
+  allow_implicit_invocation: true

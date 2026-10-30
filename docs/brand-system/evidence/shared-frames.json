@@ -1,0 +1,12 @@
+{
+  "remotion": "4.0.539",
+  "passed": true,
+  "checks": [
+    "legacy pixel equality portrait/landscape",
+    "sequence-local reveal boundaries",
+    "metadata",
+    "browser logs",
+    "Bycode and Pointly reuse",
+    "tutorial unchanged at 30fps/600frames"
+  ]
+}

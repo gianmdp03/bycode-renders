@@ -9,4 +9,4 @@ for i,p in enumerate(frames[:12]):
     im=Image.open(p).convert('RGB').resize((w,h),Image.Resampling.LANCZOS)
     x=i%4*w;y=i//4*(h+label);sheet.paste(im,(x,y))
     ImageDraw.Draw(sheet).text((x+10,y+h+8),f'{int(p.stem.split("-")[-1])/60:.2f} s',font=font,fill='#173B50')
-sheet.save(root/'out/contact-sheet.jpg',quality=95)
+sheet.save(root/'out/contact-sheet-bycode-integrado.jpg',quality=95)

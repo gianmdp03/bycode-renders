@@ -1,17 +1,21 @@
 # DoctorChart · Reel promocional
 
-Producción independiente, 28 segundos, 1080×1920 a 60 FPS. Preview con música original y captions de tiempo estimado; NO contiene voz sintética ni humana. Sólo se usa la voz real que aporte el usuario para el final.
+Producción del workspace principal, 28 segundos, 1080×1920 a 60 FPS. Preview con música original y captions de tiempo estimado; NO contiene voz sintética ni humana. Sólo se usa la voz real que aporte el usuario para el final.
+
+Actualización: este reel está integrado al workspace principal `bycode-renders`. Marca, títulos, movimiento, captions y CTA se consumen desde `@bycode/video-system`; la identidad sigue **draft**. Instalación y comandos comunes desde la raíz del repositorio (`npm ci`, `npm run dev`, `npm run render:doctorchart`). No crear un segundo sistema ni instalar la biblioteca copiada dentro del reel.
 
 ## Ver la primera preview
 
-- `out/reel_preview_sin_voz.mp4`: MP4 H.264 yuv420p, BT.709, AAC estéreo 48 kHz.
-- `out/contact-sheet.jpg`: 12 frames de control.
+- `out/reel_preview_bycode_integrado.mp4`: versión actualizada, H.264 yuv420p, BT.709, AAC estéreo 48 kHz.
+- `out/contact-sheet-bycode-integrado.jpg`: 12 frames de control de la versión actualizada.
+- `archive/pre-brand-integration/`: MP4 y contact sheet originales versionados; el original en `out/reel_preview_sin_voz.mp4` también se conserva.
+- `archive/bycode-integrated/`: copia versionada del MP4 actualizado y evidencia de QA.
 - `out/mobile-safe-area-*.png`: overlays de Reels ilustrativos para QA.
 - `qa/validation.md`: verificación y límites de esta entrega.
 
 ## Editar y reproducir
 
-Node 24 y npm. Desde esta carpeta:
+Node 24 y npm. Desde la raíz `bycode-renders`:
 
 ```powershell
 npm ci
@@ -65,7 +69,7 @@ Salida: `out/reel_final_con_voz.mp4`. El final se niega a renderizar sin voz y Q
 - `creative-brief.md`, `verified-claims.md`: dirección y claims contrastados.
 - `script/`: guion elegido de 48 palabras, dos variantes adicionales, guía y beats.
 - `storyboard/storyboard.md`: montaje y fuentes por plano.
-- `src/theme.ts`, `src/scenes/`: diseño y animación frame-driven.
+- `src/theme.ts`: adaptador al perfil provisional único de `shared/bycode-video-system/src/bycode-brand/products.ts`; `src/scenes/` conserva el montaje.
 - `public/assets/`: capturas reales NUEVAS, logo DoctorChart y logo Bycode originales.
 - `public/fonts/`: Google Sans original del proyecto y licencia OFL.
 - `audio/compose.py`, `audio/music-license.md`, `public/audio/`: instrumental original reproducible y mezcla preparatoria.

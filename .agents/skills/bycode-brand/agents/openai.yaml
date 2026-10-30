@@ -1,4 +1,6 @@
 interface:
-  display_name: "ByCode Brand"
+  display_name: "Bycode Brand"
   short_description: "Marca configurable y adopción gradual para ByCode"
   default_prompt: "Usá $bycode-brand para incorporar el sistema de marca sin reconstruir el proyecto existente."
+policy:
+  allow_implicit_invocation: true

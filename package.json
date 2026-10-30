@@ -1,0 +1,20 @@
+{
+  "name":"bycode-renders",
+  "version":"1.0.0",
+  "private":true,
+  "description":"Proyecto audiovisual Bycode: marca compartida, promociones y tutoriales",
+  "workspaces":["shared/bycode-video-system","doctorchart-promo-reel"],
+  "engines":{"node":">=24"},
+  "scripts":{
+    "postinstall":"npm run build:system",
+    "build:system":"npm run build --workspace=@bycode/video-system",
+    "check":"npm run check --workspace=@bycode/video-system && npm run typecheck --workspace=doctorchart-promo-reel",
+    "test":"npm run test --workspace=@bycode/video-system && node --test tests/integration.test.mjs",
+    "verify:frames":"npm run verify:frames --workspace=@bycode/video-system",
+    "build":"npm run build:system && npm run build --workspace=doctorchart-promo-reel",
+    "dev":"npm run dev --workspace=doctorchart-promo-reel",
+    "render:doctorchart":"npm run render:brand --workspace=doctorchart-promo-reel",
+    "qa:doctorchart":"npm run qa:brand --workspace=doctorchart-promo-reel",
+    "ingest-voice":"npm run ingest-voice --workspace=doctorchart-promo-reel --"
+  }
+}

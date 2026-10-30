@@ -1,4 +1,6 @@
 import {Composition,Folder} from 'remotion';
+import {BrandProvider} from '@bycode/video-system/brand';
+import {doctorChartBrand} from './theme';
 import {Reel} from './Reel';
 import {Hook} from './scenes/Hook';
 import {Reveal} from './scenes/Reveal';
@@ -9,7 +11,7 @@ import {Encounter} from './scenes/Encounter';
 import {Focus} from './scenes/Focus';
 import {Cta} from './scenes/Cta';
 import './style.css';
-export const RemotionRoot=()=> <>
+export const RemotionRoot=()=> <BrandProvider brand={doctorChartBrand}>
  <Composition id="DoctorChart-Reel" component={Reel} width={1080} height={1920} fps={60} durationInFrames={1680} defaultProps={{runtime:null,mobileOverlay:false}} calculateMetadata={({props})=>({durationInFrames:Math.ceil((props.runtime?.duration??28)*60)})}/>
  <Composition id="Reels-Safe-Area" component={Reel} width={1080} height={1920} fps={60} durationInFrames={1680} defaultProps={{runtime:null,mobileOverlay:true}}/>
  <Folder name="Scenes">
@@ -22,4 +24,4 @@ export const RemotionRoot=()=> <>
   <Composition id="Focus" component={Focus} width={1080} height={1920} fps={60} durationInFrames={246} defaultProps={{duration:246}}/>
   <Composition id="CTA" component={Cta} width={1080} height={1920} fps={60} durationInFrames={216} defaultProps={{duration:216,url:''}}/>
  </Folder>
-</>;
+</BrandProvider>;

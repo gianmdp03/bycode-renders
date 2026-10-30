@@ -1,5 +1,7 @@
 # Verificación de la entrega
 
+> Informe histórico del commit `88a3a19`. La integración actual en `main`, sus tres skills y el reel actualizado se documentan en [INTEGRATION.md](INTEGRATION.md). Las referencias a rama/worktree de este informe describen el origen, no el flujo vigente.
+
 Fecha: 30 de octubre de 2026. Base: `7d22a02`. Rama: `codex/bycode-brand-promo`. Implementación en el worktree independiente `bycode-renders-brand-system`.
 
 ## Resultado

@@ -18,8 +18,8 @@ try {
   const render = async (id, frame) => {
     const composition = compositions.find((item) => item.id === id);
     assert.ok(composition, `Missing composition ${id}`);
-    assert.equal(composition.fps, 60);
-    assert.equal(composition.durationInFrames, 60);
+    assert.equal(composition.fps, id.startsWith('Tutorial')?30:60);
+    assert.equal(composition.durationInFrames, id.startsWith('Tutorial')?600:60);
     const output = path.join(qa, `${id}-${frame}.png`);
     await renderStill({
       serveUrl, composition, frame, output, puppeteerInstance: browser,
@@ -38,6 +38,10 @@ try {
     assert.deepEqual(adopted.data, baseline.data, `Provider changed legacy pixels: ${format}`);
     console.log(`Provider preserves legacy pixels: ${format}`);
   }
+  for(const id of ['BycodeReuse','PointlyReuse'])await render(id,30);
+  const lesson=await render('TutorialBare',300);
+  const brandedLesson=await render('TutorialBranded',300);
+  assert.deepEqual(lesson.data,brandedLesson.data,'Shared brand context changed educational presentation');
   for (const format of ['Portrait', 'Landscape']) {
     const before = await render(`Promo${format}`, 11);
     const start = await render(`Promo${format}`, 12);
@@ -51,7 +55,7 @@ try {
   assert.deepEqual(warnings, [], 'Unexpected browser warnings/errors');
   await writeFile(path.join(qa, 'verification.json'), JSON.stringify({
     remotion: VERSION, passed: true,
-    checks: ['legacy pixel equality portrait/landscape', 'sequence-local reveal boundaries', 'metadata', 'browser logs'],
+    checks: ['legacy pixel equality portrait/landscape', 'sequence-local reveal boundaries', 'metadata', 'browser logs','Bycode and Pointly reuse','tutorial unchanged at 30fps/600frames'],
   }, null, 2));
   console.log(`Frame verification passed on Remotion ${VERSION}; evidence: ${qa}`);
 } finally {

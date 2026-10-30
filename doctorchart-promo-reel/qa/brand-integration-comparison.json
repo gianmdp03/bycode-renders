@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "oldSha256": "20f65722c75c4b50c781ded4cceb4dea2eb3cb32212f4701e3d4778473e81189",
+  "newSha256": "f447616fdd6db74bc50aff9427ca252341b2f175291442d42fafad7ccea69140",
+  "originalStillPreserved": true,
+  "visualVersionChanged": true,
+  "metadataPreserved": true,
+  "metadata": {
+    "width": 1080,
+    "height": 1920,
+    "fps": "60/1",
+    "frames": 1680,
+    "sampleRate": 48000,
+    "channels": 2
+  },
+  "decodedAudioIdentical": true,
+  "audio": {
+    "sha256": "449306a7048ed12691912c26d07ef2e133d9f2499aa20b07b7304c2e3e785265",
+    "samples": 1344512
+  }
+}
