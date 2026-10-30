@@ -1,0 +1,41 @@
+{
+  "same_worker": true,
+  "rows": [
+    {
+      "status": "TECHNICAL_PASS_LISTENING_REVIEW_PENDING",
+      "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+      "voice": "masculina",
+      "text": "Doctor Chart, de baicode. Abrimos la ficha del paciente y revisamos sus datos.",
+      "display_text": "DoctorChart, de Bycode. Abrimos la ficha del paciente y revisamos sus datos.",
+      "synthesis_seconds": 12.52,
+      "duration_seconds": 5.28,
+      "sha256": "7cd043c1f6d7bf1578cc4ba1de79bb21266591c427dfc9475894da586cf2df37",
+      "worker_pid": 13720,
+      "model_loaded_once": true,
+      "synthetic_reference": "qa/qwen-voz-masculina.wav",
+      "user_voice_reference": null,
+      "peak_vram_allocated_mib": 2609,
+      "sample_rate": 48000,
+      "channels": 2,
+      "wall_seconds": 12.518
+    },
+    {
+      "status": "TECHNICAL_PASS_LISTENING_REVIEW_PENDING",
+      "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+      "voice": "masculina",
+      "text": "Usá tu cuenta de baicode y un plan de Doctor Chart activo. El registro y la recuperación de acceso se realizan desde baicode.",
+      "display_text": "Usá tu cuenta de Bycode y un plan de DoctorChart activo. El registro y la recuperación de acceso se realizan desde Bycode.",
+      "synthesis_seconds": 14.91,
+      "duration_seconds": 6.96,
+      "sha256": "dc969f7749ab1ec0eec669ad6646b99114164f511daabc5c7e1821ca0ff43248",
+      "worker_pid": 13720,
+      "model_loaded_once": true,
+      "synthetic_reference": "qa/qwen-voz-masculina.wav",
+      "user_voice_reference": null,
+      "peak_vram_allocated_mib": 2609,
+      "sample_rate": 48000,
+      "channels": 2,
+      "wall_seconds": 14.908
+    }
+  ]
+}

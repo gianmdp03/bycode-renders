@@ -1,0 +1,95 @@
+{
+  "scene_id": "07-encounters",
+  "file": "recordings/07-encounters-1793326763061.mkv",
+  "status": "PASS",
+  "sourceFrameRate": "60/1",
+  "method": "Original encoded OBS frames, no fps conversion. Pixel changes in the scrolling UI (cursor excluded). Require >=50 changes in 60 frames OR >=25 in 30 frames for short scrolls reaching their boundary in <1s. Both require >=50 updates/sec; 30fps doubled cannot pass.",
+  "maximumMeaningfulChangesIn60": 58,
+  "maximumMeaningfulChangesIn30": 30,
+  "windows": [
+    {
+      "source_start_frame": 2097,
+      "source_start_seconds": 34.95,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 1,
+      "maxMeaningfulChangesIn30": 1
+    },
+    {
+      "source_start_frame": 2664,
+      "source_start_seconds": 44.4,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 1,
+      "maxMeaningfulChangesIn30": 1
+    },
+    {
+      "source_start_frame": 3013,
+      "source_start_seconds": 50.21666666666667,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 1,
+      "maxMeaningfulChangesIn30": 1
+    },
+    {
+      "source_start_frame": 3441,
+      "source_start_seconds": 57.35,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 3,
+      "maxMeaningfulChangesIn30": 3
+    },
+    {
+      "source_start_frame": 4018,
+      "source_start_seconds": 66.96666666666667,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 1,
+      "maxMeaningfulChangesIn30": 1
+    },
+    {
+      "source_start_frame": 4158,
+      "source_start_seconds": 69.3,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 2,
+      "maxMeaningfulChangesIn30": 2
+    },
+    {
+      "source_start_frame": 4226,
+      "source_start_seconds": 70.43333333333334,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 2,
+      "maxMeaningfulChangesIn30": 2
+    },
+    {
+      "source_start_frame": 4665,
+      "source_start_seconds": 77.75,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 2,
+      "maxMeaningfulChangesIn30": 2
+    },
+    {
+      "source_start_frame": 5035,
+      "source_start_seconds": 83.91666666666667,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 5,
+      "maxMeaningfulChangesIn30": 5
+    },
+    {
+      "source_start_frame": 5106,
+      "source_start_seconds": 85.1,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 5,
+      "maxMeaningfulChangesIn30": 5
+    },
+    {
+      "source_start_frame": 5417,
+      "source_start_seconds": 90.28333333333333,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 58,
+      "maxMeaningfulChangesIn30": 30
+    },
+    {
+      "source_start_frame": 5600,
+      "source_start_seconds": 93.33333333333333,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 1,
+      "maxMeaningfulChangesIn30": 1
+    }
+  ]
+}

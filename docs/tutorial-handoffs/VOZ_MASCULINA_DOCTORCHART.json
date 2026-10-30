@@ -1,0 +1,27 @@
+{
+  "profile_id": "doctorchart-masculina-01",
+  "display_name": "Voz masculina de DoctorChart",
+  "reference_audio": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\doctorchart-video-tutorial\\.local\\qwen\\voice-library\\doctorchart-masculina-01\\reference.wav",
+  "reference_metadata": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\doctorchart-video-tutorial\\.local\\qwen\\voice-library\\doctorchart-masculina-01\\reference.json",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "reference_spoken_text": "Doctor Chart, de baicode, te ayuda a organizar la atención de tus pacientes. Para empezar, abrimos Nuevo paciente y completamos los datos obligatorios. Antes de guardar, revisamos el nombre, el documento y la fecha de nacimiento. Después, desde la ficha, podemos registrar la primera consulta, cargar las mediciones y consultar la evolución. Todo queda asociado al paciente para encontrarlo cuando lo necesites.",
+  "voice_design_instruction": "A native Latin American Spanish male speaker in his thirties with a natural Argentine accent. Warm, clear mid-range voice. He explains medical software to a colleague in a relaxed, conversational and confident way. Fluid connected sentences with natural varied intonation, small meaningful pauses and a brisk but comfortable pace. Clean close-microphone studio sound.",
+  "reference_generator": "Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+  "reference_seed": 20261030,
+  "generation_engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "generation_model_path": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\doctorchart-video-tutorial\\.local\\qwen\\base-model",
+  "generation_model_revision": "5d83992436eae1d760afd27aff78a71d676296fc",
+  "python_executable": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\doctorchart-video-tutorial\\.local\\qwen-venv\\Scripts\\python.exe",
+  "attention": "sdpa",
+  "precision": "bfloat16",
+  "torch_threads": 1,
+  "torch_interop_threads": 1,
+  "clone_prompt": "create_voice_clone_prompt(ref_audio=reference_audio, ref_text=reference_spoken_text, x_vector_only_mode=False)",
+  "reference_is_synthetic": true,
+  "user_voice_recordings_used": false,
+  "pronunciation_aliases": {
+    "Bycode": "baicode"
+  },
+  "preserve_reference": true,
+  "note": "Use this fixed reference rather than generating a new persona. Different text or a recreated description alone does not preserve the same identity."
+}

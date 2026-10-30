@@ -1,0 +1,221 @@
+{
+  "status": "PASS",
+  "actual_remotion_render": true,
+  "full_final_render": false,
+  "samples": [
+    {
+      "scene": "01-access",
+      "beat": "access-visibility",
+      "frame": 1445,
+      "file": "qa\\preview-01-access.png"
+    },
+    {
+      "scene": "02-specialty",
+      "beat": "specialty-confirm",
+      "frame": 3147,
+      "file": "qa\\preview-02-specialty.png"
+    },
+    {
+      "scene": "03-onboarding",
+      "beat": "wizard-field-types",
+      "frame": 9498,
+      "file": "qa\\preview-03-onboarding.png"
+    },
+    {
+      "scene": "03-onboarding",
+      "beat": "wizard-number",
+      "frame": 10309,
+      "file": "qa\\detail-wizard-number.png"
+    },
+    {
+      "scene": "04-dashboard",
+      "beat": "dashboard-recent",
+      "frame": 17073,
+      "file": "qa\\preview-04-dashboard.png"
+    },
+    {
+      "scene": "05-directory",
+      "beat": "directory-filters",
+      "frame": 20253,
+      "file": "qa\\preview-05-directory.png"
+    },
+    {
+      "scene": "06-new-patient",
+      "beat": "patient-contact",
+      "frame": 23426,
+      "file": "qa\\preview-06-new-patient.png"
+    },
+    {
+      "scene": "06-new-patient",
+      "beat": "patient-demographics",
+      "frame": 22945,
+      "file": "qa\\detail-patient-demographics.png"
+    },
+    {
+      "scene": "07-encounters",
+      "beat": "encounter-plan",
+      "frame": 28658,
+      "file": "qa\\preview-07-encounters.png"
+    },
+    {
+      "scene": "07-encounters",
+      "beat": "encounter-first",
+      "frame": 26823,
+      "file": "qa\\detail-encounter-first.png"
+    },
+    {
+      "scene": "07-encounters",
+      "beat": "encounter-measurements",
+      "frame": 28148,
+      "file": "qa\\detail-encounter-measurements.png"
+    },
+    {
+      "scene": "08-vaccination",
+      "beat": "vaccination-apply",
+      "frame": 32540,
+      "file": "qa\\preview-08-vaccination.png"
+    },
+    {
+      "scene": "09-growth",
+      "beat": "growth-categories",
+      "frame": 35247,
+      "file": "qa\\preview-09-growth.png"
+    },
+    {
+      "scene": "09-growth",
+      "beat": "growth-chart",
+      "frame": 34739,
+      "file": "qa\\detail-growth-chart.png"
+    },
+    {
+      "scene": "10-prescriptions",
+      "beat": "rx-save",
+      "frame": 38489,
+      "file": "qa\\preview-10-prescriptions.png"
+    },
+    {
+      "scene": "10-prescriptions",
+      "beat": "rx-medication",
+      "frame": 37421,
+      "file": "qa\\detail-rx-medication.png"
+    },
+    {
+      "scene": "10-prescriptions",
+      "beat": "rx-print",
+      "frame": 39986,
+      "file": "qa\\detail-rx-print.png"
+    },
+    {
+      "scene": "11-studies",
+      "beat": "studies-preview",
+      "frame": 41852,
+      "file": "qa\\preview-11-studies.png"
+    },
+    {
+      "scene": "12-calendar-profile",
+      "beat": "profile-open",
+      "frame": 45156,
+      "file": "qa\\preview-12-calendar-profile.png"
+    },
+    {
+      "scene": "13-productivity",
+      "beat": "extra-timeline-expand",
+      "frame": 49873,
+      "file": "qa\\preview-13-productivity.png"
+    },
+    {
+      "scene": "14-editor-advanced",
+      "beat": "extra-editor-edit",
+      "frame": 55467,
+      "file": "qa\\preview-14-editor-advanced.png"
+    },
+    {
+      "scene": "15-document-controls",
+      "beat": "extra-study-picker",
+      "frame": 62443,
+      "file": "qa\\preview-15-document-controls.png"
+    },
+    {
+      "scene": "15-document-controls",
+      "beat": "extra-document-view",
+      "frame": 61140,
+      "file": "qa\\detail-extra-document-view.png"
+    },
+    {
+      "scene": "16-growth-review",
+      "beat": "extra-growth-context",
+      "frame": 66631,
+      "file": "qa\\preview-16-growth-review.png"
+    },
+    {
+      "scene": "17-conflicts-and-session",
+      "beat": "extra-encounter-cancel",
+      "frame": 70285,
+      "file": "qa\\preview-17-conflicts-and-session.png"
+    },
+    {
+      "scene": "18-shortcuts-and-output",
+      "beat": "more-summary-edit",
+      "frame": 74768,
+      "file": "qa\\preview-18-shortcuts-and-output.png"
+    },
+    {
+      "scene": "18-shortcuts-and-output",
+      "beat": "more-rx-output",
+      "frame": 76363,
+      "file": "qa\\detail-more-rx-output.png"
+    },
+    {
+      "scene": "19-connection-recovery",
+      "beat": "recover-patient-form",
+      "frame": 81857,
+      "file": "qa\\preview-19-connection-recovery.png"
+    },
+    {
+      "scene": "20-review-configuration-conflicts",
+      "beat": "review-saved-encounter",
+      "frame": 87106,
+      "file": "qa\\preview-20-review-configuration-conflicts.png"
+    },
+    {
+      "scene": "21-onboarding-draft-session",
+      "beat": "draft-wizard-steps",
+      "frame": 89468,
+      "file": "qa\\preview-21-onboarding-draft-session.png"
+    },
+    {
+      "scene": "22-contexts-and-recovery",
+      "beat": "edge-growth-frame",
+      "frame": 94780,
+      "file": "qa\\preview-22-contexts-and-recovery.png"
+    },
+    {
+      "scene": "22-contexts-and-recovery",
+      "beat": "edge-growth-source",
+      "frame": 95777,
+      "file": "qa\\detail-edge-growth-source.png"
+    },
+    {
+      "scene": "22-contexts-and-recovery",
+      "beat": "edge-pdf-study",
+      "frame": 97490,
+      "file": "qa\\detail-edge-pdf-study.png"
+    },
+    {
+      "scene": "23-selection-recovery",
+      "beat": "edge-specialty-conflict",
+      "frame": 99704,
+      "file": "qa\\preview-23-selection-recovery.png"
+    }
+  ],
+  "browser_errors": [],
+  "short_draft": "qa/preview-audio-sync-20s.mp4",
+  "visual_corrections": [
+    {
+      "beat": "growth-chart",
+      "frame": 34739,
+      "checked_still": "qa/detail-growth-chart.png",
+      "change": "Keep full growth chart visible so title, axes and legend stay together."
+    }
+  ]
+}

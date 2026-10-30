@@ -1,0 +1,22 @@
+{
+  "accounts": [
+    {
+      "email": "admin@doctorchart-demo.test",
+      "label": "Administraci\u00f3n DEMO"
+    },
+    {
+      "email": "a@doctorchart-demo.test",
+      "label": "M\u00e9dica DEMO Inicio"
+    },
+    {
+      "email": "b@doctorchart-demo.test",
+      "label": "M\u00e9dica DEMO Pediatr\u00eda"
+    },
+    {
+      "email": "no_plan@doctorchart-demo.test",
+      "label": "Cuenta DEMO sin plan"
+    }
+  ],
+  "access": "A/B granted PRO by real Billing admin workflow; NO_PLAN has no grant",
+  "secrets": "Only .local/accounts.json; never film password visibility."
+}

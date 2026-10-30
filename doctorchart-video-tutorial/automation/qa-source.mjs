@@ -1,0 +1,10 @@
+import fs from 'node:fs';import path from 'node:path';import {spawnSync} from 'node:child_process';import {root} from './browser.mjs';import {ffmpeg} from './recorder.mjs';
+const manifest=JSON.parse(fs.readFileSync(path.join(root,'recordings/manifest.json'),'utf8'));const results=[];
+for(const recording of manifest.recordings.filter(r=>!r.scene_id.startsWith('qa-'))){
+ const args=['-hide_banner','-nostats','-ss',String(recording.source_start/60),'-i',path.join(root,recording.file),'-t',String((recording.source_end-recording.source_start)/60),'-an','-vf','scale=160:90,blackdetect=d=0.05:pix_th=0.005:pic_th=0.995','-f','null','-'];
+ const result=spawnSync(ffmpeg,args,{encoding:'utf8',maxBuffer:2e6});if(result.status!==0)throw Error('Source decoding failed: '+recording.scene_id);
+ const black=[...result.stderr.matchAll(/black_start:([\d.]+) black_end:([\d.]+) black_duration:([\d.]+)/g)].map(m=>({start_seconds:Number(m[1]),end_seconds:Number(m[2]),duration_seconds:Number(m[3])}));
+ const nativeImages=recording.beats.every(b=>fs.existsSync(path.join(root,'qa',b.id+'-native.png')));const nativeCapture=recording.capture_settings?.method?.startsWith('BitBlt')===true;
+ const entry={scene:recording.scene_id,file:recording.file,status:!black.length&&nativeImages&&nativeCapture?'PASS':'REVIEW_REQUIRED',nativeCapture,nativeImages,blackIntervals:black,obs_stats:recording.obs_stats?{renderSkippedFrames:recording.obs_stats.renderSkippedFrames,outputSkippedFrames:recording.obs_stats.outputSkippedFrames}:null};results.push(entry);console.log('SOURCE',entry.scene,entry.status);
+}
+const report={status:results.every(r=>r.status==='PASS')?'PASS':'REVIEW_REQUIRED',method:'Decode trimmed original source; detect nearly uniform encoded black lasting >=50ms. Require exact native BitBlt geometry and per-beat OBS scene screenshots. FPS/motion is reviewed separately.',results};fs.writeFileSync(path.join(root,'qa/source-review.json'),JSON.stringify(report,null,2));if(report.status!=='PASS')process.exitCode=1;

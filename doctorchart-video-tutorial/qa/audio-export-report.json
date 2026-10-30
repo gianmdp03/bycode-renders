@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "method": "Decode exported AAC and independent actual timeline mix to PCM; align by cross-correlation and inspect 100ms voiced windows.",
+  "sample_rate_for_comparison": 8000,
+  "alignment_lag_samples": 0,
+  "waveform_correlation": 0.9999856948852539,
+  "unexpected_dropout_seconds": [],
+  "listening_review": "Technical continuity does not certify perceived naturalness; listen to the draft."
+}

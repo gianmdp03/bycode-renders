@@ -1,0 +1,1298 @@
+[
+  {
+    "scene_id": "01-access",
+    "voice_segment": "access-context",
+    "text": "DoctorChart reúne pacientes, consultas y documentación clínica. Vamos a recorrer su uso con datos completamente ficticios.",
+    "audio": "audio/access-context.wav",
+    "durationMs": 9509,
+    "startMs": 0,
+    "endMs": 9509
+  },
+  {
+    "scene_id": "01-access",
+    "voice_segment": "access-account",
+    "text": "Usá tu cuenta de Bycode y un plan de DoctorChart activo. El registro y la recuperación de acceso se realizan desde Bycode.",
+    "audio": "audio/access-account.wav",
+    "durationMs": 9613,
+    "startMs": 10317,
+    "endMs": 19930
+  },
+  {
+    "scene_id": "01-access",
+    "voice_segment": "access-visibility",
+    "text": "El control del ojo permite revisar la contraseña. En esta grabación, los datos de acceso permanecen ocultos.",
+    "audio": "audio/access-visibility.wav",
+    "durationMs": 8069,
+    "startMs": 21083,
+    "endMs": 29152
+  },
+  {
+    "scene_id": "01-access",
+    "voice_segment": "access-signin",
+    "text": "Ingresamos con una cuenta DEMO nueva. Al ser el primer acceso, DoctorChart nos guía por la configuración inicial.",
+    "audio": "audio/access-signin.wav",
+    "durationMs": 8278,
+    "startMs": 29900,
+    "endMs": 38178
+  },
+  {
+    "scene_id": "02-specialty",
+    "voice_segment": "specialty-options",
+    "text": "La especialidad determina los formularios iniciales y los módulos disponibles. Este entorno publica Pediatría.",
+    "audio": "audio/specialty-options.wav",
+    "durationMs": 7802,
+    "startMs": 39700,
+    "endMs": 47502
+  },
+  {
+    "scene_id": "02-specialty",
+    "voice_segment": "specialty-confirm",
+    "text": "Podés revisar esta elección durante la configuración inicial. Al finalizar, queda confirmada; los formularios siguen siendo personalizables.",
+    "audio": "audio/specialty-confirm.wav",
+    "durationMs": 9497,
+    "startMs": 49450,
+    "endMs": 58947
+  },
+  {
+    "scene_id": "03-onboarding",
+    "voice_segment": "wizard-orientation",
+    "text": "El asistente organiza la ficha del paciente por categorías y reserva un paso para la historia clínica de cada consulta.",
+    "audio": "audio/wizard-orientation.wav",
+    "durationMs": 8022,
+    "startMs": 60217,
+    "endMs": 68239
+  },
+  {
+    "scene_id": "03-onboarding",
+    "voice_segment": "wizard-system",
+    "text": "Datos Personales contiene campos del sistema. Sus datos obligatorios están protegidos; podés agregar información adicional.",
+    "audio": "audio/wizard-system.wav",
+    "durationMs": 8255,
+    "startMs": 71067,
+    "endMs": 79322
+  },
+  {
+    "scene_id": "03-onboarding",
+    "voice_segment": "wizard-family",
+    "text": "Antecedentes familiares y datos de tutores tienen sus propios campos. Recorremos cada categoría habilitada.",
+    "audio": "audio/wizard-family.wav",
+    "durationMs": 8139,
+    "startMs": 81817,
+    "endMs": 89956
+  },
+  {
+    "scene_id": "03-onboarding",
+    "voice_segment": "wizard-guardians",
+    "text": "Estos datos acompañan al paciente. No hace falta repetirlos como si fueran una consulta nueva.",
+    "audio": "audio/wizard-guardians.wav",
+    "durationMs": 7117,
+    "startMs": 92617,
+    "endMs": 99734
+  },
+  {
+    "scene_id": "03-onboarding",
+    "voice_segment": "wizard-clinical",
+    "text": "Historia Clínica define lo que vas a registrar en cada atención: motivo, mediciones, examen, desarrollo, evaluación y plan.",
+    "audio": "audio/wizard-clinical.wav",
+    "durationMs": 8719,
+    "startMs": 101400,
+    "endMs": 110119
+  },
+  {
+    "scene_id": "03-onboarding",
+    "voice_segment": "wizard-categories",
+    "text": "Podés organizar todas las categorías de la ficha desde una sola vista. El orden también se puede ajustar.",
+    "audio": "audio/wizard-categories.wav",
+    "durationMs": 6873,
+    "startMs": 113183,
+    "endMs": 120056
+  },
+  {
+    "scene_id": "03-onboarding",
+    "voice_segment": "wizard-add-category",
+    "text": "Agregamos una categoría de demostración. Su nombre y sus campos son parte de tu configuración personal.",
+    "audio": "audio/wizard-add-category.wav",
+    "durationMs": 6861,
+    "startMs": 123000,
+    "endMs": 129861
+  },
+  {
+    "scene_id": "03-onboarding",
+    "voice_segment": "wizard-category-order",
+    "text": "Las flechas cambian el orden. Desactivar una categoría la conserva para volver a usarla; eliminarla la quita del borrador.",
+    "audio": "audio/wizard-category-order.wav",
+    "durationMs": 8440,
+    "startMs": 132783,
+    "endMs": 141223
+  },
+  {
+    "scene_id": "03-onboarding",
+    "voice_segment": "wizard-add-field",
+    "text": "Para agregar un campo, definí una etiqueta clara, el tipo de respuesta y un texto de ayuda si lo necesitás.",
+    "audio": "audio/wizard-add-field.wav",
+    "durationMs": 7326,
+    "startMs": 144533,
+    "endMs": 151859
+  },
+  {
+    "scene_id": "03-onboarding",
+    "voice_segment": "wizard-field-types",
+    "text": "El editor ofrece texto, texto largo, números, fechas, listas, respuestas de sí o no y campos calculados.",
+    "audio": "audio/wizard-field-types.wav",
+    "durationMs": 9195,
+    "startMs": 155300,
+    "endMs": 164495
+  },
+  {
+    "scene_id": "03-onboarding",
+    "voice_segment": "wizard-number",
+    "text": "Un campo numérico puede tener unidad, mínimo y máximo. Marcá obligatorio únicamente cuando esa respuesta sea necesaria.",
+    "audio": "audio/wizard-number.wav",
+    "durationMs": 9091,
+    "startMs": 166067,
+    "endMs": 175158
+  },
+  {
+    "scene_id": "03-onboarding",
+    "voice_segment": "wizard-options",
+    "text": "Las listas permiten definir las opciones que verá el médico. La etiqueta visible y el valor guardado se configuran por separado.",
+    "audio": "audio/wizard-options.wav",
+    "durationMs": 8940,
+    "startMs": 176850,
+    "endMs": 185790
+  },
+  {
+    "scene_id": "03-onboarding",
+    "voice_segment": "wizard-save-field",
+    "text": "Aplicar campo incorpora la definición al borrador. Todavía no cambia los formularios que usás para atender.",
+    "audio": "audio/wizard-save-field.wav",
+    "durationMs": 7117,
+    "startMs": 187600,
+    "endMs": 194717
+  },
+  {
+    "scene_id": "03-onboarding",
+    "voice_segment": "wizard-field-order",
+    "text": "Un campo adicional puede editarse, duplicarse, ordenarse o eliminarse. Los campos del sistema permanecen protegidos.",
+    "audio": "audio/wizard-field-order.wav",
+    "durationMs": 8591,
+    "startMs": 197367,
+    "endMs": 205958
+  },
+  {
+    "scene_id": "03-onboarding",
+    "voice_segment": "wizard-save-draft",
+    "text": "Guardar borrador conserva el trabajo para retomarlo. No equivale a finalizar ni a aplicar la configuración.",
+    "audio": "audio/wizard-save-draft.wav",
+    "durationMs": 7593,
+    "startMs": 208133,
+    "endMs": 215726
+  },
+  {
+    "scene_id": "03-onboarding",
+    "voice_segment": "wizard-reset-review",
+    "text": "Restablecer recupera los valores iniciales publicados de la especialidad. La confirmación explica qué se reemplaza.",
+    "audio": "audio/wizard-reset-review.wav",
+    "durationMs": 8661,
+    "startMs": 217917,
+    "endMs": 226578
+  },
+  {
+    "scene_id": "03-onboarding",
+    "voice_segment": "wizard-reset-confirm",
+    "text": "En este ejemplo descartamos la personalización de prueba. El borrador vuelve a los valores iniciales de Pediatría.",
+    "audio": "audio/wizard-reset-confirm.wav",
+    "durationMs": 7848,
+    "startMs": 227667,
+    "endMs": 235515
+  },
+  {
+    "scene_id": "03-onboarding",
+    "voice_segment": "wizard-finish",
+    "text": "Revisamos el paso de Historia Clínica y finalizamos. La configuración se guarda en el servidor y se abre el panel.",
+    "audio": "audio/wizard-finish.wav",
+    "durationMs": 7988,
+    "startMs": 237417,
+    "endMs": 245405
+  },
+  {
+    "scene_id": "04-dashboard",
+    "voice_segment": "dashboard-account",
+    "text": "Seguimos con otra cuenta DEMO de Pediatría, ya preparada con cuarenta pacientes e historias ficticias para explorar el trabajo diario.",
+    "audio": "audio/dashboard-account.wav",
+    "durationMs": 8440,
+    "startMs": 247200,
+    "endMs": 255640
+  },
+  {
+    "scene_id": "04-dashboard",
+    "voice_segment": "dashboard-kpis",
+    "text": "El panel resume pacientes registrados, consultas del mes y atenciones de hoy. Los números provienen de los registros de esta cuenta.",
+    "audio": "audio/dashboard-kpis.wav",
+    "durationMs": 9160,
+    "startMs": 259000,
+    "endMs": 268160
+  },
+  {
+    "scene_id": "04-dashboard",
+    "voice_segment": "dashboard-followup",
+    "text": "Próximas consultas reúne los controles indicados en la última historia clínica. Desde aquí podés abrir la ficha correspondiente.",
+    "audio": "audio/dashboard-followup.wav",
+    "durationMs": 8812,
+    "startMs": 270767,
+    "endMs": 279579
+  },
+  {
+    "scene_id": "04-dashboard",
+    "voice_segment": "dashboard-recent",
+    "text": "La actividad reciente permite consultar una atención, volver a la ficha y avanzar por las páginas del historial.",
+    "audio": "audio/dashboard-recent.wav",
+    "durationMs": 7732,
+    "startMs": 281550,
+    "endMs": 289282
+  },
+  {
+    "scene_id": "04-dashboard",
+    "voice_segment": "dashboard-search",
+    "text": "El acceso rápido busca pacientes sin recorrer todo el directorio. Verificá siempre la identidad antes de abrir una ficha.",
+    "audio": "audio/dashboard-search.wav",
+    "durationMs": 8707,
+    "startMs": 292317,
+    "endMs": 301024
+  },
+  {
+    "scene_id": "04-dashboard",
+    "voice_segment": "dashboard-notes",
+    "text": "Notas rápidas sirve como recordatorio de trabajo. Guardamos una nota de demostración y comprobamos que se conserva.",
+    "audio": "audio/dashboard-notes.wav",
+    "durationMs": 7848,
+    "startMs": 303117,
+    "endMs": 310965
+  },
+  {
+    "scene_id": "05-directory",
+    "voice_segment": "directory-open",
+    "text": "El directorio reúne los pacientes de este médico. La ficha clínica pertenece al profesional, independientemente del lugar de atención.",
+    "audio": "audio/directory-open.wav",
+    "durationMs": 9358,
+    "startMs": 313950,
+    "endMs": 323308
+  },
+  {
+    "scene_id": "05-directory",
+    "voice_segment": "directory-search",
+    "text": "Podés buscar por nombre, documento o teléfono. Limpiar la búsqueda vuelve al listado sin ese criterio.",
+    "audio": "audio/directory-search.wav",
+    "durationMs": 8022,
+    "startMs": 324750,
+    "endMs": 332772
+  },
+  {
+    "scene_id": "05-directory",
+    "voice_segment": "directory-filters",
+    "text": "Pediatría ofrece filtros por etapas de edad y vacunación pendiente. Seleccionar Todos recupera el conjunto completo.",
+    "audio": "audio/directory-filters.wav",
+    "durationMs": 8499,
+    "startMs": 334550,
+    "endMs": 343049
+  },
+  {
+    "scene_id": "05-directory",
+    "voice_segment": "directory-scroll",
+    "text": "Al desplazarte, el directorio carga más resultados. Cada fila muestra identificación, contacto, controles previos y vacunación.",
+    "audio": "audio/directory-scroll.wav",
+    "durationMs": 9636,
+    "startMs": 345367,
+    "endMs": 355003
+  },
+  {
+    "scene_id": "06-new-patient",
+    "voice_segment": "patient-new",
+    "text": "Nuevo paciente abre el formulario de la configuración activa. Los asteriscos indican las respuestas obligatorias.",
+    "audio": "audio/patient-new.wav",
+    "durationMs": 7465,
+    "startMs": 356167,
+    "endMs": 363632
+  },
+  {
+    "scene_id": "06-new-patient",
+    "voice_segment": "patient-validation",
+    "text": "Si intentás guardar sin los datos necesarios, el formulario señala qué falta. Completamos una identidad exclusivamente ficticia.",
+    "audio": "audio/patient-validation.wav",
+    "durationMs": 9172,
+    "startMs": 365917,
+    "endMs": 375089
+  },
+  {
+    "scene_id": "06-new-patient",
+    "voice_segment": "patient-demographics",
+    "text": "Registramos nombre, apellido, documento, fecha de nacimiento y sexo. Las fechas se muestran en formato día, mes y año.",
+    "audio": "audio/patient-demographics.wav",
+    "durationMs": 8893,
+    "startMs": 376683,
+    "endMs": 385576
+  },
+  {
+    "scene_id": "06-new-patient",
+    "voice_segment": "patient-contact",
+    "text": "El contacto y la cobertura se completan cuando corresponden. Usamos direcciones de demostración sin destinatarios reales.",
+    "audio": "audio/patient-contact.wav",
+    "durationMs": 7709,
+    "startMs": 387433,
+    "endMs": 395142
+  },
+  {
+    "scene_id": "06-new-patient",
+    "voice_segment": "patient-family",
+    "text": "Completamos antecedentes y tutores. Las respuestas condicionales muestran información adicional sólo cuando corresponde.",
+    "audio": "audio/patient-family.wav",
+    "durationMs": 8255,
+    "startMs": 398200,
+    "endMs": 406455
+  },
+  {
+    "scene_id": "06-new-patient",
+    "voice_segment": "patient-save",
+    "text": "Crear Paciente guarda la ficha y la abre. Confirmamos el resultado recibido del servidor antes de continuar.",
+    "audio": "audio/patient-save.wav",
+    "durationMs": 8046,
+    "startMs": 408967,
+    "endMs": 417013
+  },
+  {
+    "scene_id": "06-new-patient",
+    "voice_segment": "patient-edit",
+    "text": "Editar paciente permite corregir los datos de la ficha. Guardamos una modificación y comprobamos el cambio visible.",
+    "audio": "audio/patient-edit.wav",
+    "durationMs": 8975,
+    "startMs": 419750,
+    "endMs": 428725
+  },
+  {
+    "scene_id": "07-encounters",
+    "voice_segment": "encounter-open",
+    "text": "La cabecera identifica al paciente activo. Sus acciones y las pestañas dependen de la especialidad y la configuración disponible.",
+    "audio": "audio/encounter-open.wav",
+    "durationMs": 9706,
+    "startMs": 430550,
+    "endMs": 440256
+  },
+  {
+    "scene_id": "07-encounters",
+    "voice_segment": "encounter-first",
+    "text": "Nueva historia clínica abre una atención. Cuando el paciente todavía no tiene consultas, Primera consulta es la única opción.",
+    "audio": "audio/encounter-first.wav",
+    "durationMs": 9276,
+    "startMs": 441317,
+    "endMs": 450593
+  },
+  {
+    "scene_id": "07-encounters",
+    "voice_segment": "encounter-reason",
+    "text": "Escribimos el motivo y los antecedentes de esta atención. La fecha y hora definitivas las asigna el servidor al guardar.",
+    "audio": "audio/encounter-reason.wav",
+    "durationMs": 9044,
+    "startMs": 452083,
+    "endMs": 461127
+  },
+  {
+    "scene_id": "07-encounters",
+    "voice_segment": "encounter-measurements",
+    "text": "Cargamos peso, talla y, cuando corresponde, perímetro cefálico. Las unidades y los campos obligatorios se indican en el formulario.",
+    "audio": "audio/encounter-measurements.wav",
+    "durationMs": 10008,
+    "startMs": 462850,
+    "endMs": 472858
+  },
+  {
+    "scene_id": "07-encounters",
+    "voice_segment": "encounter-plan",
+    "text": "Completamos examen, desarrollo, evaluación y plan. Una fecha de seguimiento permite recuperar este control desde el panel.",
+    "audio": "audio/encounter-plan.wav",
+    "durationMs": 9752,
+    "startMs": 474633,
+    "endMs": 484385
+  },
+  {
+    "scene_id": "07-encounters",
+    "voice_segment": "encounter-save",
+    "text": "Guardar historia clínica incorpora la atención al historial. Abrimos su detalle para revisar los datos efectivamente guardados.",
+    "audio": "audio/encounter-save.wav",
+    "durationMs": 8452,
+    "startMs": 486450,
+    "endMs": 494902
+  },
+  {
+    "scene_id": "07-encounters",
+    "voice_segment": "encounter-edit",
+    "text": "La edición conserva el formulario del registro original. Corregimos un texto y guardamos, sin cambiar su fecha de creación.",
+    "audio": "audio/encounter-edit.wav",
+    "durationMs": 8940,
+    "startMs": 497200,
+    "endMs": 506140
+  },
+  {
+    "scene_id": "07-encounters",
+    "voice_segment": "encounter-followup",
+    "text": "En atenciones posteriores aparecen los tipos de consulta disponibles. El formulario usa la configuración activa para la nueva historia.",
+    "audio": "audio/encounter-followup.wav",
+    "durationMs": 9288,
+    "startMs": 507967,
+    "endMs": 517255
+  },
+  {
+    "scene_id": "07-encounters",
+    "voice_segment": "encounter-list",
+    "text": "El historial general permite buscar consultas, cargar más resultados y volver al detalle o a la ficha del paciente.",
+    "audio": "audio/encounter-list.wav",
+    "durationMs": 7256,
+    "startMs": 518733,
+    "endMs": 525989
+  },
+  {
+    "scene_id": "08-vaccination",
+    "voice_segment": "vaccination-open",
+    "text": "La pestaña Vacunas combina el calendario con la edad y las aplicaciones registradas de este paciente.",
+    "audio": "audio/vaccination-open.wav",
+    "durationMs": 7129,
+    "startMs": 529533,
+    "endMs": 536662
+  },
+  {
+    "scene_id": "08-vaccination",
+    "voice_segment": "vaccination-apply",
+    "text": "Marcamos una dosis de demostración como aplicada y comprobamos el resultado guardado. No representa una indicación de vacunación.",
+    "audio": "audio/vaccination-apply.wav",
+    "durationMs": 8673,
+    "startMs": 539333,
+    "endMs": 548006
+  },
+  {
+    "scene_id": "08-vaccination",
+    "voice_segment": "vaccination-undo",
+    "text": "Si una aplicación se registró por error, revisá el control disponible para corregirla y verificá el nuevo estado.",
+    "audio": "audio/vaccination-undo.wav",
+    "durationMs": 7837,
+    "startMs": 551117,
+    "endMs": 558954
+  },
+  {
+    "scene_id": "09-growth",
+    "voice_segment": "growth-open",
+    "text": "Evolución y Curvas utiliza las mediciones persistidas en las consultas. En este ejemplo, los datos son completamente sintéticos.",
+    "audio": "audio/growth-open.wav",
+    "durationMs": 9125,
+    "startMs": 561883,
+    "endMs": 571008
+  },
+  {
+    "scene_id": "09-growth",
+    "voice_segment": "growth-chart",
+    "text": "La edad y el sexo de referencia determinan qué gráficos corresponden. Revisá el título, los ejes y la leyenda de cada lámina.",
+    "audio": "audio/growth-chart.wav",
+    "durationMs": 9323,
+    "startMs": 572700,
+    "endMs": 582023
+  },
+  {
+    "scene_id": "09-growth",
+    "voice_segment": "growth-categories",
+    "text": "Cambiamos entre las categorías disponibles y sus gráficos. No todas las láminas se aplican a todas las edades.",
+    "audio": "audio/growth-categories.wav",
+    "durationMs": 7918,
+    "startMs": 584450,
+    "endMs": 592368
+  },
+  {
+    "scene_id": "09-growth",
+    "voice_segment": "growth-history",
+    "text": "Consultar períodos históricos permite revisar otras etapas. Las posiciones de medición y las advertencias deben interpretarse en contexto.",
+    "audio": "audio/growth-history.wav",
+    "durationMs": 9729,
+    "startMs": 595250,
+    "endMs": 604979
+  },
+  {
+    "scene_id": "10-prescriptions",
+    "voice_segment": "rx-open",
+    "text": "Recetas y Órdenes permite preparar documentos y consultar su historial. Los ejemplos de este tutorial no tienen validez médica.",
+    "audio": "audio/rx-open.wav",
+    "durationMs": 8382,
+    "startMs": 607050,
+    "endMs": 615432
+  },
+  {
+    "scene_id": "10-prescriptions",
+    "voice_segment": "rx-medication",
+    "text": "Agregamos una línea ficticia para mostrar los campos: medicamento, presentación, frecuencia, vía e indicaciones.",
+    "audio": "audio/rx-medication.wav",
+    "durationMs": 8475,
+    "startMs": 617933,
+    "endMs": 626408
+  },
+  {
+    "scene_id": "10-prescriptions",
+    "voice_segment": "rx-add-remove",
+    "text": "Agregar incorpora la línea al documento. Quitar la retira del borrador, antes de guardar o emitir.",
+    "audio": "audio/rx-add-remove.wav",
+    "durationMs": 7187,
+    "startMs": 628717,
+    "endMs": 635904
+  },
+  {
+    "scene_id": "10-prescriptions",
+    "voice_segment": "rx-save",
+    "text": "Completamos diagnóstico e indicaciones generales y guardamos en el historial. Verificamos la aparición del documento.",
+    "audio": "audio/rx-save.wav",
+    "durationMs": 7872,
+    "startMs": 638483,
+    "endMs": 646355
+  },
+  {
+    "scene_id": "10-prescriptions",
+    "voice_segment": "rx-study",
+    "text": "La modalidad Orden de estudios utiliza su propia lista. Agregamos un estudio ficticio y una especificación de demostración.",
+    "audio": "audio/rx-study.wav",
+    "durationMs": 9358,
+    "startMs": 649283,
+    "endMs": 658641
+  },
+  {
+    "scene_id": "10-prescriptions",
+    "voice_segment": "rx-print",
+    "text": "La impresión genera un documento real con los datos guardados. Revisalo antes de usar las opciones del visor o enviarlo a imprimir.",
+    "audio": "audio/rx-print.wav",
+    "durationMs": 7895,
+    "startMs": 660067,
+    "endMs": 667962
+  },
+  {
+    "scene_id": "11-studies",
+    "voice_segment": "studies-open",
+    "text": "Estudios realizados guarda los archivos adjuntos a la ficha. Usamos un documento sintético, sin imágenes ni estudios de personas reales.",
+    "audio": "audio/studies-open.wav",
+    "durationMs": 9776,
+    "startMs": 672000,
+    "endMs": 681776
+  },
+  {
+    "scene_id": "11-studies",
+    "voice_segment": "studies-upload",
+    "text": "Seleccionamos el archivo, asignamos un nombre clínico para identificarlo y agregamos una descripción antes de subirlo.",
+    "audio": "audio/studies-upload.wav",
+    "durationMs": 8359,
+    "startMs": 683767,
+    "endMs": 692126
+  },
+  {
+    "scene_id": "11-studies",
+    "voice_segment": "studies-preview",
+    "text": "Cuando finaliza la carga, abrimos la vista previa y comprobamos el contenido. El nombre del estudio se distingue del nombre del archivo.",
+    "audio": "audio/studies-preview.wav",
+    "durationMs": 10043,
+    "startMs": 694533,
+    "endMs": 704576
+  },
+  {
+    "scene_id": "11-studies",
+    "voice_segment": "studies-download",
+    "text": "La descarga recupera el archivo protegido. Una eliminación requiere revisar la confirmación para evitar quitar un adjunto por error.",
+    "audio": "audio/studies-download.wav",
+    "durationMs": 9218,
+    "startMs": 706333,
+    "endMs": 715551
+  },
+  {
+    "scene_id": "12-calendar-profile",
+    "voice_segment": "calendar-open",
+    "text": "El calendario general permite consultar las columnas por edad. Las referencias amplían la información de cada aplicación.",
+    "audio": "audio/calendar-open.wav",
+    "durationMs": 8522,
+    "startMs": 717133,
+    "endMs": 725655
+  },
+  {
+    "scene_id": "12-calendar-profile",
+    "voice_segment": "calendar-reference",
+    "text": "Nos desplazamos por la tabla y abrimos una referencia. Confirmá siempre la información vigente antes de una decisión clínica.",
+    "audio": "audio/calendar-reference.wav",
+    "durationMs": 8661,
+    "startMs": 727917,
+    "endMs": 736578
+  },
+  {
+    "scene_id": "12-calendar-profile",
+    "voice_segment": "preferences-theme",
+    "text": "Los controles superiores permiten cambiar el tema y el tamaño del texto. Elegí una presentación cómoda para tu consulta.",
+    "audio": "audio/preferences-theme.wav",
+    "durationMs": 8557,
+    "startMs": 738700,
+    "endMs": 747257
+  },
+  {
+    "scene_id": "12-calendar-profile",
+    "voice_segment": "profile-open",
+    "text": "Perfil profesional muestra la identidad de esta cuenta, su especialidad y los datos profesionales disponibles.",
+    "audio": "audio/profile-open.wav",
+    "durationMs": 7755,
+    "startMs": 749600,
+    "endMs": 757355
+  },
+  {
+    "scene_id": "12-calendar-profile",
+    "voice_segment": "profile-personalize",
+    "text": "Personalizar Fichas permite volver al asistente. Guardar un borrador, aplicarlo y descartarlo son decisiones diferentes.",
+    "audio": "audio/profile-personalize.wav",
+    "durationMs": 8905,
+    "startMs": 759383,
+    "endMs": 768288
+  },
+  {
+    "scene_id": "12-calendar-profile",
+    "voice_segment": "closing",
+    "text": "Para comenzar, configurá tus formularios, creá el paciente y registrá la primera consulta. Revisá siempre la ficha activa antes de guardar.",
+    "audio": "audio/closing.wav",
+    "durationMs": 9996,
+    "startMs": 770150,
+    "endMs": 780146
+  },
+  {
+    "scene_id": "13-productivity",
+    "voice_segment": "extra-dashboard-search",
+    "text": "También podés buscar consultas por paciente, motivo o diagnóstico, cambiar cuántas ves por página y limpiar la búsqueda.",
+    "audio": "audio/extra-dashboard-search.wav",
+    "durationMs": 7953,
+    "startMs": 782933,
+    "endMs": 790886
+  },
+  {
+    "scene_id": "13-productivity",
+    "voice_segment": "extra-dashboard-detail",
+    "text": "Desde una consulta reciente abrís su detalle o la ficha. Los accesos vuelven al mismo registro que seleccionaste.",
+    "audio": "audio/extra-dashboard-detail.wav",
+    "durationMs": 7790,
+    "startMs": 795750,
+    "endMs": 803540
+  },
+  {
+    "scene_id": "13-productivity",
+    "voice_segment": "extra-directory-paging",
+    "text": "La búsqueda rápida del panel tiene páginas anteriores y siguientes. El directorio completo usa carga progresiva al desplazarte.",
+    "audio": "audio/extra-directory-paging.wav",
+    "durationMs": 8777,
+    "startMs": 806617,
+    "endMs": 815394
+  },
+  {
+    "scene_id": "13-productivity",
+    "voice_segment": "extra-empty-search",
+    "text": "Una búsqueda sin coincidencias muestra un estado vacío. Restablecer los filtros recupera el listado, sin borrar pacientes.",
+    "audio": "audio/extra-empty-search.wav",
+    "durationMs": 8231,
+    "startMs": 817417,
+    "endMs": 825648
+  },
+  {
+    "scene_id": "13-productivity",
+    "voice_segment": "extra-timeline-expand",
+    "text": "En Historia Clínica, expandir muestra las respuestas de una atención. Expandir todo y colapsar todo permiten comparar varios registros.",
+    "audio": "audio/extra-timeline-expand.wav",
+    "durationMs": 9903,
+    "startMs": 828217,
+    "endMs": 838120
+  },
+  {
+    "scene_id": "13-productivity",
+    "voice_segment": "extra-timeline-presets",
+    "text": "Los filtros de treinta días, noventa días y año actual acotan el historial. Todas vuelve a mostrar las consultas completas.",
+    "audio": "audio/extra-timeline-presets.wav",
+    "durationMs": 8998,
+    "startMs": 840000,
+    "endMs": 848998
+  },
+  {
+    "scene_id": "13-productivity",
+    "voice_segment": "extra-timeline-range",
+    "text": "Podés indicar un rango de fechas con el selector compartido. Limpiar quita ese rango; no cambia las fechas de las consultas.",
+    "audio": "audio/extra-timeline-range.wav",
+    "durationMs": 9520,
+    "startMs": 851783,
+    "endMs": 861303
+  },
+  {
+    "scene_id": "13-productivity",
+    "voice_segment": "extra-nav",
+    "text": "El menú lateral se puede colapsar y expandir. Para cambiar de paciente, volvé al directorio y abrí la ficha correcta.",
+    "audio": "audio/extra-nav.wav",
+    "durationMs": 8731,
+    "startMs": 863533,
+    "endMs": 872264
+  },
+  {
+    "scene_id": "14-editor-advanced",
+    "voice_segment": "extra-editor-begin",
+    "text": "Volvemos al editor con una cuenta que ya atiende. La especialidad está confirmada; la personalización trabaja sobre un borrador.",
+    "audio": "audio/extra-editor-begin.wav",
+    "durationMs": 8858,
+    "startMs": 874383,
+    "endMs": 883241
+  },
+  {
+    "scene_id": "14-editor-advanced",
+    "voice_segment": "extra-editor-category",
+    "text": "Creamos una categoría de prueba. También podemos eliminar una categoría adicional; las categorías protegidas del sistema se conservan.",
+    "audio": "audio/extra-editor-category.wav",
+    "durationMs": 9242,
+    "startMs": 886167,
+    "endMs": 895409
+  },
+  {
+    "scene_id": "14-editor-advanced",
+    "voice_segment": "extra-editor-boolean",
+    "text": "Agregamos una respuesta de sí o no. Otro campo puede depender de esta respuesta para aparecer únicamente cuando corresponde.",
+    "audio": "audio/extra-editor-boolean.wav",
+    "durationMs": 7930,
+    "startMs": 897933,
+    "endMs": 905863
+  },
+  {
+    "scene_id": "14-editor-advanced",
+    "voice_segment": "extra-editor-condition",
+    "text": "La condición vincula un campo con una respuesta previa. Elegimos mostrar la observación cuando la respuesta sea Sí.",
+    "audio": "audio/extra-editor-condition.wav",
+    "durationMs": 7883,
+    "startMs": 909683,
+    "endMs": 917566
+  },
+  {
+    "scene_id": "14-editor-advanced",
+    "voice_segment": "extra-editor-edit",
+    "text": "Editar permite corregir un campo existente del borrador. Cancelar vuelve a la lista sin aplicar esa edición.",
+    "audio": "audio/extra-editor-edit.wav",
+    "durationMs": 7918,
+    "startMs": 921450,
+    "endMs": 929368
+  },
+  {
+    "scene_id": "14-editor-advanced",
+    "voice_segment": "extra-editor-options",
+    "text": "En una lista, agregar y quitar opciones cambia las respuestas disponibles. Revisá etiquetas y valores antes de aplicar el campo.",
+    "audio": "audio/extra-editor-options.wav",
+    "durationMs": 9323,
+    "startMs": 932233,
+    "endMs": 941556
+  },
+  {
+    "scene_id": "14-editor-advanced",
+    "voice_segment": "extra-editor-formula",
+    "text": "Un campo calculado pertenece al formulario. Elegís la operación y el origen de sus entradas; el resultado lo calcula el servidor.",
+    "audio": "audio/extra-editor-formula.wav",
+    "durationMs": 9555,
+    "startMs": 944017,
+    "endMs": 953572
+  },
+  {
+    "scene_id": "14-editor-advanced",
+    "voice_segment": "extra-editor-measurement",
+    "text": "Historia Clínica permite agregar la posición de medición de longitud o estatura. Esta información aporta contexto a las curvas.",
+    "audio": "audio/extra-editor-measurement.wav",
+    "durationMs": 8777,
+    "startMs": 965767,
+    "endMs": 974544
+  },
+  {
+    "scene_id": "14-editor-advanced",
+    "voice_segment": "extra-editor-discard",
+    "text": "Salir conservando borrador permite retomarlo. Descartar edición elimina ese borrador y conserva la configuración activa.",
+    "audio": "audio/extra-editor-discard.wav",
+    "durationMs": 8858,
+    "startMs": 977550,
+    "endMs": 986408
+  },
+  {
+    "scene_id": "15-document-controls",
+    "voice_segment": "extra-rx-lines",
+    "text": "Quitar medicamento retira una línea del borrador. Limpiar formulario vacía la preparación actual; no elimina el historial guardado.",
+    "audio": "audio/extra-rx-lines.wav",
+    "durationMs": 9172,
+    "startMs": 989350,
+    "endMs": 998522
+  },
+  {
+    "scene_id": "15-document-controls",
+    "voice_segment": "extra-rx-study",
+    "text": "Las sugerencias de estudios completan una línea que todavía podés revisar o quitar antes de guardar.",
+    "audio": "audio/extra-rx-study.wav",
+    "durationMs": 6699,
+    "startMs": 1001350,
+    "endMs": 1008049
+  },
+  {
+    "scene_id": "15-document-controls",
+    "voice_segment": "extra-document-view",
+    "text": "Abrimos un documento generado por DoctorChart. El visor permite revisar su contenido real antes de descargar o imprimir.",
+    "audio": "audio/extra-document-view.wav",
+    "durationMs": 8139,
+    "startMs": 1012150,
+    "endMs": 1020289
+  },
+  {
+    "scene_id": "15-document-controls",
+    "voice_segment": "extra-rx-delete",
+    "text": "Eliminar registro quita ese documento del historial. Revisá su identidad antes de usar este control; en este ejemplo retiramos sólo un documento ficticio.",
+    "audio": "audio/extra-rx-delete.wav",
+    "durationMs": 10995,
+    "startMs": 1024933,
+    "endMs": 1035928
+  },
+  {
+    "scene_id": "15-document-controls",
+    "voice_segment": "extra-study-picker",
+    "text": "Podés cambiar o quitar el archivo seleccionado antes de subirlo. El nombre clínico se completa por separado.",
+    "audio": "audio/extra-study-picker.wav",
+    "durationMs": 7396,
+    "startMs": 1037717,
+    "endMs": 1045113
+  },
+  {
+    "scene_id": "15-document-controls",
+    "voice_segment": "extra-study-delete",
+    "text": "Cerrar vista vuelve al historial. Eliminar estudio pide confirmación; conservá el archivo si no querés quitarlo.",
+    "audio": "audio/extra-study-delete.wav",
+    "durationMs": 8591,
+    "startMs": 1048500,
+    "endMs": 1057091
+  },
+  {
+    "scene_id": "15-document-controls",
+    "voice_segment": "extra-vaccine-date",
+    "text": "Una aplicación registrada permite corregir su fecha. El calendario guarda la modificación y actualiza el estado del paciente.",
+    "audio": "audio/extra-vaccine-date.wav",
+    "durationMs": 9509,
+    "startMs": 1060283,
+    "endMs": 1069792
+  },
+  {
+    "scene_id": "15-document-controls",
+    "voice_segment": "extra-calendar-details",
+    "text": "Las referencias del calendario amplían las patologías prevenidas y las condiciones de aplicación. Abrimos las dos secciones.",
+    "audio": "audio/extra-calendar-details.wav",
+    "durationMs": 8754,
+    "startMs": 1072117,
+    "endMs": 1080871
+  },
+  {
+    "scene_id": "16-growth-review",
+    "voice_segment": "extra-growth-points",
+    "text": "Cada punto representa una medición guardada. Al seleccionarlo, la aplicación muestra sus datos y su referencia.",
+    "audio": "audio/extra-growth-points.wav",
+    "durationMs": 7465,
+    "startMs": 1083883,
+    "endMs": 1091348
+  },
+  {
+    "scene_id": "16-growth-review",
+    "voice_segment": "extra-growth-table",
+    "text": "El detalle permite revisar fechas, valores y mediciones sin depender sólo de la posición de los puntos en el gráfico.",
+    "audio": "audio/extra-growth-table.wav",
+    "durationMs": 7988,
+    "startMs": 1095683,
+    "endMs": 1103671
+  },
+  {
+    "scene_id": "16-growth-review",
+    "voice_segment": "extra-growth-context",
+    "text": "Abrimos ahora otra ficha DEMO. La edad y el sexo de referencia cambian las láminas disponibles, sin cambiar de especialidad.",
+    "audio": "audio/extra-growth-context.wav",
+    "durationMs": 9834,
+    "startMs": 1107517,
+    "endMs": 1117351
+  },
+  {
+    "scene_id": "16-growth-review",
+    "voice_segment": "extra-growth-reference",
+    "text": "Cuando el sexo de referencia no está identificado, la vista solicita confirmación. Esa elección es local a esta vista y no modifica la ficha.",
+    "audio": "audio/extra-growth-reference.wav",
+    "durationMs": 10008,
+    "startMs": 1119300,
+    "endMs": 1129308
+  },
+  {
+    "scene_id": "16-growth-review",
+    "voice_segment": "extra-growth-reset",
+    "text": "Revisar referencia confirmada permite volver a elegir. Al terminar, conservamos los datos originales del paciente de prueba.",
+    "audio": "audio/extra-growth-reset.wav",
+    "durationMs": 8568,
+    "startMs": 1132083,
+    "endMs": 1140651
+  },
+  {
+    "scene_id": "17-conflicts-and-session",
+    "voice_segment": "extra-conflict-patient",
+    "text": "Si la ficha cambia en otra ventana, DoctorChart conserva tus respuestas locales y pide revisar la copia del servidor antes de guardar.",
+    "audio": "audio/extra-conflict-patient.wav",
+    "durationMs": 9137,
+    "startMs": 1142867,
+    "endMs": 1152004
+  },
+  {
+    "scene_id": "17-conflicts-and-session",
+    "voice_segment": "extra-conflict-review",
+    "text": "Consultar la copia guardada permite compararla. Adoptarla descarta expresamente la edición local; revisá esa decisión antes de continuar.",
+    "audio": "audio/extra-conflict-review.wav",
+    "durationMs": 10066,
+    "startMs": 1155650,
+    "endMs": 1165716
+  },
+  {
+    "scene_id": "17-conflicts-and-session",
+    "voice_segment": "extra-encounter-cancel",
+    "text": "Cancelar edición conserva la consulta guardada. Volver desde una historia nueva sin guardarla tampoco crea una atención.",
+    "audio": "audio/extra-encounter-cancel.wav",
+    "durationMs": 8417,
+    "startMs": 1168417,
+    "endMs": 1176834
+  },
+  {
+    "scene_id": "17-conflicts-and-session",
+    "voice_segment": "extra-encounter-delete",
+    "text": "Eliminar una consulta requiere revisar su confirmación. En este ejemplo se elimina exclusivamente un control ficticio de demostración.",
+    "audio": "audio/extra-encounter-delete.wav",
+    "durationMs": 9462,
+    "startMs": 1180183,
+    "endMs": 1189645
+  },
+  {
+    "scene_id": "17-conflicts-and-session",
+    "voice_segment": "extra-session-close",
+    "text": "Al terminar de atender, cerrá la sesión desde el perfil o el menú de cuenta. Comprobamos que volvemos a la pantalla de acceso.",
+    "audio": "audio/extra-session-close.wav",
+    "durationMs": 8115,
+    "startMs": 1192933,
+    "endMs": 1201048
+  },
+  {
+    "scene_id": "18-shortcuts-and-output",
+    "voice_segment": "more-dashboard-links",
+    "text": "Desde Inicio, las próximas consultas abren la ficha indicada. También podés entrar a una ficha desde los últimos pacientes atendidos.",
+    "audio": "audio/more-dashboard-links.wav",
+    "durationMs": 9427,
+    "startMs": 1204733,
+    "endMs": 1214160
+  },
+  {
+    "scene_id": "18-shortcuts-and-output",
+    "voice_segment": "more-dashboard-paging",
+    "text": "Los números de página recorren las últimas atenciones. Ver historial completo abre la lista general de consultas.",
+    "audio": "audio/more-dashboard-paging.wav",
+    "durationMs": 7848,
+    "startMs": 1217533,
+    "endMs": 1225381
+  },
+  {
+    "scene_id": "18-shortcuts-and-output",
+    "voice_segment": "more-encounter-links",
+    "text": "En el historial, el nombre lleva a la ficha. Ver Detalle abre el contenido completo de esa consulta; Ficha vuelve al paciente.",
+    "audio": "audio/more-encounter-links.wav",
+    "durationMs": 9183,
+    "startMs": 1229333,
+    "endMs": 1238516
+  },
+  {
+    "scene_id": "18-shortcuts-and-output",
+    "voice_segment": "more-summary-edit",
+    "text": "El resumen también tiene un acceso a Editar datos. Volver a la ficha cancela este recorrido sin guardar cambios.",
+    "audio": "audio/more-summary-edit.wav",
+    "durationMs": 8104,
+    "startMs": 1243133,
+    "endMs": 1251237
+  },
+  {
+    "scene_id": "18-shortcuts-and-output",
+    "voice_segment": "more-rx-output",
+    "text": "El formulario permite emitir e imprimir en una sola acción. Revisamos la duración y mostramos el PDF producido por el sistema.",
+    "audio": "audio/more-rx-output.wav",
+    "durationMs": 8568,
+    "startMs": 1254933,
+    "endMs": 1263501
+  },
+  {
+    "scene_id": "18-shortcuts-and-output",
+    "voice_segment": "more-calendar-notes",
+    "text": "Las letras y números del calendario muestran la nota de referencia. Estas aclaraciones amplían la información visible en cada aplicación.",
+    "audio": "audio/more-calendar-notes.wav",
+    "durationMs": 9497,
+    "startMs": 1287617,
+    "endMs": 1297114
+  },
+  {
+    "scene_id": "18-shortcuts-and-output",
+    "voice_segment": "more-profile-return",
+    "text": "Desde el perfil, Volver a Inicio regresa al panel. El menú de cuenta ofrece también Personalizar fichas y consultas y Cerrar sesión.",
+    "audio": "audio/more-profile-return.wav",
+    "durationMs": 9207,
+    "startMs": 1300367,
+    "endMs": 1309574
+  },
+  {
+    "scene_id": "19-connection-recovery",
+    "voice_segment": "recover-dashboard",
+    "text": "Si una carga falla, usá el reintento del bloque afectado. En esta prueba interrumpimos sólo la conexión de demostración y la restablecemos.",
+    "audio": "audio/recover-dashboard.wav",
+    "durationMs": 9044,
+    "startMs": 1313133,
+    "endMs": 1322177
+  },
+  {
+    "scene_id": "19-connection-recovery",
+    "voice_segment": "recover-directory",
+    "text": "El directorio ofrece Reintentar cuando no puede cargar la lista. Al recuperar la conexión vuelven los pacientes guardados.",
+    "audio": "audio/recover-directory.wav",
+    "durationMs": 7488,
+    "startMs": 1326917,
+    "endMs": 1334405
+  },
+  {
+    "scene_id": "19-connection-recovery",
+    "voice_segment": "recover-consultations",
+    "text": "El historial de consultas también permite reintentar la lectura. Esto vuelve a consultar los registros existentes.",
+    "audio": "audio/recover-consultations.wav",
+    "durationMs": 7883,
+    "startMs": 1338700,
+    "endMs": 1346583
+  },
+  {
+    "scene_id": "19-connection-recovery",
+    "voice_segment": "recover-detail",
+    "text": "Si no se pudo abrir el detalle de una consulta, Reintentar vuelve a solicitar esa misma atención.",
+    "audio": "audio/recover-detail.wav",
+    "durationMs": 6432,
+    "startMs": 1350500,
+    "endMs": 1356932
+  },
+  {
+    "scene_id": "19-connection-recovery",
+    "voice_segment": "recover-patient-form",
+    "text": "Un problema al cargar la ficha no obliga a crear otro paciente. Recuperá la conexión y reintentá desde el formulario.",
+    "audio": "audio/recover-patient-form.wav",
+    "durationMs": 8081,
+    "startMs": 1361283,
+    "endMs": 1369364
+  },
+  {
+    "scene_id": "19-connection-recovery",
+    "voice_segment": "recover-growth",
+    "text": "Las curvas ofrecen su propio reintento de carga. Los puntos vuelven a calcularse con las mediciones guardadas.",
+    "audio": "audio/recover-growth.wav",
+    "durationMs": 7419,
+    "startMs": 1373050,
+    "endMs": 1380469
+  },
+  {
+    "scene_id": "19-connection-recovery",
+    "voice_segment": "recover-vaccinations",
+    "text": "En vacunas, Actualizar y reintentar vuelve a cargar el calendario del paciente. Revisá el estado antes de repetir un registro.",
+    "audio": "audio/recover-vaccinations.wav",
+    "durationMs": 9485,
+    "startMs": 1384833,
+    "endMs": 1394318
+  },
+  {
+    "scene_id": "19-connection-recovery",
+    "voice_segment": "recover-prescriptions",
+    "text": "El historial de documentos dispone de Reintentar. La recuperación carga los documentos guardados, sin emitir uno nuevo.",
+    "audio": "audio/recover-prescriptions.wav",
+    "durationMs": 8475,
+    "startMs": 1396600,
+    "endMs": 1405075
+  },
+  {
+    "scene_id": "19-connection-recovery",
+    "voice_segment": "recover-print",
+    "text": "Si falla la generación del PDF, DoctorChart informa el problema. Entendido cierra el aviso; los datos clínicos guardados se conservan.",
+    "audio": "audio/recover-print.wav",
+    "durationMs": 10136,
+    "startMs": 1408383,
+    "endMs": 1418519
+  },
+  {
+    "scene_id": "20-review-configuration-conflicts",
+    "voice_segment": "review-new-patient",
+    "text": "La configuración puede cambiar mientras completás una ficha. Consultar copia del servidor permite revisar el formulario actual antes de continuar.",
+    "audio": "audio/review-new-patient.wav",
+    "durationMs": 10426,
+    "startMs": 1421167,
+    "endMs": 1431593
+  },
+  {
+    "scene_id": "20-review-configuration-conflicts",
+    "voice_segment": "review-new-encounter",
+    "text": "En una consulta nueva se aplica la misma revisión. Se conservan las respuestas compatibles; los cambios se revisan antes de guardar.",
+    "audio": "audio/review-new-encounter.wav",
+    "durationMs": 9648,
+    "startMs": 1434933,
+    "endMs": 1444581
+  },
+  {
+    "scene_id": "20-review-configuration-conflicts",
+    "voice_segment": "review-saved-encounter",
+    "text": "Una consulta editada en dos ventanas también protege su versión. Consultamos la copia del servidor y descartamos explícitamente la edición local.",
+    "audio": "audio/review-saved-encounter.wav",
+    "durationMs": 10089,
+    "startMs": 1448767,
+    "endMs": 1458856
+  },
+  {
+    "scene_id": "20-review-configuration-conflicts",
+    "voice_segment": "review-wizard",
+    "text": "El editor de configuración evita sobrescribir un borrador cambiado en otra ventana. Revisamos la copia guardada antes de adoptarla.",
+    "audio": "audio/review-wizard.wav",
+    "durationMs": 9044,
+    "startMs": 1462550,
+    "endMs": 1471594
+  },
+  {
+    "scene_id": "21-onboarding-draft-session",
+    "voice_segment": "draft-specialty-session",
+    "text": "Antes de elegir especialidad también podés cerrar la sesión. Volvemos a ingresar con esta cuenta adicional de demostración.",
+    "audio": "audio/draft-specialty-session.wav",
+    "durationMs": 7906,
+    "startMs": 1476333,
+    "endMs": 1484239
+  },
+  {
+    "scene_id": "21-onboarding-draft-session",
+    "voice_segment": "draft-wizard-steps",
+    "text": "Siguiente y Anterior recorren las categorías habilitadas. Revisar la selección vuelve al paso de especialidad dentro de la configuración.",
+    "audio": "audio/draft-wizard-steps.wav",
+    "durationMs": 9497,
+    "startMs": 1488133,
+    "endMs": 1497630
+  },
+  {
+    "scene_id": "21-onboarding-draft-session",
+    "voice_segment": "draft-save-signout",
+    "text": "Guardar y cerrar sesión conserva el borrador del asistente. Al ingresar otra vez retomamos la configuración pendiente.",
+    "audio": "audio/draft-save-signout.wav",
+    "durationMs": 8034,
+    "startMs": 1501917,
+    "endMs": 1509951
+  },
+  {
+    "scene_id": "22-contexts-and-recovery",
+    "voice_segment": "edge-timeout",
+    "text": "Si una lectura demora demasiado, aparece un aviso de conexión. Entendido cierra el aviso; revisá el estado antes de repetir una operación.",
+    "audio": "audio/edge-timeout.wav",
+    "durationMs": 10681,
+    "startMs": 1515717,
+    "endMs": 1526398
+  },
+  {
+    "scene_id": "22-contexts-and-recovery",
+    "voice_segment": "edge-dashboard-directory",
+    "text": "Inicio ofrece dos accesos al directorio: el indicador de pacientes y la acción rápida. Los dos llevan a la misma lista.",
+    "audio": "audio/edge-dashboard-directory.wav",
+    "durationMs": 8870,
+    "startMs": 1528500,
+    "endMs": 1537370
+  },
+  {
+    "scene_id": "22-contexts-and-recovery",
+    "voice_segment": "edge-no-selection",
+    "text": "Cuando no hay un paciente seleccionado, podés ir al directorio o abrir el formulario de un paciente nuevo.",
+    "audio": "audio/edge-no-selection.wav",
+    "durationMs": 6618,
+    "startMs": 1541317,
+    "endMs": 1547935
+  },
+  {
+    "scene_id": "22-contexts-and-recovery",
+    "voice_segment": "edge-empty-history",
+    "text": "Una ficha sin atenciones permite iniciar su primera historia desde el encabezado o desde el estado vacío.",
+    "audio": "audio/edge-empty-history.wav",
+    "durationMs": 7837,
+    "startMs": 1553100,
+    "endMs": 1560937
+  },
+  {
+    "scene_id": "22-contexts-and-recovery",
+    "voice_segment": "edge-empty-filter",
+    "text": "Si un rango de fechas no devuelve registros, Quitar filtro de fechas recupera la historia completa. No elimina consultas.",
+    "audio": "audio/edge-empty-filter.wav",
+    "durationMs": 9950,
+    "startMs": 1564867,
+    "endMs": 1574817
+  },
+  {
+    "scene_id": "22-contexts-and-recovery",
+    "voice_segment": "edge-growth-frame",
+    "text": "Este caso ficticio incluye un punto fuera del marco de impresión. Ampliar ejes permite verlo; Volver al marco del PDF restaura la presentación.",
+    "audio": "audio/edge-growth-frame.wav",
+    "durationMs": 10612,
+    "startMs": 1576667,
+    "endMs": 1587279
+  },
+  {
+    "scene_id": "22-contexts-and-recovery",
+    "voice_segment": "edge-growth-source",
+    "text": "Fuente oficial abre el documento de referencia de la curva. Es la fuente enlazada por esta versión de DoctorChart.",
+    "audio": "audio/edge-growth-source.wav",
+    "durationMs": 7419,
+    "startMs": 1589450,
+    "endMs": 1596869
+  },
+  {
+    "scene_id": "22-contexts-and-recovery",
+    "voice_segment": "edge-current-vaccine",
+    "text": "Las dosis que corresponden ahora también permiten registrar su aplicación. En esta prueba ficticia comprobamos y deshacemos esa marca.",
+    "audio": "audio/edge-current-vaccine.wav",
+    "durationMs": 9334,
+    "startMs": 1602217,
+    "endMs": 1611551
+  },
+  {
+    "scene_id": "22-contexts-and-recovery",
+    "voice_segment": "edge-pdf-study",
+    "text": "También se puede adjuntar un PDF. Guardamos un documento DEMO, descargamos el archivo y lo abrimos en el visor del navegador.",
+    "audio": "audio/edge-pdf-study.wav",
+    "durationMs": 8626,
+    "startMs": 1615000,
+    "endMs": 1623626
+  },
+  {
+    "scene_id": "22-contexts-and-recovery",
+    "voice_segment": "edge-shell-retry",
+    "text": "Si falla la carga inicial de la cuenta, Reintentar permite recuperarla. Cerrar sesión también está disponible en esa pantalla.",
+    "audio": "audio/edge-shell-retry.wav",
+    "durationMs": 8963,
+    "startMs": 1633217,
+    "endMs": 1642180
+  },
+  {
+    "scene_id": "23-selection-recovery",
+    "voice_segment": "edge-specialty-retry",
+    "text": "Si no se pudo cargar la lista de especialidades, Intentar cargar nuevamente vuelve a consultar el catálogo disponible.",
+    "audio": "audio/edge-specialty-retry.wav",
+    "durationMs": 7814,
+    "startMs": 1646983,
+    "endMs": 1654797
+  },
+  {
+    "scene_id": "23-selection-recovery",
+    "voice_segment": "edge-specialty-conflict",
+    "text": "Si la configuración cambió en otra sesión, Volver a cargar la configuración recupera su versión actual antes de confirmar.",
+    "audio": "audio/edge-specialty-conflict.wav",
+    "durationMs": 7941,
+    "startMs": 1658733,
+    "endMs": 1666674
+  },
+  {
+    "scene_id": "23-selection-recovery",
+    "voice_segment": "edge-login-home",
+    "text": "La flecha de acceso vuelve a la portada. En una página larga, el botón de subir permite recuperar el inicio.",
+    "audio": "audio/edge-login-home.wav",
+    "durationMs": 7837,
+    "startMs": 1671500,
+    "endMs": 1679337
+  }
+]

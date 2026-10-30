@@ -1,0 +1,10 @@
+{
+  "file": "qa\\voice-01-access.wav",
+  "scene": "01-access",
+  "actual_mixed_timeline": true,
+  "codec": "pcm_s16le",
+  "sample_rate": "48000",
+  "channels": 2,
+  "duration": "39.700000",
+  "review": "Isolated continuous timeline mix for listening; compare with Studio playback. No audio resynthesis or inferred quality judgement."
+}

@@ -1,0 +1,59 @@
+{
+  "results": [
+    {
+      "name": "owned-container-identities",
+      "status": "PASS",
+      "detail": true
+    },
+    {
+      "name": "real-auth-health",
+      "status": "PASS",
+      "detail": {
+        "status": 200
+      }
+    },
+    {
+      "name": "real-auth-jwks",
+      "status": "PASS",
+      "detail": {
+        "status": 200
+      }
+    },
+    {
+      "name": "real-billing-limits",
+      "status": "PASS",
+      "detail": {
+        "status": 200
+      }
+    },
+    {
+      "name": "real-frontend",
+      "status": "PASS",
+      "detail": {
+        "status": 200
+      }
+    },
+    {
+      "name": "gateway-rejects-unauthenticated",
+      "status": "PASS",
+      "detail": {
+        "unauthenticated_status": 401
+      }
+    },
+    {
+      "name": "B-login-and-workspace",
+      "status": "PASS",
+      "detail": {
+        "completed": true
+      }
+    },
+    {
+      "name": "B-directory-data",
+      "status": "PASS",
+      "detail": {
+        "retrieved_count": 10
+      }
+    }
+  ],
+  "status": "PASS"
+}

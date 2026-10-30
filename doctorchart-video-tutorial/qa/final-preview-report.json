@@ -1,0 +1,68 @@
+{
+  "status": "PREVIEW_READY_FOR_USER_REVIEW",
+  "main_seconds": 782.9166666666666,
+  "complement_seconds": 901.4333333333333,
+  "total_seconds": 1684.35,
+  "chapters": 23,
+  "voice_segments": 144,
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "coverage": {
+    "CAPTURED": 223,
+    "OUT_OF_SCOPE": 61,
+    "DISABLED": 80,
+    "BLOCKED": 2
+  },
+  "full_coverage": false,
+  "checks": [
+    {
+      "name": "Código de los cinco servicios/productos y copia del frontend sin cambios",
+      "pass": true
+    },
+    {
+      "name": "Geometría nativa, reloj, audio y subtítulos",
+      "pass": true
+    },
+    {
+      "name": "Fuente original sin tramos negros y con capturas de OBS por beat",
+      "pass": true
+    },
+    {
+      "name": "Movimiento original: seis capítulos con prueba contra duplicación de 30 FPS",
+      "pass": true
+    },
+    {
+      "name": "Guards de médico, administración y cuenta sin plan",
+      "pass": true
+    },
+    {
+      "name": "Stills de la timeline actual y borrador renderizado",
+      "pass": true
+    },
+    {
+      "name": "Continuidad del AAC frente a mezcla lossless independiente",
+      "pass": true
+    },
+    {
+      "name": "Matriz y 23 capítulos enlazados, sin referencias pendientes",
+      "pass": true
+    }
+  ],
+  "blocked": [
+    {
+      "feature_id": "DCV-071",
+      "subfuncion": "Volver a cargar",
+      "source_file": "src/app/features/encounter-form/encounter-form.component.html:136",
+      "reason": "El guard exige workspace completo y definición antes de montar este formulario; loadForm usa la copia ya cargada. No se fuerza un estado interno inválido para hacer aparecer el botón."
+    },
+    {
+      "feature_id": "DCV-154",
+      "subfuncion": "Intentar cargar nuevamente",
+      "source_file": "src/app/features/onboarding/onboarding-wizard/onboarding-wizard.component.html:86",
+      "reason": "El fallo inicial de workspace se captura en el guard/shell antes del wizard; una vez cargado, loadInitial utiliza la copia del store. Se acredita el reintento real del shell y se conserva esta rama defensiva como no reproducida."
+    }
+  ],
+  "master_approval": "Pending user approval of complete preview; initial 20-second voice sample continuity confirmed by user.",
+  "final_master_created": false
+}

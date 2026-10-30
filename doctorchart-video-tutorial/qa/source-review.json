@@ -1,0 +1,282 @@
+{
+  "status": "PASS",
+  "method": "Decode trimmed original source; detect nearly uniform encoded black lasting >=50ms. Require exact native BitBlt geometry and per-beat OBS scene screenshots. FPS/motion is reviewed separately.",
+  "results": [
+    {
+      "scene": "01-access",
+      "file": "recordings/01-access-1793325967938.mkv",
+      "status": "PASS",
+      "nativeCapture": true,
+      "nativeImages": true,
+      "blackIntervals": [],
+      "obs_stats": {
+        "renderSkippedFrames": 0,
+        "outputSkippedFrames": 0
+      }
+    },
+    {
+      "scene": "02-specialty",
+      "file": "recordings/02-specialty-1793325991518.mkv",
+      "status": "PASS",
+      "nativeCapture": true,
+      "nativeImages": true,
+      "blackIntervals": [],
+      "obs_stats": {
+        "renderSkippedFrames": 0,
+        "outputSkippedFrames": 0
+      }
+    },
+    {
+      "scene": "03-onboarding",
+      "file": "recordings/03-onboarding-1793326181611.mkv",
+      "status": "PASS",
+      "nativeCapture": true,
+      "nativeImages": true,
+      "blackIntervals": [],
+      "obs_stats": {
+        "renderSkippedFrames": 0,
+        "outputSkippedFrames": 0
+      }
+    },
+    {
+      "scene": "04-dashboard",
+      "file": "recordings/04-dashboard-1793326537984.mkv",
+      "status": "PASS",
+      "nativeCapture": true,
+      "nativeImages": true,
+      "blackIntervals": [],
+      "obs_stats": {
+        "renderSkippedFrames": 0,
+        "outputSkippedFrames": 0
+      }
+    },
+    {
+      "scene": "05-directory",
+      "file": "recordings/05-directory-1793326583297.mkv",
+      "status": "PASS",
+      "nativeCapture": true,
+      "nativeImages": true,
+      "blackIntervals": [],
+      "obs_stats": {
+        "renderSkippedFrames": 0,
+        "outputSkippedFrames": 0
+      }
+    },
+    {
+      "scene": "06-new-patient",
+      "file": "recordings/06-new-patient-1793326660917.mkv",
+      "status": "PASS",
+      "nativeCapture": true,
+      "nativeImages": true,
+      "blackIntervals": [],
+      "obs_stats": {
+        "renderSkippedFrames": 0,
+        "outputSkippedFrames": 0
+      }
+    },
+    {
+      "scene": "07-encounters",
+      "file": "recordings/07-encounters-1793326763061.mkv",
+      "status": "PASS",
+      "nativeCapture": true,
+      "nativeImages": true,
+      "blackIntervals": [],
+      "obs_stats": {
+        "renderSkippedFrames": 0,
+        "outputSkippedFrames": 0
+      }
+    },
+    {
+      "scene": "08-vaccination",
+      "file": "recordings/08-vaccination-1793326798656.mkv",
+      "status": "PASS",
+      "nativeCapture": true,
+      "nativeImages": true,
+      "blackIntervals": [],
+      "obs_stats": {
+        "renderSkippedFrames": 0,
+        "outputSkippedFrames": 0
+      }
+    },
+    {
+      "scene": "09-growth",
+      "file": "recordings/09-growth-1793326847048.mkv",
+      "status": "PASS",
+      "nativeCapture": true,
+      "nativeImages": true,
+      "blackIntervals": [],
+      "obs_stats": {
+        "renderSkippedFrames": 0,
+        "outputSkippedFrames": 0
+      }
+    },
+    {
+      "scene": "10-prescriptions",
+      "file": "recordings/10-prescriptions-1793327132437.mkv",
+      "status": "PASS",
+      "nativeCapture": true,
+      "nativeImages": true,
+      "blackIntervals": [],
+      "obs_stats": {
+        "renderSkippedFrames": 2,
+        "outputSkippedFrames": 2
+      }
+    },
+    {
+      "scene": "11-studies",
+      "file": "recordings/11-studies-1793327180595.mkv",
+      "status": "PASS",
+      "nativeCapture": true,
+      "nativeImages": true,
+      "blackIntervals": [],
+      "obs_stats": {
+        "renderSkippedFrames": 0,
+        "outputSkippedFrames": 0
+      }
+    },
+    {
+      "scene": "12-calendar-profile",
+      "file": "recordings/12-calendar-profile-1793327249545.mkv",
+      "status": "PASS",
+      "nativeCapture": true,
+      "nativeImages": true,
+      "blackIntervals": [],
+      "obs_stats": {
+        "renderSkippedFrames": 0,
+        "outputSkippedFrames": 0
+      }
+    },
+    {
+      "scene": "13-productivity",
+      "file": "recordings/13-productivity-1793327344143.mkv",
+      "status": "PASS",
+      "nativeCapture": true,
+      "nativeImages": true,
+      "blackIntervals": [],
+      "obs_stats": {
+        "renderSkippedFrames": 0,
+        "outputSkippedFrames": 0
+      }
+    },
+    {
+      "scene": "14-editor-advanced",
+      "file": "recordings/14-editor-advanced-1793327462262.mkv",
+      "status": "PASS",
+      "nativeCapture": true,
+      "nativeImages": true,
+      "blackIntervals": [],
+      "obs_stats": {
+        "renderSkippedFrames": 0,
+        "outputSkippedFrames": 0
+      }
+    },
+    {
+      "scene": "15-document-controls",
+      "file": "recordings/15-document-controls-1793327559934.mkv",
+      "status": "PASS",
+      "nativeCapture": true,
+      "nativeImages": true,
+      "blackIntervals": [],
+      "obs_stats": {
+        "renderSkippedFrames": 2,
+        "outputSkippedFrames": 2
+      }
+    },
+    {
+      "scene": "16-growth-review",
+      "file": "recordings/16-growth-review-1793327622011.mkv",
+      "status": "PASS",
+      "nativeCapture": true,
+      "nativeImages": true,
+      "blackIntervals": [],
+      "obs_stats": {
+        "renderSkippedFrames": 0,
+        "outputSkippedFrames": 0
+      }
+    },
+    {
+      "scene": "17-conflicts-and-session",
+      "file": "recordings/17-conflicts-and-session-1793328091878.mkv",
+      "status": "PASS",
+      "nativeCapture": true,
+      "nativeImages": true,
+      "blackIntervals": [],
+      "obs_stats": {
+        "renderSkippedFrames": 0,
+        "outputSkippedFrames": 0
+      }
+    },
+    {
+      "scene": "18-shortcuts-and-output",
+      "file": "recordings/18-shortcuts-and-output-1793328204471.mkv",
+      "status": "PASS",
+      "nativeCapture": true,
+      "nativeImages": true,
+      "blackIntervals": [],
+      "obs_stats": {
+        "renderSkippedFrames": 2,
+        "outputSkippedFrames": 2
+      }
+    },
+    {
+      "scene": "19-connection-recovery",
+      "file": "recordings/19-connection-recovery-1793328316646.mkv",
+      "status": "PASS",
+      "nativeCapture": true,
+      "nativeImages": true,
+      "blackIntervals": [],
+      "obs_stats": {
+        "renderSkippedFrames": 0,
+        "outputSkippedFrames": 0
+      }
+    },
+    {
+      "scene": "20-review-configuration-conflicts",
+      "file": "recordings/20-review-configuration-conflicts-1793328374879.mkv",
+      "status": "PASS",
+      "nativeCapture": true,
+      "nativeImages": true,
+      "blackIntervals": [],
+      "obs_stats": {
+        "renderSkippedFrames": 0,
+        "outputSkippedFrames": 0
+      }
+    },
+    {
+      "scene": "21-onboarding-draft-session",
+      "file": "recordings/21-onboarding-draft-session-1793328420045.mkv",
+      "status": "PASS",
+      "nativeCapture": true,
+      "nativeImages": true,
+      "blackIntervals": [],
+      "obs_stats": {
+        "renderSkippedFrames": 0,
+        "outputSkippedFrames": 0
+      }
+    },
+    {
+      "scene": "22-contexts-and-recovery",
+      "file": "recordings/22-contexts-and-recovery-1793328820429.mkv",
+      "status": "PASS",
+      "nativeCapture": true,
+      "nativeImages": true,
+      "blackIntervals": [],
+      "obs_stats": {
+        "renderSkippedFrames": 0,
+        "outputSkippedFrames": 0
+      }
+    },
+    {
+      "scene": "23-selection-recovery",
+      "file": "recordings/23-selection-recovery-1793328862794.mkv",
+      "status": "PASS",
+      "nativeCapture": true,
+      "nativeImages": true,
+      "blackIntervals": [],
+      "obs_stats": {
+        "renderSkippedFrames": 0,
+        "outputSkippedFrames": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "source": ".local/ai-render/narration.wav",
+  "method": "FFmpeg loudnorm analysis; input measurements, no additional normalization applied",
+  "integratedLUFS": -16.26,
+  "truePeakDBTP": -4.44,
+  "loudnessRangeLU": 2.1,
+  "status": "PASS"
+}

@@ -1,0 +1,15 @@
+{
+  "scene_id": "qa-native-motion",
+  "status": "PASS",
+  "sourceFrameRate": "60/1",
+  "method": "Original encoded OBS frames, no fps conversion. Pixel changes in the scrolling UI (cursor excluded). A 60-frame interval must contain >=50 meaningful changes; 30fps doubled cannot pass.",
+  "maximumMeaningfulChangesIn60": 58,
+  "windows": [
+    {
+      "source_start_frame": 19,
+      "source_start_seconds": 0.31666666666666665,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 58
+    }
+  ]
+}

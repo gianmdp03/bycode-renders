@@ -1,0 +1,1370 @@
+{
+  "status": "PASS_WITH_BLOCKED_BRANCHES",
+  "full_coverage": false,
+  "status_counts": {
+    "CAPTURED": 223,
+    "OUT_OF_SCOPE": 61,
+    "DISABLED": 80,
+    "BLOCKED": 2
+  },
+  "invalid_links": [],
+  "matched_evidence": [
+    {
+      "feature_id": "DCV-001",
+      "beatId": "edge-timeout",
+      "scene_id": "22-contexts-and-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-002",
+      "beatId": "edge-login-home",
+      "scene_id": "23-selection-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-022",
+      "beatId": "edge-login-home",
+      "scene_id": "23-selection-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-023",
+      "beatId": "access-signin",
+      "scene_id": "01-access",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-025",
+      "beatId": "access-visibility",
+      "scene_id": "01-access",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-026",
+      "beatId": "access-signin",
+      "scene_id": "01-access",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-032",
+      "beatId": "more-profile-return",
+      "scene_id": "18-shortcuts-and-output",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-033",
+      "beatId": "extra-session-close",
+      "scene_id": "17-conflicts-and-session",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-034",
+      "beatId": "recover-consultations",
+      "scene_id": "19-connection-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-035",
+      "beatId": "more-encounter-links",
+      "scene_id": "18-shortcuts-and-output",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-036",
+      "beatId": "more-encounter-links",
+      "scene_id": "18-shortcuts-and-output",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-037",
+      "beatId": "more-encounter-links",
+      "scene_id": "18-shortcuts-and-output",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-038",
+      "beatId": "encounter-list",
+      "scene_id": "07-encounters",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-039",
+      "beatId": "recover-dashboard",
+      "scene_id": "19-connection-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-040",
+      "beatId": "edge-dashboard-directory",
+      "scene_id": "22-contexts-and-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-041",
+      "beatId": "more-dashboard-paging",
+      "scene_id": "18-shortcuts-and-output",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-042",
+      "beatId": "dashboard-recent",
+      "scene_id": "04-dashboard",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-043",
+      "beatId": "recover-dashboard",
+      "scene_id": "19-connection-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-044",
+      "beatId": "extra-dashboard-detail",
+      "scene_id": "13-productivity",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-045",
+      "beatId": "more-dashboard-links",
+      "scene_id": "18-shortcuts-and-output",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-046",
+      "beatId": "dashboard-recent",
+      "scene_id": "04-dashboard",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-047",
+      "beatId": "more-dashboard-paging",
+      "scene_id": "18-shortcuts-and-output",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-048",
+      "beatId": "dashboard-recent",
+      "scene_id": "04-dashboard",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-049",
+      "beatId": "extra-dashboard-search",
+      "scene_id": "13-productivity",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-050",
+      "beatId": "recover-dashboard",
+      "scene_id": "19-connection-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-051",
+      "beatId": "extra-directory-paging",
+      "scene_id": "13-productivity",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-052",
+      "beatId": "extra-directory-paging",
+      "scene_id": "13-productivity",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-053",
+      "beatId": "extra-directory-paging",
+      "scene_id": "13-productivity",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-054",
+      "beatId": "edge-dashboard-directory",
+      "scene_id": "22-contexts-and-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-055",
+      "beatId": "dashboard-notes",
+      "scene_id": "04-dashboard",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-056",
+      "beatId": "recover-dashboard",
+      "scene_id": "19-connection-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-057",
+      "beatId": "more-dashboard-links",
+      "scene_id": "18-shortcuts-and-output",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-058",
+      "beatId": "more-encounter-links",
+      "scene_id": "18-shortcuts-and-output",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-059",
+      "beatId": "encounter-followup",
+      "scene_id": "07-encounters",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-060",
+      "beatId": "recover-detail",
+      "scene_id": "19-connection-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-061",
+      "beatId": "extra-dashboard-detail",
+      "scene_id": "13-productivity",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-062",
+      "beatId": "review-saved-encounter",
+      "scene_id": "20-review-configuration-conflicts",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-063",
+      "beatId": "review-saved-encounter",
+      "scene_id": "20-review-configuration-conflicts",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-064",
+      "beatId": "extra-encounter-cancel",
+      "scene_id": "17-conflicts-and-session",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-065",
+      "beatId": "encounter-edit",
+      "scene_id": "07-encounters",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-066",
+      "beatId": "encounter-edit",
+      "scene_id": "07-encounters",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-067",
+      "beatId": "review-new-encounter",
+      "scene_id": "20-review-configuration-conflicts",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-068",
+      "beatId": "review-new-encounter",
+      "scene_id": "20-review-configuration-conflicts",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-069",
+      "beatId": "review-new-encounter",
+      "scene_id": "20-review-configuration-conflicts",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-070",
+      "beatId": "encounter-followup",
+      "scene_id": "07-encounters",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-072",
+      "beatId": "extra-encounter-cancel",
+      "scene_id": "17-conflicts-and-session",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-073",
+      "beatId": "encounter-save",
+      "scene_id": "07-encounters",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-074",
+      "beatId": "wizard-system",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-075",
+      "beatId": "wizard-category-order",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-076",
+      "beatId": "wizard-category-order",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-077",
+      "beatId": "wizard-category-order",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-078",
+      "beatId": "wizard-add-category",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-079",
+      "beatId": "extra-editor-category",
+      "scene_id": "14-editor-advanced",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-080",
+      "beatId": "extra-editor-measurement",
+      "scene_id": "14-editor-advanced",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-081",
+      "beatId": "wizard-field-order",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-082",
+      "beatId": "wizard-field-order",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-083",
+      "beatId": "extra-editor-edit",
+      "scene_id": "14-editor-advanced",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-084",
+      "beatId": "wizard-field-order",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-085",
+      "beatId": "wizard-field-order",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-086",
+      "beatId": "wizard-add-field",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-087",
+      "beatId": "extra-editor-edit",
+      "scene_id": "14-editor-advanced",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-088",
+      "beatId": "extra-editor-options",
+      "scene_id": "14-editor-advanced",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-089",
+      "beatId": "wizard-options",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-090",
+      "beatId": "extra-editor-edit",
+      "scene_id": "14-editor-advanced",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-091",
+      "beatId": "wizard-save-field",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-148",
+      "beatId": "wizard-reset-review",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-149",
+      "beatId": "profile-personalize",
+      "scene_id": "12-calendar-profile",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-150",
+      "beatId": "draft-save-signout",
+      "scene_id": "21-onboarding-draft-session",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-151",
+      "beatId": "wizard-orientation",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-152",
+      "beatId": "review-wizard",
+      "scene_id": "20-review-configuration-conflicts",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-153",
+      "beatId": "review-wizard",
+      "scene_id": "20-review-configuration-conflicts",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-155",
+      "beatId": "wizard-reset-review",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-156",
+      "beatId": "wizard-reset-confirm",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-157",
+      "beatId": "profile-personalize",
+      "scene_id": "12-calendar-profile",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-158",
+      "beatId": "extra-editor-discard",
+      "scene_id": "14-editor-advanced",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-159",
+      "beatId": "wizard-categories",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-161",
+      "beatId": "draft-wizard-steps",
+      "scene_id": "21-onboarding-draft-session",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-162",
+      "beatId": "profile-personalize",
+      "scene_id": "12-calendar-profile",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-163",
+      "beatId": "wizard-save-draft",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-164",
+      "beatId": "wizard-finish",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-165",
+      "beatId": "draft-wizard-steps",
+      "scene_id": "21-onboarding-draft-session",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-166",
+      "beatId": "draft-specialty-session",
+      "scene_id": "21-onboarding-draft-session",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-167",
+      "beatId": "edge-specialty-conflict",
+      "scene_id": "23-selection-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-168",
+      "beatId": "specialty-options",
+      "scene_id": "02-specialty",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-169",
+      "beatId": "specialty-confirm",
+      "scene_id": "02-specialty",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-170",
+      "beatId": "edge-specialty-retry",
+      "scene_id": "23-selection-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-171",
+      "beatId": "more-summary-edit",
+      "scene_id": "18-shortcuts-and-output",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-172",
+      "beatId": "extra-conflict-patient",
+      "scene_id": "17-conflicts-and-session",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-173",
+      "beatId": "review-new-patient",
+      "scene_id": "20-review-configuration-conflicts",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-174",
+      "beatId": "extra-conflict-review",
+      "scene_id": "17-conflicts-and-session",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-175",
+      "beatId": "extra-conflict-review",
+      "scene_id": "17-conflicts-and-session",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-176",
+      "beatId": "patient-save",
+      "scene_id": "06-new-patient",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-177",
+      "beatId": "recover-patient-form",
+      "scene_id": "19-connection-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-178",
+      "beatId": "directory-search",
+      "scene_id": "05-directory",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-179",
+      "beatId": "patient-new",
+      "scene_id": "06-new-patient",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-180",
+      "beatId": "directory-filters",
+      "scene_id": "05-directory",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-181",
+      "beatId": "directory-filters",
+      "scene_id": "05-directory",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-182",
+      "beatId": "directory-filters",
+      "scene_id": "05-directory",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-188",
+      "beatId": "recover-directory",
+      "scene_id": "19-connection-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-192",
+      "beatId": "extra-directory-paging",
+      "scene_id": "13-productivity",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-193",
+      "beatId": "extra-empty-search",
+      "scene_id": "13-productivity",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-194",
+      "beatId": "extra-timeline-expand",
+      "scene_id": "13-productivity",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-195",
+      "beatId": "extra-timeline-expand",
+      "scene_id": "13-productivity",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-196",
+      "beatId": "extra-timeline-presets",
+      "scene_id": "13-productivity",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-197",
+      "beatId": "extra-timeline-presets",
+      "scene_id": "13-productivity",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-198",
+      "beatId": "extra-timeline-presets",
+      "scene_id": "13-productivity",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-199",
+      "beatId": "extra-timeline-presets",
+      "scene_id": "13-productivity",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-200",
+      "beatId": "extra-timeline-range",
+      "scene_id": "13-productivity",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-201",
+      "beatId": "edge-empty-history",
+      "scene_id": "22-contexts-and-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-202",
+      "beatId": "edge-empty-filter",
+      "scene_id": "22-contexts-and-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-203",
+      "beatId": "edge-empty-history",
+      "scene_id": "22-contexts-and-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-204",
+      "beatId": "extra-timeline-expand",
+      "scene_id": "13-productivity",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-205",
+      "beatId": "encounter-save",
+      "scene_id": "07-encounters",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-206",
+      "beatId": "encounter-save",
+      "scene_id": "07-encounters",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-207",
+      "beatId": "extra-encounter-delete",
+      "scene_id": "17-conflicts-and-session",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-208",
+      "beatId": "edge-growth-frame",
+      "scene_id": "22-contexts-and-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-209",
+      "beatId": "extra-growth-points",
+      "scene_id": "16-growth-review",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-210",
+      "beatId": "edge-growth-source",
+      "scene_id": "22-contexts-and-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-211",
+      "beatId": "extra-growth-table",
+      "scene_id": "16-growth-review",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-212",
+      "beatId": "extra-directory-paging",
+      "scene_id": "13-productivity",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-213",
+      "beatId": "patient-edit",
+      "scene_id": "06-new-patient",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-214",
+      "beatId": "extra-encounter-delete",
+      "scene_id": "17-conflicts-and-session",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-215",
+      "beatId": "extra-encounter-delete",
+      "scene_id": "17-conflicts-and-session",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-216",
+      "beatId": "recover-growth",
+      "scene_id": "19-connection-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-217",
+      "beatId": "extra-growth-reference",
+      "scene_id": "16-growth-review",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-218",
+      "beatId": "extra-growth-reset",
+      "scene_id": "16-growth-review",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-219",
+      "beatId": "extra-growth-reset",
+      "scene_id": "16-growth-review",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-220",
+      "beatId": "growth-categories",
+      "scene_id": "09-growth",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-221",
+      "beatId": "extra-growth-context",
+      "scene_id": "16-growth-review",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-222",
+      "beatId": "more-rx-output",
+      "scene_id": "18-shortcuts-and-output",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-223",
+      "beatId": "more-rx-output",
+      "scene_id": "18-shortcuts-and-output",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-224",
+      "beatId": "rx-study",
+      "scene_id": "10-prescriptions",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-225",
+      "beatId": "rx-add-remove",
+      "scene_id": "10-prescriptions",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-226",
+      "beatId": "extra-rx-lines",
+      "scene_id": "15-document-controls",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-227",
+      "beatId": "extra-rx-study",
+      "scene_id": "15-document-controls",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-228",
+      "beatId": "rx-study",
+      "scene_id": "10-prescriptions",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-229",
+      "beatId": "extra-rx-study",
+      "scene_id": "15-document-controls",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-230",
+      "beatId": "extra-rx-lines",
+      "scene_id": "15-document-controls",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-231",
+      "beatId": "rx-save",
+      "scene_id": "10-prescriptions",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-232",
+      "beatId": "more-rx-output",
+      "scene_id": "18-shortcuts-and-output",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-233",
+      "beatId": "recover-prescriptions",
+      "scene_id": "19-connection-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-234",
+      "beatId": "rx-print",
+      "scene_id": "10-prescriptions",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-235",
+      "beatId": "extra-rx-delete",
+      "scene_id": "15-document-controls",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-236",
+      "beatId": "encounter-open",
+      "scene_id": "07-encounters",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-237",
+      "beatId": "edge-no-selection",
+      "scene_id": "22-contexts-and-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-238",
+      "beatId": "edge-no-selection",
+      "scene_id": "22-contexts-and-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-239",
+      "beatId": "studies-download",
+      "scene_id": "11-studies",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-240",
+      "beatId": "extra-study-delete",
+      "scene_id": "15-document-controls",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-241",
+      "beatId": "studies-upload",
+      "scene_id": "11-studies",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-242",
+      "beatId": "extra-study-picker",
+      "scene_id": "15-document-controls",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-243",
+      "beatId": "extra-study-picker",
+      "scene_id": "15-document-controls",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-244",
+      "beatId": "studies-upload",
+      "scene_id": "11-studies",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-245",
+      "beatId": "extra-study-delete",
+      "scene_id": "15-document-controls",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-246",
+      "beatId": "studies-download",
+      "scene_id": "11-studies",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-247",
+      "beatId": "studies-preview",
+      "scene_id": "11-studies",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-248",
+      "beatId": "edge-pdf-study",
+      "scene_id": "22-contexts-and-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-249",
+      "beatId": "studies-download",
+      "scene_id": "11-studies",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-250",
+      "beatId": "more-summary-edit",
+      "scene_id": "18-shortcuts-and-output",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-251",
+      "beatId": "recover-vaccinations",
+      "scene_id": "19-connection-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-252",
+      "beatId": "vaccination-undo",
+      "scene_id": "08-vaccination",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-254",
+      "beatId": "calendar-reference",
+      "scene_id": "12-calendar-profile",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-255",
+      "beatId": "more-calendar-notes",
+      "scene_id": "18-shortcuts-and-output",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-256",
+      "beatId": "more-calendar-notes",
+      "scene_id": "18-shortcuts-and-output",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-257",
+      "beatId": "more-calendar-notes",
+      "scene_id": "18-shortcuts-and-output",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-258",
+      "beatId": "extra-calendar-details",
+      "scene_id": "15-document-controls",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-259",
+      "beatId": "extra-calendar-details",
+      "scene_id": "15-document-controls",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-261",
+      "beatId": "preferences-theme",
+      "scene_id": "12-calendar-profile",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-262",
+      "beatId": "profile-open",
+      "scene_id": "12-calendar-profile",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-266",
+      "beatId": "profile-open",
+      "scene_id": "12-calendar-profile",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-267",
+      "beatId": "more-profile-return",
+      "scene_id": "18-shortcuts-and-output",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-268",
+      "beatId": "more-profile-return",
+      "scene_id": "18-shortcuts-and-output",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-275",
+      "beatId": "edge-shell-retry",
+      "scene_id": "22-contexts-and-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-276",
+      "beatId": "edge-shell-retry",
+      "scene_id": "22-contexts-and-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-279",
+      "beatId": "recover-print",
+      "scene_id": "19-connection-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-280",
+      "beatId": "extra-nav",
+      "scene_id": "13-productivity",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-282",
+      "beatId": "extra-nav",
+      "scene_id": "13-productivity",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-283",
+      "beatId": "extra-nav",
+      "scene_id": "13-productivity",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-285",
+      "beatId": "preferences-theme",
+      "scene_id": "12-calendar-profile",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-286",
+      "beatId": "patient-demographics",
+      "scene_id": "06-new-patient",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-292",
+      "beatId": "access-signin",
+      "scene_id": "01-access",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-293",
+      "beatId": "access-signin",
+      "scene_id": "01-access",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-294",
+      "beatId": "encounter-list",
+      "scene_id": "07-encounters",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-295",
+      "beatId": "extra-dashboard-search",
+      "scene_id": "13-productivity",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-296",
+      "beatId": "extra-dashboard-search",
+      "scene_id": "13-productivity",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-297",
+      "beatId": "dashboard-search",
+      "scene_id": "04-dashboard",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-298",
+      "beatId": "dashboard-notes",
+      "scene_id": "04-dashboard",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-299",
+      "beatId": "review-saved-encounter",
+      "scene_id": "20-review-configuration-conflicts",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-300",
+      "beatId": "wizard-add-category",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-301",
+      "beatId": "wizard-add-category",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-302",
+      "beatId": "wizard-add-field",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-303",
+      "beatId": "wizard-field-types",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-304",
+      "beatId": "wizard-add-field",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-305",
+      "beatId": "wizard-number",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-306",
+      "beatId": "wizard-number",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-307",
+      "beatId": "wizard-number",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-308",
+      "beatId": "wizard-options",
+      "scene_id": "03-onboarding",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-309",
+      "beatId": "extra-editor-formula",
+      "scene_id": "14-editor-advanced",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-310",
+      "beatId": "extra-editor-formula",
+      "scene_id": "14-editor-advanced",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-311",
+      "beatId": "extra-editor-formula",
+      "scene_id": "14-editor-advanced",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-312",
+      "beatId": "extra-editor-formula",
+      "scene_id": "14-editor-advanced",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-313",
+      "beatId": "extra-editor-condition",
+      "scene_id": "14-editor-advanced",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-314",
+      "beatId": "extra-editor-condition",
+      "scene_id": "14-editor-advanced",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-344",
+      "beatId": "directory-search",
+      "scene_id": "05-directory",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-345",
+      "beatId": "extra-timeline-range",
+      "scene_id": "13-productivity",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-346",
+      "beatId": "extra-timeline-range",
+      "scene_id": "13-productivity",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-347",
+      "beatId": "growth-history",
+      "scene_id": "09-growth",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-349",
+      "beatId": "rx-medication",
+      "scene_id": "10-prescriptions",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-350",
+      "beatId": "rx-medication",
+      "scene_id": "10-prescriptions",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-351",
+      "beatId": "rx-medication",
+      "scene_id": "10-prescriptions",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-352",
+      "beatId": "rx-medication",
+      "scene_id": "10-prescriptions",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-353",
+      "beatId": "more-rx-output",
+      "scene_id": "18-shortcuts-and-output",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-354",
+      "beatId": "rx-medication",
+      "scene_id": "10-prescriptions",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-355",
+      "beatId": "rx-study",
+      "scene_id": "10-prescriptions",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-356",
+      "beatId": "rx-study",
+      "scene_id": "10-prescriptions",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-357",
+      "beatId": "rx-save",
+      "scene_id": "10-prescriptions",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-358",
+      "beatId": "rx-save",
+      "scene_id": "10-prescriptions",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-359",
+      "beatId": "studies-upload",
+      "scene_id": "11-studies",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-360",
+      "beatId": "studies-upload",
+      "scene_id": "11-studies",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-361",
+      "beatId": "studies-upload",
+      "scene_id": "11-studies",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-362",
+      "beatId": "vaccination-apply",
+      "scene_id": "08-vaccination",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-363",
+      "beatId": "edge-current-vaccine",
+      "scene_id": "22-contexts-and-recovery",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-364",
+      "beatId": "extra-vaccine-date",
+      "scene_id": "15-document-controls",
+      "in_timeline": true
+    },
+    {
+      "feature_id": "DCV-365",
+      "beatId": "vaccination-undo",
+      "scene_id": "08-vaccination",
+      "in_timeline": true
+    }
+  ],
+  "uncovered": [],
+  "blocked": [
+    {
+      "feature_id": "DCV-071",
+      "subfuncion": "Volver a cargar",
+      "source_file": "src/app/features/encounter-form/encounter-form.component.html:136",
+      "reason": "El guard exige workspace completo y definición antes de montar este formulario; loadForm usa la copia ya cargada. No se fuerza un estado interno inválido para hacer aparecer el botón."
+    },
+    {
+      "feature_id": "DCV-154",
+      "subfuncion": "Intentar cargar nuevamente",
+      "source_file": "src/app/features/onboarding/onboarding-wizard/onboarding-wizard.component.html:86",
+      "reason": "El fallo inicial de workspace se captura en el guard/shell antes del wizard; una vez cargado, loadInitial utiliza la copia del store. Se acredita el reintento real del shell y se conserva esta rama defensiva como no reproducida."
+    }
+  ],
+  "captured_chapters": 23,
+  "storyboard_chapters": 23,
+  "timeline_chapters": 23,
+  "acceptance": "No row is marked VERIFIED merely because a test, screenshot or audio file exists. Every pending function remains explicit."
+}

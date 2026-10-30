@@ -1,0 +1,10 @@
+import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';import {spawnSync} from 'node:child_process';import {root} from './browser.mjs';
+const approvalFile=path.join(root,'.local/preview-approval.json');
+if(!fs.existsSync(approvalFile))throw Error('Preview approval is required before the final master.');
+const approval=JSON.parse(fs.readFileSync(approvalFile,'utf8'));const hash=crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'remotion/src/timeline.json'))).digest('hex');
+if(approval.approved!==true||approval.timeline_sha256!==hash||!approval.user_message)throw Error('The approval must refer to this exact preview and record the user approval.');
+const report=JSON.parse(fs.readFileSync(path.join(root,'qa/project-report.json'),'utf8'));if(report.status==='FAIL'||report.timeline_sha256!==hash)throw Error('Current QA must pass before mastering.');
+const composition=approval.composition??'DoctorChart-Tutorial-Preview';
+if(!/^DoctorChart-[A-Za-z-]+$/.test(composition))throw Error('Unknown approved composition');
+const cli=path.join(root,'remotion/node_modules/@remotion/cli/remotion-cli.js');
+const result=spawnSync(process.execPath,[cli,'render','src/index.ts',composition,'../output/DoctorChart-Tutorial-Final.mp4','--codec=h264','--pixel-format=yuv420p','--audio-codec=aac','--audio-bitrate=192k','--crf=17'],{cwd:path.join(root,'remotion'),stdio:'inherit'});if(result.error)throw result.error;process.exitCode=result.status??1;

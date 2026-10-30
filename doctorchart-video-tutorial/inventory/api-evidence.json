@@ -1,0 +1,312 @@
+[
+  {
+    "file": "src/app/core/services/admin-specialty.service.ts",
+    "line": 13,
+    "text": "private readonly baseUrl = `${environment.apiUrl}/admin/specialties`;"
+  },
+  {
+    "file": "src/app/core/services/admin-specialty.service.ts",
+    "line": 16,
+    "text": "return this.http.get<SpecialtyDetail[]>(this.baseUrl);"
+  },
+  {
+    "file": "src/app/core/services/admin-specialty.service.ts",
+    "line": 19,
+    "text": "return this.http.post<SpecialtyDetail>(this.baseUrl, request);"
+  },
+  {
+    "file": "src/app/core/services/admin-specialty.service.ts",
+    "line": 22,
+    "text": "return this.http.patch<SpecialtyDetail>(`${this.baseUrl}/${id}`, request);"
+  },
+  {
+    "file": "src/app/core/services/admin-specialty.service.ts",
+    "line": 25,
+    "text": "return this.http.get<WizardDefaultDetail>(`${this.baseUrl}/${id}/wizard`);"
+  },
+  {
+    "file": "src/app/core/services/admin-specialty.service.ts",
+    "line": 28,
+    "text": "return this.http.put<WizardDefaultDetail>(`${this.baseUrl}/${id}/wizard/draft`, request);"
+  },
+  {
+    "file": "src/app/core/services/admin-specialty.service.ts",
+    "line": 31,
+    "text": "return this.http.post<WizardDefaultDetail>(`${this.baseUrl}/${id}/wizard/publish`, { expectedVersion });"
+  },
+  {
+    "file": "src/app/core/services/auth-fetch.ts",
+    "line": 7,
+    "text": "return fetch(input, { ...init, signal: AbortSignal.any(signals) });"
+  },
+  {
+    "file": "src/app/core/services/auth.service.ts",
+    "line": 223,
+    "text": "const supabaseUrl = environment.supabase.url;"
+  },
+  {
+    "file": "src/app/core/services/bycode-account.service.ts",
+    "line": 83,
+    "text": "this.http.get<{ fullName: string; hasAvatar: boolean }>(bycodeAccountApi + '/profile', {"
+  },
+  {
+    "file": "src/app/core/services/bycode-account.service.ts",
+    "line": 91,
+    "text": "this.http.get(bycodeAccountApi + '/avatar', {"
+  },
+  {
+    "file": "src/app/core/services/clinical-document-print.service.ts",
+    "line": 34,
+    "text": "return this.http.get<ClinicalPrintDocument>("
+  },
+  {
+    "file": "src/app/core/services/clinical-document-print.service.ts",
+    "line": 53,
+    "text": "return this.http.get(url, { params, responseType: 'blob' });"
+  },
+  {
+    "file": "src/app/core/services/clinical-encounter.service.ts",
+    "line": 21,
+    "text": "private readonly baseUrl = `${environment.apiUrl}/encounters`;"
+  },
+  {
+    "file": "src/app/core/services/clinical-encounter.service.ts",
+    "line": 56,
+    "text": "return this.http.get<ClinicalEncounterDetail>(`${this.baseUrl}/${id}`).pipe("
+  },
+  {
+    "file": "src/app/core/services/clinical-encounter.service.ts",
+    "line": 80,
+    "text": "return this.http.get<PagedResponse<ClinicalEncounterList>>(this.baseUrl, { params });"
+  },
+  {
+    "file": "src/app/core/services/clinical-encounter.service.ts",
+    "line": 84,
+    "text": "return this.http.get<ClinicalEncounterDashboard>(`${this.baseUrl}/dashboard`);"
+  },
+  {
+    "file": "src/app/core/services/clinical-encounter.service.ts",
+    "line": 144,
+    "text": "return this.http.post<ClinicalEncounterDetail>(this.baseUrl, request).pipe("
+  },
+  {
+    "file": "src/app/core/services/clinical-encounter.service.ts",
+    "line": 185,
+    "text": "return this.http.delete<void>(`${this.baseUrl}/${id}`).pipe("
+  },
+  {
+    "file": "src/app/core/services/doctor-profile.service.ts",
+    "line": 31,
+    "text": "const profile = await firstValueFrom(this.http.get<DoctorProfile | null>(`${environment.apiUrl}/doctor/profile`).pipe(timeout(6000)));"
+  },
+  {
+    "file": "src/app/core/services/medical-calculators.service.ts",
+    "line": 31,
+    "text": "private readonly baseUrl = `${environment.apiUrl}/calculators`;"
+  },
+  {
+    "file": "src/app/core/services/medical-calculators.service.ts",
+    "line": 51,
+    "text": "return this.http.post<CalculationResultResponseDTO>(`${this.baseUrl}/preview`, payload).pipe("
+  },
+  {
+    "file": "src/app/core/services/medical-calculators.service.ts",
+    "line": 59,
+    "text": "return this.http.get<ClinicalCalculationDefinitionDTO[]>(`${this.baseUrl}/catalog`).pipe("
+  },
+  {
+    "file": "src/app/core/services/medical-calculators.service.ts",
+    "line": 72,
+    "text": "return this.http.get<DoctorCalculatorPreferenceDTO>(`${this.baseUrl}/preferences`);"
+  },
+  {
+    "file": "src/app/core/services/medical-calculators.service.ts",
+    "line": 76,
+    "text": "return this.http.put<DoctorCalculatorPreferenceDTO>(`${this.baseUrl}/preferences`, {"
+  },
+  {
+    "file": "src/app/core/services/medical-calculators.service.ts",
+    "line": 82,
+    "text": "return this.http.post<DoctorCalculatorPreferenceDTO>(`${this.baseUrl}/preferences/reset`, {});"
+  },
+  {
+    "file": "src/app/core/services/medical-calculators.service.ts",
+    "line": 86,
+    "text": "return this.http.post<PatientCalculationLogDetailDTO>(`${this.baseUrl}/execute`, payload);"
+  },
+  {
+    "file": "src/app/core/services/medical-calculators.service.ts",
+    "line": 105,
+    "text": "return this.http.get<PatientCalculationLogDetailDTO[]>(`${this.baseUrl}/patients/${patientId}/history`, {"
+  },
+  {
+    "file": "src/app/core/services/medical-calculators.service.ts",
+    "line": 111,
+    "text": "return this.http.get<PatientAutofillDataDTO>(`${this.baseUrl}/patients/${patientId}/autofill`);"
+  },
+  {
+    "file": "src/app/core/services/medication-catalog.service.ts",
+    "line": 35,
+    "text": "private readonly baseUrl = `${environment.apiUrl}/medications`;"
+  },
+  {
+    "file": "src/app/core/services/medication-catalog.service.ts",
+    "line": 45,
+    "text": "return this.http.get<Medication[]>(`${this.baseUrl}/search`, { params }).pipe("
+  },
+  {
+    "file": "src/app/core/services/patient-growth.service.ts",
+    "line": 25,
+    "text": "return this.http.get<PatientGrowthResponse>("
+  },
+  {
+    "file": "src/app/core/services/patient-medical-study.service.ts",
+    "line": 12,
+    "text": "private readonly baseUrl = `${environment.apiUrl}/patients`;"
+  },
+  {
+    "file": "src/app/core/services/patient-medical-study.service.ts",
+    "line": 15,
+    "text": "return this.http.get<PatientMedicalStudy[]>(`${this.baseUrl}/${patientId}/studies`);"
+  },
+  {
+    "file": "src/app/core/services/patient-medical-study.service.ts",
+    "line": 25,
+    "text": "return this.http.post<PatientMedicalStudy>(`${this.baseUrl}/${patientId}/studies`, formData);"
+  },
+  {
+    "file": "src/app/core/services/patient-medical-study.service.ts",
+    "line": 29,
+    "text": "return this.http.get<PatientMedicalStudy>(`${this.baseUrl}/${patientId}/studies/${studyId}`);"
+  },
+  {
+    "file": "src/app/core/services/patient-medical-study.service.ts",
+    "line": 33,
+    "text": "return this.http.get(`${this.baseUrl}/${patientId}/studies/${studyId}/file`, {"
+  },
+  {
+    "file": "src/app/core/services/patient-medical-study.service.ts",
+    "line": 39,
+    "text": "return this.http.delete<void>(`${this.baseUrl}/${patientId}/studies/${studyId}`);"
+  },
+  {
+    "file": "src/app/core/services/patient-prescription.service.ts",
+    "line": 11,
+    "text": "list(patientId: number): Observable<SavedPrescriptionRecord[]> { return this.http.get<SavedPrescriptionRecord[]>(this.url(patientId)); }"
+  },
+  {
+    "file": "src/app/core/services/patient-prescription.service.ts",
+    "line": 12,
+    "text": "create(patientId: number, request: PrescriptionRequest): Observable<SavedPrescriptionRecord> { return this.http.post<SavedPrescriptionRecord>(this.url(patientId), request); }"
+  },
+  {
+    "file": "src/app/core/services/patient-prescription.service.ts",
+    "line": 13,
+    "text": "delete(patientId: number, id: number): Observable<void> { return this.http.delete<void>(`${this.url(patientId)}/${id}`); }"
+  },
+  {
+    "file": "src/app/core/services/patient-vaccination.service.ts",
+    "line": 14,
+    "text": "return this.http.get<PatientVaccinationSchedule>(this.base + '/' + patientId + '/vaccinations');"
+  },
+  {
+    "file": "src/app/core/services/patient-vaccination.service.ts",
+    "line": 17,
+    "text": "return this.http.put<SavedPatientVaccination>("
+  },
+  {
+    "file": "src/app/core/services/patient.service.ts",
+    "line": 19,
+    "text": "private readonly baseUrl = `${environment.apiUrl}/patients`;"
+  },
+  {
+    "file": "src/app/core/services/patient.service.ts",
+    "line": 38,
+    "text": "return this.http.get<PagedResponse<PatientListDTO>>(this.baseUrl, { params });"
+  },
+  {
+    "file": "src/app/core/services/patient.service.ts",
+    "line": 43,
+    "text": "return this.http.get<PatientDetailDTO>(`${this.baseUrl}/${id}`);"
+  },
+  {
+    "file": "src/app/core/services/patient.service.ts",
+    "line": 47,
+    "text": "return this.http.post<PatientDetailDTO>(this.baseUrl, patient);"
+  },
+  {
+    "file": "src/app/core/services/patient.service.ts",
+    "line": 51,
+    "text": "return this.http.put<PatientDetailDTO>(`${this.baseUrl}/${id}`, patient);"
+  },
+  {
+    "file": "src/app/core/services/patient.service.ts",
+    "line": 55,
+    "text": "return this.http.delete<void>(`${this.baseUrl}/${id}`);"
+  },
+  {
+    "file": "src/app/core/services/specialty.service.ts",
+    "line": 10,
+    "text": "private readonly baseUrl = `${environment.apiUrl}/specialties`;"
+  },
+  {
+    "file": "src/app/core/services/specialty.service.ts",
+    "line": 12,
+    "text": "return this.http.get<SpecialtySummary[]>(this.baseUrl).pipe(timeout(6000));"
+  },
+  {
+    "file": "src/app/core/services/specialty.service.ts",
+    "line": 15,
+    "text": "return this.http.get<PublishedWizard>(`${this.baseUrl}/${id}/wizard`).pipe(timeout(6000));"
+  },
+  {
+    "file": "src/app/core/services/workspace.service.ts",
+    "line": 13,
+    "text": "private readonly baseUrl = environment.apiUrl;"
+  },
+  {
+    "file": "src/app/core/services/workspace.service.ts",
+    "line": 15,
+    "text": "return this.http.get<WorkspaceSetup | null>(`${this.baseUrl}/workspace`);"
+  },
+  {
+    "file": "src/app/core/services/workspace.service.ts",
+    "line": 18,
+    "text": "return this.http.put<WorkspaceSetup>(`${this.baseUrl}/workspace/specialty`, payload);"
+  },
+  {
+    "file": "src/app/core/services/workspace.service.ts",
+    "line": 21,
+    "text": "return this.http.post<WorkspaceSetup>(`${this.baseUrl}/workspace/finish-onboarding`, payload);"
+  },
+  {
+    "file": "src/app/core/services/workspace.service.ts",
+    "line": 24,
+    "text": "return this.http.put<WorkspaceSetup>(`${this.baseUrl}/workspace/wizard/draft`, payload);"
+  },
+  {
+    "file": "src/app/core/services/workspace.service.ts",
+    "line": 27,
+    "text": "return this.http.post<WorkspaceSetup>(`${this.baseUrl}/workspace/wizard/discard-draft`, payload);"
+  },
+  {
+    "file": "src/app/core/services/workspace.service.ts",
+    "line": 30,
+    "text": "return this.http.post<WorkspaceSetup>(`${this.baseUrl}/workspace/reset-to-defaults`, payload);"
+  },
+  {
+    "file": "src/app/core/services/workspace.service.ts",
+    "line": 33,
+    "text": "return this.http.get<WorkspacePreferences>(`${this.baseUrl}/workspace/preferences`);"
+  },
+  {
+    "file": "src/app/core/services/workspace.service.ts",
+    "line": 36,
+    "text": "return this.http.put<WorkspacePreferences>(`${this.baseUrl}/workspace/quick-notes`, payload);"
+  },
+  {
+    "file": "src/app/core/services/workspace.service.ts",
+    "line": 39,
+    "text": "return this.http.put<WorkspacePreferences>(`${this.baseUrl}/workspace/preferences`, payload);"
+  }
+]

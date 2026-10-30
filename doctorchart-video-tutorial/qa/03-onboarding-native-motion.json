@@ -1,0 +1,67 @@
+{
+  "scene_id": "03-onboarding",
+  "file": "recordings/03-onboarding-1793326181611.mkv",
+  "status": "PASS",
+  "sourceFrameRate": "60/1",
+  "method": "Original encoded OBS frames, no fps conversion. Pixel changes in the scrolling UI (cursor excluded). Require >=50 changes in 60 frames OR >=25 in 30 frames for short scrolls reaching their boundary in <1s. Both require >=50 updates/sec; 30fps doubled cannot pass.",
+  "maximumMeaningfulChangesIn60": 59,
+  "maximumMeaningfulChangesIn30": 30,
+  "windows": [
+    {
+      "source_start_frame": 741,
+      "source_start_seconds": 12.35,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 57,
+      "maxMeaningfulChangesIn30": 30
+    },
+    {
+      "source_start_frame": 2032,
+      "source_start_seconds": 33.86666666666667,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 59,
+      "maxMeaningfulChangesIn30": 30
+    },
+    {
+      "source_start_frame": 2706,
+      "source_start_seconds": 45.1,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 1,
+      "maxMeaningfulChangesIn30": 1
+    },
+    {
+      "source_start_frame": 2919,
+      "source_start_seconds": 48.65,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 38,
+      "maxMeaningfulChangesIn30": 27
+    },
+    {
+      "source_start_frame": 3016,
+      "source_start_seconds": 50.266666666666666,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 54,
+      "maxMeaningfulChangesIn30": 28
+    },
+    {
+      "source_start_frame": 3923,
+      "source_start_seconds": 65.38333333333334,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 1,
+      "maxMeaningfulChangesIn30": 1
+    },
+    {
+      "source_start_frame": 4582,
+      "source_start_seconds": 76.36666666666666,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 1,
+      "maxMeaningfulChangesIn30": 1
+    },
+    {
+      "source_start_frame": 4654,
+      "source_start_seconds": 77.56666666666666,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 1,
+      "maxMeaningfulChangesIn30": 1
+    }
+  ]
+}

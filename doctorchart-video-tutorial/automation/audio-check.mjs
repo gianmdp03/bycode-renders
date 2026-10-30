@@ -1,0 +1,8 @@
+import fs from 'node:fs';import path from 'node:path';import {execFileSync} from 'node:child_process';import {root} from './browser.mjs';import {ffmpeg,ffprobe} from './recorder.mjs';
+const timeline=JSON.parse(fs.readFileSync(path.join(root,'remotion/src/timeline.json'),'utf8'));const scene=timeline.scenes.find(s=>s.id===(process.argv[2]??'01-access'));if(!scene)throw Error('Unknown captured scene');
+const args=['-hide_banner','-y'];for(const b of scene.beats)args.push('-i',path.join(root,'remotion/public',b.audio));
+const filters=scene.beats.map((b,i)=>`[${i}:a]adelay=${b.from*800}S:all=1[a${i}]`);filters.push(scene.beats.map((_,i)=>`[a${i}]`).join('')+`amix=inputs=${scene.beats.length}:normalize=0,apad,atrim=duration=${scene.durationInFrames/60}[out]`);
+const output=path.join(root,'qa/voice-'+scene.id+'.wav');args.push('-filter_complex',filters.join(';'),'-map','[out]','-ar','48000','-ac','2','-c:a','pcm_s16le',output);execFileSync(ffmpeg,args,{stdio:'pipe'});
+const analysis=execFileSync(ffmpeg,['-hide_banner','-i',output,'-af','ebur128=peak=true','-f','null','-'],{encoding:'utf8',stdio:['ignore','pipe','pipe']});
+const probe=JSON.parse(execFileSync(ffprobe,['-v','quiet','-show_streams','-show_format','-of','json',output],{encoding:'utf8'}));
+fs.writeFileSync(path.join(root,'qa/voice-'+scene.id+'-report.json'),JSON.stringify({file:path.relative(root,output),scene:scene.id,actual_mixed_timeline:true,codec:probe.streams[0].codec_name,sample_rate:probe.streams[0].sample_rate,channels:probe.streams[0].channels,duration:probe.format.duration,review:'Isolated continuous timeline mix for listening; compare with Studio playback. No audio resynthesis or inferred quality judgement.'},null,2));console.log(output);

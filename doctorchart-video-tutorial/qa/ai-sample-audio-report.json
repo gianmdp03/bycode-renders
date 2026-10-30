@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "file": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\doctorchart-video-tutorial\\qa\\DoctorChart-IA-muestra-20s.mp4",
+  "sampleOnly": true,
+  "durationSeconds": 20.011,
+  "video": {
+    "codec_name": "h264",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "60/1",
+    "pix_fmt": "yuvj420p",
+    "nb_frames": "1200",
+    "color_space": "bt470bg",
+    "color_range": "pc"
+  },
+  "audio": {
+    "codec_name": "aac",
+    "sample_rate": "48000",
+    "channels": 2
+  },
+  "formatPass": true,
+  "alignmentLagSamplesAt8k": 0,
+  "audioCorrelation": 0.9999753832817078,
+  "unexpectedDropoutSeconds": [],
+  "segmentsChecked": 3,
+  "segments": [
+    {
+      "id": "access-context",
+      "correlation": 0.9999786019325256,
+      "status": "PASS"
+    },
+    {
+      "id": "access-account",
+      "correlation": 0.9999722242355347,
+      "status": "PASS"
+    },
+    {
+      "id": "access-visibility",
+      "correlation": 0.9999732971191406,
+      "status": "PASS"
+    }
+  ],
+  "method": "Independently assemble original selected WAVs at 800 audio samples per video frame; compare exported AAC in 100ms voiced windows and per fragment.",
+  "limitation": "Technical continuity check; naturalness and pronunciation require listening review."
+}

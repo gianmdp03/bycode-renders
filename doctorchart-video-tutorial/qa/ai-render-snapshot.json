@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "fragments": 144,
+  "chapters": 23,
+  "audioSeconds": 1099.36,
+  "durationSeconds": 1152.1,
+  "holdSeconds": 191.83333333333334,
+  "audioPlaybackRate": 1,
+  "sourceStateSha256": "8b6176865552587bbfe3232967ffb4c30a89cb003a1734e420a0578a9d13db83",
+  "sourceTimelineSha256": "f46c61c52dd1ecf9d53355d70ecdc147a8815916a930c41aea15ae07f53baa08",
+  "humanStudioReadOrWritten": false,
+  "captions": "144 cues matching saved scripts; maximum two lines at Arial 32px"
+}

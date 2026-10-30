@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "testedAt": "2026-10-30T14:26:12.590Z",
+  "browser": "Chromium via in-app browser",
+  "syntheticMicrophone": true,
+  "personalMicrophoneRecorded": false,
+  "checks": [
+    "real browser MediaRecorder captured a synthetic MediaStream",
+    "stop created decodable WebM/Opus audio",
+    "edited script preserved",
+    "trim 0.5–3.5 seconds persisted as 3-second WAV",
+    "Save and next advanced to segment 2",
+    "return and reload recovered selected take and edited script",
+    "downloaded WAV bytes equal disk file and SHA256",
+    "preview voice playbackRate 1 and footage playbackRate 1.75",
+    "editing script after recording marks review and retains take",
+    "browser console has no errors"
+  ],
+  "recordedTakeId": "b0234d66-939b-4b67-98b9-c81522d671ed",
+  "savedWavSeconds": 3,
+  "sha256": "7d78ef56addcf46e90638cb61e76040b878022840f2b1999188f39563c3fc7ca",
+  "isolatedDataDirectory": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\doctorchart-video-tutorial\\.local\\narration-studio-browser-qa-oR4p09",
+  "productionDataModified": false
+}

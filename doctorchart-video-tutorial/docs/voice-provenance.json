@@ -1,0 +1,16 @@
+{
+  "engine": "piper-tts==1.8.0",
+  "voice": "es_MX-ald-medium",
+  "language": "Spanish, Mexico",
+  "sample_rate_hz": 22050,
+  "source": "https://huggingface.co/rhasspy/piper-voices/resolve/main/es/es_MX/ald/medium/",
+  "sha256": {
+    "es_MX-ald-medium.onnx": "019b3803293c93e34a206dd2e53a3889209a514e786fd7144f7b70196c579b63",
+    "es_MX-ald-medium.onnx.json": "5a71498158e04afc8099bfd019c7e87c68eb9d042505a2b1a87e5c1ac2b1a61d",
+    "MODEL_CARD": "1f0694ceb3f1e78c1e2ee0e2d5da40f19f965bc638e1b4fb4fca9bdca420d713"
+  },
+  "dataset_license": "Unlicense according to included MODEL_CARD",
+  "model_card": "# Model card for ald (medium)\n\n* Language: es_MX (Spanish, Mexico)\n* Speakers: 1\n* Quality: medium\n* Samplerate: 22,050Hz\n\n## Dataset\n\n* URL: https://huggingface.co/datasets/rmcpantoja/Ald_Mexican_Spanish_speech_dataset\n* License: http://unlicense.org\n\n## Training\n\nFinetuned from Spanish davefx voice (medium quality).\n",
+  "review": "Naturalness and pronunciation require preview listening approval. No claim of human narration.",
+  "music": null
+}

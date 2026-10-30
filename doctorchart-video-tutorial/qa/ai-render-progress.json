@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "purpose": "test-export-awaiting-user-review",
+  "file": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\doctorchart-video-tutorial\\output\\DoctorChart-Tutorial-Prueba-IA.mp4",
+  "bytes": 244154353,
+  "sha256": "d1a788dc60ab743569ab88f889e48b606a065a1645d65be795798cb4be0d955d",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "durationSeconds": 1152.1,
+  "fragments": 144,
+  "chapters": 23,
+  "audioPlaybackRate": 1,
+  "sourceStateSha256": "8b6176865552587bbfe3232967ffb4c30a89cb003a1734e420a0578a9d13db83",
+  "reports": [
+    "qa/ai-test-video-report.json",
+    "qa/ai-final-media-report.json"
+  ],
+  "full": true
+}

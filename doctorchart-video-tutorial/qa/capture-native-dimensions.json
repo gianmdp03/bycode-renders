@@ -1,0 +1,9 @@
+{
+  "windows": [
+    {
+      "itemEnabled": true,
+      "itemName": "[chrome.exe]: DoctorChart | Historias clínicas y seguimiento de pacientes",
+      "itemValue": "DoctorChart | Historias clínicas y seguimiento de pacientes:Chrome_WidgetWin_1:chrome.exe"
+    }
+  ]
+}

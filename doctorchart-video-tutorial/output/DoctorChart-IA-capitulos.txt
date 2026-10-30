@@ -1,0 +1,23 @@
+00:00 Acceso a DoctorChart
+00:30 Elegir la especialidad
+00:46 Configurar fichas e historias clínicas
+03:00 Panel y productividad
+03:46 Directorio de pacientes
+04:19 Registrar y editar un paciente
+05:14 Historia clínica y consultas
+06:27 Vacunación del paciente
+06:48 Evolución y curvas
+07:21 Recetas y órdenes
+08:08 Adjuntar y consultar estudios
+08:40 Calendario, preferencias y perfil
+09:28 Más opciones de consulta e historial
+10:32 Configuración avanzada de campos
+11:51 Revisar documentos y adjuntos
+12:53 Leer los detalles de las curvas
+13:33 Revisar conflictos y cerrar sesión
+14:14 Accesos y salida de documentos
+15:21 Recuperar una carga interrumpida
+16:28 Revisar versiones de configuración
+17:03 Interrumpir y retomar la configuración inicial
+17:26 Estados vacíos, adjuntos y recuperación
+18:48 Recuperar la selección inicial

@@ -1,0 +1,52 @@
+{
+  "source": "doctorchart-backend-go/internal/bootstrap/seed.json",
+  "runtime_verified": false,
+  "specialties": [
+    {
+      "id": 1,
+      "code": "pediatrics",
+      "active": true,
+      "version": 1,
+      "navigation": [
+        "DASHBOARD",
+        "PATIENTS",
+        "CALCULATORS",
+        "VACCINATION",
+        "WIZARD"
+      ],
+      "description": "Configuración inicial para la atención pediátrica.",
+      "display_name": "Pediatría",
+      "patient_record_tabs": [
+        "SUMMARY",
+        "ENCOUNTERS",
+        "VACCINATION",
+        "GROWTH",
+        "PRESCRIPTIONS",
+        "STUDIES"
+      ],
+      "patient_record_actions": [
+        "EDIT_PATIENT",
+        "NEW_ENCOUNTER",
+        "VIEW_GROWTH",
+        "PRINT_DOCUMENT"
+      ],
+      "effective_navigation": [
+        "DASHBOARD",
+        "PATIENTS",
+        "VACCINATION",
+        "WIZARD"
+      ],
+      "runtime_verified": false
+    }
+  ],
+  "union_tabs": [
+    "SUMMARY",
+    "ENCOUNTERS",
+    "VACCINATION",
+    "GROWTH",
+    "PRESCRIPTIONS",
+    "STUDIES"
+  ],
+  "additional_account_C_required": false,
+  "note": "Único seed activo: Pediatría. Catálogo runtime pendiente; no crear especialidades ficticias para ampliar alcance."
+}

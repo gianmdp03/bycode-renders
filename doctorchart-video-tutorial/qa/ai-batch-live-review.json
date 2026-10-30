@@ -1,0 +1,26 @@
+{
+  "status": "RUNNING_VERIFIED",
+  "batch": {
+    "id": "14815294-e728-4a9c-aca2-77cd2e07dc1b",
+    "status": "running",
+    "voice": "masculina",
+    "completed": 13,
+    "failed": 0,
+    "total": 144,
+    "message": "Generando y guardando: Las flechas cambian el orden",
+    "currentSegment": "wizard-category-order",
+    "estimatedRemainingSeconds": 2224,
+    "pauseRequested": false,
+    "updatedAt": "2026-10-30T18:30:40.774Z"
+  },
+  "worker": {
+    "loaded": true,
+    "pid": 14608,
+    "model": "Qwen3-TTS-12Hz-0.6B-Base",
+    "resident": true
+  },
+  "verified_saved_audio_count": 13,
+  "live_pause_resume_same_pid": true,
+  "human_saved_fragments": 11,
+  "note": "The full batch is running; this report does not claim all 144 are complete."
+}

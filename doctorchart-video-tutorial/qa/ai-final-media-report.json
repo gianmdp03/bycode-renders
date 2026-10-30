@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "decodedFrames": 69126,
+  "expectedFrames": 69126,
+  "unexpectedBlackIntervals": [],
+  "decodeErrors": [],
+  "droppedFrames": 0,
+  "duplicatedFrames": 0,
+  "integratedLUFS": -16.3,
+  "truePeakDBTP": -4.29,
+  "loudnessRangeLU": 2.2,
+  "method": "Full MP4 decoded using CUDA; downscaled capture-area black detection; full AAC loudnorm input analysis. No processing applied to delivered file."
+}

@@ -1,0 +1,1560 @@
+{
+  "status": "PASS",
+  "rng_seed": 20261029,
+  "reference_date": "2026-10-29",
+  "patient_count": 40,
+  "encounter_count": 128,
+  "longitudinal_patients": 8,
+  "measurements_per_longitudinal_patient": 8,
+  "historical_fixture_exception": "Scoped initial-data SQL only for immutable encounter_date; normal API update regenerates formulaContext. Never presented as a UI capability.",
+  "retrieved_via_real_gateway": true,
+  "dashboard": {
+    "totalPatients": 40,
+    "encountersThisMonth": 51,
+    "encountersToday": 10,
+    "asOfDate": "2026-10-29",
+    "recentEncounters": [
+      {
+        "encounter": {
+          "id": 122,
+          "version": 2,
+          "patientId": 37,
+          "patientFullName": "Persona DEMO 37 Tutorial Ficticio",
+          "encounterDate": "2026-10-29T13:00:00Z",
+          "specialtyId": 1,
+          "specialty": {
+            "id": 1,
+            "code": "pediatrics",
+            "name": "Pediatr\u00eda",
+            "description": "Configuraci\u00f3n inicial para la atenci\u00f3n pedi\u00e1trica."
+          },
+          "consultationType": "ROUTINE_CHECKUP",
+          "chiefComplaint": "DEMO-37-02: control ficticio para tutorial",
+          "primaryDiagnosisCode": null,
+          "primaryDiagnosisDescription": "Control de demostraci\u00f3n, sin valor diagn\u00f3stico.",
+          "vitalSigns": null,
+          "prescriptions": [],
+          "historyOfPresentIllness": "Caso completamente ficticio. Demostraci\u00f3n de registro longitudinal, sin indicaci\u00f3n cl\u00ednica.",
+          "treatmentPlan": "Ejemplo de documentaci\u00f3n. No constituye una recomendaci\u00f3n m\u00e9dica.",
+          "followUpInstructions": null,
+          "followUpDate": "2026-10-30",
+          "measurements": {
+            "weightKg": 18.63,
+            "heightCm": 98.2,
+            "headCircumferenceCm": null
+          },
+          "formValues": {
+            "heightCm": 98.2,
+            "weightKg": 18.63,
+            "diagnosis": "Control de demostraci\u00f3n, sin valor diagn\u00f3stico.",
+            "treatment": "Ejemplo de documentaci\u00f3n. No constituye una recomendaci\u00f3n m\u00e9dica.",
+            "followUpDate": "2026-10-30",
+            "physicalExam": "Texto sint\u00e9tico, no corresponde a una persona ni evaluaci\u00f3n real.",
+            "bloodPressure": null,
+            "chiefComplaint": "DEMO-37-02: control ficticio para tutorial",
+            "milestoneNotes": "Dato ficticio de demostraci\u00f3n.",
+            "presentIllness": "Caso completamente ficticio. Demostraci\u00f3n de registro longitudinal, sin indicaci\u00f3n cl\u00ednica.",
+            "meetsMilestones": true,
+            "headCircumferenceCm": null
+          },
+          "formulaResults": {},
+          "formDefinitionSnapshot": {
+            "categories": [
+              {
+                "key": "reason",
+                "title": "Motivo de consulta",
+                "fields": [
+                  {
+                    "key": "chiefComplaint",
+                    "type": "TEXTAREA",
+                    "label": "Motivo de consulta",
+                    "required": true
+                  },
+                  {
+                    "key": "presentIllness",
+                    "type": "TEXTAREA",
+                    "label": "Evoluci\u00f3n",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "measurements",
+                "title": "Antropometr\u00eda",
+                "fields": [
+                  {
+                    "key": "weightKg",
+                    "type": "NUMBER",
+                    "unit": "kg",
+                    "label": "Peso",
+                    "minimum": 0,
+                    "required": true
+                  },
+                  {
+                    "key": "heightCm",
+                    "type": "NUMBER",
+                    "unit": "cm",
+                    "label": "Longitud / talla",
+                    "minimum": 0,
+                    "required": true
+                  },
+                  {
+                    "key": "headCircumferenceCm",
+                    "type": "NUMBER",
+                    "unit": "cm",
+                    "label": "Per\u00edmetro cef\u00e1lico",
+                    "minimum": 0,
+                    "required": false
+                  },
+                  {
+                    "key": "bloodPressure",
+                    "type": "TEXT",
+                    "label": "Tensi\u00f3n arterial",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "physical_exam",
+                "title": "Examen f\u00edsico",
+                "fields": [
+                  {
+                    "key": "physicalExam",
+                    "type": "TEXTAREA",
+                    "label": "Examen f\u00edsico",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "development",
+                "title": "Desarrollo",
+                "fields": [
+                  {
+                    "key": "meetsMilestones",
+                    "type": "BOOLEAN",
+                    "label": "Cumple pautas de desarrollo",
+                    "required": false
+                  },
+                  {
+                    "key": "milestoneNotes",
+                    "type": "TEXTAREA",
+                    "label": "Detalle de las pautas pendientes",
+                    "required": false,
+                    "visibleWhen": {
+                      "equals": false,
+                      "fieldKey": "meetsMilestones"
+                    }
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "assessment",
+                "title": "Evaluaci\u00f3n",
+                "fields": [
+                  {
+                    "key": "diagnosis",
+                    "type": "TEXTAREA",
+                    "label": "Evaluaci\u00f3n / diagn\u00f3stico",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "plan",
+                "title": "Plan e indicaciones",
+                "fields": [
+                  {
+                    "key": "treatment",
+                    "type": "TEXTAREA",
+                    "label": "Plan terap\u00e9utico",
+                    "required": false
+                  },
+                  {
+                    "key": "followUpDate",
+                    "type": "DATE",
+                    "label": "Pr\u00f3ximo control",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              }
+            ]
+          },
+          "formulaContext": {
+            "zone": "America/Argentina/Buenos_Aires",
+            "referenceDate": "2026-10-29",
+            "patient.gender": "FEMALE",
+            "patient.ageYears": 4,
+            "patient.latestHeightCm": 97.6,
+            "patient.latestWeightKg": 18.24
+          },
+          "workspaceVersion": 1
+        },
+        "patientAgeLabel": "4 a\u00f1os",
+        "patientNationalId": "99000037",
+        "encounterLocalDate": "2026-10-29"
+      },
+      {
+        "encounter": {
+          "id": 114,
+          "version": 2,
+          "patientId": 33,
+          "patientFullName": "Persona DEMO 33 Tutorial Ficticio",
+          "encounterDate": "2026-10-29T13:00:00Z",
+          "specialtyId": 1,
+          "specialty": {
+            "id": 1,
+            "code": "pediatrics",
+            "name": "Pediatr\u00eda",
+            "description": "Configuraci\u00f3n inicial para la atenci\u00f3n pedi\u00e1trica."
+          },
+          "consultationType": "ROUTINE_CHECKUP",
+          "chiefComplaint": "DEMO-33-02: control ficticio para tutorial",
+          "primaryDiagnosisCode": null,
+          "primaryDiagnosisDescription": "Control de demostraci\u00f3n, sin valor diagn\u00f3stico.",
+          "vitalSigns": null,
+          "prescriptions": [],
+          "historyOfPresentIllness": "Caso completamente ficticio. Demostraci\u00f3n de registro longitudinal, sin indicaci\u00f3n cl\u00ednica.",
+          "treatmentPlan": "Ejemplo de documentaci\u00f3n. No constituye una recomendaci\u00f3n m\u00e9dica.",
+          "followUpInstructions": null,
+          "followUpDate": "2026-11-07",
+          "measurements": {
+            "weightKg": 11.25,
+            "heightCm": 77.2,
+            "headCircumferenceCm": 43.1
+          },
+          "formValues": {
+            "heightCm": 77.2,
+            "weightKg": 11.25,
+            "diagnosis": "Control de demostraci\u00f3n, sin valor diagn\u00f3stico.",
+            "treatment": "Ejemplo de documentaci\u00f3n. No constituye una recomendaci\u00f3n m\u00e9dica.",
+            "followUpDate": "2026-11-07",
+            "physicalExam": "Texto sint\u00e9tico, no corresponde a una persona ni evaluaci\u00f3n real.",
+            "bloodPressure": null,
+            "chiefComplaint": "DEMO-33-02: control ficticio para tutorial",
+            "milestoneNotes": "Dato ficticio de demostraci\u00f3n.",
+            "presentIllness": "Caso completamente ficticio. Demostraci\u00f3n de registro longitudinal, sin indicaci\u00f3n cl\u00ednica.",
+            "meetsMilestones": true,
+            "headCircumferenceCm": 43.1
+          },
+          "formulaResults": {},
+          "formDefinitionSnapshot": {
+            "categories": [
+              {
+                "key": "reason",
+                "title": "Motivo de consulta",
+                "fields": [
+                  {
+                    "key": "chiefComplaint",
+                    "type": "TEXTAREA",
+                    "label": "Motivo de consulta",
+                    "required": true
+                  },
+                  {
+                    "key": "presentIllness",
+                    "type": "TEXTAREA",
+                    "label": "Evoluci\u00f3n",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "measurements",
+                "title": "Antropometr\u00eda",
+                "fields": [
+                  {
+                    "key": "weightKg",
+                    "type": "NUMBER",
+                    "unit": "kg",
+                    "label": "Peso",
+                    "minimum": 0,
+                    "required": true
+                  },
+                  {
+                    "key": "heightCm",
+                    "type": "NUMBER",
+                    "unit": "cm",
+                    "label": "Longitud / talla",
+                    "minimum": 0,
+                    "required": true
+                  },
+                  {
+                    "key": "headCircumferenceCm",
+                    "type": "NUMBER",
+                    "unit": "cm",
+                    "label": "Per\u00edmetro cef\u00e1lico",
+                    "minimum": 0,
+                    "required": false
+                  },
+                  {
+                    "key": "bloodPressure",
+                    "type": "TEXT",
+                    "label": "Tensi\u00f3n arterial",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "physical_exam",
+                "title": "Examen f\u00edsico",
+                "fields": [
+                  {
+                    "key": "physicalExam",
+                    "type": "TEXTAREA",
+                    "label": "Examen f\u00edsico",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "development",
+                "title": "Desarrollo",
+                "fields": [
+                  {
+                    "key": "meetsMilestones",
+                    "type": "BOOLEAN",
+                    "label": "Cumple pautas de desarrollo",
+                    "required": false
+                  },
+                  {
+                    "key": "milestoneNotes",
+                    "type": "TEXTAREA",
+                    "label": "Detalle de las pautas pendientes",
+                    "required": false,
+                    "visibleWhen": {
+                      "equals": false,
+                      "fieldKey": "meetsMilestones"
+                    }
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "assessment",
+                "title": "Evaluaci\u00f3n",
+                "fields": [
+                  {
+                    "key": "diagnosis",
+                    "type": "TEXTAREA",
+                    "label": "Evaluaci\u00f3n / diagn\u00f3stico",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "plan",
+                "title": "Plan e indicaciones",
+                "fields": [
+                  {
+                    "key": "treatment",
+                    "type": "TEXTAREA",
+                    "label": "Plan terap\u00e9utico",
+                    "required": false
+                  },
+                  {
+                    "key": "followUpDate",
+                    "type": "DATE",
+                    "label": "Pr\u00f3ximo control",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              }
+            ]
+          },
+          "formulaContext": {
+            "zone": "America/Argentina/Buenos_Aires",
+            "referenceDate": "2026-10-29",
+            "patient.gender": "FEMALE",
+            "patient.ageYears": 1,
+            "patient.latestHeightCm": 76.7,
+            "patient.latestWeightKg": 11.13
+          },
+          "workspaceVersion": 1
+        },
+        "patientAgeLabel": "1 a\u00f1o, 2 m",
+        "patientNationalId": "99000033",
+        "encounterLocalDate": "2026-10-29"
+      },
+      {
+        "encounter": {
+          "id": 106,
+          "version": 2,
+          "patientId": 29,
+          "patientFullName": "Persona DEMO 29 Tutorial Ficticio",
+          "encounterDate": "2026-10-29T13:00:00Z",
+          "specialtyId": 1,
+          "specialty": {
+            "id": 1,
+            "code": "pediatrics",
+            "name": "Pediatr\u00eda",
+            "description": "Configuraci\u00f3n inicial para la atenci\u00f3n pedi\u00e1trica."
+          },
+          "consultationType": "ROUTINE_CHECKUP",
+          "chiefComplaint": "DEMO-29-02: control ficticio para tutorial",
+          "primaryDiagnosisCode": null,
+          "primaryDiagnosisDescription": "Control de demostraci\u00f3n, sin valor diagn\u00f3stico.",
+          "vitalSigns": null,
+          "prescriptions": [],
+          "historyOfPresentIllness": "Caso completamente ficticio. Demostraci\u00f3n de registro longitudinal, sin indicaci\u00f3n cl\u00ednica.",
+          "treatmentPlan": "Ejemplo de documentaci\u00f3n. No constituye una recomendaci\u00f3n m\u00e9dica.",
+          "followUpInstructions": null,
+          "followUpDate": "2026-11-03",
+          "measurements": {
+            "weightKg": 17.99,
+            "heightCm": 96.7,
+            "headCircumferenceCm": null
+          },
+          "formValues": {
+            "heightCm": 96.7,
+            "weightKg": 17.99,
+            "diagnosis": "Control de demostraci\u00f3n, sin valor diagn\u00f3stico.",
+            "treatment": "Ejemplo de documentaci\u00f3n. No constituye una recomendaci\u00f3n m\u00e9dica.",
+            "followUpDate": "2026-11-03",
+            "physicalExam": "Texto sint\u00e9tico, no corresponde a una persona ni evaluaci\u00f3n real.",
+            "bloodPressure": null,
+            "chiefComplaint": "DEMO-29-02: control ficticio para tutorial",
+            "milestoneNotes": "Dato ficticio de demostraci\u00f3n.",
+            "presentIllness": "Caso completamente ficticio. Demostraci\u00f3n de registro longitudinal, sin indicaci\u00f3n cl\u00ednica.",
+            "meetsMilestones": true,
+            "headCircumferenceCm": null
+          },
+          "formulaResults": {},
+          "formDefinitionSnapshot": {
+            "categories": [
+              {
+                "key": "reason",
+                "title": "Motivo de consulta",
+                "fields": [
+                  {
+                    "key": "chiefComplaint",
+                    "type": "TEXTAREA",
+                    "label": "Motivo de consulta",
+                    "required": true
+                  },
+                  {
+                    "key": "presentIllness",
+                    "type": "TEXTAREA",
+                    "label": "Evoluci\u00f3n",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "measurements",
+                "title": "Antropometr\u00eda",
+                "fields": [
+                  {
+                    "key": "weightKg",
+                    "type": "NUMBER",
+                    "unit": "kg",
+                    "label": "Peso",
+                    "minimum": 0,
+                    "required": true
+                  },
+                  {
+                    "key": "heightCm",
+                    "type": "NUMBER",
+                    "unit": "cm",
+                    "label": "Longitud / talla",
+                    "minimum": 0,
+                    "required": true
+                  },
+                  {
+                    "key": "headCircumferenceCm",
+                    "type": "NUMBER",
+                    "unit": "cm",
+                    "label": "Per\u00edmetro cef\u00e1lico",
+                    "minimum": 0,
+                    "required": false
+                  },
+                  {
+                    "key": "bloodPressure",
+                    "type": "TEXT",
+                    "label": "Tensi\u00f3n arterial",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "physical_exam",
+                "title": "Examen f\u00edsico",
+                "fields": [
+                  {
+                    "key": "physicalExam",
+                    "type": "TEXTAREA",
+                    "label": "Examen f\u00edsico",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "development",
+                "title": "Desarrollo",
+                "fields": [
+                  {
+                    "key": "meetsMilestones",
+                    "type": "BOOLEAN",
+                    "label": "Cumple pautas de desarrollo",
+                    "required": false
+                  },
+                  {
+                    "key": "milestoneNotes",
+                    "type": "TEXTAREA",
+                    "label": "Detalle de las pautas pendientes",
+                    "required": false,
+                    "visibleWhen": {
+                      "equals": false,
+                      "fieldKey": "meetsMilestones"
+                    }
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "assessment",
+                "title": "Evaluaci\u00f3n",
+                "fields": [
+                  {
+                    "key": "diagnosis",
+                    "type": "TEXTAREA",
+                    "label": "Evaluaci\u00f3n / diagn\u00f3stico",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "plan",
+                "title": "Plan e indicaciones",
+                "fields": [
+                  {
+                    "key": "treatment",
+                    "type": "TEXTAREA",
+                    "label": "Plan terap\u00e9utico",
+                    "required": false
+                  },
+                  {
+                    "key": "followUpDate",
+                    "type": "DATE",
+                    "label": "Pr\u00f3ximo control",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              }
+            ]
+          },
+          "formulaContext": {
+            "zone": "America/Argentina/Buenos_Aires",
+            "referenceDate": "2026-10-29",
+            "patient.gender": "FEMALE",
+            "patient.ageYears": 4,
+            "patient.latestHeightCm": 96,
+            "patient.latestWeightKg": 17.88
+          },
+          "workspaceVersion": 1
+        },
+        "patientAgeLabel": "4 a\u00f1os",
+        "patientNationalId": "99000029",
+        "encounterLocalDate": "2026-10-29"
+      },
+      {
+        "encounter": {
+          "id": 98,
+          "version": 2,
+          "patientId": 25,
+          "patientFullName": "Persona DEMO 25 Tutorial Ficticio",
+          "encounterDate": "2026-10-29T13:00:00Z",
+          "specialtyId": 1,
+          "specialty": {
+            "id": 1,
+            "code": "pediatrics",
+            "name": "Pediatr\u00eda",
+            "description": "Configuraci\u00f3n inicial para la atenci\u00f3n pedi\u00e1trica."
+          },
+          "consultationType": "ROUTINE_CHECKUP",
+          "chiefComplaint": "DEMO-25-02: control ficticio para tutorial",
+          "primaryDiagnosisCode": null,
+          "primaryDiagnosisDescription": "Control de demostraci\u00f3n, sin valor diagn\u00f3stico.",
+          "vitalSigns": null,
+          "prescriptions": [],
+          "historyOfPresentIllness": "Caso completamente ficticio. Demostraci\u00f3n de registro longitudinal, sin indicaci\u00f3n cl\u00ednica.",
+          "treatmentPlan": "Ejemplo de documentaci\u00f3n. No constituye una recomendaci\u00f3n m\u00e9dica.",
+          "followUpInstructions": null,
+          "followUpDate": "2026-10-30",
+          "measurements": {
+            "weightKg": 9.49,
+            "heightCm": 71.1,
+            "headCircumferenceCm": 41.2
+          },
+          "formValues": {
+            "heightCm": 71.1,
+            "weightKg": 9.49,
+            "diagnosis": "Control de demostraci\u00f3n, sin valor diagn\u00f3stico.",
+            "treatment": "Ejemplo de documentaci\u00f3n. No constituye una recomendaci\u00f3n m\u00e9dica.",
+            "followUpDate": "2026-10-30",
+            "physicalExam": "Texto sint\u00e9tico, no corresponde a una persona ni evaluaci\u00f3n real.",
+            "bloodPressure": null,
+            "chiefComplaint": "DEMO-25-02: control ficticio para tutorial",
+            "milestoneNotes": "Dato ficticio de demostraci\u00f3n.",
+            "presentIllness": "Caso completamente ficticio. Demostraci\u00f3n de registro longitudinal, sin indicaci\u00f3n cl\u00ednica.",
+            "meetsMilestones": true,
+            "headCircumferenceCm": 41.2
+          },
+          "formulaResults": {},
+          "formDefinitionSnapshot": {
+            "categories": [
+              {
+                "key": "reason",
+                "title": "Motivo de consulta",
+                "fields": [
+                  {
+                    "key": "chiefComplaint",
+                    "type": "TEXTAREA",
+                    "label": "Motivo de consulta",
+                    "required": true
+                  },
+                  {
+                    "key": "presentIllness",
+                    "type": "TEXTAREA",
+                    "label": "Evoluci\u00f3n",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "measurements",
+                "title": "Antropometr\u00eda",
+                "fields": [
+                  {
+                    "key": "weightKg",
+                    "type": "NUMBER",
+                    "unit": "kg",
+                    "label": "Peso",
+                    "minimum": 0,
+                    "required": true
+                  },
+                  {
+                    "key": "heightCm",
+                    "type": "NUMBER",
+                    "unit": "cm",
+                    "label": "Longitud / talla",
+                    "minimum": 0,
+                    "required": true
+                  },
+                  {
+                    "key": "headCircumferenceCm",
+                    "type": "NUMBER",
+                    "unit": "cm",
+                    "label": "Per\u00edmetro cef\u00e1lico",
+                    "minimum": 0,
+                    "required": false
+                  },
+                  {
+                    "key": "bloodPressure",
+                    "type": "TEXT",
+                    "label": "Tensi\u00f3n arterial",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "physical_exam",
+                "title": "Examen f\u00edsico",
+                "fields": [
+                  {
+                    "key": "physicalExam",
+                    "type": "TEXTAREA",
+                    "label": "Examen f\u00edsico",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "development",
+                "title": "Desarrollo",
+                "fields": [
+                  {
+                    "key": "meetsMilestones",
+                    "type": "BOOLEAN",
+                    "label": "Cumple pautas de desarrollo",
+                    "required": false
+                  },
+                  {
+                    "key": "milestoneNotes",
+                    "type": "TEXTAREA",
+                    "label": "Detalle de las pautas pendientes",
+                    "required": false,
+                    "visibleWhen": {
+                      "equals": false,
+                      "fieldKey": "meetsMilestones"
+                    }
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "assessment",
+                "title": "Evaluaci\u00f3n",
+                "fields": [
+                  {
+                    "key": "diagnosis",
+                    "type": "TEXTAREA",
+                    "label": "Evaluaci\u00f3n / diagn\u00f3stico",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "plan",
+                "title": "Plan e indicaciones",
+                "fields": [
+                  {
+                    "key": "treatment",
+                    "type": "TEXTAREA",
+                    "label": "Plan terap\u00e9utico",
+                    "required": false
+                  },
+                  {
+                    "key": "followUpDate",
+                    "type": "DATE",
+                    "label": "Pr\u00f3ximo control",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              }
+            ]
+          },
+          "formulaContext": {
+            "zone": "America/Argentina/Buenos_Aires",
+            "referenceDate": "2026-10-29",
+            "patient.gender": "FEMALE",
+            "patient.ageYears": 0,
+            "patient.latestHeightCm": 70.5,
+            "patient.latestWeightKg": 9.43
+          },
+          "workspaceVersion": 1
+        },
+        "patientAgeLabel": "11 meses",
+        "patientNationalId": "99000025",
+        "encounterLocalDate": "2026-10-29"
+      },
+      {
+        "encounter": {
+          "id": 90,
+          "version": 2,
+          "patientId": 21,
+          "patientFullName": "Persona DEMO 21 Tutorial Ficticio",
+          "encounterDate": "2026-10-29T13:00:00Z",
+          "specialtyId": 1,
+          "specialty": {
+            "id": 1,
+            "code": "pediatrics",
+            "name": "Pediatr\u00eda",
+            "description": "Configuraci\u00f3n inicial para la atenci\u00f3n pedi\u00e1trica."
+          },
+          "consultationType": "ROUTINE_CHECKUP",
+          "chiefComplaint": "DEMO-21-02: control ficticio para tutorial",
+          "primaryDiagnosisCode": null,
+          "primaryDiagnosisDescription": "Control de demostraci\u00f3n, sin valor diagn\u00f3stico.",
+          "vitalSigns": null,
+          "prescriptions": [],
+          "historyOfPresentIllness": "Caso completamente ficticio. Demostraci\u00f3n de registro longitudinal, sin indicaci\u00f3n cl\u00ednica.",
+          "treatmentPlan": "Ejemplo de documentaci\u00f3n. No constituye una recomendaci\u00f3n m\u00e9dica.",
+          "followUpInstructions": null,
+          "followUpDate": "2026-11-07",
+          "measurements": {
+            "weightKg": 17.52,
+            "heightCm": 95.1,
+            "headCircumferenceCm": null
+          },
+          "formValues": {
+            "heightCm": 95.1,
+            "weightKg": 17.52,
+            "diagnosis": "Control de demostraci\u00f3n, sin valor diagn\u00f3stico.",
+            "treatment": "Ejemplo de documentaci\u00f3n. No constituye una recomendaci\u00f3n m\u00e9dica.",
+            "followUpDate": "2026-11-07",
+            "physicalExam": "Texto sint\u00e9tico, no corresponde a una persona ni evaluaci\u00f3n real.",
+            "bloodPressure": null,
+            "chiefComplaint": "DEMO-21-02: control ficticio para tutorial",
+            "milestoneNotes": "Dato ficticio de demostraci\u00f3n.",
+            "presentIllness": "Caso completamente ficticio. Demostraci\u00f3n de registro longitudinal, sin indicaci\u00f3n cl\u00ednica.",
+            "meetsMilestones": true,
+            "headCircumferenceCm": null
+          },
+          "formulaResults": {},
+          "formDefinitionSnapshot": {
+            "categories": [
+              {
+                "key": "reason",
+                "title": "Motivo de consulta",
+                "fields": [
+                  {
+                    "key": "chiefComplaint",
+                    "type": "TEXTAREA",
+                    "label": "Motivo de consulta",
+                    "required": true
+                  },
+                  {
+                    "key": "presentIllness",
+                    "type": "TEXTAREA",
+                    "label": "Evoluci\u00f3n",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "measurements",
+                "title": "Antropometr\u00eda",
+                "fields": [
+                  {
+                    "key": "weightKg",
+                    "type": "NUMBER",
+                    "unit": "kg",
+                    "label": "Peso",
+                    "minimum": 0,
+                    "required": true
+                  },
+                  {
+                    "key": "heightCm",
+                    "type": "NUMBER",
+                    "unit": "cm",
+                    "label": "Longitud / talla",
+                    "minimum": 0,
+                    "required": true
+                  },
+                  {
+                    "key": "headCircumferenceCm",
+                    "type": "NUMBER",
+                    "unit": "cm",
+                    "label": "Per\u00edmetro cef\u00e1lico",
+                    "minimum": 0,
+                    "required": false
+                  },
+                  {
+                    "key": "bloodPressure",
+                    "type": "TEXT",
+                    "label": "Tensi\u00f3n arterial",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "physical_exam",
+                "title": "Examen f\u00edsico",
+                "fields": [
+                  {
+                    "key": "physicalExam",
+                    "type": "TEXTAREA",
+                    "label": "Examen f\u00edsico",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "development",
+                "title": "Desarrollo",
+                "fields": [
+                  {
+                    "key": "meetsMilestones",
+                    "type": "BOOLEAN",
+                    "label": "Cumple pautas de desarrollo",
+                    "required": false
+                  },
+                  {
+                    "key": "milestoneNotes",
+                    "type": "TEXTAREA",
+                    "label": "Detalle de las pautas pendientes",
+                    "required": false,
+                    "visibleWhen": {
+                      "equals": false,
+                      "fieldKey": "meetsMilestones"
+                    }
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "assessment",
+                "title": "Evaluaci\u00f3n",
+                "fields": [
+                  {
+                    "key": "diagnosis",
+                    "type": "TEXTAREA",
+                    "label": "Evaluaci\u00f3n / diagn\u00f3stico",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "plan",
+                "title": "Plan e indicaciones",
+                "fields": [
+                  {
+                    "key": "treatment",
+                    "type": "TEXTAREA",
+                    "label": "Plan terap\u00e9utico",
+                    "required": false
+                  },
+                  {
+                    "key": "followUpDate",
+                    "type": "DATE",
+                    "label": "Pr\u00f3ximo control",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              }
+            ]
+          },
+          "formulaContext": {
+            "zone": "America/Argentina/Buenos_Aires",
+            "referenceDate": "2026-10-29",
+            "patient.gender": "FEMALE",
+            "patient.ageYears": 4,
+            "patient.latestHeightCm": 94.6,
+            "patient.latestWeightKg": 17.18
+          },
+          "workspaceVersion": 1
+        },
+        "patientAgeLabel": "4 a\u00f1os",
+        "patientNationalId": "99000021",
+        "encounterLocalDate": "2026-10-29"
+      },
+      {
+        "encounter": {
+          "id": 82,
+          "version": 2,
+          "patientId": 17,
+          "patientFullName": "Persona DEMO 17 Tutorial Ficticio",
+          "encounterDate": "2026-10-29T13:00:00Z",
+          "specialtyId": 1,
+          "specialty": {
+            "id": 1,
+            "code": "pediatrics",
+            "name": "Pediatr\u00eda",
+            "description": "Configuraci\u00f3n inicial para la atenci\u00f3n pedi\u00e1trica."
+          },
+          "consultationType": "ROUTINE_CHECKUP",
+          "chiefComplaint": "DEMO-17-02: control ficticio para tutorial",
+          "primaryDiagnosisCode": null,
+          "primaryDiagnosisDescription": "Control de demostraci\u00f3n, sin valor diagn\u00f3stico.",
+          "vitalSigns": null,
+          "prescriptions": [],
+          "historyOfPresentIllness": "Caso completamente ficticio. Demostraci\u00f3n de registro longitudinal, sin indicaci\u00f3n cl\u00ednica.",
+          "treatmentPlan": "Ejemplo de documentaci\u00f3n. No constituye una recomendaci\u00f3n m\u00e9dica.",
+          "followUpInstructions": null,
+          "followUpDate": "2026-11-03",
+          "measurements": {
+            "weightKg": 7.93,
+            "heightCm": 65.3,
+            "headCircumferenceCm": 39.2
+          },
+          "formValues": {
+            "heightCm": 65.3,
+            "weightKg": 7.93,
+            "diagnosis": "Control de demostraci\u00f3n, sin valor diagn\u00f3stico.",
+            "treatment": "Ejemplo de documentaci\u00f3n. No constituye una recomendaci\u00f3n m\u00e9dica.",
+            "followUpDate": "2026-11-03",
+            "physicalExam": "Texto sint\u00e9tico, no corresponde a una persona ni evaluaci\u00f3n real.",
+            "bloodPressure": null,
+            "chiefComplaint": "DEMO-17-02: control ficticio para tutorial",
+            "milestoneNotes": "Dato ficticio de demostraci\u00f3n.",
+            "presentIllness": "Caso completamente ficticio. Demostraci\u00f3n de registro longitudinal, sin indicaci\u00f3n cl\u00ednica.",
+            "meetsMilestones": true,
+            "headCircumferenceCm": 39.2
+          },
+          "formulaResults": {},
+          "formDefinitionSnapshot": {
+            "categories": [
+              {
+                "key": "reason",
+                "title": "Motivo de consulta",
+                "fields": [
+                  {
+                    "key": "chiefComplaint",
+                    "type": "TEXTAREA",
+                    "label": "Motivo de consulta",
+                    "required": true
+                  },
+                  {
+                    "key": "presentIllness",
+                    "type": "TEXTAREA",
+                    "label": "Evoluci\u00f3n",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "measurements",
+                "title": "Antropometr\u00eda",
+                "fields": [
+                  {
+                    "key": "weightKg",
+                    "type": "NUMBER",
+                    "unit": "kg",
+                    "label": "Peso",
+                    "minimum": 0,
+                    "required": true
+                  },
+                  {
+                    "key": "heightCm",
+                    "type": "NUMBER",
+                    "unit": "cm",
+                    "label": "Longitud / talla",
+                    "minimum": 0,
+                    "required": true
+                  },
+                  {
+                    "key": "headCircumferenceCm",
+                    "type": "NUMBER",
+                    "unit": "cm",
+                    "label": "Per\u00edmetro cef\u00e1lico",
+                    "minimum": 0,
+                    "required": false
+                  },
+                  {
+                    "key": "bloodPressure",
+                    "type": "TEXT",
+                    "label": "Tensi\u00f3n arterial",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "physical_exam",
+                "title": "Examen f\u00edsico",
+                "fields": [
+                  {
+                    "key": "physicalExam",
+                    "type": "TEXTAREA",
+                    "label": "Examen f\u00edsico",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "development",
+                "title": "Desarrollo",
+                "fields": [
+                  {
+                    "key": "meetsMilestones",
+                    "type": "BOOLEAN",
+                    "label": "Cumple pautas de desarrollo",
+                    "required": false
+                  },
+                  {
+                    "key": "milestoneNotes",
+                    "type": "TEXTAREA",
+                    "label": "Detalle de las pautas pendientes",
+                    "required": false,
+                    "visibleWhen": {
+                      "equals": false,
+                      "fieldKey": "meetsMilestones"
+                    }
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "assessment",
+                "title": "Evaluaci\u00f3n",
+                "fields": [
+                  {
+                    "key": "diagnosis",
+                    "type": "TEXTAREA",
+                    "label": "Evaluaci\u00f3n / diagn\u00f3stico",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "plan",
+                "title": "Plan e indicaciones",
+                "fields": [
+                  {
+                    "key": "treatment",
+                    "type": "TEXTAREA",
+                    "label": "Plan terap\u00e9utico",
+                    "required": false
+                  },
+                  {
+                    "key": "followUpDate",
+                    "type": "DATE",
+                    "label": "Pr\u00f3ximo control",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              }
+            ]
+          },
+          "formulaContext": {
+            "zone": "America/Argentina/Buenos_Aires",
+            "referenceDate": "2026-10-29",
+            "patient.gender": "FEMALE",
+            "patient.ageYears": 0,
+            "patient.latestHeightCm": 65,
+            "patient.latestWeightKg": 7.58
+          },
+          "workspaceVersion": 1
+        },
+        "patientAgeLabel": "8 meses",
+        "patientNationalId": "99000017",
+        "encounterLocalDate": "2026-10-29"
+      },
+      {
+        "encounter": {
+          "id": 74,
+          "version": 2,
+          "patientId": 13,
+          "patientFullName": "Persona DEMO 13 Tutorial Ficticio",
+          "encounterDate": "2026-10-29T13:00:00Z",
+          "specialtyId": 1,
+          "specialty": {
+            "id": 1,
+            "code": "pediatrics",
+            "name": "Pediatr\u00eda",
+            "description": "Configuraci\u00f3n inicial para la atenci\u00f3n pedi\u00e1trica."
+          },
+          "consultationType": "ROUTINE_CHECKUP",
+          "chiefComplaint": "DEMO-13-02: control ficticio para tutorial",
+          "primaryDiagnosisCode": null,
+          "primaryDiagnosisDescription": "Control de demostraci\u00f3n, sin valor diagn\u00f3stico.",
+          "vitalSigns": null,
+          "prescriptions": [],
+          "historyOfPresentIllness": "Caso completamente ficticio. Demostraci\u00f3n de registro longitudinal, sin indicaci\u00f3n cl\u00ednica.",
+          "treatmentPlan": "Ejemplo de documentaci\u00f3n. No constituye una recomendaci\u00f3n m\u00e9dica.",
+          "followUpInstructions": null,
+          "followUpDate": "2026-10-30",
+          "measurements": {
+            "weightKg": 16.91,
+            "heightCm": 93.5,
+            "headCircumferenceCm": null
+          },
+          "formValues": {
+            "heightCm": 93.5,
+            "weightKg": 16.91,
+            "diagnosis": "Control de demostraci\u00f3n, sin valor diagn\u00f3stico.",
+            "treatment": "Ejemplo de documentaci\u00f3n. No constituye una recomendaci\u00f3n m\u00e9dica.",
+            "followUpDate": "2026-10-30",
+            "physicalExam": "Texto sint\u00e9tico, no corresponde a una persona ni evaluaci\u00f3n real.",
+            "bloodPressure": null,
+            "chiefComplaint": "DEMO-13-02: control ficticio para tutorial",
+            "milestoneNotes": "Dato ficticio de demostraci\u00f3n.",
+            "presentIllness": "Caso completamente ficticio. Demostraci\u00f3n de registro longitudinal, sin indicaci\u00f3n cl\u00ednica.",
+            "meetsMilestones": true,
+            "headCircumferenceCm": null
+          },
+          "formulaResults": {},
+          "formDefinitionSnapshot": {
+            "categories": [
+              {
+                "key": "reason",
+                "title": "Motivo de consulta",
+                "fields": [
+                  {
+                    "key": "chiefComplaint",
+                    "type": "TEXTAREA",
+                    "label": "Motivo de consulta",
+                    "required": true
+                  },
+                  {
+                    "key": "presentIllness",
+                    "type": "TEXTAREA",
+                    "label": "Evoluci\u00f3n",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "measurements",
+                "title": "Antropometr\u00eda",
+                "fields": [
+                  {
+                    "key": "weightKg",
+                    "type": "NUMBER",
+                    "unit": "kg",
+                    "label": "Peso",
+                    "minimum": 0,
+                    "required": true
+                  },
+                  {
+                    "key": "heightCm",
+                    "type": "NUMBER",
+                    "unit": "cm",
+                    "label": "Longitud / talla",
+                    "minimum": 0,
+                    "required": true
+                  },
+                  {
+                    "key": "headCircumferenceCm",
+                    "type": "NUMBER",
+                    "unit": "cm",
+                    "label": "Per\u00edmetro cef\u00e1lico",
+                    "minimum": 0,
+                    "required": false
+                  },
+                  {
+                    "key": "bloodPressure",
+                    "type": "TEXT",
+                    "label": "Tensi\u00f3n arterial",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "physical_exam",
+                "title": "Examen f\u00edsico",
+                "fields": [
+                  {
+                    "key": "physicalExam",
+                    "type": "TEXTAREA",
+                    "label": "Examen f\u00edsico",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "development",
+                "title": "Desarrollo",
+                "fields": [
+                  {
+                    "key": "meetsMilestones",
+                    "type": "BOOLEAN",
+                    "label": "Cumple pautas de desarrollo",
+                    "required": false
+                  },
+                  {
+                    "key": "milestoneNotes",
+                    "type": "TEXTAREA",
+                    "label": "Detalle de las pautas pendientes",
+                    "required": false,
+                    "visibleWhen": {
+                      "equals": false,
+                      "fieldKey": "meetsMilestones"
+                    }
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "assessment",
+                "title": "Evaluaci\u00f3n",
+                "fields": [
+                  {
+                    "key": "diagnosis",
+                    "type": "TEXTAREA",
+                    "label": "Evaluaci\u00f3n / diagn\u00f3stico",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "plan",
+                "title": "Plan e indicaciones",
+                "fields": [
+                  {
+                    "key": "treatment",
+                    "type": "TEXTAREA",
+                    "label": "Plan terap\u00e9utico",
+                    "required": false
+                  },
+                  {
+                    "key": "followUpDate",
+                    "type": "DATE",
+                    "label": "Pr\u00f3ximo control",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              }
+            ]
+          },
+          "formulaContext": {
+            "zone": "America/Argentina/Buenos_Aires",
+            "referenceDate": "2026-10-29",
+            "patient.gender": "FEMALE",
+            "patient.ageYears": 3,
+            "patient.latestHeightCm": 92.8,
+            "patient.latestWeightKg": 16.73
+          },
+          "workspaceVersion": 1
+        },
+        "patientAgeLabel": "3 a\u00f1os",
+        "patientNationalId": "99000013",
+        "encounterLocalDate": "2026-10-29"
+      },
+      {
+        "encounter": {
+          "id": 66,
+          "version": 2,
+          "patientId": 9,
+          "patientFullName": "Persona DEMO 09 Tutorial Ficticio",
+          "encounterDate": "2026-10-29T13:00:00Z",
+          "specialtyId": 1,
+          "specialty": {
+            "id": 1,
+            "code": "pediatrics",
+            "name": "Pediatr\u00eda",
+            "description": "Configuraci\u00f3n inicial para la atenci\u00f3n pedi\u00e1trica."
+          },
+          "consultationType": "ROUTINE_CHECKUP",
+          "chiefComplaint": "DEMO-09-02: control ficticio para tutorial",
+          "primaryDiagnosisCode": null,
+          "primaryDiagnosisDescription": "Control de demostraci\u00f3n, sin valor diagn\u00f3stico.",
+          "vitalSigns": null,
+          "prescriptions": [],
+          "historyOfPresentIllness": "Caso completamente ficticio. Demostraci\u00f3n de registro longitudinal, sin indicaci\u00f3n cl\u00ednica.",
+          "treatmentPlan": "Ejemplo de documentaci\u00f3n. No constituye una recomendaci\u00f3n m\u00e9dica.",
+          "followUpInstructions": null,
+          "followUpDate": "2026-11-07",
+          "measurements": {
+            "weightKg": 6.19,
+            "heightCm": 59.5,
+            "headCircumferenceCm": 37.2
+          },
+          "formValues": {
+            "heightCm": 59.5,
+            "weightKg": 6.19,
+            "diagnosis": "Control de demostraci\u00f3n, sin valor diagn\u00f3stico.",
+            "treatment": "Ejemplo de documentaci\u00f3n. No constituye una recomendaci\u00f3n m\u00e9dica.",
+            "followUpDate": "2026-11-07",
+            "physicalExam": "Texto sint\u00e9tico, no corresponde a una persona ni evaluaci\u00f3n real.",
+            "bloodPressure": null,
+            "chiefComplaint": "DEMO-09-02: control ficticio para tutorial",
+            "milestoneNotes": "Dato ficticio de demostraci\u00f3n.",
+            "presentIllness": "Caso completamente ficticio. Demostraci\u00f3n de registro longitudinal, sin indicaci\u00f3n cl\u00ednica.",
+            "meetsMilestones": true,
+            "headCircumferenceCm": 37.2
+          },
+          "formulaResults": {},
+          "formDefinitionSnapshot": {
+            "categories": [
+              {
+                "key": "reason",
+                "title": "Motivo de consulta",
+                "fields": [
+                  {
+                    "key": "chiefComplaint",
+                    "type": "TEXTAREA",
+                    "label": "Motivo de consulta",
+                    "required": true
+                  },
+                  {
+                    "key": "presentIllness",
+                    "type": "TEXTAREA",
+                    "label": "Evoluci\u00f3n",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "measurements",
+                "title": "Antropometr\u00eda",
+                "fields": [
+                  {
+                    "key": "weightKg",
+                    "type": "NUMBER",
+                    "unit": "kg",
+                    "label": "Peso",
+                    "minimum": 0,
+                    "required": true
+                  },
+                  {
+                    "key": "heightCm",
+                    "type": "NUMBER",
+                    "unit": "cm",
+                    "label": "Longitud / talla",
+                    "minimum": 0,
+                    "required": true
+                  },
+                  {
+                    "key": "headCircumferenceCm",
+                    "type": "NUMBER",
+                    "unit": "cm",
+                    "label": "Per\u00edmetro cef\u00e1lico",
+                    "minimum": 0,
+                    "required": false
+                  },
+                  {
+                    "key": "bloodPressure",
+                    "type": "TEXT",
+                    "label": "Tensi\u00f3n arterial",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "physical_exam",
+                "title": "Examen f\u00edsico",
+                "fields": [
+                  {
+                    "key": "physicalExam",
+                    "type": "TEXTAREA",
+                    "label": "Examen f\u00edsico",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "development",
+                "title": "Desarrollo",
+                "fields": [
+                  {
+                    "key": "meetsMilestones",
+                    "type": "BOOLEAN",
+                    "label": "Cumple pautas de desarrollo",
+                    "required": false
+                  },
+                  {
+                    "key": "milestoneNotes",
+                    "type": "TEXTAREA",
+                    "label": "Detalle de las pautas pendientes",
+                    "required": false,
+                    "visibleWhen": {
+                      "equals": false,
+                      "fieldKey": "meetsMilestones"
+                    }
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "assessment",
+                "title": "Evaluaci\u00f3n",
+                "fields": [
+                  {
+                    "key": "diagnosis",
+                    "type": "TEXTAREA",
+                    "label": "Evaluaci\u00f3n / diagn\u00f3stico",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              },
+              {
+                "key": "plan",
+                "title": "Plan e indicaciones",
+                "fields": [
+                  {
+                    "key": "treatment",
+                    "type": "TEXTAREA",
+                    "label": "Plan terap\u00e9utico",
+                    "required": false
+                  },
+                  {
+                    "key": "followUpDate",
+                    "type": "DATE",
+                    "label": "Pr\u00f3ximo control",
+                    "required": false
+                  }
+                ],
+                "enabled": true
+              }
+            ]
+          },
+          "formulaContext": {
+            "zone": "America/Argentina/Buenos_Aires",
+            "referenceDate": "2026-10-29",
+            "patient.gender": "FEMALE",
+            "patient.ageYears": 0,
+            "patient.latestHeightCm": 59.1,
+            "patient.latestWeightKg": 6.11
+          },
+          "workspaceVersion": 1
+        },
+        "patientAgeLabel": "4 meses",
+        "patientNationalId": "99000009",
+        "encounterLocalDate": "2026-10-29"
+      }
+    ],
+    "upcomingFollowUps": [
+      {
+        "encounterId": 8,
+        "patientId": 1,
+        "patientFullName": "Persona DEMO 01 Tutorial Ficticio",
+        "followUpDate": "2026-10-30"
+      },
+      {
+        "encounterId": 74,
+        "patientId": 13,
+        "patientFullName": "Persona DEMO 13 Tutorial Ficticio",
+        "followUpDate": "2026-10-30"
+      },
+      {
+        "encounterId": 98,
+        "patientId": 25,
+        "patientFullName": "Persona DEMO 25 Tutorial Ficticio",
+        "followUpDate": "2026-10-30"
+      },
+      {
+        "encounterId": 122,
+        "patientId": 37,
+        "patientFullName": "Persona DEMO 37 Tutorial Ficticio",
+        "followUpDate": "2026-10-30"
+      },
+      {
+        "encounterId": 16,
+        "patientId": 2,
+        "patientFullName": "Persona DEMO 02 Tutorial Ficticio",
+        "followUpDate": "2026-10-31"
+      },
+      {
+        "encounterId": 76,
+        "patientId": 14,
+        "patientFullName": "Persona DEMO 14 Tutorial Ficticio",
+        "followUpDate": "2026-10-31"
+      },
+      {
+        "encounterId": 100,
+        "patientId": 26,
+        "patientFullName": "Persona DEMO 26 Tutorial Ficticio",
+        "followUpDate": "2026-10-31"
+      },
+      {
+        "encounterId": 124,
+        "patientId": 38,
+        "patientFullName": "Persona DEMO 38 Tutorial Ficticio",
+        "followUpDate": "2026-10-31"
+      }
+    ]
+  },
+  "browser_verified": false,
+  "clinical_disclaimer": "Dataset sint\u00e9tico sin valor diagn\u00f3stico ni terap\u00e9utico.",
+  "account_A_new_workspace": true
+}

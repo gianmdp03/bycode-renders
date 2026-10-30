@@ -1,0 +1,29 @@
+{
+  "name":"doctorchart-video-tutorial",
+  "private":true,
+  "scripts":{
+    "narration-studio":"node automation/narration-studio.mjs",
+    "ai-studio":"node automation/ai-narration-studio.mjs",
+    "test:ai-studio":"node --test automation/ai-narration-studio.test.mjs",
+    "test:narration-studio":"node --test automation/narration-studio.test.mjs",
+    "bootstrap":"node automation/python.mjs bootstrap",
+    "preflight":"node automation/python.mjs preflight",
+    "seed":"node automation/python.mjs seed",
+    "record":"node automation/record.mjs",
+    "voice":"node automation/python.mjs voice",
+    "compile":"node automation/compile-timeline.mjs",
+    "coverage":"node automation/coverage.mjs",
+    "preview":"npm --prefix remotion run dev -- --port=3300",
+    "qa":"node automation/qa-project.mjs",
+    "render":"node automation/render-final.mjs",
+    "render:ai:test":"node automation/export-ai-test.mjs",
+    "clean-demo":"node automation/python.mjs runtime clean-demo --owned-resources-only"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.532"
+  },
+  "dependencies": {
+    "obs-websocket-js": "5.0.6",
+    "playwright": "1.64.0"
+  }
+}

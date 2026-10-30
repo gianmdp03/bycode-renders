@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "testedAt": "2026-10-30T18:24:46.015Z",
+  "isolatedDataDirectory": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\doctorchart-video-tutorial\\.local\\narration-studio-test-uxxKzw",
+  "productionDataModified": false,
+  "checks": [
+    "144 actual source mappings; ranged footage",
+    "edited word and title persisted; other segment unchanged",
+    "WAV trim 0.5–3.25 seconds; downloaded bytes equal disk SHA256",
+    "new server instance reads exact saved audio and edited script",
+    "previous takes preserved, later trimming non-destructive, old take selectable",
+    "script/audio mismatch flagged after editing",
+    "stale revision, malformed audio, invalid trim rejected without overwriting",
+    "actual EISDIR/rename write failure reports error and old state survives restart",
+    "local origin enforced; export keeps source/action/audio association"
+  ],
+  "microphoneHardware": "Browser UI verification tracked separately; fixture is synthetic audio, not a user recording."
+}

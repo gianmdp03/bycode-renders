@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "account": "NO_PLAN",
+      "status": "PASS",
+      "url": "http://localhost:24202/plan-required?returnUrl=%2Fpatients",
+      "headings": [
+        "Necesitás un plan para continuar"
+      ],
+      "proof": "qa/role-NO_PLAN.png"
+    },
+    {
+      "account": "ADMIN",
+      "status": "PASS",
+      "url": "http://localhost:24202/admin/specialties",
+      "headings": [
+        "Especialidades y wizard",
+        "Catálogo"
+      ],
+      "proof": "qa/role-ADMIN.png"
+    },
+    {
+      "account": "B",
+      "status": "PASS",
+      "url": "http://localhost:24202/dashboard",
+      "headings": [
+        "Buenas noches, Dr(a). Médica DEMO Pediatría",
+        "Próximas consultas",
+        "Hoy",
+        "Mañana",
+        "Pasado mañana",
+        "Últimos pacientes atendidos",
+        "Alta DEMO Tutorial Ficticio",
+        "Alta DEMO Tutorial Ficticio",
+        "Persona DEMO 37 Tutorial Ficticio",
+        "Persona DEMO 33 Tutorial Ficticio",
+        "Persona DEMO 29 Tutorial Ficticio",
+        " Acceso rápido a pacientes ",
+        " Acciones rápidas ",
+        "Notas rápidas"
+      ],
+      "proof": "qa/role-B.png"
+    }
+  ],
+  "scope": "Read-only guards and navigation. No purchase, billing changes or admin edits."
+}

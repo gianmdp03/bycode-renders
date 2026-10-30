@@ -1,0 +1,12 @@
+piper-tts==1.8.0
+onnxruntime==1.31.1
+numpy==2.5.4
+imageio-ffmpeg==0.6.0
+cryptography==50.0.2
+Pillow==12.3.0
+cffi==2.1.1
+flatbuffers==25.12.19
+packaging==26.3
+pathvalidate==3.3.1
+protobuf==7.36.2
+pycparser==3.12

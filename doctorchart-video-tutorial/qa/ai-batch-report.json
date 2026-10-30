@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checks": [
+    "generated WAV automatically saved and verified",
+    "pause finishes and saves the current fragment",
+    "resume after new controller skips saved work",
+    "all three fragments saved with male Base model provenance",
+    "crash after audio import does not create duplicate takes on resume",
+    "personal studio state unchanged"
+  ],
+  "isolatedDataDirectory": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\doctorchart-video-tutorial\\.local\\ai-batch-test-4yQAQ8"
+}

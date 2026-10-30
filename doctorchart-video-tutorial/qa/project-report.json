@@ -1,0 +1,229 @@
+{
+  "status": "PREVIEW_WITH_OPEN_ITEMS",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "seconds": 1684.35,
+  "chapters": 23,
+  "beats": 144,
+  "checks": [
+    {
+      "name": "Unchanged product doctorchart-frontend",
+      "status": "PASS",
+      "detail": {
+        "commit": "14196974125e5769c5a95e309896397acad96e63",
+        "clean": true
+      }
+    },
+    {
+      "name": "Unchanged product doctorchart-backend-go",
+      "status": "PASS",
+      "detail": {
+        "commit": "d5a89e05eebf70de1dca72ed0b01a74467b6b1a4",
+        "clean": true
+      }
+    },
+    {
+      "name": "Unchanged product api-ai-gateway-go",
+      "status": "PASS",
+      "detail": {
+        "commit": "55197fa5701d15ed67a69e395bee4e3699c5a705",
+        "clean": true
+      }
+    },
+    {
+      "name": "Unchanged product bycode-backend-go",
+      "status": "PASS",
+      "detail": {
+        "commit": "bf65c042cc7480cbf4603447becfeb14002dbde1",
+        "clean": true
+      }
+    },
+    {
+      "name": "Unchanged product bycode-image-email-service-go",
+      "status": "PASS",
+      "detail": {
+        "commit": "7b5f649e4f8586be54e63e3d61adea0b2fa2acb1",
+        "clean": true
+      }
+    },
+    {
+      "name": "Original frontend and filming copy source hashes",
+      "status": "PASS",
+      "detail": {
+        "differences": []
+      }
+    },
+    {
+      "name": "Native source geometry and synchronized clock",
+      "status": "PASS",
+      "detail": {
+        "issues": [],
+        "captureWarnings": [
+          {
+            "scene": "10-prescriptions",
+            "obs_stats": {
+              "renderSkippedFrames": 2,
+              "outputSkippedFrames": 2,
+              "rawBefore": {
+                "activeFps": 60.0000024000001,
+                "availableDiskSpace": 170741.09375,
+                "averageFrameRenderTime": 4.234757,
+                "cpuUsage": 0.9608601810285133,
+                "memoryUsage": 196.4140625,
+                "outputSkippedFrames": 0,
+                "outputTotalFrames": 3888,
+                "renderSkippedFrames": 12,
+                "renderTotalFrames": 178197,
+                "webSocketSessionIncomingMessages": 13,
+                "webSocketSessionOutgoingMessages": 15
+              },
+              "rawAfter": {
+                "activeFps": 60.0000024000001,
+                "availableDiskSpace": 170693.734375,
+                "averageFrameRenderTime": 3.72154,
+                "cpuUsage": 2.3536030587960126,
+                "memoryUsage": 339.3515625,
+                "outputSkippedFrames": 2,
+                "outputTotalFrames": 3954,
+                "renderSkippedFrames": 14,
+                "renderTotalFrames": 182161,
+                "webSocketSessionIncomingMessages": 36,
+                "webSocketSessionOutgoingMessages": 51
+              },
+              "note": "Render counters accumulate since OBS startup; output counters reset when recording starts."
+            },
+            "note": "Inspect original motion before master; metadata is not cadence proof."
+          },
+          {
+            "scene": "15-document-controls",
+            "obs_stats": {
+              "renderSkippedFrames": 2,
+              "outputSkippedFrames": 2,
+              "rawBefore": {
+                "activeFps": 60.0000024000001,
+                "availableDiskSpace": 170652.91796875,
+                "averageFrameRenderTime": 5.71744,
+                "cpuUsage": 2.541321226305941,
+                "memoryUsage": 240.6875,
+                "outputSkippedFrames": 0,
+                "outputTotalFrames": 6955,
+                "renderSkippedFrames": 14,
+                "renderTotalFrames": 202070,
+                "webSocketSessionIncomingMessages": 140,
+                "webSocketSessionOutgoingMessages": 181
+              },
+              "rawAfter": {
+                "activeFps": 60.0000024000001,
+                "availableDiskSpace": 170642.90625,
+                "averageFrameRenderTime": 5.811504,
+                "cpuUsage": 2.4578567628875585,
+                "memoryUsage": 355.375,
+                "outputSkippedFrames": 2,
+                "outputTotalFrames": 5731,
+                "renderSkippedFrames": 16,
+                "renderTotalFrames": 207811,
+                "webSocketSessionIncomingMessages": 164,
+                "webSocketSessionOutgoingMessages": 214
+              },
+              "note": "Render counters accumulate since OBS startup; output counters reset when recording starts."
+            },
+            "note": "Inspect original motion before master; metadata is not cadence proof."
+          },
+          {
+            "scene": "18-shortcuts-and-output",
+            "obs_stats": {
+              "renderSkippedFrames": 2,
+              "outputSkippedFrames": 2,
+              "rawBefore": {
+                "activeFps": 58.032789206557474,
+                "availableDiskSpace": 170625.1484375,
+                "averageFrameRenderTime": 6.470289,
+                "cpuUsage": 2.632724852258411,
+                "memoryUsage": 249.43359375,
+                "outputSkippedFrames": 0,
+                "outputTotalFrames": 3769,
+                "renderSkippedFrames": 18,
+                "renderTotalFrames": 239911,
+                "webSocketSessionIncomingMessages": 34,
+                "webSocketSessionOutgoingMessages": 42
+              },
+              "rawAfter": {
+                "activeFps": 60.0000024000001,
+                "availableDiskSpace": 170609.50390625,
+                "averageFrameRenderTime": 3.84036,
+                "cpuUsage": 2.4989381547182585,
+                "memoryUsage": 363.96484375,
+                "outputSkippedFrames": 2,
+                "outputTotalFrames": 6562,
+                "renderSkippedFrames": 20,
+                "renderTotalFrames": 246483,
+                "webSocketSessionIncomingMessages": 70,
+                "webSocketSessionOutgoingMessages": 92
+              },
+              "note": "Render counters accumulate since OBS startup; output counters reset when recording starts."
+            },
+            "note": "Inspect original motion before master; metadata is not cadence proof."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Actual audio 48kHz stereo and no truncated narration",
+      "status": "PASS",
+      "detail": {
+        "segments": 144,
+        "issues": []
+      }
+    },
+    {
+      "name": "Captions max two lines at actual 32px Arial",
+      "status": "PASS",
+      "detail": {
+        "issues": []
+      }
+    },
+    {
+      "name": "Recorded cursor clicks",
+      "status": "PASS",
+      "detail": {
+        "cursorClicks": 330
+      }
+    },
+    {
+      "name": "Coverage references exist in actual timeline",
+      "status": "PASS",
+      "detail": {
+        "invalid_links": [],
+        "counts": {
+          "CAPTURED": 223,
+          "OUT_OF_SCOPE": 61,
+          "DISABLED": 80,
+          "BLOCKED": 2
+        }
+      }
+    }
+  ],
+  "motion": {
+    "scene_id": "qa-native-motion",
+    "status": "PASS",
+    "sourceFrameRate": "60/1",
+    "method": "Original encoded OBS frames, no fps conversion. Pixel changes in the scrolling UI (cursor excluded). A 60-frame interval must contain >=50 meaningful changes; 30fps doubled cannot pass.",
+    "maximumMeaningfulChangesIn60": 58,
+    "windows": [
+      {
+        "source_start_frame": 19,
+        "source_start_seconds": 0.31666666666666665,
+        "framesDecoded": 132,
+        "maxMeaningfulChangesIn60": 58
+      }
+    ]
+  },
+  "full_coverage": false,
+  "unresolved": [
+    "Visual and listening review before master approval.",
+    "2 defensive error branches could not be reached through the authorized guards; each reason remains explicit in the matrix.",
+    "Motion cadence is assessed on actual source changes; a 60/1 metadata value alone is insufficient. See per-source motion reports."
+  ],
+  "timeline_sha256": "f46c61c52dd1ecf9d53355d70ecdc147a8815916a930c41aea15ae07f53baa08"
+}

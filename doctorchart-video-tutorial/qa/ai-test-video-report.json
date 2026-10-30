@@ -1,0 +1,751 @@
+{
+  "status": "PASS",
+  "file": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\doctorchart-video-tutorial\\output\\DoctorChart-Tutorial-Prueba-IA.mp4",
+  "sampleOnly": false,
+  "durationSeconds": 1152.1,
+  "video": {
+    "codec_name": "h264",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "60/1",
+    "pix_fmt": "yuv420p",
+    "nb_frames": "69126",
+    "color_space": "bt709",
+    "color_range": "tv"
+  },
+  "audio": {
+    "codec_name": "aac",
+    "sample_rate": "48000",
+    "channels": 2
+  },
+  "formatPass": true,
+  "alignmentLagSamplesAt8k": 0,
+  "audioCorrelation": 0.999747097492218,
+  "chapters": 23,
+  "unexpectedDropoutSeconds": [],
+  "segmentsChecked": 144,
+  "segments": [
+    {
+      "id": "access-context",
+      "correlation": 0.9997315406799316,
+      "status": "PASS"
+    },
+    {
+      "id": "access-account",
+      "correlation": 0.9997397661209106,
+      "status": "PASS"
+    },
+    {
+      "id": "access-visibility",
+      "correlation": 0.9997454881668091,
+      "status": "PASS"
+    },
+    {
+      "id": "access-signin",
+      "correlation": 0.9997161030769348,
+      "status": "PASS"
+    },
+    {
+      "id": "specialty-options",
+      "correlation": 0.9997580051422119,
+      "status": "PASS"
+    },
+    {
+      "id": "specialty-confirm",
+      "correlation": 0.9997053146362305,
+      "status": "PASS"
+    },
+    {
+      "id": "wizard-orientation",
+      "correlation": 0.9996548891067505,
+      "status": "PASS"
+    },
+    {
+      "id": "wizard-system",
+      "correlation": 0.9997707605361938,
+      "status": "PASS"
+    },
+    {
+      "id": "wizard-family",
+      "correlation": 0.9997483491897583,
+      "status": "PASS"
+    },
+    {
+      "id": "wizard-guardians",
+      "correlation": 0.9997376203536987,
+      "status": "PASS"
+    },
+    {
+      "id": "wizard-clinical",
+      "correlation": 0.9996911287307739,
+      "status": "PASS"
+    },
+    {
+      "id": "wizard-categories",
+      "correlation": 0.9996550679206848,
+      "status": "PASS"
+    },
+    {
+      "id": "wizard-add-category",
+      "correlation": 0.9998263716697693,
+      "status": "PASS"
+    },
+    {
+      "id": "wizard-category-order",
+      "correlation": 0.9997202754020691,
+      "status": "PASS"
+    },
+    {
+      "id": "wizard-add-field",
+      "correlation": 0.9997366666793823,
+      "status": "PASS"
+    },
+    {
+      "id": "wizard-field-types",
+      "correlation": 0.9998166561126709,
+      "status": "PASS"
+    },
+    {
+      "id": "wizard-number",
+      "correlation": 0.9998132586479187,
+      "status": "PASS"
+    },
+    {
+      "id": "wizard-options",
+      "correlation": 0.9996588826179504,
+      "status": "PASS"
+    },
+    {
+      "id": "wizard-save-field",
+      "correlation": 0.9997997283935547,
+      "status": "PASS"
+    },
+    {
+      "id": "wizard-field-order",
+      "correlation": 0.9997426867485046,
+      "status": "PASS"
+    },
+    {
+      "id": "wizard-save-draft",
+      "correlation": 0.999717652797699,
+      "status": "PASS"
+    },
+    {
+      "id": "wizard-reset-review",
+      "correlation": 0.9997017979621887,
+      "status": "PASS"
+    },
+    {
+      "id": "wizard-reset-confirm",
+      "correlation": 0.9997740983963013,
+      "status": "PASS"
+    },
+    {
+      "id": "wizard-finish",
+      "correlation": 0.9997673034667969,
+      "status": "PASS"
+    },
+    {
+      "id": "dashboard-account",
+      "correlation": 0.9996148943901062,
+      "status": "PASS"
+    },
+    {
+      "id": "dashboard-kpis",
+      "correlation": 0.9997195601463318,
+      "status": "PASS"
+    },
+    {
+      "id": "dashboard-followup",
+      "correlation": 0.9997559785842896,
+      "status": "PASS"
+    },
+    {
+      "id": "dashboard-recent",
+      "correlation": 0.999693751335144,
+      "status": "PASS"
+    },
+    {
+      "id": "dashboard-search",
+      "correlation": 0.9996502995491028,
+      "status": "PASS"
+    },
+    {
+      "id": "dashboard-notes",
+      "correlation": 0.9997915625572205,
+      "status": "PASS"
+    },
+    {
+      "id": "directory-open",
+      "correlation": 0.9997535943984985,
+      "status": "PASS"
+    },
+    {
+      "id": "directory-search",
+      "correlation": 0.9998370409011841,
+      "status": "PASS"
+    },
+    {
+      "id": "directory-filters",
+      "correlation": 0.9996809363365173,
+      "status": "PASS"
+    },
+    {
+      "id": "directory-scroll",
+      "correlation": 0.9996677041053772,
+      "status": "PASS"
+    },
+    {
+      "id": "patient-new",
+      "correlation": 0.9997172951698303,
+      "status": "PASS"
+    },
+    {
+      "id": "patient-validation",
+      "correlation": 0.9997697472572327,
+      "status": "PASS"
+    },
+    {
+      "id": "patient-demographics",
+      "correlation": 0.9997478723526001,
+      "status": "PASS"
+    },
+    {
+      "id": "patient-contact",
+      "correlation": 0.9997559785842896,
+      "status": "PASS"
+    },
+    {
+      "id": "patient-family",
+      "correlation": 0.9997425675392151,
+      "status": "PASS"
+    },
+    {
+      "id": "patient-save",
+      "correlation": 0.9996913075447083,
+      "status": "PASS"
+    },
+    {
+      "id": "patient-edit",
+      "correlation": 0.999845027923584,
+      "status": "PASS"
+    },
+    {
+      "id": "encounter-open",
+      "correlation": 0.999743640422821,
+      "status": "PASS"
+    },
+    {
+      "id": "encounter-first",
+      "correlation": 0.9998093843460083,
+      "status": "PASS"
+    },
+    {
+      "id": "encounter-reason",
+      "correlation": 0.999713659286499,
+      "status": "PASS"
+    },
+    {
+      "id": "encounter-measurements",
+      "correlation": 0.9997336268424988,
+      "status": "PASS"
+    },
+    {
+      "id": "encounter-plan",
+      "correlation": 0.9997614026069641,
+      "status": "PASS"
+    },
+    {
+      "id": "encounter-save",
+      "correlation": 0.999654233455658,
+      "status": "PASS"
+    },
+    {
+      "id": "encounter-edit",
+      "correlation": 0.9996988773345947,
+      "status": "PASS"
+    },
+    {
+      "id": "encounter-followup",
+      "correlation": 0.9997228980064392,
+      "status": "PASS"
+    },
+    {
+      "id": "encounter-list",
+      "correlation": 0.9998400807380676,
+      "status": "PASS"
+    },
+    {
+      "id": "vaccination-open",
+      "correlation": 0.9998550415039062,
+      "status": "PASS"
+    },
+    {
+      "id": "vaccination-apply",
+      "correlation": 0.9997356534004211,
+      "status": "PASS"
+    },
+    {
+      "id": "vaccination-undo",
+      "correlation": 0.9997382760047913,
+      "status": "PASS"
+    },
+    {
+      "id": "growth-open",
+      "correlation": 0.99982750415802,
+      "status": "PASS"
+    },
+    {
+      "id": "growth-chart",
+      "correlation": 0.9996830821037292,
+      "status": "PASS"
+    },
+    {
+      "id": "growth-categories",
+      "correlation": 0.9997473359107971,
+      "status": "PASS"
+    },
+    {
+      "id": "growth-history",
+      "correlation": 0.9997913837432861,
+      "status": "PASS"
+    },
+    {
+      "id": "rx-open",
+      "correlation": 0.9997319579124451,
+      "status": "PASS"
+    },
+    {
+      "id": "rx-medication",
+      "correlation": 0.9997689127922058,
+      "status": "PASS"
+    },
+    {
+      "id": "rx-add-remove",
+      "correlation": 0.9996274709701538,
+      "status": "PASS"
+    },
+    {
+      "id": "rx-save",
+      "correlation": 0.9997571110725403,
+      "status": "PASS"
+    },
+    {
+      "id": "rx-study",
+      "correlation": 0.9997904896736145,
+      "status": "PASS"
+    },
+    {
+      "id": "rx-print",
+      "correlation": 0.9996976256370544,
+      "status": "PASS"
+    },
+    {
+      "id": "studies-open",
+      "correlation": 0.9998772740364075,
+      "status": "PASS"
+    },
+    {
+      "id": "studies-upload",
+      "correlation": 0.999822735786438,
+      "status": "PASS"
+    },
+    {
+      "id": "studies-preview",
+      "correlation": 0.9997730851173401,
+      "status": "PASS"
+    },
+    {
+      "id": "studies-download",
+      "correlation": 0.9997173547744751,
+      "status": "PASS"
+    },
+    {
+      "id": "calendar-open",
+      "correlation": 0.9997621774673462,
+      "status": "PASS"
+    },
+    {
+      "id": "calendar-reference",
+      "correlation": 0.9997664093971252,
+      "status": "PASS"
+    },
+    {
+      "id": "preferences-theme",
+      "correlation": 0.9998027086257935,
+      "status": "PASS"
+    },
+    {
+      "id": "profile-open",
+      "correlation": 0.999600350856781,
+      "status": "PASS"
+    },
+    {
+      "id": "profile-personalize",
+      "correlation": 0.9996771812438965,
+      "status": "PASS"
+    },
+    {
+      "id": "closing",
+      "correlation": 0.9996611475944519,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-dashboard-search",
+      "correlation": 0.9998244047164917,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-dashboard-detail",
+      "correlation": 0.999859094619751,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-directory-paging",
+      "correlation": 0.999753475189209,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-empty-search",
+      "correlation": 0.9997472167015076,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-timeline-expand",
+      "correlation": 0.9996166825294495,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-timeline-presets",
+      "correlation": 0.9997556805610657,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-timeline-range",
+      "correlation": 0.9997188448905945,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-nav",
+      "correlation": 0.9996997117996216,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-editor-begin",
+      "correlation": 0.9997298121452332,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-editor-category",
+      "correlation": 0.9996030330657959,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-editor-boolean",
+      "correlation": 0.9997997879981995,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-editor-condition",
+      "correlation": 0.9997500777244568,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-editor-edit",
+      "correlation": 0.9997207522392273,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-editor-options",
+      "correlation": 0.9997615218162537,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-editor-formula",
+      "correlation": 0.9997063279151917,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-editor-measurement",
+      "correlation": 0.9997572302818298,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-editor-discard",
+      "correlation": 0.9997113347053528,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-rx-lines",
+      "correlation": 0.9997904896736145,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-rx-study",
+      "correlation": 0.9997690320014954,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-document-view",
+      "correlation": 0.9997291564941406,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-rx-delete",
+      "correlation": 0.9997903108596802,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-study-picker",
+      "correlation": 0.9996591806411743,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-study-delete",
+      "correlation": 0.9997784495353699,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-vaccine-date",
+      "correlation": 0.9996849894523621,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-calendar-details",
+      "correlation": 0.9996800422668457,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-growth-points",
+      "correlation": 0.999771237373352,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-growth-table",
+      "correlation": 0.9999141097068787,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-growth-context",
+      "correlation": 0.999741792678833,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-growth-reference",
+      "correlation": 0.9996869564056396,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-growth-reset",
+      "correlation": 0.9996768236160278,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-conflict-patient",
+      "correlation": 0.9997261166572571,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-conflict-review",
+      "correlation": 0.9997578263282776,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-encounter-cancel",
+      "correlation": 0.9997125864028931,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-encounter-delete",
+      "correlation": 0.9997604489326477,
+      "status": "PASS"
+    },
+    {
+      "id": "extra-session-close",
+      "correlation": 0.9998701214790344,
+      "status": "PASS"
+    },
+    {
+      "id": "more-dashboard-links",
+      "correlation": 0.9997594356536865,
+      "status": "PASS"
+    },
+    {
+      "id": "more-dashboard-paging",
+      "correlation": 0.9998770952224731,
+      "status": "PASS"
+    },
+    {
+      "id": "more-encounter-links",
+      "correlation": 0.9998296499252319,
+      "status": "PASS"
+    },
+    {
+      "id": "more-summary-edit",
+      "correlation": 0.9997679591178894,
+      "status": "PASS"
+    },
+    {
+      "id": "more-rx-output",
+      "correlation": 0.9998092651367188,
+      "status": "PASS"
+    },
+    {
+      "id": "more-calendar-notes",
+      "correlation": 0.999752938747406,
+      "status": "PASS"
+    },
+    {
+      "id": "more-profile-return",
+      "correlation": 0.9998598694801331,
+      "status": "PASS"
+    },
+    {
+      "id": "recover-dashboard",
+      "correlation": 0.999711275100708,
+      "status": "PASS"
+    },
+    {
+      "id": "recover-directory",
+      "correlation": 0.999748706817627,
+      "status": "PASS"
+    },
+    {
+      "id": "recover-consultations",
+      "correlation": 0.9997395277023315,
+      "status": "PASS"
+    },
+    {
+      "id": "recover-detail",
+      "correlation": 0.9996523261070251,
+      "status": "PASS"
+    },
+    {
+      "id": "recover-patient-form",
+      "correlation": 0.9997593760490417,
+      "status": "PASS"
+    },
+    {
+      "id": "recover-growth",
+      "correlation": 0.9997925758361816,
+      "status": "PASS"
+    },
+    {
+      "id": "recover-vaccinations",
+      "correlation": 0.9997901916503906,
+      "status": "PASS"
+    },
+    {
+      "id": "recover-prescriptions",
+      "correlation": 0.9998082518577576,
+      "status": "PASS"
+    },
+    {
+      "id": "recover-print",
+      "correlation": 0.9997586607933044,
+      "status": "PASS"
+    },
+    {
+      "id": "review-new-patient",
+      "correlation": 0.9997738599777222,
+      "status": "PASS"
+    },
+    {
+      "id": "review-new-encounter",
+      "correlation": 0.9998515844345093,
+      "status": "PASS"
+    },
+    {
+      "id": "review-saved-encounter",
+      "correlation": 0.9997075796127319,
+      "status": "PASS"
+    },
+    {
+      "id": "review-wizard",
+      "correlation": 0.9997370839118958,
+      "status": "PASS"
+    },
+    {
+      "id": "draft-specialty-session",
+      "correlation": 0.9995977878570557,
+      "status": "PASS"
+    },
+    {
+      "id": "draft-wizard-steps",
+      "correlation": 0.9998382925987244,
+      "status": "PASS"
+    },
+    {
+      "id": "draft-save-signout",
+      "correlation": 0.9997572302818298,
+      "status": "PASS"
+    },
+    {
+      "id": "edge-timeout",
+      "correlation": 0.9997353553771973,
+      "status": "PASS"
+    },
+    {
+      "id": "edge-dashboard-directory",
+      "correlation": 0.9997864365577698,
+      "status": "PASS"
+    },
+    {
+      "id": "edge-no-selection",
+      "correlation": 0.9997343420982361,
+      "status": "PASS"
+    },
+    {
+      "id": "edge-empty-history",
+      "correlation": 0.9997997879981995,
+      "status": "PASS"
+    },
+    {
+      "id": "edge-empty-filter",
+      "correlation": 0.9998302459716797,
+      "status": "PASS"
+    },
+    {
+      "id": "edge-growth-frame",
+      "correlation": 0.9997060298919678,
+      "status": "PASS"
+    },
+    {
+      "id": "edge-growth-source",
+      "correlation": 0.999638557434082,
+      "status": "PASS"
+    },
+    {
+      "id": "edge-current-vaccine",
+      "correlation": 0.9997537136077881,
+      "status": "PASS"
+    },
+    {
+      "id": "edge-pdf-study",
+      "correlation": 0.999705970287323,
+      "status": "PASS"
+    },
+    {
+      "id": "edge-shell-retry",
+      "correlation": 0.9996994137763977,
+      "status": "PASS"
+    },
+    {
+      "id": "edge-specialty-retry",
+      "correlation": 0.9997771978378296,
+      "status": "PASS"
+    },
+    {
+      "id": "edge-specialty-conflict",
+      "correlation": 0.9997439384460449,
+      "status": "PASS"
+    },
+    {
+      "id": "edge-login-home",
+      "correlation": 0.9996834993362427,
+      "status": "PASS"
+    }
+  ],
+  "method": "Independently assemble original selected WAVs at 800 audio samples per video frame; compare exported AAC in 100ms voiced windows and per fragment.",
+  "limitation": "Technical continuity check; naturalness and pronunciation require listening review."
+}

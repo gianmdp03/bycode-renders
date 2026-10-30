@@ -1,0 +1,27 @@
+{
+  "error": "locator.scrollIntoViewIfNeeded: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Ir al Directorio de Pacientes', exact: true })\u001b[22m\n",
+  "url": "http://localhost:24202/records",
+  "buttons": [
+    "",
+    "Modo oscuro",
+    "A+Normal",
+    "MD",
+    "Directorio",
+    "Editar datos",
+    "Nueva historia clínica",
+    "1. Datos del paciente",
+    "2. Historia Clínica8",
+    "3. Vacunas",
+    "4. Evolución y Curvas24",
+    "5. Recetas y Órdenes",
+    "6. Estudios realizados",
+    "Editar datos"
+  ],
+  "headings": [
+    " Persona DEMO 01 Tutorial Ficticio ",
+    "Datos Filiatorios y Clínicos",
+    "Datos Personales",
+    "ANTECEDENTES FAMILIARES",
+    "DATOS FAMILIARES Y TUTORES"
+  ]
+}

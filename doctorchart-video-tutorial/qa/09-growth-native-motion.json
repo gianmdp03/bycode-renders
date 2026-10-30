@@ -1,0 +1,39 @@
+{
+  "scene_id": "09-growth",
+  "file": "recordings/09-growth-1793326847048.mkv",
+  "status": "PASS",
+  "sourceFrameRate": "60/1",
+  "method": "Original encoded OBS frames, no fps conversion. Pixel changes in the scrolling UI (cursor excluded). Require >=50 changes in 60 frames OR >=25 in 30 frames for short scrolls reaching their boundary in <1s. Both require >=50 updates/sec; 30fps doubled cannot pass.",
+  "maximumMeaningfulChangesIn60": 55,
+  "maximumMeaningfulChangesIn30": 29,
+  "windows": [
+    {
+      "source_start_frame": 667,
+      "source_start_seconds": 11.116666666666667,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 55,
+      "maxMeaningfulChangesIn30": 28
+    },
+    {
+      "source_start_frame": 1374,
+      "source_start_seconds": 22.9,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 1,
+      "maxMeaningfulChangesIn30": 1
+    },
+    {
+      "source_start_frame": 2090,
+      "source_start_seconds": 34.833333333333336,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 54,
+      "maxMeaningfulChangesIn30": 28
+    },
+    {
+      "source_start_frame": 2187,
+      "source_start_seconds": 36.45,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 55,
+      "maxMeaningfulChangesIn30": 29
+    }
+  ]
+}

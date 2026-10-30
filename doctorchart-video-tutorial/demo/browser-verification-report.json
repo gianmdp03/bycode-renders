@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "baseline_seed_patients_retained": true,
+  "baseline_count": 40,
+  "current_directory_retrieved_count": 42,
+  "captured_chapters": 23,
+  "modules_exercised": [
+    "Resumen",
+    "Historia clinica",
+    "Vacunas",
+    "Evolucion y curvas",
+    "Recetas y ordenes",
+    "Estudios realizados"
+  ],
+  "scope": "All modules exercised on selected synthetic fixtures; not a manual review of every clinical row.",
+  "evidence": "recordings/manifest.json and qa/final-preview-report.json"
+}

@@ -1,0 +1,1 @@
+Voz neuronal local: Piper 1.8.0, es_MX-ald-medium. Dataset Unlicense según MODEL_CARD; ver docs/voice-provenance.json. Revisión auditiva de naturalidad y pronunciación pendiente de la preview. Sin música. Archivos WAV reales; duraciones medidas.

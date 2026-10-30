@@ -1,0 +1,18 @@
+{
+  "scene_id": "05-directory",
+  "file": "recordings/05-directory-1793326583297.mkv",
+  "status": "PASS",
+  "sourceFrameRate": "60/1",
+  "method": "Original encoded OBS frames, no fps conversion. Pixel changes in the scrolling UI (cursor excluded). Require >=50 changes in 60 frames OR >=25 in 30 frames for short scrolls reaching their boundary in <1s. Both require >=50 updates/sec; 30fps doubled cannot pass.",
+  "maximumMeaningfulChangesIn60": 59,
+  "maximumMeaningfulChangesIn30": 30,
+  "windows": [
+    {
+      "source_start_frame": 1903,
+      "source_start_seconds": 31.716666666666665,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 59,
+      "maxMeaningfulChangesIn30": 30
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "testedAt": "2026-10-30T18:24:43.198Z",
+  "isolatedDataDirectory": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\doctorchart-video-tutorial\\.local\\ai-studio-test-cEmVKw",
+  "humanStateUnchanged": true,
+  "checks": [
+    "human folder rejected as AI destination",
+    "144 independent AI segments",
+    "same-origin protection",
+    "one generation at a time",
+    "generated audio checked by SHA256",
+    "AI audio and script saved and restored after server restart",
+    "cancellation preserves previous takes",
+    "human studio state file byte-identical"
+  ],
+  "generationFixture": "Synthetic WAV for server integration; real Qwen GPU generation verified separately."
+}

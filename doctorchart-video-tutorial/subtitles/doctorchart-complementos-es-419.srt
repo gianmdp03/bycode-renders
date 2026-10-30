@@ -1,0 +1,558 @@
+1
+00:00:00,016 --> 00:00:07,969
+También podés buscar consultas por paciente, motivo o diagnóstico,
+cambiar cuántas ves por página y limpiar la búsqueda.
+
+2
+00:00:12,833 --> 00:00:16,502
+Desde una consulta reciente abrís su detalle o la ficha.
+
+3
+00:00:16,502 --> 00:00:20,623
+Los accesos vuelven al mismo registro que seleccionaste.
+
+4
+00:00:23,700 --> 00:00:28,228
+La búsqueda rápida del panel tiene páginas anteriores y siguientes.
+
+5
+00:00:28,228 --> 00:00:32,477
+El directorio completo usa carga progresiva al desplazarte.
+
+6
+00:00:34,500 --> 00:00:38,273
+Una búsqueda sin coincidencias muestra un estado vacío.
+
+7
+00:00:38,273 --> 00:00:42,731
+Restablecer los filtros recupera el listado, sin borrar pacientes.
+
+8
+00:00:45,300 --> 00:00:50,629
+En Historia Clínica, expandir muestra las respuestas de una atención.
+
+9
+00:00:50,629 --> 00:00:55,203
+Expandir todo y colapsar todo permiten comparar varios registros.
+
+10
+00:00:57,083 --> 00:01:02,551
+Los filtros de treinta días, noventa días y año actual acotan el historial.
+
+11
+00:01:02,551 --> 00:01:06,081
+Todas vuelve a mostrar las consultas completas.
+
+12
+00:01:08,866 --> 00:01:13,022
+Podés indicar un rango de fechas con el selector compartido.
+
+13
+00:01:13,022 --> 00:01:18,386
+Limpiar quita ese rango; no cambia las fechas de las consultas.
+
+14
+00:01:20,616 --> 00:01:23,971
+El menú lateral se puede colapsar y expandir.
+
+15
+00:01:23,971 --> 00:01:29,347
+Para cambiar de paciente, volvé al directorio y abrí la ficha correcta.
+
+16
+00:01:31,466 --> 00:01:34,798
+Volvemos al editor con una cuenta que ya atiende.
+
+17
+00:01:34,798 --> 00:01:40,324
+La especialidad está confirmada; la personalización trabaja sobre un borrador.
+
+18
+00:01:43,250 --> 00:01:45,804
+Creamos una categoría de prueba.
+
+19
+00:01:45,804 --> 00:01:52,492
+También podemos eliminar una categoría adicional;
+las categorías protegidas del sistema se conservan.
+
+20
+00:01:55,016 --> 00:01:57,315
+Agregamos una respuesta de sí o no.
+
+21
+00:01:57,315 --> 00:02:02,946
+Otro campo puede depender de esta respuesta
+para aparecer únicamente cuando corresponde.
+
+22
+00:02:06,766 --> 00:02:10,771
+La condición vincula un campo con una respuesta previa.
+
+23
+00:02:10,771 --> 00:02:14,649
+Elegimos mostrar la observación cuando la respuesta sea Sí.
+
+24
+00:02:18,533 --> 00:02:22,933
+Editar permite corregir un campo existente del borrador.
+
+25
+00:02:22,933 --> 00:02:26,451
+Cancelar vuelve a la lista sin aplicar esa edición.
+
+26
+00:02:29,316 --> 00:02:34,378
+En una lista, agregar y quitar opciones cambia las respuestas disponibles.
+
+27
+00:02:34,378 --> 00:02:38,639
+Revisá etiquetas y valores antes de aplicar el campo.
+
+28
+00:02:41,100 --> 00:02:44,281
+Un campo calculado pertenece al formulario.
+
+29
+00:02:44,281 --> 00:02:50,655
+Elegís la operación y el origen de sus
+entradas; el resultado lo calcula el servidor.
+
+30
+00:03:02,850 --> 00:03:07,970
+Historia Clínica permite agregar la posición de medición de longitud o estatura.
+
+31
+00:03:07,970 --> 00:03:11,627
+Esta información aporta contexto a las curvas.
+
+32
+00:03:14,633 --> 00:03:18,406
+Salir conservando borrador permite retomarlo.
+
+33
+00:03:18,406 --> 00:03:23,491
+Descartar edición elimina ese borrador y conserva la configuración activa.
+
+34
+00:03:26,433 --> 00:03:30,171
+Quitar medicamento retira una línea del borrador.
+
+35
+00:03:30,171 --> 00:03:35,605
+Limpiar formulario vacía la preparación
+actual; no elimina el historial guardado.
+
+36
+00:03:38,433 --> 00:03:45,132
+Las sugerencias de estudios completan una línea que
+todavía podés revisar o quitar antes de guardar.
+
+37
+00:03:49,233 --> 00:03:52,286
+Abrimos un documento generado por DoctorChart.
+
+38
+00:03:52,286 --> 00:03:57,372
+El visor permite revisar su contenido real antes de descargar o imprimir.
+
+39
+00:04:02,016 --> 00:04:05,743
+Eliminar registro quita ese documento del historial.
+
+40
+00:04:05,743 --> 00:04:13,011
+Revisá su identidad antes de usar este control; en
+este ejemplo retiramos sólo un documento ficticio.
+
+41
+00:04:14,800 --> 00:04:18,980
+Podés cambiar o quitar el archivo seleccionado antes de subirlo.
+
+42
+00:04:18,980 --> 00:04:22,196
+El nombre clínico se completa por separado.
+
+43
+00:04:25,583 --> 00:04:28,242
+Cerrar vista vuelve al historial.
+
+44
+00:04:28,242 --> 00:04:34,174
+Eliminar estudio pide confirmación; conservá el archivo si no querés quitarlo.
+
+45
+00:04:37,366 --> 00:04:41,592
+Una aplicación registrada permite corregir su fecha.
+
+46
+00:04:41,592 --> 00:04:46,875
+El calendario guarda la modificación y actualiza el estado del paciente.
+
+47
+00:04:49,200 --> 00:04:55,969
+Las referencias del calendario amplían las patologías
+prevenidas y las condiciones de aplicación.
+
+48
+00:04:55,969 --> 00:04:57,954
+Abrimos las dos secciones.
+
+49
+00:05:00,966 --> 00:05:03,985
+Cada punto representa una medición guardada.
+
+50
+00:05:03,985 --> 00:05:08,431
+Al seleccionarlo, la aplicación muestra sus datos y su referencia.
+
+51
+00:05:12,766 --> 00:05:20,754
+El detalle permite revisar fechas, valores y mediciones sin
+depender sólo de la posición de los puntos en el gráfico.
+
+52
+00:05:24,600 --> 00:05:27,282
+Abrimos ahora otra ficha DEMO.
+
+53
+00:05:27,282 --> 00:05:34,434
+La edad y el sexo de referencia cambian las
+láminas disponibles, sin cambiar de especialidad.
+
+54
+00:05:36,383 --> 00:05:42,304
+Cuando el sexo de referencia no está
+identificado, la vista solicita confirmación.
+
+55
+00:05:42,304 --> 00:05:46,391
+Esa elección es local a esta vista y no modifica la ficha.
+
+56
+00:05:49,166 --> 00:05:52,974
+Revisar referencia confirmada permite volver a elegir.
+
+57
+00:05:52,974 --> 00:05:57,734
+Al terminar, conservamos los datos originales del paciente de prueba.
+
+58
+00:05:59,950 --> 00:06:09,087
+Si la ficha cambia en otra ventana, DoctorChart conserva tus respuestas
+locales y pide revisar la copia del servidor antes de guardar.
+
+59
+00:06:12,733 --> 00:06:16,390
+Consultar la copia guardada permite compararla.
+
+60
+00:06:16,390 --> 00:06:22,799
+Adoptarla descarta expresamente la edición
+local; revisá esa decisión antes de continuar.
+
+61
+00:06:25,500 --> 00:06:29,041
+Cancelar edición conserva la consulta guardada.
+
+62
+00:06:29,041 --> 00:06:33,917
+Volver desde una historia nueva sin guardarla tampoco crea una atención.
+
+63
+00:06:37,266 --> 00:06:41,248
+Eliminar una consulta requiere revisar su confirmación.
+
+64
+00:06:41,248 --> 00:06:46,728
+En este ejemplo se elimina exclusivamente un control ficticio de demostración.
+
+65
+00:06:50,016 --> 00:06:54,846
+Al terminar de atender, cerrá la sesión desde el perfil o el menú de cuenta.
+
+66
+00:06:54,846 --> 00:06:58,131
+Comprobamos que volvemos a la pantalla de acceso.
+
+67
+00:07:01,816 --> 00:07:06,657
+Desde Inicio, las próximas consultas abren la ficha indicada.
+
+68
+00:07:06,657 --> 00:07:11,243
+También podés entrar a una ficha desde los últimos pacientes atendidos.
+
+69
+00:07:14,616 --> 00:07:18,459
+Los números de página recorren las últimas atenciones.
+
+70
+00:07:18,459 --> 00:07:22,464
+Ver historial completo abre la lista general de consultas.
+
+71
+00:07:26,416 --> 00:07:29,690
+En el historial, el nombre lleva a la ficha.
+
+72
+00:07:29,690 --> 00:07:35,599
+Ver Detalle abre el contenido completo de
+esa consulta; Ficha vuelve al paciente.
+
+73
+00:07:40,216 --> 00:07:44,187
+El resumen también tiene un acceso a Editar datos.
+
+74
+00:07:44,187 --> 00:07:48,320
+Volver a la ficha cancela este recorrido sin guardar cambios.
+
+75
+00:07:52,016 --> 00:07:55,859
+El formulario permite emitir e imprimir en una sola acción.
+
+76
+00:07:55,859 --> 00:08:00,584
+Revisamos la duración y mostramos el PDF producido por el sistema.
+
+77
+00:08:24,700 --> 00:08:28,891
+Las letras y números del calendario muestran la nota de referencia.
+
+78
+00:08:28,891 --> 00:08:34,197
+Estas aclaraciones amplían la información visible en cada aplicación.
+
+79
+00:08:37,450 --> 00:08:40,875
+Desde el perfil, Volver a Inicio regresa al panel.
+
+80
+00:08:40,875 --> 00:08:46,657
+El menú de cuenta ofrece también Personalizar
+fichas y consultas y Cerrar sesión.
+
+81
+00:08:50,216 --> 00:08:54,140
+Si una carga falla, usá el reintento del bloque afectado.
+
+82
+00:08:54,140 --> 00:08:59,260
+En esta prueba interrumpimos sólo la
+conexión de demostración y la restablecemos.
+
+83
+00:09:04,000 --> 00:09:07,994
+El directorio ofrece Reintentar cuando no puede cargar la lista.
+
+84
+00:09:07,994 --> 00:09:11,488
+Al recuperar la conexión vuelven los pacientes guardados.
+
+85
+00:09:15,783 --> 00:09:19,997
+El historial de consultas también permite reintentar la lectura.
+
+86
+00:09:19,997 --> 00:09:23,666
+Esto vuelve a consultar los registros existentes.
+
+87
+00:09:27,583 --> 00:09:34,015
+Si no se pudo abrir el detalle de una consulta,
+Reintentar vuelve a solicitar esa misma atención.
+
+88
+00:09:38,366 --> 00:09:42,499
+Un problema al cargar la ficha no obliga a crear otro paciente.
+
+89
+00:09:42,499 --> 00:09:46,447
+Recuperá la conexión y reintentá desde el formulario.
+
+90
+00:09:50,133 --> 00:09:53,639
+Las curvas ofrecen su propio reintento de carga.
+
+91
+00:09:53,639 --> 00:09:57,552
+Los puntos vuelven a calcularse con las mediciones guardadas.
+
+92
+00:10:01,916 --> 00:10:07,396
+En vacunas, Actualizar y reintentar vuelve a cargar el calendario del paciente.
+
+93
+00:10:07,396 --> 00:10:11,401
+Revisá el estado antes de repetir un registro.
+
+94
+00:10:13,683 --> 00:10:17,224
+El historial de documentos dispone de Reintentar.
+
+95
+00:10:17,224 --> 00:10:22,158
+La recuperación carga los documentos guardados, sin emitir uno nuevo.
+
+96
+00:10:25,466 --> 00:10:30,505
+Si falla la generación del PDF, DoctorChart informa el problema.
+
+97
+00:10:30,505 --> 00:10:35,602
+Entendido cierra el aviso; los datos clínicos guardados se conservan.
+
+98
+00:10:38,250 --> 00:10:42,569
+La configuración puede cambiar mientras completás una ficha.
+
+99
+00:10:42,569 --> 00:10:48,676
+Consultar copia del servidor permite revisar
+el formulario actual antes de continuar.
+
+100
+00:10:52,016 --> 00:10:56,021
+En una consulta nueva se aplica la misma revisión.
+
+101
+00:10:56,021 --> 00:11:01,664
+Se conservan las respuestas compatibles;
+los cambios se revisan antes de guardar.
+
+102
+00:11:05,850 --> 00:11:10,343
+Una consulta editada en dos ventanas también protege su versión.
+
+103
+00:11:10,343 --> 00:11:15,939
+Consultamos la copia del servidor y descartamos explícitamente la edición local.
+
+104
+00:11:19,633 --> 00:11:25,264
+El editor de configuración evita sobrescribir
+un borrador cambiado en otra ventana.
+
+105
+00:11:25,264 --> 00:11:28,677
+Revisamos la copia guardada antes de adoptarla.
+
+106
+00:11:33,416 --> 00:11:37,665
+Antes de elegir especialidad también podés cerrar la sesión.
+
+107
+00:11:37,665 --> 00:11:41,322
+Volvemos a ingresar con esta cuenta adicional de demostración.
+
+108
+00:11:45,216 --> 00:11:49,593
+Siguiente y Anterior recorren las categorías habilitadas.
+
+109
+00:11:49,593 --> 00:11:54,713
+Revisar la selección vuelve al paso de especialidad dentro de la configuración.
+
+110
+00:11:59,000 --> 00:12:03,145
+Guardar y cerrar sesión conserva el borrador del asistente.
+
+111
+00:12:03,145 --> 00:12:07,034
+Al ingresar otra vez retomamos la configuración pendiente.
+
+112
+00:12:12,800 --> 00:12:17,595
+Si una lectura demora demasiado, aparece un aviso de conexión.
+
+113
+00:12:17,595 --> 00:12:23,481
+Entendido cierra el aviso; revisá el estado antes de repetir una operación.
+
+114
+00:12:25,583 --> 00:12:31,736
+Inicio ofrece dos accesos al directorio: el
+indicador de pacientes y la acción rápida.
+
+115
+00:12:31,736 --> 00:12:34,453
+Los dos llevan a la misma lista.
+
+116
+00:12:38,400 --> 00:12:45,018
+Cuando no hay un paciente seleccionado, podés ir al
+directorio o abrir el formulario de un paciente nuevo.
+
+117
+00:12:50,183 --> 00:12:58,020
+Una ficha sin atenciones permite iniciar su primera
+historia desde el encabezado o desde el estado vacío.
+
+118
+00:13:01,950 --> 00:13:09,508
+Si un rango de fechas no devuelve registros, Quitar
+filtro de fechas recupera la historia completa.
+
+119
+00:13:09,508 --> 00:13:11,900
+No elimina consultas.
+
+120
+00:13:13,750 --> 00:13:18,382
+Este caso ficticio incluye un punto fuera del marco de impresión.
+
+121
+00:13:18,382 --> 00:13:24,362
+Ampliar ejes permite verlo; Volver al marco del PDF restaura la presentación.
+
+122
+00:13:26,533 --> 00:13:30,643
+Fuente oficial abre el documento de referencia de la curva.
+
+123
+00:13:30,643 --> 00:13:33,952
+Es la fuente enlazada por esta versión de DoctorChart.
+
+124
+00:13:39,300 --> 00:13:44,223
+Las dosis que corresponden ahora también permiten registrar su aplicación.
+
+125
+00:13:44,223 --> 00:13:48,634
+En esta prueba ficticia comprobamos y deshacemos esa marca.
+
+126
+00:13:52,083 --> 00:13:54,208
+También se puede adjuntar un PDF.
+
+127
+00:13:54,208 --> 00:14:00,709
+Guardamos un documento DEMO, descargamos el
+archivo y lo abrimos en el visor del navegador.
+
+128
+00:14:10,300 --> 00:14:15,188
+Si falla la carga inicial de la cuenta, Reintentar permite recuperarla.
+
+129
+00:14:15,188 --> 00:14:19,263
+Cerrar sesión también está disponible en esa pantalla.
+
+130
+00:14:24,066 --> 00:14:31,880
+Si no se pudo cargar la lista de especialidades, Intentar
+cargar nuevamente vuelve a consultar el catálogo disponible.
+
+131
+00:14:35,816 --> 00:14:43,757
+Si la configuración cambió en otra sesión, Volver a cargar la
+configuración recupera su versión actual antes de confirmar.
+
+132
+00:14:48,583 --> 00:14:51,451
+La flecha de acceso vuelve a la portada.
+
+133
+00:14:51,451 --> 00:14:56,420
+En una página larga, el botón de subir permite recuperar el inicio.

@@ -1,0 +1,53 @@
+{
+  "scene_id": "04-dashboard",
+  "file": "recordings/04-dashboard-1793326537984.mkv",
+  "status": "PASS",
+  "sourceFrameRate": "60/1",
+  "method": "Original encoded OBS frames, no fps conversion. Pixel changes in the scrolling UI (cursor excluded). Require >=50 changes in 60 frames OR >=25 in 30 frames for short scrolls reaching their boundary in <1s. Both require >=50 updates/sec; 30fps doubled cannot pass.",
+  "maximumMeaningfulChangesIn60": 59,
+  "maximumMeaningfulChangesIn30": 30,
+  "windows": [
+    {
+      "source_start_frame": 2080,
+      "source_start_seconds": 34.666666666666664,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 59,
+      "maxMeaningfulChangesIn30": 30
+    },
+    {
+      "source_start_frame": 2401,
+      "source_start_seconds": 40.016666666666666,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 2,
+      "maxMeaningfulChangesIn30": 2
+    },
+    {
+      "source_start_frame": 2727,
+      "source_start_seconds": 45.45,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 2,
+      "maxMeaningfulChangesIn30": 2
+    },
+    {
+      "source_start_frame": 2818,
+      "source_start_seconds": 46.96666666666667,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 6,
+      "maxMeaningfulChangesIn30": 5
+    },
+    {
+      "source_start_frame": 2867,
+      "source_start_seconds": 47.78333333333333,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 5,
+      "maxMeaningfulChangesIn30": 5
+    },
+    {
+      "source_start_frame": 3375,
+      "source_start_seconds": 56.25,
+      "framesDecoded": 132,
+      "maxMeaningfulChangesIn60": 1,
+      "maxMeaningfulChangesIn30": 1
+    }
+  ]
+}
