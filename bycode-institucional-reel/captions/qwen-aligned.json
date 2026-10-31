@@ -1,0 +1,402 @@
+[
+  {
+    "text": " Tu",
+    "startMs": 160,
+    "endMs": 340,
+    "timestampMs": 250,
+    "confidence": 0.6840295195579529,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " día,",
+    "startMs": 340,
+    "endMs": 560,
+    "timestampMs": 450,
+    "confidence": 0.9432764053344727,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " más",
+    "startMs": 740,
+    "endMs": 940,
+    "timestampMs": 840,
+    "confidence": 0.9069756865501404,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " simple.",
+    "startMs": 940,
+    "endMs": 1180,
+    "timestampMs": 1060,
+    "confidence": 0.9895448088645935,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Somos",
+    "startMs": 2593,
+    "endMs": 3013,
+    "timestampMs": 2803,
+    "confidence": 0.9016126394271851,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " Bycode.",
+    "startMs": 3013,
+    "endMs": 3413,
+    "timestampMs": 3213,
+    "confidence": 0.39377751924621407,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Creamos",
+    "startMs": 3813,
+    "endMs": 4233,
+    "timestampMs": 4023,
+    "confidence": 0.8450804650783539,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " software",
+    "startMs": 4233,
+    "endMs": 4693,
+    "timestampMs": 4463,
+    "confidence": 0.9941084384918213,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " para",
+    "startMs": 4693,
+    "endMs": 4993,
+    "timestampMs": 4843,
+    "confidence": 0.9993795156478882,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " comercios",
+    "startMs": 4993,
+    "endMs": 5533,
+    "timestampMs": 5263,
+    "confidence": 0.9878675043582916,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " y",
+    "startMs": 5533,
+    "endMs": 5793,
+    "timestampMs": 5663,
+    "confidence": 0.9983999133110046,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " consultorios.",
+    "startMs": 5793,
+    "endMs": 6493,
+    "timestampMs": 6143,
+    "confidence": 0.9923027555147806,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Con",
+    "startMs": 7160,
+    "endMs": 7360,
+    "timestampMs": 7260,
+    "confidence": 0.6334937810897827,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " Pointly,",
+    "startMs": 7360,
+    "endMs": 7840,
+    "timestampMs": 7600,
+    "confidence": 0.8403990566730499,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " gestionás",
+    "startMs": 8100,
+    "endMs": 8600,
+    "timestampMs": 8350,
+    "confidence": 0.8139442404111227,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " clientes,",
+    "startMs": 8600,
+    "endMs": 9220,
+    "timestampMs": 8910,
+    "confidence": 0.9971859753131866,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " puntos",
+    "startMs": 9400,
+    "endMs": 9740,
+    "timestampMs": 9570,
+    "confidence": 0.9945610165596008,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " y",
+    "startMs": 9740,
+    "endMs": 10140,
+    "timestampMs": 9940,
+    "confidence": 0.9783516526222229,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " recompensas.",
+    "startMs": 10140,
+    "endMs": 10820,
+    "timestampMs": 10480,
+    "confidence": 0.9975623885790507,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Con",
+    "startMs": 11510,
+    "endMs": 11730,
+    "timestampMs": 11620,
+    "confidence": 0.7167271971702576,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " DoctorChart,",
+    "startMs": 11730,
+    "endMs": 12350,
+    "timestampMs": 12040,
+    "confidence": 0.3690432608127594,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " organizás",
+    "startMs": 12610,
+    "endMs": 13110,
+    "timestampMs": 12860,
+    "confidence": 0.7216262370347977,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " pacientes,",
+    "startMs": 13110,
+    "endMs": 13570,
+    "timestampMs": 13340,
+    "confidence": 0.9976812899112701,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " consultas",
+    "startMs": 13810,
+    "endMs": 14490,
+    "timestampMs": 14150,
+    "confidence": 0.9949052631855011,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " y",
+    "startMs": 14490,
+    "endMs": 14670,
+    "timestampMs": 14580,
+    "confidence": 0.9847220778465271,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " fichas",
+    "startMs": 14670,
+    "endMs": 15090,
+    "timestampMs": 14880,
+    "confidence": 0.9938853780428568,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " clínicas.",
+    "startMs": 15090,
+    "endMs": 15490,
+    "timestampMs": 15290,
+    "confidence": 0.9932805498441061,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Aplicaciones",
+    "startMs": 16243,
+    "endMs": 16923,
+    "timestampMs": 16583,
+    "confidence": 0.9631757736206055,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " especializadas,",
+    "startMs": 16923,
+    "endMs": 17783,
+    "timestampMs": 17353,
+    "confidence": 0.9891782204310099,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " desde",
+    "startMs": 18143,
+    "endMs": 18403,
+    "timestampMs": 18273,
+    "confidence": 0.9927324652671814,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " tu",
+    "startMs": 18403,
+    "endMs": 18683,
+    "timestampMs": 18543,
+    "confidence": 0.00019527227070792463,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " navegador.",
+    "startMs": 18683,
+    "endMs": 19163,
+    "timestampMs": 18923,
+    "confidence": 0.9993077715237936,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Elegí",
+    "startMs": 19603,
+    "endMs": 20283,
+    "timestampMs": 19943,
+    "confidence": 0.8338669935862223,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " las",
+    "startMs": 20283,
+    "endMs": 20423,
+    "timestampMs": 20353,
+    "confidence": 0.9937427639961243,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " herramientas",
+    "startMs": 20423,
+    "endMs": 21123,
+    "timestampMs": 20773,
+    "confidence": 0.9981754124164581,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " que",
+    "startMs": 21123,
+    "endMs": 21263,
+    "timestampMs": 21193,
+    "confidence": 0.9892849326133728,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " tu",
+    "startMs": 21263,
+    "endMs": 21403,
+    "timestampMs": 21333,
+    "confidence": 0.3384007806889713,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " trabajo",
+    "startMs": 21403,
+    "endMs": 21783,
+    "timestampMs": 21593,
+    "confidence": 0.4935388823896574,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " necesita.",
+    "startMs": 21783,
+    "endMs": 22023,
+    "timestampMs": 21903,
+    "confidence": 0.8381812572479248,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Bycode",
+    "startMs": 22927,
+    "endMs": 23467,
+    "timestampMs": 23197,
+    "confidence": 0.3653887947812109,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " Software.",
+    "startMs": 23467,
+    "endMs": 24087,
+    "timestampMs": 23777,
+    "confidence": 0.8999360203742981,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Tecnología",
+    "startMs": 24387,
+    "endMs": 25027,
+    "timestampMs": 24707,
+    "confidence": 0.9003154436747233,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " para",
+    "startMs": 25027,
+    "endMs": 25367,
+    "timestampMs": 25197,
+    "confidence": 0.9869235157966614,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " tu",
+    "startMs": 25367,
+    "endMs": 25587,
+    "timestampMs": 25477,
+    "confidence": 0.00026191283315313285,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " día",
+    "startMs": 25587,
+    "endMs": 25787,
+    "timestampMs": 25687,
+    "confidence": 0.9780694246292114,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " a",
+    "startMs": 25787,
+    "endMs": 25907,
+    "timestampMs": 25847,
+    "confidence": 0.9593879580497742,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " día.",
+    "startMs": 25907,
+    "endMs": 26107,
+    "timestampMs": 26007,
+    "confidence": 0.9874358177185059,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Conocé",
+    "startMs": 26647,
+    "endMs": 27167,
+    "timestampMs": 26907,
+    "confidence": 0.6211929718653361,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " nuestras",
+    "startMs": 27167,
+    "endMs": 27367,
+    "timestampMs": 27267,
+    "confidence": 0.9882160425186157,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " soluciones.",
+    "startMs": 27367,
+    "endMs": 28147,
+    "timestampMs": 27757,
+    "confidence": 0.9934873878955841,
+    "pageBreakAfter": true
+  }
+]

@@ -37,7 +37,9 @@ Para un tutorial usar sólo `/brand` y sus componentes educativos existentes. El
 
 Perfiles y decisiones de producto en `src/bycode-brand/products.ts`; defaults neutrales en `tokens.ts`. DoctorChart conserva el tema previo como configuración draft. Compartir infraestructura no asigna su paleta a Bycode o Pointly. La carga de Google Sans y su licencia permanece en el proyecto consumidor.
 
-`PromoCaptions` consume `Caption` de Remotion, lee FPS de la composición y no genera ni transcribe audio. La procedencia provisional/real de sus tiempos la comunica la pieza. Voz, música, claims, URL y capturas son responsabilidad del proyecto; nada se inventa en estos componentes.
+`pointlyFrontendTheme` adapta de forma explícita los colores de la UI y el logo auténticos de Pointly para su reel. Se consume con `createProductBrand('pointly', pointlyFrontendTheme)`; conserva `status: draft` y no modifica los defaults neutrales ni otras producciones.
+
+`PromoCaptions` consume `Caption` de Remotion, lee FPS de la composición y no genera ni transcribe audio. La procedencia provisional/real de sus tiempos se comunica en documentación, metadata o QA, sin avisos de producción superpuestos al video salvo pedido explícito del usuario. Voz, música, claims, URL y capturas son responsabilidad del proyecto; nada se inventa en estos componentes.
 
 Los props `style` permiten adaptar la pieza sin duplicar componentes. Ningún componente registra composiciones ni cambia IDs, offsets, duración, resolución o FPS. `status: approved` sólo representa aprobación humana explícita.
 

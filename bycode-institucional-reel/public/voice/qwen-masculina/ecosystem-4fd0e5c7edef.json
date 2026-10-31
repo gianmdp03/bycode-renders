@@ -1,0 +1,16 @@
+{
+  "id": "ecosystem",
+  "file": "public/voice/qwen-masculina/ecosystem-4fd0e5c7edef.wav",
+  "displayText": "Aplicaciones especializadas, desde tu navegador. Elegí las herramientas que tu trabajo necesita.",
+  "spokenText": "Aplicaciones especializadas, desde tu navegador. Elegí las herramientas que tu trabajo necesita.",
+  "duration": 6.8,
+  "sampleRate": 24000,
+  "seed": 20261034,
+  "sha256": "fc7563f4e888dd19ce9e4844ab91e59794218169709dc76558f99eb1f802c26e",
+  "generationSeconds": 17.58,
+  "peakVRAMMiB": 2609,
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "referenceSHA256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "voice": "masculina",
+  "userVoiceUsed": false
+}

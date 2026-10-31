@@ -1,0 +1,5 @@
+.local/
+build/
+out/*.mp4
+out/frames/
+public/captures/raw/

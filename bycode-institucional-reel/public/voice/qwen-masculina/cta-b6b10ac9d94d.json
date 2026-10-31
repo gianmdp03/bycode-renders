@@ -1,0 +1,16 @@
+{
+  "id": "cta",
+  "file": "public/voice/qwen-masculina/cta-b6b10ac9d94d.wav",
+  "displayText": "Bycode Software. Tecnología para tu día a día. Conocé nuestras soluciones.",
+  "spokenText": "baicoud Software. Tecnología para tu día a día. Conocé nuestras soluciones.",
+  "duration": 5.68,
+  "sampleRate": 24000,
+  "seed": 20261035,
+  "sha256": "9bba67cb151bafd02d74a0dba37fe1c90eb11612e52e09d7c30e643bb6362b42",
+  "generationSeconds": 15.84,
+  "peakVRAMMiB": 2609,
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "referenceSHA256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "voice": "masculina",
+  "userVoiceUsed": false
+}

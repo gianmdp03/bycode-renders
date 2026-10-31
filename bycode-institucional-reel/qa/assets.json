@@ -1,0 +1,55 @@
+{
+  "source": "../bycode-frontend",
+  "assets": [
+    {
+      "source": "public\\bycode-logo.svg",
+      "destination": "public/logos/bycode-logo.svg",
+      "sha256": "553fd50b56cf8514f2294d6a8b304598d9bc8e46be985d1ca2a437191818fcfa"
+    },
+    {
+      "source": "public\\pointly-logo.svg",
+      "destination": "public/logos/pointly-logo.svg",
+      "sha256": "4f8a7b006de2d9b25e69ea3c264343030e0f7de21d35850cca06a5977ee150a4"
+    },
+    {
+      "source": "public\\doctorchart-logo.svg",
+      "destination": "public/logos/doctorchart-logo.svg",
+      "sha256": "e410e6231308a8aa148a0677df405df4bfa9a8d8f8ebbf6748f2183926385862"
+    },
+    {
+      "source": "public\\fonts\\google-sans-latin-normal-b8059800eca3.woff2",
+      "destination": "public/fonts/google-sans-latin-normal-b8059800eca3.woff2",
+      "sha256": "b8059800eca3c2343d0213c3660b814190b3b598d7f1a884def558da39f77e03"
+    },
+    {
+      "source": "public\\fonts\\OFL.txt",
+      "destination": "public/fonts/OFL.txt",
+      "sha256": "07424db4089211e77dd8a0bca14fbf46e8801045d6db9061fbd6ce08e582594e"
+    },
+    {
+      "source": "public\\fonts\\README.md",
+      "destination": "public/fonts/README.md",
+      "sha256": "f47b913e4df2efe80dddd709939bdf44d9835a197c71a9f666091f92111fb3f0"
+    },
+    {
+      "source": "public\\images\\products\\pointly-rewards-light.webp",
+      "destination": "public/captures/pointly-rewards-light.webp",
+      "sha256": "01ace85b18167d67e2524b61b6e8ca65b85715dc692769826b5ba64074d4c373"
+    },
+    {
+      "source": "public\\images\\products\\pointly-promotions-light.webp",
+      "destination": "public/captures/pointly-promotions-light.webp",
+      "sha256": "1d8027e37883ad0cf4e28d49d4692bba8376660f9b41c282aea7f9acb5423669"
+    },
+    {
+      "source": "public\\images\\products\\doctorchart-growth-light.webp",
+      "destination": "public/captures/doctorchart-growth-light.webp",
+      "sha256": "a781a2b352a3be25d251f55bfb0ceba936cfa484084454c6d994f31e0fc6ba03"
+    },
+    {
+      "source": "public\\images\\products\\doctorchart-vaccines-light.webp",
+      "destination": "public/captures/doctorchart-vaccines-light.webp",
+      "sha256": "c33b15e2b555a3acbd34889c3935abff23ec85c17462dcb79858bfd33d9aedeb"
+    }
+  ]
+}

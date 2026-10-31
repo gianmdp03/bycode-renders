@@ -1,0 +1,250 @@
+{
+  "frontend": "../pointly-frontend",
+  "commit": "cbc933935608ed899d7a8ed844c3f8b65fbbb4fb",
+  "fictionalData": true,
+  "backendSimulated": true,
+  "externalNetworkBlocked": true,
+  "records": [
+    {
+      "id": "overview",
+      "url": "/companies/cafe-demo",
+      "viewport": {
+        "width": 600,
+        "height": 850
+      },
+      "frames": 110,
+      "duration": 4.023521947860718,
+      "method": "Original Angular frontend; CDP screencast of actual controls; isolated in-memory API fixtures; no production requests"
+    },
+    {
+      "id": "clients",
+      "url": "/companies/cafe-demo",
+      "viewport": {
+        "width": 600,
+        "height": 850
+      },
+      "frames": 67,
+      "duration": 4.50491886138916,
+      "method": "Original Angular frontend; CDP screencast of actual controls; isolated in-memory API fixtures; no production requests"
+    },
+    {
+      "id": "points",
+      "url": "/companies/cafe-demo",
+      "viewport": {
+        "width": 600,
+        "height": 850
+      },
+      "frames": 56,
+      "duration": 4.917019176483154,
+      "method": "Original Angular frontend; CDP screencast of actual controls; isolated in-memory API fixtures; no production requests"
+    },
+    {
+      "id": "rewards",
+      "url": "/companies/cafe-demo",
+      "viewport": {
+        "width": 600,
+        "height": 850
+      },
+      "frames": 14,
+      "duration": 4.6000000000000005,
+      "method": "Original Angular frontend; CDP screencast of actual controls; isolated in-memory API fixtures; no production requests"
+    },
+    {
+      "id": "wallet",
+      "url": "/client/DEMO12345678/cafe-demo",
+      "viewport": {
+        "width": 430,
+        "height": 820
+      },
+      "frames": 134,
+      "duration": 5.711083936691284,
+      "method": "Original Angular frontend; CDP screencast of actual controls; isolated in-memory API fixtures; no production requests"
+    },
+    {
+      "id": "balance",
+      "url": "/client/DEMO12345678/cafe-demo/points",
+      "viewport": {
+        "width": 430,
+        "height": 820
+      },
+      "frames": 18,
+      "duration": 5.721370983123779,
+      "method": "Original Angular frontend; CDP screencast of actual controls; isolated in-memory API fixtures; no production requests"
+    }
+  ],
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits"
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token"
+    },
+    {
+      "method": "GET",
+      "path": "/api/billing/account/profile"
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/company-names/cafe-demo/company"
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/71"
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/71"
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits"
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits"
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token"
+    },
+    {
+      "method": "GET",
+      "path": "/api/billing/account/profile"
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/company-names/cafe-demo/company"
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/71"
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/71"
+    },
+    {
+      "method": "GET",
+      "path": "/mledoze/countries/master/countries.json"
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits"
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/clients/Argentina/99000101/companies/71"
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/sales"
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/71"
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/71"
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/71"
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/71"
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/71"
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits"
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits"
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits"
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token"
+    },
+    {
+      "method": "GET",
+      "path": "/api/billing/account/profile"
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/public/client-access/companies/cafe-demo/query"
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/public/client-access/companies/cafe-demo/point-expirations/query"
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits"
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits"
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token"
+    },
+    {
+      "method": "GET",
+      "path": "/api/billing/account/profile"
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/public/client-access/companies/cafe-demo/query"
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/public/client-access/companies/cafe-demo/point-expirations/query"
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits"
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/public/client-access/companies/cafe-demo/query"
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/public/client-access/companies/cafe-demo/point-expirations/query"
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits"
+    }
+  ],
+  "errors": []
+}

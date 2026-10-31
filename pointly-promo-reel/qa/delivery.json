@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-30",
+  "status": "PASS",
+  "composition": "Pointly-Qwen-Masculina",
+  "frontendSource": "../pointly-frontend",
+  "backend": "isolated in-memory fixtures",
+  "spokenBycode": "baicod",
+  "brandStatus": "draft",
+  "outputs": [
+    {
+      "file": "out/pointly_preview_qwen_masculina.mp4",
+      "bytes": 5693193,
+      "sha256": "8cd36a9db4500536658bbce7b9f1059a2207d881f9393b7670fd47739e4bffab"
+    },
+    {
+      "file": "out/pointly_preview_sin_voz.mp4",
+      "bytes": 5707694,
+      "sha256": "440c2838b44883ac49cbc21723b901a0f59375ef6a0d121361f78f7d7431f1f4"
+    },
+    {
+      "file": "public/audio/musica-spot-provista.mp3",
+      "bytes": 3783085,
+      "sha256": "d14da11e4b8203a02a6bf12330ee52e3d58a0e77baac004dd09359f35a248fde"
+    }
+  ]
+}

@@ -1,0 +1,468 @@
+{
+  "duration": 29.483333333333334,
+  "voice": true,
+  "voiceSource": "qwen",
+  "audioFile": "audio/qwen-mix.wav",
+  "beats": [
+    {
+      "id": "hook",
+      "text": "¿Tus clientes compran y no vuelven?",
+      "start": 0,
+      "end": 2.7
+    },
+    {
+      "id": "intro",
+      "text": "Con Pointly, dales un motivo para volver.",
+      "start": 2.7,
+      "end": 6.333333333333333
+    },
+    {
+      "id": "points",
+      "text": "Registrá compras y sumá puntos a tus clientes.",
+      "start": 6.333333333333333,
+      "end": 10.666666666666666
+    },
+    {
+      "id": "rewards",
+      "text": "Creá premios y descuentos para canjear.",
+      "start": 10.666666666666666,
+      "end": 14.4
+    },
+    {
+      "id": "wallet",
+      "text": "Cada cliente consulta sus puntos y premios desde el celular.",
+      "start": 14.4,
+      "end": 19.366666666666667
+    },
+    {
+      "id": "value",
+      "text": "Fidelización para tu comercio, con todo organizado en un solo lugar.",
+      "start": 19.366666666666667,
+      "end": 25.15
+    },
+    {
+      "id": "cta",
+      "text": "Conocé Pointly, de Bycode.",
+      "start": 25.15,
+      "end": 29.483333333333334
+    }
+  ],
+  "captions": [
+    {
+      "text": " ¿Tus",
+      "startMs": 160,
+      "endMs": 360,
+      "timestampMs": 260,
+      "confidence": 0.8724822004636129,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " clientes",
+      "startMs": 360,
+      "endMs": 820,
+      "timestampMs": 590,
+      "confidence": 0.9981598854064941,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " compran",
+      "startMs": 820,
+      "endMs": 1220,
+      "timestampMs": 1020,
+      "confidence": 0.9796890914440155,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " y",
+      "startMs": 1220,
+      "endMs": 1340,
+      "timestampMs": 1280,
+      "confidence": 0.991302490234375,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " no",
+      "startMs": 1340,
+      "endMs": 1420,
+      "timestampMs": 1380,
+      "confidence": 0.9972150325775146,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " vuelven?",
+      "startMs": 1420,
+      "endMs": 1740,
+      "timestampMs": 1580,
+      "confidence": 0.9956233203411102,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Con",
+      "startMs": 2860,
+      "endMs": 3060,
+      "timestampMs": 2960,
+      "confidence": 0.9566050171852112,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " Pointly,",
+      "startMs": 3060,
+      "endMs": 3520,
+      "timestampMs": 3290,
+      "confidence": 0.6711812615394592,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " dales",
+      "startMs": 3740,
+      "endMs": 4100,
+      "timestampMs": 3920,
+      "confidence": 0.5210701338946819,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " un",
+      "startMs": 4100,
+      "endMs": 4260,
+      "timestampMs": 4180,
+      "confidence": 0.9959530830383301,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " motivo",
+      "startMs": 4260,
+      "endMs": 4620,
+      "timestampMs": 4440,
+      "confidence": 0.9945446252822876,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " para",
+      "startMs": 4620,
+      "endMs": 4900,
+      "timestampMs": 4760,
+      "confidence": 0.9991177916526794,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " volver.",
+      "startMs": 4900,
+      "endMs": 5160,
+      "timestampMs": 5030,
+      "confidence": 0.998175859451294,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Registrá",
+      "startMs": 6493,
+      "endMs": 7093,
+      "timestampMs": 6793,
+      "confidence": 0.7374712824821472,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " compras",
+      "startMs": 7093,
+      "endMs": 7653,
+      "timestampMs": 7373,
+      "confidence": 0.936028242111206,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " y",
+      "startMs": 7653,
+      "endMs": 7813,
+      "timestampMs": 7733,
+      "confidence": 0.9927201271057129,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " sumá",
+      "startMs": 7813,
+      "endMs": 8133,
+      "timestampMs": 7973,
+      "confidence": 0.602391354739666,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " puntos",
+      "startMs": 8133,
+      "endMs": 8333,
+      "timestampMs": 8233,
+      "confidence": 0.9802056550979614,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " a",
+      "startMs": 8333,
+      "endMs": 8573,
+      "timestampMs": 8453,
+      "confidence": 0.9984090924263,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " tus",
+      "startMs": 8573,
+      "endMs": 8693,
+      "timestampMs": 8633,
+      "confidence": 0.27157105743250537,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " clientes.",
+      "startMs": 8693,
+      "endMs": 9193,
+      "timestampMs": 8943,
+      "confidence": 0.9933036267757416,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Creá",
+      "startMs": 10827,
+      "endMs": 11227,
+      "timestampMs": 11027,
+      "confidence": 0.4104655869305134,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " premios",
+      "startMs": 11227,
+      "endMs": 11767,
+      "timestampMs": 11497,
+      "confidence": 0.9854592978954315,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " y",
+      "startMs": 11767,
+      "endMs": 11967,
+      "timestampMs": 11867,
+      "confidence": 0.9988276362419128,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " descuentos",
+      "startMs": 11967,
+      "endMs": 12627,
+      "timestampMs": 12297,
+      "confidence": 0.9881401459376017,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " para",
+      "startMs": 12627,
+      "endMs": 12807,
+      "timestampMs": 12717,
+      "confidence": 0.9977884292602539,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " canjear.",
+      "startMs": 12807,
+      "endMs": 13267,
+      "timestampMs": 13037,
+      "confidence": 0.9685561458269755,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Cada",
+      "startMs": 14560,
+      "endMs": 14780,
+      "timestampMs": 14670,
+      "confidence": 0.9548456072807312,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " cliente",
+      "startMs": 14780,
+      "endMs": 15260,
+      "timestampMs": 15020,
+      "confidence": 0.9971986711025238,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " consulta",
+      "startMs": 15260,
+      "endMs": 15780,
+      "timestampMs": 15520,
+      "confidence": 0.9918500185012817,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " sus",
+      "startMs": 15780,
+      "endMs": 15920,
+      "timestampMs": 15850,
+      "confidence": 0.9956552982330322,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " puntos",
+      "startMs": 15920,
+      "endMs": 16300,
+      "timestampMs": 16110,
+      "confidence": 0.997769832611084,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " y",
+      "startMs": 16300,
+      "endMs": 16520,
+      "timestampMs": 16410,
+      "confidence": 0.9991975426673889,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " premios",
+      "startMs": 16520,
+      "endMs": 16940,
+      "timestampMs": 16730,
+      "confidence": 0.9971103370189667,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " desde",
+      "startMs": 16940,
+      "endMs": 17160,
+      "timestampMs": 17050,
+      "confidence": 0.9963353872299194,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " el",
+      "startMs": 17160,
+      "endMs": 17360,
+      "timestampMs": 17260,
+      "confidence": 0.9956867098808289,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " celular.",
+      "startMs": 17360,
+      "endMs": 17700,
+      "timestampMs": 17530,
+      "confidence": 0.9952056407928467,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Fidelización",
+      "startMs": 19527,
+      "endMs": 20167,
+      "timestampMs": 19847,
+      "confidence": 0.9903419017791748,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " para",
+      "startMs": 20167,
+      "endMs": 20427,
+      "timestampMs": 20297,
+      "confidence": 0.9926528930664062,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " tu",
+      "startMs": 20427,
+      "endMs": 20607,
+      "timestampMs": 20517,
+      "confidence": 0.0009445567685020251,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " comercio,",
+      "startMs": 20607,
+      "endMs": 21087,
+      "timestampMs": 20847,
+      "confidence": 0.9918992817401886,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " con",
+      "startMs": 21227,
+      "endMs": 21367,
+      "timestampMs": 21297,
+      "confidence": 0.9851320385932922,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " todo",
+      "startMs": 21367,
+      "endMs": 21727,
+      "timestampMs": 21547,
+      "confidence": 0.3325999824495132,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " organizado",
+      "startMs": 21727,
+      "endMs": 22467,
+      "timestampMs": 22097,
+      "confidence": 0.9813969135284424,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " en",
+      "startMs": 22467,
+      "endMs": 22727,
+      "timestampMs": 22597,
+      "confidence": 0.9058760404586792,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " un",
+      "startMs": 22727,
+      "endMs": 22907,
+      "timestampMs": 22817,
+      "confidence": 0.9051538109779358,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " solo",
+      "startMs": 22907,
+      "endMs": 23187,
+      "timestampMs": 23047,
+      "confidence": 0.9010273814201355,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " lugar.",
+      "startMs": 23187,
+      "endMs": 23507,
+      "timestampMs": 23347,
+      "confidence": 0.9892014265060425,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Conocé",
+      "startMs": 25310,
+      "endMs": 25870,
+      "timestampMs": 25590,
+      "confidence": 0.3582481692234675,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " Pointly,",
+      "startMs": 25870,
+      "endMs": 26450,
+      "timestampMs": 26160,
+      "confidence": 0.5155183970928192,
+      "pageBreakAfter": false
+    },
+    {
+      "text": " de",
+      "startMs": 26710,
+      "endMs": 26970,
+      "timestampMs": 26840,
+      "confidence": 0.8877246975898743,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Bycode.",
+      "startMs": 26970,
+      "endMs": 27310,
+      "timestampMs": 27140,
+      "confidence": 0.3086554752662778,
+      "pageBreakAfter": true
+    }
+  ]
+}

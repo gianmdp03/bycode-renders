@@ -1,0 +1,16 @@
+{
+  "id": "doctorchart",
+  "file": "public/voice/qwen-masculina/doctorchart-699c56d57549.wav",
+  "displayText": "Con DoctorChart, organizás pacientes, consultas y fichas clínicas.",
+  "spokenText": "Con Doctor Chart, organizás pacientes, consultas y fichas clínicas.",
+  "duration": 4.32,
+  "sampleRate": 24000,
+  "seed": 20261033,
+  "sha256": "3d167675c0ec4c7969ad9688e3a4d2ba57300bcc86e15226d64f4d92a267beab",
+  "generationSeconds": 16.83,
+  "peakVRAMMiB": 2609,
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "referenceSHA256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "voice": "masculina",
+  "userVoiceUsed": false
+}

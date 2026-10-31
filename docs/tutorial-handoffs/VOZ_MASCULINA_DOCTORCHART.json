@@ -20,7 +20,7 @@
   "reference_is_synthetic": true,
   "user_voice_recordings_used": false,
   "pronunciation_aliases": {
-    "Bycode": "baicode"
+    "Bycode": "báicod"
   },
   "preserve_reference": true,
   "note": "Use this fixed reference rather than generating a new persona. Different text or a recreated description alone does not preserve the same identity."

@@ -1,0 +1,15 @@
+{
+  "seeds": {"intro": 20261101},
+  "edits": {
+    "intro": {
+      "expectedText": "Somos Bycode. Creamos software para comercios y consultorios.",
+      "expectedSpokenText": "Somos baicoud. Creamos software para comercios y consultorios.",
+      "expectedSeed": 20261101,
+      "prefixTo": 1.04,
+      "gap": 0.18,
+      "suffixFile": "public/voice/qwen-masculina/intro-7039e6b30936.wav",
+      "suffixFrom": 2.70,
+      "reason": "Conservar la segunda oración verificada de la toma anterior y sustituir sólo Somos Bycode por la toma con baicoud. Corte en silencio entre oraciones."
+    }
+  }
+}

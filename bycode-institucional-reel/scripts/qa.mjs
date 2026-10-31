@@ -1,0 +1,17 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import {root,repo,ffprobe,ffmpeg,run,save} from './tools.mjs';
+const file=process.argv[2]??'out/bycode_preview_sin_voz.mp4';
+const probe=JSON.parse(run(ffprobe,['-v','quiet','-show_format','-show_streams','-of','json',file]).stdout);
+const v=probe.streams.find(s=>s.codec_type==='video'),a=probe.streams.find(s=>s.codec_type==='audio');
+const checks={dimensions:v.width===1080&&v.height===1920,fps:v.avg_frame_rate==='60/1',codec:v.codec_name==='h264',pixelFormat:v.pix_fmt==='yuv420p',duration:Number(probe.format.duration)>=25&&Number(probe.format.duration)<=30,audio:a?.codec_name==='aac'&&a?.sample_rate==='48000'&&a?.channels===2};
+const scan=run(ffmpeg,['-hide_banner','-i',file,'-vf','blackdetect=d=0.08:pix_th=0.03:pic_th=0.98','-af','loudnorm=I=-23:TP=-1:LRA=7:print_format=json','-f','null','-']).stderr;
+checks.decode=!scan.includes('Error while decoding');checks.noBlackSegments=!scan.includes('black_start:');
+const loudness=JSON.parse(scan.slice(scan.lastIndexOf('{'),scan.lastIndexOf('}')+1));checks.noClipping=Number(loudness.input_tp)<-1;
+const manifest=JSON.parse(fs.readFileSync(path.join(root,'qa/assets.json')));
+checks.authenticAssets=manifest.assets.every(a=>crypto.createHash('sha256').update(fs.readFileSync(path.join(root,a.destination))).digest('hex')===a.sha256);
+const preserved=JSON.parse(fs.readFileSync(path.join(repo,'tests/fixtures/doctorchart-preservation.json')));
+checks.doctorChartPreserved=preserved.every(r=>{const bytes=fs.readFileSync(path.join(repo,r.path));return crypto.createHash('sha256').update(r.text?Buffer.from(bytes.toString('utf8').replaceAll('\r\n','\n')):bytes).digest('hex')===r.sha256});
+const result={status:Object.values(checks).every(Boolean)?'PASS':'FAIL',file,checks,loudness,video:v,audio:a,format:probe.format,note:file.includes('qwen')?'Preview con voz sintética Qwen masculina; naturalidad pendiente de revisión del usuario.':file.includes('final')?'Locución importada; revisar escucha y sincronía.':'Preview sin narración.'};
+save(file.includes('qwen')?'qa/qwen-media-report.json':file.includes('final')?'qa/final-media-report.json':'qa/media-report.json',result);console.log(JSON.stringify({status:result.status,checks,loudness},null,2));if(result.status!=='PASS')process.exitCode=1;

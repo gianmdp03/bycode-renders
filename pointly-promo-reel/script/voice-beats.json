@@ -1,0 +1,12 @@
+{
+  "duration":29.5,
+  "beats":[
+    {"id":"hook","text":"¿Tus clientes compran y no vuelven?","start":0,"end":3},
+    {"id":"intro","text":"Con Pointly, dales un motivo para volver.","start":3,"end":7},
+    {"id":"points","text":"Registrá compras y sumá puntos a tus clientes.","start":7,"end":11},
+    {"id":"rewards","text":"Creá premios y descuentos para canjear.","start":11,"end":15},
+    {"id":"wallet","text":"Cada cliente consulta sus puntos y premios desde el celular.","start":15,"end":20},
+    {"id":"value","text":"Fidelización para tu comercio, con todo organizado en un solo lugar.","start":20,"end":25.5},
+    {"id":"cta","text":"Conocé Pointly, de Bycode.","start":25.5,"end":29.5}
+  ]
+}

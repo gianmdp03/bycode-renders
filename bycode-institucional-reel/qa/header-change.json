@@ -1,0 +1,222 @@
+{
+  "status": "PASS",
+  "onlyFixedHeaderChanged": true,
+  "frames": [
+    {
+      "frame": 0,
+      "changedBounds": [
+        44,
+        107,
+        455,
+        139
+      ]
+    },
+    {
+      "frame": 45,
+      "changedBounds": [
+        44,
+        107,
+        455,
+        139
+      ]
+    },
+    {
+      "frame": 100,
+      "changedBounds": [
+        44,
+        107,
+        455,
+        139
+      ]
+    },
+    {
+      "frame": 167,
+      "changedBounds": [
+        44,
+        107,
+        455,
+        139
+      ]
+    },
+    {
+      "frame": 168,
+      "changedBounds": [
+        44,
+        107,
+        455,
+        139
+      ]
+    },
+    {
+      "frame": 185,
+      "changedBounds": [
+        44,
+        107,
+        455,
+        139
+      ]
+    },
+    {
+      "frame": 260,
+      "changedBounds": [
+        44,
+        107,
+        455,
+        139
+      ]
+    },
+    {
+      "frame": 419,
+      "changedBounds": [
+        44,
+        107,
+        455,
+        139
+      ]
+    },
+    {
+      "frame": 420,
+      "changedBounds": [
+        44,
+        107,
+        455,
+        139
+      ]
+    },
+    {
+      "frame": 438,
+      "changedBounds": [
+        44,
+        107,
+        455,
+        139
+      ]
+    },
+    {
+      "frame": 550,
+      "changedBounds": [
+        44,
+        107,
+        455,
+        139
+      ]
+    },
+    {
+      "frame": 719,
+      "changedBounds": [
+        44,
+        107,
+        455,
+        139
+      ]
+    },
+    {
+      "frame": 720,
+      "changedBounds": [
+        44,
+        107,
+        455,
+        139
+      ]
+    },
+    {
+      "frame": 738,
+      "changedBounds": [
+        44,
+        107,
+        455,
+        139
+      ]
+    },
+    {
+      "frame": 850,
+      "changedBounds": [
+        44,
+        107,
+        455,
+        139
+      ]
+    },
+    {
+      "frame": 1031,
+      "changedBounds": [
+        44,
+        107,
+        455,
+        139
+      ]
+    },
+    {
+      "frame": 1032,
+      "changedBounds": [
+        44,
+        107,
+        455,
+        139
+      ]
+    },
+    {
+      "frame": 1050,
+      "changedBounds": [
+        42,
+        105,
+        455,
+        139
+      ]
+    },
+    {
+      "frame": 1160,
+      "changedBounds": [
+        42,
+        105,
+        455,
+        139
+      ]
+    },
+    {
+      "frame": 1403,
+      "changedBounds": [
+        42,
+        105,
+        455,
+        139
+      ]
+    },
+    {
+      "frame": 1404,
+      "changedBounds": [
+        42,
+        105,
+        455,
+        139
+      ]
+    },
+    {
+      "frame": 1422,
+      "changedBounds": [
+        44,
+        107,
+        455,
+        139
+      ]
+    },
+    {
+      "frame": 1540,
+      "changedBounds": [
+        44,
+        107,
+        455,
+        139
+      ]
+    },
+    {
+      "frame": 1727,
+      "changedBounds": [
+        44,
+        107,
+        455,
+        139
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+1
+00:00:00,160 --> 00:00:00,940
+Tu día, más
+
+2
+00:00:00,940 --> 00:00:01,180
+simple.
+
+3
+00:00:02,627 --> 00:00:03,527
+Somos Bycode.
+
+4
+00:00:04,047 --> 00:00:05,207
+Creamos software para
+
+5
+00:00:05,207 --> 00:00:06,607
+comercios y consultorios.
+
+6
+00:00:07,343 --> 00:00:08,783
+Con Pointly, gestionás
+
+7
+00:00:08,783 --> 00:00:10,323
+clientes, puntos y
+
+8
+00:00:10,323 --> 00:00:11,003
+recompensas.
+
+9
+00:00:11,760 --> 00:00:13,360
+Con DoctorChart, organizás
+
+10
+00:00:13,360 --> 00:00:14,920
+pacientes, consultas y
+
+11
+00:00:14,920 --> 00:00:15,740
+fichas clínicas.
+
+12
+00:00:16,543 --> 00:00:18,703
+Aplicaciones especializadas, desde
+
+13
+00:00:18,703 --> 00:00:19,463
+tu navegador.
+
+14
+00:00:19,903 --> 00:00:21,423
+Elegí las herramientas
+
+15
+00:00:21,423 --> 00:00:22,083
+que tu trabajo
+
+16
+00:00:22,083 --> 00:00:22,323
+necesita.
+
+17
+00:00:23,293 --> 00:00:24,373
+Bycode Software.
+
+18
+00:00:24,873 --> 00:00:25,993
+Tecnología para tu
+
+19
+00:00:25,993 --> 00:00:26,453
+día a día.
+
+20
+00:00:26,853 --> 00:00:28,093
+Conocé nuestras soluciones.

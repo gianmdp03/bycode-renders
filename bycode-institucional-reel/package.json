@@ -1,0 +1,32 @@
+{
+  "name": "bycode-institucional-reel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "remotion studio src/index.ts --port=3500 --no-open",
+    "assets:prepare": "node scripts/prepare.mjs",
+    "typecheck": "tsc --noEmit",
+    "build": "remotion bundle src/index.ts",
+    "render:preview": "node scripts/render.mjs preview",
+    "stills": "node scripts/render.mjs stills",
+    "qa": "node scripts/qa.mjs",
+    "ingest-voice": "node scripts/ingest-voice.mjs",
+    "render:final": "node scripts/render.mjs final",
+    "voice:qwen": "node scripts/qwen.mjs",
+    "render:qwen": "node scripts/render.mjs qwen"
+  },
+  "dependencies": {
+    "@bycode/video-system": "0.1.0",
+    "@remotion/bundler": "4.0.539",
+    "@remotion/captions": "4.0.539",
+    "@remotion/cli": "4.0.539",
+    "@remotion/media": "4.0.539",
+    "@remotion/renderer": "4.0.539",
+    "@remotion/transitions": "4.0.539",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.539"
+  },
+  "devDependencies": {"@types/react":"19.2.7","typescript":"5.9.3"}
+}

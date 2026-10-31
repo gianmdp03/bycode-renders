@@ -1,0 +1,16 @@
+{
+  "id": "wallet",
+  "file": "public/voice/qwen-masculina/wallet-e05fa7dab19e.wav",
+  "displayText": "Cada cliente consulta sus puntos y premios desde el celular.",
+  "spokenText": "Cada cliente consulta sus puntos y premios desde el celular.",
+  "duration": 3.68,
+  "sampleRate": 24000,
+  "seed": 20261034,
+  "sha256": "7acabb21b50091eafd20537f9dfd23af4a1cc8cbc8be956ea7bbccec3e95d4ce",
+  "generationSeconds": 9.78,
+  "peakVRAMMiB": 2609,
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "referenceSHA256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "voice": "masculina",
+  "userVoiceUsed": false
+}

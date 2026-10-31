@@ -1,0 +1,16 @@
+{
+  "id": "pointly",
+  "file": "public/voice/qwen-masculina/pointly-3c0a8aea9c93.wav",
+  "displayText": "Con Pointly, gestionás clientes, puntos y recompensas.",
+  "spokenText": "Con Pointly, gestionás clientes, puntos y recompensas.",
+  "duration": 4.56,
+  "sampleRate": 24000,
+  "seed": 20261032,
+  "sha256": "6521dd64938173140370b27f054f441df61837c89b2d558461a756ca1c51d6c1",
+  "generationSeconds": 19.09,
+  "peakVRAMMiB": 2609,
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "referenceSHA256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "voice": "masculina",
+  "userVoiceUsed": false
+}

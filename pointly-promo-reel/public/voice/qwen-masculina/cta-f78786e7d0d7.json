@@ -1,0 +1,16 @@
+{
+  "id": "cta",
+  "file": "public/voice/qwen-masculina/cta-f78786e7d0d7.wav",
+  "displayText": "Conocé Pointly, de Bycode.",
+  "spokenText": "Conocé Pointly, de baicod.",
+  "duration": 2.08,
+  "sampleRate": 24000,
+  "seed": 20261036,
+  "sha256": "2022974f0c3d5d60a2532a101a890a93e2eacd7d3784fd7981da0b80f1a18d21",
+  "generationSeconds": 7.72,
+  "peakVRAMMiB": 2609,
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "referenceSHA256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "voice": "masculina",
+  "userVoiceUsed": false
+}

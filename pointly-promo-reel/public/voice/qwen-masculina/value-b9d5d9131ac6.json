@@ -1,0 +1,16 @@
+{
+  "id": "value",
+  "file": "public/voice/qwen-masculina/value-b9d5d9131ac6.wav",
+  "displayText": "Fidelización para tu comercio, con todo organizado en un solo lugar.",
+  "spokenText": "Fidelización para tu comercio, con todo organizado en un solo lugar.",
+  "duration": 4.48,
+  "sampleRate": 24000,
+  "seed": 20261035,
+  "sha256": "a42c42ba78e92e5479ca92f59f68f8680d8e0c979a942480ccc366bb5a7c718a",
+  "generationSeconds": 14.92,
+  "peakVRAMMiB": 2609,
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "referenceSHA256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "voice": "masculina",
+  "userVoiceUsed": false
+}

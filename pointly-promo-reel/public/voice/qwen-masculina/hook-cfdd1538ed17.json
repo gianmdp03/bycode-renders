@@ -1,0 +1,16 @@
+{
+  "id": "hook",
+  "file": "public/voice/qwen-masculina/hook-cfdd1538ed17.wav",
+  "displayText": "¿Tus clientes compran y no vuelven?",
+  "spokenText": "¿Tus clientes compran y no vuelven?",
+  "duration": 2.0,
+  "sampleRate": 24000,
+  "seed": 20261030,
+  "sha256": "e8170add0fc12e971346f007a48d2b1d0a2cb40e8b24be857f5ba4f8ba5fd4b7",
+  "generationSeconds": 5.39,
+  "peakVRAMMiB": 2609,
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "referenceSHA256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "voice": "masculina",
+  "userVoiceUsed": false
+}

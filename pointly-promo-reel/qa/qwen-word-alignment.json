@@ -1,0 +1,541 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "beats": [
+    {
+      "id": "hook",
+      "expected": [
+        "¿Tus",
+        "clientes",
+        "compran",
+        "y",
+        "no",
+        "vuelven?"
+      ],
+      "words": [
+        {
+          "text": "¿Tus",
+          "start": 0.0,
+          "end": 0.2,
+          "confidence": 0.8724822004636129
+        },
+        {
+          "text": "clientes",
+          "start": 0.2,
+          "end": 0.66,
+          "confidence": 0.9981598854064941
+        },
+        {
+          "text": "compran",
+          "start": 0.66,
+          "end": 1.06,
+          "confidence": 0.9796890914440155
+        },
+        {
+          "text": "y",
+          "start": 1.06,
+          "end": 1.18,
+          "confidence": 0.991302490234375
+        },
+        {
+          "text": "no",
+          "start": 1.18,
+          "end": 1.26,
+          "confidence": 0.9972150325775146
+        },
+        {
+          "text": "vuelven?",
+          "start": 1.26,
+          "end": 1.58,
+          "confidence": 0.9956233203411102
+        }
+      ],
+      "coverage": 1.0,
+      "ratio": 1.0,
+      "duration": 1.78,
+      "trim": {
+        "start": 0.07,
+        "end": 1.85
+      },
+      "trimmed": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\pointly-promo-reel\\.local\\qwen\\hook-trimmed.wav",
+      "matches": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5
+      }
+    },
+    {
+      "id": "intro",
+      "expected": [
+        "Con",
+        "Pointly,",
+        "dales",
+        "un",
+        "motivo",
+        "para",
+        "volver."
+      ],
+      "words": [
+        {
+          "text": "Con",
+          "start": 0.0,
+          "end": 0.2,
+          "confidence": 0.9566050171852112
+        },
+        {
+          "text": "Pointly,",
+          "start": 0.2,
+          "end": 0.66,
+          "confidence": 0.6711812615394592
+        },
+        {
+          "text": "dales",
+          "start": 0.88,
+          "end": 1.24,
+          "confidence": 0.5210701338946819
+        },
+        {
+          "text": "un",
+          "start": 1.24,
+          "end": 1.4,
+          "confidence": 0.9959530830383301
+        },
+        {
+          "text": "motivo",
+          "start": 1.4,
+          "end": 1.76,
+          "confidence": 0.9945446252822876
+        },
+        {
+          "text": "para",
+          "start": 1.76,
+          "end": 2.04,
+          "confidence": 0.9991177916526794
+        },
+        {
+          "text": "volver.",
+          "start": 2.04,
+          "end": 2.3,
+          "confidence": 0.998175859451294
+        }
+      ],
+      "coverage": 1.0,
+      "ratio": 1.0,
+      "duration": 2.5100000000000002,
+      "trim": {
+        "start": 0.05000000000000002,
+        "end": 2.56
+      },
+      "trimmed": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\pointly-promo-reel\\.local\\qwen\\intro-trimmed.wav",
+      "matches": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6
+      }
+    },
+    {
+      "id": "points",
+      "expected": [
+        "Registrá",
+        "compras",
+        "y",
+        "sumá",
+        "puntos",
+        "a",
+        "tus",
+        "clientes."
+      ],
+      "words": [
+        {
+          "text": "Registrá",
+          "start": 0.0,
+          "end": 0.6,
+          "confidence": 0.7374712824821472
+        },
+        {
+          "text": "compras",
+          "start": 0.6,
+          "end": 1.16,
+          "confidence": 0.936028242111206
+        },
+        {
+          "text": "y",
+          "start": 1.16,
+          "end": 1.32,
+          "confidence": 0.9927201271057129
+        },
+        {
+          "text": "sumá",
+          "start": 1.32,
+          "end": 1.64,
+          "confidence": 0.602391354739666
+        },
+        {
+          "text": "puntos",
+          "start": 1.64,
+          "end": 1.84,
+          "confidence": 0.9802056550979614
+        },
+        {
+          "text": "a",
+          "start": 1.84,
+          "end": 2.08,
+          "confidence": 0.9984090924263
+        },
+        {
+          "text": "tus",
+          "start": 2.08,
+          "end": 2.2,
+          "confidence": 0.27157105743250537
+        },
+        {
+          "text": "clientes.",
+          "start": 2.2,
+          "end": 2.7,
+          "confidence": 0.9933036267757416
+        }
+      ],
+      "coverage": 1.0,
+      "ratio": 1.0,
+      "duration": 2.81,
+      "trim": {
+        "start": 0.39,
+        "end": 3.2
+      },
+      "trimmed": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\pointly-promo-reel\\.local\\qwen\\points-trimmed.wav",
+      "matches": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7
+      }
+    },
+    {
+      "id": "rewards",
+      "expected": [
+        "Creá",
+        "premios",
+        "y",
+        "descuentos",
+        "para",
+        "canjear."
+      ],
+      "words": [
+        {
+          "text": "Creá",
+          "start": 0.0,
+          "end": 0.4,
+          "confidence": 0.4104655869305134
+        },
+        {
+          "text": "premios",
+          "start": 0.4,
+          "end": 0.94,
+          "confidence": 0.9854592978954315
+        },
+        {
+          "text": "y",
+          "start": 0.94,
+          "end": 1.14,
+          "confidence": 0.9988276362419128
+        },
+        {
+          "text": "descuentos",
+          "start": 1.14,
+          "end": 1.8,
+          "confidence": 0.9881401459376017
+        },
+        {
+          "text": "para",
+          "start": 1.8,
+          "end": 1.98,
+          "confidence": 0.9977884292602539
+        },
+        {
+          "text": "canjear.",
+          "start": 1.98,
+          "end": 2.44,
+          "confidence": 0.9685561458269755
+        }
+      ],
+      "coverage": 1.0,
+      "ratio": 1.0,
+      "duration": 2.52,
+      "trim": {
+        "start": 0.04000000000000001,
+        "end": 2.56
+      },
+      "trimmed": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\pointly-promo-reel\\.local\\qwen\\rewards-trimmed.wav",
+      "matches": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5
+      }
+    },
+    {
+      "id": "wallet",
+      "expected": [
+        "Cada",
+        "cliente",
+        "consulta",
+        "sus",
+        "puntos",
+        "y",
+        "premios",
+        "desde",
+        "el",
+        "celular."
+      ],
+      "words": [
+        {
+          "text": "Cada",
+          "start": 0.0,
+          "end": 0.22,
+          "confidence": 0.9548456072807312
+        },
+        {
+          "text": "cliente",
+          "start": 0.22,
+          "end": 0.7,
+          "confidence": 0.9971986711025238
+        },
+        {
+          "text": "consulta",
+          "start": 0.7,
+          "end": 1.22,
+          "confidence": 0.9918500185012817
+        },
+        {
+          "text": "sus",
+          "start": 1.22,
+          "end": 1.36,
+          "confidence": 0.9956552982330322
+        },
+        {
+          "text": "puntos",
+          "start": 1.36,
+          "end": 1.74,
+          "confidence": 0.997769832611084
+        },
+        {
+          "text": "y",
+          "start": 1.74,
+          "end": 1.96,
+          "confidence": 0.9991975426673889
+        },
+        {
+          "text": "premios",
+          "start": 1.96,
+          "end": 2.38,
+          "confidence": 0.9971103370189667
+        },
+        {
+          "text": "desde",
+          "start": 2.38,
+          "end": 2.6,
+          "confidence": 0.9963353872299194
+        },
+        {
+          "text": "el",
+          "start": 2.6,
+          "end": 2.8,
+          "confidence": 0.9956867098808289
+        },
+        {
+          "text": "celular.",
+          "start": 2.8,
+          "end": 3.14,
+          "confidence": 0.9952056407928467
+        }
+      ],
+      "coverage": 1.0,
+      "ratio": 1.0,
+      "duration": 3.46,
+      "trim": {
+        "start": 0.03,
+        "end": 3.4899999999999998
+      },
+      "trimmed": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\pointly-promo-reel\\.local\\qwen\\wallet-trimmed.wav",
+      "matches": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9
+      }
+    },
+    {
+      "id": "value",
+      "expected": [
+        "Fidelización",
+        "para",
+        "tu",
+        "comercio,",
+        "con",
+        "todo",
+        "organizado",
+        "en",
+        "un",
+        "solo",
+        "lugar."
+      ],
+      "words": [
+        {
+          "text": "Fidelización",
+          "start": 0.0,
+          "end": 0.64,
+          "confidence": 0.9903419017791748
+        },
+        {
+          "text": "para",
+          "start": 0.64,
+          "end": 0.9,
+          "confidence": 0.9926528930664062
+        },
+        {
+          "text": "tu",
+          "start": 0.9,
+          "end": 1.08,
+          "confidence": 0.0009445567685020251
+        },
+        {
+          "text": "comercio,",
+          "start": 1.08,
+          "end": 1.56,
+          "confidence": 0.9918992817401886
+        },
+        {
+          "text": "con",
+          "start": 1.7,
+          "end": 1.84,
+          "confidence": 0.9851320385932922
+        },
+        {
+          "text": "todo",
+          "start": 1.84,
+          "end": 2.2,
+          "confidence": 0.3325999824495132
+        },
+        {
+          "text": "organizado",
+          "start": 2.2,
+          "end": 2.94,
+          "confidence": 0.9813969135284424
+        },
+        {
+          "text": "en",
+          "start": 2.94,
+          "end": 3.2,
+          "confidence": 0.9058760404586792
+        },
+        {
+          "text": "un",
+          "start": 3.2,
+          "end": 3.38,
+          "confidence": 0.9051538109779358
+        },
+        {
+          "text": "solo",
+          "start": 3.38,
+          "end": 3.66,
+          "confidence": 0.9010273814201355
+        },
+        {
+          "text": "lugar.",
+          "start": 3.66,
+          "end": 3.98,
+          "confidence": 0.9892014265060425
+        }
+      ],
+      "coverage": 1.0,
+      "ratio": 1.0,
+      "duration": 4.2,
+      "trim": {
+        "start": 0.1,
+        "end": 4.3
+      },
+      "trimmed": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\pointly-promo-reel\\.local\\qwen\\value-trimmed.wav",
+      "matches": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
+    },
+    {
+      "id": "cta",
+      "expected": [
+        "Conocé",
+        "Pointly,",
+        "de",
+        "Bycode."
+      ],
+      "words": [
+        {
+          "text": "Conocé",
+          "start": 0.0,
+          "end": 0.56,
+          "confidence": 0.3582481692234675
+        },
+        {
+          "text": "Pointly,",
+          "start": 0.56,
+          "end": 1.14,
+          "confidence": 0.5155183970928192
+        },
+        {
+          "text": "de",
+          "start": 1.4,
+          "end": 1.66,
+          "confidence": 0.8877246975898743
+        },
+        {
+          "text": "baicod.",
+          "start": 1.66,
+          "end": 2.0,
+          "confidence": 0.3086554752662778
+        }
+      ],
+      "coverage": 1.0,
+      "ratio": 1.0,
+      "duration": 2.08,
+      "trim": {
+        "start": 0,
+        "end": 2.08
+      },
+      "trimmed": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\pointly-promo-reel\\.local\\qwen\\cta-trimmed.wav",
+      "matches": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3
+      }
+    }
+  ]
+}

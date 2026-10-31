@@ -1,0 +1,15 @@
+import path from 'node:path';
+import fs from 'node:fs';
+import {createRequire} from 'node:module';
+import {spawnSync} from 'node:child_process';
+export const root=path.resolve(import.meta.dirname,'..');
+export const repo=path.dirname(root);
+const require=createRequire(import.meta.url);
+const compositor=path.dirname(require.resolve('@remotion/compositor-win32-x64-msvc/package.json'));
+export const python=process.env.REEL_PYTHON??path.join(repo,'doctorchart-promo-reel/.local/voice-venv/Scripts/python.exe');
+export const ffmpeg=process.env.FFMPEG_PATH??path.join(repo,'doctorchart-promo-reel/.local/voice-venv/Lib/site-packages/imageio_ffmpeg/binaries/ffmpeg-win-x86_64-v7.1.exe');
+export const ffprobe=process.env.FFPROBE_PATH??path.join(compositor,'ffprobe.exe');
+export const run=(bin,args,options={})=>{const p=spawnSync(bin,args,{cwd:root,encoding:'utf8',maxBuffer:20e6,...options});if(p.error)throw p.error;if(p.status!==0)throw Error(p.stderr||p.stdout||`Exit ${p.status}`);return p};
+export const save=(file,data)=>{fs.mkdirSync(path.dirname(path.join(root,file)),{recursive:true});fs.writeFileSync(path.join(root,file),JSON.stringify(data,null,2)+'\n')};
+export const stamp=ms=>{const n=Math.round(ms);return `${String(Math.floor(n/3600000)).padStart(2,'0')}:${String(Math.floor(n/60000)%60).padStart(2,'0')}:${String(Math.floor(n/1000)%60).padStart(2,'0')},${String(n%1000).padStart(3,'0')}`};
+export const srt=caps=>{let g=[],groups=[];for(const c of caps){g.push(c);if(c.pageBreakAfter||g.length===5){groups.push(g);g=[]}}if(g.length)groups.push(g);return groups.map((a,i)=>`${i+1}\n${stamp(a[0].startMs)} --> ${stamp(a.at(-1).endMs)}\n${a.map(c=>c.text).join('').trim()}`).join('\n\n')+'\n'};

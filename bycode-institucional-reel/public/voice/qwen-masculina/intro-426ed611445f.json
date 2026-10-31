@@ -1,0 +1,16 @@
+{
+  "id": "intro",
+  "file": "public/voice/qwen-masculina/intro-426ed611445f.wav",
+  "displayText": "Somos Bycode. Creamos software para comercios y consultorios.",
+  "spokenText": "Somos baicoud. Creamos software para comercios y consultorios.",
+  "duration": 5.92,
+  "sampleRate": 24000,
+  "seed": 20261031,
+  "sha256": "4a700e8f463e497a031a7b0dffa27ea7d2c8ddaad9859c77c6166ddd94ec82a2",
+  "generationSeconds": 20.95,
+  "peakVRAMMiB": 2609,
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "referenceSHA256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "voice": "masculina",
+  "userVoiceUsed": false
+}

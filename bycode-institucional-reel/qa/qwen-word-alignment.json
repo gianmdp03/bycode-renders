@@ -1,0 +1,508 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "beats": [
+    {
+      "id": "hook",
+      "expected": [
+        "Tu",
+        "día,",
+        "más",
+        "simple."
+      ],
+      "words": [
+        {
+          "text": "Tu",
+          "start": 0.0,
+          "end": 0.18,
+          "confidence": 0.6840295195579529
+        },
+        {
+          "text": "día,",
+          "start": 0.18,
+          "end": 0.4,
+          "confidence": 0.9432764053344727
+        },
+        {
+          "text": "más",
+          "start": 0.58,
+          "end": 0.78,
+          "confidence": 0.9069756865501404
+        },
+        {
+          "text": "simple.",
+          "start": 0.78,
+          "end": 1.02,
+          "confidence": 0.9895448088645935
+        }
+      ],
+      "coverage": 1.0,
+      "ratio": 1.0,
+      "duration": 1.25,
+      "trim": {
+        "start": 0.020000000000000004,
+        "end": 1.27
+      },
+      "trimmed": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\bycode-institucional-reel\\.local\\qwen\\hook-trimmed.wav",
+      "matches": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3
+      }
+    },
+    {
+      "id": "intro",
+      "expected": [
+        "Somos",
+        "Bycode.",
+        "Creamos",
+        "software",
+        "para",
+        "comercios",
+        "y",
+        "consultorios."
+      ],
+      "words": [
+        {
+          "text": "Somos",
+          "start": 0.0,
+          "end": 0.42,
+          "confidence": 0.9016126394271851
+        },
+        {
+          "text": "báicod.",
+          "start": 0.42,
+          "end": 0.82,
+          "confidence": 0.39377751924621407
+        },
+        {
+          "text": "Creamos",
+          "start": 1.22,
+          "end": 1.64,
+          "confidence": 0.8450804650783539
+        },
+        {
+          "text": "software",
+          "start": 1.64,
+          "end": 2.1,
+          "confidence": 0.9941084384918213
+        },
+        {
+          "text": "para",
+          "start": 2.1,
+          "end": 2.4,
+          "confidence": 0.9993795156478882
+        },
+        {
+          "text": "comercios",
+          "start": 2.4,
+          "end": 2.94,
+          "confidence": 0.9878675043582916
+        },
+        {
+          "text": "y",
+          "start": 2.94,
+          "end": 3.2,
+          "confidence": 0.9983999133110046
+        },
+        {
+          "text": "consultorios.",
+          "start": 3.2,
+          "end": 3.9,
+          "confidence": 0.9923027555147806
+        }
+      ],
+      "coverage": 1.0,
+      "ratio": 1.0,
+      "duration": 4.140000000000001,
+      "trim": {
+        "start": 0.020000000000000004,
+        "end": 4.16
+      },
+      "trimmed": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\bycode-institucional-reel\\.local\\qwen\\intro-trimmed.wav",
+      "matches": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7
+      }
+    },
+    {
+      "id": "pointly",
+      "expected": [
+        "Con",
+        "Pointly,",
+        "gestionás",
+        "clientes,",
+        "puntos",
+        "y",
+        "recompensas."
+      ],
+      "words": [
+        {
+          "text": "Con",
+          "start": 0.0,
+          "end": 0.2,
+          "confidence": 0.6334937810897827
+        },
+        {
+          "text": "Pointly,",
+          "start": 0.2,
+          "end": 0.68,
+          "confidence": 0.8403990566730499
+        },
+        {
+          "text": "gestionás",
+          "start": 0.94,
+          "end": 1.44,
+          "confidence": 0.8139442404111227
+        },
+        {
+          "text": "clientes,",
+          "start": 1.44,
+          "end": 2.06,
+          "confidence": 0.9971859753131866
+        },
+        {
+          "text": "puntos",
+          "start": 2.24,
+          "end": 2.58,
+          "confidence": 0.9945610165596008
+        },
+        {
+          "text": "y",
+          "start": 2.58,
+          "end": 2.98,
+          "confidence": 0.9783516526222229
+        },
+        {
+          "text": "recompensas.",
+          "start": 2.98,
+          "end": 3.66,
+          "confidence": 0.9975623885790507
+        }
+      ],
+      "coverage": 1.0,
+      "ratio": 1.0,
+      "duration": 3.91,
+      "trim": {
+        "start": 0.5,
+        "end": 4.41
+      },
+      "trimmed": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\bycode-institucional-reel\\.local\\qwen\\pointly-trimmed.wav",
+      "matches": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6
+      }
+    },
+    {
+      "id": "doctorchart",
+      "expected": [
+        "Con",
+        "DoctorChart,",
+        "organizás",
+        "pacientes,",
+        "consultas",
+        "y",
+        "fichas",
+        "clínicas."
+      ],
+      "words": [
+        {
+          "text": "Con",
+          "start": 0.0,
+          "end": 0.22,
+          "confidence": 0.7167271971702576
+        },
+        {
+          "text": "DoctorChart",
+          "start": 0.22,
+          "end": 0.84,
+          "confidence": 0.3690432608127594
+        },
+        {
+          "text": "organizás",
+          "start": 1.1,
+          "end": 1.6,
+          "confidence": 0.7216262370347977
+        },
+        {
+          "text": "pacientes,",
+          "start": 1.6,
+          "end": 2.06,
+          "confidence": 0.9976812899112701
+        },
+        {
+          "text": "consultas",
+          "start": 2.3,
+          "end": 2.98,
+          "confidence": 0.9949052631855011
+        },
+        {
+          "text": "y",
+          "start": 2.98,
+          "end": 3.16,
+          "confidence": 0.9847220778465271
+        },
+        {
+          "text": "fichas",
+          "start": 3.16,
+          "end": 3.58,
+          "confidence": 0.9938853780428568
+        },
+        {
+          "text": "clínicas.",
+          "start": 3.58,
+          "end": 3.98,
+          "confidence": 0.9932805498441061
+        }
+      ],
+      "coverage": 1.0,
+      "ratio": 1.0,
+      "duration": 4.28,
+      "trim": {
+        "start": 0.04000000000000001,
+        "end": 4.32
+      },
+      "trimmed": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\bycode-institucional-reel\\.local\\qwen\\doctorchart-trimmed.wav",
+      "matches": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7
+      }
+    },
+    {
+      "id": "ecosystem",
+      "expected": [
+        "Aplicaciones",
+        "especializadas,",
+        "desde",
+        "tu",
+        "navegador.",
+        "Elegí",
+        "las",
+        "herramientas",
+        "que",
+        "tu",
+        "trabajo",
+        "necesita."
+      ],
+      "words": [
+        {
+          "text": "Aplicaciones",
+          "start": 0.0,
+          "end": 0.68,
+          "confidence": 0.9631757736206055
+        },
+        {
+          "text": "especializadas,",
+          "start": 0.68,
+          "end": 1.54,
+          "confidence": 0.9891782204310099
+        },
+        {
+          "text": "desde",
+          "start": 1.9,
+          "end": 2.16,
+          "confidence": 0.9927324652671814
+        },
+        {
+          "text": "tu",
+          "start": 2.16,
+          "end": 2.44,
+          "confidence": 0.00019527227070792463
+        },
+        {
+          "text": "navegador.",
+          "start": 2.44,
+          "end": 2.92,
+          "confidence": 0.9993077715237936
+        },
+        {
+          "text": "Elegí",
+          "start": 3.36,
+          "end": 4.04,
+          "confidence": 0.8338669935862223
+        },
+        {
+          "text": "las",
+          "start": 4.04,
+          "end": 4.18,
+          "confidence": 0.9937427639961243
+        },
+        {
+          "text": "herramientas",
+          "start": 4.18,
+          "end": 4.88,
+          "confidence": 0.9981754124164581
+        },
+        {
+          "text": "que",
+          "start": 4.88,
+          "end": 5.02,
+          "confidence": 0.9892849326133728
+        },
+        {
+          "text": "tu",
+          "start": 5.02,
+          "end": 5.16,
+          "confidence": 0.3384007806889713
+        },
+        {
+          "text": "trabajo",
+          "start": 5.16,
+          "end": 5.54,
+          "confidence": 0.4935388823896574
+        },
+        {
+          "text": "necesita.",
+          "start": 5.54,
+          "end": 5.78,
+          "confidence": 0.8381812572479248
+        }
+      ],
+      "coverage": 1.0,
+      "ratio": 1.0,
+      "duration": 6.22,
+      "trim": {
+        "start": 0.41000000000000003,
+        "end": 6.63
+      },
+      "trimmed": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\bycode-institucional-reel\\.local\\qwen\\ecosystem-trimmed.wav",
+      "matches": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10,
+        "11": 11
+      }
+    },
+    {
+      "id": "cta",
+      "expected": [
+        "Bycode",
+        "Software.",
+        "Tecnología",
+        "para",
+        "tu",
+        "día",
+        "a",
+        "día.",
+        "Conocé",
+        "nuestras",
+        "soluciones."
+      ],
+      "words": [
+        {
+          "text": "Báicod",
+          "start": 0.0,
+          "end": 0.54,
+          "confidence": 0.3653887947812109
+        },
+        {
+          "text": "Software.",
+          "start": 0.54,
+          "end": 1.16,
+          "confidence": 0.8999360203742981
+        },
+        {
+          "text": "Tecnología",
+          "start": 1.46,
+          "end": 2.1,
+          "confidence": 0.9003154436747233
+        },
+        {
+          "text": "para",
+          "start": 2.1,
+          "end": 2.44,
+          "confidence": 0.9869235157966614
+        },
+        {
+          "text": "tu",
+          "start": 2.44,
+          "end": 2.66,
+          "confidence": 0.00026191283315313285
+        },
+        {
+          "text": "día",
+          "start": 2.66,
+          "end": 2.86,
+          "confidence": 0.9780694246292114
+        },
+        {
+          "text": "a",
+          "start": 2.86,
+          "end": 2.98,
+          "confidence": 0.9593879580497742
+        },
+        {
+          "text": "día.",
+          "start": 2.98,
+          "end": 3.18,
+          "confidence": 0.9874358177185059
+        },
+        {
+          "text": "Conocé",
+          "start": 3.72,
+          "end": 4.24,
+          "confidence": 0.6211929718653361
+        },
+        {
+          "text": "nuestras",
+          "start": 4.24,
+          "end": 4.44,
+          "confidence": 0.9882160425186157
+        },
+        {
+          "text": "soluciones.",
+          "start": 4.44,
+          "end": 5.22,
+          "confidence": 0.9934873878955841
+        }
+      ],
+      "coverage": 1.0,
+      "ratio": 1.0,
+      "duration": 5.58,
+      "trim": {
+        "start": 0.33999999999999997,
+        "end": 5.92
+      },
+      "trimmed": "C:\\Users\\gcast\\Documents\\GitHub\\bycode-renders\\bycode-institucional-reel\\.local\\qwen\\cta-trimmed.wav",
+      "matches": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
+    }
+  ]
+}

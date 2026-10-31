@@ -1,0 +1,39 @@
+{
+  "voice": {
+    "input_i": "-16.23",
+    "input_tp": "-1.99",
+    "input_lra": "2.90",
+    "input_thresh": "-26.92",
+    "output_i": "-16.25",
+    "output_tp": "-1.00",
+    "output_lra": "2.00",
+    "output_thresh": "-26.90",
+    "normalization_type": "dynamic",
+    "target_offset": "0.25"
+  },
+  "music": {
+    "input_i": "-34.00",
+    "input_tp": "-21.25",
+    "input_lra": "3.40",
+    "input_thresh": "-44.11",
+    "output_i": "-15.82",
+    "output_tp": "-2.62",
+    "output_lra": "3.40",
+    "output_thresh": "-25.87",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.18"
+  },
+  "mix": {
+    "input_i": "-16.27",
+    "input_tp": "-4.88",
+    "input_lra": "2.90",
+    "input_thresh": "-27.24",
+    "output_i": "-16.33",
+    "output_tp": "-4.01",
+    "output_lra": "2.00",
+    "output_thresh": "-27.26",
+    "normalization_type": "dynamic",
+    "target_offset": "0.33"
+  },
+  "musicBelowVoiceLU": 17.77
+}

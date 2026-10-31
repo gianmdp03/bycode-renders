@@ -1,0 +1,16 @@
+{
+  "id": "points",
+  "file": "public/voice/qwen-masculina/points-a30c2bf75f7e.wav",
+  "displayText": "Registrá compras y sumá puntos a tus clientes.",
+  "spokenText": "Registrá compras y sumá puntos a tus clientes.",
+  "duration": 3.2,
+  "sampleRate": 24000,
+  "seed": 20261032,
+  "sha256": "3538c6c2fdb4d506ec91f45851f7bc39aacfb1f07920718197bad8fce7e1edae",
+  "generationSeconds": 8.09,
+  "peakVRAMMiB": 2609,
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "referenceSHA256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "voice": "masculina",
+  "userVoiceUsed": false
+}

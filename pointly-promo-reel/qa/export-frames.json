@@ -1,0 +1,17 @@
+{
+  "source": "out/pointly_preview_qwen_masculina.mp4",
+  "frames": [
+    85,
+    304,
+    422,
+    549,
+    786,
+    906,
+    1058,
+    1388,
+    1480,
+    1678,
+    1768
+  ],
+  "method": "Extracted from the delivered H.264 after encoding"
+}

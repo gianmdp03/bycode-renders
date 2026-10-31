@@ -1,0 +1,25 @@
+{
+  "source": "../pointly-frontend",
+  "assets": [
+    {
+      "source": "public/logo.svg",
+      "destination": "public/logos/pointly.svg",
+      "sha256": "4f8a7b006de2d9b25e69ea3c264343030e0f7de21d35850cca06a5977ee150a4"
+    },
+    {
+      "source": "public/bycode-logo.svg",
+      "destination": "public/logos/bycode.svg",
+      "sha256": "553fd50b56cf8514f2294d6a8b304598d9bc8e46be985d1ca2a437191818fcfa"
+    },
+    {
+      "source": "public/fonts/google-sans-latin-normal-b8059800eca3.woff2",
+      "destination": "public/fonts/google-sans-latin-normal-b8059800eca3.woff2",
+      "sha256": "b8059800eca3c2343d0213c3660b814190b3b598d7f1a884def558da39f77e03"
+    },
+    {
+      "source": "public/fonts/OFL.txt",
+      "destination": "public/fonts/OFL.txt",
+      "sha256": "07424db4089211e77dd8a0bca14fbf46e8801045d6db9061fbd6ce08e582594e"
+    }
+  ]
+}

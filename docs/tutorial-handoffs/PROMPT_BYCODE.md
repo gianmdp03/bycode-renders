@@ -31,7 +31,7 @@ La experiencia administrativa o de superusuario debe inventariarse por separado 
 - Matriz de funciones habilitadas y accesibles, con fuentes, roles, precondiciones, flags, escenas y exclusiones justificadas.
 - UI y operaciones reales en entorno de demo aislado, con cuentas y datos ficticios. Los estados de plan deben provenir de los servicios de demo, sin engañar al frontend ni usar cuentas productivas.
 - Guion breve, práctico y organizado por tareas. Evitar una introducción larga o repetir información. Definir duración después de la auditoría; objetivo orientativo 10–15 minutos o menos si la cobertura se entiende bien.
-- Misma referencia masculina de DoctorChart; **Bycode se pronuncia “baicode”**, manteniendo la marca bien escrita en pantalla. Qwen local residente y lote automático, con persistencia y continuación.
+- Misma referencia masculina de DoctorChart; **Bycode se pronuncia “báicod”**, manteniendo la marca bien escrita en pantalla. Qwen local residente y lote automático, con persistencia y continuación.
 - Imagen ágil: ×1,5–×2 por fragmento cuando corresponda, voz a velocidad natural, cursor real y anillos de clic discretos, zoom puntual y subtítulos que no tapen controles.
 - Captura nativa 1920×1080 a 60 FPS comprobada, Remotion editable, SRT, capítulos, datos/automatización reproducibles e informe de QA.
 - Preview verificable para aprobación antes del MP4 final H.264/yuv420p, 1080p60, AAC 48 kHz estéreo.

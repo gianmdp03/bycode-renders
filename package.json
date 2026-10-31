@@ -1,20 +1,36 @@
 {
-  "name":"bycode-renders",
-  "version":"1.0.0",
-  "private":true,
-  "description":"Proyecto audiovisual Bycode: marca compartida, promociones y tutoriales",
-  "workspaces":["shared/bycode-video-system","doctorchart-promo-reel"],
-  "engines":{"node":">=24"},
-  "scripts":{
-    "postinstall":"npm run build:system",
-    "build:system":"npm run build --workspace=@bycode/video-system",
-    "check":"npm run check --workspace=@bycode/video-system && npm run typecheck --workspace=doctorchart-promo-reel",
-    "test":"npm run test --workspace=@bycode/video-system && node --test tests/integration.test.mjs",
-    "verify:frames":"npm run verify:frames --workspace=@bycode/video-system",
-    "build":"npm run build:system && npm run build --workspace=doctorchart-promo-reel",
-    "dev":"npm run dev --workspace=doctorchart-promo-reel",
-    "render:doctorchart":"npm run render:brand --workspace=doctorchart-promo-reel",
-    "qa:doctorchart":"npm run qa:brand --workspace=doctorchart-promo-reel",
-    "ingest-voice":"npm run ingest-voice --workspace=doctorchart-promo-reel --"
+  "name": "bycode-renders",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Proyecto audiovisual Bycode: marca compartida, promociones y tutoriales",
+  "workspaces": [
+    "shared/bycode-video-system",
+    "doctorchart-promo-reel",
+    "bycode-institucional-reel",
+    "pointly-promo-reel"
+  ],
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "postinstall": "npm run build:system",
+    "build:system": "npm run build --workspace=@bycode/video-system",
+    "check": "npm run check --workspace=@bycode/video-system && npm run typecheck --workspace=doctorchart-promo-reel && npm run typecheck --workspace=bycode-institucional-reel && npm run typecheck --workspace=pointly-promo-reel",
+    "test": "npm run test --workspace=@bycode/video-system && node --test tests/integration.test.mjs",
+    "verify:frames": "npm run verify:frames --workspace=@bycode/video-system",
+    "build": "npm run build:system && npm run build --workspace=doctorchart-promo-reel && npm run build --workspace=bycode-institucional-reel && npm run build --workspace=pointly-promo-reel",
+    "dev": "npm run dev --workspace=doctorchart-promo-reel",
+    "render:doctorchart": "npm run render:brand --workspace=doctorchart-promo-reel",
+    "qa:doctorchart": "npm run qa:brand --workspace=doctorchart-promo-reel",
+    "ingest-voice": "npm run ingest-voice --workspace=doctorchart-promo-reel --",
+    "dev:bycode": "npm run dev --workspace=bycode-institucional-reel",
+    "render:bycode": "npm run render:preview --workspace=bycode-institucional-reel",
+    "qa:bycode": "npm run qa --workspace=bycode-institucional-reel",
+    "voice:bycode": "npm run ingest-voice --workspace=bycode-institucional-reel --",
+    "check:bycode": "npm run typecheck --workspace=bycode-institucional-reel",
+    "dev:pointly": "npm run dev --workspace=pointly-promo-reel",
+    "render:pointly": "npm run render:preview --workspace=pointly-promo-reel",
+    "qa:pointly": "npm run qa --workspace=pointly-promo-reel",
+    "check:pointly": "npm run typecheck --workspace=pointly-promo-reel"
   }
 }

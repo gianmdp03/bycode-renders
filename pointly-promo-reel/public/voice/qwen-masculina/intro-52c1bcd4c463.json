@@ -1,0 +1,16 @@
+{
+  "id": "intro",
+  "file": "public/voice/qwen-masculina/intro-52c1bcd4c463.wav",
+  "displayText": "Con Pointly, dales un motivo para volver.",
+  "spokenText": "Con Pointly, dales un motivo para volver.",
+  "duration": 2.56,
+  "sampleRate": 24000,
+  "seed": 20261031,
+  "sha256": "96cb894a9fa02654b2b5cdc093b91169c6ccb20bd27965265eec0e1c2ff05389",
+  "generationSeconds": 6.47,
+  "peakVRAMMiB": 2609,
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "referenceSHA256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "voice": "masculina",
+  "userVoiceUsed": false
+}

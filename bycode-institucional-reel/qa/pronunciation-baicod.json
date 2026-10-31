@@ -1,0 +1,9 @@
+{
+  "pronunciation": "báicod",
+  "stress": "BAI",
+  "checks": {
+    "pronunciation": true,
+    "otherFourPreserved": true
+  },
+  "referenceUnchanged": true
+}

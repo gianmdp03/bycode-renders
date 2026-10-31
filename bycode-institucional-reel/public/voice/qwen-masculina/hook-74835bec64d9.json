@@ -1,0 +1,16 @@
+{
+  "id": "hook",
+  "file": "public/voice/qwen-masculina/hook-74835bec64d9.wav",
+  "displayText": "Tu día, más simple.",
+  "spokenText": "Tu día, más simple.",
+  "duration": 1.28,
+  "sampleRate": 24000,
+  "seed": 20261030,
+  "sha256": "5b2351ef6e32db7480bf48150708920bd59a327fa15d39ddaa0fdd7eb11bc6b4",
+  "generationSeconds": 3.62,
+  "peakVRAMMiB": 2609,
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "referenceSHA256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "voice": "masculina",
+  "userVoiceUsed": false
+}

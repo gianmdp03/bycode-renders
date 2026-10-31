@@ -1,0 +1,16 @@
+{
+  "id": "rewards",
+  "file": "public/voice/qwen-masculina/rewards-53e16de06cc3.wav",
+  "displayText": "Creá premios y descuentos para canjear.",
+  "spokenText": "Creá premios y descuentos para canjear.",
+  "duration": 2.56,
+  "sampleRate": 24000,
+  "seed": 20261033,
+  "sha256": "aef57deecf4bc146fc73361cca16f47e856806f820f2de74ef14f9209e2b5b7d",
+  "generationSeconds": 6.41,
+  "peakVRAMMiB": 2609,
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "referenceSHA256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "voice": "masculina",
+  "userVoiceUsed": false
+}
