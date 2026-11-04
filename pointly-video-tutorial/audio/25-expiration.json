@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "El detalle de puntos separa los que tienen vencimiento de los que no vencen. Revisá las fechas y cantidades de cada grupo: el saldo disponible es la referencia para un canje. Si hay varias páginas de vencimientos, cargá las siguientes para revisar el resto. La regla actual del comercio describe nuevas compras, pero no reemplaza la fecha que ya tiene cada grupo anterior. Así podés explicarle al cliente qué puntos necesita usar primero sin prometer que una compra nueva renovará todos sus puntos.",
+  "spokenText": "El detalle de puntos separa los que tienen vencimiento de los que no vencen. Revisá las fechas y cantidades de cada grupo: el saldo disponible es la referencia para un canje. Si hay varias páginas de vencimientos, cargá las siguientes para revisar el resto. La regla actual del comercio describe nuevas compras, pero no reemplaza la fecha que ya tiene cada grupo anterior. Así podés explicarle al cliente qué puntos necesita usar primero sin prometer que una compra nueva renovará todos sus puntos.",
+  "text_sha256": "9a17b2acea97dca81d89d82b709cbd733c8372c30132c13214824af9f745f450",
+  "sha256": "264039b98a1d5ca0470f4bf8f89876965ba885c7eb528f97ba681d6b18a36d47",
+  "duration": 29.84,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 84.84,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

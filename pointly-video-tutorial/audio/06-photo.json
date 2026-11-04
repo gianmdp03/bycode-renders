@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "La foto ayuda al cliente a reconocer el comercio. Podemos subir un archivo JPEG, PNG o WebP de hasta diez megabytes. Ajustamos el recorte con los controles de posición y zoom, y guardamos la imagen. Desde esta misma página también se puede reemplazar o quitar la foto. El nombre público del enlace se modifica desde su configuración. Revisá la disponibilidad y la advertencia: al confirmar el cambio, el acceso anterior deja de funcionar. Compartí el nuevo enlace y el nuevo QR con tus clientes.",
+  "spokenText": "La foto ayuda al cliente a reconocer el comercio. Podemos subir un archivo ye pe ge, pe ene ge o web pe de hasta diez megabytes. Ajustamos el recorte con los controles de posición y zoom, y guardamos la imagen. Desde esta misma página también se puede reemplazar o quitar la foto. El nombre público del enlace se modifica desde su configuración. Revisá la disponibilidad y la advertencia: al confirmar el cambio, el acceso anterior deja de funcionar. Compartí el nuevo enlace y el nuevo cu erre con tus clientes.",
+  "text_sha256": "d94cb7a692c68a2ba30b6c4de33d30c66059449009531972313d811a7f9f50ae",
+  "sha256": "3a171af5bec9d8964a05b2d1d173b62e7b3b70822efee44a56419c505cc9e5f2",
+  "duration": 32.48,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 133.45,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

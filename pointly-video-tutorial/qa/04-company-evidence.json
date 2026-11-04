@@ -1,0 +1,74 @@
+{
+  "scene": "04-company",
+  "evidence": [
+    {
+      "label": "Required country and optional address",
+      "url": "/dashboard/companies/new",
+      "at": 1793728814725.9
+    },
+    {
+      "label": "New company persisted",
+      "url": "/companies/almacen-tutorial-inicio",
+      "at": 1793728816824.8
+    }
+  ],
+  "network": [
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/billing/account/profile",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/company-names/availability",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/company-names/availability",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/companies",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/company-names/almacen-tutorial-inicio/company",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/3",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/3",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    }
+  ],
+  "source": "recordings/04-company-1793728832281.mp4",
+  "obs": null
+}

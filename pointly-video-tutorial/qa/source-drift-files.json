@@ -1,0 +1,10 @@
+[
+  "src/app/app.routes.ts",
+  "src/app/app.ts",
+  "src/app/components/header/header.html",
+  "src/app/pages/client-wallet/client-wallet.html",
+  "src/app/pages/home/home.html",
+  "src/app/pages/home/home.ts",
+  "src/app/pages/wallet-preview/wallet-preview.html",
+  "src/app/pages/wallet-preview/wallet-preview.ts"
+]

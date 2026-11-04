@@ -1,0 +1,656 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "c5ae82977f17caef300e7e0a8b31b3d085ca8b4906846f29b1624849d02b9270",
+  "transcript": "Cuando una lista no carga, usa su botón reintentar. Un error de conexión no significa que no existan clientes o ventas. Si la búsqueda está vacía, revisa el país, el documento y el filtro. Podés cambiar entre tema claro y oscuro desde la aplicación, consultar las preguntas frecuentes y volver al panel desde el menú. Al terminar en una computadora compartida, cerrá la sesión. Recordá la secuencia diaria. Identificar al cliente, registrar la compra, verificar los puntos y registrar el canje cuando corresponda.",
+  "scriptSimilarity": 1.0,
+  "differences": [],
+  "words": [
+    {
+      "word": "Cuando",
+      "start": 0.0,
+      "end": 0.58,
+      "probability": 0.8469550609588623,
+      "display": "Cuando"
+    },
+    {
+      "word": "una",
+      "start": 0.58,
+      "end": 0.88,
+      "probability": 0.9926069974899292,
+      "display": "una"
+    },
+    {
+      "word": "lista",
+      "start": 0.88,
+      "end": 1.14,
+      "probability": 0.9972999691963196,
+      "display": "lista"
+    },
+    {
+      "word": "no",
+      "start": 1.14,
+      "end": 1.32,
+      "probability": 0.998085618019104,
+      "display": "no"
+    },
+    {
+      "word": "carga,",
+      "start": 1.32,
+      "end": 1.56,
+      "probability": 0.9481154680252075,
+      "display": "carga,"
+    },
+    {
+      "word": "usa",
+      "start": 1.88,
+      "end": 2.04,
+      "probability": 0.8999488949775696,
+      "display": "usá"
+    },
+    {
+      "word": "su",
+      "start": 2.04,
+      "end": 2.24,
+      "probability": 0.9919945001602173,
+      "display": "su"
+    },
+    {
+      "word": "botón",
+      "start": 2.24,
+      "end": 2.56,
+      "probability": 0.9963033497333527,
+      "display": "botón"
+    },
+    {
+      "word": "reintentar.",
+      "start": 2.56,
+      "end": 3.08,
+      "probability": 0.6862813532352448,
+      "display": "Reintentar;"
+    },
+    {
+      "word": "Un",
+      "start": 3.62,
+      "end": 3.82,
+      "probability": 0.9694473147392273,
+      "display": "un"
+    },
+    {
+      "word": "error",
+      "start": 3.82,
+      "end": 4.06,
+      "probability": 0.9937201738357544,
+      "display": "error"
+    },
+    {
+      "word": "de",
+      "start": 4.06,
+      "end": 4.24,
+      "probability": 0.9980857372283936,
+      "display": "de"
+    },
+    {
+      "word": "conexión",
+      "start": 4.24,
+      "end": 4.76,
+      "probability": 0.998306542634964,
+      "display": "conexión"
+    },
+    {
+      "word": "no",
+      "start": 4.76,
+      "end": 4.94,
+      "probability": 0.9925461411476135,
+      "display": "no"
+    },
+    {
+      "word": "significa",
+      "start": 4.94,
+      "end": 5.34,
+      "probability": 0.999336302280426,
+      "display": "significa"
+    },
+    {
+      "word": "que",
+      "start": 5.34,
+      "end": 5.66,
+      "probability": 0.9976402521133423,
+      "display": "que"
+    },
+    {
+      "word": "no",
+      "start": 5.66,
+      "end": 5.82,
+      "probability": 0.9984620809555054,
+      "display": "no"
+    },
+    {
+      "word": "existan",
+      "start": 5.82,
+      "end": 6.28,
+      "probability": 0.9944672286510468,
+      "display": "existan"
+    },
+    {
+      "word": "clientes",
+      "start": 6.28,
+      "end": 6.76,
+      "probability": 0.992890477180481,
+      "display": "clientes"
+    },
+    {
+      "word": "o",
+      "start": 6.76,
+      "end": 6.9,
+      "probability": 0.9728087782859802,
+      "display": "o"
+    },
+    {
+      "word": "ventas.",
+      "start": 6.9,
+      "end": 7.28,
+      "probability": 0.9733709394931793,
+      "display": "ventas."
+    },
+    {
+      "word": "Si",
+      "start": 7.76,
+      "end": 7.94,
+      "probability": 0.9909706115722656,
+      "display": "Si"
+    },
+    {
+      "word": "la",
+      "start": 7.94,
+      "end": 8.06,
+      "probability": 0.9991738200187683,
+      "display": "la"
+    },
+    {
+      "word": "búsqueda",
+      "start": 8.06,
+      "end": 8.42,
+      "probability": 0.9928794950246811,
+      "display": "búsqueda"
+    },
+    {
+      "word": "está",
+      "start": 8.42,
+      "end": 8.64,
+      "probability": 0.9816104173660278,
+      "display": "está"
+    },
+    {
+      "word": "vacía,",
+      "start": 8.64,
+      "end": 9.02,
+      "probability": 0.9869384765625,
+      "display": "vacía,"
+    },
+    {
+      "word": "revisa",
+      "start": 9.46,
+      "end": 9.78,
+      "probability": 0.8269734382629395,
+      "display": "revisá"
+    },
+    {
+      "word": "el",
+      "start": 9.78,
+      "end": 9.96,
+      "probability": 0.9969773292541504,
+      "display": "el"
+    },
+    {
+      "word": "país,",
+      "start": 9.96,
+      "end": 10.22,
+      "probability": 0.9960468411445618,
+      "display": "país,"
+    },
+    {
+      "word": "el",
+      "start": 10.52,
+      "end": 10.56,
+      "probability": 0.992820680141449,
+      "display": "el"
+    },
+    {
+      "word": "documento",
+      "start": 10.56,
+      "end": 11.1,
+      "probability": 0.9980376362800598,
+      "display": "documento"
+    },
+    {
+      "word": "y",
+      "start": 11.1,
+      "end": 11.18,
+      "probability": 0.9651389122009277,
+      "display": "y"
+    },
+    {
+      "word": "el",
+      "start": 11.18,
+      "end": 11.3,
+      "probability": 0.9986118078231812,
+      "display": "el"
+    },
+    {
+      "word": "filtro.",
+      "start": 11.3,
+      "end": 11.6,
+      "probability": 0.9972826838493347,
+      "display": "filtro."
+    },
+    {
+      "word": "Podés",
+      "start": 12.08,
+      "end": 12.4,
+      "probability": 0.8220878541469574,
+      "display": "Podés"
+    },
+    {
+      "word": "cambiar",
+      "start": 12.4,
+      "end": 12.68,
+      "probability": 0.9962390661239624,
+      "display": "cambiar"
+    },
+    {
+      "word": "entre",
+      "start": 12.68,
+      "end": 12.98,
+      "probability": 0.9918380379676819,
+      "display": "entre"
+    },
+    {
+      "word": "tema",
+      "start": 12.98,
+      "end": 13.28,
+      "probability": 0.9923789501190186,
+      "display": "tema"
+    },
+    {
+      "word": "claro",
+      "start": 13.28,
+      "end": 13.6,
+      "probability": 0.9924155473709106,
+      "display": "claro"
+    },
+    {
+      "word": "y",
+      "start": 13.6,
+      "end": 13.78,
+      "probability": 0.9967067837715149,
+      "display": "y"
+    },
+    {
+      "word": "oscuro",
+      "start": 13.78,
+      "end": 14.18,
+      "probability": 0.9937979976336161,
+      "display": "oscuro"
+    },
+    {
+      "word": "desde",
+      "start": 14.18,
+      "end": 14.36,
+      "probability": 0.9799813628196716,
+      "display": "desde"
+    },
+    {
+      "word": "la",
+      "start": 14.36,
+      "end": 14.58,
+      "probability": 0.9991092085838318,
+      "display": "la"
+    },
+    {
+      "word": "aplicación,",
+      "start": 14.58,
+      "end": 15.14,
+      "probability": 0.9980704486370087,
+      "display": "aplicación,"
+    },
+    {
+      "word": "consultar",
+      "start": 15.5,
+      "end": 16.02,
+      "probability": 0.9890077114105225,
+      "display": "consultar"
+    },
+    {
+      "word": "las",
+      "start": 16.02,
+      "end": 16.18,
+      "probability": 0.9946159720420837,
+      "display": "las"
+    },
+    {
+      "word": "preguntas",
+      "start": 16.18,
+      "end": 16.52,
+      "probability": 0.997994065284729,
+      "display": "preguntas"
+    },
+    {
+      "word": "frecuentes",
+      "start": 16.52,
+      "end": 17.14,
+      "probability": 0.9922047654787699,
+      "display": "frecuentes"
+    },
+    {
+      "word": "y",
+      "start": 17.14,
+      "end": 17.46,
+      "probability": 0.9024537205696106,
+      "display": "y"
+    },
+    {
+      "word": "volver",
+      "start": 17.46,
+      "end": 17.66,
+      "probability": 0.9982886910438538,
+      "display": "volver"
+    },
+    {
+      "word": "al",
+      "start": 17.66,
+      "end": 17.94,
+      "probability": 0.9965428709983826,
+      "display": "al"
+    },
+    {
+      "word": "panel",
+      "start": 17.94,
+      "end": 18.2,
+      "probability": 0.9814629554748535,
+      "display": "panel"
+    },
+    {
+      "word": "desde",
+      "start": 18.2,
+      "end": 18.4,
+      "probability": 0.996799111366272,
+      "display": "desde"
+    },
+    {
+      "word": "el",
+      "start": 18.4,
+      "end": 18.6,
+      "probability": 0.9971093535423279,
+      "display": "el"
+    },
+    {
+      "word": "menú.",
+      "start": 18.6,
+      "end": 18.88,
+      "probability": 0.9878101348876953,
+      "display": "menú."
+    },
+    {
+      "word": "Al",
+      "start": 19.26,
+      "end": 19.48,
+      "probability": 0.990481972694397,
+      "display": "Al"
+    },
+    {
+      "word": "terminar",
+      "start": 19.48,
+      "end": 19.8,
+      "probability": 0.9979962110519409,
+      "display": "terminar"
+    },
+    {
+      "word": "en",
+      "start": 19.8,
+      "end": 20.06,
+      "probability": 0.9645428657531738,
+      "display": "en"
+    },
+    {
+      "word": "una",
+      "start": 20.06,
+      "end": 20.22,
+      "probability": 0.9973258972167969,
+      "display": "una"
+    },
+    {
+      "word": "computadora",
+      "start": 20.22,
+      "end": 20.86,
+      "probability": 0.9995314478874207,
+      "display": "computadora"
+    },
+    {
+      "word": "compartida,",
+      "start": 20.86,
+      "end": 21.52,
+      "probability": 0.9991828501224518,
+      "display": "compartida,"
+    },
+    {
+      "word": "cerrá",
+      "start": 21.76,
+      "end": 22.02,
+      "probability": 0.8664578795433044,
+      "display": "cerrá"
+    },
+    {
+      "word": "la",
+      "start": 22.02,
+      "end": 22.14,
+      "probability": 0.9990492463111877,
+      "display": "la"
+    },
+    {
+      "word": "sesión.",
+      "start": 22.14,
+      "end": 22.54,
+      "probability": 0.9865804314613342,
+      "display": "sesión."
+    },
+    {
+      "word": "Recordá",
+      "start": 23.02,
+      "end": 23.52,
+      "probability": 0.8913754224777222,
+      "display": "Recordá"
+    },
+    {
+      "word": "la",
+      "start": 23.52,
+      "end": 23.64,
+      "probability": 0.9916161894798279,
+      "display": "la"
+    },
+    {
+      "word": "secuencia",
+      "start": 23.64,
+      "end": 24.04,
+      "probability": 0.9917478859424591,
+      "display": "secuencia"
+    },
+    {
+      "word": "diaria.",
+      "start": 24.04,
+      "end": 24.44,
+      "probability": 0.9940203130245209,
+      "display": "diaria:"
+    },
+    {
+      "word": "Identificar",
+      "start": 24.76,
+      "end": 25.32,
+      "probability": 0.9634355306625366,
+      "display": "identificar"
+    },
+    {
+      "word": "al",
+      "start": 25.32,
+      "end": 25.5,
+      "probability": 0.9769301414489746,
+      "display": "al"
+    },
+    {
+      "word": "cliente,",
+      "start": 25.5,
+      "end": 26.0,
+      "probability": 0.9983080923557281,
+      "display": "cliente,"
+    },
+    {
+      "word": "registrar",
+      "start": 26.26,
+      "end": 26.74,
+      "probability": 0.9974048733711243,
+      "display": "registrar"
+    },
+    {
+      "word": "la",
+      "start": 26.74,
+      "end": 26.9,
+      "probability": 0.9911413192749023,
+      "display": "la"
+    },
+    {
+      "word": "compra,",
+      "start": 26.9,
+      "end": 27.18,
+      "probability": 0.9943466782569885,
+      "display": "compra,"
+    },
+    {
+      "word": "verificar",
+      "start": 27.54,
+      "end": 27.96,
+      "probability": 0.9955206215381622,
+      "display": "verificar"
+    },
+    {
+      "word": "los",
+      "start": 27.96,
+      "end": 28.2,
+      "probability": 0.9988765120506287,
+      "display": "los"
+    },
+    {
+      "word": "puntos",
+      "start": 28.2,
+      "end": 28.54,
+      "probability": 0.997974693775177,
+      "display": "puntos"
+    },
+    {
+      "word": "y",
+      "start": 28.54,
+      "end": 28.86,
+      "probability": 0.6284968852996826,
+      "display": "y"
+    },
+    {
+      "word": "registrar",
+      "start": 28.86,
+      "end": 29.4,
+      "probability": 0.9972349405288696,
+      "display": "registrar"
+    },
+    {
+      "word": "el",
+      "start": 29.4,
+      "end": 29.54,
+      "probability": 0.9985718727111816,
+      "display": "el"
+    },
+    {
+      "word": "canje",
+      "start": 29.54,
+      "end": 29.88,
+      "probability": 0.9029063284397125,
+      "display": "canje"
+    },
+    {
+      "word": "cuando",
+      "start": 29.88,
+      "end": 30.08,
+      "probability": 0.9833016991615295,
+      "display": "cuando"
+    },
+    {
+      "word": "corresponda.",
+      "start": 30.08,
+      "end": 30.82,
+      "probability": 0.9896876811981201,
+      "display": "corresponda."
+    }
+  ],
+  "captions": [
+    {
+      "text": "Cuando una lista no carga, usá su botón Reintentar;",
+      "startMs": 0,
+      "endMs": 3080,
+      "timestampMs": null,
+      "confidence": 0.929
+    },
+    {
+      "text": "un error de conexión no significa que no existan clientes o ventas.",
+      "startMs": 3620,
+      "endMs": 7280,
+      "timestampMs": null,
+      "confidence": 0.99
+    },
+    {
+      "text": "Si la búsqueda está vacía, revisá el país, el documento y el filtro.",
+      "startMs": 7760,
+      "endMs": 11600,
+      "timestampMs": null,
+      "confidence": 0.979
+    },
+    {
+      "text": "Podés cambiar entre tema claro y oscuro desde la aplicación, consultar las",
+      "startMs": 12080,
+      "endMs": 16180,
+      "timestampMs": null,
+      "confidence": 0.979
+    },
+    {
+      "text": "preguntas frecuentes y volver al panel desde el menú.",
+      "startMs": 16180,
+      "endMs": 18880,
+      "timestampMs": null,
+      "confidence": 0.983
+    },
+    {
+      "text": "Al terminar en una computadora compartida, cerrá la sesión.",
+      "startMs": 19260,
+      "endMs": 22540,
+      "timestampMs": null,
+      "confidence": 0.978
+    },
+    {
+      "text": "Recordá la secuencia diaria:",
+      "startMs": 23020,
+      "endMs": 24440,
+      "timestampMs": null,
+      "confidence": 0.967
+    },
+    {
+      "text": "identificar al cliente, registrar la compra, verificar los puntos y registrar",
+      "startMs": 24760,
+      "endMs": 29400,
+      "timestampMs": null,
+      "confidence": 0.958
+    },
+    {
+      "text": "el canje cuando corresponda.",
+      "startMs": 29400,
+      "endMs": 30820,
+      "timestampMs": null,
+      "confidence": 0.969
+    }
+  ],
+  "status": "ACOUSTIC_MATCH"
+}

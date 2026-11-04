@@ -1,0 +1,712 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "d99c28b9b27d4e6e8e5154197ce89b3f1e0c884815d697a8d1b37ff2d842abbf",
+  "transcript": "En correos elegís, sí o no. Los avisos están desactivados por defecto y solo se preparan para clientes activos con correo cargado. Hay tres ejemplos del contenido real. Abrir cada vista previa no envía un mensaje. No hay que escribir plantillas ni completar variables. Si elegís, no. Se cancelan los avisos pendientes. Un correo ya entregado al servicio de envío no se puede retirar. WhatsApp es independiente y sigue siendo manual. Acá verificamos la configuración y las vistas previas, con el envío externo desactivado en el entorno de prueba.",
+  "scriptSimilarity": 1.0,
+  "differences": [],
+  "words": [
+    {
+      "word": "En",
+      "start": 0.0,
+      "end": 0.4,
+      "probability": 0.8413479924201965,
+      "display": "En"
+    },
+    {
+      "word": "correos",
+      "start": 0.4,
+      "end": 0.78,
+      "probability": 0.9755228459835052,
+      "display": "Correos"
+    },
+    {
+      "word": "elegís,",
+      "start": 0.78,
+      "end": 1.26,
+      "probability": 0.7333501279354095,
+      "display": "elegís"
+    },
+    {
+      "word": "sí",
+      "start": 1.48,
+      "end": 1.6,
+      "probability": 0.752632737159729,
+      "display": "Sí"
+    },
+    {
+      "word": "o",
+      "start": 1.6,
+      "end": 1.72,
+      "probability": 0.9883997440338135,
+      "display": "o"
+    },
+    {
+      "word": "no.",
+      "start": 1.72,
+      "end": 1.84,
+      "probability": 0.9985405206680298,
+      "display": "No."
+    },
+    {
+      "word": "Los",
+      "start": 2.24,
+      "end": 2.4,
+      "probability": 0.9854748249053955,
+      "display": "Los"
+    },
+    {
+      "word": "avisos",
+      "start": 2.4,
+      "end": 2.8,
+      "probability": 0.9437353312969208,
+      "display": "avisos"
+    },
+    {
+      "word": "están",
+      "start": 2.8,
+      "end": 3.12,
+      "probability": 0.9949321150779724,
+      "display": "están"
+    },
+    {
+      "word": "desactivados",
+      "start": 3.12,
+      "end": 3.78,
+      "probability": 0.9968598286310831,
+      "display": "desactivados"
+    },
+    {
+      "word": "por",
+      "start": 3.78,
+      "end": 4.04,
+      "probability": 0.9964401125907898,
+      "display": "por"
+    },
+    {
+      "word": "defecto",
+      "start": 4.04,
+      "end": 4.6,
+      "probability": 0.997355729341507,
+      "display": "defecto"
+    },
+    {
+      "word": "y",
+      "start": 4.6,
+      "end": 4.92,
+      "probability": 0.697990357875824,
+      "display": "y"
+    },
+    {
+      "word": "solo",
+      "start": 4.92,
+      "end": 5.12,
+      "probability": 0.4943755567073822,
+      "display": "solo"
+    },
+    {
+      "word": "se",
+      "start": 5.12,
+      "end": 5.32,
+      "probability": 0.9984614849090576,
+      "display": "se"
+    },
+    {
+      "word": "preparan",
+      "start": 5.32,
+      "end": 5.74,
+      "probability": 0.9971195757389069,
+      "display": "preparan"
+    },
+    {
+      "word": "para",
+      "start": 5.74,
+      "end": 5.94,
+      "probability": 0.9991921782493591,
+      "display": "para"
+    },
+    {
+      "word": "clientes",
+      "start": 5.94,
+      "end": 6.42,
+      "probability": 0.9959372282028198,
+      "display": "clientes"
+    },
+    {
+      "word": "activos",
+      "start": 6.42,
+      "end": 6.86,
+      "probability": 0.9989247918128967,
+      "display": "activos"
+    },
+    {
+      "word": "con",
+      "start": 6.86,
+      "end": 7.04,
+      "probability": 0.9961197376251221,
+      "display": "con"
+    },
+    {
+      "word": "correo",
+      "start": 7.04,
+      "end": 7.38,
+      "probability": 0.9895623922348022,
+      "display": "correo"
+    },
+    {
+      "word": "cargado.",
+      "start": 7.38,
+      "end": 7.8,
+      "probability": 0.9954023063182831,
+      "display": "cargado."
+    },
+    {
+      "word": "Hay",
+      "start": 8.18,
+      "end": 8.38,
+      "probability": 0.988358736038208,
+      "display": "Hay"
+    },
+    {
+      "word": "tres",
+      "start": 8.38,
+      "end": 8.66,
+      "probability": 0.9089459180831909,
+      "display": "tres"
+    },
+    {
+      "word": "ejemplos",
+      "start": 8.66,
+      "end": 9.14,
+      "probability": 0.9989368319511414,
+      "display": "ejemplos"
+    },
+    {
+      "word": "del",
+      "start": 9.14,
+      "end": 9.32,
+      "probability": 0.9893011450767517,
+      "display": "del"
+    },
+    {
+      "word": "contenido",
+      "start": 9.32,
+      "end": 9.68,
+      "probability": 0.995152473449707,
+      "display": "contenido"
+    },
+    {
+      "word": "real.",
+      "start": 9.68,
+      "end": 10.04,
+      "probability": 0.9953742623329163,
+      "display": "real;"
+    },
+    {
+      "word": "Abrir",
+      "start": 10.44,
+      "end": 10.8,
+      "probability": 0.9686744213104248,
+      "display": "abrir"
+    },
+    {
+      "word": "cada",
+      "start": 10.8,
+      "end": 10.98,
+      "probability": 0.9952741861343384,
+      "display": "cada"
+    },
+    {
+      "word": "vista",
+      "start": 10.98,
+      "end": 11.32,
+      "probability": 0.9915857315063477,
+      "display": "vista"
+    },
+    {
+      "word": "previa",
+      "start": 11.32,
+      "end": 11.78,
+      "probability": 0.9670715034008026,
+      "display": "previa"
+    },
+    {
+      "word": "no",
+      "start": 11.78,
+      "end": 12.04,
+      "probability": 0.98234623670578,
+      "display": "no"
+    },
+    {
+      "word": "envía",
+      "start": 12.04,
+      "end": 12.34,
+      "probability": 0.9852637648582458,
+      "display": "envía"
+    },
+    {
+      "word": "un",
+      "start": 12.34,
+      "end": 12.48,
+      "probability": 0.9976205229759216,
+      "display": "un"
+    },
+    {
+      "word": "mensaje.",
+      "start": 12.48,
+      "end": 12.9,
+      "probability": 0.9996916949748993,
+      "display": "mensaje."
+    },
+    {
+      "word": "No",
+      "start": 13.38,
+      "end": 13.6,
+      "probability": 0.993222713470459,
+      "display": "No"
+    },
+    {
+      "word": "hay",
+      "start": 13.6,
+      "end": 13.72,
+      "probability": 0.999306321144104,
+      "display": "hay"
+    },
+    {
+      "word": "que",
+      "start": 13.72,
+      "end": 13.8,
+      "probability": 0.9968178272247314,
+      "display": "que"
+    },
+    {
+      "word": "escribir",
+      "start": 13.8,
+      "end": 14.12,
+      "probability": 0.9967714548110962,
+      "display": "escribir"
+    },
+    {
+      "word": "plantillas",
+      "start": 14.12,
+      "end": 14.66,
+      "probability": 0.9941323697566986,
+      "display": "plantillas"
+    },
+    {
+      "word": "ni",
+      "start": 14.66,
+      "end": 14.98,
+      "probability": 0.8532959222793579,
+      "display": "ni"
+    },
+    {
+      "word": "completar",
+      "start": 14.98,
+      "end": 15.46,
+      "probability": 0.9965241551399231,
+      "display": "completar"
+    },
+    {
+      "word": "variables.",
+      "start": 15.46,
+      "end": 15.82,
+      "probability": 0.9464370012283325,
+      "display": "variables."
+    },
+    {
+      "word": "Si",
+      "start": 16.46,
+      "end": 16.64,
+      "probability": 0.962579071521759,
+      "display": "Si"
+    },
+    {
+      "word": "elegís,",
+      "start": 16.64,
+      "end": 17.0,
+      "probability": 0.9923888444900513,
+      "display": "elegís"
+    },
+    {
+      "word": "no.",
+      "start": 17.26,
+      "end": 17.4,
+      "probability": 0.9762170910835266,
+      "display": "No,"
+    },
+    {
+      "word": "Se",
+      "start": 17.82,
+      "end": 17.98,
+      "probability": 0.9847486615180969,
+      "display": "se"
+    },
+    {
+      "word": "cancelan",
+      "start": 17.98,
+      "end": 18.4,
+      "probability": 0.9971597790718079,
+      "display": "cancelan"
+    },
+    {
+      "word": "los",
+      "start": 18.4,
+      "end": 18.52,
+      "probability": 0.999250590801239,
+      "display": "los"
+    },
+    {
+      "word": "avisos",
+      "start": 18.52,
+      "end": 18.88,
+      "probability": 0.9962820410728455,
+      "display": "avisos"
+    },
+    {
+      "word": "pendientes.",
+      "start": 18.88,
+      "end": 19.3,
+      "probability": 0.9987238943576813,
+      "display": "pendientes;"
+    },
+    {
+      "word": "Un",
+      "start": 19.7,
+      "end": 19.86,
+      "probability": 0.9933053851127625,
+      "display": "un"
+    },
+    {
+      "word": "correo",
+      "start": 19.86,
+      "end": 20.26,
+      "probability": 0.997010350227356,
+      "display": "correo"
+    },
+    {
+      "word": "ya",
+      "start": 20.26,
+      "end": 20.4,
+      "probability": 0.9743428826332092,
+      "display": "ya"
+    },
+    {
+      "word": "entregado",
+      "start": 20.4,
+      "end": 20.88,
+      "probability": 0.9928488731384277,
+      "display": "entregado"
+    },
+    {
+      "word": "al",
+      "start": 20.88,
+      "end": 20.98,
+      "probability": 0.9981510043144226,
+      "display": "al"
+    },
+    {
+      "word": "servicio",
+      "start": 20.98,
+      "end": 21.26,
+      "probability": 0.9717009663581848,
+      "display": "servicio"
+    },
+    {
+      "word": "de",
+      "start": 21.26,
+      "end": 21.5,
+      "probability": 0.9974465370178223,
+      "display": "de"
+    },
+    {
+      "word": "envío",
+      "start": 21.5,
+      "end": 21.8,
+      "probability": 0.9617041349411011,
+      "display": "envío"
+    },
+    {
+      "word": "no",
+      "start": 21.8,
+      "end": 22.06,
+      "probability": 0.9777634143829346,
+      "display": "no"
+    },
+    {
+      "word": "se",
+      "start": 22.06,
+      "end": 22.22,
+      "probability": 0.9993306398391724,
+      "display": "se"
+    },
+    {
+      "word": "puede",
+      "start": 22.22,
+      "end": 22.42,
+      "probability": 0.998683750629425,
+      "display": "puede"
+    },
+    {
+      "word": "retirar.",
+      "start": 22.42,
+      "end": 22.94,
+      "probability": 0.9972954988479614,
+      "display": "retirar."
+    },
+    {
+      "word": "WhatsApp",
+      "start": 23.24,
+      "end": 23.56,
+      "probability": 0.1029282808303833,
+      "display": "WhatsApp"
+    },
+    {
+      "word": "es",
+      "start": 23.56,
+      "end": 23.8,
+      "probability": 0.9969594478607178,
+      "display": "es"
+    },
+    {
+      "word": "independiente",
+      "start": 23.8,
+      "end": 24.52,
+      "probability": 0.9972159564495087,
+      "display": "independiente"
+    },
+    {
+      "word": "y",
+      "start": 24.52,
+      "end": 24.76,
+      "probability": 0.9373775720596313,
+      "display": "y"
+    },
+    {
+      "word": "sigue",
+      "start": 24.76,
+      "end": 25.04,
+      "probability": 0.9966110587120056,
+      "display": "sigue"
+    },
+    {
+      "word": "siendo",
+      "start": 25.04,
+      "end": 25.32,
+      "probability": 0.999382495880127,
+      "display": "siendo"
+    },
+    {
+      "word": "manual.",
+      "start": 25.32,
+      "end": 25.6,
+      "probability": 0.9944970011711121,
+      "display": "manual."
+    },
+    {
+      "word": "Acá",
+      "start": 25.6,
+      "end": 26.38,
+      "probability": 0.9801756143569946,
+      "display": "Acá"
+    },
+    {
+      "word": "verificamos",
+      "start": 26.38,
+      "end": 26.9,
+      "probability": 0.9810267686843872,
+      "display": "verificamos"
+    },
+    {
+      "word": "la",
+      "start": 26.9,
+      "end": 27.04,
+      "probability": 0.998730480670929,
+      "display": "la"
+    },
+    {
+      "word": "configuración",
+      "start": 27.04,
+      "end": 27.8,
+      "probability": 0.9961519539356232,
+      "display": "configuración"
+    },
+    {
+      "word": "y",
+      "start": 27.8,
+      "end": 28.04,
+      "probability": 0.9929574728012085,
+      "display": "y"
+    },
+    {
+      "word": "las",
+      "start": 28.04,
+      "end": 28.2,
+      "probability": 0.9950088262557983,
+      "display": "las"
+    },
+    {
+      "word": "vistas",
+      "start": 28.2,
+      "end": 28.5,
+      "probability": 0.9797300696372986,
+      "display": "vistas"
+    },
+    {
+      "word": "previas,",
+      "start": 28.5,
+      "end": 29.04,
+      "probability": 0.9602496027946472,
+      "display": "previas,"
+    },
+    {
+      "word": "con",
+      "start": 29.16,
+      "end": 29.38,
+      "probability": 0.9965207576751709,
+      "display": "con"
+    },
+    {
+      "word": "el",
+      "start": 29.38,
+      "end": 29.52,
+      "probability": 0.9979788661003113,
+      "display": "el"
+    },
+    {
+      "word": "envío",
+      "start": 29.52,
+      "end": 29.8,
+      "probability": 0.9555690586566925,
+      "display": "envío"
+    },
+    {
+      "word": "externo",
+      "start": 29.8,
+      "end": 30.3,
+      "probability": 0.9955000480016073,
+      "display": "externo"
+    },
+    {
+      "word": "desactivado",
+      "start": 30.3,
+      "end": 30.98,
+      "probability": 0.9955015182495117,
+      "display": "desactivado"
+    },
+    {
+      "word": "en",
+      "start": 30.98,
+      "end": 31.12,
+      "probability": 0.9978014826774597,
+      "display": "en"
+    },
+    {
+      "word": "el",
+      "start": 31.12,
+      "end": 31.22,
+      "probability": 0.9977508187294006,
+      "display": "el"
+    },
+    {
+      "word": "entorno",
+      "start": 31.22,
+      "end": 31.54,
+      "probability": 0.9941827952861786,
+      "display": "entorno"
+    },
+    {
+      "word": "de",
+      "start": 31.54,
+      "end": 31.7,
+      "probability": 0.9992986917495728,
+      "display": "de"
+    },
+    {
+      "word": "prueba.",
+      "start": 31.7,
+      "end": 31.9,
+      "probability": 0.9966211318969727,
+      "display": "prueba."
+    }
+  ],
+  "captions": [
+    {
+      "text": "En Correos elegís Sí o No.",
+      "startMs": 0,
+      "endMs": 1840,
+      "timestampMs": null,
+      "confidence": 0.882
+    },
+    {
+      "text": "Los avisos están desactivados por defecto y solo se preparan para clientes",
+      "startMs": 2240,
+      "endMs": 6420,
+      "timestampMs": null,
+      "confidence": 0.925
+    },
+    {
+      "text": "activos con correo cargado.",
+      "startMs": 6420,
+      "endMs": 7800,
+      "timestampMs": null,
+      "confidence": 0.995
+    },
+    {
+      "text": "Hay tres ejemplos del contenido real;",
+      "startMs": 8180,
+      "endMs": 10040,
+      "timestampMs": null,
+      "confidence": 0.979
+    },
+    {
+      "text": "abrir cada vista previa no envía un mensaje.",
+      "startMs": 10440,
+      "endMs": 12900,
+      "timestampMs": null,
+      "confidence": 0.986
+    },
+    {
+      "text": "No hay que escribir plantillas ni completar variables.",
+      "startMs": 13380,
+      "endMs": 15820,
+      "timestampMs": null,
+      "confidence": 0.972
+    },
+    {
+      "text": "Si elegís No, se cancelan los avisos pendientes;",
+      "startMs": 16460,
+      "endMs": 19300,
+      "timestampMs": null,
+      "confidence": 0.988
+    },
+    {
+      "text": "un correo ya entregado al servicio de envío no se puede retirar.",
+      "startMs": 19700,
+      "endMs": 22940,
+      "timestampMs": null,
+      "confidence": 0.988
+    },
+    {
+      "text": "WhatsApp es independiente y sigue siendo manual.",
+      "startMs": 23240,
+      "endMs": 25600,
+      "timestampMs": null,
+      "confidence": 0.861
+    },
+    {
+      "text": "Acá verificamos la configuración y las vistas previas, con el envío externo",
+      "startMs": 25600,
+      "endMs": 30300,
+      "timestampMs": null,
+      "confidence": 0.986
+    },
+    {
+      "text": "desactivado en el entorno de prueba.",
+      "startMs": 30300,
+      "endMs": 31900,
+      "timestampMs": null,
+      "confidence": 0.997
+    }
+  ],
+  "status": "ACOUSTIC_MATCH"
+}

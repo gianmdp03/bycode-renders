@@ -1,0 +1,592 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "6db33489b7f9ab450cc6febeae96ac6383d821389472238cdb73a0527ecd22c7",
+  "transcript": "Podés editar un premio para cambiar su descripción, su beneficio o su costo futuro. Si querés dejar de ofrecerlo temporalmente, usa pausar. El canje queda deshabilitado mientras esté pausado. Reactivar permite ofrecerlo otra vez. Eliminar loquita definitivamente del catálogo, pero no borra los canjes históricos. Cada movimiento conserva la información del premio entregado. Probá primero la opción de cancelar una confirmación, cuando tengas dudas y revisa la tarjeta después de cada cambio.",
+  "scriptSimilarity": 0.9793,
+  "differences": [
+    {
+      "op": "replace",
+      "expected": "lo quita",
+      "heard": "loquita"
+    }
+  ],
+  "words": [
+    {
+      "word": "Podés",
+      "start": 0.0,
+      "end": 0.54,
+      "probability": 0.6829950213432312,
+      "display": "Podés"
+    },
+    {
+      "word": "editar",
+      "start": 0.54,
+      "end": 0.88,
+      "probability": 0.9939225614070892,
+      "display": "editar"
+    },
+    {
+      "word": "un",
+      "start": 0.88,
+      "end": 1.06,
+      "probability": 0.9985008239746094,
+      "display": "un"
+    },
+    {
+      "word": "premio",
+      "start": 1.06,
+      "end": 1.44,
+      "probability": 0.9801333844661713,
+      "display": "premio"
+    },
+    {
+      "word": "para",
+      "start": 1.44,
+      "end": 1.64,
+      "probability": 0.9960498213768005,
+      "display": "para"
+    },
+    {
+      "word": "cambiar",
+      "start": 1.64,
+      "end": 1.92,
+      "probability": 0.9934886693954468,
+      "display": "cambiar"
+    },
+    {
+      "word": "su",
+      "start": 1.92,
+      "end": 2.18,
+      "probability": 0.9943194389343262,
+      "display": "su"
+    },
+    {
+      "word": "descripción,",
+      "start": 2.18,
+      "end": 2.74,
+      "probability": 0.9970865845680237,
+      "display": "descripción,"
+    },
+    {
+      "word": "su",
+      "start": 3.04,
+      "end": 3.14,
+      "probability": 0.9889218807220459,
+      "display": "su"
+    },
+    {
+      "word": "beneficio",
+      "start": 3.14,
+      "end": 3.74,
+      "probability": 0.9980387687683105,
+      "display": "beneficio"
+    },
+    {
+      "word": "o",
+      "start": 3.74,
+      "end": 3.88,
+      "probability": 0.9595017433166504,
+      "display": "o"
+    },
+    {
+      "word": "su",
+      "start": 3.88,
+      "end": 4.04,
+      "probability": 0.9716271162033081,
+      "display": "su"
+    },
+    {
+      "word": "costo",
+      "start": 4.04,
+      "end": 4.4,
+      "probability": 0.9985230565071106,
+      "display": "costo"
+    },
+    {
+      "word": "futuro.",
+      "start": 4.4,
+      "end": 4.72,
+      "probability": 0.9931502938270569,
+      "display": "futuro."
+    },
+    {
+      "word": "Si",
+      "start": 5.06,
+      "end": 5.3,
+      "probability": 0.990180492401123,
+      "display": "Si"
+    },
+    {
+      "word": "querés",
+      "start": 5.3,
+      "end": 5.58,
+      "probability": 0.9139042496681213,
+      "display": "querés"
+    },
+    {
+      "word": "dejar",
+      "start": 5.58,
+      "end": 5.9,
+      "probability": 0.9968780279159546,
+      "display": "dejar"
+    },
+    {
+      "word": "de",
+      "start": 5.9,
+      "end": 6.02,
+      "probability": 0.9961838126182556,
+      "display": "de"
+    },
+    {
+      "word": "ofrecerlo",
+      "start": 6.02,
+      "end": 6.5,
+      "probability": 0.987721398472786,
+      "display": "ofrecerlo"
+    },
+    {
+      "word": "temporalmente,",
+      "start": 6.5,
+      "end": 7.28,
+      "probability": 0.995938241481781,
+      "display": "temporalmente,"
+    },
+    {
+      "word": "usa",
+      "start": 7.46,
+      "end": 7.62,
+      "probability": 0.8910041451454163,
+      "display": "usá"
+    },
+    {
+      "word": "pausar.",
+      "start": 7.62,
+      "end": 8.16,
+      "probability": 0.8956844607988993,
+      "display": "Pausar."
+    },
+    {
+      "word": "El",
+      "start": 8.78,
+      "end": 9.0,
+      "probability": 0.992274820804596,
+      "display": "El"
+    },
+    {
+      "word": "canje",
+      "start": 9.0,
+      "end": 9.3,
+      "probability": 0.9318104982376099,
+      "display": "canje"
+    },
+    {
+      "word": "queda",
+      "start": 9.3,
+      "end": 9.54,
+      "probability": 0.9958898425102234,
+      "display": "queda"
+    },
+    {
+      "word": "deshabilitado",
+      "start": 9.54,
+      "end": 10.2,
+      "probability": 0.980223548412323,
+      "display": "deshabilitado"
+    },
+    {
+      "word": "mientras",
+      "start": 10.2,
+      "end": 10.46,
+      "probability": 0.98884516954422,
+      "display": "mientras"
+    },
+    {
+      "word": "esté",
+      "start": 10.46,
+      "end": 10.82,
+      "probability": 0.9962213039398193,
+      "display": "esté"
+    },
+    {
+      "word": "pausado.",
+      "start": 10.82,
+      "end": 11.28,
+      "probability": 0.9870408773422241,
+      "display": "pausado."
+    },
+    {
+      "word": "Reactivar",
+      "start": 11.6,
+      "end": 12.08,
+      "probability": 0.9038563966751099,
+      "display": "Reactivar"
+    },
+    {
+      "word": "permite",
+      "start": 12.08,
+      "end": 12.4,
+      "probability": 0.9988804459571838,
+      "display": "permite"
+    },
+    {
+      "word": "ofrecerlo",
+      "start": 12.4,
+      "end": 13.08,
+      "probability": 0.9964424520730972,
+      "display": "ofrecerlo"
+    },
+    {
+      "word": "otra",
+      "start": 13.08,
+      "end": 13.22,
+      "probability": 0.9991956353187561,
+      "display": "otra"
+    },
+    {
+      "word": "vez.",
+      "start": 13.22,
+      "end": 13.52,
+      "probability": 0.9995242357254028,
+      "display": "vez."
+    },
+    {
+      "word": "Eliminar",
+      "start": 13.98,
+      "end": 14.48,
+      "probability": 0.7928473552068075,
+      "display": "Eliminar"
+    },
+    {
+      "word": "loquita",
+      "start": 14.48,
+      "end": 14.9,
+      "probability": 0.8456351558367411,
+      "display": "loquita"
+    },
+    {
+      "word": "definitivamente",
+      "start": 14.9,
+      "end": 15.7,
+      "probability": 0.9969569444656372,
+      "display": "definitivamente"
+    },
+    {
+      "word": "del",
+      "start": 15.7,
+      "end": 15.94,
+      "probability": 0.9963059425354004,
+      "display": "del"
+    },
+    {
+      "word": "catálogo,",
+      "start": 15.94,
+      "end": 16.4,
+      "probability": 0.9897663394610087,
+      "display": "catálogo,"
+    },
+    {
+      "word": "pero",
+      "start": 16.78,
+      "end": 16.92,
+      "probability": 0.9917064905166626,
+      "display": "pero"
+    },
+    {
+      "word": "no",
+      "start": 16.92,
+      "end": 17.16,
+      "probability": 0.9966230392456055,
+      "display": "no"
+    },
+    {
+      "word": "borra",
+      "start": 17.16,
+      "end": 17.46,
+      "probability": 0.9885147213935852,
+      "display": "borra"
+    },
+    {
+      "word": "los",
+      "start": 17.46,
+      "end": 17.6,
+      "probability": 0.992148756980896,
+      "display": "los"
+    },
+    {
+      "word": "canjes",
+      "start": 17.6,
+      "end": 17.9,
+      "probability": 0.9852281808853149,
+      "display": "canjes"
+    },
+    {
+      "word": "históricos.",
+      "start": 17.9,
+      "end": 18.54,
+      "probability": 0.9978599945704142,
+      "display": "históricos:"
+    },
+    {
+      "word": "Cada",
+      "start": 18.9,
+      "end": 19.12,
+      "probability": 0.9938501119613647,
+      "display": "cada"
+    },
+    {
+      "word": "movimiento",
+      "start": 19.12,
+      "end": 19.52,
+      "probability": 0.9895278811454773,
+      "display": "movimiento"
+    },
+    {
+      "word": "conserva",
+      "start": 19.52,
+      "end": 20.32,
+      "probability": 0.9931545257568359,
+      "display": "conserva"
+    },
+    {
+      "word": "la",
+      "start": 20.32,
+      "end": 20.42,
+      "probability": 0.9988594055175781,
+      "display": "la"
+    },
+    {
+      "word": "información",
+      "start": 20.42,
+      "end": 20.74,
+      "probability": 0.9990513920783997,
+      "display": "información"
+    },
+    {
+      "word": "del",
+      "start": 20.74,
+      "end": 21.06,
+      "probability": 0.9959101676940918,
+      "display": "del"
+    },
+    {
+      "word": "premio",
+      "start": 21.06,
+      "end": 21.42,
+      "probability": 0.9894433915615082,
+      "display": "premio"
+    },
+    {
+      "word": "entregado.",
+      "start": 21.42,
+      "end": 21.86,
+      "probability": 0.9920448660850525,
+      "display": "entregado."
+    },
+    {
+      "word": "Probá",
+      "start": 22.5,
+      "end": 22.84,
+      "probability": 0.7504723072052002,
+      "display": "Probá"
+    },
+    {
+      "word": "primero",
+      "start": 22.84,
+      "end": 23.16,
+      "probability": 0.9804526567459106,
+      "display": "primero"
+    },
+    {
+      "word": "la",
+      "start": 23.16,
+      "end": 23.34,
+      "probability": 0.9988880753517151,
+      "display": "la"
+    },
+    {
+      "word": "opción",
+      "start": 23.34,
+      "end": 23.64,
+      "probability": 0.9986702501773834,
+      "display": "opción"
+    },
+    {
+      "word": "de",
+      "start": 23.64,
+      "end": 23.78,
+      "probability": 0.9981599450111389,
+      "display": "de"
+    },
+    {
+      "word": "cancelar",
+      "start": 23.78,
+      "end": 24.26,
+      "probability": 0.9970337152481079,
+      "display": "cancelar"
+    },
+    {
+      "word": "una",
+      "start": 24.26,
+      "end": 24.36,
+      "probability": 0.9980704188346863,
+      "display": "una"
+    },
+    {
+      "word": "confirmación,",
+      "start": 24.36,
+      "end": 25.08,
+      "probability": 0.9863135516643524,
+      "display": "confirmación"
+    },
+    {
+      "word": "cuando",
+      "start": 25.4,
+      "end": 25.62,
+      "probability": 0.9882906675338745,
+      "display": "cuando"
+    },
+    {
+      "word": "tengas",
+      "start": 25.62,
+      "end": 26.04,
+      "probability": 0.9990987181663513,
+      "display": "tengas"
+    },
+    {
+      "word": "dudas",
+      "start": 26.04,
+      "end": 26.46,
+      "probability": 0.9992329180240631,
+      "display": "dudas"
+    },
+    {
+      "word": "y",
+      "start": 26.46,
+      "end": 26.76,
+      "probability": 0.3342503309249878,
+      "display": "y"
+    },
+    {
+      "word": "revisa",
+      "start": 26.76,
+      "end": 27.1,
+      "probability": 0.8082464933395386,
+      "display": "revisá"
+    },
+    {
+      "word": "la",
+      "start": 27.1,
+      "end": 27.26,
+      "probability": 0.9972545504570007,
+      "display": "la"
+    },
+    {
+      "word": "tarjeta",
+      "start": 27.26,
+      "end": 27.76,
+      "probability": 0.9980522990226746,
+      "display": "tarjeta"
+    },
+    {
+      "word": "después",
+      "start": 27.76,
+      "end": 28.06,
+      "probability": 0.9889339208602905,
+      "display": "después"
+    },
+    {
+      "word": "de",
+      "start": 28.06,
+      "end": 28.26,
+      "probability": 0.9987925291061401,
+      "display": "de"
+    },
+    {
+      "word": "cada",
+      "start": 28.26,
+      "end": 28.42,
+      "probability": 0.99842369556427,
+      "display": "cada"
+    },
+    {
+      "word": "cambio.",
+      "start": 28.42,
+      "end": 28.72,
+      "probability": 0.9959179759025574,
+      "display": "cambio."
+    }
+  ],
+  "captions": [
+    {
+      "text": "Podés editar un premio para cambiar su descripción, su beneficio o su costo",
+      "startMs": 0,
+      "endMs": 4400,
+      "timestampMs": null,
+      "confidence": 0.966
+    },
+    {
+      "text": "futuro.",
+      "startMs": 4400,
+      "endMs": 4720,
+      "timestampMs": null,
+      "confidence": 0.993
+    },
+    {
+      "text": "Si querés dejar de ofrecerlo temporalmente, usá Pausar.",
+      "startMs": 5060,
+      "endMs": 8160,
+      "timestampMs": null,
+      "confidence": 0.958
+    },
+    {
+      "text": "El canje queda deshabilitado mientras esté pausado.",
+      "startMs": 8780,
+      "endMs": 11280,
+      "timestampMs": null,
+      "confidence": 0.982
+    },
+    {
+      "text": "Reactivar permite ofrecerlo otra vez.",
+      "startMs": 11600,
+      "endMs": 13520,
+      "timestampMs": null,
+      "confidence": 0.98
+    },
+    {
+      "text": "Eliminar loquita definitivamente del catálogo, pero no borra los canjes",
+      "startMs": 13980,
+      "endMs": 17900,
+      "timestampMs": null,
+      "confidence": 0.958
+    },
+    {
+      "text": "históricos:",
+      "startMs": 17900,
+      "endMs": 18540,
+      "timestampMs": null,
+      "confidence": 0.998
+    },
+    {
+      "text": "cada movimiento conserva la información del premio entregado.",
+      "startMs": 18900,
+      "endMs": 21860,
+      "timestampMs": null,
+      "confidence": 0.994
+    },
+    {
+      "text": "Probá primero la opción de cancelar una confirmación cuando tengas dudas y",
+      "startMs": 22500,
+      "endMs": 26760,
+      "timestampMs": null,
+      "confidence": 0.919
+    },
+    {
+      "text": "revisá la tarjeta después de cada cambio.",
+      "startMs": 26760,
+      "endMs": 28720,
+      "timestampMs": null,
+      "confidence": 0.969
+    }
+  ],
+  "status": "REVIEW_REQUIRED"
+}

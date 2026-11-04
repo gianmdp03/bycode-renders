@@ -1,0 +1,44 @@
+{
+  "scene": "26-wallet-access",
+  "evidence": [
+    {
+      "label": "Wallet link saved and copied",
+      "url": "/client/68iikeSretZ0/access",
+      "at": 1793732174992.2
+    },
+    {
+      "label": "Actual browser-dependent install guidance expanded",
+      "url": "/client/68iikeSretZ0/access",
+      "at": 1793732176283.6
+    },
+    {
+      "label": "Remembered access removed",
+      "url": "/client/68iikeSretZ0/access",
+      "at": 1793732177475.4
+    },
+    {
+      "label": "Switch person returns to real country-DNI lookup",
+      "url": "/client/68iikeSretZ0/access",
+      "at": 1793732178700.5
+    }
+  ],
+  "network": [
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/public/client-access/companies/query",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 401
+    }
+  ],
+  "source": "recordings/26-wallet-access-1793732200579.mp4",
+  "obs": null
+}

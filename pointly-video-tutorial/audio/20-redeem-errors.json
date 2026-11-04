@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "Si el cliente no tiene puntos suficientes, el canje se rechaza y el formulario explica el problema. También hay bloqueos para premios pausados y cuentas archivadas. No prometas un premio basándote en un saldo anterior: consultá el vigente. Si el resultado queda incierto por conexión, el botón Reintentar canje pendiente conserva la misma operación y sus datos. Un rechazo confirmado permite corregir el formulario. Un resultado incierto requiere resolver esa misma operación, para no descontar dos veces.",
+  "spokenText": "Si el cliente no tiene puntos suficientes, el canje se rechaza y el formulario explica el problema. También hay bloqueos para premios pausados y cuentas archivadas. No prometas un premio basándote en un saldo anterior: consultá el vigente. Si el resultado queda incierto por conexión, el botón Reintentar canje pendiente conserva la misma operación y sus datos. Un rechazo confirmado permite corregir el formulario. Un resultado incierto requiere resolver esa misma operación, para no descontar dos veces.",
+  "text_sha256": "10b8d4ecff6b25b2747ed605fe7d6dc1817c21de3af159bdbffed846b1ad786c",
+  "sha256": "387e6efc7315e0e5c34432ca723065166beeca7201009b976167768943ea88ce",
+  "duration": 30.8,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 183.62,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

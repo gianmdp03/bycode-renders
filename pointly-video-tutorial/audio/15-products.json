@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "El catálogo de Productos informa lo que ofrece tu comercio. Cargá un nombre y un precio; la descripción es opcional. Para la imagen podés elegir un archivo, pegar un enlace directo o dejar el producto sin foto. Primero guardamos una foto desde Archivo y revisamos la tarjeta. Desde Editar también podemos reemplazarla con Enlace: la dirección tiene que apuntar a la imagen, no a una página web. Guardamos y comprobamos el resultado. Para dejarlo sin foto, usamos Quitar imagen y guardamos otra vez. Si el producto ya no corresponde, Eliminar pide confirmación. Este catálogo no es un carrito de compras ni un control de stock.",
+  "spokenText": "El catálogo de Productos informa lo que ofrece tu comercio. Cargá un nombre y un precio; la descripción es opcional. Para la imagen podés elegir un archivo, pegar un enlace directo o dejar el producto sin foto. Primero guardamos una foto desde Archivo y revisamos la tarjeta. Desde Editar también podemos reemplazarla con Enlace: la dirección tiene que apuntar a la imagen, no a una página web. Guardamos y comprobamos el resultado. Para dejarlo sin foto, usamos Quitar imagen y guardamos otra vez. Si el producto ya no corresponde, Eliminar pide confirmación. Este catálogo no es un carrito de compras ni un control de stock.",
+  "text_sha256": "e1bdbfc2c3bd59deeed50a6bad781117c338cb2dc4603ece7f3c3bdd4f5b0346",
+  "sha256": "db67feb29c4e4799dc7e5a07d44cf0783158985c5511d04c95ee4bed8fa6615f",
+  "duration": 39.2,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 180.92,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

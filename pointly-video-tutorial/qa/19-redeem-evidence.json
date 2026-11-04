@@ -1,0 +1,174 @@
+{
+  "scene": "19-redeem",
+  "evidence": [
+    {
+      "label": "Selected reward costs 80 points",
+      "url": "/companies/cafe-del-puerto-tutorial/actions/redeem/1",
+      "at": 1793728153795.5
+    },
+    {
+      "label": "Real redemption confirmed",
+      "url": "/companies/cafe-del-puerto-tutorial",
+      "at": 1793728155899.8
+    },
+    {
+      "label": "Balance reduced and redemption ledger shown",
+      "url": "/companies/cafe-del-puerto-tutorial/clients/1",
+      "at": 1793728162129.3
+    }
+  ],
+  "network": [
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/billing/account/profile",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/company-names/cafe-del-puerto-tutorial/company",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/media/6dedfc39-a8dd-4815-a680-b61b8db0307c",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/rewards/redeem",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/billing/account/profile",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/company-names/cafe-del-puerto-tutorial/company",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/media/6dedfc39-a8dd-4815-a680-b61b8db0307c",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/1/clients",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/1/clients",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/company-names/cafe-del-puerto-tutorial/company",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/1/clients/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/history/1/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    }
+  ],
+  "source": "recordings/19-redeem-1793728183392.mp4",
+  "obs": null
+}

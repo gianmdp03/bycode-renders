@@ -1,0 +1,145 @@
+{
+  "scene": "20-redeem-errors",
+  "evidence": [
+    {
+      "label": "Real insufficient-points rejection",
+      "url": "/companies/cafe-del-puerto-aula/actions/redeem/3",
+      "at": 1793729145794.2998
+    },
+    {
+      "label": "Real operation committed; browser response interrupted; original pending identity retained",
+      "url": "/companies/cafe-del-puerto-aula/actions/redeem/1",
+      "at": 1793729150831.4
+    },
+    {
+      "label": "Original pending operation retried and confirmed without changing identity",
+      "url": "/companies/cafe-del-puerto-aula",
+      "at": 1793729153037.7
+    }
+  ],
+  "network": [
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/billing/account/profile",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/company-names/cafe-del-puerto-aula/company",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/media/88f04c39-82db-4d2e-8062-e046c1a537ac",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/rewards/redeem",
+      "status": 400
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/billing/account/profile",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/company-names/cafe-del-puerto-aula/company",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/media/88f04c39-82db-4d2e-8062-e046c1a537ac",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/rewards/redeem",
+      "status": 200,
+      "evidence": "Real upstream commit; response deliberately interrupted for recovery demonstration"
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/rewards/redeem",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    }
+  ],
+  "source": "recordings/20-redeem-errors-1793729171804.mp4",
+  "obs": null
+}

@@ -1,0 +1,174 @@
+{
+  "scene": "10-search",
+  "evidence": [
+    {
+      "label": "Client balance and transaction ledger",
+      "url": "/companies/cafe-del-puerto-aula/clients/27",
+      "at": 1793728957946.7
+    },
+    {
+      "label": "Authorized contacts fetched",
+      "url": "/companies/cafe-del-puerto-aula/clients/27",
+      "at": 1793728959226.5
+    },
+    {
+      "label": "Second page of real transaction history",
+      "url": "/companies/cafe-del-puerto-aula/clients/27",
+      "at": 1793728961585.5
+    },
+    {
+      "label": "Administrative country-DNI balance lookup",
+      "url": "/companies/cafe-del-puerto-aula/actions/check-points",
+      "at": 1793728965933.5
+    }
+  ],
+  "network": [
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/billing/account/profile",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/company-names/cafe-del-puerto-aula/company",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/media/88f04c39-82db-4d2e-8062-e046c1a537ac",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/1/clients",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/1/clients",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/1/clients",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/company-names/cafe-del-puerto-aula/company",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/1/clients/27",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/history/27/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/1/clients/27/contacts",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/history/27/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/billing/account/profile",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/company-names/cafe-del-puerto-aula/company",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/media/88f04c39-82db-4d2e-8062-e046c1a537ac",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/clients/Argentina/99010001/companies/1",
+      "status": 200
+    }
+  ],
+  "source": "recordings/10-search-1793728982985.mp4",
+  "obs": null
+}

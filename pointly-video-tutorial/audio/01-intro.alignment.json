@@ -1,0 +1,551 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "9aee2db221827ef075eb3a6520ba1be34c2c5fe0f5b93bad44879a9b288d3481",
+  "transcript": "Pointly es el sistema de fidelización de clientes de Bycode Software. En este tutorial vamos a configurar un comercio, incorporar clientes, registrar compras y entregar premios con puntos. También vamos a ver qué consulta el cliente desde su billetera y cómo administrar el catálogo y los avisos. Trabajaremos con un café y datos ficticios. Seguí el recorrido en orden la primera vez. Después podés volver al capítulo que necesites.",
+  "scriptSimilarity": 1.0,
+  "differences": [],
+  "words": [
+    {
+      "word": "Pointly",
+      "start": 0.0,
+      "end": 0.5,
+      "probability": 0.77430459856987,
+      "display": "Pointly"
+    },
+    {
+      "word": "es",
+      "start": 0.5,
+      "end": 0.8,
+      "probability": 0.9920958876609802,
+      "display": "es"
+    },
+    {
+      "word": "el",
+      "start": 0.8,
+      "end": 0.94,
+      "probability": 0.9989131689071655,
+      "display": "el"
+    },
+    {
+      "word": "sistema",
+      "start": 0.94,
+      "end": 1.28,
+      "probability": 0.9784355163574219,
+      "display": "sistema"
+    },
+    {
+      "word": "de",
+      "start": 1.28,
+      "end": 1.48,
+      "probability": 0.9993089437484741,
+      "display": "de"
+    },
+    {
+      "word": "fidelización",
+      "start": 1.48,
+      "end": 2.02,
+      "probability": 0.9812002778053284,
+      "display": "fidelización"
+    },
+    {
+      "word": "de",
+      "start": 2.02,
+      "end": 2.22,
+      "probability": 0.998023271560669,
+      "display": "de"
+    },
+    {
+      "word": "clientes",
+      "start": 2.22,
+      "end": 2.66,
+      "probability": 0.994078516960144,
+      "display": "clientes"
+    },
+    {
+      "word": "de",
+      "start": 2.66,
+      "end": 2.76,
+      "probability": 0.9954448938369751,
+      "display": "de"
+    },
+    {
+      "word": "Bycode",
+      "start": 2.76,
+      "end": 3.1,
+      "probability": 0.15910175256431103,
+      "display": "Bycode"
+    },
+    {
+      "word": "Software.",
+      "start": 3.1,
+      "end": 3.54,
+      "probability": 0.9214102029800415,
+      "display": "Software."
+    },
+    {
+      "word": "En",
+      "start": 4.04,
+      "end": 4.16,
+      "probability": 0.9973323345184326,
+      "display": "En"
+    },
+    {
+      "word": "este",
+      "start": 4.16,
+      "end": 4.32,
+      "probability": 0.9969934225082397,
+      "display": "este"
+    },
+    {
+      "word": "tutorial",
+      "start": 4.32,
+      "end": 4.6,
+      "probability": 0.9938709735870361,
+      "display": "tutorial"
+    },
+    {
+      "word": "vamos",
+      "start": 4.6,
+      "end": 4.94,
+      "probability": 0.6362095475196838,
+      "display": "vamos"
+    },
+    {
+      "word": "a",
+      "start": 4.94,
+      "end": 5.14,
+      "probability": 0.9986273050308228,
+      "display": "a"
+    },
+    {
+      "word": "configurar",
+      "start": 5.14,
+      "end": 5.66,
+      "probability": 0.9987706243991852,
+      "display": "configurar"
+    },
+    {
+      "word": "un",
+      "start": 5.66,
+      "end": 5.74,
+      "probability": 0.9987714886665344,
+      "display": "un"
+    },
+    {
+      "word": "comercio,",
+      "start": 5.74,
+      "end": 6.22,
+      "probability": 0.9925171434879303,
+      "display": "comercio,"
+    },
+    {
+      "word": "incorporar",
+      "start": 6.46,
+      "end": 7.04,
+      "probability": 0.995315283536911,
+      "display": "incorporar"
+    },
+    {
+      "word": "clientes,",
+      "start": 7.04,
+      "end": 7.64,
+      "probability": 0.9978750050067902,
+      "display": "clientes,"
+    },
+    {
+      "word": "registrar",
+      "start": 7.82,
+      "end": 8.34,
+      "probability": 0.9975314438343048,
+      "display": "registrar"
+    },
+    {
+      "word": "compras",
+      "start": 8.34,
+      "end": 8.84,
+      "probability": 0.9934894144535065,
+      "display": "compras"
+    },
+    {
+      "word": "y",
+      "start": 8.84,
+      "end": 9.06,
+      "probability": 0.8801198601722717,
+      "display": "y"
+    },
+    {
+      "word": "entregar",
+      "start": 9.06,
+      "end": 9.48,
+      "probability": 0.997616320848465,
+      "display": "entregar"
+    },
+    {
+      "word": "premios",
+      "start": 9.48,
+      "end": 9.92,
+      "probability": 0.9952150881290436,
+      "display": "premios"
+    },
+    {
+      "word": "con",
+      "start": 9.92,
+      "end": 10.08,
+      "probability": 0.9959041476249695,
+      "display": "con"
+    },
+    {
+      "word": "puntos.",
+      "start": 10.08,
+      "end": 10.4,
+      "probability": 0.9984697699546814,
+      "display": "puntos."
+    },
+    {
+      "word": "También",
+      "start": 11.02,
+      "end": 11.28,
+      "probability": 0.9947946667671204,
+      "display": "También"
+    },
+    {
+      "word": "vamos",
+      "start": 11.28,
+      "end": 11.5,
+      "probability": 0.9767616987228394,
+      "display": "vamos"
+    },
+    {
+      "word": "a",
+      "start": 11.5,
+      "end": 11.72,
+      "probability": 0.998490571975708,
+      "display": "a"
+    },
+    {
+      "word": "ver",
+      "start": 11.72,
+      "end": 11.84,
+      "probability": 0.9986177682876587,
+      "display": "ver"
+    },
+    {
+      "word": "qué",
+      "start": 11.84,
+      "end": 11.98,
+      "probability": 0.801770806312561,
+      "display": "qué"
+    },
+    {
+      "word": "consulta",
+      "start": 11.98,
+      "end": 12.44,
+      "probability": 0.9517987668514252,
+      "display": "consulta"
+    },
+    {
+      "word": "el",
+      "start": 12.44,
+      "end": 12.52,
+      "probability": 0.9800609350204468,
+      "display": "el"
+    },
+    {
+      "word": "cliente",
+      "start": 12.52,
+      "end": 13.06,
+      "probability": 0.9982929527759552,
+      "display": "cliente"
+    },
+    {
+      "word": "desde",
+      "start": 13.06,
+      "end": 13.22,
+      "probability": 0.9893313646316528,
+      "display": "desde"
+    },
+    {
+      "word": "su",
+      "start": 13.22,
+      "end": 13.48,
+      "probability": 0.9973562955856323,
+      "display": "su"
+    },
+    {
+      "word": "billetera",
+      "start": 13.48,
+      "end": 13.88,
+      "probability": 0.9638134241104126,
+      "display": "billetera"
+    },
+    {
+      "word": "y",
+      "start": 13.88,
+      "end": 14.3,
+      "probability": 0.9356299042701721,
+      "display": "y"
+    },
+    {
+      "word": "cómo",
+      "start": 14.3,
+      "end": 14.52,
+      "probability": 0.9731824398040771,
+      "display": "cómo"
+    },
+    {
+      "word": "administrar",
+      "start": 14.52,
+      "end": 15.1,
+      "probability": 0.9930327832698822,
+      "display": "administrar"
+    },
+    {
+      "word": "el",
+      "start": 15.1,
+      "end": 15.22,
+      "probability": 0.9976133108139038,
+      "display": "el"
+    },
+    {
+      "word": "catálogo",
+      "start": 15.22,
+      "end": 15.66,
+      "probability": 0.9946235815684,
+      "display": "catálogo"
+    },
+    {
+      "word": "y",
+      "start": 15.66,
+      "end": 15.92,
+      "probability": 0.9955905675888062,
+      "display": "y"
+    },
+    {
+      "word": "los",
+      "start": 15.92,
+      "end": 16.06,
+      "probability": 0.9977814555168152,
+      "display": "los"
+    },
+    {
+      "word": "avisos.",
+      "start": 16.06,
+      "end": 16.5,
+      "probability": 0.989394336938858,
+      "display": "avisos."
+    },
+    {
+      "word": "Trabajaremos",
+      "start": 16.98,
+      "end": 17.54,
+      "probability": 0.9890082776546478,
+      "display": "Trabajaremos"
+    },
+    {
+      "word": "con",
+      "start": 17.54,
+      "end": 17.82,
+      "probability": 0.9983766078948975,
+      "display": "con"
+    },
+    {
+      "word": "un",
+      "start": 17.82,
+      "end": 17.92,
+      "probability": 0.9926382303237915,
+      "display": "un"
+    },
+    {
+      "word": "café",
+      "start": 17.92,
+      "end": 18.2,
+      "probability": 0.9608154892921448,
+      "display": "café"
+    },
+    {
+      "word": "y",
+      "start": 18.2,
+      "end": 18.48,
+      "probability": 0.9958716034889221,
+      "display": "y"
+    },
+    {
+      "word": "datos",
+      "start": 18.48,
+      "end": 18.76,
+      "probability": 0.9975288510322571,
+      "display": "datos"
+    },
+    {
+      "word": "ficticios.",
+      "start": 18.76,
+      "end": 19.34,
+      "probability": 0.9922836621602377,
+      "display": "ficticios."
+    },
+    {
+      "word": "Seguí",
+      "start": 19.9,
+      "end": 20.36,
+      "probability": 0.982954223950704,
+      "display": "Seguí"
+    },
+    {
+      "word": "el",
+      "start": 20.36,
+      "end": 20.5,
+      "probability": 0.9918568134307861,
+      "display": "el"
+    },
+    {
+      "word": "recorrido",
+      "start": 20.5,
+      "end": 21.04,
+      "probability": 0.998352587223053,
+      "display": "recorrido"
+    },
+    {
+      "word": "en",
+      "start": 21.04,
+      "end": 21.28,
+      "probability": 0.9844824075698853,
+      "display": "en"
+    },
+    {
+      "word": "orden",
+      "start": 21.28,
+      "end": 21.46,
+      "probability": 0.9713038206100464,
+      "display": "orden"
+    },
+    {
+      "word": "la",
+      "start": 21.46,
+      "end": 21.66,
+      "probability": 0.9972372055053711,
+      "display": "la"
+    },
+    {
+      "word": "primera",
+      "start": 21.66,
+      "end": 21.94,
+      "probability": 0.9985906481742859,
+      "display": "primera"
+    },
+    {
+      "word": "vez.",
+      "start": 21.94,
+      "end": 22.22,
+      "probability": 0.999110996723175,
+      "display": "vez;"
+    },
+    {
+      "word": "Después",
+      "start": 22.58,
+      "end": 22.78,
+      "probability": 0.9966009855270386,
+      "display": "después"
+    },
+    {
+      "word": "podés",
+      "start": 22.78,
+      "end": 23.26,
+      "probability": 0.8189265429973602,
+      "display": "podés"
+    },
+    {
+      "word": "volver",
+      "start": 23.26,
+      "end": 23.5,
+      "probability": 0.9980286955833435,
+      "display": "volver"
+    },
+    {
+      "word": "al",
+      "start": 23.5,
+      "end": 23.74,
+      "probability": 0.9963434338569641,
+      "display": "al"
+    },
+    {
+      "word": "capítulo",
+      "start": 23.74,
+      "end": 24.14,
+      "probability": 0.9840994477272034,
+      "display": "capítulo"
+    },
+    {
+      "word": "que",
+      "start": 24.14,
+      "end": 24.3,
+      "probability": 0.9980176687240601,
+      "display": "que"
+    },
+    {
+      "word": "necesites.",
+      "start": 24.3,
+      "end": 24.74,
+      "probability": 0.9800932705402374,
+      "display": "necesites."
+    }
+  ],
+  "captions": [
+    {
+      "text": "Pointly es el sistema de fidelización de clientes de Bycode Software.",
+      "startMs": 0,
+      "endMs": 3540,
+      "timestampMs": null,
+      "confidence": 0.89
+    },
+    {
+      "text": "En este tutorial vamos a configurar un comercio, incorporar clientes,",
+      "startMs": 4040,
+      "endMs": 7640,
+      "timestampMs": null,
+      "confidence": 0.961
+    },
+    {
+      "text": "registrar compras y entregar premios con puntos.",
+      "startMs": 7820,
+      "endMs": 10400,
+      "timestampMs": null,
+      "confidence": 0.98
+    },
+    {
+      "text": "También vamos a ver qué consulta el cliente desde su billetera y cómo",
+      "startMs": 11020,
+      "endMs": 14520,
+      "timestampMs": null,
+      "confidence": 0.966
+    },
+    {
+      "text": "administrar el catálogo y los avisos.",
+      "startMs": 14520,
+      "endMs": 16500,
+      "timestampMs": null,
+      "confidence": 0.995
+    },
+    {
+      "text": "Trabajaremos con un café y datos ficticios.",
+      "startMs": 16980,
+      "endMs": 19340,
+      "timestampMs": null,
+      "confidence": 0.99
+    },
+    {
+      "text": "Seguí el recorrido en orden la primera vez;",
+      "startMs": 19900,
+      "endMs": 22220,
+      "timestampMs": null,
+      "confidence": 0.99
+    },
+    {
+      "text": "después podés volver al capítulo que necesites.",
+      "startMs": 22580,
+      "endMs": 24740,
+      "timestampMs": null,
+      "confidence": 0.967
+    }
+  ],
+  "status": "ACOUSTIC_MATCH"
+}

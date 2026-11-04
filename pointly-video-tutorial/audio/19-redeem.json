@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "Antes de canjear, acordá con el cliente qué premio va a recibir. En su tarjeta, abrí Canjear e indicá país y DNI. Verificá el nombre del premio y su costo, y confirmá una sola vez. En nuestro ejemplo, el café cuesta ochenta puntos: después del canje, el saldo baja en esa cantidad y aparece un movimiento de canje en el historial. La entrega física o la aplicación del descuento la coordina el comercio. El cliente consulta sus opciones en la billetera, pero no ejecuta el canje desde allí.",
+  "spokenText": "Antes de canjear, acordá con el cliente qué premio va a recibir. En su tarjeta, abrí Canjear e indicá país y de ene i. Verificá el nombre del premio y su costo, y confirmá una sola vez. En nuestro ejemplo, el café cuesta ochenta puntos: después del canje, el saldo baja en esa cantidad y aparece un movimiento de canje en el historial. La entrega física o la aplicación del descuento la coordina el comercio. El cliente consulta sus opciones en la billetera, pero no ejecuta el canje desde allí.",
+  "text_sha256": "41e5bc800f0096e0f209984b113fead24bc009126e4174941735c1c633283512",
+  "sha256": "c79a06b337d69cd78dfaf90c10cc750b9a475ad4aa2fa8b6dae79ac7cf18bb2b",
+  "duration": 30.72,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 80.97,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

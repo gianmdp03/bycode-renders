@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:02,180
+Vamos a registrar una compra para Ana.
+
+2
+00:00:02,600 --> 00:00:06,700
+Buscamos su país y DNI y cargamos 8 .500 pesos.
+
+3
+00:00:07,540 --> 00:00:11,420
+Con nuestra regla, los 8 bloques completos de 1000 suman 80 puntos;
+
+4
+00:00:12,020 --> 00:00:14,680
+los 500 restantes no pasan a otra compra.
+
+5
+00:00:15,320 --> 00:00:18,380
+La pantalla muestra una estimación y el cliente encontrado.
+
+6
+00:00:19,100 --> 00:00:22,000
+Al confirmar se registra la venta y se suman los puntos.
+
+7
+00:00:22,520 --> 00:00:25,660
+Pointly no cobra dinero ni emite una factura por esta acción.
+
+8
+00:00:26,040 --> 00:00:29,320
+Después verificamos la venta y el nuevo movimiento del cliente.

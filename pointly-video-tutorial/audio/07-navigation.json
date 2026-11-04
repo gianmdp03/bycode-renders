@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "Abrimos un comercio que ya tiene actividad. Resumen General muestra la regla, los clientes activos que ocupan cupo y los saldos vigentes. Las pestañas separan Clientes, Productos, Promociones, Premios, Ventas, Sin actividad, Archivados y Correos. Los contadores del catálogo indican elementos creados; no son una medida de facturación. Esta versión presenta tablas e indicadores, sin un panel de gráficos estadísticos. Desde el inicio también tenés accesos rápidos para agregar clientes, registrar ventas y consultar puntos.",
+  "spokenText": "Abrimos un comercio que ya tiene actividad. Resumen General muestra la regla, los clientes activos que ocupan cupo y los saldos vigentes. Las pestañas separan Clientes, Productos, Promociones, Premios, Ventas, Sin actividad, Archivados y Correos. Los contadores del catálogo indican elementos creados; no son una medida de facturación. Esta versión presenta tablas e indicadores, sin un panel de gráficos estadísticos. Desde el inicio también tenés accesos rápidos para agregar clientes, registrar ventas y consultar puntos.",
+  "text_sha256": "5fdec352803520bc241eaa865709a63a6ef943b2e8366096603e2172c5f3622b",
+  "sha256": "f9287927cdaade360f4cd88b49030ab22ada20b14840f488b2839a119879f174",
+  "duration": 35.04,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 96.25,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

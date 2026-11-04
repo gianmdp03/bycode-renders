@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "Ahora cambiamos al modo cliente. Desde la consulta pública elegimos el país e ingresamos el DNI. La billetera muestra los comercios asociados. Cada comercio tiene su propio saldo: los puntos de la panadería no se suman a los del café. Al abrir uno, aparecen los premios disponibles, los puntos que faltan o el aviso Te alcanza, y las condiciones para coordinar el canje. Las otras pestañas muestran promociones vigentes y productos. Esta es una vista de consulta: no permite registrar compras ni modificar puntos. El comerciante conserva esas acciones en su panel privado.",
+  "spokenText": "Ahora cambiamos al modo cliente. Desde la consulta pública elegimos el país e ingresamos el de ene i. La billetera muestra los comercios asociados. Cada comercio tiene su propio saldo: los puntos de la panadería no se suman a los del café. Al abrir uno, aparecen los premios disponibles, los puntos que faltan o el aviso Te alcanza, y las condiciones para coordinar el canje. Las otras pestañas muestran promociones vigentes y productos. Esta es una vista de consulta: no permite registrar compras ni modificar puntos. El comerciante conserva esas acciones en su panel privado.",
+  "text_sha256": "de5fc45d028daee5cfb15ad9f34e9289ac3c6e018db3586ab983ec8cd3bccb3b",
+  "sha256": "4020eef7776192bc44ffd7c6201b848e8041db693a1526b7c85b2625aa4e5820",
+  "duration": 35.2,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 163.22,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

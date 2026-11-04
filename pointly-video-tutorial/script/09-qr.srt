@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:03,400
+Otra forma de incorporar clientes es el QR de registro.
+
+2
+00:00:04,060 --> 00:00:06,720
+Desde el resumen abrí Generar QR de Registro.
+
+3
+00:00:07,080 --> 00:00:11,240
+Podés copiar el enlace, descargar el código como imagen o abrir la impresión.
+
+4
+00:00:11,860 --> 00:00:16,000
+Si el navegador bloquea la ventana de impresión, habilitala o usá la descarga.
+
+5
+00:00:16,600 --> 00:00:19,800
+El enlace abre un formulario público con el nombre del comercio.
+
+6
+00:00:20,360 --> 00:00:22,880
+El cliente completa sus datos y confirma el alta.
+
+7
+00:00:23,520 --> 00:00:25,900
+Mostrar un QR no suma puntos por sí solo:
+
+8
+00:00:25,900 --> 00:00:29,520
+después tenés que registrar las compras desde tu cuenta comercial.

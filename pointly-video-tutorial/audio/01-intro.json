@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "Pointly es el sistema de fidelización de clientes de Bycode Software. En este tutorial vamos a configurar un comercio, incorporar clientes, registrar compras y entregar premios con puntos. También vamos a ver qué consulta el cliente desde su billetera y cómo administrar el catálogo y los avisos. Trabajaremos con un café y datos ficticios. Seguí el recorrido en orden la primera vez; después podés volver al capítulo que necesites.",
+  "spokenText": "Pointli es el sistema de fidelización de clientes de baicode Software. En este tutorial vamos a configurar un comercio, incorporar clientes, registrar compras y entregar premios con puntos. También vamos a ver qué consulta el cliente desde su billetera y cómo administrar el catálogo y los avisos. Trabajaremos con un café y datos ficticios. Seguí el recorrido en orden la primera vez; después podés volver al capítulo que necesites.",
+  "text_sha256": "f01b3335512c54ec6330c57e85a95a68524df48a184c7c91c58c9305ace64531",
+  "sha256": "9aee2db221827ef075eb3a6520ba1be34c2c5fe0f5b93bad44879a9b288d3481",
+  "duration": 25.2,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 62.72,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

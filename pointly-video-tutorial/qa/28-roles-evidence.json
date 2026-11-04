@@ -1,0 +1,84 @@
+{
+  "scene": "28-roles",
+  "evidence": [
+    {
+      "label": "Global administrator company table",
+      "url": "/dashboard",
+      "at": 1793728590496.2
+    },
+    {
+      "label": "Admin-specific navigation and limits",
+      "url": "/companies/cafe-del-puerto-tutorial",
+      "at": 1793728591817.5
+    }
+  ],
+  "network": [
+    {
+      "method": "GET",
+      "path": "/api/billing/account/profile",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 403
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 403
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 403
+    },
+    {
+      "method": "GET",
+      "path": "/api/billing/account/profile",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 403
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/company-names/cafe-del-puerto-tutorial/company",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/1",
+      "status": 403
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/1",
+      "status": 403
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/media/6dedfc39-a8dd-4815-a680-b61b8db0307c",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 403
+    }
+  ],
+  "source": "recordings/28-roles-1793728620825.mp4",
+  "obs": null
+}

@@ -1,0 +1,144 @@
+{
+  "scene": "08-client",
+  "evidence": [
+    {
+      "label": "Optional email and phone kept empty",
+      "url": "/companies/cafe-del-puerto-tutorial/actions/client",
+      "at": 1793727249833
+    },
+    {
+      "label": "Client association persisted",
+      "url": "/companies/cafe-del-puerto-tutorial",
+      "at": 1793727251928.4001
+    },
+    {
+      "label": "Existing identity preserved on repeated association",
+      "url": "/companies/cafe-del-puerto-tutorial/actions/client",
+      "at": 1793727258206.4001
+    }
+  ],
+  "network": [
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/billing/account/profile",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/company-names/cafe-del-puerto-tutorial/company",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/media/6dedfc39-a8dd-4815-a680-b61b8db0307c",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/points-accounts",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/billing/account/profile",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/company-names/cafe-del-puerto-tutorial/company",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/media/6dedfc39-a8dd-4815-a680-b61b8db0307c",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/points-accounts",
+      "status": 409
+    }
+  ],
+  "source": "recordings/08-client-1793727275347.mp4",
+  "obs": null
+}

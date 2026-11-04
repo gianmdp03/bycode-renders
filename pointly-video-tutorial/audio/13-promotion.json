@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "Las promociones permiten otorgar puntos extras durante un período, si tu plan las incluye. Creá una, poné un nombre claro y explicá las condiciones en la descripción. Podés elegir cincuenta por ciento más, el doble, el triple o un beneficio personalizado. Revisá la equivalencia que calcula la pantalla. Elegí una fecha de inicio futura y un fin posterior. Prestá atención al horario mostrado: no supongas que una fecha significa todo el día. Guardá y verificá la promoción en su lista antes de comunicarla.",
+  "spokenText": "Las promociones permiten otorgar puntos extras durante un período, si tu plan las incluye. Creá una, poné un nombre claro y explicá las condiciones en la descripción. Podés elegir cincuenta por ciento más, el doble, el triple o un beneficio personalizado. Revisá la equivalencia que calcula la pantalla. Elegí una fecha de inicio futura y un fin posterior. Prestá atención al horario mostrado: no supongas que una fecha significa todo el día. Guardá y verificá la promoción en su lista antes de comunicarla.",
+  "text_sha256": "d96a9d0bd286fb7bc90f0cba5b79e06e363d426bd85896d5537e4af97855db79",
+  "sha256": "0b6699b469ccaadd1f40902f3a9bed6b346a30b6cd12c35be51d69bd280d4041",
+  "duration": 30.16,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 146.44,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

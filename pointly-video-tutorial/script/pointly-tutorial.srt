@@ -1,0 +1,403 @@
+1
+00:00:00,000 --> 00:00:03,540
+Pointly es el sistema de fidelización de clientes de Bycode Software.
+
+2
+00:00:04,040 --> 00:00:07,640
+En este tutorial vamos a configurar un comercio, incorporar clientes,
+
+3
+00:00:07,820 --> 00:00:10,400
+registrar compras y entregar premios con puntos.
+
+4
+00:00:11,020 --> 00:00:14,520
+También vamos a ver qué consulta el cliente desde su billetera y cómo
+
+5
+00:00:14,520 --> 00:00:16,500
+administrar el catálogo y los avisos.
+
+6
+00:00:16,980 --> 00:00:19,340
+Trabajaremos con un café y datos ficticios.
+
+7
+00:00:19,900 --> 00:00:22,220
+Seguí el recorrido en orden la primera vez;
+
+8
+00:00:22,580 --> 00:00:24,740
+después podés volver al capítulo que necesites.
+
+9
+00:00:25,850 --> 00:00:29,710
+Para administrar un comercio necesitás tu cuenta de Bycode y un plan de
+
+10
+00:00:29,710 --> 00:00:30,750
+Pointly habilitado.
+
+11
+00:00:31,270 --> 00:00:33,470
+El acceso Crear cuenta lleva a Bycode:
+
+12
+00:00:33,990 --> 00:00:37,750
+el alta comercial no se completa dentro de esta pantalla de Pointly.
+
+13
+00:00:38,230 --> 00:00:41,550
+Si ya tenés cuenta, entrá con tu correo y contraseña.
+
+14
+00:00:42,110 --> 00:00:43,470
+El modo cliente es diferente:
+
+15
+00:00:44,070 --> 00:00:47,110
+permite consultar puntos, sin acceder a la administración.
+
+16
+00:00:47,790 --> 00:00:51,070
+Revisá el correo que escribís y mantené tu contraseña privada.
+
+17
+00:00:51,590 --> 00:00:56,210
+Si los datos no coinciden, la pantalla informa el error y permite corregirlos.
+
+18
+00:00:57,150 --> 00:01:02,270
+En una cuenta nueva, Pointly puede pedir el DNI de la persona que administra
+
+19
+00:01:02,270 --> 00:01:02,870
+el comercio.
+
+20
+00:01:03,290 --> 00:01:05,010
+No es el documento de un cliente:
+
+21
+00:01:05,310 --> 00:01:06,590
+es un dato de tu perfil.
+
+22
+00:01:07,010 --> 00:01:08,570
+Completalo y continúal panel.
+
+23
+00:01:08,970 --> 00:01:13,230
+Acá aparece el plan, sus comercios permitidos y el cupo de clientes activos
+
+24
+00:01:13,230 --> 00:01:13,850
+por comercio.
+
+25
+00:01:14,290 --> 00:01:17,290
+Si todavía no creaste ninguno, empezá con Nueva Empresa.
+
+26
+00:01:17,850 --> 00:01:21,830
+No necesitás preparar una planilla ni importar clientes para dar este primer
+
+27
+00:01:21,830 --> 00:01:22,130
+paso.
+
+28
+00:01:23,000 --> 00:01:26,140
+Escribí el nombre con el que tus clientes conocen al negocio.
+
+29
+00:01:26,500 --> 00:01:31,040
+El nombre del enlace se genera a partir de ese texto, se puede ajustar y tiene
+
+30
+00:01:31,040 --> 00:01:31,980
+que estar disponible.
+
+31
+00:01:32,520 --> 00:01:34,380
+Usá letras, números y guiones.
+
+32
+00:01:35,060 --> 00:01:36,320
+Después definí la regla:
+
+33
+00:01:36,680 --> 00:01:40,360
+en nuestro ejemplo, cada mil pesos completos de una compra otorgan diez
+
+34
+00:01:40,360 --> 00:01:40,720
+puntos.
+
+35
+00:01:41,320 --> 00:01:42,580
+País es obligatorio;
+
+36
+00:01:43,020 --> 00:01:46,440
+los demás datos de ubicación se pueden dejar vacíos si no corresponden.
+
+37
+00:01:46,920 --> 00:01:50,400
+Revisá los campos antes de crear la empresa y esperá la confirmación.
+
+38
+00:01:51,417 --> 00:01:55,477
+Desde Editar podés actualizar el nombre, la ubicación y la regla de
+
+39
+00:01:55,477 --> 00:01:56,037
+acumulación.
+
+40
+00:01:56,757 --> 00:01:58,177
+El vencimiento es opcional:
+
+41
+00:01:58,837 --> 00:02:02,797
+si lo activás, indicá cuántos días duran los puntos de nuevas compras.
+
+42
+00:02:03,477 --> 00:02:06,977
+Ese cambio no debe interpretarse como una renovación de todos los puntos
+
+43
+00:02:06,977 --> 00:02:07,517
+anteriores.
+
+44
+00:02:08,137 --> 00:02:11,777
+Una compra nueva tampoco renueva automáticamente cada saldo histórico.
+
+45
+00:02:12,397 --> 00:02:15,097
+Leé la explicación junto a la opción antes de guardar.
+
+46
+00:02:15,657 --> 00:02:19,537
+Los niveles Bronce, Plata y Oro están suspendidos en esta versión;
+
+47
+00:02:19,537 --> 00:02:22,377
+no forman parte de la configuración disponible.
+
+48
+00:02:23,350 --> 00:02:26,170
+La foto ayuda al cliente a reconocer el comercio.
+
+49
+00:02:26,630 --> 00:02:31,190
+Elegí un archivo JPEG, PNG o WebP de hasta 10 MB,
+
+50
+00:02:31,730 --> 00:02:33,870
+ajustar el recorte y guardar.
+
+51
+00:02:34,370 --> 00:02:37,270
+Podés mover la imagen y acercarla con el control de zoom.
+
+52
+00:02:37,910 --> 00:02:42,750
+Si necesitás reemplazarla o quitarla, usá las acciones de esta misma página.
+
+53
+00:02:43,190 --> 00:02:47,130
+El nombre público del enlace también puede modificarse desde su configuración:
+
+54
+00:02:47,710 --> 00:02:52,010
+revisá la disponibilidad y el aviso antes de confirmar, porque es el acceso
+
+55
+00:02:52,010 --> 00:02:53,890
+que vas a compartir con tus clientes.
+
+56
+00:02:54,800 --> 00:02:57,340
+Abrimos un comercio que ya tiene actividad.
+
+57
+00:02:57,760 --> 00:03:02,180
+Resumen General muestra la regla, los clientes activos que ocupan cupo y los
+
+58
+00:03:02,180 --> 00:03:02,980
+saldos vigentes.
+
+59
+00:03:03,780 --> 00:03:09,020
+Las pestañas separan Clientes, Productos, Promociones, Premios, Ventas, Sin
+
+60
+00:03:09,020 --> 00:03:11,300
+actividad, Archivados y Correos.
+
+61
+00:03:11,940 --> 00:03:14,820
+Los contadores del catálogo indican elementos creados;
+
+62
+00:03:15,300 --> 00:03:16,940
+no son una medida de facturación.
+
+63
+00:03:17,580 --> 00:03:22,060
+Esta versión presenta tablas e indicadores, sin un panel de gráficos
+
+64
+00:03:22,060 --> 00:03:22,720
+estadísticos.
+
+65
+00:03:22,720 --> 00:03:27,980
+Desde el inicio también tenés accesos rápidos para agregar clientes, registrar
+
+66
+00:03:27,980 --> 00:03:29,500
+ventas y consultar puntos.
+
+67
+00:03:30,500 --> 00:03:35,000
+Para incorporar un cliente, habría Agregar cliente y completá nombre, país del
+
+68
+00:03:35,000 --> 00:03:36,400
+documento y DNI.
+
+69
+00:03:36,680 --> 00:03:38,440
+Correo y teléfono son opcionales:
+
+70
+00:03:38,700 --> 00:03:42,200
+la persona puede acumular y canjear puntos aunque no los tenga.
+
+71
+00:03:42,800 --> 00:03:46,260
+Si cargás un teléfono para WhatsApp, incluí el código de país.
+
+72
+00:03:46,820 --> 00:03:49,920
+El alta es inmediata y no pide confirmar un correo.
+
+73
+00:03:50,340 --> 00:03:54,480
+Si ese documento ya existe en Pointly, se conservan sus datos anteriores:
+
+74
+00:03:54,920 --> 00:03:58,400
+este formulario lo vincula al comercio, no edita su identidad.
+
+75
+00:03:58,400 --> 00:04:01,000
+Al guardar, comprobá que aparezca en la lista.
+
+76
+00:04:01,950 --> 00:04:05,350
+Otra forma de incorporar clientes es el QR de registro.
+
+77
+00:04:06,010 --> 00:04:08,670
+Desde el resumen abrí Generar QR de Registro.
+
+78
+00:04:09,030 --> 00:04:13,190
+Podés copiar el enlace, descargar el código como imagen o abrir la impresión.
+
+79
+00:04:13,810 --> 00:04:17,950
+Si el navegador bloquea la ventana de impresión, habilitala o usá la descarga.
+
+80
+00:04:18,550 --> 00:04:21,750
+El enlace abre un formulario público con el nombre del comercio.
+
+81
+00:04:22,310 --> 00:04:24,830
+El cliente completa sus datos y confirma el alta.
+
+82
+00:04:25,470 --> 00:04:27,850
+Mostrar un QR no suma puntos por sí solo:
+
+83
+00:04:27,850 --> 00:04:31,470
+después tenés que registrar las compras desde tu cuenta comercial.
+
+84
+00:04:32,683 --> 00:04:37,783
+En Clientes podés buscar por nombre o DNI, incluso usando solo una parte.
+
+85
+00:04:38,203 --> 00:04:41,243
+El filtro permite ver todos, activos o archivados;
+
+86
+00:04:41,763 --> 00:04:44,143
+dejá la búsqueda vacía para recuperar la lista.
+
+87
+00:04:44,543 --> 00:04:47,483
+Abríver detalle para revisar el saldo y los movimientos.
+
+88
+00:04:47,843 --> 00:04:51,623
+Cada movimiento muestra su fecha y distingue puntos sumados, canjes o
+
+89
+00:04:51,623 --> 00:04:52,123
+vencimientos.
+
+90
+00:04:52,703 --> 00:04:56,483
+Los contactos se consultan con una acción específica y se pueden volver a
+
+91
+00:04:56,483 --> 00:04:56,923
+ocultar.
+
+92
+00:04:57,423 --> 00:05:00,443
+Si hay varias páginas, avanzá con los controles de navegación;
+
+93
+00:05:00,443 --> 00:05:03,323
+una búsqueda sin resultados no es un error de carga.
+
+94
+00:05:04,133 --> 00:05:06,313
+Vamos a registrar una compra para Ana.
+
+95
+00:05:06,733 --> 00:05:10,833
+Buscamos su país y DNI y cargamos 8 .500 pesos.
+
+96
+00:05:11,673 --> 00:05:15,553
+Con nuestra regla, los 8 bloques completos de 1000 suman 80 puntos;
+
+97
+00:05:16,153 --> 00:05:18,813
+los 500 restantes no pasan a otra compra.
+
+98
+00:05:19,453 --> 00:05:22,513
+La pantalla muestra una estimación y el cliente encontrado.
+
+99
+00:05:23,233 --> 00:05:26,133
+Al confirmar se registra la venta y se suman los puntos.
+
+100
+00:05:26,653 --> 00:05:29,793
+Pointly no cobra dinero ni emite una factura por esta acción.
+
+101
+00:05:30,173 --> 00:05:33,453
+Después verificamos la venta y el nuevo movimiento del cliente.

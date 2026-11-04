@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "Cuando una lista no carga, usá su botón Reintentar; un error de conexión no significa que no existan clientes o ventas. Si la búsqueda está vacía, revisá el país, el documento y el filtro. Podés cambiar entre tema claro y oscuro desde la aplicación, consultar las preguntas frecuentes y volver al panel desde el menú. Al terminar en una computadora compartida, cerrá la sesión. Recordá la secuencia diaria: identificar al cliente, registrar la compra, verificar los puntos y registrar el canje cuando corresponda.",
+  "spokenText": "Cuando una lista no carga, usá su botón Reintentar; un error de conexión no significa que no existan clientes o ventas. Si la búsqueda está vacía, revisá el país, el documento y el filtro. Podés cambiar entre tema claro y oscuro desde la aplicación, consultar las preguntas frecuentes y volver al panel desde el menú. Al terminar en una computadora compartida, cerrá la sesión. Recordá la secuencia diaria: identificar al cliente, registrar la compra, verificar los puntos y registrar el canje cuando corresponda.",
+  "text_sha256": "7f1227aa2d31406233c6e56efba8ebb6082877bd2d10512e141e54efbcd398ec",
+  "sha256": "c5ae82977f17caef300e7e0a8b31b3d085ca8b4906846f29b1624849d02b9270",
+  "duration": 31.04,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 120.64,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

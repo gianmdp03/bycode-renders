@@ -7,7 +7,8 @@
     "shared/bycode-video-system",
     "doctorchart-promo-reel",
     "bycode-institucional-reel",
-    "pointly-promo-reel"
+    "pointly-promo-reel",
+    "pointly-video-tutorial"
   ],
   "engines": {
     "node": ">=24"
@@ -31,6 +32,8 @@
     "dev:pointly": "npm run dev --workspace=pointly-promo-reel",
     "render:pointly": "npm run render:preview --workspace=pointly-promo-reel",
     "qa:pointly": "npm run qa --workspace=pointly-promo-reel",
-    "check:pointly": "npm run typecheck --workspace=pointly-promo-reel"
+    "check:pointly": "npm run typecheck --workspace=pointly-promo-reel",
+    "dev:pointly-tutorial": "npm run dev --workspace=pointly-video-tutorial",
+    "render:pointly-tutorial": "npm run render --workspace=pointly-video-tutorial"
   }
 }

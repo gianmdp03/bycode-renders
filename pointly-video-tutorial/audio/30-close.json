@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "Ya recorrimos la configuración, los clientes, las ventas, el catálogo, los premios y los avisos de Pointly, además de la billetera que consulta el cliente. Antes de usar tu programa con personas reales, revisá la regla de puntos, las condiciones de los premios y los vencimientos que vas a comunicar. Volvé al capítulo que necesites para repetir un procedimiento. Pointly, de Bycode Software. Gracias por acompañarnos.",
+  "spokenText": "Ya recorrimos la configuración, los clientes, las ventas, el catálogo, los premios y los avisos de Pointli, además de la billetera que consulta el cliente. Antes de usar tu programa con personas reales, revisá la regla de puntos, las condiciones de los premios y los vencimientos que vas a comunicar. Volvé al capítulo que necesites para repetir un procedimiento. Pointli, de baicode Software. Gracias por acompañarnos.",
+  "text_sha256": "d91dc53a4b5d0434310e1f5e46c5e6a86a2d7ad81a2536dcc807475eb7cd3d7b",
+  "sha256": "39977fbdc29899db68f3923525cc248ccde885a68c12338560951c01c36cb972",
+  "duration": 25.28,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 196.17,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

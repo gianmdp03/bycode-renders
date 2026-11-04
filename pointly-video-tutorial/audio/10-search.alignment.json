@@ -1,0 +1,767 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "675fabf77c8e49ee6b6d35ed2c69282dbabc0120ec5d8d1cc0b2b875903ea881",
+  "transcript": "En clientes podés buscar por nombre o DNI, incluso usando solo una parte. El filtro permite ver todos, activos o archivados. Deja la búsqueda vacía para recuperar la lista. Entramos en Ver Detalle para revisar el saldo y los movimientos. Cada movimiento muestra su fecha y distingue puntos sumados, canjes o vencimientos. Los contactos se consultan con una acción específica y se pueden volver a ocultar. Si hay varias páginas, avanza con sus controles. También puedes usar consultar puntos con país y DNI desde el comercio. Una búsqueda sin resultados no es un error de carga.",
+  "scriptSimilarity": 0.9896,
+  "differences": [
+    {
+      "op": "replace",
+      "expected": "podés",
+      "heard": "puedes"
+    }
+  ],
+  "words": [
+    {
+      "word": "En",
+      "start": 0.0,
+      "end": 0.38,
+      "probability": 0.6945988535881042,
+      "display": "En"
+    },
+    {
+      "word": "clientes",
+      "start": 0.38,
+      "end": 0.82,
+      "probability": 0.9242598414421082,
+      "display": "Clientes"
+    },
+    {
+      "word": "podés",
+      "start": 0.82,
+      "end": 1.08,
+      "probability": 0.6721688956022263,
+      "display": "podés"
+    },
+    {
+      "word": "buscar",
+      "start": 1.08,
+      "end": 1.38,
+      "probability": 0.9918279647827148,
+      "display": "buscar"
+    },
+    {
+      "word": "por",
+      "start": 1.38,
+      "end": 1.64,
+      "probability": 0.9921410083770752,
+      "display": "por"
+    },
+    {
+      "word": "nombre",
+      "start": 1.64,
+      "end": 1.92,
+      "probability": 0.9916552305221558,
+      "display": "nombre"
+    },
+    {
+      "word": "o",
+      "start": 1.92,
+      "end": 2.26,
+      "probability": 0.9600653052330017,
+      "display": "o"
+    },
+    {
+      "word": "DNI,",
+      "start": 2.26,
+      "end": 2.78,
+      "probability": 0.9365572333335876,
+      "display": "DNI,"
+    },
+    {
+      "word": "incluso",
+      "start": 3.04,
+      "end": 3.54,
+      "probability": 0.9860390424728394,
+      "display": "incluso"
+    },
+    {
+      "word": "usando",
+      "start": 3.54,
+      "end": 4.04,
+      "probability": 0.9829177260398865,
+      "display": "usando"
+    },
+    {
+      "word": "solo",
+      "start": 4.04,
+      "end": 4.36,
+      "probability": 0.6487155556678772,
+      "display": "solo"
+    },
+    {
+      "word": "una",
+      "start": 4.36,
+      "end": 4.7,
+      "probability": 0.9939689636230469,
+      "display": "una"
+    },
+    {
+      "word": "parte.",
+      "start": 4.7,
+      "end": 5.0,
+      "probability": 0.9992475509643555,
+      "display": "parte."
+    },
+    {
+      "word": "El",
+      "start": 5.5,
+      "end": 5.64,
+      "probability": 0.9684993624687195,
+      "display": "El"
+    },
+    {
+      "word": "filtro",
+      "start": 5.64,
+      "end": 6.0,
+      "probability": 0.9906075596809387,
+      "display": "filtro"
+    },
+    {
+      "word": "permite",
+      "start": 6.0,
+      "end": 6.3,
+      "probability": 0.9943397641181946,
+      "display": "permite"
+    },
+    {
+      "word": "ver",
+      "start": 6.3,
+      "end": 6.54,
+      "probability": 0.9970710277557373,
+      "display": "ver"
+    },
+    {
+      "word": "todos,",
+      "start": 6.54,
+      "end": 6.82,
+      "probability": 0.9811404943466187,
+      "display": "todos,"
+    },
+    {
+      "word": "activos",
+      "start": 7.14,
+      "end": 7.68,
+      "probability": 0.994181752204895,
+      "display": "activos"
+    },
+    {
+      "word": "o",
+      "start": 7.68,
+      "end": 7.88,
+      "probability": 0.9354326128959656,
+      "display": "o"
+    },
+    {
+      "word": "archivados.",
+      "start": 7.88,
+      "end": 8.4,
+      "probability": 0.9864255587259928,
+      "display": "archivados;"
+    },
+    {
+      "word": "Deja",
+      "start": 8.84,
+      "end": 9.14,
+      "probability": 0.9457185864448547,
+      "display": "dejá"
+    },
+    {
+      "word": "la",
+      "start": 9.14,
+      "end": 9.26,
+      "probability": 0.997718334197998,
+      "display": "la"
+    },
+    {
+      "word": "búsqueda",
+      "start": 9.26,
+      "end": 9.62,
+      "probability": 0.9976233392953873,
+      "display": "búsqueda"
+    },
+    {
+      "word": "vacía",
+      "start": 9.62,
+      "end": 10.06,
+      "probability": 0.9672912657260895,
+      "display": "vacía"
+    },
+    {
+      "word": "para",
+      "start": 10.06,
+      "end": 10.3,
+      "probability": 0.9943476319313049,
+      "display": "para"
+    },
+    {
+      "word": "recuperar",
+      "start": 10.3,
+      "end": 10.82,
+      "probability": 0.9978796541690826,
+      "display": "recuperar"
+    },
+    {
+      "word": "la",
+      "start": 10.82,
+      "end": 10.92,
+      "probability": 0.9986316561698914,
+      "display": "la"
+    },
+    {
+      "word": "lista.",
+      "start": 10.92,
+      "end": 11.16,
+      "probability": 0.9991635084152222,
+      "display": "lista."
+    },
+    {
+      "word": "Entramos",
+      "start": 11.64,
+      "end": 12.12,
+      "probability": 0.9796972870826721,
+      "display": "Entramos"
+    },
+    {
+      "word": "en",
+      "start": 12.12,
+      "end": 12.42,
+      "probability": 0.9982126951217651,
+      "display": "en"
+    },
+    {
+      "word": "Ver",
+      "start": 12.42,
+      "end": 12.56,
+      "probability": 0.4463514983654022,
+      "display": "Ver"
+    },
+    {
+      "word": "Detalle",
+      "start": 12.56,
+      "end": 12.94,
+      "probability": 0.7245011776685715,
+      "display": "detalle"
+    },
+    {
+      "word": "para",
+      "start": 12.94,
+      "end": 13.22,
+      "probability": 0.9768850803375244,
+      "display": "para"
+    },
+    {
+      "word": "revisar",
+      "start": 13.22,
+      "end": 13.68,
+      "probability": 0.9967590272426605,
+      "display": "revisar"
+    },
+    {
+      "word": "el",
+      "start": 13.68,
+      "end": 13.8,
+      "probability": 0.9979090690612793,
+      "display": "el"
+    },
+    {
+      "word": "saldo",
+      "start": 13.8,
+      "end": 14.16,
+      "probability": 0.9973526000976562,
+      "display": "saldo"
+    },
+    {
+      "word": "y",
+      "start": 14.16,
+      "end": 14.36,
+      "probability": 0.9952091574668884,
+      "display": "y"
+    },
+    {
+      "word": "los",
+      "start": 14.36,
+      "end": 14.52,
+      "probability": 0.9977617263793945,
+      "display": "los"
+    },
+    {
+      "word": "movimientos.",
+      "start": 14.52,
+      "end": 15.02,
+      "probability": 0.9944296479225159,
+      "display": "movimientos."
+    },
+    {
+      "word": "Cada",
+      "start": 15.62,
+      "end": 15.84,
+      "probability": 0.9881778359413147,
+      "display": "Cada"
+    },
+    {
+      "word": "movimiento",
+      "start": 15.84,
+      "end": 16.22,
+      "probability": 0.9875574111938477,
+      "display": "movimiento"
+    },
+    {
+      "word": "muestra",
+      "start": 16.22,
+      "end": 16.76,
+      "probability": 0.9982911944389343,
+      "display": "muestra"
+    },
+    {
+      "word": "su",
+      "start": 16.76,
+      "end": 17.0,
+      "probability": 0.9932340979576111,
+      "display": "su"
+    },
+    {
+      "word": "fecha",
+      "start": 17.0,
+      "end": 17.38,
+      "probability": 0.9989186823368073,
+      "display": "fecha"
+    },
+    {
+      "word": "y",
+      "start": 17.38,
+      "end": 17.54,
+      "probability": 0.98594069480896,
+      "display": "y"
+    },
+    {
+      "word": "distingue",
+      "start": 17.54,
+      "end": 18.0,
+      "probability": 0.9841784238815308,
+      "display": "distingue"
+    },
+    {
+      "word": "puntos",
+      "start": 18.0,
+      "end": 18.26,
+      "probability": 0.9903278946876526,
+      "display": "puntos"
+    },
+    {
+      "word": "sumados,",
+      "start": 18.26,
+      "end": 18.74,
+      "probability": 0.9910988509654999,
+      "display": "sumados,"
+    },
+    {
+      "word": "canjes",
+      "start": 19.12,
+      "end": 19.46,
+      "probability": 0.9720959961414337,
+      "display": "canjes"
+    },
+    {
+      "word": "o",
+      "start": 19.46,
+      "end": 19.74,
+      "probability": 0.9555544257164001,
+      "display": "o"
+    },
+    {
+      "word": "vencimientos.",
+      "start": 19.74,
+      "end": 20.22,
+      "probability": 0.9946174422899882,
+      "display": "vencimientos."
+    },
+    {
+      "word": "Los",
+      "start": 20.82,
+      "end": 21.08,
+      "probability": 0.9961756467819214,
+      "display": "Los"
+    },
+    {
+      "word": "contactos",
+      "start": 21.08,
+      "end": 21.66,
+      "probability": 0.9917824864387512,
+      "display": "contactos"
+    },
+    {
+      "word": "se",
+      "start": 21.66,
+      "end": 21.8,
+      "probability": 0.9960159659385681,
+      "display": "se"
+    },
+    {
+      "word": "consultan",
+      "start": 21.8,
+      "end": 22.32,
+      "probability": 0.9905785322189331,
+      "display": "consultan"
+    },
+    {
+      "word": "con",
+      "start": 22.32,
+      "end": 22.5,
+      "probability": 0.99699866771698,
+      "display": "con"
+    },
+    {
+      "word": "una",
+      "start": 22.5,
+      "end": 22.7,
+      "probability": 0.9976599216461182,
+      "display": "una"
+    },
+    {
+      "word": "acción",
+      "start": 22.7,
+      "end": 23.0,
+      "probability": 0.9942119419574738,
+      "display": "acción"
+    },
+    {
+      "word": "específica",
+      "start": 23.0,
+      "end": 23.78,
+      "probability": 0.9761652052402496,
+      "display": "específica"
+    },
+    {
+      "word": "y",
+      "start": 23.78,
+      "end": 23.94,
+      "probability": 0.9616552591323853,
+      "display": "y"
+    },
+    {
+      "word": "se",
+      "start": 23.94,
+      "end": 24.06,
+      "probability": 0.9986814856529236,
+      "display": "se"
+    },
+    {
+      "word": "pueden",
+      "start": 24.06,
+      "end": 24.32,
+      "probability": 0.9925663471221924,
+      "display": "pueden"
+    },
+    {
+      "word": "volver",
+      "start": 24.32,
+      "end": 24.58,
+      "probability": 0.9969326257705688,
+      "display": "volver"
+    },
+    {
+      "word": "a",
+      "start": 24.58,
+      "end": 24.78,
+      "probability": 0.9997020363807678,
+      "display": "a"
+    },
+    {
+      "word": "ocultar.",
+      "start": 24.78,
+      "end": 25.18,
+      "probability": 0.9967501958211263,
+      "display": "ocultar."
+    },
+    {
+      "word": "Si",
+      "start": 25.5,
+      "end": 25.7,
+      "probability": 0.9750809669494629,
+      "display": "Si"
+    },
+    {
+      "word": "hay",
+      "start": 25.7,
+      "end": 25.84,
+      "probability": 0.9985319375991821,
+      "display": "hay"
+    },
+    {
+      "word": "varias",
+      "start": 25.84,
+      "end": 26.14,
+      "probability": 0.9957917928695679,
+      "display": "varias"
+    },
+    {
+      "word": "páginas,",
+      "start": 26.14,
+      "end": 26.76,
+      "probability": 0.9960844318072001,
+      "display": "páginas,"
+    },
+    {
+      "word": "avanza",
+      "start": 26.84,
+      "end": 27.12,
+      "probability": 0.6830853521823883,
+      "display": "avanzá"
+    },
+    {
+      "word": "con",
+      "start": 27.12,
+      "end": 27.34,
+      "probability": 0.9966309666633606,
+      "display": "con"
+    },
+    {
+      "word": "sus",
+      "start": 27.34,
+      "end": 27.52,
+      "probability": 0.9946538209915161,
+      "display": "sus"
+    },
+    {
+      "word": "controles.",
+      "start": 27.52,
+      "end": 28.0,
+      "probability": 0.9959970712661743,
+      "display": "controles."
+    },
+    {
+      "word": "También",
+      "start": 28.0,
+      "end": 28.7,
+      "probability": 0.9155814051628113,
+      "display": "También"
+    },
+    {
+      "word": "puedes",
+      "start": 28.7,
+      "end": 29.0,
+      "probability": 0.5721486806869507,
+      "display": "puedes"
+    },
+    {
+      "word": "usar",
+      "start": 29.0,
+      "end": 29.3,
+      "probability": 0.9843473434448242,
+      "display": "usar"
+    },
+    {
+      "word": "consultar",
+      "start": 29.3,
+      "end": 29.84,
+      "probability": 0.7761394679546356,
+      "display": "Consultar"
+    },
+    {
+      "word": "puntos",
+      "start": 29.84,
+      "end": 30.1,
+      "probability": 0.969907283782959,
+      "display": "Puntos"
+    },
+    {
+      "word": "con",
+      "start": 30.1,
+      "end": 30.38,
+      "probability": 0.9724287390708923,
+      "display": "con"
+    },
+    {
+      "word": "país",
+      "start": 30.38,
+      "end": 30.66,
+      "probability": 0.7183204889297485,
+      "display": "país"
+    },
+    {
+      "word": "y",
+      "start": 30.66,
+      "end": 30.96,
+      "probability": 0.9740381240844727,
+      "display": "y"
+    },
+    {
+      "word": "DNI",
+      "start": 30.96,
+      "end": 31.42,
+      "probability": 0.9013755321502686,
+      "display": "DNI"
+    },
+    {
+      "word": "desde",
+      "start": 31.42,
+      "end": 31.6,
+      "probability": 0.9886447191238403,
+      "display": "desde"
+    },
+    {
+      "word": "el",
+      "start": 31.6,
+      "end": 31.76,
+      "probability": 0.990747332572937,
+      "display": "el"
+    },
+    {
+      "word": "comercio.",
+      "start": 31.76,
+      "end": 32.2,
+      "probability": 0.9914941489696503,
+      "display": "comercio."
+    },
+    {
+      "word": "Una",
+      "start": 32.52,
+      "end": 32.64,
+      "probability": 0.9461380839347839,
+      "display": "Una"
+    },
+    {
+      "word": "búsqueda",
+      "start": 32.64,
+      "end": 33.14,
+      "probability": 0.9967489987611771,
+      "display": "búsqueda"
+    },
+    {
+      "word": "sin",
+      "start": 33.14,
+      "end": 33.32,
+      "probability": 0.9457087516784668,
+      "display": "sin"
+    },
+    {
+      "word": "resultados",
+      "start": 33.32,
+      "end": 33.82,
+      "probability": 0.9958672523498535,
+      "display": "resultados"
+    },
+    {
+      "word": "no",
+      "start": 33.82,
+      "end": 34.16,
+      "probability": 0.9828238487243652,
+      "display": "no"
+    },
+    {
+      "word": "es",
+      "start": 34.16,
+      "end": 34.3,
+      "probability": 0.99922776222229,
+      "display": "es"
+    },
+    {
+      "word": "un",
+      "start": 34.3,
+      "end": 34.42,
+      "probability": 0.9979369640350342,
+      "display": "un"
+    },
+    {
+      "word": "error",
+      "start": 34.42,
+      "end": 34.62,
+      "probability": 0.9957917928695679,
+      "display": "error"
+    },
+    {
+      "word": "de",
+      "start": 34.62,
+      "end": 34.78,
+      "probability": 0.9995032548904419,
+      "display": "de"
+    },
+    {
+      "word": "carga.",
+      "start": 34.78,
+      "end": 34.96,
+      "probability": 0.9939640164375305,
+      "display": "carga."
+    }
+  ],
+  "captions": [
+    {
+      "text": "En Clientes podés buscar por nombre o DNI, incluso usando solo una parte.",
+      "startMs": 0,
+      "endMs": 5000,
+      "timestampMs": null,
+      "confidence": 0.906
+    },
+    {
+      "text": "El filtro permite ver todos, activos o archivados;",
+      "startMs": 5500,
+      "endMs": 8400,
+      "timestampMs": null,
+      "confidence": 0.981
+    },
+    {
+      "text": "dejá la búsqueda vacía para recuperar la lista.",
+      "startMs": 8840,
+      "endMs": 11160,
+      "timestampMs": null,
+      "confidence": 0.987
+    },
+    {
+      "text": "Entramos en Ver detalle para revisar el saldo y los movimientos.",
+      "startMs": 11640,
+      "endMs": 15020,
+      "timestampMs": null,
+      "confidence": 0.919
+    },
+    {
+      "text": "Cada movimiento muestra su fecha y distingue puntos sumados, canjes o",
+      "startMs": 15620,
+      "endMs": 19740,
+      "timestampMs": null,
+      "confidence": 0.986
+    },
+    {
+      "text": "vencimientos.",
+      "startMs": 19740,
+      "endMs": 20220,
+      "timestampMs": null,
+      "confidence": 0.995
+    },
+    {
+      "text": "Los contactos se consultan con una acción específica y se pueden volver a",
+      "startMs": 20820,
+      "endMs": 24780,
+      "timestampMs": null,
+      "confidence": 0.991
+    },
+    {
+      "text": "ocultar.",
+      "startMs": 24780,
+      "endMs": 25180,
+      "timestampMs": null,
+      "confidence": 0.997
+    },
+    {
+      "text": "Si hay varias páginas, avanzá con sus controles.",
+      "startMs": 25500,
+      "endMs": 28000,
+      "timestampMs": null,
+      "confidence": 0.954
+    },
+    {
+      "text": "También puedes usar Consultar Puntos con país y DNI desde el comercio.",
+      "startMs": 28000,
+      "endMs": 32200,
+      "timestampMs": null,
+      "confidence": 0.896
+    },
+    {
+      "text": "Una búsqueda sin resultados no es un error de carga.",
+      "startMs": 32520,
+      "endMs": 34960,
+      "timestampMs": null,
+      "confidence": 0.985
+    }
+  ],
+  "status": "REVIEW_REQUIRED"
+}

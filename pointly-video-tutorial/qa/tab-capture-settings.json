@@ -1,0 +1,12 @@
+{
+  "aspectRatio": 1.7777777777777777,
+  "cursor": "motion",
+  "deviceId": "web-contents-media-stream://5:9",
+  "displaySurface": "browser",
+  "frameRate": 60,
+  "height": 1080,
+  "logicalSurface": true,
+  "resizeMode": "crop-and-scale",
+  "width": 1920,
+  "paintFrames": 233
+}

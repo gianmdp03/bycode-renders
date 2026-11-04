@@ -1,0 +1,649 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "4040d26d54c4581ddeccec0c4e41a1800b02cb50be6904b39ed4930176a2a74f",
+  "transcript": "Para dejar de operar con un cliente, usá Archivar desde sin actividad y leé la confirmación. El archivo es manual. Una persona no se archiva simplemente por aparecer en esta lista. La cuenta deja de ocupar cupo activo, pero conserva su historial y sus vencimientos. Desde Archivados, podés reactivarla si hay lugar en tu plan. La billetera sigue mostrando el comercio y los puntos vigentes con un aviso de cuenta archivada. Para volver a operar, la reactivación la realiza el comercio.",
+  "scriptSimilarity": 1.0,
+  "differences": [],
+  "words": [
+    {
+      "word": "Para",
+      "start": 0.0,
+      "end": 0.32,
+      "probability": 0.9745481014251709,
+      "display": "Para"
+    },
+    {
+      "word": "dejar",
+      "start": 0.32,
+      "end": 0.56,
+      "probability": 0.9958534240722656,
+      "display": "dejar"
+    },
+    {
+      "word": "de",
+      "start": 0.56,
+      "end": 0.7,
+      "probability": 0.9979879856109619,
+      "display": "de"
+    },
+    {
+      "word": "operar",
+      "start": 0.7,
+      "end": 1.06,
+      "probability": 0.9964785873889923,
+      "display": "operar"
+    },
+    {
+      "word": "con",
+      "start": 1.06,
+      "end": 1.18,
+      "probability": 0.9976782202720642,
+      "display": "con"
+    },
+    {
+      "word": "un",
+      "start": 1.18,
+      "end": 1.32,
+      "probability": 0.9994082450866699,
+      "display": "un"
+    },
+    {
+      "word": "cliente,",
+      "start": 1.32,
+      "end": 1.8,
+      "probability": 0.9940780997276306,
+      "display": "cliente,"
+    },
+    {
+      "word": "usá",
+      "start": 2.0,
+      "end": 2.3,
+      "probability": 0.5127624422311783,
+      "display": "usá"
+    },
+    {
+      "word": "Archivar",
+      "start": 2.3,
+      "end": 2.78,
+      "probability": 0.82783043384552,
+      "display": "Archivar"
+    },
+    {
+      "word": "desde",
+      "start": 2.78,
+      "end": 3.0,
+      "probability": 0.9964487552642822,
+      "display": "desde"
+    },
+    {
+      "word": "sin",
+      "start": 3.0,
+      "end": 3.44,
+      "probability": 0.5043869018554688,
+      "display": "Sin"
+    },
+    {
+      "word": "actividad",
+      "start": 3.44,
+      "end": 3.96,
+      "probability": 0.9311822056770325,
+      "display": "actividad"
+    },
+    {
+      "word": "y",
+      "start": 3.96,
+      "end": 4.26,
+      "probability": 0.9718410968780518,
+      "display": "y"
+    },
+    {
+      "word": "leé",
+      "start": 4.26,
+      "end": 4.48,
+      "probability": 0.7560251355171204,
+      "display": "leé"
+    },
+    {
+      "word": "la",
+      "start": 4.48,
+      "end": 4.6,
+      "probability": 0.9971103668212891,
+      "display": "la"
+    },
+    {
+      "word": "confirmación.",
+      "start": 4.6,
+      "end": 5.2,
+      "probability": 0.9840508699417114,
+      "display": "confirmación."
+    },
+    {
+      "word": "El",
+      "start": 5.94,
+      "end": 6.18,
+      "probability": 0.9821366667747498,
+      "display": "El"
+    },
+    {
+      "word": "archivo",
+      "start": 6.18,
+      "end": 6.54,
+      "probability": 0.963779479265213,
+      "display": "archivo"
+    },
+    {
+      "word": "es",
+      "start": 6.54,
+      "end": 6.66,
+      "probability": 0.9985069632530212,
+      "display": "es"
+    },
+    {
+      "word": "manual.",
+      "start": 6.66,
+      "end": 6.86,
+      "probability": 0.9893506169319153,
+      "display": "manual:"
+    },
+    {
+      "word": "Una",
+      "start": 7.42,
+      "end": 7.6,
+      "probability": 0.9824735522270203,
+      "display": "una"
+    },
+    {
+      "word": "persona",
+      "start": 7.6,
+      "end": 8.0,
+      "probability": 0.9997313618659973,
+      "display": "persona"
+    },
+    {
+      "word": "no",
+      "start": 8.0,
+      "end": 8.2,
+      "probability": 0.9985840320587158,
+      "display": "no"
+    },
+    {
+      "word": "se",
+      "start": 8.2,
+      "end": 8.34,
+      "probability": 0.9992849230766296,
+      "display": "se"
+    },
+    {
+      "word": "archiva",
+      "start": 8.34,
+      "end": 8.7,
+      "probability": 0.8836979269981384,
+      "display": "archiva"
+    },
+    {
+      "word": "simplemente",
+      "start": 8.7,
+      "end": 9.04,
+      "probability": 0.9958842396736145,
+      "display": "simplemente"
+    },
+    {
+      "word": "por",
+      "start": 9.04,
+      "end": 9.56,
+      "probability": 0.9928597211837769,
+      "display": "por"
+    },
+    {
+      "word": "aparecer",
+      "start": 9.56,
+      "end": 9.92,
+      "probability": 0.9962477087974548,
+      "display": "aparecer"
+    },
+    {
+      "word": "en",
+      "start": 9.92,
+      "end": 10.16,
+      "probability": 0.998007595539093,
+      "display": "en"
+    },
+    {
+      "word": "esta",
+      "start": 10.16,
+      "end": 10.36,
+      "probability": 0.9841815233230591,
+      "display": "esta"
+    },
+    {
+      "word": "lista.",
+      "start": 10.36,
+      "end": 10.62,
+      "probability": 0.9990456700325012,
+      "display": "lista."
+    },
+    {
+      "word": "La",
+      "start": 11.28,
+      "end": 11.56,
+      "probability": 0.9947383999824524,
+      "display": "La"
+    },
+    {
+      "word": "cuenta",
+      "start": 11.56,
+      "end": 11.78,
+      "probability": 0.9881436228752136,
+      "display": "cuenta"
+    },
+    {
+      "word": "deja",
+      "start": 11.78,
+      "end": 12.12,
+      "probability": 0.9874116778373718,
+      "display": "deja"
+    },
+    {
+      "word": "de",
+      "start": 12.12,
+      "end": 12.3,
+      "probability": 0.9995226860046387,
+      "display": "de"
+    },
+    {
+      "word": "ocupar",
+      "start": 12.3,
+      "end": 12.68,
+      "probability": 0.9975949823856354,
+      "display": "ocupar"
+    },
+    {
+      "word": "cupo",
+      "start": 12.68,
+      "end": 13.0,
+      "probability": 0.6173393651843071,
+      "display": "cupo"
+    },
+    {
+      "word": "activo,",
+      "start": 13.0,
+      "end": 13.46,
+      "probability": 0.9906831979751587,
+      "display": "activo,"
+    },
+    {
+      "word": "pero",
+      "start": 13.66,
+      "end": 13.86,
+      "probability": 0.9983386993408203,
+      "display": "pero"
+    },
+    {
+      "word": "conserva",
+      "start": 13.86,
+      "end": 14.32,
+      "probability": 0.9950174391269684,
+      "display": "conserva"
+    },
+    {
+      "word": "su",
+      "start": 14.32,
+      "end": 14.46,
+      "probability": 0.9957666397094727,
+      "display": "su"
+    },
+    {
+      "word": "historial",
+      "start": 14.46,
+      "end": 14.86,
+      "probability": 0.9801762104034424,
+      "display": "historial"
+    },
+    {
+      "word": "y",
+      "start": 14.86,
+      "end": 15.1,
+      "probability": 0.9975516200065613,
+      "display": "y"
+    },
+    {
+      "word": "sus",
+      "start": 15.1,
+      "end": 15.26,
+      "probability": 0.9886084794998169,
+      "display": "sus"
+    },
+    {
+      "word": "vencimientos.",
+      "start": 15.26,
+      "end": 15.74,
+      "probability": 0.992344339688619,
+      "display": "vencimientos."
+    },
+    {
+      "word": "Desde",
+      "start": 16.48,
+      "end": 16.72,
+      "probability": 0.9901713728904724,
+      "display": "Desde"
+    },
+    {
+      "word": "Archivados,",
+      "start": 16.72,
+      "end": 17.32,
+      "probability": 0.8543294668197632,
+      "display": "Archivados"
+    },
+    {
+      "word": "podés",
+      "start": 17.6,
+      "end": 17.84,
+      "probability": 0.91000697016716,
+      "display": "podés"
+    },
+    {
+      "word": "reactivarla",
+      "start": 17.84,
+      "end": 18.56,
+      "probability": 0.9861103097597758,
+      "display": "reactivarla"
+    },
+    {
+      "word": "si",
+      "start": 18.56,
+      "end": 18.86,
+      "probability": 0.8812837600708008,
+      "display": "si"
+    },
+    {
+      "word": "hay",
+      "start": 18.86,
+      "end": 19.0,
+      "probability": 0.9988312125205994,
+      "display": "hay"
+    },
+    {
+      "word": "lugar",
+      "start": 19.0,
+      "end": 19.22,
+      "probability": 0.9998712539672852,
+      "display": "lugar"
+    },
+    {
+      "word": "en",
+      "start": 19.22,
+      "end": 19.42,
+      "probability": 0.9988736510276794,
+      "display": "en"
+    },
+    {
+      "word": "tu",
+      "start": 19.42,
+      "end": 19.54,
+      "probability": 0.9978785514831543,
+      "display": "tu"
+    },
+    {
+      "word": "plan.",
+      "start": 19.54,
+      "end": 19.74,
+      "probability": 0.9947012662887573,
+      "display": "plan."
+    },
+    {
+      "word": "La",
+      "start": 20.28,
+      "end": 20.48,
+      "probability": 0.9957870841026306,
+      "display": "La"
+    },
+    {
+      "word": "billetera",
+      "start": 20.48,
+      "end": 20.9,
+      "probability": 0.9704141914844513,
+      "display": "billetera"
+    },
+    {
+      "word": "sigue",
+      "start": 20.9,
+      "end": 21.26,
+      "probability": 0.9987164735794067,
+      "display": "sigue"
+    },
+    {
+      "word": "mostrando",
+      "start": 21.26,
+      "end": 21.74,
+      "probability": 0.9971489012241364,
+      "display": "mostrando"
+    },
+    {
+      "word": "el",
+      "start": 21.74,
+      "end": 21.9,
+      "probability": 0.9986384510993958,
+      "display": "el"
+    },
+    {
+      "word": "comercio",
+      "start": 21.9,
+      "end": 22.38,
+      "probability": 0.9948759078979492,
+      "display": "comercio"
+    },
+    {
+      "word": "y",
+      "start": 22.38,
+      "end": 22.62,
+      "probability": 0.9818863868713379,
+      "display": "y"
+    },
+    {
+      "word": "los",
+      "start": 22.62,
+      "end": 22.78,
+      "probability": 0.9969646334648132,
+      "display": "los"
+    },
+    {
+      "word": "puntos",
+      "start": 22.78,
+      "end": 23.02,
+      "probability": 0.9934189915657043,
+      "display": "puntos"
+    },
+    {
+      "word": "vigentes",
+      "start": 23.02,
+      "end": 23.48,
+      "probability": 0.9491893649101257,
+      "display": "vigentes"
+    },
+    {
+      "word": "con",
+      "start": 23.48,
+      "end": 23.78,
+      "probability": 0.9762489199638367,
+      "display": "con"
+    },
+    {
+      "word": "un",
+      "start": 23.78,
+      "end": 23.92,
+      "probability": 0.9989376664161682,
+      "display": "un"
+    },
+    {
+      "word": "aviso",
+      "start": 23.92,
+      "end": 24.18,
+      "probability": 0.9884532988071442,
+      "display": "aviso"
+    },
+    {
+      "word": "de",
+      "start": 24.18,
+      "end": 24.34,
+      "probability": 0.9988711476325989,
+      "display": "de"
+    },
+    {
+      "word": "cuenta",
+      "start": 24.34,
+      "end": 24.56,
+      "probability": 0.9473283886909485,
+      "display": "cuenta"
+    },
+    {
+      "word": "archivada.",
+      "start": 24.56,
+      "end": 25.12,
+      "probability": 0.9902122418085734,
+      "display": "archivada;"
+    },
+    {
+      "word": "Para",
+      "start": 25.56,
+      "end": 25.78,
+      "probability": 0.9979891777038574,
+      "display": "para"
+    },
+    {
+      "word": "volver",
+      "start": 25.78,
+      "end": 26.04,
+      "probability": 0.9997398257255554,
+      "display": "volver"
+    },
+    {
+      "word": "a",
+      "start": 26.04,
+      "end": 26.18,
+      "probability": 0.9996163845062256,
+      "display": "a"
+    },
+    {
+      "word": "operar,",
+      "start": 26.18,
+      "end": 26.58,
+      "probability": 0.9984159469604492,
+      "display": "operar,"
+    },
+    {
+      "word": "la",
+      "start": 26.8,
+      "end": 26.86,
+      "probability": 0.9950823783874512,
+      "display": "la"
+    },
+    {
+      "word": "reactivación",
+      "start": 26.86,
+      "end": 27.58,
+      "probability": 0.9899714986483256,
+      "display": "reactivación"
+    },
+    {
+      "word": "la",
+      "start": 27.58,
+      "end": 27.78,
+      "probability": 0.9811140894889832,
+      "display": "la"
+    },
+    {
+      "word": "realiza",
+      "start": 27.78,
+      "end": 28.18,
+      "probability": 0.9933634400367737,
+      "display": "realiza"
+    },
+    {
+      "word": "el",
+      "start": 28.18,
+      "end": 28.26,
+      "probability": 0.9829198122024536,
+      "display": "el"
+    },
+    {
+      "word": "comercio.",
+      "start": 28.26,
+      "end": 28.68,
+      "probability": 0.9980604350566864,
+      "display": "comercio."
+    }
+  ],
+  "captions": [
+    {
+      "text": "Para dejar de operar con un cliente, usá Archivar desde Sin actividad y leé la",
+      "startMs": 0,
+      "endMs": 4600,
+      "timestampMs": null,
+      "confidence": 0.897
+    },
+    {
+      "text": "confirmación.",
+      "startMs": 4600,
+      "endMs": 5200,
+      "timestampMs": null,
+      "confidence": 0.984
+    },
+    {
+      "text": "El archivo es manual:",
+      "startMs": 5940,
+      "endMs": 6860,
+      "timestampMs": null,
+      "confidence": 0.983
+    },
+    {
+      "text": "una persona no se archiva simplemente por aparecer en esta lista.",
+      "startMs": 7420,
+      "endMs": 10620,
+      "timestampMs": null,
+      "confidence": 0.985
+    },
+    {
+      "text": "La cuenta deja de ocupar cupo activo, pero conserva su historial y sus",
+      "startMs": 11280,
+      "endMs": 15260,
+      "timestampMs": null,
+      "confidence": 0.964
+    },
+    {
+      "text": "vencimientos.",
+      "startMs": 15260,
+      "endMs": 15740,
+      "timestampMs": null,
+      "confidence": 0.992
+    },
+    {
+      "text": "Desde Archivados podés reactivarla si hay lugar en tu plan.",
+      "startMs": 16480,
+      "endMs": 19740,
+      "timestampMs": null,
+      "confidence": 0.961
+    },
+    {
+      "text": "La billetera sigue mostrando el comercio y los puntos vigentes con un aviso de",
+      "startMs": 20280,
+      "endMs": 24340,
+      "timestampMs": null,
+      "confidence": 0.989
+    },
+    {
+      "text": "cuenta archivada;",
+      "startMs": 24340,
+      "endMs": 25120,
+      "timestampMs": null,
+      "confidence": 0.969
+    },
+    {
+      "text": "para volver a operar, la reactivación la realiza el comercio.",
+      "startMs": 25560,
+      "endMs": 28680,
+      "timestampMs": null,
+      "confidence": 0.994
+    }
+  ],
+  "status": "ACOUSTIC_MATCH"
+}

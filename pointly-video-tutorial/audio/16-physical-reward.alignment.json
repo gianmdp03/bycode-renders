@@ -1,0 +1,642 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "53c93bf4a76cde2a8ae29c2ced1a60a90193c683362568477ecbb6a0f17ce92b",
+  "transcript": "En Premios vamos a crear una recompensa física, un desayuno de regalo. Elegí premio físico, agregá nombre, condiciones y, si tenés, una foto. El costo indica cuántos puntos necesita el cliente para obtener ese premio. La calculadora es una ayuda. Ingresa el precio de la recompensa y cuánto querés que gaste el cliente para alcanzarla. Calculá, revisa el resultado y usalo como costo si encaja con tu programa. La sugerencia no guarda el premio, todavía tenés que confirmar el formulario.",
+  "scriptSimilarity": 1.0,
+  "differences": [],
+  "words": [
+    {
+      "word": "En",
+      "start": 0.0,
+      "end": 0.52,
+      "probability": 0.8023567199707031,
+      "display": "En"
+    },
+    {
+      "word": "Premios",
+      "start": 0.52,
+      "end": 0.86,
+      "probability": 0.7235693782567978,
+      "display": "Premios"
+    },
+    {
+      "word": "vamos",
+      "start": 0.86,
+      "end": 1.12,
+      "probability": 0.5752868056297302,
+      "display": "vamos"
+    },
+    {
+      "word": "a",
+      "start": 1.12,
+      "end": 1.32,
+      "probability": 0.9987708926200867,
+      "display": "a"
+    },
+    {
+      "word": "crear",
+      "start": 1.32,
+      "end": 1.52,
+      "probability": 0.9945833086967468,
+      "display": "crear"
+    },
+    {
+      "word": "una",
+      "start": 1.52,
+      "end": 1.8,
+      "probability": 0.9927991628646851,
+      "display": "una"
+    },
+    {
+      "word": "recompensa",
+      "start": 1.8,
+      "end": 2.38,
+      "probability": 0.9782335162162781,
+      "display": "recompensa"
+    },
+    {
+      "word": "física,",
+      "start": 2.38,
+      "end": 2.76,
+      "probability": 0.9957081079483032,
+      "display": "física:"
+    },
+    {
+      "word": "un",
+      "start": 3.12,
+      "end": 3.28,
+      "probability": 0.9803738594055176,
+      "display": "un"
+    },
+    {
+      "word": "desayuno",
+      "start": 3.28,
+      "end": 3.78,
+      "probability": 0.9941320816675822,
+      "display": "desayuno"
+    },
+    {
+      "word": "de",
+      "start": 3.78,
+      "end": 3.96,
+      "probability": 0.9957695007324219,
+      "display": "de"
+    },
+    {
+      "word": "regalo.",
+      "start": 3.96,
+      "end": 4.38,
+      "probability": 0.9923780858516693,
+      "display": "regalo."
+    },
+    {
+      "word": "Elegí",
+      "start": 5.02,
+      "end": 5.34,
+      "probability": 0.8247952858606974,
+      "display": "Elegí"
+    },
+    {
+      "word": "premio",
+      "start": 5.34,
+      "end": 5.68,
+      "probability": 0.6644158959388733,
+      "display": "Premio"
+    },
+    {
+      "word": "físico,",
+      "start": 5.68,
+      "end": 6.18,
+      "probability": 0.992302417755127,
+      "display": "físico,"
+    },
+    {
+      "word": "agregá",
+      "start": 6.4,
+      "end": 6.74,
+      "probability": 0.7405437032381693,
+      "display": "agregá"
+    },
+    {
+      "word": "nombre,",
+      "start": 6.74,
+      "end": 7.0,
+      "probability": 0.965297281742096,
+      "display": "nombre,"
+    },
+    {
+      "word": "condiciones",
+      "start": 7.28,
+      "end": 7.62,
+      "probability": 0.9715296626091003,
+      "display": "condiciones"
+    },
+    {
+      "word": "y,",
+      "start": 7.62,
+      "end": 8.22,
+      "probability": 0.8086234331130981,
+      "display": "y,"
+    },
+    {
+      "word": "si",
+      "start": 8.42,
+      "end": 8.44,
+      "probability": 0.9780336022377014,
+      "display": "si"
+    },
+    {
+      "word": "tenés,",
+      "start": 8.44,
+      "end": 8.84,
+      "probability": 0.9667245149612427,
+      "display": "tenés,"
+    },
+    {
+      "word": "una",
+      "start": 9.04,
+      "end": 9.2,
+      "probability": 0.9936556816101074,
+      "display": "una"
+    },
+    {
+      "word": "foto.",
+      "start": 9.2,
+      "end": 9.52,
+      "probability": 0.9987326264381409,
+      "display": "foto."
+    },
+    {
+      "word": "El",
+      "start": 10.66,
+      "end": 10.84,
+      "probability": 0.9778286218643188,
+      "display": "El"
+    },
+    {
+      "word": "costo",
+      "start": 10.84,
+      "end": 11.22,
+      "probability": 0.9934056103229523,
+      "display": "costo"
+    },
+    {
+      "word": "indica",
+      "start": 11.22,
+      "end": 11.52,
+      "probability": 0.9946021139621735,
+      "display": "indica"
+    },
+    {
+      "word": "cuántos",
+      "start": 11.52,
+      "end": 11.92,
+      "probability": 0.8986198306083679,
+      "display": "cuántos"
+    },
+    {
+      "word": "puntos",
+      "start": 11.92,
+      "end": 12.16,
+      "probability": 0.9981899857521057,
+      "display": "puntos"
+    },
+    {
+      "word": "necesita",
+      "start": 12.16,
+      "end": 12.54,
+      "probability": 0.9953126907348633,
+      "display": "necesita"
+    },
+    {
+      "word": "el",
+      "start": 12.54,
+      "end": 12.9,
+      "probability": 0.9955958724021912,
+      "display": "el"
+    },
+    {
+      "word": "cliente",
+      "start": 12.9,
+      "end": 13.3,
+      "probability": 0.9969849288463593,
+      "display": "cliente"
+    },
+    {
+      "word": "para",
+      "start": 13.3,
+      "end": 13.46,
+      "probability": 0.9978189468383789,
+      "display": "para"
+    },
+    {
+      "word": "obtener",
+      "start": 13.46,
+      "end": 13.88,
+      "probability": 0.9991973340511322,
+      "display": "obtener"
+    },
+    {
+      "word": "ese",
+      "start": 13.88,
+      "end": 14.04,
+      "probability": 0.9541787505149841,
+      "display": "ese"
+    },
+    {
+      "word": "premio.",
+      "start": 14.04,
+      "end": 14.42,
+      "probability": 0.9787238240242004,
+      "display": "premio."
+    },
+    {
+      "word": "La",
+      "start": 14.84,
+      "end": 15.02,
+      "probability": 0.9909667372703552,
+      "display": "La"
+    },
+    {
+      "word": "calculadora",
+      "start": 15.02,
+      "end": 15.58,
+      "probability": 0.9903334081172943,
+      "display": "calculadora"
+    },
+    {
+      "word": "es",
+      "start": 15.58,
+      "end": 15.96,
+      "probability": 0.9946286082267761,
+      "display": "es"
+    },
+    {
+      "word": "una",
+      "start": 15.96,
+      "end": 16.1,
+      "probability": 0.9876177906990051,
+      "display": "una"
+    },
+    {
+      "word": "ayuda.",
+      "start": 16.1,
+      "end": 16.34,
+      "probability": 0.9981963038444519,
+      "display": "ayuda:"
+    },
+    {
+      "word": "Ingresa",
+      "start": 16.94,
+      "end": 17.38,
+      "probability": 0.7726298371950785,
+      "display": "ingresá"
+    },
+    {
+      "word": "el",
+      "start": 17.38,
+      "end": 17.48,
+      "probability": 0.9884644150733948,
+      "display": "el"
+    },
+    {
+      "word": "precio",
+      "start": 17.48,
+      "end": 17.7,
+      "probability": 0.9963900446891785,
+      "display": "precio"
+    },
+    {
+      "word": "de",
+      "start": 17.7,
+      "end": 17.86,
+      "probability": 0.9985925555229187,
+      "display": "de"
+    },
+    {
+      "word": "la",
+      "start": 17.86,
+      "end": 17.98,
+      "probability": 0.9984682202339172,
+      "display": "la"
+    },
+    {
+      "word": "recompensa",
+      "start": 17.98,
+      "end": 18.58,
+      "probability": 0.9990632832050323,
+      "display": "recompensa"
+    },
+    {
+      "word": "y",
+      "start": 18.58,
+      "end": 18.86,
+      "probability": 0.9689703583717346,
+      "display": "y"
+    },
+    {
+      "word": "cuánto",
+      "start": 18.86,
+      "end": 19.26,
+      "probability": 0.9456507861614227,
+      "display": "cuánto"
+    },
+    {
+      "word": "querés",
+      "start": 19.26,
+      "end": 19.56,
+      "probability": 0.9725919961929321,
+      "display": "querés"
+    },
+    {
+      "word": "que",
+      "start": 19.56,
+      "end": 19.7,
+      "probability": 0.9988729357719421,
+      "display": "que"
+    },
+    {
+      "word": "gaste",
+      "start": 19.7,
+      "end": 19.96,
+      "probability": 0.9310491383075714,
+      "display": "gaste"
+    },
+    {
+      "word": "el",
+      "start": 19.96,
+      "end": 20.08,
+      "probability": 0.9473721385002136,
+      "display": "el"
+    },
+    {
+      "word": "cliente",
+      "start": 20.08,
+      "end": 20.48,
+      "probability": 0.9989475905895233,
+      "display": "cliente"
+    },
+    {
+      "word": "para",
+      "start": 20.48,
+      "end": 20.64,
+      "probability": 0.9982388019561768,
+      "display": "para"
+    },
+    {
+      "word": "alcanzarla.",
+      "start": 20.64,
+      "end": 21.22,
+      "probability": 0.9838520586490631,
+      "display": "alcanzarla."
+    },
+    {
+      "word": "Calculá,",
+      "start": 21.92,
+      "end": 22.42,
+      "probability": 0.8033638397852579,
+      "display": "Calculá,"
+    },
+    {
+      "word": "revisa",
+      "start": 22.68,
+      "end": 22.94,
+      "probability": 0.787388265132904,
+      "display": "revisá"
+    },
+    {
+      "word": "el",
+      "start": 22.94,
+      "end": 23.06,
+      "probability": 0.9990946054458618,
+      "display": "el"
+    },
+    {
+      "word": "resultado",
+      "start": 23.06,
+      "end": 23.36,
+      "probability": 0.9989780187606812,
+      "display": "resultado"
+    },
+    {
+      "word": "y",
+      "start": 23.36,
+      "end": 23.84,
+      "probability": 0.9638107419013977,
+      "display": "y"
+    },
+    {
+      "word": "usalo",
+      "start": 23.84,
+      "end": 24.16,
+      "probability": 0.6930169314146042,
+      "display": "usalo"
+    },
+    {
+      "word": "como",
+      "start": 24.16,
+      "end": 24.38,
+      "probability": 0.9909974336624146,
+      "display": "como"
+    },
+    {
+      "word": "costo",
+      "start": 24.38,
+      "end": 24.84,
+      "probability": 0.9823705554008484,
+      "display": "costo"
+    },
+    {
+      "word": "si",
+      "start": 24.84,
+      "end": 25.04,
+      "probability": 0.9596784710884094,
+      "display": "si"
+    },
+    {
+      "word": "encaja",
+      "start": 25.04,
+      "end": 25.4,
+      "probability": 0.9964453279972076,
+      "display": "encaja"
+    },
+    {
+      "word": "con",
+      "start": 25.4,
+      "end": 25.58,
+      "probability": 0.9971051812171936,
+      "display": "con"
+    },
+    {
+      "word": "tu",
+      "start": 25.58,
+      "end": 25.7,
+      "probability": 0.9978761672973633,
+      "display": "tu"
+    },
+    {
+      "word": "programa.",
+      "start": 25.7,
+      "end": 26.02,
+      "probability": 0.997463583946228,
+      "display": "programa."
+    },
+    {
+      "word": "La",
+      "start": 26.02,
+      "end": 27.04,
+      "probability": 0.8240340352058411,
+      "display": "La"
+    },
+    {
+      "word": "sugerencia",
+      "start": 27.04,
+      "end": 27.64,
+      "probability": 0.9829263687133789,
+      "display": "sugerencia"
+    },
+    {
+      "word": "no",
+      "start": 27.64,
+      "end": 27.88,
+      "probability": 0.8969939947128296,
+      "display": "no"
+    },
+    {
+      "word": "guarda",
+      "start": 27.88,
+      "end": 28.24,
+      "probability": 0.9791324436664581,
+      "display": "guarda"
+    },
+    {
+      "word": "el",
+      "start": 28.24,
+      "end": 28.28,
+      "probability": 0.9829686284065247,
+      "display": "el"
+    },
+    {
+      "word": "premio,",
+      "start": 28.28,
+      "end": 28.7,
+      "probability": 0.9861368238925934,
+      "display": "premio:"
+    },
+    {
+      "word": "todavía",
+      "start": 29.04,
+      "end": 29.36,
+      "probability": 0.9891178011894226,
+      "display": "todavía"
+    },
+    {
+      "word": "tenés",
+      "start": 29.36,
+      "end": 29.78,
+      "probability": 0.939991682767868,
+      "display": "tenés"
+    },
+    {
+      "word": "que",
+      "start": 29.78,
+      "end": 29.86,
+      "probability": 0.9973875880241394,
+      "display": "que"
+    },
+    {
+      "word": "confirmar",
+      "start": 29.86,
+      "end": 30.4,
+      "probability": 0.9912093579769135,
+      "display": "confirmar"
+    },
+    {
+      "word": "el",
+      "start": 30.4,
+      "end": 30.48,
+      "probability": 0.9988319277763367,
+      "display": "el"
+    },
+    {
+      "word": "formulario.",
+      "start": 30.48,
+      "end": 31.08,
+      "probability": 0.9927064180374146,
+      "display": "formulario."
+    }
+  ],
+  "captions": [
+    {
+      "text": "En Premios vamos a crear una recompensa física:",
+      "startMs": 0,
+      "endMs": 2760,
+      "timestampMs": null,
+      "confidence": 0.883
+    },
+    {
+      "text": "un desayuno de regalo.",
+      "startMs": 3120,
+      "endMs": 4380,
+      "timestampMs": null,
+      "confidence": 0.991
+    },
+    {
+      "text": "Elegí Premio físico, agregá nombre, condiciones y, si tenés, una foto.",
+      "startMs": 5020,
+      "endMs": 9520,
+      "timestampMs": null,
+      "confidence": 0.9
+    },
+    {
+      "text": "El costo indica cuántos puntos necesita el cliente para obtener ese premio.",
+      "startMs": 10660,
+      "endMs": 14420,
+      "timestampMs": null,
+      "confidence": 0.982
+    },
+    {
+      "text": "La calculadora es una ayuda:",
+      "startMs": 14840,
+      "endMs": 16340,
+      "timestampMs": null,
+      "confidence": 0.992
+    },
+    {
+      "text": "ingresá el precio de la recompensa y cuánto querés que gaste el cliente para",
+      "startMs": 16940,
+      "endMs": 20640,
+      "timestampMs": null,
+      "confidence": 0.965
+    },
+    {
+      "text": "alcanzarla.",
+      "startMs": 20640,
+      "endMs": 21220,
+      "timestampMs": null,
+      "confidence": 0.984
+    },
+    {
+      "text": "Calculá, revisá el resultado y usalo como costo si encaja con tu programa.",
+      "startMs": 21920,
+      "endMs": 26020,
+      "timestampMs": null,
+      "confidence": 0.936
+    },
+    {
+      "text": "La sugerencia no guarda el premio:",
+      "startMs": 26020,
+      "endMs": 28700,
+      "timestampMs": null,
+      "confidence": 0.942
+    },
+    {
+      "text": "todavía tenés que confirmar el formulario.",
+      "startMs": 29040,
+      "endMs": 31080,
+      "timestampMs": null,
+      "confidence": 0.985
+    }
+  ],
+  "status": "ACOUSTIC_MATCH"
+}

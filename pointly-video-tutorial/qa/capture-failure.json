@@ -1,0 +1,10 @@
+{
+  "scene": "01-intro",
+  "error": "page.waitForURL: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation until \"load\"\n  navigated to \"http://localhost:25201/login\"\n  navigated to \"http://localhost:25201/login\"\n============================================================",
+  "url": "/login",
+  "buttons": [
+    "Modo oscuro",
+    "Ingresar al panel"
+  ],
+  "text": "Pointly\n← Volver al inicio\nModo oscuro\nIngresar como comercio\nPointly\nTu comercio, en un solo lugar.\n\nGestioná clientes, puntos y recompensas.\n\nTu cuenta sirve para Bycode, Pointly y DoctorChart. Si ya tenés cuenta, usá ese mismo correo para entrar. Cada aplicación tiene su propio plan.\n\n¿Sos cliente y no tenés un comercio?\n\nConsultá tus puntos con país y DNI, sin iniciar sesión.\n\n← Volver al modo cliente\nAcceso comercial\n\nIngresá con tu cuenta de Bycode para gestionar tu comercio.\n\nCorreo de tu cuenta de comerciante\nContraseña\nIngresar al panel\n\n¿Todavía no tenés cuenta? Crear cuenta en Bycode\n\n© 2026 Pointly · Una aplicación de Bycode"
+}

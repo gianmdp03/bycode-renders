@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "En Correos elegís Sí o No. Los avisos están desactivados por defecto y solo se preparan para clientes activos con correo cargado. Hay tres ejemplos del contenido real; abrir cada vista previa no envía un mensaje. No hay que escribir plantillas ni completar variables. Si elegís No, se cancelan los avisos pendientes; un correo ya entregado al servicio de envío no se puede retirar. WhatsApp es independiente y sigue siendo manual. Acá verificamos la configuración y las vistas previas, con el envío externo desactivado en el entorno de prueba.",
+  "spokenText": "En Correos elegís Sí o No. Los avisos están desactivados por defecto y solo se preparan para clientes activos con correo cargado. Hay tres ejemplos del contenido real; abrir cada vista previa no envía un mensaje. No hay que escribir plantillas ni completar variables. Si elegís No, se cancelan los avisos pendientes; un correo ya entregado al servicio de envío no se puede retirar. guasap es independiente y sigue siendo manual. Acá verificamos la configuración y las vistas previas, con el envío externo desactivado en el entorno de prueba.",
+  "text_sha256": "705416faf0d8f82e853cb1bd13853af007d1000829260bd053a4c2348eb7bac2",
+  "sha256": "d99c28b9b27d4e6e8e5154197ce89b3f1e0c884815d697a8d1b37ff2d842abbf",
+  "duration": 32.32,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 139.41,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

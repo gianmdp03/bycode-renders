@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "Vamos a registrar una compra para Ana. Buscamos su país y DNI y cargamos ocho mil quinientos pesos. Con nuestra regla, los ocho bloques completos de mil suman ochenta puntos; los quinientos restantes no pasan a otra compra. La pantalla muestra una estimación y el cliente encontrado. Al confirmar se registra la venta y se suman los puntos. Pointly no cobra dinero ni emite una factura por esta acción. Después verificamos la venta y el nuevo movimiento del cliente.",
+  "spokenText": "Vamos a registrar una compra para Ana. Buscamos su país y de ene i y cargamos ocho mil quinientos pesos. Con nuestra regla, los ocho bloques completos de mil suman ochenta puntos; los quinientos restantes no pasan a otra compra. La pantalla muestra una estimación y el cliente encontrado. Al confirmar se registra la venta y se suman los puntos. Pointli no cobra dinero ni emite una factura por esta acción. Después verificamos la venta y el nuevo movimiento del cliente.",
+  "text_sha256": "762c16f3217ccb5c40fe6feabf5a39ae375577695998e558a872b81701e792c8",
+  "sha256": "9198304ab33265dae36c439c76a235dc98c8999c73ae61633169ab0522655716",
+  "duration": 29.6,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 127.73,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

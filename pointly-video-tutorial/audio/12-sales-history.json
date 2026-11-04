@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "La pestaña Ventas muestra las compras, sus importes y fechas. Si aparece Sin dato por venta, no significa cero puntos: consultá el saldo y el historial del cliente. No recalcules una venta antigua con la regla actual, porque pudo tener otra promoción. Una compra menor al mínimo puede registrarse con cero puntos. Si la conexión se corta y no hay un resultado claro, conservá el formulario y usá Reintentar venta pendiente. No empieces otra operación para repetir la misma compra: el reintento conserva su identidad para evitar duplicaciones. Revisá siempre el resultado antes de seguir.",
+  "spokenText": "La pestaña Ventas muestra las compras, sus importes y fechas. Si aparece Sin dato por venta, no significa cero puntos: consultá el saldo y el historial del cliente. No recalcules una venta antigua con la regla actual, porque pudo tener otra promoción. Una compra menor al mínimo puede registrarse con cero puntos. Si la conexión se corta y no hay un resultado claro, conservá el formulario y usá Reintentar venta pendiente. No empieces otra operación para repetir la misma compra: el reintento conserva su identidad para evitar duplicaciones. Revisá siempre el resultado antes de seguir.",
+  "text_sha256": "ecdd4b50d81d7048ca1918e9c2aa819aabdf494180f53e879e864bff795330de",
+  "sha256": "ca9775fdb9e8ac8a7b2fc131df4748042dd58d6cb4cf3be3160ccd5d59e248a9",
+  "duration": 35.76,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 149.88,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

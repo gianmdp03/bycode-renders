@@ -1,0 +1,669 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "3a171af5bec9d8964a05b2d1d173b62e7b3b70822efee44a56419c505cc9e5f2",
+  "transcript": "La foto ayuda al cliente a reconocer el comercio. Podemos subir un archivo JPEG, PNG o WebP de hasta 10 MB. Ajustamos el recorte con los controles de posición y zoom y guardamos la imagen. Desde esta misma página, también se puede reemplazar o quitar la foto. El nombre público del enlace se modifica desde su configuración. Revisá la disponibilidad y la advertencia. Al confirmar el cambio, el acceso anterior deja de funcionar. Compartí el nuevo enlace y el nuevo QR con tus clientes.",
+  "scriptSimilarity": 0.9762,
+  "differences": [
+    {
+      "op": "replace",
+      "expected": "diez megabytes.",
+      "heard": "10 MB."
+    }
+  ],
+  "words": [
+    {
+      "word": "La",
+      "start": 0.0,
+      "end": 0.28,
+      "probability": 0.7209244966506958,
+      "display": "La"
+    },
+    {
+      "word": "foto",
+      "start": 0.28,
+      "end": 0.52,
+      "probability": 0.9950886368751526,
+      "display": "foto"
+    },
+    {
+      "word": "ayuda",
+      "start": 0.52,
+      "end": 0.78,
+      "probability": 0.9635009169578552,
+      "display": "ayuda"
+    },
+    {
+      "word": "al",
+      "start": 0.78,
+      "end": 0.98,
+      "probability": 0.9556698203086853,
+      "display": "al"
+    },
+    {
+      "word": "cliente",
+      "start": 0.98,
+      "end": 1.4,
+      "probability": 0.9963371455669403,
+      "display": "cliente"
+    },
+    {
+      "word": "a",
+      "start": 1.4,
+      "end": 1.5,
+      "probability": 0.9952563643455505,
+      "display": "a"
+    },
+    {
+      "word": "reconocer",
+      "start": 1.5,
+      "end": 2.02,
+      "probability": 0.9888347685337067,
+      "display": "reconocer"
+    },
+    {
+      "word": "el",
+      "start": 2.02,
+      "end": 2.12,
+      "probability": 0.9965125918388367,
+      "display": "el"
+    },
+    {
+      "word": "comercio.",
+      "start": 2.12,
+      "end": 2.6,
+      "probability": 0.9971312582492828,
+      "display": "comercio."
+    },
+    {
+      "word": "Podemos",
+      "start": 3.08,
+      "end": 3.42,
+      "probability": 0.9956353306770325,
+      "display": "Podemos"
+    },
+    {
+      "word": "subir",
+      "start": 3.42,
+      "end": 3.66,
+      "probability": 0.9846950173377991,
+      "display": "subir"
+    },
+    {
+      "word": "un",
+      "start": 3.66,
+      "end": 3.86,
+      "probability": 0.9960214495658875,
+      "display": "un"
+    },
+    {
+      "word": "archivo",
+      "start": 3.86,
+      "end": 4.22,
+      "probability": 0.9935641288757324,
+      "display": "archivo"
+    },
+    {
+      "word": "JPEG,",
+      "start": 4.22,
+      "end": 5.08,
+      "probability": 0.5819712579250336,
+      "display": "JPEG,"
+    },
+    {
+      "word": "PNG",
+      "start": 5.1,
+      "end": 5.76,
+      "probability": 0.6608849614858627,
+      "display": "PNG"
+    },
+    {
+      "word": "o",
+      "start": 5.76,
+      "end": 6.4,
+      "probability": 0.7925370335578918,
+      "display": "o"
+    },
+    {
+      "word": "WebP",
+      "start": 6.4,
+      "end": 6.92,
+      "probability": 0.5986654758453369,
+      "display": "WebP"
+    },
+    {
+      "word": "de",
+      "start": 6.92,
+      "end": 7.18,
+      "probability": 0.9787278771400452,
+      "display": "de"
+    },
+    {
+      "word": "hasta",
+      "start": 7.18,
+      "end": 7.36,
+      "probability": 0.9925375580787659,
+      "display": "hasta"
+    },
+    {
+      "word": "10",
+      "start": 7.36,
+      "end": 7.7,
+      "probability": 0.9437870979309082,
+      "display": "10"
+    },
+    {
+      "word": "MB.",
+      "start": 7.7,
+      "end": 8.06,
+      "probability": 0.44599875807762146,
+      "display": "MB."
+    },
+    {
+      "word": "Ajustamos",
+      "start": 8.68,
+      "end": 9.28,
+      "probability": 0.9598127802213033,
+      "display": "Ajustamos"
+    },
+    {
+      "word": "el",
+      "start": 9.28,
+      "end": 9.5,
+      "probability": 0.998703122138977,
+      "display": "el"
+    },
+    {
+      "word": "recorte",
+      "start": 9.5,
+      "end": 9.86,
+      "probability": 0.9917061030864716,
+      "display": "recorte"
+    },
+    {
+      "word": "con",
+      "start": 9.86,
+      "end": 10.1,
+      "probability": 0.9967394471168518,
+      "display": "con"
+    },
+    {
+      "word": "los",
+      "start": 10.1,
+      "end": 10.26,
+      "probability": 0.994176983833313,
+      "display": "los"
+    },
+    {
+      "word": "controles",
+      "start": 10.26,
+      "end": 10.82,
+      "probability": 0.9943958520889282,
+      "display": "controles"
+    },
+    {
+      "word": "de",
+      "start": 10.82,
+      "end": 10.96,
+      "probability": 0.995671272277832,
+      "display": "de"
+    },
+    {
+      "word": "posición",
+      "start": 10.96,
+      "end": 11.3,
+      "probability": 0.9350690245628357,
+      "display": "posición"
+    },
+    {
+      "word": "y",
+      "start": 11.3,
+      "end": 11.56,
+      "probability": 0.9470922350883484,
+      "display": "y"
+    },
+    {
+      "word": "zoom",
+      "start": 11.56,
+      "end": 11.8,
+      "probability": 0.9638513922691345,
+      "display": "zoom,"
+    },
+    {
+      "word": "y",
+      "start": 11.8,
+      "end": 12.3,
+      "probability": 0.7940928339958191,
+      "display": "y"
+    },
+    {
+      "word": "guardamos",
+      "start": 12.3,
+      "end": 12.68,
+      "probability": 0.9943173229694366,
+      "display": "guardamos"
+    },
+    {
+      "word": "la",
+      "start": 12.68,
+      "end": 12.92,
+      "probability": 0.999305009841919,
+      "display": "la"
+    },
+    {
+      "word": "imagen.",
+      "start": 12.92,
+      "end": 13.24,
+      "probability": 0.9980365633964539,
+      "display": "imagen."
+    },
+    {
+      "word": "Desde",
+      "start": 13.96,
+      "end": 14.16,
+      "probability": 0.989649772644043,
+      "display": "Desde"
+    },
+    {
+      "word": "esta",
+      "start": 14.16,
+      "end": 14.42,
+      "probability": 0.9917690753936768,
+      "display": "esta"
+    },
+    {
+      "word": "misma",
+      "start": 14.42,
+      "end": 14.78,
+      "probability": 0.9980090260505676,
+      "display": "misma"
+    },
+    {
+      "word": "página,",
+      "start": 14.78,
+      "end": 15.26,
+      "probability": 0.9872670769691467,
+      "display": "página"
+    },
+    {
+      "word": "también",
+      "start": 15.54,
+      "end": 15.78,
+      "probability": 0.9978456497192383,
+      "display": "también"
+    },
+    {
+      "word": "se",
+      "start": 15.78,
+      "end": 15.98,
+      "probability": 0.9986230134963989,
+      "display": "se"
+    },
+    {
+      "word": "puede",
+      "start": 15.98,
+      "end": 16.18,
+      "probability": 0.9969992637634277,
+      "display": "puede"
+    },
+    {
+      "word": "reemplazar",
+      "start": 16.18,
+      "end": 16.72,
+      "probability": 0.9885510206222534,
+      "display": "reemplazar"
+    },
+    {
+      "word": "o",
+      "start": 16.72,
+      "end": 17.0,
+      "probability": 0.9939217567443848,
+      "display": "o"
+    },
+    {
+      "word": "quitar",
+      "start": 17.0,
+      "end": 17.26,
+      "probability": 0.9919561743736267,
+      "display": "quitar"
+    },
+    {
+      "word": "la",
+      "start": 17.26,
+      "end": 17.44,
+      "probability": 0.9980402588844299,
+      "display": "la"
+    },
+    {
+      "word": "foto.",
+      "start": 17.44,
+      "end": 17.68,
+      "probability": 0.9993540644645691,
+      "display": "foto."
+    },
+    {
+      "word": "El",
+      "start": 18.28,
+      "end": 18.46,
+      "probability": 0.9909007549285889,
+      "display": "El"
+    },
+    {
+      "word": "nombre",
+      "start": 18.46,
+      "end": 18.68,
+      "probability": 0.9800868034362793,
+      "display": "nombre"
+    },
+    {
+      "word": "público",
+      "start": 18.68,
+      "end": 19.04,
+      "probability": 0.9881644248962402,
+      "display": "público"
+    },
+    {
+      "word": "del",
+      "start": 19.04,
+      "end": 19.3,
+      "probability": 0.9864330887794495,
+      "display": "del"
+    },
+    {
+      "word": "enlace",
+      "start": 19.3,
+      "end": 19.64,
+      "probability": 0.9969839155673981,
+      "display": "enlace"
+    },
+    {
+      "word": "se",
+      "start": 19.64,
+      "end": 19.92,
+      "probability": 0.9845213294029236,
+      "display": "se"
+    },
+    {
+      "word": "modifica",
+      "start": 19.92,
+      "end": 20.42,
+      "probability": 0.9974395036697388,
+      "display": "modifica"
+    },
+    {
+      "word": "desde",
+      "start": 20.42,
+      "end": 20.64,
+      "probability": 0.9958388805389404,
+      "display": "desde"
+    },
+    {
+      "word": "su",
+      "start": 20.64,
+      "end": 20.9,
+      "probability": 0.9987064599990845,
+      "display": "su"
+    },
+    {
+      "word": "configuración.",
+      "start": 20.9,
+      "end": 21.62,
+      "probability": 0.9987384080886841,
+      "display": "configuración."
+    },
+    {
+      "word": "Revisá",
+      "start": 22.12,
+      "end": 22.6,
+      "probability": 0.841181755065918,
+      "display": "Revisá"
+    },
+    {
+      "word": "la",
+      "start": 22.6,
+      "end": 22.7,
+      "probability": 0.993990957736969,
+      "display": "la"
+    },
+    {
+      "word": "disponibilidad",
+      "start": 22.7,
+      "end": 23.38,
+      "probability": 0.9984694123268127,
+      "display": "disponibilidad"
+    },
+    {
+      "word": "y",
+      "start": 23.38,
+      "end": 23.72,
+      "probability": 0.9981422424316406,
+      "display": "y"
+    },
+    {
+      "word": "la",
+      "start": 23.72,
+      "end": 23.84,
+      "probability": 0.9975810050964355,
+      "display": "la"
+    },
+    {
+      "word": "advertencia.",
+      "start": 23.84,
+      "end": 24.46,
+      "probability": 0.9901963919401169,
+      "display": "advertencia:"
+    },
+    {
+      "word": "Al",
+      "start": 24.8,
+      "end": 24.96,
+      "probability": 0.9970177412033081,
+      "display": "al"
+    },
+    {
+      "word": "confirmar",
+      "start": 24.96,
+      "end": 25.5,
+      "probability": 0.9905428886413574,
+      "display": "confirmar"
+    },
+    {
+      "word": "el",
+      "start": 25.5,
+      "end": 25.62,
+      "probability": 0.9994565844535828,
+      "display": "el"
+    },
+    {
+      "word": "cambio,",
+      "start": 25.62,
+      "end": 25.88,
+      "probability": 0.9976067543029785,
+      "display": "cambio,"
+    },
+    {
+      "word": "el",
+      "start": 26.4,
+      "end": 26.5,
+      "probability": 0.9985114932060242,
+      "display": "el"
+    },
+    {
+      "word": "acceso",
+      "start": 26.5,
+      "end": 26.8,
+      "probability": 0.9966413974761963,
+      "display": "acceso"
+    },
+    {
+      "word": "anterior",
+      "start": 26.8,
+      "end": 27.28,
+      "probability": 0.9900538921356201,
+      "display": "anterior"
+    },
+    {
+      "word": "deja",
+      "start": 27.28,
+      "end": 27.7,
+      "probability": 0.9895541667938232,
+      "display": "deja"
+    },
+    {
+      "word": "de",
+      "start": 27.7,
+      "end": 27.86,
+      "probability": 0.9994376301765442,
+      "display": "de"
+    },
+    {
+      "word": "funcionar.",
+      "start": 27.86,
+      "end": 28.44,
+      "probability": 0.9985758066177368,
+      "display": "funcionar."
+    },
+    {
+      "word": "Compartí",
+      "start": 28.44,
+      "end": 29.4,
+      "probability": 0.8741527597109476,
+      "display": "Compartí"
+    },
+    {
+      "word": "el",
+      "start": 29.4,
+      "end": 29.52,
+      "probability": 0.9984533786773682,
+      "display": "el"
+    },
+    {
+      "word": "nuevo",
+      "start": 29.52,
+      "end": 29.72,
+      "probability": 0.9974718689918518,
+      "display": "nuevo"
+    },
+    {
+      "word": "enlace",
+      "start": 29.72,
+      "end": 30.14,
+      "probability": 0.9855567216873169,
+      "display": "enlace"
+    },
+    {
+      "word": "y",
+      "start": 30.14,
+      "end": 30.52,
+      "probability": 0.9887507557868958,
+      "display": "y"
+    },
+    {
+      "word": "el",
+      "start": 30.52,
+      "end": 30.66,
+      "probability": 0.996731162071228,
+      "display": "el"
+    },
+    {
+      "word": "nuevo",
+      "start": 30.66,
+      "end": 30.82,
+      "probability": 0.9874695539474487,
+      "display": "nuevo"
+    },
+    {
+      "word": "QR",
+      "start": 30.82,
+      "end": 31.26,
+      "probability": 0.982166588306427,
+      "display": "QR"
+    },
+    {
+      "word": "con",
+      "start": 31.26,
+      "end": 31.54,
+      "probability": 0.9932076334953308,
+      "display": "con"
+    },
+    {
+      "word": "tus",
+      "start": 31.54,
+      "end": 31.66,
+      "probability": 0.9934778213500977,
+      "display": "tus"
+    },
+    {
+      "word": "clientes.",
+      "start": 31.66,
+      "end": 32.2,
+      "probability": 0.9987674951553345,
+      "display": "clientes."
+    }
+  ],
+  "captions": [
+    {
+      "text": "La foto ayuda al cliente a reconocer el comercio.",
+      "startMs": 0,
+      "endMs": 2600,
+      "timestampMs": null,
+      "confidence": 0.957
+    },
+    {
+      "text": "Podemos subir un archivo JPEG, PNG o WebP de hasta 10 MB.",
+      "startMs": 3080,
+      "endMs": 8060,
+      "timestampMs": null,
+      "confidence": 0.83
+    },
+    {
+      "text": "Ajustamos el recorte con los controles de posición y zoom, y guardamos la",
+      "startMs": 8680,
+      "endMs": 12920,
+      "timestampMs": null,
+      "confidence": 0.967
+    },
+    {
+      "text": "imagen.",
+      "startMs": 12920,
+      "endMs": 13240,
+      "timestampMs": null,
+      "confidence": 0.998
+    },
+    {
+      "text": "Desde esta misma página también se puede reemplazar o quitar la foto.",
+      "startMs": 13960,
+      "endMs": 17680,
+      "timestampMs": null,
+      "confidence": 0.994
+    },
+    {
+      "text": "El nombre público del enlace se modifica desde su configuración.",
+      "startMs": 18280,
+      "endMs": 21620,
+      "timestampMs": null,
+      "confidence": 0.992
+    },
+    {
+      "text": "Revisá la disponibilidad y la advertencia:",
+      "startMs": 22120,
+      "endMs": 24460,
+      "timestampMs": null,
+      "confidence": 0.97
+    },
+    {
+      "text": "al confirmar el cambio, el acceso anterior deja de funcionar.",
+      "startMs": 24800,
+      "endMs": 28440,
+      "timestampMs": null,
+      "confidence": 0.996
+    },
+    {
+      "text": "Compartí el nuevo enlace y el nuevo QR con tus clientes.",
+      "startMs": 28440,
+      "endMs": 32200,
+      "timestampMs": null,
+      "confidence": 0.981
+    }
+  ],
+  "status": "REVIEW_REQUIRED"
+}

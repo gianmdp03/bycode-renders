@@ -1,0 +1,43 @@
+1
+00:00:00,000 --> 00:00:02,540
+Abrimos un comercio que ya tiene actividad.
+
+2
+00:00:02,960 --> 00:00:07,380
+Resumen General muestra la regla, los clientes activos que ocupan cupo y los
+
+3
+00:00:07,380 --> 00:00:08,180
+saldos vigentes.
+
+4
+00:00:08,980 --> 00:00:14,220
+Las pestañas separan Clientes, Productos, Promociones, Premios, Ventas, Sin
+
+5
+00:00:14,220 --> 00:00:16,500
+actividad, Archivados y Correos.
+
+6
+00:00:17,140 --> 00:00:20,020
+Los contadores del catálogo indican elementos creados;
+
+7
+00:00:20,500 --> 00:00:22,140
+no son una medida de facturación.
+
+8
+00:00:22,780 --> 00:00:27,260
+Esta versión presenta tablas e indicadores, sin un panel de gráficos
+
+9
+00:00:27,260 --> 00:00:27,920
+estadísticos.
+
+10
+00:00:27,920 --> 00:00:33,180
+Desde el inicio también tenés accesos rápidos para agregar clientes, registrar
+
+11
+00:00:33,180 --> 00:00:34,700
+ventas y consultar puntos.

@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "isolation": "Owned containers and private databases verified before read-only checks",
+  "ledger": {
+    "database": "tutorial_pointly_demo",
+    "accounts": 28,
+    "balanceMismatch": 0,
+    "sales": 47,
+    "redemptions": 3,
+    "sentEmails": 0
+  },
+  "company": {
+    "name": "Caf\u00e9 del Puerto DEMO",
+    "publicName": "cafe-del-puerto-aula",
+    "enabled": true
+  },
+  "publicPrivateAnaBalanceAgreement": true,
+  "salePointDisplay": "Current sales API may omit pointsGenerated; frontend honestly shows Sin dato por venta. Ledger is the authoritative verification.",
+  "productionTouched": false,
+  "externalMessages": false
+}

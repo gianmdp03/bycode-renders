@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "Sin actividad reúne clientes que llevan el período elegido sin compras ni canjes. Podés usar los días sugeridos o escribir otro valor. Abrir esta lista no archiva personas ni envía mensajes. Preparar WhatsApp abre una página con un texto que podés revisar, editar y copiar. Comprobá el número con código de país. Abrir WhatsApp prepara el mensaje; el envío final lo hacés vos. En esta demostración solo revisamos y copiamos el borrador, sin contactar a ninguna persona.",
+  "spokenText": "Sin actividad reúne clientes que llevan el período elegido sin compras ni canjes. Podés usar los días sugeridos o escribir otro valor. Abrir esta lista no archiva personas ni envía mensajes. Preparar guasap abre una página con un texto que podés revisar, editar y copiar. Comprobá el número con código de país. Abrir guasap prepara el mensaje; el envío final lo hacés vos. En esta demostración solo revisamos y copiamos el borrador, sin contactar a ninguna persona.",
+  "text_sha256": "28cde57c2d13ac29f1a2e007af0d7938500a19416c535ce3e2dbb93c1d66f61d",
+  "sha256": "f3e3e2695d9780b8f57be21fcc2af9504c3ee9ac035189a2e2afc84876ae6d50",
+  "duration": 28.8,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 104.02,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

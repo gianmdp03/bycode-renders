@@ -1,0 +1,144 @@
+{
+  "scene": "06-photo",
+  "evidence": [
+    {
+      "label": "Company photo removed through real API",
+      "url": "/companies/cafe-del-puerto-tutorial/actions/photo",
+      "at": 1793728881547.3
+    },
+    {
+      "label": "Photo crop controls",
+      "url": "/companies/cafe-del-puerto-tutorial/actions/photo",
+      "at": 1793728881695.4
+    },
+    {
+      "label": "Photo uploaded through real converter",
+      "url": "/companies/cafe-del-puerto-tutorial/actions/photo",
+      "at": 1793728883755.5
+    },
+    {
+      "label": "Changing link invalidates previous access",
+      "url": "/companies/cafe-del-puerto-tutorial/actions/qr",
+      "at": 1793728888674.3
+    },
+    {
+      "label": "New public link persisted",
+      "url": "/companies/cafe-del-puerto-aula/actions/qr",
+      "at": 1793728890746
+    }
+  ],
+  "network": [
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/billing/account/profile",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/company-names/cafe-del-puerto-tutorial/company",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/media/6dedfc39-a8dd-4815-a680-b61b8db0307c",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/pointly/companies/1/avatar/image",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/companies/1/avatar/image",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/billing/account/profile",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/company-names/cafe-del-puerto-tutorial/company",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/media/88f04c39-82db-4d2e-8062-e046c1a537ac",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/1/public-link",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/pointly/companies/1/public-link",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    }
+  ],
+  "source": "recordings/06-photo-1793728909216.mp4",
+  "obs": null
+}

@@ -1,0 +1,28 @@
+{
+  "name": "pointly-video-tutorial",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "remotion studio remotion/src/index.tsx --public-dir=remotion/public --port=3700 --no-open",
+    "typecheck": "tsc --noEmit",
+    "build": "remotion bundle remotion/src/index.tsx --public-dir=remotion/public",
+    "audit": "node automation/audit.mjs",
+    "capture": "node automation/capture.mjs",
+    "compile": "node automation/compile.mjs",
+    "render": "node automation/render.mjs"
+  },
+  "dependencies": {
+    "@bycode/video-system": "0.1.0",
+    "@remotion/bundler": "4.0.539",
+    "@remotion/captions": "4.0.539",
+    "@remotion/cli": "4.0.539",
+    "@remotion/media": "4.0.539",
+    "@remotion/renderer": "4.0.539",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.539"
+  },
+  "devDependencies": {"@types/react":"19.2.7","typescript":"5.9.3","playwright":"^1.64.0"}
+}
+

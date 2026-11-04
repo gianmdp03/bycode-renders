@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "Para incorporar un cliente, seleccionamos Agregar cliente y completamos nombre, país del documento y DNI. Correo y teléfono son opcionales: la persona puede acumular y canjear puntos aunque no los tenga. Si cargás un teléfono para WhatsApp, incluí el código de país. El alta es inmediata y no pide confirmar un correo. Si ese documento ya existe en Pointly, se conservan sus datos anteriores: este formulario lo vincula al comercio, no edita su identidad. Al guardar, comprobá que aparezca en la lista.",
+  "spokenText": "Para incorporar un cliente, seleccionamos Agregar cliente y completamos nombre, país del documento y de ene i. Correo y teléfono son opcionales: la persona puede acumular y canjear puntos aunque no los tenga. Si cargás un teléfono para guasap, incluí el código de país. El alta es inmediata y no pide confirmar un correo. Si ese documento ya existe en Pointli, se conservan sus datos anteriores: este formulario lo vincula al comercio, no edita su identidad. Al guardar, comprobá que aparezca en la lista.",
+  "text_sha256": "99fe1dc24335403c0af2f169909514f3e43868a74f9e61d64959b24b44137447",
+  "sha256": "18dff0329adec9c6d9d6ee12a2036142b0f62e51025498d35f5e7722b08ff44e",
+  "duration": 29.76,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 134.47,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

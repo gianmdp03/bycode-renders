@@ -1,0 +1,621 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "387e6efc7315e0e5c34432ca723065166beeca7201009b976167768943ea88ce",
+  "transcript": "Si el cliente no tiene puntos suficientes, el canje se rechaza y el formulario explica el problema. También hay bloqueos para premios pausados y cuentas archivadas. No prometas un premio basándote en un saldo anterior. Consulta el vigente. Si el resultado queda incierto por conexión, el botón Reintentar canje pendiente conserva la misma operación y sus datos. Un rechazo confirmado permite corregir el formulario. Un resultado incierto requiere resolver esa misma operación, para no descontar dos veces.",
+  "scriptSimilarity": 1.0,
+  "differences": [],
+  "words": [
+    {
+      "word": "Si",
+      "start": 0.0,
+      "end": 0.26,
+      "probability": 0.9152153730392456,
+      "display": "Si"
+    },
+    {
+      "word": "el",
+      "start": 0.26,
+      "end": 0.36,
+      "probability": 0.9976922273635864,
+      "display": "el"
+    },
+    {
+      "word": "cliente",
+      "start": 0.36,
+      "end": 0.72,
+      "probability": 0.9932423532009125,
+      "display": "cliente"
+    },
+    {
+      "word": "no",
+      "start": 0.72,
+      "end": 0.84,
+      "probability": 0.9983174800872803,
+      "display": "no"
+    },
+    {
+      "word": "tiene",
+      "start": 0.84,
+      "end": 1.06,
+      "probability": 0.9988151788711548,
+      "display": "tiene"
+    },
+    {
+      "word": "puntos",
+      "start": 1.06,
+      "end": 1.4,
+      "probability": 0.9931632280349731,
+      "display": "puntos"
+    },
+    {
+      "word": "suficientes,",
+      "start": 1.4,
+      "end": 2.0,
+      "probability": 0.9926310380299886,
+      "display": "suficientes,"
+    },
+    {
+      "word": "el",
+      "start": 2.26,
+      "end": 2.38,
+      "probability": 0.9966989159584045,
+      "display": "el"
+    },
+    {
+      "word": "canje",
+      "start": 2.38,
+      "end": 2.64,
+      "probability": 0.9232257306575775,
+      "display": "canje"
+    },
+    {
+      "word": "se",
+      "start": 2.64,
+      "end": 2.8,
+      "probability": 0.9949093461036682,
+      "display": "se"
+    },
+    {
+      "word": "rechaza",
+      "start": 2.8,
+      "end": 3.2,
+      "probability": 0.9818606376647949,
+      "display": "rechaza"
+    },
+    {
+      "word": "y",
+      "start": 3.2,
+      "end": 3.48,
+      "probability": 0.9850756525993347,
+      "display": "y"
+    },
+    {
+      "word": "el",
+      "start": 3.48,
+      "end": 3.58,
+      "probability": 0.9985905289649963,
+      "display": "el"
+    },
+    {
+      "word": "formulario",
+      "start": 3.58,
+      "end": 4.2,
+      "probability": 0.9893319408098856,
+      "display": "formulario"
+    },
+    {
+      "word": "explica",
+      "start": 4.2,
+      "end": 4.68,
+      "probability": 0.9973924458026886,
+      "display": "explica"
+    },
+    {
+      "word": "el",
+      "start": 4.68,
+      "end": 4.82,
+      "probability": 0.9985677003860474,
+      "display": "el"
+    },
+    {
+      "word": "problema.",
+      "start": 4.82,
+      "end": 5.12,
+      "probability": 0.9993569254875183,
+      "display": "problema."
+    },
+    {
+      "word": "También",
+      "start": 5.76,
+      "end": 6.14,
+      "probability": 0.9874449968338013,
+      "display": "También"
+    },
+    {
+      "word": "hay",
+      "start": 6.14,
+      "end": 6.34,
+      "probability": 0.9916866421699524,
+      "display": "hay"
+    },
+    {
+      "word": "bloqueos",
+      "start": 6.34,
+      "end": 6.82,
+      "probability": 0.97998046875,
+      "display": "bloqueos"
+    },
+    {
+      "word": "para",
+      "start": 6.82,
+      "end": 7.02,
+      "probability": 0.9972984194755554,
+      "display": "para"
+    },
+    {
+      "word": "premios",
+      "start": 7.02,
+      "end": 7.4,
+      "probability": 0.9884589910507202,
+      "display": "premios"
+    },
+    {
+      "word": "pausados",
+      "start": 7.4,
+      "end": 7.9,
+      "probability": 0.9932212432225546,
+      "display": "pausados"
+    },
+    {
+      "word": "y",
+      "start": 7.9,
+      "end": 8.2,
+      "probability": 0.9930440783500671,
+      "display": "y"
+    },
+    {
+      "word": "cuentas",
+      "start": 8.2,
+      "end": 8.56,
+      "probability": 0.9972062110900879,
+      "display": "cuentas"
+    },
+    {
+      "word": "archivadas.",
+      "start": 8.56,
+      "end": 9.06,
+      "probability": 0.9817795753479004,
+      "display": "archivadas."
+    },
+    {
+      "word": "No",
+      "start": 9.54,
+      "end": 9.72,
+      "probability": 0.9637589454650879,
+      "display": "No"
+    },
+    {
+      "word": "prometas",
+      "start": 9.72,
+      "end": 10.14,
+      "probability": 0.9919889569282532,
+      "display": "prometas"
+    },
+    {
+      "word": "un",
+      "start": 10.14,
+      "end": 10.26,
+      "probability": 0.9986145496368408,
+      "display": "un"
+    },
+    {
+      "word": "premio",
+      "start": 10.26,
+      "end": 10.66,
+      "probability": 0.9946432411670685,
+      "display": "premio"
+    },
+    {
+      "word": "basándote",
+      "start": 10.66,
+      "end": 11.32,
+      "probability": 0.9611298044522604,
+      "display": "basándote"
+    },
+    {
+      "word": "en",
+      "start": 11.32,
+      "end": 11.6,
+      "probability": 0.9989537000656128,
+      "display": "en"
+    },
+    {
+      "word": "un",
+      "start": 11.6,
+      "end": 11.72,
+      "probability": 0.9985359907150269,
+      "display": "un"
+    },
+    {
+      "word": "saldo",
+      "start": 11.72,
+      "end": 12.02,
+      "probability": 0.9986448585987091,
+      "display": "saldo"
+    },
+    {
+      "word": "anterior.",
+      "start": 12.02,
+      "end": 12.36,
+      "probability": 0.9956529140472412,
+      "display": "anterior:"
+    },
+    {
+      "word": "Consulta",
+      "start": 12.96,
+      "end": 13.48,
+      "probability": 0.8425926268100739,
+      "display": "consultá"
+    },
+    {
+      "word": "el",
+      "start": 13.48,
+      "end": 13.6,
+      "probability": 0.9955846667289734,
+      "display": "el"
+    },
+    {
+      "word": "vigente.",
+      "start": 13.6,
+      "end": 13.96,
+      "probability": 0.9236119389533997,
+      "display": "vigente."
+    },
+    {
+      "word": "Si",
+      "start": 14.62,
+      "end": 14.8,
+      "probability": 0.9932316541671753,
+      "display": "Si"
+    },
+    {
+      "word": "el",
+      "start": 14.8,
+      "end": 14.9,
+      "probability": 0.9989213943481445,
+      "display": "el"
+    },
+    {
+      "word": "resultado",
+      "start": 14.9,
+      "end": 15.3,
+      "probability": 0.9991528987884521,
+      "display": "resultado"
+    },
+    {
+      "word": "queda",
+      "start": 15.3,
+      "end": 15.62,
+      "probability": 0.99615877866745,
+      "display": "queda"
+    },
+    {
+      "word": "incierto",
+      "start": 15.62,
+      "end": 16.12,
+      "probability": 0.9676108558972677,
+      "display": "incierto"
+    },
+    {
+      "word": "por",
+      "start": 16.12,
+      "end": 16.32,
+      "probability": 0.9903669357299805,
+      "display": "por"
+    },
+    {
+      "word": "conexión,",
+      "start": 16.32,
+      "end": 16.82,
+      "probability": 0.9991433322429657,
+      "display": "conexión,"
+    },
+    {
+      "word": "el",
+      "start": 17.16,
+      "end": 17.24,
+      "probability": 0.994196891784668,
+      "display": "el"
+    },
+    {
+      "word": "botón",
+      "start": 17.24,
+      "end": 17.58,
+      "probability": 0.9974173009395599,
+      "display": "botón"
+    },
+    {
+      "word": "Reintentar",
+      "start": 17.58,
+      "end": 18.08,
+      "probability": 0.7166196803251902,
+      "display": "Reintentar"
+    },
+    {
+      "word": "canje",
+      "start": 18.08,
+      "end": 18.52,
+      "probability": 0.8241105079650879,
+      "display": "canje"
+    },
+    {
+      "word": "pendiente",
+      "start": 18.52,
+      "end": 18.98,
+      "probability": 0.9959702789783478,
+      "display": "pendiente"
+    },
+    {
+      "word": "conserva",
+      "start": 18.98,
+      "end": 19.7,
+      "probability": 0.9880219399929047,
+      "display": "conserva"
+    },
+    {
+      "word": "la",
+      "start": 19.7,
+      "end": 19.96,
+      "probability": 0.9813603162765503,
+      "display": "la"
+    },
+    {
+      "word": "misma",
+      "start": 19.96,
+      "end": 20.26,
+      "probability": 0.9970940351486206,
+      "display": "misma"
+    },
+    {
+      "word": "operación",
+      "start": 20.26,
+      "end": 20.84,
+      "probability": 0.9989847540855408,
+      "display": "operación"
+    },
+    {
+      "word": "y",
+      "start": 20.84,
+      "end": 21.1,
+      "probability": 0.9965296387672424,
+      "display": "y"
+    },
+    {
+      "word": "sus",
+      "start": 21.1,
+      "end": 21.24,
+      "probability": 0.9957774877548218,
+      "display": "sus"
+    },
+    {
+      "word": "datos.",
+      "start": 21.24,
+      "end": 21.46,
+      "probability": 0.9983507394790649,
+      "display": "datos."
+    },
+    {
+      "word": "Un",
+      "start": 22.12,
+      "end": 22.34,
+      "probability": 0.9948857426643372,
+      "display": "Un"
+    },
+    {
+      "word": "rechazo",
+      "start": 22.34,
+      "end": 22.66,
+      "probability": 0.9962584773699442,
+      "display": "rechazo"
+    },
+    {
+      "word": "confirmado",
+      "start": 22.66,
+      "end": 23.24,
+      "probability": 0.9981672763824463,
+      "display": "confirmado"
+    },
+    {
+      "word": "permite",
+      "start": 23.24,
+      "end": 23.64,
+      "probability": 0.99459308385849,
+      "display": "permite"
+    },
+    {
+      "word": "corregir",
+      "start": 23.64,
+      "end": 24.24,
+      "probability": 0.9780628283818563,
+      "display": "corregir"
+    },
+    {
+      "word": "el",
+      "start": 24.24,
+      "end": 24.4,
+      "probability": 0.9993094205856323,
+      "display": "el"
+    },
+    {
+      "word": "formulario.",
+      "start": 24.4,
+      "end": 25.0,
+      "probability": 0.9985233545303345,
+      "display": "formulario."
+    },
+    {
+      "word": "Un",
+      "start": 25.0,
+      "end": 25.74,
+      "probability": 0.8817915916442871,
+      "display": "Un"
+    },
+    {
+      "word": "resultado",
+      "start": 25.74,
+      "end": 26.12,
+      "probability": 0.9882726073265076,
+      "display": "resultado"
+    },
+    {
+      "word": "incierto",
+      "start": 26.12,
+      "end": 26.66,
+      "probability": 0.9842299024264017,
+      "display": "incierto"
+    },
+    {
+      "word": "requiere",
+      "start": 26.66,
+      "end": 27.16,
+      "probability": 0.931133896112442,
+      "display": "requiere"
+    },
+    {
+      "word": "resolver",
+      "start": 27.16,
+      "end": 27.56,
+      "probability": 0.9959623217582703,
+      "display": "resolver"
+    },
+    {
+      "word": "esa",
+      "start": 27.56,
+      "end": 27.92,
+      "probability": 0.987043023109436,
+      "display": "esa"
+    },
+    {
+      "word": "misma",
+      "start": 27.92,
+      "end": 28.18,
+      "probability": 0.9803552627563477,
+      "display": "misma"
+    },
+    {
+      "word": "operación,",
+      "start": 28.18,
+      "end": 28.78,
+      "probability": 0.9973219633102417,
+      "display": "operación,"
+    },
+    {
+      "word": "para",
+      "start": 29.0,
+      "end": 29.26,
+      "probability": 0.9944356679916382,
+      "display": "para"
+    },
+    {
+      "word": "no",
+      "start": 29.26,
+      "end": 29.46,
+      "probability": 0.9969161748886108,
+      "display": "no"
+    },
+    {
+      "word": "descontar",
+      "start": 29.46,
+      "end": 30.04,
+      "probability": 0.9960115750630697,
+      "display": "descontar"
+    },
+    {
+      "word": "dos",
+      "start": 30.04,
+      "end": 30.28,
+      "probability": 0.9605566263198853,
+      "display": "dos"
+    },
+    {
+      "word": "veces.",
+      "start": 30.28,
+      "end": 30.62,
+      "probability": 0.9989871382713318,
+      "display": "veces."
+    }
+  ],
+  "captions": [
+    {
+      "text": "Si el cliente no tiene puntos suficientes, el canje se rechaza y el formulario",
+      "startMs": 0,
+      "endMs": 4200,
+      "timestampMs": null,
+      "confidence": 0.983
+    },
+    {
+      "text": "explica el problema.",
+      "startMs": 4200,
+      "endMs": 5120,
+      "timestampMs": null,
+      "confidence": 0.998
+    },
+    {
+      "text": "También hay bloqueos para premios pausados y cuentas archivadas.",
+      "startMs": 5760,
+      "endMs": 9060,
+      "timestampMs": null,
+      "confidence": 0.99
+    },
+    {
+      "text": "No prometas un premio basándote en un saldo anterior:",
+      "startMs": 9540,
+      "endMs": 12360,
+      "timestampMs": null,
+      "confidence": 0.989
+    },
+    {
+      "text": "consultá el vigente.",
+      "startMs": 12960,
+      "endMs": 13960,
+      "timestampMs": null,
+      "confidence": 0.921
+    },
+    {
+      "text": "Si el resultado queda incierto por conexión, el botón Reintentar canje",
+      "startMs": 14620,
+      "endMs": 18520,
+      "timestampMs": null,
+      "confidence": 0.952
+    },
+    {
+      "text": "pendiente conserva la misma operación y sus datos.",
+      "startMs": 18520,
+      "endMs": 21460,
+      "timestampMs": null,
+      "confidence": 0.994
+    },
+    {
+      "text": "Un rechazo confirmado permite corregir el formulario.",
+      "startMs": 22120,
+      "endMs": 25000,
+      "timestampMs": null,
+      "confidence": 0.994
+    },
+    {
+      "text": "Un resultado incierto requiere resolver esa misma operación, para no descontar",
+      "startMs": 25000,
+      "endMs": 30040,
+      "timestampMs": null,
+      "confidence": 0.976
+    },
+    {
+      "text": "dos veces.",
+      "startMs": 30040,
+      "endMs": 30620,
+      "timestampMs": null,
+      "confidence": 0.98
+    }
+  ],
+  "status": "ACOUSTIC_MATCH"
+}

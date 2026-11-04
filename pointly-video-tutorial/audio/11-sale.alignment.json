@@ -1,0 +1,640 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "9198304ab33265dae36c439c76a235dc98c8999c73ae61633169ab0522655716",
+  "transcript": "Vamos a registrar una compra para Ana. Buscamos su país y DNI y cargamos 8 .500 pesos. Con nuestra regla, los 8 bloques completos de 1000 suman 80 puntos. Los 500 restantes no pasan a otra compra. La pantalla muestra una estimación y el cliente encontrado. Al confirmar, se registra la venta y se suman los puntos. Pointly no cobra dinero ni emite una factura por esta acción. Después verificamos la venta y el nuevo movimiento del cliente.",
+  "scriptSimilarity": 0.9172,
+  "differences": [
+    {
+      "op": "replace",
+      "expected": "ocho mil quinientos",
+      "heard": "8 .500"
+    },
+    {
+      "op": "replace",
+      "expected": "ocho",
+      "heard": "8"
+    },
+    {
+      "op": "replace",
+      "expected": "mil",
+      "heard": "1000"
+    },
+    {
+      "op": "replace",
+      "expected": "ochenta",
+      "heard": "80"
+    },
+    {
+      "op": "replace",
+      "expected": "quinientos",
+      "heard": "500"
+    }
+  ],
+  "words": [
+    {
+      "word": "Vamos",
+      "start": 0.0,
+      "end": 0.5,
+      "probability": 0.9198810458183289,
+      "display": "Vamos"
+    },
+    {
+      "word": "a",
+      "start": 0.5,
+      "end": 0.7,
+      "probability": 0.9987615346908569,
+      "display": "a"
+    },
+    {
+      "word": "registrar",
+      "start": 0.7,
+      "end": 1.16,
+      "probability": 0.9980609714984894,
+      "display": "registrar"
+    },
+    {
+      "word": "una",
+      "start": 1.16,
+      "end": 1.38,
+      "probability": 0.9974825978279114,
+      "display": "una"
+    },
+    {
+      "word": "compra",
+      "start": 1.38,
+      "end": 1.7,
+      "probability": 0.9923645257949829,
+      "display": "compra"
+    },
+    {
+      "word": "para",
+      "start": 1.7,
+      "end": 1.94,
+      "probability": 0.9903740882873535,
+      "display": "para"
+    },
+    {
+      "word": "Ana.",
+      "start": 1.94,
+      "end": 2.18,
+      "probability": 0.8506701588630676,
+      "display": "Ana."
+    },
+    {
+      "word": "Buscamos",
+      "start": 2.6,
+      "end": 2.94,
+      "probability": 0.9864673813184103,
+      "display": "Buscamos"
+    },
+    {
+      "word": "su",
+      "start": 2.94,
+      "end": 3.18,
+      "probability": 0.9778589606285095,
+      "display": "su"
+    },
+    {
+      "word": "país",
+      "start": 3.18,
+      "end": 3.48,
+      "probability": 0.9824669361114502,
+      "display": "país"
+    },
+    {
+      "word": "y",
+      "start": 3.48,
+      "end": 3.82,
+      "probability": 0.049132511019706726,
+      "display": "y"
+    },
+    {
+      "word": "DNI",
+      "start": 3.82,
+      "end": 4.56,
+      "probability": 0.7518778145313263,
+      "display": "DNI"
+    },
+    {
+      "word": "y",
+      "start": 4.56,
+      "end": 4.8,
+      "probability": 0.9000653028488159,
+      "display": "y"
+    },
+    {
+      "word": "cargamos",
+      "start": 4.8,
+      "end": 5.24,
+      "probability": 0.9968467156092325,
+      "display": "cargamos"
+    },
+    {
+      "word": "8",
+      "start": 5.24,
+      "end": 5.7,
+      "probability": 0.8005856275558472,
+      "display": "8"
+    },
+    {
+      "word": ".500",
+      "start": 5.7,
+      "end": 6.24,
+      "probability": 0.6105251610279083,
+      "display": ".500"
+    },
+    {
+      "word": "pesos.",
+      "start": 6.24,
+      "end": 6.7,
+      "probability": 0.9860344529151917,
+      "display": "pesos."
+    },
+    {
+      "word": "Con",
+      "start": 7.54,
+      "end": 7.78,
+      "probability": 0.9949560761451721,
+      "display": "Con"
+    },
+    {
+      "word": "nuestra",
+      "start": 7.78,
+      "end": 8.0,
+      "probability": 0.9974991679191589,
+      "display": "nuestra"
+    },
+    {
+      "word": "regla,",
+      "start": 8.0,
+      "end": 8.38,
+      "probability": 0.9950451552867889,
+      "display": "regla,"
+    },
+    {
+      "word": "los",
+      "start": 8.76,
+      "end": 8.82,
+      "probability": 0.9909406900405884,
+      "display": "los"
+    },
+    {
+      "word": "8",
+      "start": 8.82,
+      "end": 9.02,
+      "probability": 0.6669561266899109,
+      "display": "8"
+    },
+    {
+      "word": "bloques",
+      "start": 9.02,
+      "end": 9.36,
+      "probability": 0.9549746811389923,
+      "display": "bloques"
+    },
+    {
+      "word": "completos",
+      "start": 9.36,
+      "end": 9.94,
+      "probability": 0.9977677762508392,
+      "display": "completos"
+    },
+    {
+      "word": "de",
+      "start": 9.94,
+      "end": 10.08,
+      "probability": 0.992460310459137,
+      "display": "de"
+    },
+    {
+      "word": "1000",
+      "start": 10.08,
+      "end": 10.28,
+      "probability": 0.7575784921646118,
+      "display": "1000"
+    },
+    {
+      "word": "suman",
+      "start": 10.28,
+      "end": 10.66,
+      "probability": 0.9941748082637787,
+      "display": "suman"
+    },
+    {
+      "word": "80",
+      "start": 10.66,
+      "end": 11.1,
+      "probability": 0.992277979850769,
+      "display": "80"
+    },
+    {
+      "word": "puntos.",
+      "start": 11.1,
+      "end": 11.42,
+      "probability": 0.997715950012207,
+      "display": "puntos;"
+    },
+    {
+      "word": "Los",
+      "start": 12.02,
+      "end": 12.26,
+      "probability": 0.993317723274231,
+      "display": "los"
+    },
+    {
+      "word": "500",
+      "start": 12.26,
+      "end": 12.52,
+      "probability": 0.9942092895507812,
+      "display": "500"
+    },
+    {
+      "word": "restantes",
+      "start": 12.52,
+      "end": 13.18,
+      "probability": 0.9950674772262573,
+      "display": "restantes"
+    },
+    {
+      "word": "no",
+      "start": 13.18,
+      "end": 13.68,
+      "probability": 0.9216658473014832,
+      "display": "no"
+    },
+    {
+      "word": "pasan",
+      "start": 13.68,
+      "end": 14.08,
+      "probability": 0.9975370764732361,
+      "display": "pasan"
+    },
+    {
+      "word": "a",
+      "start": 14.08,
+      "end": 14.18,
+      "probability": 0.9962839484214783,
+      "display": "a"
+    },
+    {
+      "word": "otra",
+      "start": 14.18,
+      "end": 14.36,
+      "probability": 0.997490406036377,
+      "display": "otra"
+    },
+    {
+      "word": "compra.",
+      "start": 14.36,
+      "end": 14.68,
+      "probability": 0.9976938366889954,
+      "display": "compra."
+    },
+    {
+      "word": "La",
+      "start": 15.32,
+      "end": 15.48,
+      "probability": 0.9958956241607666,
+      "display": "La"
+    },
+    {
+      "word": "pantalla",
+      "start": 15.48,
+      "end": 15.78,
+      "probability": 0.9994933605194092,
+      "display": "pantalla"
+    },
+    {
+      "word": "muestra",
+      "start": 15.78,
+      "end": 16.28,
+      "probability": 0.9984002709388733,
+      "display": "muestra"
+    },
+    {
+      "word": "una",
+      "start": 16.28,
+      "end": 16.58,
+      "probability": 0.9969881176948547,
+      "display": "una"
+    },
+    {
+      "word": "estimación",
+      "start": 16.58,
+      "end": 17.12,
+      "probability": 0.9914507567882538,
+      "display": "estimación"
+    },
+    {
+      "word": "y",
+      "start": 17.12,
+      "end": 17.4,
+      "probability": 0.990616500377655,
+      "display": "y"
+    },
+    {
+      "word": "el",
+      "start": 17.4,
+      "end": 17.52,
+      "probability": 0.9964897036552429,
+      "display": "el"
+    },
+    {
+      "word": "cliente",
+      "start": 17.52,
+      "end": 17.94,
+      "probability": 0.9968873262405396,
+      "display": "cliente"
+    },
+    {
+      "word": "encontrado.",
+      "start": 17.94,
+      "end": 18.38,
+      "probability": 0.9861587285995483,
+      "display": "encontrado."
+    },
+    {
+      "word": "Al",
+      "start": 19.1,
+      "end": 19.28,
+      "probability": 0.9970899820327759,
+      "display": "Al"
+    },
+    {
+      "word": "confirmar,",
+      "start": 19.28,
+      "end": 19.8,
+      "probability": 0.9422794878482819,
+      "display": "confirmar"
+    },
+    {
+      "word": "se",
+      "start": 19.92,
+      "end": 19.98,
+      "probability": 0.9986188411712646,
+      "display": "se"
+    },
+    {
+      "word": "registra",
+      "start": 19.98,
+      "end": 20.44,
+      "probability": 0.9960137605667114,
+      "display": "registra"
+    },
+    {
+      "word": "la",
+      "start": 20.44,
+      "end": 20.56,
+      "probability": 0.9870582222938538,
+      "display": "la"
+    },
+    {
+      "word": "venta",
+      "start": 20.56,
+      "end": 20.9,
+      "probability": 0.9920626282691956,
+      "display": "venta"
+    },
+    {
+      "word": "y",
+      "start": 20.9,
+      "end": 21.14,
+      "probability": 0.9857122302055359,
+      "display": "y"
+    },
+    {
+      "word": "se",
+      "start": 21.14,
+      "end": 21.24,
+      "probability": 0.99847012758255,
+      "display": "se"
+    },
+    {
+      "word": "suman",
+      "start": 21.24,
+      "end": 21.58,
+      "probability": 0.9926550984382629,
+      "display": "suman"
+    },
+    {
+      "word": "los",
+      "start": 21.58,
+      "end": 21.7,
+      "probability": 0.9993699193000793,
+      "display": "los"
+    },
+    {
+      "word": "puntos.",
+      "start": 21.7,
+      "end": 22.0,
+      "probability": 0.998910665512085,
+      "display": "puntos."
+    },
+    {
+      "word": "Pointly",
+      "start": 22.52,
+      "end": 22.96,
+      "probability": 0.8750662207603455,
+      "display": "Pointly"
+    },
+    {
+      "word": "no",
+      "start": 22.96,
+      "end": 23.14,
+      "probability": 0.9838889837265015,
+      "display": "no"
+    },
+    {
+      "word": "cobra",
+      "start": 23.14,
+      "end": 23.42,
+      "probability": 0.9840850830078125,
+      "display": "cobra"
+    },
+    {
+      "word": "dinero",
+      "start": 23.42,
+      "end": 23.72,
+      "probability": 0.997634768486023,
+      "display": "dinero"
+    },
+    {
+      "word": "ni",
+      "start": 23.72,
+      "end": 24.1,
+      "probability": 0.8526939749717712,
+      "display": "ni"
+    },
+    {
+      "word": "emite",
+      "start": 24.1,
+      "end": 24.36,
+      "probability": 0.9904226660728455,
+      "display": "emite"
+    },
+    {
+      "word": "una",
+      "start": 24.36,
+      "end": 24.52,
+      "probability": 0.9979140162467957,
+      "display": "una"
+    },
+    {
+      "word": "factura",
+      "start": 24.52,
+      "end": 24.88,
+      "probability": 0.9986172318458557,
+      "display": "factura"
+    },
+    {
+      "word": "por",
+      "start": 24.88,
+      "end": 25.12,
+      "probability": 0.9959316849708557,
+      "display": "por"
+    },
+    {
+      "word": "esta",
+      "start": 25.12,
+      "end": 25.28,
+      "probability": 0.9907777309417725,
+      "display": "esta"
+    },
+    {
+      "word": "acción.",
+      "start": 25.28,
+      "end": 25.66,
+      "probability": 0.9957402050495148,
+      "display": "acción."
+    },
+    {
+      "word": "Después",
+      "start": 26.04,
+      "end": 26.34,
+      "probability": 0.9983219504356384,
+      "display": "Después"
+    },
+    {
+      "word": "verificamos",
+      "start": 26.34,
+      "end": 27.04,
+      "probability": 0.9241892099380493,
+      "display": "verificamos"
+    },
+    {
+      "word": "la",
+      "start": 27.04,
+      "end": 27.22,
+      "probability": 0.9978916049003601,
+      "display": "la"
+    },
+    {
+      "word": "venta",
+      "start": 27.22,
+      "end": 27.64,
+      "probability": 0.997607558965683,
+      "display": "venta"
+    },
+    {
+      "word": "y",
+      "start": 27.64,
+      "end": 27.82,
+      "probability": 0.993793249130249,
+      "display": "y"
+    },
+    {
+      "word": "el",
+      "start": 27.82,
+      "end": 27.94,
+      "probability": 0.9988042116165161,
+      "display": "el"
+    },
+    {
+      "word": "nuevo",
+      "start": 27.94,
+      "end": 28.1,
+      "probability": 0.9968547821044922,
+      "display": "nuevo"
+    },
+    {
+      "word": "movimiento",
+      "start": 28.1,
+      "end": 28.52,
+      "probability": 0.9964362382888794,
+      "display": "movimiento"
+    },
+    {
+      "word": "del",
+      "start": 28.52,
+      "end": 28.88,
+      "probability": 0.9949851036071777,
+      "display": "del"
+    },
+    {
+      "word": "cliente.",
+      "start": 28.88,
+      "end": 29.32,
+      "probability": 0.997784435749054,
+      "display": "cliente."
+    }
+  ],
+  "captions": [
+    {
+      "text": "Vamos a registrar una compra para Ana.",
+      "startMs": 0,
+      "endMs": 2180,
+      "timestampMs": null,
+      "confidence": 0.964
+    },
+    {
+      "text": "Buscamos su país y DNI y cargamos 8 .500 pesos.",
+      "startMs": 2600,
+      "endMs": 6700,
+      "timestampMs": null,
+      "confidence": 0.804
+    },
+    {
+      "text": "Con nuestra regla, los 8 bloques completos de 1000 suman 80 puntos;",
+      "startMs": 7540,
+      "endMs": 11420,
+      "timestampMs": null,
+      "confidence": 0.944
+    },
+    {
+      "text": "los 500 restantes no pasan a otra compra.",
+      "startMs": 12020,
+      "endMs": 14680,
+      "timestampMs": null,
+      "confidence": 0.987
+    },
+    {
+      "text": "La pantalla muestra una estimación y el cliente encontrado.",
+      "startMs": 15320,
+      "endMs": 18380,
+      "timestampMs": null,
+      "confidence": 0.995
+    },
+    {
+      "text": "Al confirmar se registra la venta y se suman los puntos.",
+      "startMs": 19100,
+      "endMs": 22000,
+      "timestampMs": null,
+      "confidence": 0.99
+    },
+    {
+      "text": "Pointly no cobra dinero ni emite una factura por esta acción.",
+      "startMs": 22520,
+      "endMs": 25660,
+      "timestampMs": null,
+      "confidence": 0.969
+    },
+    {
+      "text": "Después verificamos la venta y el nuevo movimiento del cliente.",
+      "startMs": 26040,
+      "endMs": 29320,
+      "timestampMs": null,
+      "confidence": 0.99
+    }
+  ],
+  "status": "REVIEW_REQUIRED"
+}

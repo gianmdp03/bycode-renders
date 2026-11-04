@@ -1,0 +1,10 @@
+{
+  "state": "API_VALIDATED",
+  "ownerBusinesses": 2,
+  "sameClient": "Ana Torres DEMO",
+  "secondCompany": "Panader\u00eda Costera DEMO",
+  "earningRule": "5 points per 500 complete purchase amount",
+  "secondBalance": 65,
+  "countryOnlyLocation": true,
+  "dataIsolation": "Real separate points account, not shared points or a fabricated balance."
+}

@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:05,120
+En una cuenta nueva, Pointly puede pedir el DNI de la persona que administra
+
+2
+00:00:05,120 --> 00:00:05,720
+el comercio.
+
+3
+00:00:06,140 --> 00:00:07,860
+No es el documento de un cliente:
+
+4
+00:00:08,160 --> 00:00:09,440
+es un dato de tu perfil.
+
+5
+00:00:09,860 --> 00:00:11,420
+Completalo y continúal panel.
+
+6
+00:00:11,820 --> 00:00:16,080
+Acá aparece el plan, sus comercios permitidos y el cupo de clientes activos
+
+7
+00:00:16,080 --> 00:00:16,700
+por comercio.
+
+8
+00:00:17,140 --> 00:00:20,140
+Si todavía no creaste ninguno, empezá con Nueva Empresa.
+
+9
+00:00:20,700 --> 00:00:24,680
+No necesitás preparar una planilla ni importar clientes para dar este primer
+
+10
+00:00:24,680 --> 00:00:24,980
+paso.

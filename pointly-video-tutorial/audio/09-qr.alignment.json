@@ -1,0 +1,649 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "64e786238d810b879b39d908e90186a129ef3bcd151c844bae773cb11cc02da8",
+  "transcript": "Otra forma de incorporar clientes es el QR de registro. Desde el resumen, abrí generar QR de registro. Podés copiar el enlace, descargar el código como imagen o abrir la impresión. Si el navegador bloquea la ventana de impresión, habilitala o usa la descarga. El enlace abre un formulario público con el nombre del comercio. El cliente completa sus datos y confirma el alta. Mostrar un QR no suma puntos por sí solo. Después tenés que registrar las compras desde tu cuenta comercial.",
+  "scriptSimilarity": 1.0,
+  "differences": [],
+  "words": [
+    {
+      "word": "Otra",
+      "start": 0.0,
+      "end": 0.42,
+      "probability": 0.9848846197128296,
+      "display": "Otra"
+    },
+    {
+      "word": "forma",
+      "start": 0.42,
+      "end": 0.64,
+      "probability": 0.9996556043624878,
+      "display": "forma"
+    },
+    {
+      "word": "de",
+      "start": 0.64,
+      "end": 0.84,
+      "probability": 0.9984568357467651,
+      "display": "de"
+    },
+    {
+      "word": "incorporar",
+      "start": 0.84,
+      "end": 1.36,
+      "probability": 0.9970860183238983,
+      "display": "incorporar"
+    },
+    {
+      "word": "clientes",
+      "start": 1.36,
+      "end": 1.88,
+      "probability": 0.9960023462772369,
+      "display": "clientes"
+    },
+    {
+      "word": "es",
+      "start": 1.88,
+      "end": 2.2,
+      "probability": 0.9892093539237976,
+      "display": "es"
+    },
+    {
+      "word": "el",
+      "start": 2.2,
+      "end": 2.38,
+      "probability": 0.9963793158531189,
+      "display": "el"
+    },
+    {
+      "word": "QR",
+      "start": 2.38,
+      "end": 2.68,
+      "probability": 0.9777653813362122,
+      "display": "QR"
+    },
+    {
+      "word": "de",
+      "start": 2.68,
+      "end": 2.92,
+      "probability": 0.9832947850227356,
+      "display": "de"
+    },
+    {
+      "word": "registro.",
+      "start": 2.92,
+      "end": 3.4,
+      "probability": 0.9927750825881958,
+      "display": "registro."
+    },
+    {
+      "word": "Desde",
+      "start": 4.06,
+      "end": 4.2,
+      "probability": 0.9874037504196167,
+      "display": "Desde"
+    },
+    {
+      "word": "el",
+      "start": 4.2,
+      "end": 4.42,
+      "probability": 0.9965582489967346,
+      "display": "el"
+    },
+    {
+      "word": "resumen,",
+      "start": 4.42,
+      "end": 4.8,
+      "probability": 0.9879385530948639,
+      "display": "resumen"
+    },
+    {
+      "word": "abrí",
+      "start": 5.1,
+      "end": 5.22,
+      "probability": 0.8338828384876251,
+      "display": "abrí"
+    },
+    {
+      "word": "generar",
+      "start": 5.22,
+      "end": 5.62,
+      "probability": 0.7076655477285385,
+      "display": "Generar"
+    },
+    {
+      "word": "QR",
+      "start": 5.62,
+      "end": 5.96,
+      "probability": 0.9938302636146545,
+      "display": "QR"
+    },
+    {
+      "word": "de",
+      "start": 5.96,
+      "end": 6.26,
+      "probability": 0.9962366223335266,
+      "display": "de"
+    },
+    {
+      "word": "registro.",
+      "start": 6.26,
+      "end": 6.72,
+      "probability": 0.9991888105869293,
+      "display": "Registro."
+    },
+    {
+      "word": "Podés",
+      "start": 7.08,
+      "end": 7.44,
+      "probability": 0.7927275896072388,
+      "display": "Podés"
+    },
+    {
+      "word": "copiar",
+      "start": 7.44,
+      "end": 7.76,
+      "probability": 0.9981259703636169,
+      "display": "copiar"
+    },
+    {
+      "word": "el",
+      "start": 7.76,
+      "end": 7.92,
+      "probability": 0.999139666557312,
+      "display": "el"
+    },
+    {
+      "word": "enlace,",
+      "start": 7.92,
+      "end": 8.24,
+      "probability": 0.9984601438045502,
+      "display": "enlace,"
+    },
+    {
+      "word": "descargar",
+      "start": 8.54,
+      "end": 8.92,
+      "probability": 0.9914596875508627,
+      "display": "descargar"
+    },
+    {
+      "word": "el",
+      "start": 8.92,
+      "end": 9.12,
+      "probability": 0.9988279938697815,
+      "display": "el"
+    },
+    {
+      "word": "código",
+      "start": 9.12,
+      "end": 9.4,
+      "probability": 0.9944931268692017,
+      "display": "código"
+    },
+    {
+      "word": "como",
+      "start": 9.4,
+      "end": 9.72,
+      "probability": 0.9712210297584534,
+      "display": "como"
+    },
+    {
+      "word": "imagen",
+      "start": 9.72,
+      "end": 10.06,
+      "probability": 0.992655873298645,
+      "display": "imagen"
+    },
+    {
+      "word": "o",
+      "start": 10.06,
+      "end": 10.38,
+      "probability": 0.8263159394264221,
+      "display": "o"
+    },
+    {
+      "word": "abrir",
+      "start": 10.38,
+      "end": 10.64,
+      "probability": 0.9886201620101929,
+      "display": "abrir"
+    },
+    {
+      "word": "la",
+      "start": 10.64,
+      "end": 10.82,
+      "probability": 0.9946498274803162,
+      "display": "la"
+    },
+    {
+      "word": "impresión.",
+      "start": 10.82,
+      "end": 11.24,
+      "probability": 0.9959216713905334,
+      "display": "impresión."
+    },
+    {
+      "word": "Si",
+      "start": 11.86,
+      "end": 12.1,
+      "probability": 0.9936566948890686,
+      "display": "Si"
+    },
+    {
+      "word": "el",
+      "start": 12.1,
+      "end": 12.24,
+      "probability": 0.999091386795044,
+      "display": "el"
+    },
+    {
+      "word": "navegador",
+      "start": 12.24,
+      "end": 12.66,
+      "probability": 0.9994227488835653,
+      "display": "navegador"
+    },
+    {
+      "word": "bloquea",
+      "start": 12.66,
+      "end": 13.08,
+      "probability": 0.9962806403636932,
+      "display": "bloquea"
+    },
+    {
+      "word": "la",
+      "start": 13.08,
+      "end": 13.16,
+      "probability": 0.9973220229148865,
+      "display": "la"
+    },
+    {
+      "word": "ventana",
+      "start": 13.16,
+      "end": 13.48,
+      "probability": 0.9968989789485931,
+      "display": "ventana"
+    },
+    {
+      "word": "de",
+      "start": 13.48,
+      "end": 13.62,
+      "probability": 0.999387264251709,
+      "display": "de"
+    },
+    {
+      "word": "impresión,",
+      "start": 13.62,
+      "end": 14.1,
+      "probability": 0.9945972561836243,
+      "display": "impresión,"
+    },
+    {
+      "word": "habilitala",
+      "start": 14.42,
+      "end": 14.84,
+      "probability": 0.8479029734929403,
+      "display": "habilitala"
+    },
+    {
+      "word": "o",
+      "start": 14.84,
+      "end": 15.22,
+      "probability": 0.99167400598526,
+      "display": "o"
+    },
+    {
+      "word": "usa",
+      "start": 15.22,
+      "end": 15.42,
+      "probability": 0.7827977538108826,
+      "display": "usá"
+    },
+    {
+      "word": "la",
+      "start": 15.42,
+      "end": 15.56,
+      "probability": 0.9971299767494202,
+      "display": "la"
+    },
+    {
+      "word": "descarga.",
+      "start": 15.56,
+      "end": 16.0,
+      "probability": 0.9980078140894572,
+      "display": "descarga."
+    },
+    {
+      "word": "El",
+      "start": 16.6,
+      "end": 16.78,
+      "probability": 0.9956781268119812,
+      "display": "El"
+    },
+    {
+      "word": "enlace",
+      "start": 16.78,
+      "end": 17.12,
+      "probability": 0.999286413192749,
+      "display": "enlace"
+    },
+    {
+      "word": "abre",
+      "start": 17.12,
+      "end": 17.58,
+      "probability": 0.9536165595054626,
+      "display": "abre"
+    },
+    {
+      "word": "un",
+      "start": 17.58,
+      "end": 17.7,
+      "probability": 0.9923130869865417,
+      "display": "un"
+    },
+    {
+      "word": "formulario",
+      "start": 17.7,
+      "end": 18.2,
+      "probability": 0.9857460856437683,
+      "display": "formulario"
+    },
+    {
+      "word": "público",
+      "start": 18.2,
+      "end": 18.52,
+      "probability": 0.9882843494415283,
+      "display": "público"
+    },
+    {
+      "word": "con",
+      "start": 18.52,
+      "end": 18.82,
+      "probability": 0.9958190321922302,
+      "display": "con"
+    },
+    {
+      "word": "el",
+      "start": 18.82,
+      "end": 18.94,
+      "probability": 0.9992390871047974,
+      "display": "el"
+    },
+    {
+      "word": "nombre",
+      "start": 18.94,
+      "end": 19.18,
+      "probability": 0.9997166991233826,
+      "display": "nombre"
+    },
+    {
+      "word": "del",
+      "start": 19.18,
+      "end": 19.36,
+      "probability": 0.9862470626831055,
+      "display": "del"
+    },
+    {
+      "word": "comercio.",
+      "start": 19.36,
+      "end": 19.8,
+      "probability": 0.9933939576148987,
+      "display": "comercio."
+    },
+    {
+      "word": "El",
+      "start": 20.36,
+      "end": 20.52,
+      "probability": 0.9965606331825256,
+      "display": "El"
+    },
+    {
+      "word": "cliente",
+      "start": 20.52,
+      "end": 20.9,
+      "probability": 0.9980990588665009,
+      "display": "cliente"
+    },
+    {
+      "word": "completa",
+      "start": 20.9,
+      "end": 21.18,
+      "probability": 0.9899293780326843,
+      "display": "completa"
+    },
+    {
+      "word": "sus",
+      "start": 21.18,
+      "end": 21.46,
+      "probability": 0.9984340071678162,
+      "display": "sus"
+    },
+    {
+      "word": "datos",
+      "start": 21.46,
+      "end": 21.74,
+      "probability": 0.9992115497589111,
+      "display": "datos"
+    },
+    {
+      "word": "y",
+      "start": 21.74,
+      "end": 22.02,
+      "probability": 0.9927926063537598,
+      "display": "y"
+    },
+    {
+      "word": "confirma",
+      "start": 22.02,
+      "end": 22.5,
+      "probability": 0.9985104501247406,
+      "display": "confirma"
+    },
+    {
+      "word": "el",
+      "start": 22.5,
+      "end": 22.66,
+      "probability": 0.9731360673904419,
+      "display": "el"
+    },
+    {
+      "word": "alta.",
+      "start": 22.66,
+      "end": 22.88,
+      "probability": 0.8924210667610168,
+      "display": "alta."
+    },
+    {
+      "word": "Mostrar",
+      "start": 23.52,
+      "end": 23.9,
+      "probability": 0.966214507818222,
+      "display": "Mostrar"
+    },
+    {
+      "word": "un",
+      "start": 23.9,
+      "end": 24.08,
+      "probability": 0.9928843975067139,
+      "display": "un"
+    },
+    {
+      "word": "QR",
+      "start": 24.08,
+      "end": 24.4,
+      "probability": 0.9974122643470764,
+      "display": "QR"
+    },
+    {
+      "word": "no",
+      "start": 24.4,
+      "end": 24.7,
+      "probability": 0.9886624217033386,
+      "display": "no"
+    },
+    {
+      "word": "suma",
+      "start": 24.7,
+      "end": 25.02,
+      "probability": 0.9931892454624176,
+      "display": "suma"
+    },
+    {
+      "word": "puntos",
+      "start": 25.02,
+      "end": 25.32,
+      "probability": 0.9962427616119385,
+      "display": "puntos"
+    },
+    {
+      "word": "por",
+      "start": 25.32,
+      "end": 25.56,
+      "probability": 0.991019070148468,
+      "display": "por"
+    },
+    {
+      "word": "sí",
+      "start": 25.56,
+      "end": 25.68,
+      "probability": 0.8848410248756409,
+      "display": "sí"
+    },
+    {
+      "word": "solo.",
+      "start": 25.68,
+      "end": 25.9,
+      "probability": 0.9422663450241089,
+      "display": "solo:"
+    },
+    {
+      "word": "Después",
+      "start": 25.9,
+      "end": 26.72,
+      "probability": 0.8580799698829651,
+      "display": "después"
+    },
+    {
+      "word": "tenés",
+      "start": 26.72,
+      "end": 27.16,
+      "probability": 0.7105791866779327,
+      "display": "tenés"
+    },
+    {
+      "word": "que",
+      "start": 27.16,
+      "end": 27.24,
+      "probability": 0.9971495270729065,
+      "display": "que"
+    },
+    {
+      "word": "registrar",
+      "start": 27.24,
+      "end": 27.82,
+      "probability": 0.9983905553817749,
+      "display": "registrar"
+    },
+    {
+      "word": "las",
+      "start": 27.82,
+      "end": 27.94,
+      "probability": 0.9606130123138428,
+      "display": "las"
+    },
+    {
+      "word": "compras",
+      "start": 27.94,
+      "end": 28.38,
+      "probability": 0.995772659778595,
+      "display": "compras"
+    },
+    {
+      "word": "desde",
+      "start": 28.38,
+      "end": 28.6,
+      "probability": 0.9920917749404907,
+      "display": "desde"
+    },
+    {
+      "word": "tu",
+      "start": 28.6,
+      "end": 28.86,
+      "probability": 0.9943998456001282,
+      "display": "tu"
+    },
+    {
+      "word": "cuenta",
+      "start": 28.86,
+      "end": 29.12,
+      "probability": 0.9789530038833618,
+      "display": "cuenta"
+    },
+    {
+      "word": "comercial.",
+      "start": 29.12,
+      "end": 29.52,
+      "probability": 0.9980416297912598,
+      "display": "comercial."
+    }
+  ],
+  "captions": [
+    {
+      "text": "Otra forma de incorporar clientes es el QR de registro.",
+      "startMs": 0,
+      "endMs": 3400,
+      "timestampMs": null,
+      "confidence": 0.992
+    },
+    {
+      "text": "Desde el resumen abrí Generar QR de Registro.",
+      "startMs": 4060,
+      "endMs": 6720,
+      "timestampMs": null,
+      "confidence": 0.938
+    },
+    {
+      "text": "Podés copiar el enlace, descargar el código como imagen o abrir la impresión.",
+      "startMs": 7080,
+      "endMs": 11240,
+      "timestampMs": null,
+      "confidence": 0.965
+    },
+    {
+      "text": "Si el navegador bloquea la ventana de impresión, habilitala o usá la descarga.",
+      "startMs": 11860,
+      "endMs": 16000,
+      "timestampMs": null,
+      "confidence": 0.969
+    },
+    {
+      "text": "El enlace abre un formulario público con el nombre del comercio.",
+      "startMs": 16600,
+      "endMs": 19800,
+      "timestampMs": null,
+      "confidence": 0.99
+    },
+    {
+      "text": "El cliente completa sus datos y confirma el alta.",
+      "startMs": 20360,
+      "endMs": 22880,
+      "timestampMs": null,
+      "confidence": 0.982
+    },
+    {
+      "text": "Mostrar un QR no suma puntos por sí solo:",
+      "startMs": 23520,
+      "endMs": 25900,
+      "timestampMs": null,
+      "confidence": 0.973
+    },
+    {
+      "text": "después tenés que registrar las compras desde tu cuenta comercial.",
+      "startMs": 25900,
+      "endMs": 29520,
+      "timestampMs": null,
+      "confidence": 0.948
+    }
+  ],
+  "status": "ACOUSTIC_MATCH"
+}

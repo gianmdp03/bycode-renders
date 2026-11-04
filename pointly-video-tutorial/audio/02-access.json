@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "Para administrar un comercio necesitás tu cuenta de Bycode y un plan de Pointly habilitado. El acceso Crear cuenta lleva a Bycode: el alta comercial no se completa dentro de esta pantalla de Pointly. Si ya tenés cuenta, entrá con tu correo y contraseña. El modo cliente es diferente: permite consultar puntos, sin acceder a la administración. Revisá el correo que escribís y mantené tu contraseña privada. Si los datos no coinciden, la pantalla informa el error y permite corregirlos.",
+  "spokenText": "Para administrar un comercio necesitás tu cuenta de baicode y un plan de Pointli habilitado. El acceso Crear cuenta lleva a baicode: el alta comercial no se completa dentro de esta pantalla de Pointli. Si ya tenés cuenta, entrá con tu correo y contraseña. El modo cliente es diferente: permite consultar puntos, sin acceder a la administración. Revisá el correo que escribís y mantené tu contraseña privada. Si los datos no coinciden, la pantalla informa el error y permite corregirlos.",
+  "text_sha256": "9ba92d31c937e8f5b52471e0a7f6b3996d700bc0097da1802c94b8eae1be36a1",
+  "sha256": "df6e2747c7d653ea930f05e87b8ad965b575c908333a49b40b1aa06e27731246",
+  "duration": 30.64,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 80.84,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

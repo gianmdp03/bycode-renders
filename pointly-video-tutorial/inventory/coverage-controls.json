@@ -1,0 +1,5503 @@
+{
+  "generatedAt": "2026-11-03T18:00:37.341Z",
+  "controlCount": 300,
+  "rows": [
+    {
+      "control": "P001",
+      "source": "src/app/components/account-menu/account-menu.html:2",
+      "component": "AccountMenu",
+      "action": "open.set(!open())",
+      "conditions": [
+        "auth.isLoggedIn()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "26-wallet-access",
+        "29-help"
+      ],
+      "recordedScenes": [
+        "26-wallet-access",
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P002",
+      "source": "src/app/components/account-menu/account-menu.html:8",
+      "component": "AccountMenu",
+      "action": "open.set(false)",
+      "conditions": [
+        "auth.isLoggedIn()",
+        "open()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "26-wallet-access",
+        "29-help"
+      ],
+      "recordedScenes": [
+        "26-wallet-access",
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P003",
+      "source": "src/app/components/account-menu/account-menu.html:9",
+      "component": "AccountMenu",
+      "action": "Editar perfil en Bycode ↗",
+      "conditions": [
+        "auth.isLoggedIn()",
+        "open()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "26-wallet-access",
+        "29-help"
+      ],
+      "recordedScenes": [
+        "26-wallet-access",
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P004",
+      "source": "src/app/components/account-menu/account-menu.html:10",
+      "component": "AccountMenu",
+      "action": "logout()",
+      "conditions": [
+        "auth.isLoggedIn()",
+        "open()",
+        "signingOut()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "26-wallet-access",
+        "29-help"
+      ],
+      "recordedScenes": [
+        "26-wallet-access",
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P005",
+      "source": "src/app/components/account-menu/account-menu.html:15",
+      "component": "AccountMenu",
+      "action": "/login",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "26-wallet-access",
+        "29-help"
+      ],
+      "recordedScenes": [
+        "26-wallet-access",
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P006",
+      "source": "src/app/components/activity-status/activity-status.ts:15",
+      "component": "ActivityStatusComponent",
+      "action": "retry()",
+      "conditions": [
+        "navigationError() || activity.error()",
+        "failedUrl()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "29-help"
+      ],
+      "recordedScenes": [
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P007",
+      "source": "src/app/components/activity-status/activity-status.ts:16",
+      "component": "ActivityStatusComponent",
+      "action": "dismiss()",
+      "conditions": [
+        "navigationError() || activity.error()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "29-help"
+      ],
+      "recordedScenes": [
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P008",
+      "source": "src/app/components/ai-chatbot/ai-chatbot.html:7",
+      "component": "AiChatbotComponent",
+      "action": "chatService.toggleChat()",
+      "conditions": [
+        "!chatService.isOpen()"
+      ],
+      "availability": "dormant-policy-or-unmounted",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P009",
+      "source": "src/app/components/ai-chatbot/ai-chatbot.html:50",
+      "component": "AiChatbotComponent",
+      "action": "chatService.clearHistory()",
+      "conditions": [
+        "chatService.isOpen()"
+      ],
+      "availability": "dormant-policy-or-unmounted",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P010",
+      "source": "src/app/components/ai-chatbot/ai-chatbot.html:61",
+      "component": "AiChatbotComponent",
+      "action": "chatService.closeChat()",
+      "conditions": [
+        "chatService.isOpen()"
+      ],
+      "availability": "dormant-policy-or-unmounted",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P011",
+      "source": "src/app/components/ai-chatbot/ai-chatbot.html:120",
+      "component": "AiChatbotComponent",
+      "action": "onPromptClick(prompt)",
+      "conditions": [
+        "chatService.isOpen()",
+        "chatService.suggestedPrompts",
+        "chatService.isTyping()"
+      ],
+      "availability": "dormant-policy-or-unmounted",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P012",
+      "source": "src/app/components/ai-chatbot/ai-chatbot.html:132",
+      "component": "AiChatbotComponent",
+      "action": "onSendMessage()",
+      "conditions": [
+        "chatService.isOpen()"
+      ],
+      "availability": "dormant-policy-or-unmounted",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P013",
+      "source": "src/app/components/ai-chatbot/ai-chatbot.html:143",
+      "component": "AiChatbotComponent",
+      "action": "",
+      "conditions": [
+        "chatService.isOpen()",
+        "!inputMessage().trim() || chatService.isTyping()"
+      ],
+      "availability": "dormant-policy-or-unmounted",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P014",
+      "source": "src/app/components/carousel/carousel.html:7",
+      "component": "CarouselComponent",
+      "action": "prevSlide()",
+      "conditions": [],
+      "availability": "unmounted-legacy",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P015",
+      "source": "src/app/components/carousel/carousel.html:20",
+      "component": "CarouselComponent",
+      "action": "nextSlide()",
+      "conditions": [],
+      "availability": "unmounted-legacy",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P016",
+      "source": "src/app/components/carousel/carousel.html:60",
+      "component": "CarouselComponent",
+      "action": "goToSlide(idx)",
+      "conditions": [
+        "slides()"
+      ],
+      "availability": "unmounted-legacy",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P017",
+      "source": "src/app/components/carousel/carousel.html:70",
+      "component": "CarouselComponent",
+      "action": "toggleAutoplay()",
+      "conditions": [],
+      "availability": "unmounted-legacy",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P018",
+      "source": "src/app/components/client-contacts/client-contacts.ts:12",
+      "component": "ClientContactsComponent",
+      "action": "load()",
+      "conditions": [
+        "busy()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "10-search"
+      ],
+      "recordedScenes": [
+        "10-search"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P019",
+      "source": "src/app/components/client-contacts/client-contacts.ts:13",
+      "component": "ClientContactsComponent",
+      "action": "hide()",
+      "conditions": [
+        "contacts()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "10-search"
+      ],
+      "recordedScenes": [
+        "10-search"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P020",
+      "source": "src/app/components/company-quick-actions/company-quick-actions.html:14",
+      "component": "CompanyQuickActionsComponent",
+      "action": "successMessage.set(null)",
+      "conditions": [
+        "!workflowOutlet.isActivated",
+        "isCompanyAdmin()",
+        "successMessage()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation",
+        "11-sale"
+      ],
+      "recordedScenes": [
+        "07-navigation",
+        "11-sale"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P021",
+      "source": "src/app/components/company-quick-actions/company-quick-actions.html:78",
+      "component": "CompanyQuickActionsComponent",
+      "action": "onSelectCompany(comp)",
+      "conditions": [
+        "!workflowOutlet.isActivated",
+        "isCompanyAdmin()",
+        "companies().length > 1",
+        "companies()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation",
+        "11-sale"
+      ],
+      "recordedScenes": [
+        "07-navigation",
+        "11-sale"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P022",
+      "source": "src/app/components/company-quick-actions/company-quick-actions.html:109",
+      "component": "CompanyQuickActionsComponent",
+      "action": "openNewCompanyPage()",
+      "conditions": [
+        "!workflowOutlet.isActivated",
+        "isCompanyAdmin()",
+        "companies().length === 0"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation",
+        "11-sale"
+      ],
+      "recordedScenes": [
+        "07-navigation",
+        "11-sale"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P023",
+      "source": "src/app/components/company-quick-actions/company-quick-actions.html:123",
+      "component": "CompanyQuickActionsComponent",
+      "action": "openAddClientModal()",
+      "conditions": [
+        "!workflowOutlet.isActivated",
+        "isCompanyAdmin()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation",
+        "11-sale"
+      ],
+      "recordedScenes": [
+        "07-navigation",
+        "11-sale"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P024",
+      "source": "src/app/components/company-quick-actions/company-quick-actions.html:143",
+      "component": "CompanyQuickActionsComponent",
+      "action": "openAddSaleModal()",
+      "conditions": [
+        "!workflowOutlet.isActivated",
+        "isCompanyAdmin()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation",
+        "11-sale"
+      ],
+      "recordedScenes": [
+        "07-navigation",
+        "11-sale"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P025",
+      "source": "src/app/components/company-quick-actions/company-quick-actions.html:163",
+      "component": "CompanyQuickActionsComponent",
+      "action": "openCheckPointsModal()",
+      "conditions": [
+        "!workflowOutlet.isActivated",
+        "isCompanyAdmin()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation",
+        "11-sale"
+      ],
+      "recordedScenes": [
+        "07-navigation",
+        "11-sale"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P026",
+      "source": "src/app/components/company-quick-actions/company-quick-actions.html:184",
+      "component": "CompanyQuickActionsComponent",
+      "action": "['/companies', comp.publicName]",
+      "conditions": [
+        "!workflowOutlet.isActivated",
+        "isCompanyAdmin()",
+        "selectedCompany()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation",
+        "11-sale"
+      ],
+      "recordedScenes": [
+        "07-navigation",
+        "11-sale"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P027",
+      "source": "src/app/components/complete-profile-modal/complete-profile-modal.html:34",
+      "component": "CompleteProfileModalComponent",
+      "action": "onSubmit()",
+      "conditions": [
+        "authService.isLoggedIn() && authService.needsDni()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "03-profile"
+      ],
+      "recordedScenes": [
+        "03-profile"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P028",
+      "source": "src/app/components/complete-profile-modal/complete-profile-modal.html:54",
+      "component": "CompleteProfileModalComponent",
+      "action": "@if (isLoading()) { Guardando datos... } @else { Continuar al Panel }",
+      "conditions": [
+        "authService.isLoggedIn() && authService.needsDni()",
+        "isLoading()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "03-profile"
+      ],
+      "recordedScenes": [
+        "03-profile"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P029",
+      "source": "src/app/components/complete-profile-modal/complete-profile-modal.html:73",
+      "component": "CompleteProfileModalComponent",
+      "action": "/dashboard",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "03-profile"
+      ],
+      "recordedScenes": [
+        "03-profile"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P030",
+      "source": "src/app/components/country-select/country-select.html:9",
+      "component": "CountrySelectComponent",
+      "action": "toggleDropdown()",
+      "conditions": [
+        "disabled"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "04-company",
+        "08-client"
+      ],
+      "recordedScenes": [
+        "04-company",
+        "08-client"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P031",
+      "source": "src/app/components/country-select/country-select.html:66",
+      "component": "CountrySelectComponent",
+      "action": "clearSearch($event)",
+      "conditions": [
+        "isOpen()",
+        "searchTerm()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "04-company",
+        "08-client"
+      ],
+      "recordedScenes": [
+        "04-company",
+        "08-client"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P032",
+      "source": "src/app/components/country-select/country-select.html:81",
+      "component": "CountrySelectComponent",
+      "action": "selectCountry(country)",
+      "conditions": [
+        "isOpen()",
+        "filteredCountries()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "04-company",
+        "08-client"
+      ],
+      "recordedScenes": [
+        "04-company",
+        "08-client"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P033",
+      "source": "src/app/components/cta-banner/cta-banner.html:8",
+      "component": "CtaBanner",
+      "action": "Ver cómo funciona para comercios",
+      "conditions": [],
+      "availability": "unmounted-legacy",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "No se monta en la página Home actual; no se enseña como disponible."
+    },
+    {
+      "control": "P034",
+      "source": "src/app/components/cta-banner/cta-banner.html:11",
+      "component": "CtaBanner",
+      "action": "/register",
+      "conditions": [],
+      "availability": "unmounted-legacy",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "No se monta en la página Home actual; no se enseña como disponible."
+    },
+    {
+      "control": "P035",
+      "source": "src/app/components/customer-controls/customer-controls.ts:16",
+      "component": "CustomerControlsComponent",
+      "action": "request('preferences', true)",
+      "conditions": [
+        "!operation()",
+        "companyId > 0",
+        "busy()"
+      ],
+      "availability": "dormant-policy-or-unmounted",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P036",
+      "source": "src/app/components/customer-controls/customer-controls.ts:17",
+      "component": "CustomerControlsComponent",
+      "action": "request('preferences', false)",
+      "conditions": [
+        "!operation()",
+        "companyId > 0",
+        "busy()"
+      ],
+      "availability": "dormant-policy-or-unmounted",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P037",
+      "source": "src/app/components/customer-controls/customer-controls.ts:19",
+      "component": "CustomerControlsComponent",
+      "action": "request('withdraw')",
+      "conditions": [
+        "!operation()",
+        "companyId > 0",
+        "busy()"
+      ],
+      "availability": "dormant-policy-or-unmounted",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P038",
+      "source": "src/app/components/customer-controls/customer-controls.ts:25",
+      "component": "CustomerControlsComponent",
+      "action": "request('rejoin')",
+      "conditions": [
+        "!operation()",
+        "busy() || rejoinCompanyId < 1"
+      ],
+      "availability": "dormant-policy-or-unmounted",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P039",
+      "source": "src/app/components/customer-controls/customer-controls.ts:28",
+      "component": "CustomerControlsComponent",
+      "action": "request('email')",
+      "conditions": [
+        "!operation()",
+        "busy() || !newEmail.trim()"
+      ],
+      "availability": "dormant-policy-or-unmounted",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P040",
+      "source": "src/app/components/customer-controls/customer-controls.ts:35",
+      "component": "CustomerControlsComponent",
+      "action": "confirm()",
+      "conditions": [
+        "busy() || !validCode()"
+      ],
+      "availability": "dormant-policy-or-unmounted",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P041",
+      "source": "src/app/components/customer-controls/customer-controls.ts:36",
+      "component": "CustomerControlsComponent",
+      "action": "reset()",
+      "conditions": [
+        "busy()"
+      ],
+      "availability": "dormant-policy-or-unmounted",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P042",
+      "source": "src/app/components/faq/faq.html:13",
+      "component": "Faq",
+      "action": "toggleFaq($index)",
+      "conditions": [
+        "faqs"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "29-help"
+      ],
+      "recordedScenes": [
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P043",
+      "source": "src/app/components/header/header.html:3",
+      "component": "Header",
+      "action": "/",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "02-access",
+        "29-help"
+      ],
+      "recordedScenes": [
+        "02-access",
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P044",
+      "source": "src/app/components/header/header.html:5",
+      "component": "Header",
+      "action": "/",
+      "conditions": [
+        "!authMode()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "02-access",
+        "29-help"
+      ],
+      "recordedScenes": [
+        "02-access",
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P045",
+      "source": "src/app/components/header/header.html:5",
+      "component": "Header",
+      "action": "/",
+      "conditions": [
+        "!authMode()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "02-access",
+        "29-help"
+      ],
+      "recordedScenes": [
+        "02-access",
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P046",
+      "source": "src/app/components/header/header.html:5",
+      "component": "Header",
+      "action": "/",
+      "conditions": [
+        "!authMode()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "02-access",
+        "29-help"
+      ],
+      "recordedScenes": [
+        "02-access",
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P047",
+      "source": "src/app/components/header/header.html:9",
+      "component": "Header",
+      "action": "/",
+      "conditions": [
+        "authMode()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "02-access",
+        "29-help"
+      ],
+      "recordedScenes": [
+        "02-access",
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P048",
+      "source": "src/app/components/header/header.html:11",
+      "component": "Header",
+      "action": "/dashboard",
+      "conditions": [
+        "authService.isLoggedIn()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "02-access",
+        "29-help"
+      ],
+      "recordedScenes": [
+        "02-access",
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P049",
+      "source": "src/app/components/header/header.html:13",
+      "component": "Header",
+      "action": "toggleDarkMode()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "02-access",
+        "29-help"
+      ],
+      "recordedScenes": [
+        "02-access",
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P050",
+      "source": "src/app/components/hero/hero.html:10",
+      "component": "Hero",
+      "action": "/register",
+      "conditions": [],
+      "availability": "unmounted-legacy",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "No se monta en la página Home actual; no se enseña como disponible."
+    },
+    {
+      "control": "P051",
+      "source": "src/app/components/hero/hero.html:11",
+      "component": "Hero",
+      "action": "/points",
+      "conditions": [],
+      "availability": "unmounted-legacy",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "No se monta en la página Home actual; no se enseña como disponible."
+    },
+    {
+      "control": "P052",
+      "source": "src/app/components/inline-confirmation/inline-confirmation.ts:43",
+      "component": "InlineConfirmationComponent",
+      "action": "confirmation.confirm()",
+      "conditions": [
+        "confirmation.message()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "14-promotion-life",
+        "18-reward-life",
+        "22-archive"
+      ],
+      "recordedScenes": [
+        "14-promotion-life",
+        "18-reward-life",
+        "22-archive"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P053",
+      "source": "src/app/components/inline-confirmation/inline-confirmation.ts:50",
+      "component": "InlineConfirmationComponent",
+      "action": "confirmation.cancel()",
+      "conditions": [
+        "confirmation.message()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "14-promotion-life",
+        "18-reward-life",
+        "22-archive"
+      ],
+      "recordedScenes": [
+        "14-promotion-life",
+        "18-reward-life",
+        "22-archive"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P054",
+      "source": "src/app/components/install-guide/install-guide.html:6",
+      "component": "InstallGuideComponent",
+      "action": "dismiss()",
+      "conditions": [
+        "!install.installed() && !dismissed()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "26-wallet-access"
+      ],
+      "recordedScenes": [
+        "26-wallet-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P055",
+      "source": "src/app/components/install-guide/install-guide.html:8",
+      "component": "InstallGuideComponent",
+      "action": "open()",
+      "conditions": [
+        "!install.installed() && !dismissed()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "26-wallet-access"
+      ],
+      "recordedScenes": [
+        "26-wallet-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P056",
+      "source": "src/app/components/login-modal/login-modal.html:39",
+      "component": "LoginModal",
+      "action": "onSubmit()",
+      "conditions": [
+        "authService.isLoginModalOpen()"
+      ],
+      "availability": "dormant-policy-or-unmounted",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P057",
+      "source": "src/app/components/login-modal/login-modal.html:78",
+      "component": "LoginModal",
+      "action": "@if (isLoading()) { Ingresando... } @else { Ingresar a {{ configService.appName() }} }",
+      "conditions": [
+        "authService.isLoginModalOpen()",
+        "isLoading()"
+      ],
+      "availability": "dormant-policy-or-unmounted",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P058",
+      "source": "src/app/components/login-modal/login-modal.html:95",
+      "component": "LoginModal",
+      "action": "Crear cuenta en Bycode",
+      "conditions": [
+        "authService.isLoginModalOpen()"
+      ],
+      "availability": "dormant-policy-or-unmounted",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P059",
+      "source": "src/app/components/plan-limit-modal/plan-limit-modal.html:31",
+      "component": "PlanLimitModalComponent",
+      "action": "close()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "27-company-status"
+      ],
+      "recordedScenes": [
+        "27-company-status"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P060",
+      "source": "src/app/components/qr-generator/qr-generator.html:12",
+      "component": "QrGeneratorComponent",
+      "action": "copyLink()",
+      "conditions": [
+        "!editorOnly()",
+        "currentName() && !loading() && !uncertain()",
+        "!qrUrl() || saving()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "06-photo",
+        "09-qr"
+      ],
+      "recordedScenes": [
+        "06-photo",
+        "09-qr"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P061",
+      "source": "src/app/components/qr-generator/qr-generator.html:14",
+      "component": "QrGeneratorComponent",
+      "action": "downloadQR()",
+      "conditions": [
+        "!editorOnly()",
+        "!isReady() || saving() || uncertain()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "06-photo",
+        "09-qr"
+      ],
+      "recordedScenes": [
+        "06-photo",
+        "09-qr"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P062",
+      "source": "src/app/components/qr-generator/qr-generator.html:14",
+      "component": "QrGeneratorComponent",
+      "action": "printQR()",
+      "conditions": [
+        "!editorOnly()",
+        "!isReady() || saving() || uncertain()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "06-photo",
+        "09-qr"
+      ],
+      "recordedScenes": [
+        "06-photo",
+        "09-qr"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P063",
+      "source": "src/app/components/qr-generator/qr-generator.html:15",
+      "component": "QrGeneratorComponent",
+      "action": "loadLink()",
+      "conditions": [
+        "!editorOnly()",
+        "loading() || saving()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "06-photo",
+        "09-qr"
+      ],
+      "recordedScenes": [
+        "06-photo",
+        "09-qr"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P064",
+      "source": "src/app/components/qr-generator/qr-generator.html:22",
+      "component": "QrGeneratorComponent",
+      "action": "prepareChange()",
+      "conditions": [
+        "currentName() && !loading()",
+        "!review()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "06-photo",
+        "09-qr"
+      ],
+      "recordedScenes": [
+        "06-photo",
+        "09-qr"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P065",
+      "source": "src/app/components/qr-generator/qr-generator.html:27",
+      "component": "QrGeneratorComponent",
+      "action": "Revisar cambio de enlace",
+      "conditions": [
+        "currentName() && !loading()",
+        "!review()",
+        "candidate.invalid || candidate.value === currentName() || uncertain() || (editorOnly() && nameState() !== 'available')"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "06-photo",
+        "09-qr"
+      ],
+      "recordedScenes": [
+        "06-photo",
+        "09-qr"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P066",
+      "source": "src/app/components/qr-generator/qr-generator.html:31",
+      "component": "QrGeneratorComponent",
+      "action": "cancelChange()",
+      "conditions": [
+        "currentName() && !loading()",
+        "review()",
+        "saving() || uncertain()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "06-photo",
+        "09-qr"
+      ],
+      "recordedScenes": [
+        "06-photo",
+        "09-qr"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P067",
+      "source": "src/app/components/qr-generator/qr-generator.html:31",
+      "component": "QrGeneratorComponent",
+      "action": "confirmChange()",
+      "conditions": [
+        "currentName() && !loading()",
+        "review()",
+        "saving()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "06-photo",
+        "09-qr"
+      ],
+      "recordedScenes": [
+        "06-photo",
+        "09-qr"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P068",
+      "source": "src/app/components/routed-workflow/routed-workflow.ts:18",
+      "component": "RoutedWorkflowPage",
+      "action": "back()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "08-client"
+      ],
+      "recordedScenes": [
+        "08-client"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P069",
+      "source": "src/app/components/scroll-to-top/scroll-to-top.component.ts:9",
+      "component": "ScrollToTopComponent",
+      "action": "scrollToTop()",
+      "conditions": [
+        "visible()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "29-help"
+      ],
+      "recordedScenes": [
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P070",
+      "source": "src/app/components/tier-settings/tier-settings.ts:55",
+      "component": "TierSettingsComponent",
+      "action": "suggest(typical.value)",
+      "conditions": [
+        "featureFlags.LOYALTY_TIERS_ENABLED"
+      ],
+      "availability": "dormant-policy-or-unmounted",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P071",
+      "source": "src/app/components/user-info/user-info.html:43",
+      "component": "UserInfo",
+      "action": "/points",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "01-intro"
+      ],
+      "recordedScenes": [
+        "01-intro"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P072",
+      "source": "src/app/components/workspace-shell/workspace-shell.html:3",
+      "component": "WorkspaceShellComponent",
+      "action": "Saltar al contenido",
+      "conditions": [
+        "active"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation",
+        "29-help"
+      ],
+      "recordedScenes": [
+        "07-navigation",
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P073",
+      "source": "src/app/components/workspace-shell/workspace-shell.html:4",
+      "component": "WorkspaceShellComponent",
+      "action": "/",
+      "conditions": [
+        "active"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation",
+        "29-help"
+      ],
+      "recordedScenes": [
+        "07-navigation",
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P074",
+      "source": "src/app/components/workspace-shell/workspace-shell.html:4",
+      "component": "WorkspaceShellComponent",
+      "action": "install.chooseMode('client')",
+      "conditions": [
+        "active"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation",
+        "29-help"
+      ],
+      "recordedScenes": [
+        "07-navigation",
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P075",
+      "source": "src/app/components/workspace-shell/workspace-shell.html:4",
+      "component": "WorkspaceShellComponent",
+      "action": "toggleTheme()",
+      "conditions": [
+        "active"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation",
+        "29-help"
+      ],
+      "recordedScenes": [
+        "07-navigation",
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P076",
+      "source": "src/app/components/workspace-shell/workspace-shell.html:9",
+      "component": "WorkspaceShellComponent",
+      "action": "install.chooseMode('merchant')",
+      "conditions": [
+        "active"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation",
+        "29-help"
+      ],
+      "recordedScenes": [
+        "07-navigation",
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P077",
+      "source": "src/app/components/workspace-shell/workspace-shell.html:9",
+      "component": "WorkspaceShellComponent",
+      "action": "/dashboard/companies/new",
+      "conditions": [
+        "active"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation",
+        "29-help"
+      ],
+      "recordedScenes": [
+        "07-navigation",
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P078",
+      "source": "src/app/components/workspace-shell/workspace-shell.html:9",
+      "component": "WorkspaceShellComponent",
+      "action": "install.chooseMode('client')",
+      "conditions": [
+        "active"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation",
+        "29-help"
+      ],
+      "recordedScenes": [
+        "07-navigation",
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P079",
+      "source": "src/app/components/workspace-shell/workspace-shell.html:9",
+      "component": "WorkspaceShellComponent",
+      "action": "Editar perfil en Bycode ↗",
+      "conditions": [
+        "active"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation",
+        "29-help"
+      ],
+      "recordedScenes": [
+        "07-navigation",
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P080",
+      "source": "src/app/components/workspace-shell/workspace-shell.html:9",
+      "component": "WorkspaceShellComponent",
+      "action": "logout()",
+      "conditions": [
+        "active",
+        "signingOut()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation",
+        "29-help"
+      ],
+      "recordedScenes": [
+        "07-navigation",
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P081",
+      "source": "src/app/components/workspace-shell/workspace-shell.html:13",
+      "component": "WorkspaceShellComponent",
+      "action": "install.chooseMode('merchant')",
+      "conditions": [
+        "active"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation",
+        "29-help"
+      ],
+      "recordedScenes": [
+        "07-navigation",
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P082",
+      "source": "src/app/components/workspace-shell/workspace-shell.html:13",
+      "component": "WorkspaceShellComponent",
+      "action": "install.chooseMode('client')",
+      "conditions": [
+        "active"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation",
+        "29-help"
+      ],
+      "recordedScenes": [
+        "07-navigation",
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P083",
+      "source": "src/app/pages/client-join/client-join.html:7",
+      "component": "ClientJoinComponent",
+      "action": "/",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "09-qr"
+      ],
+      "recordedScenes": [
+        "09-qr"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P084",
+      "source": "src/app/pages/client-join/client-join.html:40",
+      "component": "ClientJoinComponent",
+      "action": "/",
+      "conditions": [
+        "errorMessage() && !companyReady()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "09-qr"
+      ],
+      "recordedScenes": [
+        "09-qr"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P085",
+      "source": "src/app/pages/client-join/client-join.html:70",
+      "component": "ClientJoinComponent",
+      "action": "/points",
+      "conditions": [
+        "isSuccess()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "09-qr"
+      ],
+      "recordedScenes": [
+        "09-qr"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P086",
+      "source": "src/app/pages/client-join/client-join.html:73",
+      "component": "ClientJoinComponent",
+      "action": "resetForm()",
+      "conditions": [
+        "isSuccess()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "09-qr"
+      ],
+      "recordedScenes": [
+        "09-qr"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P087",
+      "source": "src/app/pages/client-join/client-join.html:111",
+      "component": "ClientJoinComponent",
+      "action": "/points",
+      "conditions": [
+        "errorMessage()",
+        "isAlreadyRegistered()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "09-qr"
+      ],
+      "recordedScenes": [
+        "09-qr"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P088",
+      "source": "src/app/pages/client-join/client-join.html:120",
+      "component": "ClientJoinComponent",
+      "action": "onSubmit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "09-qr"
+      ],
+      "recordedScenes": [
+        "09-qr"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P089",
+      "source": "src/app/pages/client-join/client-join.html:207",
+      "component": "ClientJoinComponent",
+      "action": "@if (isSubmitting()) { Registrándote... } @else { Registrarme en este comercio }",
+      "conditions": [
+        "isSubmitting()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "09-qr"
+      ],
+      "recordedScenes": [
+        "09-qr"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P090",
+      "source": "src/app/pages/client-join/client-join.html:233",
+      "component": "ClientJoinComponent",
+      "action": "/points",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "09-qr"
+      ],
+      "recordedScenes": [
+        "09-qr"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P091",
+      "source": "src/app/pages/client-points/client-points.html:17",
+      "component": "ClientPointsPage",
+      "action": "onSearchSubmit()",
+      "conditions": [
+        "!workflowOutlet.isActivated"
+      ],
+      "availability": "legacy-unreachable",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "El primer matcher points/full carga ClientWalletPage; la segunda ruta points histórica queda eclipsada."
+    },
+    {
+      "control": "P092",
+      "source": "src/app/pages/client-points/client-points.html:58",
+      "component": "ClientPointsPage",
+      "action": "@if (isLoading()) { Consultando... } @else { Consultar Saldo }",
+      "conditions": [
+        "!workflowOutlet.isActivated",
+        "isLoading()"
+      ],
+      "availability": "legacy-unreachable",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "El primer matcher points/full carga ClientWalletPage; la segunda ruta points histórica queda eclipsada."
+    },
+    {
+      "control": "P093",
+      "source": "src/app/pages/client-points/client-points.html:226",
+      "component": "ClientPointsPage",
+      "action": "viewCompanyCatalog(company)",
+      "conditions": [
+        "!workflowOutlet.isActivated",
+        "hasSearched() && !isLoading() && !errorMessage()",
+        "companies()"
+      ],
+      "availability": "legacy-unreachable",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "El primer matcher points/full carga ClientWalletPage; la segunda ruta points histórica queda eclipsada."
+    },
+    {
+      "control": "P094",
+      "source": "src/app/pages/client-points/client-points.html:275",
+      "component": "ClientPointsPage",
+      "action": "closeCatalogModal()",
+      "conditions": [
+        "catalogErrorMessage()"
+      ],
+      "availability": "legacy-unreachable",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "El primer matcher points/full carga ClientWalletPage; la segunda ruta points histórica queda eclipsada."
+    },
+    {
+      "control": "P095",
+      "source": "src/app/pages/client-points/client-points.html:288",
+      "component": "ClientPointsPage",
+      "action": "$event.stopPropagation()",
+      "conditions": [
+        "!showTierInfoModal() && selectedCompanyCatalog()"
+      ],
+      "availability": "legacy-unreachable",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "El primer matcher points/full carga ClientWalletPage; la segunda ruta points histórica queda eclipsada."
+    },
+    {
+      "control": "P096",
+      "source": "src/app/pages/client-points/client-points.html:335",
+      "component": "ClientPointsPage",
+      "action": "toggleTierInfoModal()",
+      "conditions": [
+        "!showTierInfoModal() && selectedCompanyCatalog()",
+        "tierService.isEnabled(catalog)"
+      ],
+      "availability": "legacy-unreachable",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "El primer matcher points/full carga ClientWalletPage; la segunda ruta points histórica queda eclipsada."
+    },
+    {
+      "control": "P097",
+      "source": "src/app/pages/client-points/client-points.html:452",
+      "component": "ClientPointsPage",
+      "action": "toggleTierInfoModal()",
+      "conditions": [
+        "!showTierInfoModal() && selectedCompanyCatalog()",
+        "tierService.isEnabled(catalog)"
+      ],
+      "availability": "legacy-unreachable",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "El primer matcher points/full carga ClientWalletPage; la segunda ruta points histórica queda eclipsada."
+    },
+    {
+      "control": "P098",
+      "source": "src/app/pages/client-points/client-points.html:465",
+      "component": "ClientPointsPage",
+      "action": "setCatalogTab('rewards')",
+      "conditions": [
+        "!showTierInfoModal() && selectedCompanyCatalog()"
+      ],
+      "availability": "legacy-unreachable",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "El primer matcher points/full carga ClientWalletPage; la segunda ruta points histórica queda eclipsada."
+    },
+    {
+      "control": "P099",
+      "source": "src/app/pages/client-points/client-points.html:477",
+      "component": "ClientPointsPage",
+      "action": "setCatalogTab('promotions')",
+      "conditions": [
+        "!showTierInfoModal() && selectedCompanyCatalog()"
+      ],
+      "availability": "legacy-unreachable",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "El primer matcher points/full carga ClientWalletPage; la segunda ruta points histórica queda eclipsada."
+    },
+    {
+      "control": "P100",
+      "source": "src/app/pages/client-points/client-points.html:489",
+      "component": "ClientPointsPage",
+      "action": "setCatalogTab('products')",
+      "conditions": [
+        "!showTierInfoModal() && selectedCompanyCatalog()"
+      ],
+      "availability": "legacy-unreachable",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "El primer matcher points/full carga ClientWalletPage; la segunda ruta points histórica queda eclipsada."
+    },
+    {
+      "control": "P101",
+      "source": "src/app/pages/client-points/client-points.html:704",
+      "component": "ClientPointsPage",
+      "action": "askAiAboutCompany(catalog.name)",
+      "conditions": [
+        "!showTierInfoModal() && selectedCompanyCatalog()",
+        "featureFlags.AI_ASSISTANT_ENABLED"
+      ],
+      "availability": "legacy-unreachable",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P102",
+      "source": "src/app/pages/client-points/client-points.html:715",
+      "component": "ClientPointsPage",
+      "action": "closeCatalogModal()",
+      "conditions": [
+        "!showTierInfoModal() && selectedCompanyCatalog()"
+      ],
+      "availability": "legacy-unreachable",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "El primer matcher points/full carga ClientWalletPage; la segunda ruta points histórica queda eclipsada."
+    },
+    {
+      "control": "P103",
+      "source": "src/app/pages/client-points/client-points.html:744",
+      "component": "ClientPointsPage",
+      "action": "toggleTierInfoModal()",
+      "conditions": [
+        "featureFlags.LOYALTY_TIERS_ENABLED && showTierInfoModal()"
+      ],
+      "availability": "legacy-unreachable",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P104",
+      "source": "src/app/pages/client-points/client-points.html:797",
+      "component": "ClientPointsPage",
+      "action": "toggleTierInfoModal()",
+      "conditions": [
+        "featureFlags.LOYALTY_TIERS_ENABLED && showTierInfoModal()"
+      ],
+      "availability": "legacy-unreachable",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P105",
+      "source": "src/app/pages/client-wallet/client-wallet-catalog.html:4",
+      "component": "ClientWalletCatalog",
+      "action": "tab.set('rewards')",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "24-wallet"
+      ],
+      "recordedScenes": [
+        "24-wallet"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P106",
+      "source": "src/app/pages/client-wallet/client-wallet-catalog.html:5",
+      "component": "ClientWalletCatalog",
+      "action": "tab.set('promotions')",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "24-wallet"
+      ],
+      "recordedScenes": [
+        "24-wallet"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P107",
+      "source": "src/app/pages/client-wallet/client-wallet-catalog.html:6",
+      "component": "ClientWalletCatalog",
+      "action": "tab.set('products')",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "24-wallet"
+      ],
+      "recordedScenes": [
+        "24-wallet"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P108",
+      "source": "src/app/pages/client-wallet/client-wallet.html:3",
+      "component": "ClientWalletPage",
+      "action": "/",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "recordedScenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P109",
+      "source": "src/app/pages/client-wallet/client-wallet.html:4",
+      "component": "ClientWalletPage",
+      "action": "/dashboard",
+      "conditions": [
+        "auth.isLoggedIn()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "recordedScenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P110",
+      "source": "src/app/pages/client-wallet/client-wallet.html:10",
+      "component": "ClientWalletPage",
+      "action": "basePath()",
+      "conditions": [
+        "token()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "recordedScenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P111",
+      "source": "src/app/pages/client-wallet/client-wallet.html:11",
+      "component": "ClientWalletPage",
+      "action": "accessPath()",
+      "conditions": [
+        "token()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "recordedScenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P112",
+      "source": "src/app/pages/client-wallet/client-wallet.html:12",
+      "component": "ClientWalletPage",
+      "action": "/dashboard",
+      "conditions": [
+        "token()",
+        "auth.isLoggedIn()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "recordedScenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P113",
+      "source": "src/app/pages/client-wallet/client-wallet.html:17",
+      "component": "ClientWalletPage",
+      "action": "consultAnother()",
+      "conditions": [
+        "token()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "recordedScenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P114",
+      "source": "src/app/pages/client-wallet/client-wallet.html:21",
+      "component": "ClientWalletPage",
+      "action": "search()",
+      "conditions": [
+        "view() === 'lookup'"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "recordedScenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P115",
+      "source": "src/app/pages/client-wallet/client-wallet.html:26",
+      "component": "ClientWalletPage",
+      "action": "{{ loading() ? 'Consultando…' : 'Consultar mis puntos' }}",
+      "conditions": [
+        "view() === 'lookup'",
+        "loading()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "recordedScenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P116",
+      "source": "src/app/pages/client-wallet/client-wallet.html:35",
+      "component": "ClientWalletPage",
+      "action": "reload()",
+      "conditions": [
+        "error()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "recordedScenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P117",
+      "source": "src/app/pages/client-wallet/client-wallet.html:35",
+      "component": "ClientWalletPage",
+      "action": "basePath()",
+      "conditions": [
+        "error()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "recordedScenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P118",
+      "source": "src/app/pages/client-wallet/client-wallet.html:41",
+      "component": "ClientWalletPage",
+      "action": "c.publicName ? basePath() + '/' + c.publicName : null",
+      "conditions": [
+        "view() === 'stores'",
+        "companies()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "recordedScenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P119",
+      "source": "src/app/pages/client-wallet/client-wallet.html:48",
+      "component": "ClientWalletPage",
+      "action": "loadMoreCompanies()",
+      "conditions": [
+        "view() === 'stores'",
+        "companyPage() + 1 < companyPages()",
+        "loadingMore()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "recordedScenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P120",
+      "source": "src/app/pages/client-wallet/client-wallet.html:49",
+      "component": "ClientWalletPage",
+      "action": "accessPath()",
+      "conditions": [
+        "view() === 'stores'"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "recordedScenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P121",
+      "source": "src/app/pages/client-wallet/client-wallet.html:54",
+      "component": "ClientWalletPage",
+      "action": "copy(accessUrl())",
+      "conditions": [
+        "view() === 'access'"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "recordedScenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P122",
+      "source": "src/app/pages/client-wallet/client-wallet.html:56",
+      "component": "ClientWalletPage",
+      "action": "forget()",
+      "conditions": [
+        "view() === 'access'",
+        "remembered()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "recordedScenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P123",
+      "source": "src/app/pages/client-wallet/client-wallet.html:57",
+      "component": "ClientWalletPage",
+      "action": "remember()",
+      "conditions": [
+        "view() === 'access'"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "recordedScenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P124",
+      "source": "src/app/pages/client-wallet/client-wallet.html:64",
+      "component": "ClientWalletPage",
+      "action": "view() === 'expiry' ? storePath() : basePath()",
+      "conditions": [
+        "company()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "recordedScenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P125",
+      "source": "src/app/pages/client-wallet/client-wallet.html:71",
+      "component": "ClientWalletPage",
+      "action": "loadMoreExpirations()",
+      "conditions": [
+        "company()",
+        "view() === 'expiry'",
+        "expiration()",
+        "moreExpirations()",
+        "loadingMore()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "recordedScenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P126",
+      "source": "src/app/pages/client-wallet/client-wallet.html:81",
+      "component": "ClientWalletPage",
+      "action": "storePath() + '/points'",
+      "conditions": [
+        "company()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "recordedScenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P127",
+      "source": "src/app/pages/client-wallet/client-wallet.html:86",
+      "component": "ClientWalletPage",
+      "action": "copy(storeUrl())",
+      "conditions": [
+        "company()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "recordedScenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P128",
+      "source": "src/app/pages/client-wallet/client-wallet.html:92",
+      "component": "ClientWalletPage",
+      "action": "basePath()",
+      "conditions": [
+        "token()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "recordedScenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P129",
+      "source": "src/app/pages/client-wallet/client-wallet.html:92",
+      "component": "ClientWalletPage",
+      "action": "accessPath()",
+      "conditions": [
+        "token()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "recordedScenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P130",
+      "source": "src/app/pages/client-wallet/client-wallet.html:92",
+      "component": "ClientWalletPage",
+      "action": "/dashboard",
+      "conditions": [
+        "token()",
+        "auth.isLoggedIn()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "recordedScenes": [
+        "24-wallet",
+        "25-expiration",
+        "26-wallet-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P131",
+      "source": "src/app/pages/company-client/company-client.html:4",
+      "component": "CompanyClientPage",
+      "action": "../..",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "10-search",
+        "19-redeem"
+      ],
+      "recordedScenes": [
+        "10-search",
+        "19-redeem"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P132",
+      "source": "src/app/pages/company-client/company-client.html:10",
+      "component": "CompanyClientPage",
+      "action": "load()",
+      "conditions": [
+        "error()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "10-search",
+        "19-redeem"
+      ],
+      "recordedScenes": [
+        "10-search",
+        "19-redeem"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P133",
+      "source": "src/app/pages/company-client/company-client.html:37",
+      "component": "CompanyClientPage",
+      "action": "hideContacts()",
+      "conditions": [
+        "account()",
+        "contacts()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "10-search",
+        "19-redeem"
+      ],
+      "recordedScenes": [
+        "10-search",
+        "19-redeem"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P134",
+      "source": "src/app/pages/company-client/company-client.html:40",
+      "component": "CompanyClientPage",
+      "action": "loadContacts()",
+      "conditions": [
+        "account()",
+        "contactsBusy()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "10-search",
+        "19-redeem"
+      ],
+      "recordedScenes": [
+        "10-search",
+        "19-redeem"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P135",
+      "source": "src/app/pages/company-client/company-client.html:52",
+      "component": "CompanyClientPage",
+      "action": "loadHistory()",
+      "conditions": [
+        "account()",
+        "historyError()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "10-search",
+        "19-redeem"
+      ],
+      "recordedScenes": [
+        "10-search",
+        "19-redeem"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P136",
+      "source": "src/app/pages/company-client/company-client.html:68",
+      "component": "CompanyClientPage",
+      "action": "loadHistory(historyPage() - 1)",
+      "conditions": [
+        "account()",
+        "historyPages() > 1 || historyPage() > 0",
+        "historyPage() === 0"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "10-search",
+        "19-redeem"
+      ],
+      "recordedScenes": [
+        "10-search",
+        "19-redeem"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P137",
+      "source": "src/app/pages/company-client/company-client.html:70",
+      "component": "CompanyClientPage",
+      "action": "loadHistory(historyPage() + 1)",
+      "conditions": [
+        "account()",
+        "historyPages() > 1 || historyPage() > 0",
+        "historyPage() + 1 >= historyPages()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "10-search",
+        "19-redeem"
+      ],
+      "recordedScenes": [
+        "10-search",
+        "19-redeem"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P138",
+      "source": "src/app/pages/company-detail/company-detail-page.html:26",
+      "component": "CompanyDetailPage",
+      "action": "goBack()",
+      "conditions": [
+        "errorMessage()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P139",
+      "source": "src/app/pages/company-photo/company-photo.html:2",
+      "component": "CompanyPhotoPage",
+      "action": "['/companies', publicName]",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "06-photo"
+      ],
+      "recordedScenes": [
+        "06-photo"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P140",
+      "source": "src/app/pages/company-photo/company-photo.html:26",
+      "component": "CompanyPhotoPage",
+      "action": "photoFile.click()",
+      "conditions": [
+        "company()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "06-photo"
+      ],
+      "recordedScenes": [
+        "06-photo"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P141",
+      "source": "src/app/pages/company-photo/company-photo.html:93",
+      "component": "CompanyPhotoPage",
+      "action": "reset()",
+      "conditions": [
+        "company()",
+        "picture"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "06-photo"
+      ],
+      "recordedScenes": [
+        "06-photo"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P142",
+      "source": "src/app/pages/company-photo/company-photo.html:94",
+      "component": "CompanyPhotoPage",
+      "action": "cancelCrop()",
+      "conditions": [
+        "company()",
+        "picture"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "06-photo"
+      ],
+      "recordedScenes": [
+        "06-photo"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P143",
+      "source": "src/app/pages/company-photo/company-photo.html:95",
+      "component": "CompanyPhotoPage",
+      "action": "save()",
+      "conditions": [
+        "company()",
+        "picture"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "06-photo"
+      ],
+      "recordedScenes": [
+        "06-photo"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P144",
+      "source": "src/app/pages/company-photo/company-photo.html:106",
+      "component": "CompanyPhotoPage",
+      "action": "remove()",
+      "conditions": [
+        "company()",
+        "c.image",
+        "confirmingRemoval()",
+        "saving()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "06-photo"
+      ],
+      "recordedScenes": [
+        "06-photo"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P145",
+      "source": "src/app/pages/company-photo/company-photo.html:107",
+      "component": "CompanyPhotoPage",
+      "action": "confirmingRemoval.set(false)",
+      "conditions": [
+        "company()",
+        "c.image",
+        "confirmingRemoval()",
+        "saving()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "06-photo"
+      ],
+      "recordedScenes": [
+        "06-photo"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P146",
+      "source": "src/app/pages/company-photo/company-photo.html:112",
+      "component": "CompanyPhotoPage",
+      "action": "confirmingRemoval.set(true)",
+      "conditions": [
+        "company()",
+        "c.image",
+        "saving()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "06-photo"
+      ],
+      "recordedScenes": [
+        "06-photo"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P147",
+      "source": "src/app/pages/confirm-email/confirm-email.ts:19",
+      "component": "ConfirmEmailComponent",
+      "action": "/points",
+      "conditions": [
+        "verified()"
+      ],
+      "availability": "dormant-policy-or-unmounted",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P148",
+      "source": "src/app/pages/confirm-email/confirm-email.ts:33",
+      "component": "ConfirmEmailComponent",
+      "action": "confirm()",
+      "conditions": [
+        "!hasToken() || busy() || (association && !!preview() && !shareContacts())"
+      ],
+      "availability": "dormant-policy-or-unmounted",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P149",
+      "source": "src/app/pages/confirm-email/confirm-email.ts:35",
+      "component": "ConfirmEmailComponent",
+      "action": "/points",
+      "conditions": [],
+      "availability": "dormant-policy-or-unmounted",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P150",
+      "source": "src/app/pages/dashboard/dashboard-page.html:2",
+      "component": "DashboardPage",
+      "action": "/dashboard/companies/new",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P151",
+      "source": "src/app/pages/home/home.html:5",
+      "component": "Home",
+      "action": "searchPoints()",
+      "conditions": [
+        "!currentUrl().startsWith('/actions/')"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "01-intro",
+        "24-wallet"
+      ],
+      "recordedScenes": [
+        "01-intro",
+        "24-wallet"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P152",
+      "source": "src/app/pages/home/home.html:11",
+      "component": "Home",
+      "action": "{{ loading() ? 'Consultando…' : 'Ver mis puntos' }} →",
+      "conditions": [
+        "!currentUrl().startsWith('/actions/')",
+        "loading()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "01-intro",
+        "24-wallet"
+      ],
+      "recordedScenes": [
+        "01-intro",
+        "24-wallet"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P153",
+      "source": "src/app/pages/home/home.html:19",
+      "component": "Home",
+      "action": "install.chooseMode('client')",
+      "conditions": [
+        "!currentUrl().startsWith('/actions/')"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "01-intro",
+        "24-wallet"
+      ],
+      "recordedScenes": [
+        "01-intro",
+        "24-wallet"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P154",
+      "source": "src/app/pages/login/login.html:12",
+      "component": "Login",
+      "action": "clientReturn",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "02-access"
+      ],
+      "recordedScenes": [
+        "02-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P155",
+      "source": "src/app/pages/login/login.html:27",
+      "component": "Login",
+      "action": "onGoogleLogin()",
+      "conditions": [
+        "googleAuthEnabled",
+        "isLoading()"
+      ],
+      "availability": "dormant-policy-or-unmounted",
+      "scenes": [
+        "02-access"
+      ],
+      "recordedScenes": [
+        "02-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": "Conservado tras política o flag desactivado. No se reactiva para filmar."
+    },
+    {
+      "control": "P156",
+      "source": "src/app/pages/login/login.html:30",
+      "component": "Login",
+      "action": "onSubmit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "02-access"
+      ],
+      "recordedScenes": [
+        "02-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P157",
+      "source": "src/app/pages/login/login.html:45",
+      "component": "Login",
+      "action": "@if (isLoading()) { Iniciando sesión… } @else { Ingresar al panel }",
+      "conditions": [
+        "isLoading()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "02-access"
+      ],
+      "recordedScenes": [
+        "02-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P158",
+      "source": "src/app/pages/login/login.html:50",
+      "component": "Login",
+      "action": "Crear cuenta en Bycode",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "02-access"
+      ],
+      "recordedScenes": [
+        "02-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P159",
+      "source": "src/app/pages/new-company/new-company-page.html:6",
+      "component": "NewCompanyPage",
+      "action": "returnUrl",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "04-company"
+      ],
+      "recordedScenes": [
+        "04-company"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P160",
+      "source": "src/app/pages/new-company/new-company-page.html:25",
+      "component": "NewCompanyPage",
+      "action": "submit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "04-company"
+      ],
+      "recordedScenes": [
+        "04-company"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P161",
+      "source": "src/app/pages/new-company/new-company-page.html:83",
+      "component": "NewCompanyPage",
+      "action": "retryPublicName()",
+      "conditions": [
+        "nameState() === 'error' || nameState() === 'taken'"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "04-company"
+      ],
+      "recordedScenes": [
+        "04-company"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P162",
+      "source": "src/app/pages/new-company/new-company-page.html:90",
+      "component": "NewCompanyPage",
+      "action": "useSuggestion(name)",
+      "conditions": [
+        "nameSuggestions().length",
+        "nameSuggestions()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "04-company"
+      ],
+      "recordedScenes": [
+        "04-company"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P163",
+      "source": "src/app/pages/new-company/new-company-page.html:386",
+      "component": "NewCompanyPage",
+      "action": "returnUrl",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "04-company"
+      ],
+      "recordedScenes": [
+        "04-company"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P164",
+      "source": "src/app/pages/new-company/new-company-page.html:395",
+      "component": "NewCompanyPage",
+      "action": "{{ isSaving() ? 'Creando empresa…' : 'Crear empresa' }}",
+      "conditions": [
+        "isSaving()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "04-company"
+      ],
+      "recordedScenes": [
+        "04-company"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P165",
+      "source": "src/app/pages/not-found/not-found.component.ts:3",
+      "component": "NotFoundComponent",
+      "action": "/",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "29-help"
+      ],
+      "recordedScenes": [
+        "29-help"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P166",
+      "source": "src/app/pages/register/register.html:4",
+      "component": "Register",
+      "action": "Continuar al registro de Bycode",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "02-access"
+      ],
+      "recordedScenes": [
+        "02-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P167",
+      "source": "src/app/pages/register/register.html:5",
+      "component": "Register",
+      "action": "/login",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "02-access"
+      ],
+      "recordedScenes": [
+        "02-access"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P168",
+      "source": "src/app/pages/wallet-preview/wallet-preview.html:2",
+      "component": "WalletPreview",
+      "action": "/",
+      "conditions": [],
+      "availability": "unmounted-legacy",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "No se monta en la página Home actual; no se enseña como disponible."
+    },
+    {
+      "control": "P169",
+      "source": "src/app/pages/wallet-preview/wallet-preview.html:4",
+      "component": "WalletPreview",
+      "action": "[]",
+      "conditions": [],
+      "availability": "unmounted-legacy",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "No se monta en la página Home actual; no se enseña como disponible."
+    },
+    {
+      "control": "P170",
+      "source": "src/app/pages/wallet-preview/wallet-preview.html:4",
+      "component": "WalletPreview",
+      "action": "[]",
+      "conditions": [],
+      "availability": "unmounted-legacy",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "No se monta en la página Home actual; no se enseña como disponible."
+    },
+    {
+      "control": "P171",
+      "source": "src/app/pages/wallet-preview/wallet-preview.html:5",
+      "component": "WalletPreview",
+      "action": "/",
+      "conditions": [],
+      "availability": "unmounted-legacy",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "No se monta en la página Home actual; no se enseña como disponible."
+    },
+    {
+      "control": "P172",
+      "source": "src/app/pages/wallet-preview/wallet-preview.html:10",
+      "component": "WalletPreview",
+      "action": "[]",
+      "conditions": [],
+      "availability": "unmounted-legacy",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "No se monta en la página Home actual; no se enseña como disponible."
+    },
+    {
+      "control": "P173",
+      "source": "src/app/pages/wallet-preview/wallet-preview.html:10",
+      "component": "WalletPreview",
+      "action": "[]",
+      "conditions": [],
+      "availability": "unmounted-legacy",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": "No se monta en la página Home actual; no se enseña como disponible."
+    },
+    {
+      "control": "P174",
+      "source": "src/app/components/company-quick-actions/modals/check-points-modal/check-points-modal.html:2",
+      "component": "CheckPointsModalComponent",
+      "action": "$event.stopPropagation()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "10-search"
+      ],
+      "recordedScenes": [
+        "10-search"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P175",
+      "source": "src/app/components/company-quick-actions/modals/check-points-modal/check-points-modal.html:25",
+      "component": "CheckPointsModalComponent",
+      "action": "onSubmit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "10-search"
+      ],
+      "recordedScenes": [
+        "10-search"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P176",
+      "source": "src/app/components/company-quick-actions/modals/check-points-modal/check-points-modal.html:59",
+      "component": "CheckPointsModalComponent",
+      "action": "resetSearch()",
+      "conditions": [
+        "searchResult()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "10-search"
+      ],
+      "recordedScenes": [
+        "10-search"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P177",
+      "source": "src/app/components/company-quick-actions/modals/check-points-modal/check-points-modal.html:68",
+      "component": "CheckPointsModalComponent",
+      "action": "@if (isLoading()) { Consultando saldo... } @else { Consultar Saldo }",
+      "conditions": [
+        "isLoading()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "10-search"
+      ],
+      "recordedScenes": [
+        "10-search"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P178",
+      "source": "src/app/components/company-quick-actions/modals/check-points-modal/check-points-modal.html:151",
+      "component": "CheckPointsModalComponent",
+      "action": "onChargeSaleClick()",
+      "conditions": [
+        "searchResult()",
+        "result.membershipStatus === 'ARCHIVED'"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "10-search"
+      ],
+      "recordedScenes": [
+        "10-search"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P179",
+      "source": "src/app/components/company-quick-actions/modals/check-points-modal/check-points-modal.html:172",
+      "component": "CheckPointsModalComponent",
+      "action": "close.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "10-search"
+      ],
+      "recordedScenes": [
+        "10-search"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P180",
+      "source": "src/app/components/dashboard/components/dashboard-header/dashboard-header.html:26",
+      "component": "DashboardHeaderComponent",
+      "action": "/login",
+      "conditions": [
+        "!isLoggedIn"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation",
+        "28-roles"
+      ],
+      "recordedScenes": [
+        "07-navigation",
+        "28-roles"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P181",
+      "source": "src/app/components/dashboard/components/dashboard-header/dashboard-header.html:33",
+      "component": "DashboardHeaderComponent",
+      "action": "/points",
+      "conditions": [
+        "!isLoggedIn"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation",
+        "28-roles"
+      ],
+      "recordedScenes": [
+        "07-navigation",
+        "28-roles"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P182",
+      "source": "src/app/components/dashboard/components/dashboard-header/dashboard-header.html:58",
+      "component": "DashboardHeaderComponent",
+      "action": "retryLoad.emit()",
+      "conditions": [
+        "errorMessage"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation",
+        "28-roles"
+      ],
+      "recordedScenes": [
+        "07-navigation",
+        "28-roles"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P183",
+      "source": "src/app/components/dashboard/components/role-admin-view/role-admin-view.html:22",
+      "component": "RoleAdminViewComponent",
+      "action": "goToByCodePricing()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "03-profile",
+        "27-company-status"
+      ],
+      "recordedScenes": [
+        "03-profile",
+        "27-company-status"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P184",
+      "source": "src/app/components/dashboard/components/role-admin-view/role-admin-view.html:39",
+      "component": "RoleAdminViewComponent",
+      "action": "onAddCompanyClick()",
+      "conditions": [
+        "hasReachedCompanyLimit()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "03-profile",
+        "27-company-status"
+      ],
+      "recordedScenes": [
+        "03-profile",
+        "27-company-status"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P185",
+      "source": "src/app/components/dashboard/components/role-admin-view/role-admin-view.html:51",
+      "component": "RoleAdminViewComponent",
+      "action": "onAddCompanyClick()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "03-profile",
+        "27-company-status"
+      ],
+      "recordedScenes": [
+        "03-profile",
+        "27-company-status"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P186",
+      "source": "src/app/components/dashboard/components/role-admin-view/role-admin-view.html:89",
+      "component": "RoleAdminViewComponent",
+      "action": "onAddCompanyClick()",
+      "conditions": [
+        "companies.length === 0"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "03-profile",
+        "27-company-status"
+      ],
+      "recordedScenes": [
+        "03-profile",
+        "27-company-status"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P187",
+      "source": "src/app/components/dashboard/components/role-admin-view/role-admin-view.html:141",
+      "component": "RoleAdminViewComponent",
+      "action": "['/companies', company.publicName]",
+      "conditions": [
+        "companies"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "03-profile",
+        "27-company-status"
+      ],
+      "recordedScenes": [
+        "03-profile",
+        "27-company-status"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P188",
+      "source": "src/app/components/dashboard/components/role-admin-view/role-admin-view.html:149",
+      "component": "RoleAdminViewComponent",
+      "action": "editCompany.emit(company)",
+      "conditions": [
+        "companies"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "03-profile",
+        "27-company-status"
+      ],
+      "recordedScenes": [
+        "03-profile",
+        "27-company-status"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P189",
+      "source": "src/app/components/dashboard/components/role-admin-view/role-admin-view.html:158",
+      "component": "RoleAdminViewComponent",
+      "action": "toggleStatus.emit(company)",
+      "conditions": [
+        "companies"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "03-profile",
+        "27-company-status"
+      ],
+      "recordedScenes": [
+        "03-profile",
+        "27-company-status"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P190",
+      "source": "src/app/components/dashboard/components/role-app-admin-view/role-app-admin-view.html:13",
+      "component": "RoleAppAdminViewComponent",
+      "action": "addCompany.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "28-roles"
+      ],
+      "recordedScenes": [
+        "28-roles"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P191",
+      "source": "src/app/components/dashboard/components/role-app-admin-view/role-app-admin-view.html:45",
+      "component": "RoleAppAdminViewComponent",
+      "action": "addCompany.emit()",
+      "conditions": [
+        "companies.length === 0"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "28-roles"
+      ],
+      "recordedScenes": [
+        "28-roles"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P192",
+      "source": "src/app/components/dashboard/components/role-app-admin-view/role-app-admin-view.html:88",
+      "component": "RoleAppAdminViewComponent",
+      "action": "['/companies', company.publicName]",
+      "conditions": [
+        "companies"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "28-roles"
+      ],
+      "recordedScenes": [
+        "28-roles"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P193",
+      "source": "src/app/components/dashboard/components/role-app-admin-view/role-app-admin-view.html:96",
+      "component": "RoleAppAdminViewComponent",
+      "action": "editCompany.emit(company)",
+      "conditions": [
+        "companies"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "28-roles"
+      ],
+      "recordedScenes": [
+        "28-roles"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P194",
+      "source": "src/app/components/dashboard/components/role-app-admin-view/role-app-admin-view.html:104",
+      "component": "RoleAppAdminViewComponent",
+      "action": "toggleStatus.emit(company)",
+      "conditions": [
+        "companies"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "28-roles"
+      ],
+      "recordedScenes": [
+        "28-roles"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P195",
+      "source": "src/app/pages/company-detail/components/archived-clients/archived-clients.html:24",
+      "component": "ArchivedClientsComponent",
+      "action": "load()",
+      "conditions": [
+        "error()",
+        "saving()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "22-archive"
+      ],
+      "recordedScenes": [
+        "22-archive"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P196",
+      "source": "src/app/pages/company-detail/components/archived-clients/archived-clients.html:61",
+      "component": "ArchivedClientsComponent",
+      "action": "reactivate(account)",
+      "conditions": [
+        "!error()",
+        "accounts()",
+        "saving() || blocked || !companyEnabled"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "22-archive"
+      ],
+      "recordedScenes": [
+        "22-archive"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P197",
+      "source": "src/app/pages/company-detail/components/archived-clients/archived-clients.html:74",
+      "component": "ArchivedClientsComponent",
+      "action": "load(page() - 1)",
+      "conditions": [
+        "!error()",
+        "totalPages() > 1",
+        "page() === 0 || saving()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "22-archive"
+      ],
+      "recordedScenes": [
+        "22-archive"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P198",
+      "source": "src/app/pages/company-detail/components/archived-clients/archived-clients.html:83",
+      "component": "ArchivedClientsComponent",
+      "action": "load(page() + 1)",
+      "conditions": [
+        "!error()",
+        "totalPages() > 1",
+        "page() + 1 >= totalPages() || saving()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "22-archive"
+      ],
+      "recordedScenes": [
+        "22-archive"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P199",
+      "source": "src/app/pages/company-detail/components/company-detail-header/company-detail-header.html:2",
+      "component": "CompanyDetailHeaderComponent",
+      "action": "back.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "05-settings",
+        "06-photo",
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "05-settings",
+        "06-photo",
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P200",
+      "source": "src/app/pages/company-detail/components/company-detail-header/company-detail-header.html:6",
+      "component": "CompanyDetailHeaderComponent",
+      "action": "['/companies',company.publicName,'actions','photo']",
+      "conditions": [
+        "currentRole === RoleEnum.COMPANY"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "05-settings",
+        "06-photo",
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "05-settings",
+        "06-photo",
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P201",
+      "source": "src/app/pages/company-detail/components/company-detail-header/company-detail-header.html:11",
+      "component": "CompanyDetailHeaderComponent",
+      "action": "checkPoints.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "05-settings",
+        "06-photo",
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "05-settings",
+        "06-photo",
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P202",
+      "source": "src/app/pages/company-detail/components/company-detail-header/company-detail-header.html:11",
+      "component": "CompanyDetailHeaderComponent",
+      "action": "editCompany.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "05-settings",
+        "06-photo",
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "05-settings",
+        "06-photo",
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P203",
+      "source": "src/app/pages/company-detail/components/company-detail-header/company-detail-header.html:12",
+      "component": "CompanyDetailHeaderComponent",
+      "action": "Plan y límites del comercio · {{ currentPlan() === 'NONE' ? 'Ninguno' : currentPlan() }}",
+      "conditions": [
+        "currentRole === RoleEnum.COMPANY"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "05-settings",
+        "06-photo",
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "05-settings",
+        "06-photo",
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P204",
+      "source": "src/app/pages/company-detail/components/company-detail-tabs-nav/company-detail-tabs-nav.html:2",
+      "component": "CompanyDetailTabsNavComponent",
+      "action": "selectTab.emit('overview')",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P205",
+      "source": "src/app/pages/company-detail/components/company-detail-tabs-nav/company-detail-tabs-nav.html:4",
+      "component": "CompanyDetailTabsNavComponent",
+      "action": "selectTab.emit('clients')",
+      "conditions": [
+        "currentRole === RoleEnum.COMPANY"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P206",
+      "source": "src/app/pages/company-detail/components/company-detail-tabs-nav/company-detail-tabs-nav.html:6",
+      "component": "CompanyDetailTabsNavComponent",
+      "action": "selectTab.emit('products')",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P207",
+      "source": "src/app/pages/company-detail/components/company-detail-tabs-nav/company-detail-tabs-nav.html:7",
+      "component": "CompanyDetailTabsNavComponent",
+      "action": "selectTab.emit('promotions')",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P208",
+      "source": "src/app/pages/company-detail/components/company-detail-tabs-nav/company-detail-tabs-nav.html:8",
+      "component": "CompanyDetailTabsNavComponent",
+      "action": "selectTab.emit('rewards')",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P209",
+      "source": "src/app/pages/company-detail/components/company-detail-tabs-nav/company-detail-tabs-nav.html:10",
+      "component": "CompanyDetailTabsNavComponent",
+      "action": "selectTab.emit('sales')",
+      "conditions": [
+        "currentRole === RoleEnum.COMPANY || currentRole === RoleEnum.SUPER_ADMIN"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P210",
+      "source": "src/app/pages/company-detail/components/company-detail-tabs-nav/company-detail-tabs-nav.html:11",
+      "component": "CompanyDetailTabsNavComponent",
+      "action": "selectTab.emit('inactive-clients')",
+      "conditions": [
+        "currentRole === RoleEnum.COMPANY || currentRole === RoleEnum.SUPER_ADMIN"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P211",
+      "source": "src/app/pages/company-detail/components/company-detail-tabs-nav/company-detail-tabs-nav.html:12",
+      "component": "CompanyDetailTabsNavComponent",
+      "action": "selectTab.emit('archived-clients')",
+      "conditions": [
+        "currentRole === RoleEnum.COMPANY || currentRole === RoleEnum.SUPER_ADMIN",
+        "currentRole === RoleEnum.COMPANY"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P212",
+      "source": "src/app/pages/company-detail/components/company-detail-tabs-nav/company-detail-tabs-nav.html:13",
+      "component": "CompanyDetailTabsNavComponent",
+      "action": "selectTab.emit('emails')",
+      "conditions": [
+        "currentRole === RoleEnum.COMPANY || currentRole === RoleEnum.SUPER_ADMIN"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P213",
+      "source": "src/app/pages/company-detail/components/company-emails/company-emails.html:11",
+      "component": "CompanyEmailsComponent",
+      "action": "load()",
+      "conditions": [
+        "error()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "23-emails"
+      ],
+      "recordedScenes": [
+        "23-emails"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P214",
+      "source": "src/app/pages/company-detail/components/company-emails/company-emails.html:41",
+      "component": "CompanyEmailsComponent",
+      "action": "select(index)",
+      "conditions": [
+        "cases().length",
+        "cases()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "23-emails"
+      ],
+      "recordedScenes": [
+        "23-emails"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P215",
+      "source": "src/app/pages/company-detail/components/tab-clients/tab-clients.html:6",
+      "component": "TabClientsComponent",
+      "action": "search()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "10-search"
+      ],
+      "recordedScenes": [
+        "10-search"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P216",
+      "source": "src/app/pages/company-detail/components/tab-clients/tab-clients.html:18",
+      "component": "TabClientsComponent",
+      "action": "Buscar",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "10-search"
+      ],
+      "recordedScenes": [
+        "10-search"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P217",
+      "source": "src/app/pages/company-detail/components/tab-clients/tab-clients.html:25",
+      "component": "TabClientsComponent",
+      "action": "load()",
+      "conditions": [
+        "error()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "10-search"
+      ],
+      "recordedScenes": [
+        "10-search"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P218",
+      "source": "src/app/pages/company-detail/components/tab-clients/tab-clients.html:39",
+      "component": "TabClientsComponent",
+      "action": "['clients', account.client.id]",
+      "conditions": [
+        "clients()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "10-search"
+      ],
+      "recordedScenes": [
+        "10-search"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P219",
+      "source": "src/app/pages/company-detail/components/tab-clients/tab-clients.html:48",
+      "component": "TabClientsComponent",
+      "action": "navigate(page() - 1)",
+      "conditions": [
+        "pages() > 1 || page() > 0",
+        "page() === 0"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "10-search"
+      ],
+      "recordedScenes": [
+        "10-search"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P220",
+      "source": "src/app/pages/company-detail/components/tab-clients/tab-clients.html:50",
+      "component": "TabClientsComponent",
+      "action": "navigate(page() + 1)",
+      "conditions": [
+        "pages() > 1 || page() > 0",
+        "page() + 1 >= pages()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "10-search"
+      ],
+      "recordedScenes": [
+        "10-search"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P221",
+      "source": "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html:40",
+      "component": "TabInactiveClientsComponent",
+      "action": "onSelectPreset(days)",
+      "conditions": [
+        "presetDays",
+        "isLoading()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "21-inactive",
+        "22-archive"
+      ],
+      "recordedScenes": [
+        "21-inactive",
+        "22-archive"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P222",
+      "source": "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html:59",
+      "component": "TabInactiveClientsComponent",
+      "action": "onCustomDaysSubmit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "21-inactive",
+        "22-archive"
+      ],
+      "recordedScenes": [
+        "21-inactive",
+        "22-archive"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P223",
+      "source": "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html:73",
+      "component": "TabInactiveClientsComponent",
+      "action": "Aplicar",
+      "conditions": [
+        "isLoading()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "21-inactive",
+        "22-archive"
+      ],
+      "recordedScenes": [
+        "21-inactive",
+        "22-archive"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P224",
+      "source": "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html:105",
+      "component": "TabInactiveClientsComponent",
+      "action": "retry.emit()",
+      "conditions": [
+        "loadError()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "21-inactive",
+        "22-archive"
+      ],
+      "recordedScenes": [
+        "21-inactive",
+        "22-archive"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P225",
+      "source": "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html:182",
+      "component": "TabInactiveClientsComponent",
+      "action": "openWhatsappRetention.emit(account)",
+      "conditions": [
+        "inactiveAccounts()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "21-inactive",
+        "22-archive"
+      ],
+      "recordedScenes": [
+        "21-inactive",
+        "22-archive"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P226",
+      "source": "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html:194",
+      "component": "TabInactiveClientsComponent",
+      "action": "archiveClient.emit(account)",
+      "conditions": [
+        "inactiveAccounts()",
+        "canArchive()",
+        "membershipSaving()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "21-inactive",
+        "22-archive"
+      ],
+      "recordedScenes": [
+        "21-inactive",
+        "22-archive"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P227",
+      "source": "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html:211",
+      "component": "TabInactiveClientsComponent",
+      "action": "pageChange.emit(currentPage() - 1)",
+      "conditions": [
+        "totalPages() > 1",
+        "currentPage() === 0 || isLoading()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "21-inactive",
+        "22-archive"
+      ],
+      "recordedScenes": [
+        "21-inactive",
+        "22-archive"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P228",
+      "source": "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html:220",
+      "component": "TabInactiveClientsComponent",
+      "action": "pageChange.emit(currentPage() + 1)",
+      "conditions": [
+        "totalPages() > 1",
+        "currentPage() >= totalPages() - 1 || isLoading()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "21-inactive",
+        "22-archive"
+      ],
+      "recordedScenes": [
+        "21-inactive",
+        "22-archive"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P229",
+      "source": "src/app/pages/company-detail/components/tab-overview/tab-overview.html:9",
+      "component": "TabOverviewComponent",
+      "action": "addSale.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P230",
+      "source": "src/app/pages/company-detail/components/tab-overview/tab-overview.html:30",
+      "component": "TabOverviewComponent",
+      "action": "editCompany.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P231",
+      "source": "src/app/pages/company-detail/components/tab-overview/tab-overview.html:116",
+      "component": "TabOverviewComponent",
+      "action": "addClient.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P232",
+      "source": "src/app/pages/company-detail/components/tab-overview/tab-overview.html:127",
+      "component": "TabOverviewComponent",
+      "action": "generateQr.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P233",
+      "source": "src/app/pages/company-detail/components/tab-overview/tab-overview.html:197",
+      "component": "TabOverviewComponent",
+      "action": "checkPoints.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P234",
+      "source": "src/app/pages/company-detail/components/tab-overview/tab-overview.html:208",
+      "component": "TabOverviewComponent",
+      "action": "addClient.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P235",
+      "source": "src/app/pages/company-detail/components/tab-overview/tab-overview.html:264",
+      "component": "TabOverviewComponent",
+      "action": "retry.emit()",
+      "conditions": [
+        "loadError"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P236",
+      "source": "src/app/pages/company-detail/components/tab-overview/tab-overview.html:269",
+      "component": "TabOverviewComponent",
+      "action": "checkPoints.emit()",
+      "conditions": [
+        "!allEnrichedAccounts || allEnrichedAccounts.length === 0"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P237",
+      "source": "src/app/pages/company-detail/components/tab-overview/tab-overview.html:276",
+      "component": "TabOverviewComponent",
+      "action": "addClient.emit()",
+      "conditions": [
+        "!allEnrichedAccounts || allEnrichedAccounts.length === 0"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P238",
+      "source": "src/app/pages/company-detail/components/tab-overview/tab-overview.html:291",
+      "component": "TabOverviewComponent",
+      "action": "setTierFilter('ALL')",
+      "conditions": [
+        "tierService.isEnabled(company)"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P239",
+      "source": "src/app/pages/company-detail/components/tab-overview/tab-overview.html:298",
+      "component": "TabOverviewComponent",
+      "action": "setTierFilter('GOLD')",
+      "conditions": [
+        "tierService.isEnabled(company)"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P240",
+      "source": "src/app/pages/company-detail/components/tab-overview/tab-overview.html:305",
+      "component": "TabOverviewComponent",
+      "action": "setTierFilter('SILVER')",
+      "conditions": [
+        "tierService.isEnabled(company)"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P241",
+      "source": "src/app/pages/company-detail/components/tab-overview/tab-overview.html:312",
+      "component": "TabOverviewComponent",
+      "action": "setTierFilter('BRONZE')",
+      "conditions": [
+        "tierService.isEnabled(company)"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P242",
+      "source": "src/app/pages/company-detail/components/tab-overview/tab-overview.html:321",
+      "component": "TabOverviewComponent",
+      "action": "toggleSortByBestTier()",
+      "conditions": [
+        "tierService.isEnabled(company)"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "07-navigation"
+      ],
+      "recordedScenes": [
+        "07-navigation"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P243",
+      "source": "src/app/pages/company-detail/components/tab-products/tab-products.html:9",
+      "component": "TabProductsComponent",
+      "action": "addProduct.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "15-products"
+      ],
+      "recordedScenes": [
+        "15-products"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P244",
+      "source": "src/app/pages/company-detail/components/tab-products/tab-products.html:30",
+      "component": "TabProductsComponent",
+      "action": "addProduct.emit()",
+      "conditions": [
+        "products.length === 0"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "15-products"
+      ],
+      "recordedScenes": [
+        "15-products"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P245",
+      "source": "src/app/pages/company-detail/components/tab-products/tab-products.html:65",
+      "component": "TabProductsComponent",
+      "action": "editProduct.emit(product)",
+      "conditions": [
+        "products"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "15-products"
+      ],
+      "recordedScenes": [
+        "15-products"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P246",
+      "source": "src/app/pages/company-detail/components/tab-products/tab-products.html:74",
+      "component": "TabProductsComponent",
+      "action": "deleteProduct.emit(product.id)",
+      "conditions": [
+        "products",
+        "currentRole === RoleEnum.COMPANY",
+        "saving"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "15-products"
+      ],
+      "recordedScenes": [
+        "15-products"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P247",
+      "source": "src/app/pages/company-detail/components/tab-promotions/tab-promotions.html:37",
+      "component": "TabPromotionsComponent",
+      "action": "onAddPromotionClick()",
+      "conditions": [
+        "canCreatePromotions()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "13-promotion",
+        "14-promotion-life"
+      ],
+      "recordedScenes": [
+        "13-promotion",
+        "14-promotion-life"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P248",
+      "source": "src/app/pages/company-detail/components/tab-promotions/tab-promotions.html:49",
+      "component": "TabPromotionsComponent",
+      "action": "onAddPromotionClick()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "13-promotion",
+        "14-promotion-life"
+      ],
+      "recordedScenes": [
+        "13-promotion",
+        "14-promotion-life"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P249",
+      "source": "src/app/pages/company-detail/components/tab-promotions/tab-promotions.html:82",
+      "component": "TabPromotionsComponent",
+      "action": "onAddPromotionClick()",
+      "conditions": [
+        "promotions.length === 0",
+        "canCreatePromotions()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "13-promotion",
+        "14-promotion-life"
+      ],
+      "recordedScenes": [
+        "13-promotion",
+        "14-promotion-life"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P250",
+      "source": "src/app/pages/company-detail/components/tab-promotions/tab-promotions.html:111",
+      "component": "TabPromotionsComponent",
+      "action": "editPromotion.emit(promo)",
+      "conditions": [
+        "promotions"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "13-promotion",
+        "14-promotion-life"
+      ],
+      "recordedScenes": [
+        "13-promotion",
+        "14-promotion-life"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P251",
+      "source": "src/app/pages/company-detail/components/tab-promotions/tab-promotions.html:123",
+      "component": "TabPromotionsComponent",
+      "action": "changeAvailability.emit(promo)",
+      "conditions": [
+        "promotions",
+        "currentRole === RoleEnum.COMPANY",
+        "saving"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "13-promotion",
+        "14-promotion-life"
+      ],
+      "recordedScenes": [
+        "13-promotion",
+        "14-promotion-life"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P252",
+      "source": "src/app/pages/company-detail/components/tab-promotions/tab-promotions.html:124",
+      "component": "TabPromotionsComponent",
+      "action": "deletePromotion.emit(promo)",
+      "conditions": [
+        "promotions",
+        "currentRole === RoleEnum.COMPANY",
+        "saving"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "13-promotion",
+        "14-promotion-life"
+      ],
+      "recordedScenes": [
+        "13-promotion",
+        "14-promotion-life"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P253",
+      "source": "src/app/pages/company-detail/components/tab-rewards/tab-rewards.html:9",
+      "component": "TabRewardsComponent",
+      "action": "addReward.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "16-physical-reward",
+        "17-voucher",
+        "18-reward-life",
+        "19-redeem"
+      ],
+      "recordedScenes": [
+        "16-physical-reward",
+        "17-voucher",
+        "18-reward-life",
+        "19-redeem"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P254",
+      "source": "src/app/pages/company-detail/components/tab-rewards/tab-rewards.html:30",
+      "component": "TabRewardsComponent",
+      "action": "addReward.emit()",
+      "conditions": [
+        "rewards.length === 0"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "16-physical-reward",
+        "17-voucher",
+        "18-reward-life",
+        "19-redeem"
+      ],
+      "recordedScenes": [
+        "16-physical-reward",
+        "17-voucher",
+        "18-reward-life",
+        "19-redeem"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P255",
+      "source": "src/app/pages/company-detail/components/tab-rewards/tab-rewards.html:58",
+      "component": "TabRewardsComponent",
+      "action": "redeemReward.emit(reward)",
+      "conditions": [
+        "rewards",
+        "saving || !reward.isEnabled"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "16-physical-reward",
+        "17-voucher",
+        "18-reward-life",
+        "19-redeem"
+      ],
+      "recordedScenes": [
+        "16-physical-reward",
+        "17-voucher",
+        "18-reward-life",
+        "19-redeem"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P256",
+      "source": "src/app/pages/company-detail/components/tab-rewards/tab-rewards.html:69",
+      "component": "TabRewardsComponent",
+      "action": "editReward.emit(reward)",
+      "conditions": [
+        "rewards"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "16-physical-reward",
+        "17-voucher",
+        "18-reward-life",
+        "19-redeem"
+      ],
+      "recordedScenes": [
+        "16-physical-reward",
+        "17-voucher",
+        "18-reward-life",
+        "19-redeem"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P257",
+      "source": "src/app/pages/company-detail/components/tab-rewards/tab-rewards.html:77",
+      "component": "TabRewardsComponent",
+      "action": "changeAvailability.emit(reward)",
+      "conditions": [
+        "rewards",
+        "currentRole === RoleEnum.COMPANY",
+        "saving"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "16-physical-reward",
+        "17-voucher",
+        "18-reward-life",
+        "19-redeem"
+      ],
+      "recordedScenes": [
+        "16-physical-reward",
+        "17-voucher",
+        "18-reward-life",
+        "19-redeem"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P258",
+      "source": "src/app/pages/company-detail/components/tab-rewards/tab-rewards.html:78",
+      "component": "TabRewardsComponent",
+      "action": "deleteReward.emit(reward)",
+      "conditions": [
+        "rewards",
+        "currentRole === RoleEnum.COMPANY",
+        "saving"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "16-physical-reward",
+        "17-voucher",
+        "18-reward-life",
+        "19-redeem"
+      ],
+      "recordedScenes": [
+        "16-physical-reward",
+        "17-voucher",
+        "18-reward-life",
+        "19-redeem"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P259",
+      "source": "src/app/pages/company-detail/components/tab-sales/tab-sales.html:9",
+      "component": "TabSalesComponent",
+      "action": "checkPoints.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "11-sale",
+        "12-sales-history"
+      ],
+      "recordedScenes": [
+        "11-sale",
+        "12-sales-history"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P260",
+      "source": "src/app/pages/company-detail/components/tab-sales/tab-sales.html:20",
+      "component": "TabSalesComponent",
+      "action": "addClient.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "11-sale",
+        "12-sales-history"
+      ],
+      "recordedScenes": [
+        "11-sale",
+        "12-sales-history"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P261",
+      "source": "src/app/pages/company-detail/components/tab-sales/tab-sales.html:31",
+      "component": "TabSalesComponent",
+      "action": "addSale.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "11-sale",
+        "12-sales-history"
+      ],
+      "recordedScenes": [
+        "11-sale",
+        "12-sales-history"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P262",
+      "source": "src/app/pages/company-detail/components/tab-sales/tab-sales.html:51",
+      "component": "TabSalesComponent",
+      "action": "retry.emit()",
+      "conditions": [
+        "loadError"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "11-sale",
+        "12-sales-history"
+      ],
+      "recordedScenes": [
+        "11-sale",
+        "12-sales-history"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P263",
+      "source": "src/app/pages/company-detail/components/tab-sales/tab-sales.html:62",
+      "component": "TabSalesComponent",
+      "action": "checkPoints.emit()",
+      "conditions": [
+        "sales.length === 0"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "11-sale",
+        "12-sales-history"
+      ],
+      "recordedScenes": [
+        "11-sale",
+        "12-sales-history"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P264",
+      "source": "src/app/pages/company-detail/components/tab-sales/tab-sales.html:69",
+      "component": "TabSalesComponent",
+      "action": "addSale.emit()",
+      "conditions": [
+        "sales.length === 0"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "11-sale",
+        "12-sales-history"
+      ],
+      "recordedScenes": [
+        "11-sale",
+        "12-sales-history"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P265",
+      "source": "src/app/ui/dialog/src/lib/hlm-dialog-content.ts:43",
+      "component": "HlmDialogContent",
+      "action": "close",
+      "conditions": [
+        "showCloseButton()"
+      ],
+      "availability": "library-control",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": ""
+    },
+    {
+      "control": "P266",
+      "source": "src/app/ui/tabs/src/lib/hlm-tabs-paginated-list.ts:34",
+      "component": "HlmTabsPaginatedList",
+      "action": "_handlePaginatorClick('before'); _handlePaginatorPress('before', $event); _stopInterval()",
+      "conditions": [
+        "disableScrollBefore || null"
+      ],
+      "availability": "library-control",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": ""
+    },
+    {
+      "control": "P267",
+      "source": "src/app/ui/tabs/src/lib/hlm-tabs-paginated-list.ts:66",
+      "component": "HlmTabsPaginatedList",
+      "action": "_handlePaginatorClick('after'); _handlePaginatorPress('after', $event); _stopInterval()",
+      "conditions": [
+        "disableScrollAfter || null"
+      ],
+      "availability": "library-control",
+      "scenes": [],
+      "recordedScenes": [],
+      "verification": "EXCLUDED_WITH_REASON",
+      "note": ""
+    },
+    {
+      "control": "P268",
+      "source": "src/app/components/dashboard/components/modals/edit-company-modal/edit-company-modal.html:26",
+      "component": "DashboardEditCompanyModalComponent",
+      "action": "submitForm.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "05-settings",
+        "06-photo"
+      ],
+      "recordedScenes": [
+        "05-settings",
+        "06-photo"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P269",
+      "source": "src/app/components/dashboard/components/modals/edit-company-modal/edit-company-modal.html:217",
+      "component": "DashboardEditCompanyModalComponent",
+      "action": "close.emit()",
+      "conditions": [
+        "saving"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "05-settings",
+        "06-photo"
+      ],
+      "recordedScenes": [
+        "05-settings",
+        "06-photo"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P270",
+      "source": "src/app/components/dashboard/components/modals/edit-company-modal/edit-company-modal.html:226",
+      "component": "DashboardEditCompanyModalComponent",
+      "action": "{{ saving ? 'Guardando…' : 'Guardar Cambios' }}",
+      "conditions": [
+        "saving"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "05-settings",
+        "06-photo"
+      ],
+      "recordedScenes": [
+        "05-settings",
+        "06-photo"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P271",
+      "source": "src/app/pages/company-detail/components/modals/client-modal/client-modal.html:35",
+      "component": "ClientModalComponent",
+      "action": "submitForm.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "08-client"
+      ],
+      "recordedScenes": [
+        "08-client"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P272",
+      "source": "src/app/pages/company-detail/components/modals/client-modal/client-modal.html:115",
+      "component": "ClientModalComponent",
+      "action": "close.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "08-client"
+      ],
+      "recordedScenes": [
+        "08-client"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P273",
+      "source": "src/app/pages/company-detail/components/modals/client-modal/client-modal.html:123",
+      "component": "ClientModalComponent",
+      "action": "Guardar cliente",
+      "conditions": [
+        "isLoading || !!noticeMessage"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "08-client"
+      ],
+      "recordedScenes": [
+        "08-client"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P274",
+      "source": "src/app/pages/company-detail/components/modals/edit-company-modal/edit-company-modal.html:26",
+      "component": "EditCompanyModalComponent",
+      "action": "submitForm.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "05-settings"
+      ],
+      "recordedScenes": [
+        "05-settings"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P275",
+      "source": "src/app/pages/company-detail/components/modals/edit-company-modal/edit-company-modal.html:219",
+      "component": "EditCompanyModalComponent",
+      "action": "close.emit()",
+      "conditions": [
+        "saving"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "05-settings"
+      ],
+      "recordedScenes": [
+        "05-settings"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P276",
+      "source": "src/app/pages/company-detail/components/modals/edit-company-modal/edit-company-modal.html:227",
+      "component": "EditCompanyModalComponent",
+      "action": "{{ saving ? 'Guardando…' : 'Guardar Cambios' }}",
+      "conditions": [
+        "saving"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "05-settings"
+      ],
+      "recordedScenes": [
+        "05-settings"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P277",
+      "source": "src/app/pages/company-detail/components/modals/product-modal/product-modal.html:25",
+      "component": "ProductModalComponent",
+      "action": "submitForm.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "15-products"
+      ],
+      "recordedScenes": [
+        "15-products"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P278",
+      "source": "src/app/pages/company-detail/components/modals/product-modal/product-modal.html:85",
+      "component": "ProductModalComponent",
+      "action": "removeImage()",
+      "conditions": [
+        "isEdit && imageSource",
+        "saving"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "15-products"
+      ],
+      "recordedScenes": [
+        "15-products"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P279",
+      "source": "src/app/pages/company-detail/components/modals/product-modal/product-modal.html:92",
+      "component": "ProductModalComponent",
+      "action": "close.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "15-products"
+      ],
+      "recordedScenes": [
+        "15-products"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P280",
+      "source": "src/app/pages/company-detail/components/modals/product-modal/product-modal.html:100",
+      "component": "ProductModalComponent",
+      "action": "{{ isEdit ? 'Actualizar Producto' : 'Guardar Producto' }}",
+      "conditions": [
+        "saving || !!fileError"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "15-products"
+      ],
+      "recordedScenes": [
+        "15-products"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P281",
+      "source": "src/app/pages/company-detail/components/modals/promotion-modal/promotion-modal.html:25",
+      "component": "PromotionModalComponent",
+      "action": "submitForm.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "13-promotion"
+      ],
+      "recordedScenes": [
+        "13-promotion"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P282",
+      "source": "src/app/pages/company-detail/components/modals/promotion-modal/promotion-modal.html:85",
+      "component": "PromotionModalComponent",
+      "action": "inputMode = inputMode === 'percentage' ? 'multiplier' : 'percentage'",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "13-promotion"
+      ],
+      "recordedScenes": [
+        "13-promotion"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P283",
+      "source": "src/app/pages/company-detail/components/modals/promotion-modal/promotion-modal.html:145",
+      "component": "PromotionModalComponent",
+      "action": "close.emit()",
+      "conditions": [
+        "saving"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "13-promotion"
+      ],
+      "recordedScenes": [
+        "13-promotion"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P284",
+      "source": "src/app/pages/company-detail/components/modals/promotion-modal/promotion-modal.html:153",
+      "component": "PromotionModalComponent",
+      "action": "{{ saving ? 'Guardando…' : isEdit ? 'Actualizar Promoción' : 'Guardar Promoción' }}",
+      "conditions": [
+        "saving"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "13-promotion"
+      ],
+      "recordedScenes": [
+        "13-promotion"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P285",
+      "source": "src/app/pages/company-detail/components/modals/redeem-modal/redeem-modal.html:42",
+      "component": "RedeemModalComponent",
+      "action": "submitForm.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "19-redeem",
+        "20-redeem-errors"
+      ],
+      "recordedScenes": [
+        "19-redeem",
+        "20-redeem-errors"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P286",
+      "source": "src/app/pages/company-detail/components/modals/redeem-modal/redeem-modal.html:74",
+      "component": "RedeemModalComponent",
+      "action": "discard.emit()",
+      "conditions": [
+        "hasPending && !isLoading",
+        "isLoading"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "19-redeem",
+        "20-redeem-errors"
+      ],
+      "recordedScenes": [
+        "19-redeem",
+        "20-redeem-errors"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P287",
+      "source": "src/app/pages/company-detail/components/modals/redeem-modal/redeem-modal.html:76",
+      "component": "RedeemModalComponent",
+      "action": "close.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "19-redeem",
+        "20-redeem-errors"
+      ],
+      "recordedScenes": [
+        "19-redeem",
+        "20-redeem-errors"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P288",
+      "source": "src/app/pages/company-detail/components/modals/redeem-modal/redeem-modal.html:84",
+      "component": "RedeemModalComponent",
+      "action": "@if (isLoading) { Canjeando... } @else { {{ hasPending ? 'Reintentar canje pendiente' : 'Descontar puntos y registrar canje' }} }",
+      "conditions": [
+        "isLoading"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "19-redeem",
+        "20-redeem-errors"
+      ],
+      "recordedScenes": [
+        "19-redeem",
+        "20-redeem-errors"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P289",
+      "source": "src/app/pages/company-detail/components/modals/reward-modal/reward-modal.html:25",
+      "component": "RewardModalComponent",
+      "action": "submitForm.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "16-physical-reward",
+        "17-voucher"
+      ],
+      "recordedScenes": [
+        "16-physical-reward",
+        "17-voucher"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P290",
+      "source": "src/app/pages/company-detail/components/modals/reward-modal/reward-modal.html:48",
+      "component": "RewardModalComponent",
+      "action": "clearPhoto(photoInput)",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "16-physical-reward",
+        "17-voucher"
+      ],
+      "recordedScenes": [
+        "16-physical-reward",
+        "17-voucher"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P291",
+      "source": "src/app/pages/company-detail/components/modals/reward-modal/reward-modal.html:96",
+      "component": "RewardModalComponent",
+      "action": "calculatorOpen = !calculatorOpen",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "16-physical-reward",
+        "17-voucher"
+      ],
+      "recordedScenes": [
+        "16-physical-reward",
+        "17-voucher"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P292",
+      "source": "src/app/pages/company-detail/components/modals/reward-modal/reward-modal.html:133",
+      "component": "RewardModalComponent",
+      "action": "calculate()",
+      "conditions": [
+        "calculatorOpen",
+        "!ruleDescription"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "16-physical-reward",
+        "17-voucher"
+      ],
+      "recordedScenes": [
+        "16-physical-reward",
+        "17-voucher"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P293",
+      "source": "src/app/pages/company-detail/components/modals/reward-modal/reward-modal.html:169",
+      "component": "RewardModalComponent",
+      "action": "close.emit()",
+      "conditions": [
+        "saving"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "16-physical-reward",
+        "17-voucher"
+      ],
+      "recordedScenes": [
+        "16-physical-reward",
+        "17-voucher"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P294",
+      "source": "src/app/pages/company-detail/components/modals/reward-modal/reward-modal.html:178",
+      "component": "RewardModalComponent",
+      "action": "{{ saving ? 'Guardando…' : isEdit ? 'Actualizar Premio' : 'Guardar Premio' }}",
+      "conditions": [
+        "saving || !!fileError"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "16-physical-reward",
+        "17-voucher"
+      ],
+      "recordedScenes": [
+        "16-physical-reward",
+        "17-voucher"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P295",
+      "source": "src/app/pages/company-detail/components/modals/sale-modal/sale-modal.html:31",
+      "component": "SaleModalComponent",
+      "action": "submitForm.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "11-sale",
+        "12-sales-history"
+      ],
+      "recordedScenes": [
+        "11-sale",
+        "12-sales-history"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P296",
+      "source": "src/app/pages/company-detail/components/modals/sale-modal/sale-modal.html:128",
+      "component": "SaleModalComponent",
+      "action": "discard.emit()",
+      "conditions": [
+        "hasPending && !isLoading",
+        "isLoading"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "11-sale",
+        "12-sales-history"
+      ],
+      "recordedScenes": [
+        "11-sale",
+        "12-sales-history"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P297",
+      "source": "src/app/pages/company-detail/components/modals/sale-modal/sale-modal.html:130",
+      "component": "SaleModalComponent",
+      "action": "close.emit()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "11-sale",
+        "12-sales-history"
+      ],
+      "recordedScenes": [
+        "11-sale",
+        "12-sales-history"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P298",
+      "source": "src/app/pages/company-detail/components/modals/sale-modal/sale-modal.html:138",
+      "component": "SaleModalComponent",
+      "action": "@if (isLoading) { Guardando... } @else { {{ hasPending ? 'Reintentar venta pendiente' : 'Registrar venta y sumar puntos' }} }",
+      "conditions": [
+        "isLoading || matchedAccount?.membershipStatus === 'ARCHIVED'"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "11-sale",
+        "12-sales-history"
+      ],
+      "recordedScenes": [
+        "11-sale",
+        "12-sales-history"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P299",
+      "source": "src/app/pages/company-detail/components/modals/whatsapp-retention-modal/whatsapp-retention-modal.html:104",
+      "component": "WhatsappRetentionModalComponent",
+      "action": "copyMessage()",
+      "conditions": [],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "21-inactive"
+      ],
+      "recordedScenes": [
+        "21-inactive"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    },
+    {
+      "control": "P300",
+      "source": "src/app/pages/company-detail/components/modals/whatsapp-retention-modal/whatsapp-retention-modal.html:124",
+      "component": "WhatsappRetentionModalComponent",
+      "action": "openWhatsApp()",
+      "conditions": [
+        "!isValidPhone() || !messageText().trim()"
+      ],
+      "availability": "active-or-route-dependent",
+      "scenes": [
+        "21-inactive"
+      ],
+      "recordedScenes": [
+        "21-inactive"
+      ],
+      "verification": "SCENE_RECORDED_CONTROL_REVIEW_REQUIRED",
+      "note": ""
+    }
+  ]
+}

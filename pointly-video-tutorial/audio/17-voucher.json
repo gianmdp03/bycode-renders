@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "Un voucher también se obtiene con puntos, pero representa un descuento. Elegí Voucher de descuento y definí si será un porcentaje o un importe fijo. Por ejemplo, diez por ciento o dos mil pesos. El porcentaje debe ser mayor que cero y no superar cien. Completá las condiciones y el costo en puntos; revisá la vista previa antes de guardar. El comercio aplica el beneficio al entregar el premio. Esto no crea un cupón con código ni descuenta dinero automáticamente en una caja.",
+  "spokenText": "Un voucher también se obtiene con puntos, pero representa un descuento. Elegí Voucher de descuento y definí si será un porcentaje o un importe fijo. Por ejemplo, diez por ciento o dos mil pesos. El porcentaje debe ser mayor que cero y no superar cien. Completá las condiciones y el costo en puntos; revisá la vista previa antes de guardar. El comercio aplica el beneficio al entregar el premio. Esto no crea un cupón con código ni descuenta dinero automáticamente en una caja.",
+  "text_sha256": "425c2380111252e056cac14d194efb87576fca88afc584ac74484cf500ed3d7a",
+  "sha256": "063b7acb5c67d7fe5992801bb7a11f8d73f329bbd3692d797d8495657713c474",
+  "duration": 28.16,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 117.86,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

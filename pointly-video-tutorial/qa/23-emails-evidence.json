@@ -1,0 +1,94 @@
+{
+  "scene": "23-emails",
+  "evidence": [
+    {
+      "label": "Email opt-in persisted, outbound provider disabled",
+      "url": "/companies/cafe-del-puerto-tutorial",
+      "at": 1793728299440.0999
+    },
+    {
+      "label": "Actual fixed template preview",
+      "url": "/companies/cafe-del-puerto-tutorial",
+      "at": 1793728300683.9
+    },
+    {
+      "label": "Actual fixed template preview",
+      "url": "/companies/cafe-del-puerto-tutorial",
+      "at": 1793728301989.9
+    },
+    {
+      "label": "Actual fixed template preview",
+      "url": "/companies/cafe-del-puerto-tutorial",
+      "at": 1793728303282.7998
+    },
+    {
+      "label": "Automatic emails disabled again",
+      "url": "/companies/cafe-del-puerto-tutorial",
+      "at": 1793728303952.5
+    }
+  ],
+  "network": [
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/billing/account/profile",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/company-names/cafe-del-puerto-tutorial/company",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/media/6dedfc39-a8dd-4815-a680-b61b8db0307c",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/1/emails",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/pointly/companies/1/emails",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/pointly/companies/1/emails",
+      "status": 200
+    }
+  ],
+  "source": "recordings/23-emails-1793728328754.mp4",
+  "obs": null
+}

@@ -1,0 +1,635 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "0b59459181865917d597575e4ea1739b80203465b7a335304b4e67244234959f",
+  "transcript": "Escribí el nombre con el que tus clientes conocen al negocio. El nombre del enlace se genera a partir de ese texto. Se puede ajustar y tiene que estar disponible. Usa letras, números y guiones. Después definí la regla. En nuestro ejemplo, cada mil pesos completos de una compra otorgan diez puntos. País es obligatorio. Los demás datos de ubicación se pueden dejar vacíos si no corresponden. Revisa los campos antes de crear la empresa y esperá la confirmación.",
+  "scriptSimilarity": 1.0,
+  "differences": [],
+  "words": [
+    {
+      "word": "Escribí",
+      "start": 0.0,
+      "end": 0.68,
+      "probability": 0.9644035249948502,
+      "display": "Escribí"
+    },
+    {
+      "word": "el",
+      "start": 0.68,
+      "end": 0.8,
+      "probability": 0.9977827668190002,
+      "display": "el"
+    },
+    {
+      "word": "nombre",
+      "start": 0.8,
+      "end": 1.04,
+      "probability": 0.9992235898971558,
+      "display": "nombre"
+    },
+    {
+      "word": "con",
+      "start": 1.04,
+      "end": 1.28,
+      "probability": 0.9945906400680542,
+      "display": "con"
+    },
+    {
+      "word": "el",
+      "start": 1.28,
+      "end": 1.38,
+      "probability": 0.9973884224891663,
+      "display": "el"
+    },
+    {
+      "word": "que",
+      "start": 1.38,
+      "end": 1.5,
+      "probability": 0.9965822100639343,
+      "display": "que"
+    },
+    {
+      "word": "tus",
+      "start": 1.5,
+      "end": 1.68,
+      "probability": 0.9911230802536011,
+      "display": "tus"
+    },
+    {
+      "word": "clientes",
+      "start": 1.68,
+      "end": 2.14,
+      "probability": 0.9993240833282471,
+      "display": "clientes"
+    },
+    {
+      "word": "conocen",
+      "start": 2.14,
+      "end": 2.6,
+      "probability": 0.9940469563007355,
+      "display": "conocen"
+    },
+    {
+      "word": "al",
+      "start": 2.6,
+      "end": 2.72,
+      "probability": 0.9777551293373108,
+      "display": "al"
+    },
+    {
+      "word": "negocio.",
+      "start": 2.72,
+      "end": 3.14,
+      "probability": 0.9983274936676025,
+      "display": "negocio."
+    },
+    {
+      "word": "El",
+      "start": 3.5,
+      "end": 3.76,
+      "probability": 0.9930999279022217,
+      "display": "El"
+    },
+    {
+      "word": "nombre",
+      "start": 3.76,
+      "end": 4.02,
+      "probability": 0.998400866985321,
+      "display": "nombre"
+    },
+    {
+      "word": "del",
+      "start": 4.02,
+      "end": 4.2,
+      "probability": 0.9761523008346558,
+      "display": "del"
+    },
+    {
+      "word": "enlace",
+      "start": 4.2,
+      "end": 4.58,
+      "probability": 0.9976901710033417,
+      "display": "enlace"
+    },
+    {
+      "word": "se",
+      "start": 4.58,
+      "end": 4.86,
+      "probability": 0.9865975975990295,
+      "display": "se"
+    },
+    {
+      "word": "genera",
+      "start": 4.86,
+      "end": 5.26,
+      "probability": 0.9877347350120544,
+      "display": "genera"
+    },
+    {
+      "word": "a",
+      "start": 5.26,
+      "end": 5.32,
+      "probability": 0.9602059721946716,
+      "display": "a"
+    },
+    {
+      "word": "partir",
+      "start": 5.32,
+      "end": 5.54,
+      "probability": 0.9999581575393677,
+      "display": "partir"
+    },
+    {
+      "word": "de",
+      "start": 5.54,
+      "end": 5.78,
+      "probability": 0.9969570636749268,
+      "display": "de"
+    },
+    {
+      "word": "ese",
+      "start": 5.78,
+      "end": 5.94,
+      "probability": 0.9792171716690063,
+      "display": "ese"
+    },
+    {
+      "word": "texto.",
+      "start": 5.94,
+      "end": 6.28,
+      "probability": 0.9990646243095398,
+      "display": "texto,"
+    },
+    {
+      "word": "Se",
+      "start": 6.64,
+      "end": 6.8,
+      "probability": 0.9949203133583069,
+      "display": "se"
+    },
+    {
+      "word": "puede",
+      "start": 6.8,
+      "end": 7.06,
+      "probability": 0.9991493225097656,
+      "display": "puede"
+    },
+    {
+      "word": "ajustar",
+      "start": 7.06,
+      "end": 7.62,
+      "probability": 0.9992772340774536,
+      "display": "ajustar"
+    },
+    {
+      "word": "y",
+      "start": 7.62,
+      "end": 7.78,
+      "probability": 0.9762468338012695,
+      "display": "y"
+    },
+    {
+      "word": "tiene",
+      "start": 7.78,
+      "end": 8.04,
+      "probability": 0.9978049397468567,
+      "display": "tiene"
+    },
+    {
+      "word": "que",
+      "start": 8.04,
+      "end": 8.16,
+      "probability": 0.9985787868499756,
+      "display": "que"
+    },
+    {
+      "word": "estar",
+      "start": 8.16,
+      "end": 8.36,
+      "probability": 0.9965253472328186,
+      "display": "estar"
+    },
+    {
+      "word": "disponible.",
+      "start": 8.36,
+      "end": 8.98,
+      "probability": 0.9983691275119781,
+      "display": "disponible."
+    },
+    {
+      "word": "Usa",
+      "start": 9.52,
+      "end": 9.88,
+      "probability": 0.8303869664669037,
+      "display": "Usá"
+    },
+    {
+      "word": "letras,",
+      "start": 9.88,
+      "end": 10.26,
+      "probability": 0.9932495057582855,
+      "display": "letras,"
+    },
+    {
+      "word": "números",
+      "start": 10.52,
+      "end": 10.72,
+      "probability": 0.9968416690826416,
+      "display": "números"
+    },
+    {
+      "word": "y",
+      "start": 10.72,
+      "end": 11.12,
+      "probability": 0.9414413571357727,
+      "display": "y"
+    },
+    {
+      "word": "guiones.",
+      "start": 11.12,
+      "end": 11.38,
+      "probability": 0.9967513382434845,
+      "display": "guiones."
+    },
+    {
+      "word": "Después",
+      "start": 12.06,
+      "end": 12.42,
+      "probability": 0.9954641461372375,
+      "display": "Después"
+    },
+    {
+      "word": "definí",
+      "start": 12.42,
+      "end": 12.88,
+      "probability": 0.8139700293540955,
+      "display": "definí"
+    },
+    {
+      "word": "la",
+      "start": 12.88,
+      "end": 13.0,
+      "probability": 0.9967941641807556,
+      "display": "la"
+    },
+    {
+      "word": "regla.",
+      "start": 13.0,
+      "end": 13.32,
+      "probability": 0.9981649518013,
+      "display": "regla:"
+    },
+    {
+      "word": "En",
+      "start": 13.68,
+      "end": 13.78,
+      "probability": 0.9948616623878479,
+      "display": "en"
+    },
+    {
+      "word": "nuestro",
+      "start": 13.78,
+      "end": 13.96,
+      "probability": 0.998331606388092,
+      "display": "nuestro"
+    },
+    {
+      "word": "ejemplo,",
+      "start": 13.96,
+      "end": 14.32,
+      "probability": 0.994224488735199,
+      "display": "ejemplo,"
+    },
+    {
+      "word": "cada",
+      "start": 14.56,
+      "end": 14.68,
+      "probability": 0.9981787204742432,
+      "display": "cada"
+    },
+    {
+      "word": "mil",
+      "start": 14.68,
+      "end": 14.92,
+      "probability": 0.7643215656280518,
+      "display": "mil"
+    },
+    {
+      "word": "pesos",
+      "start": 14.92,
+      "end": 15.28,
+      "probability": 0.9959730505943298,
+      "display": "pesos"
+    },
+    {
+      "word": "completos",
+      "start": 15.28,
+      "end": 15.96,
+      "probability": 0.9914829730987549,
+      "display": "completos"
+    },
+    {
+      "word": "de",
+      "start": 15.96,
+      "end": 16.06,
+      "probability": 0.9986918568611145,
+      "display": "de"
+    },
+    {
+      "word": "una",
+      "start": 16.06,
+      "end": 16.24,
+      "probability": 0.9981206059455872,
+      "display": "una"
+    },
+    {
+      "word": "compra",
+      "start": 16.24,
+      "end": 16.58,
+      "probability": 0.9973558187484741,
+      "display": "compra"
+    },
+    {
+      "word": "otorgan",
+      "start": 16.58,
+      "end": 17.12,
+      "probability": 0.9494624733924866,
+      "display": "otorgan"
+    },
+    {
+      "word": "diez",
+      "start": 17.12,
+      "end": 17.36,
+      "probability": 0.39049845933914185,
+      "display": "diez"
+    },
+    {
+      "word": "puntos.",
+      "start": 17.36,
+      "end": 17.72,
+      "probability": 0.9985244870185852,
+      "display": "puntos."
+    },
+    {
+      "word": "País",
+      "start": 18.32,
+      "end": 18.8,
+      "probability": 0.839568167924881,
+      "display": "País"
+    },
+    {
+      "word": "es",
+      "start": 18.8,
+      "end": 19.04,
+      "probability": 0.994968593120575,
+      "display": "es"
+    },
+    {
+      "word": "obligatorio.",
+      "start": 19.04,
+      "end": 19.58,
+      "probability": 0.9928543269634247,
+      "display": "obligatorio;"
+    },
+    {
+      "word": "Los",
+      "start": 20.02,
+      "end": 20.14,
+      "probability": 0.9962449669837952,
+      "display": "los"
+    },
+    {
+      "word": "demás",
+      "start": 20.14,
+      "end": 20.36,
+      "probability": 0.9957485795021057,
+      "display": "demás"
+    },
+    {
+      "word": "datos",
+      "start": 20.36,
+      "end": 20.64,
+      "probability": 0.9988516569137573,
+      "display": "datos"
+    },
+    {
+      "word": "de",
+      "start": 20.64,
+      "end": 20.8,
+      "probability": 0.9986118078231812,
+      "display": "de"
+    },
+    {
+      "word": "ubicación",
+      "start": 20.8,
+      "end": 21.26,
+      "probability": 0.995090385278066,
+      "display": "ubicación"
+    },
+    {
+      "word": "se",
+      "start": 21.26,
+      "end": 21.48,
+      "probability": 0.976729691028595,
+      "display": "se"
+    },
+    {
+      "word": "pueden",
+      "start": 21.48,
+      "end": 21.72,
+      "probability": 0.9985135197639465,
+      "display": "pueden"
+    },
+    {
+      "word": "dejar",
+      "start": 21.72,
+      "end": 22.0,
+      "probability": 0.9982513785362244,
+      "display": "dejar"
+    },
+    {
+      "word": "vacíos",
+      "start": 22.0,
+      "end": 22.56,
+      "probability": 0.9861700932184855,
+      "display": "vacíos"
+    },
+    {
+      "word": "si",
+      "start": 22.56,
+      "end": 22.7,
+      "probability": 0.8989717364311218,
+      "display": "si"
+    },
+    {
+      "word": "no",
+      "start": 22.7,
+      "end": 22.82,
+      "probability": 0.998571515083313,
+      "display": "no"
+    },
+    {
+      "word": "corresponden.",
+      "start": 22.82,
+      "end": 23.44,
+      "probability": 0.9751308858394623,
+      "display": "corresponden."
+    },
+    {
+      "word": "Revisa",
+      "start": 23.92,
+      "end": 24.32,
+      "probability": 0.7127493619918823,
+      "display": "Revisá"
+    },
+    {
+      "word": "los",
+      "start": 24.32,
+      "end": 24.52,
+      "probability": 0.9952816367149353,
+      "display": "los"
+    },
+    {
+      "word": "campos",
+      "start": 24.52,
+      "end": 24.92,
+      "probability": 0.9915981888771057,
+      "display": "campos"
+    },
+    {
+      "word": "antes",
+      "start": 24.92,
+      "end": 25.12,
+      "probability": 0.9950886368751526,
+      "display": "antes"
+    },
+    {
+      "word": "de",
+      "start": 25.12,
+      "end": 25.32,
+      "probability": 0.9993008375167847,
+      "display": "de"
+    },
+    {
+      "word": "crear",
+      "start": 25.32,
+      "end": 25.52,
+      "probability": 0.9979763627052307,
+      "display": "crear"
+    },
+    {
+      "word": "la",
+      "start": 25.52,
+      "end": 25.68,
+      "probability": 0.9986968636512756,
+      "display": "la"
+    },
+    {
+      "word": "empresa",
+      "start": 25.68,
+      "end": 26.02,
+      "probability": 0.9987643957138062,
+      "display": "empresa"
+    },
+    {
+      "word": "y",
+      "start": 26.02,
+      "end": 26.36,
+      "probability": 0.96947181224823,
+      "display": "y"
+    },
+    {
+      "word": "esperá",
+      "start": 26.36,
+      "end": 26.72,
+      "probability": 0.7989559769630432,
+      "display": "esperá"
+    },
+    {
+      "word": "la",
+      "start": 26.72,
+      "end": 26.8,
+      "probability": 0.9910486936569214,
+      "display": "la"
+    },
+    {
+      "word": "confirmación.",
+      "start": 26.8,
+      "end": 27.4,
+      "probability": 0.9891246259212494,
+      "display": "confirmación."
+    }
+  ],
+  "captions": [
+    {
+      "text": "Escribí el nombre con el que tus clientes conocen al negocio.",
+      "startMs": 0,
+      "endMs": 3140,
+      "timestampMs": null,
+      "confidence": 0.992
+    },
+    {
+      "text": "El nombre del enlace se genera a partir de ese texto, se puede ajustar y tiene",
+      "startMs": 3500,
+      "endMs": 8040,
+      "timestampMs": null,
+      "confidence": 0.99
+    },
+    {
+      "text": "que estar disponible.",
+      "startMs": 8040,
+      "endMs": 8980,
+      "timestampMs": null,
+      "confidence": 0.998
+    },
+    {
+      "text": "Usá letras, números y guiones.",
+      "startMs": 9520,
+      "endMs": 11380,
+      "timestampMs": null,
+      "confidence": 0.952
+    },
+    {
+      "text": "Después definí la regla:",
+      "startMs": 12060,
+      "endMs": 13320,
+      "timestampMs": null,
+      "confidence": 0.951
+    },
+    {
+      "text": "en nuestro ejemplo, cada mil pesos completos de una compra otorgan diez",
+      "startMs": 13680,
+      "endMs": 17360,
+      "timestampMs": null,
+      "confidence": 0.923
+    },
+    {
+      "text": "puntos.",
+      "startMs": 17360,
+      "endMs": 17720,
+      "timestampMs": null,
+      "confidence": 0.999
+    },
+    {
+      "text": "País es obligatorio;",
+      "startMs": 18320,
+      "endMs": 19580,
+      "timestampMs": null,
+      "confidence": 0.942
+    },
+    {
+      "text": "los demás datos de ubicación se pueden dejar vacíos si no corresponden.",
+      "startMs": 20020,
+      "endMs": 23440,
+      "timestampMs": null,
+      "confidence": 0.985
+    },
+    {
+      "text": "Revisá los campos antes de crear la empresa y esperá la confirmación.",
+      "startMs": 23920,
+      "endMs": 27400,
+      "timestampMs": null,
+      "confidence": 0.953
+    }
+  ],
+  "status": "ACOUSTIC_MATCH"
+}

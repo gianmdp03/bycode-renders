@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "En Premios vamos a crear una recompensa física: un desayuno de regalo. Elegí Premio físico, agregá nombre, condiciones y, si tenés, una foto. El costo indica cuántos puntos necesita el cliente para obtener ese premio. La calculadora es una ayuda: ingresá el precio de la recompensa y cuánto querés que gaste el cliente para alcanzarla. Calculá, revisá el resultado y usalo como costo si encaja con tu programa. La sugerencia no guarda el premio: todavía tenés que confirmar el formulario.",
+  "spokenText": "En Premios vamos a crear una recompensa física: un desayuno de regalo. Elegí Premio físico, agregá nombre, condiciones y, si tenés, una foto. El costo indica cuántos puntos necesita el cliente para obtener ese premio. La calculadora es una ayuda: ingresá el precio de la recompensa y cuánto querés que gaste el cliente para alcanzarla. Calculá, revisá el resultado y usalo como costo si encaja con tu programa. La sugerencia no guarda el premio: todavía tenés que confirmar el formulario.",
+  "text_sha256": "59e053f311a3447fb4157d05784f8ce0dbf7971bc26ff97595c9124ae481935c",
+  "sha256": "53c93bf4a76cde2a8ae29c2ced1a60a90193c683362568477ecbb6a0f17ce92b",
+  "duration": 31.12,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 108.91,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

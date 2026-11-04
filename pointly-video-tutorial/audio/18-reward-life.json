@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "Podés editar un premio para cambiar su descripción, su beneficio o su costo futuro. Si querés dejar de ofrecerlo temporalmente, usá Pausar. El canje queda deshabilitado mientras esté pausado. Reactivar permite ofrecerlo otra vez. Eliminar lo quita definitivamente del catálogo, pero no borra los canjes históricos: cada movimiento conserva la información del premio entregado. Probá primero la opción de cancelar una confirmación cuando tengas dudas y revisá la tarjeta después de cada cambio.",
+  "spokenText": "Podés editar un premio para cambiar su descripción, su beneficio o su costo futuro. Si querés dejar de ofrecerlo temporalmente, usá Pausar. El canje queda deshabilitado mientras esté pausado. Reactivar permite ofrecerlo otra vez. Eliminar lo quita definitivamente del catálogo, pero no borra los canjes históricos: cada movimiento conserva la información del premio entregado. Probá primero la opción de cancelar una confirmación cuando tengas dudas y revisá la tarjeta después de cada cambio.",
+  "text_sha256": "7130e4728243c4511f70feac5716b9a13cf2e1e1e2758fec53f9a5c376feadbd",
+  "sha256": "6db33489b7f9ab450cc6febeae96ac6383d821389472238cdb73a0527ecd22c7",
+  "duration": 28.88,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 97.38,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

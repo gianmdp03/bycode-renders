@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "Para seguir usamos Café del Puerto, un comercio de ejemplo con actividad. Desde Editar podés actualizar el nombre, la ubicación y la regla de acumulación. El vencimiento es opcional: si lo activás, indicá cuántos días duran los puntos de nuevas compras. Ese cambio no renueva todos los puntos anteriores. Una compra nueva tampoco renueva automáticamente cada saldo histórico. Leé la explicación junto a la opción antes de guardar. Los niveles Bronce, Plata y Oro están suspendidos en esta versión; no forman parte de la configuración disponible.",
+  "spokenText": "Para seguir usamos Café del Puerto, un comercio de ejemplo con actividad. Desde Editar podés actualizar el nombre, la ubicación y la regla de acumulación. El vencimiento es opcional: si lo activás, indicá cuántos días duran los puntos de nuevas compras. Ese cambio no renueva todos los puntos anteriores. Una compra nueva tampoco renueva automáticamente cada saldo histórico. Leé la explicación junto a la opción antes de guardar. Los niveles Bronce, Plata y Oro están suspendidos en esta versión; no forman parte de la configuración disponible.",
+  "text_sha256": "4199dda129e6682ef4ba095cc850aeb8796e13191e2ad386e8a93a0749355e64",
+  "sha256": "cf04375f9ab8d90db851840808e61a0e825648e388fd9e8b818a27d0b3f32a00",
+  "duration": 33.68,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 140.77,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

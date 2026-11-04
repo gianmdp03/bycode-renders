@@ -1,0 +1,17 @@
+{
+  "status": "API_VALIDATED",
+  "company": "Caf\u00e9 del Puerto DEMO",
+  "clients": 24,
+  "sales": 32,
+  "rewardTypes": [
+    "PHYSICAL",
+    "VOUCHER/PERCENTAGE",
+    "VOUCHER/AMOUNT"
+  ],
+  "realAuthBillingGatewayPointly": true,
+  "emailProviderDisabled": true,
+  "externalRequests": false,
+  "fixtureDating": "Owned DEMO sales and three inactivity timestamps only; never taught as product action.",
+  "stateA": "New merchant, no company, missing DNI.",
+  "stateB": "Configured cafe; 24 clients; purchases and redemption persisted via real APIs."
+}

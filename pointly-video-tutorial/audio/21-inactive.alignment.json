@@ -1,0 +1,628 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "f3e3e2695d9780b8f57be21fcc2af9504c3ee9ac035189a2e2afc84876ae6d50",
+  "transcript": "Sin actividad, reúne clientes que llevan el período elegido sin compras ni canjes. Podés usar los días sugeridos o escribir otro valor. Abrir esta lista no archiva personas ni envía mensajes. Preparar WhatsApp abre una página con un texto que podés revisar, editar y copiar. Comproba el número con código de país. Abrir WhatsApp prepara el mensaje. El envío final lo haces vos. En esta demostración solo revisamos y copiamos el borrador, sin contactar a ninguna persona.",
+  "scriptSimilarity": 1.0,
+  "differences": [],
+  "words": [
+    {
+      "word": "Sin",
+      "start": 0.0,
+      "end": 0.3,
+      "probability": 0.8885983824729919,
+      "display": "Sin"
+    },
+    {
+      "word": "actividad,",
+      "start": 0.3,
+      "end": 0.78,
+      "probability": 0.914253443479538,
+      "display": "actividad"
+    },
+    {
+      "word": "reúne",
+      "start": 0.86,
+      "end": 1.12,
+      "probability": 0.9670514265696207,
+      "display": "reúne"
+    },
+    {
+      "word": "clientes",
+      "start": 1.12,
+      "end": 1.7,
+      "probability": 0.995437741279602,
+      "display": "clientes"
+    },
+    {
+      "word": "que",
+      "start": 1.7,
+      "end": 1.82,
+      "probability": 0.9750374555587769,
+      "display": "que"
+    },
+    {
+      "word": "llevan",
+      "start": 1.82,
+      "end": 2.14,
+      "probability": 0.995662122964859,
+      "display": "llevan"
+    },
+    {
+      "word": "el",
+      "start": 2.14,
+      "end": 2.28,
+      "probability": 0.9962708950042725,
+      "display": "el"
+    },
+    {
+      "word": "período",
+      "start": 2.28,
+      "end": 2.6,
+      "probability": 0.6456038951873779,
+      "display": "período"
+    },
+    {
+      "word": "elegido",
+      "start": 2.6,
+      "end": 3.16,
+      "probability": 0.9683413505554199,
+      "display": "elegido"
+    },
+    {
+      "word": "sin",
+      "start": 3.16,
+      "end": 3.4,
+      "probability": 0.9748601317405701,
+      "display": "sin"
+    },
+    {
+      "word": "compras",
+      "start": 3.4,
+      "end": 3.84,
+      "probability": 0.9957010746002197,
+      "display": "compras"
+    },
+    {
+      "word": "ni",
+      "start": 3.84,
+      "end": 4.04,
+      "probability": 0.9438596367835999,
+      "display": "ni"
+    },
+    {
+      "word": "canjes.",
+      "start": 4.04,
+      "end": 4.46,
+      "probability": 0.9477755725383759,
+      "display": "canjes."
+    },
+    {
+      "word": "Podés",
+      "start": 4.82,
+      "end": 5.1,
+      "probability": 0.7345398664474487,
+      "display": "Podés"
+    },
+    {
+      "word": "usar",
+      "start": 5.1,
+      "end": 5.32,
+      "probability": 0.9957881569862366,
+      "display": "usar"
+    },
+    {
+      "word": "los",
+      "start": 5.32,
+      "end": 5.5,
+      "probability": 0.9777129292488098,
+      "display": "los"
+    },
+    {
+      "word": "días",
+      "start": 5.5,
+      "end": 5.72,
+      "probability": 0.9968140721321106,
+      "display": "días"
+    },
+    {
+      "word": "sugeridos",
+      "start": 5.72,
+      "end": 6.28,
+      "probability": 0.9968203902244568,
+      "display": "sugeridos"
+    },
+    {
+      "word": "o",
+      "start": 6.28,
+      "end": 6.58,
+      "probability": 0.9331536293029785,
+      "display": "o"
+    },
+    {
+      "word": "escribir",
+      "start": 6.58,
+      "end": 6.96,
+      "probability": 0.9961101710796356,
+      "display": "escribir"
+    },
+    {
+      "word": "otro",
+      "start": 6.96,
+      "end": 7.18,
+      "probability": 0.9975101947784424,
+      "display": "otro"
+    },
+    {
+      "word": "valor.",
+      "start": 7.18,
+      "end": 7.46,
+      "probability": 0.9972410202026367,
+      "display": "valor."
+    },
+    {
+      "word": "Abrir",
+      "start": 7.98,
+      "end": 8.26,
+      "probability": 0.962825357913971,
+      "display": "Abrir"
+    },
+    {
+      "word": "esta",
+      "start": 8.26,
+      "end": 8.5,
+      "probability": 0.9853047728538513,
+      "display": "esta"
+    },
+    {
+      "word": "lista",
+      "start": 8.5,
+      "end": 8.74,
+      "probability": 0.999030590057373,
+      "display": "lista"
+    },
+    {
+      "word": "no",
+      "start": 8.74,
+      "end": 8.98,
+      "probability": 0.9838940501213074,
+      "display": "no"
+    },
+    {
+      "word": "archiva",
+      "start": 8.98,
+      "end": 9.36,
+      "probability": 0.9617344439029694,
+      "display": "archiva"
+    },
+    {
+      "word": "personas",
+      "start": 9.36,
+      "end": 9.88,
+      "probability": 0.9849340915679932,
+      "display": "personas"
+    },
+    {
+      "word": "ni",
+      "start": 9.88,
+      "end": 10.18,
+      "probability": 0.8601743578910828,
+      "display": "ni"
+    },
+    {
+      "word": "envía",
+      "start": 10.18,
+      "end": 10.48,
+      "probability": 0.9815981984138489,
+      "display": "envía"
+    },
+    {
+      "word": "mensajes.",
+      "start": 10.48,
+      "end": 10.94,
+      "probability": 0.9989065825939178,
+      "display": "mensajes."
+    },
+    {
+      "word": "Preparar",
+      "start": 11.44,
+      "end": 11.98,
+      "probability": 0.9847317337989807,
+      "display": "Preparar"
+    },
+    {
+      "word": "WhatsApp",
+      "start": 11.98,
+      "end": 12.28,
+      "probability": 0.809550404548645,
+      "display": "WhatsApp"
+    },
+    {
+      "word": "abre",
+      "start": 12.28,
+      "end": 12.7,
+      "probability": 0.9935638308525085,
+      "display": "abre"
+    },
+    {
+      "word": "una",
+      "start": 12.7,
+      "end": 12.94,
+      "probability": 0.9971892237663269,
+      "display": "una"
+    },
+    {
+      "word": "página",
+      "start": 12.94,
+      "end": 13.24,
+      "probability": 0.993802011013031,
+      "display": "página"
+    },
+    {
+      "word": "con",
+      "start": 13.24,
+      "end": 13.56,
+      "probability": 0.9934937357902527,
+      "display": "con"
+    },
+    {
+      "word": "un",
+      "start": 13.56,
+      "end": 13.68,
+      "probability": 0.9962969422340393,
+      "display": "un"
+    },
+    {
+      "word": "texto",
+      "start": 13.68,
+      "end": 13.94,
+      "probability": 0.9995152950286865,
+      "display": "texto"
+    },
+    {
+      "word": "que",
+      "start": 13.94,
+      "end": 14.16,
+      "probability": 0.9986261129379272,
+      "display": "que"
+    },
+    {
+      "word": "podés",
+      "start": 14.16,
+      "end": 14.46,
+      "probability": 0.9389671981334686,
+      "display": "podés"
+    },
+    {
+      "word": "revisar,",
+      "start": 14.46,
+      "end": 14.96,
+      "probability": 0.9965374171733856,
+      "display": "revisar,"
+    },
+    {
+      "word": "editar",
+      "start": 15.34,
+      "end": 15.68,
+      "probability": 0.9780619740486145,
+      "display": "editar"
+    },
+    {
+      "word": "y",
+      "start": 15.68,
+      "end": 15.94,
+      "probability": 0.9824770092964172,
+      "display": "y"
+    },
+    {
+      "word": "copiar.",
+      "start": 15.94,
+      "end": 16.26,
+      "probability": 0.9969705939292908,
+      "display": "copiar."
+    },
+    {
+      "word": "Comproba",
+      "start": 16.76,
+      "end": 17.18,
+      "probability": 0.7175390919049581,
+      "display": "Comprobá"
+    },
+    {
+      "word": "el",
+      "start": 17.18,
+      "end": 17.32,
+      "probability": 0.9975236058235168,
+      "display": "el"
+    },
+    {
+      "word": "número",
+      "start": 17.32,
+      "end": 17.54,
+      "probability": 0.9940176010131836,
+      "display": "número"
+    },
+    {
+      "word": "con",
+      "start": 17.54,
+      "end": 17.84,
+      "probability": 0.9934345483779907,
+      "display": "con"
+    },
+    {
+      "word": "código",
+      "start": 17.84,
+      "end": 18.12,
+      "probability": 0.8052077889442444,
+      "display": "código"
+    },
+    {
+      "word": "de",
+      "start": 18.12,
+      "end": 18.3,
+      "probability": 0.9945414662361145,
+      "display": "de"
+    },
+    {
+      "word": "país.",
+      "start": 18.3,
+      "end": 18.54,
+      "probability": 0.9513391256332397,
+      "display": "país."
+    },
+    {
+      "word": "Abrir",
+      "start": 19.0,
+      "end": 19.34,
+      "probability": 0.9898799955844879,
+      "display": "Abrir"
+    },
+    {
+      "word": "WhatsApp",
+      "start": 19.34,
+      "end": 19.76,
+      "probability": 0.9605156779289246,
+      "display": "WhatsApp"
+    },
+    {
+      "word": "prepara",
+      "start": 19.76,
+      "end": 20.2,
+      "probability": 0.973323255777359,
+      "display": "prepara"
+    },
+    {
+      "word": "el",
+      "start": 20.2,
+      "end": 20.28,
+      "probability": 0.9965142607688904,
+      "display": "el"
+    },
+    {
+      "word": "mensaje.",
+      "start": 20.28,
+      "end": 20.68,
+      "probability": 0.9995428919792175,
+      "display": "mensaje;"
+    },
+    {
+      "word": "El",
+      "start": 21.1,
+      "end": 21.22,
+      "probability": 0.990969717502594,
+      "display": "el"
+    },
+    {
+      "word": "envío",
+      "start": 21.22,
+      "end": 21.44,
+      "probability": 0.9741317927837372,
+      "display": "envío"
+    },
+    {
+      "word": "final",
+      "start": 21.44,
+      "end": 21.74,
+      "probability": 0.9981746673583984,
+      "display": "final"
+    },
+    {
+      "word": "lo",
+      "start": 21.74,
+      "end": 22.06,
+      "probability": 0.9859354496002197,
+      "display": "lo"
+    },
+    {
+      "word": "haces",
+      "start": 22.06,
+      "end": 22.26,
+      "probability": 0.9273608922958374,
+      "display": "hacés"
+    },
+    {
+      "word": "vos.",
+      "start": 22.26,
+      "end": 22.5,
+      "probability": 0.9756107926368713,
+      "display": "vos."
+    },
+    {
+      "word": "En",
+      "start": 22.98,
+      "end": 23.12,
+      "probability": 0.9931076169013977,
+      "display": "En"
+    },
+    {
+      "word": "esta",
+      "start": 23.12,
+      "end": 23.3,
+      "probability": 0.994382381439209,
+      "display": "esta"
+    },
+    {
+      "word": "demostración",
+      "start": 23.3,
+      "end": 23.88,
+      "probability": 0.9965146481990814,
+      "display": "demostración"
+    },
+    {
+      "word": "solo",
+      "start": 23.88,
+      "end": 24.2,
+      "probability": 0.5121258497238159,
+      "display": "solo"
+    },
+    {
+      "word": "revisamos",
+      "start": 24.2,
+      "end": 24.8,
+      "probability": 0.9883457124233246,
+      "display": "revisamos"
+    },
+    {
+      "word": "y",
+      "start": 24.8,
+      "end": 25.08,
+      "probability": 0.9857638478279114,
+      "display": "y"
+    },
+    {
+      "word": "copiamos",
+      "start": 25.08,
+      "end": 25.56,
+      "probability": 0.9782422780990601,
+      "display": "copiamos"
+    },
+    {
+      "word": "el",
+      "start": 25.56,
+      "end": 25.78,
+      "probability": 0.9928438067436218,
+      "display": "el"
+    },
+    {
+      "word": "borrador,",
+      "start": 25.78,
+      "end": 26.18,
+      "probability": 0.9944688280423483,
+      "display": "borrador,"
+    },
+    {
+      "word": "sin",
+      "start": 26.52,
+      "end": 26.76,
+      "probability": 0.9950390458106995,
+      "display": "sin"
+    },
+    {
+      "word": "contactar",
+      "start": 26.76,
+      "end": 27.48,
+      "probability": 0.9985896944999695,
+      "display": "contactar"
+    },
+    {
+      "word": "a",
+      "start": 27.48,
+      "end": 27.58,
+      "probability": 0.995625376701355,
+      "display": "a"
+    },
+    {
+      "word": "ninguna",
+      "start": 27.58,
+      "end": 27.82,
+      "probability": 0.9983248114585876,
+      "display": "ninguna"
+    },
+    {
+      "word": "persona.",
+      "start": 27.82,
+      "end": 28.28,
+      "probability": 0.9991556406021118,
+      "display": "persona."
+    }
+  ],
+  "captions": [
+    {
+      "text": "Sin actividad reúne clientes que llevan el período elegido sin compras ni",
+      "startMs": 0,
+      "endMs": 4040,
+      "timestampMs": null,
+      "confidence": 0.938
+    },
+    {
+      "text": "canjes.",
+      "startMs": 4040,
+      "endMs": 4460,
+      "timestampMs": null,
+      "confidence": 0.948
+    },
+    {
+      "text": "Podés usar los días sugeridos o escribir otro valor.",
+      "startMs": 4820,
+      "endMs": 7460,
+      "timestampMs": null,
+      "confidence": 0.958
+    },
+    {
+      "text": "Abrir esta lista no archiva personas ni envía mensajes.",
+      "startMs": 7980,
+      "endMs": 10940,
+      "timestampMs": null,
+      "confidence": 0.969
+    },
+    {
+      "text": "Preparar WhatsApp abre una página con un texto que podés revisar, editar y",
+      "startMs": 11440,
+      "endMs": 15940,
+      "timestampMs": null,
+      "confidence": 0.974
+    },
+    {
+      "text": "copiar.",
+      "startMs": 15940,
+      "endMs": 16260,
+      "timestampMs": null,
+      "confidence": 0.997
+    },
+    {
+      "text": "Comprobá el número con código de país.",
+      "startMs": 16760,
+      "endMs": 18540,
+      "timestampMs": null,
+      "confidence": 0.922
+    },
+    {
+      "text": "Abrir WhatsApp prepara el mensaje;",
+      "startMs": 19000,
+      "endMs": 20680,
+      "timestampMs": null,
+      "confidence": 0.984
+    },
+    {
+      "text": "el envío final lo hacés vos.",
+      "startMs": 21100,
+      "endMs": 22500,
+      "timestampMs": null,
+      "confidence": 0.975
+    },
+    {
+      "text": "En esta demostración solo revisamos y copiamos el borrador, sin contactar a",
+      "startMs": 22980,
+      "endMs": 27580,
+      "timestampMs": null,
+      "confidence": 0.952
+    },
+    {
+      "text": "ninguna persona.",
+      "startMs": 27580,
+      "endMs": 28280,
+      "timestampMs": null,
+      "confidence": 0.999
+    }
+  ],
+  "status": "ACOUSTIC_MATCH"
+}

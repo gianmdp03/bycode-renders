@@ -1,0 +1,530 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "39977fbdc29899db68f3923525cc248ccde885a68c12338560951c01c36cb972",
+  "transcript": "Ya recorrimos la configuración, los clientes, las ventas, el catálogo, los premios y los avisos de Pointly, además de la billetera que consulta el cliente. Antes de usar tu programa con personas reales, revisa la regla de puntos, las condiciones de los premios y los vencimientos que vas a comunicar. Volve al capítulo que necesites para repetir un procedimiento. Pointly de Bycode Software. Gracias por acompañarnos.",
+  "scriptSimilarity": 1.0,
+  "differences": [],
+  "words": [
+    {
+      "word": "Ya",
+      "start": 0.0,
+      "end": 0.16,
+      "probability": 0.9576186537742615,
+      "display": "Ya"
+    },
+    {
+      "word": "recorrimos",
+      "start": 0.16,
+      "end": 0.68,
+      "probability": 0.9243704080581665,
+      "display": "recorrimos"
+    },
+    {
+      "word": "la",
+      "start": 0.68,
+      "end": 0.78,
+      "probability": 0.997195839881897,
+      "display": "la"
+    },
+    {
+      "word": "configuración,",
+      "start": 0.78,
+      "end": 1.46,
+      "probability": 0.9984369277954102,
+      "display": "configuración,"
+    },
+    {
+      "word": "los",
+      "start": 1.82,
+      "end": 1.94,
+      "probability": 0.9935969114303589,
+      "display": "los"
+    },
+    {
+      "word": "clientes,",
+      "start": 1.94,
+      "end": 2.52,
+      "probability": 0.9990521967411041,
+      "display": "clientes,"
+    },
+    {
+      "word": "las",
+      "start": 2.7,
+      "end": 2.82,
+      "probability": 0.9897518157958984,
+      "display": "las"
+    },
+    {
+      "word": "ventas,",
+      "start": 2.82,
+      "end": 3.32,
+      "probability": 0.9945573508739471,
+      "display": "ventas,"
+    },
+    {
+      "word": "el",
+      "start": 3.54,
+      "end": 3.6,
+      "probability": 0.9967345595359802,
+      "display": "el"
+    },
+    {
+      "word": "catálogo,",
+      "start": 3.6,
+      "end": 4.1,
+      "probability": 0.9882752895355225,
+      "display": "catálogo,"
+    },
+    {
+      "word": "los",
+      "start": 4.46,
+      "end": 4.58,
+      "probability": 0.9983933568000793,
+      "display": "los"
+    },
+    {
+      "word": "premios",
+      "start": 4.58,
+      "end": 5.08,
+      "probability": 0.9964264333248138,
+      "display": "premios"
+    },
+    {
+      "word": "y",
+      "start": 5.08,
+      "end": 5.26,
+      "probability": 0.9852766394615173,
+      "display": "y"
+    },
+    {
+      "word": "los",
+      "start": 5.26,
+      "end": 5.38,
+      "probability": 0.9972684383392334,
+      "display": "los"
+    },
+    {
+      "word": "avisos",
+      "start": 5.38,
+      "end": 5.76,
+      "probability": 0.9777348637580872,
+      "display": "avisos"
+    },
+    {
+      "word": "de",
+      "start": 5.76,
+      "end": 5.88,
+      "probability": 0.9958053827285767,
+      "display": "de"
+    },
+    {
+      "word": "Pointly,",
+      "start": 5.88,
+      "end": 6.32,
+      "probability": 0.8709698915481567,
+      "display": "Pointly,"
+    },
+    {
+      "word": "además",
+      "start": 6.66,
+      "end": 6.94,
+      "probability": 0.994942843914032,
+      "display": "además"
+    },
+    {
+      "word": "de",
+      "start": 6.94,
+      "end": 7.18,
+      "probability": 0.9952349066734314,
+      "display": "de"
+    },
+    {
+      "word": "la",
+      "start": 7.18,
+      "end": 7.28,
+      "probability": 0.99652099609375,
+      "display": "la"
+    },
+    {
+      "word": "billetera",
+      "start": 7.28,
+      "end": 7.74,
+      "probability": 0.9789844453334808,
+      "display": "billetera"
+    },
+    {
+      "word": "que",
+      "start": 7.74,
+      "end": 8.04,
+      "probability": 0.9797095060348511,
+      "display": "que"
+    },
+    {
+      "word": "consulta",
+      "start": 8.04,
+      "end": 8.6,
+      "probability": 0.9827915132045746,
+      "display": "consulta"
+    },
+    {
+      "word": "el",
+      "start": 8.6,
+      "end": 8.7,
+      "probability": 0.9955861568450928,
+      "display": "el"
+    },
+    {
+      "word": "cliente.",
+      "start": 8.7,
+      "end": 9.52,
+      "probability": 0.9988134801387787,
+      "display": "cliente."
+    },
+    {
+      "word": "Antes",
+      "start": 9.76,
+      "end": 10.04,
+      "probability": 0.9970687031745911,
+      "display": "Antes"
+    },
+    {
+      "word": "de",
+      "start": 10.04,
+      "end": 10.24,
+      "probability": 0.9998530149459839,
+      "display": "de"
+    },
+    {
+      "word": "usar",
+      "start": 10.24,
+      "end": 10.46,
+      "probability": 0.9976620674133301,
+      "display": "usar"
+    },
+    {
+      "word": "tu",
+      "start": 10.46,
+      "end": 10.7,
+      "probability": 0.9950659275054932,
+      "display": "tu"
+    },
+    {
+      "word": "programa",
+      "start": 10.7,
+      "end": 11.04,
+      "probability": 0.9975710511207581,
+      "display": "programa"
+    },
+    {
+      "word": "con",
+      "start": 11.04,
+      "end": 11.28,
+      "probability": 0.9991620779037476,
+      "display": "con"
+    },
+    {
+      "word": "personas",
+      "start": 11.28,
+      "end": 11.64,
+      "probability": 0.9916079044342041,
+      "display": "personas"
+    },
+    {
+      "word": "reales,",
+      "start": 11.64,
+      "end": 12.26,
+      "probability": 0.9936392307281494,
+      "display": "reales,"
+    },
+    {
+      "word": "revisa",
+      "start": 12.5,
+      "end": 12.82,
+      "probability": 0.7088253349065781,
+      "display": "revisá"
+    },
+    {
+      "word": "la",
+      "start": 12.82,
+      "end": 12.98,
+      "probability": 0.9961307048797607,
+      "display": "la"
+    },
+    {
+      "word": "regla",
+      "start": 12.98,
+      "end": 13.28,
+      "probability": 0.9361239671707153,
+      "display": "regla"
+    },
+    {
+      "word": "de",
+      "start": 13.28,
+      "end": 13.38,
+      "probability": 0.9992893934249878,
+      "display": "de"
+    },
+    {
+      "word": "puntos,",
+      "start": 13.38,
+      "end": 13.68,
+      "probability": 0.9955549836158752,
+      "display": "puntos,"
+    },
+    {
+      "word": "las",
+      "start": 14.16,
+      "end": 14.28,
+      "probability": 0.9951702952384949,
+      "display": "las"
+    },
+    {
+      "word": "condiciones",
+      "start": 14.28,
+      "end": 14.78,
+      "probability": 0.9938149452209473,
+      "display": "condiciones"
+    },
+    {
+      "word": "de",
+      "start": 14.78,
+      "end": 15.06,
+      "probability": 0.9993650317192078,
+      "display": "de"
+    },
+    {
+      "word": "los",
+      "start": 15.06,
+      "end": 15.18,
+      "probability": 0.9995197057723999,
+      "display": "los"
+    },
+    {
+      "word": "premios",
+      "start": 15.18,
+      "end": 15.64,
+      "probability": 0.9986223578453064,
+      "display": "premios"
+    },
+    {
+      "word": "y",
+      "start": 15.64,
+      "end": 15.82,
+      "probability": 0.9863322973251343,
+      "display": "y"
+    },
+    {
+      "word": "los",
+      "start": 15.82,
+      "end": 15.94,
+      "probability": 0.9941549897193909,
+      "display": "los"
+    },
+    {
+      "word": "vencimientos",
+      "start": 15.94,
+      "end": 16.52,
+      "probability": 0.9919692873954773,
+      "display": "vencimientos"
+    },
+    {
+      "word": "que",
+      "start": 16.52,
+      "end": 16.74,
+      "probability": 0.9974296689033508,
+      "display": "que"
+    },
+    {
+      "word": "vas",
+      "start": 16.74,
+      "end": 16.9,
+      "probability": 0.9973912239074707,
+      "display": "vas"
+    },
+    {
+      "word": "a",
+      "start": 16.9,
+      "end": 17.02,
+      "probability": 0.9993775486946106,
+      "display": "a"
+    },
+    {
+      "word": "comunicar.",
+      "start": 17.02,
+      "end": 17.44,
+      "probability": 0.998008519411087,
+      "display": "comunicar."
+    },
+    {
+      "word": "Volve",
+      "start": 18.02,
+      "end": 18.28,
+      "probability": 0.665733814239502,
+      "display": "Volvé"
+    },
+    {
+      "word": "al",
+      "start": 18.28,
+      "end": 18.42,
+      "probability": 0.9854173064231873,
+      "display": "al"
+    },
+    {
+      "word": "capítulo",
+      "start": 18.42,
+      "end": 18.8,
+      "probability": 0.9904174506664276,
+      "display": "capítulo"
+    },
+    {
+      "word": "que",
+      "start": 18.8,
+      "end": 18.96,
+      "probability": 0.9986147880554199,
+      "display": "que"
+    },
+    {
+      "word": "necesites",
+      "start": 18.96,
+      "end": 19.48,
+      "probability": 0.9911121428012848,
+      "display": "necesites"
+    },
+    {
+      "word": "para",
+      "start": 19.48,
+      "end": 19.84,
+      "probability": 0.993742048740387,
+      "display": "para"
+    },
+    {
+      "word": "repetir",
+      "start": 19.84,
+      "end": 20.32,
+      "probability": 0.9984013140201569,
+      "display": "repetir"
+    },
+    {
+      "word": "un",
+      "start": 20.32,
+      "end": 20.4,
+      "probability": 0.9964504241943359,
+      "display": "un"
+    },
+    {
+      "word": "procedimiento.",
+      "start": 20.4,
+      "end": 21.02,
+      "probability": 0.9989415109157562,
+      "display": "procedimiento."
+    },
+    {
+      "word": "Pointly",
+      "start": 21.44,
+      "end": 21.92,
+      "probability": 0.8586999773979187,
+      "display": "Pointly,"
+    },
+    {
+      "word": "de",
+      "start": 21.92,
+      "end": 22.28,
+      "probability": 0.8353449702262878,
+      "display": "de"
+    },
+    {
+      "word": "Bycode",
+      "start": 22.28,
+      "end": 22.72,
+      "probability": 0.13060526177287102,
+      "display": "Bycode"
+    },
+    {
+      "word": "Software.",
+      "start": 22.72,
+      "end": 23.22,
+      "probability": 0.9886646270751953,
+      "display": "Software."
+    },
+    {
+      "word": "Gracias",
+      "start": 23.76,
+      "end": 24.14,
+      "probability": 0.9516400694847107,
+      "display": "Gracias"
+    },
+    {
+      "word": "por",
+      "start": 24.14,
+      "end": 24.48,
+      "probability": 0.9989637136459351,
+      "display": "por"
+    },
+    {
+      "word": "acompañarnos.",
+      "start": 24.48,
+      "end": 25.1,
+      "probability": 0.9962789714336395,
+      "display": "acompañarnos."
+    }
+  ],
+  "captions": [
+    {
+      "text": "Ya recorrimos la configuración, los clientes, las ventas, el catálogo, los",
+      "startMs": 0,
+      "endMs": 4580,
+      "timestampMs": null,
+      "confidence": 0.985
+    },
+    {
+      "text": "premios y los avisos de Pointly, además de la billetera que consulta el",
+      "startMs": 4580,
+      "endMs": 8700,
+      "timestampMs": null,
+      "confidence": 0.981
+    },
+    {
+      "text": "cliente.",
+      "startMs": 8700,
+      "endMs": 9520,
+      "timestampMs": null,
+      "confidence": 0.999
+    },
+    {
+      "text": "Antes de usar tu programa con personas reales, revisá la regla de puntos, las",
+      "startMs": 9760,
+      "endMs": 14280,
+      "timestampMs": null,
+      "confidence": 0.972
+    },
+    {
+      "text": "condiciones de los premios y los vencimientos que vas a comunicar.",
+      "startMs": 14280,
+      "endMs": 17440,
+      "timestampMs": null,
+      "confidence": 0.996
+    },
+    {
+      "text": "Volvé al capítulo que necesites para repetir un procedimiento.",
+      "startMs": 18020,
+      "endMs": 21020,
+      "timestampMs": null,
+      "confidence": 0.958
+    },
+    {
+      "text": "Pointly, de Bycode Software.",
+      "startMs": 21440,
+      "endMs": 23220,
+      "timestampMs": null,
+      "confidence": 0.703
+    },
+    {
+      "text": "Gracias por acompañarnos.",
+      "startMs": 23760,
+      "endMs": 25100,
+      "timestampMs": null,
+      "confidence": 0.982
+    }
+  ],
+  "status": "ACOUSTIC_MATCH"
+}

@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "Para dejar de operar con un cliente, usá Archivar desde Sin actividad y leé la confirmación. El archivo es manual: una persona no se archiva simplemente por aparecer en esta lista. La cuenta deja de ocupar cupo activo, pero conserva su historial y sus vencimientos. Desde Archivados podés reactivarla si hay lugar en tu plan. La billetera sigue mostrando el comercio y los puntos vigentes con un aviso de cuenta archivada; para volver a operar, la reactivación la realiza el comercio.",
+  "spokenText": "Para dejar de operar con un cliente, usá Archivar desde Sin actividad y leé la confirmación. El archivo es manual: una persona no se archiva simplemente por aparecer en esta lista. La cuenta deja de ocupar cupo activo, pero conserva su historial y sus vencimientos. Desde Archivados podés reactivarla si hay lugar en tu plan. La billetera sigue mostrando el comercio y los puntos vigentes con un aviso de cuenta archivada; para volver a operar, la reactivación la realiza el comercio.",
+  "text_sha256": "de72ce55a2f82f1a1338fc02a59db6cd84e6eec8beaee6330a7c6bd2d9c62fe0",
+  "sha256": "4040d26d54c4581ddeccec0c4e41a1800b02cb50be6904b39ed4930176a2a74f",
+  "duration": 28.96,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 107.09,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

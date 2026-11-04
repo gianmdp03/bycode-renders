@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "En una cuenta nueva, Pointly puede pedir el DNI de la persona que administra el comercio. No es el documento de un cliente: es un dato de tu perfil. Completalo y continuá al panel. Acá aparece el plan, sus comercios permitidos y el cupo de clientes activos por comercio. Si todavía no creaste ninguno, empezá con Nueva Empresa. No necesitás preparar una planilla ni importar clientes para dar este primer paso.",
+  "spokenText": "En una cuenta nueva, Pointli puede pedir el de ene i de la persona que administra el comercio. No es el documento de un cliente: es un dato de tu perfil. Completalo y continuá al panel. Acá aparece el plan, sus comercios permitidos y el cupo de clientes activos por comercio. Si todavía no creaste ninguno, empezá con Nueva Empresa. No necesitás preparar una planilla ni importar clientes para dar este primer paso.",
+  "text_sha256": "c350c7fe97dc54da99f30004e396d307b47a6737620e41ecf5639c3ef6a81088",
+  "sha256": "049282e3476b7cb4212a6d05b030d182afb7b5f7ea2d6107f4a2ea0e61e0e018",
+  "duration": 25.2,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 63.53,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

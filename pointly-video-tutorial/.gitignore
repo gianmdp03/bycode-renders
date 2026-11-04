@@ -1,0 +1,14 @@
+.local/
+recordings/*
+!recordings/manifest.json
+audio/*.wav
+audio/*.raw.wav
+output/*.mp4
+qa/*.png
+qa/*.jpg
+qa/*.mp4
+qa/*.webm
+remotion/public/footage/
+remotion/public/audio/
+remotion/.remotion/
+__pycache__/

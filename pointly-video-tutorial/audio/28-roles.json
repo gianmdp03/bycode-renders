@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "La cuenta de comercio administra sus propios negocios. La administración general tiene una vista diferente con empresas de toda la plataforma, sus reglas y sus estados. Algunas acciones visibles pueden seguir restringidas por el servidor: no tener permiso no se resuelve cambiando la dirección de la página. Este tutorial usa la cuenta comercial para las tareas diarias. El asistente de inteligencia artificial y los niveles de fidelidad están desactivados en esta versión, aunque exista código histórico: no son herramientas disponibles que tengas que configurar.",
+  "spokenText": "La cuenta de comercio administra sus propios negocios. La administración general tiene una vista diferente con empresas de toda la plataforma, sus reglas y sus estados. Algunas acciones visibles pueden seguir restringidas por el servidor: no tener permiso no se resuelve cambiando la dirección de la página. Este tutorial usa la cuenta comercial para las tareas diarias. El asistente de inteligencia artificial y los niveles de fidelidad están desactivados en esta versión, aunque exista código histórico: no son herramientas disponibles que tengas que configurar.",
+  "text_sha256": "91cd74f39d59c3c1da17c263df2007ad0527c4d51a45d1d1e97db19bdc67d60c",
+  "sha256": "63e5b213d3343c49067ea8e3b74999a1edf77126e61a452e17dae16c8871ca3e",
+  "duration": 32.16,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 118.28,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

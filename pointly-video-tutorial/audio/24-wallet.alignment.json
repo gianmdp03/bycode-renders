@@ -1,0 +1,740 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "4020eef7776192bc44ffd7c6201b848e8041db693a1526b7c85b2625aa4e5820",
+  "transcript": "Ahora cambiamos al modo cliente. Desde la consulta pública elegimos el país e ingresamos el DNI. La billetera muestra los comercios asociados. Cada comercio tiene su propio saldo. Los puntos de la panadería no se suman a los del café. Al abrir uno, aparecen los premios disponibles, los puntos que faltan o el aviso te alcanza y las condiciones para coordinar el canje. Las otras pestañas muestran promociones vigentes y productos. Esta es una vista de consulta. No permite registrar compras ni modificar puntos. El comerciante conserva esas acciones en su panel privado.",
+  "scriptSimilarity": 1.0,
+  "differences": [],
+  "words": [
+    {
+      "word": "Ahora",
+      "start": 0.0,
+      "end": 0.48,
+      "probability": 0.6766330003738403,
+      "display": "Ahora"
+    },
+    {
+      "word": "cambiamos",
+      "start": 0.48,
+      "end": 1.06,
+      "probability": 0.8717416822910309,
+      "display": "cambiamos"
+    },
+    {
+      "word": "al",
+      "start": 1.06,
+      "end": 1.26,
+      "probability": 0.9968889355659485,
+      "display": "al"
+    },
+    {
+      "word": "modo",
+      "start": 1.26,
+      "end": 1.44,
+      "probability": 0.9753908514976501,
+      "display": "modo"
+    },
+    {
+      "word": "cliente.",
+      "start": 1.44,
+      "end": 2.04,
+      "probability": 0.9135534167289734,
+      "display": "cliente."
+    },
+    {
+      "word": "Desde",
+      "start": 2.38,
+      "end": 2.66,
+      "probability": 0.976598858833313,
+      "display": "Desde"
+    },
+    {
+      "word": "la",
+      "start": 2.66,
+      "end": 2.88,
+      "probability": 0.991517186164856,
+      "display": "la"
+    },
+    {
+      "word": "consulta",
+      "start": 2.88,
+      "end": 3.32,
+      "probability": 0.9545945823192596,
+      "display": "consulta"
+    },
+    {
+      "word": "pública",
+      "start": 3.32,
+      "end": 3.66,
+      "probability": 0.9867736101150513,
+      "display": "pública"
+    },
+    {
+      "word": "elegimos",
+      "start": 3.66,
+      "end": 4.1,
+      "probability": 0.9148978590965271,
+      "display": "elegimos"
+    },
+    {
+      "word": "el",
+      "start": 4.1,
+      "end": 4.34,
+      "probability": 0.9807680249214172,
+      "display": "el"
+    },
+    {
+      "word": "país",
+      "start": 4.34,
+      "end": 4.62,
+      "probability": 0.9779793620109558,
+      "display": "país"
+    },
+    {
+      "word": "e",
+      "start": 4.62,
+      "end": 4.92,
+      "probability": 0.9593431949615479,
+      "display": "e"
+    },
+    {
+      "word": "ingresamos",
+      "start": 4.92,
+      "end": 5.38,
+      "probability": 0.9970096151034037,
+      "display": "ingresamos"
+    },
+    {
+      "word": "el",
+      "start": 5.38,
+      "end": 5.62,
+      "probability": 0.9818238615989685,
+      "display": "el"
+    },
+    {
+      "word": "DNI.",
+      "start": 5.62,
+      "end": 6.12,
+      "probability": 0.9398743212223053,
+      "display": "DNI."
+    },
+    {
+      "word": "La",
+      "start": 6.56,
+      "end": 6.7,
+      "probability": 0.974982738494873,
+      "display": "La"
+    },
+    {
+      "word": "billetera",
+      "start": 6.7,
+      "end": 7.08,
+      "probability": 0.9663326442241669,
+      "display": "billetera"
+    },
+    {
+      "word": "muestra",
+      "start": 7.08,
+      "end": 7.54,
+      "probability": 0.9963364601135254,
+      "display": "muestra"
+    },
+    {
+      "word": "los",
+      "start": 7.54,
+      "end": 7.74,
+      "probability": 0.9558043479919434,
+      "display": "los"
+    },
+    {
+      "word": "comercios",
+      "start": 7.74,
+      "end": 8.22,
+      "probability": 0.9931107759475708,
+      "display": "comercios"
+    },
+    {
+      "word": "asociados.",
+      "start": 8.22,
+      "end": 8.8,
+      "probability": 0.9966403096914291,
+      "display": "asociados."
+    },
+    {
+      "word": "Cada",
+      "start": 9.42,
+      "end": 9.64,
+      "probability": 0.9895882606506348,
+      "display": "Cada"
+    },
+    {
+      "word": "comercio",
+      "start": 9.64,
+      "end": 10.18,
+      "probability": 0.9979792535305023,
+      "display": "comercio"
+    },
+    {
+      "word": "tiene",
+      "start": 10.18,
+      "end": 10.48,
+      "probability": 0.9941127896308899,
+      "display": "tiene"
+    },
+    {
+      "word": "su",
+      "start": 10.48,
+      "end": 10.7,
+      "probability": 0.9961535334587097,
+      "display": "su"
+    },
+    {
+      "word": "propio",
+      "start": 10.7,
+      "end": 11.0,
+      "probability": 0.9981546998023987,
+      "display": "propio"
+    },
+    {
+      "word": "saldo.",
+      "start": 11.0,
+      "end": 11.46,
+      "probability": 0.9987985193729401,
+      "display": "saldo:"
+    },
+    {
+      "word": "Los",
+      "start": 11.82,
+      "end": 11.98,
+      "probability": 0.9924772381782532,
+      "display": "los"
+    },
+    {
+      "word": "puntos",
+      "start": 11.98,
+      "end": 12.24,
+      "probability": 0.9973196387290955,
+      "display": "puntos"
+    },
+    {
+      "word": "de",
+      "start": 12.24,
+      "end": 12.44,
+      "probability": 0.9976822137832642,
+      "display": "de"
+    },
+    {
+      "word": "la",
+      "start": 12.44,
+      "end": 12.52,
+      "probability": 0.9947665929794312,
+      "display": "la"
+    },
+    {
+      "word": "panadería",
+      "start": 12.52,
+      "end": 13.1,
+      "probability": 0.9685520132382711,
+      "display": "panadería"
+    },
+    {
+      "word": "no",
+      "start": 13.1,
+      "end": 13.44,
+      "probability": 0.979591429233551,
+      "display": "no"
+    },
+    {
+      "word": "se",
+      "start": 13.44,
+      "end": 13.58,
+      "probability": 0.9994854927062988,
+      "display": "se"
+    },
+    {
+      "word": "suman",
+      "start": 13.58,
+      "end": 13.84,
+      "probability": 0.9975603818893433,
+      "display": "suman"
+    },
+    {
+      "word": "a",
+      "start": 13.84,
+      "end": 13.94,
+      "probability": 0.994429349899292,
+      "display": "a"
+    },
+    {
+      "word": "los",
+      "start": 13.94,
+      "end": 14.04,
+      "probability": 0.9986829161643982,
+      "display": "los"
+    },
+    {
+      "word": "del",
+      "start": 14.04,
+      "end": 14.22,
+      "probability": 0.9899497032165527,
+      "display": "del"
+    },
+    {
+      "word": "café.",
+      "start": 14.22,
+      "end": 14.46,
+      "probability": 0.9716249108314514,
+      "display": "café."
+    },
+    {
+      "word": "Al",
+      "start": 15.14,
+      "end": 15.28,
+      "probability": 0.9921707510948181,
+      "display": "Al"
+    },
+    {
+      "word": "abrir",
+      "start": 15.28,
+      "end": 15.48,
+      "probability": 0.9977520108222961,
+      "display": "abrir"
+    },
+    {
+      "word": "uno,",
+      "start": 15.48,
+      "end": 15.82,
+      "probability": 0.9900557994842529,
+      "display": "uno,"
+    },
+    {
+      "word": "aparecen",
+      "start": 16.08,
+      "end": 16.48,
+      "probability": 0.9870607554912567,
+      "display": "aparecen"
+    },
+    {
+      "word": "los",
+      "start": 16.48,
+      "end": 16.64,
+      "probability": 0.9989749193191528,
+      "display": "los"
+    },
+    {
+      "word": "premios",
+      "start": 16.64,
+      "end": 16.96,
+      "probability": 0.9959660768508911,
+      "display": "premios"
+    },
+    {
+      "word": "disponibles,",
+      "start": 16.96,
+      "end": 17.52,
+      "probability": 0.9992914497852325,
+      "display": "disponibles,"
+    },
+    {
+      "word": "los",
+      "start": 17.96,
+      "end": 18.08,
+      "probability": 0.9962540864944458,
+      "display": "los"
+    },
+    {
+      "word": "puntos",
+      "start": 18.08,
+      "end": 18.38,
+      "probability": 0.9985243678092957,
+      "display": "puntos"
+    },
+    {
+      "word": "que",
+      "start": 18.38,
+      "end": 18.58,
+      "probability": 0.9990440011024475,
+      "display": "que"
+    },
+    {
+      "word": "faltan",
+      "start": 18.58,
+      "end": 19.1,
+      "probability": 0.9942260980606079,
+      "display": "faltan"
+    },
+    {
+      "word": "o",
+      "start": 19.1,
+      "end": 19.3,
+      "probability": 0.6150404810905457,
+      "display": "o"
+    },
+    {
+      "word": "el",
+      "start": 19.3,
+      "end": 19.44,
+      "probability": 0.9991136193275452,
+      "display": "el"
+    },
+    {
+      "word": "aviso",
+      "start": 19.44,
+      "end": 19.68,
+      "probability": 0.9942117035388947,
+      "display": "aviso"
+    },
+    {
+      "word": "te",
+      "start": 19.68,
+      "end": 19.86,
+      "probability": 0.9879074692726135,
+      "display": "Te"
+    },
+    {
+      "word": "alcanza",
+      "start": 19.86,
+      "end": 20.34,
+      "probability": 0.9733454982439677,
+      "display": "alcanza,"
+    },
+    {
+      "word": "y",
+      "start": 20.34,
+      "end": 20.66,
+      "probability": 0.8094419836997986,
+      "display": "y"
+    },
+    {
+      "word": "las",
+      "start": 20.66,
+      "end": 20.8,
+      "probability": 0.9964669942855835,
+      "display": "las"
+    },
+    {
+      "word": "condiciones",
+      "start": 20.8,
+      "end": 21.26,
+      "probability": 0.9943826198577881,
+      "display": "condiciones"
+    },
+    {
+      "word": "para",
+      "start": 21.26,
+      "end": 21.62,
+      "probability": 0.998806357383728,
+      "display": "para"
+    },
+    {
+      "word": "coordinar",
+      "start": 21.62,
+      "end": 22.2,
+      "probability": 0.978097528219223,
+      "display": "coordinar"
+    },
+    {
+      "word": "el",
+      "start": 22.2,
+      "end": 22.3,
+      "probability": 0.9984511137008667,
+      "display": "el"
+    },
+    {
+      "word": "canje.",
+      "start": 22.3,
+      "end": 22.62,
+      "probability": 0.9380384981632233,
+      "display": "canje."
+    },
+    {
+      "word": "Las",
+      "start": 23.14,
+      "end": 23.4,
+      "probability": 0.9960514903068542,
+      "display": "Las"
+    },
+    {
+      "word": "otras",
+      "start": 23.4,
+      "end": 23.6,
+      "probability": 0.9968894124031067,
+      "display": "otras"
+    },
+    {
+      "word": "pestañas",
+      "start": 23.6,
+      "end": 24.16,
+      "probability": 0.9825268189112345,
+      "display": "pestañas"
+    },
+    {
+      "word": "muestran",
+      "start": 24.16,
+      "end": 24.64,
+      "probability": 0.9965205987294515,
+      "display": "muestran"
+    },
+    {
+      "word": "promociones",
+      "start": 24.64,
+      "end": 25.14,
+      "probability": 0.9677873452504476,
+      "display": "promociones"
+    },
+    {
+      "word": "vigentes",
+      "start": 25.14,
+      "end": 25.64,
+      "probability": 0.9709585905075073,
+      "display": "vigentes"
+    },
+    {
+      "word": "y",
+      "start": 25.64,
+      "end": 25.84,
+      "probability": 0.9990606904029846,
+      "display": "y"
+    },
+    {
+      "word": "productos.",
+      "start": 25.84,
+      "end": 26.18,
+      "probability": 0.9857221841812134,
+      "display": "productos."
+    },
+    {
+      "word": "Esta",
+      "start": 26.68,
+      "end": 26.94,
+      "probability": 0.9777426719665527,
+      "display": "Esta"
+    },
+    {
+      "word": "es",
+      "start": 26.94,
+      "end": 27.1,
+      "probability": 0.9989227652549744,
+      "display": "es"
+    },
+    {
+      "word": "una",
+      "start": 27.1,
+      "end": 27.24,
+      "probability": 0.996885359287262,
+      "display": "una"
+    },
+    {
+      "word": "vista",
+      "start": 27.24,
+      "end": 27.48,
+      "probability": 0.9940542578697205,
+      "display": "vista"
+    },
+    {
+      "word": "de",
+      "start": 27.48,
+      "end": 27.64,
+      "probability": 0.9995984435081482,
+      "display": "de"
+    },
+    {
+      "word": "consulta.",
+      "start": 27.64,
+      "end": 28.2,
+      "probability": 0.9982356131076813,
+      "display": "consulta:"
+    },
+    {
+      "word": "No",
+      "start": 28.2,
+      "end": 28.68,
+      "probability": 0.4567015767097473,
+      "display": "no"
+    },
+    {
+      "word": "permite",
+      "start": 28.68,
+      "end": 29.06,
+      "probability": 0.9932678937911987,
+      "display": "permite"
+    },
+    {
+      "word": "registrar",
+      "start": 29.06,
+      "end": 29.68,
+      "probability": 0.9966864883899689,
+      "display": "registrar"
+    },
+    {
+      "word": "compras",
+      "start": 29.68,
+      "end": 30.18,
+      "probability": 0.9955838322639465,
+      "display": "compras"
+    },
+    {
+      "word": "ni",
+      "start": 30.18,
+      "end": 30.36,
+      "probability": 0.932205855846405,
+      "display": "ni"
+    },
+    {
+      "word": "modificar",
+      "start": 30.36,
+      "end": 30.86,
+      "probability": 0.9986788630485535,
+      "display": "modificar"
+    },
+    {
+      "word": "puntos.",
+      "start": 30.86,
+      "end": 31.2,
+      "probability": 0.9982670545578003,
+      "display": "puntos."
+    },
+    {
+      "word": "El",
+      "start": 31.68,
+      "end": 31.9,
+      "probability": 0.9913512468338013,
+      "display": "El"
+    },
+    {
+      "word": "comerciante",
+      "start": 31.9,
+      "end": 32.42,
+      "probability": 0.9798988302548727,
+      "display": "comerciante"
+    },
+    {
+      "word": "conserva",
+      "start": 32.42,
+      "end": 33.0,
+      "probability": 0.9880537688732147,
+      "display": "conserva"
+    },
+    {
+      "word": "esas",
+      "start": 33.0,
+      "end": 33.18,
+      "probability": 0.9860078692436218,
+      "display": "esas"
+    },
+    {
+      "word": "acciones",
+      "start": 33.18,
+      "end": 33.7,
+      "probability": 0.99825119972229,
+      "display": "acciones"
+    },
+    {
+      "word": "en",
+      "start": 33.7,
+      "end": 34.02,
+      "probability": 0.9964902997016907,
+      "display": "en"
+    },
+    {
+      "word": "su",
+      "start": 34.02,
+      "end": 34.14,
+      "probability": 0.9984498023986816,
+      "display": "su"
+    },
+    {
+      "word": "panel",
+      "start": 34.14,
+      "end": 34.38,
+      "probability": 0.9708614349365234,
+      "display": "panel"
+    },
+    {
+      "word": "privado.",
+      "start": 34.38,
+      "end": 34.88,
+      "probability": 0.9990749061107635,
+      "display": "privado."
+    }
+  ],
+  "captions": [
+    {
+      "text": "Ahora cambiamos al modo cliente.",
+      "startMs": 0,
+      "endMs": 2040,
+      "timestampMs": null,
+      "confidence": 0.887
+    },
+    {
+      "text": "Desde la consulta pública elegimos el país e ingresamos el DNI.",
+      "startMs": 2380,
+      "endMs": 6120,
+      "timestampMs": null,
+      "confidence": 0.969
+    },
+    {
+      "text": "La billetera muestra los comercios asociados.",
+      "startMs": 6560,
+      "endMs": 8800,
+      "timestampMs": null,
+      "confidence": 0.981
+    },
+    {
+      "text": "Cada comercio tiene su propio saldo:",
+      "startMs": 9420,
+      "endMs": 11460,
+      "timestampMs": null,
+      "confidence": 0.996
+    },
+    {
+      "text": "los puntos de la panadería no se suman a los del café.",
+      "startMs": 11820,
+      "endMs": 14460,
+      "timestampMs": null,
+      "confidence": 0.99
+    },
+    {
+      "text": "Al abrir uno, aparecen los premios disponibles, los puntos que faltan o el",
+      "startMs": 15140,
+      "endMs": 19440,
+      "timestampMs": null,
+      "confidence": 0.966
+    },
+    {
+      "text": "aviso Te alcanza, y las condiciones para coordinar el canje.",
+      "startMs": 19440,
+      "endMs": 22620,
+      "timestampMs": null,
+      "confidence": 0.967
+    },
+    {
+      "text": "Las otras pestañas muestran promociones vigentes y productos.",
+      "startMs": 23140,
+      "endMs": 26180,
+      "timestampMs": null,
+      "confidence": 0.987
+    },
+    {
+      "text": "Esta es una vista de consulta:",
+      "startMs": 26680,
+      "endMs": 28200,
+      "timestampMs": null,
+      "confidence": 0.994
+    },
+    {
+      "text": "no permite registrar compras ni modificar puntos.",
+      "startMs": 28200,
+      "endMs": 31200,
+      "timestampMs": null,
+      "confidence": 0.91
+    },
+    {
+      "text": "El comerciante conserva esas acciones en su panel privado.",
+      "startMs": 31680,
+      "endMs": 34880,
+      "timestampMs": null,
+      "confidence": 0.99
+    }
+  ],
+  "status": "ACOUSTIC_MATCH"
+}

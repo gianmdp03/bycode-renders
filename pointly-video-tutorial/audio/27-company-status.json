@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "Volvemos al panel comercial. Deshabilitar un comercio lo oculta y bloquea compras y canjes; no libera su cupo de comercios. Leé la confirmación antes de hacerlo. Si permanece deshabilitado más de treinta días, sus clientes se archivan conservando el historial. Para volver a operar, habilitalo nuevamente y revisá las cuentas. Los límites dependen del plan. Una cuenta sin plan activo muestra ese estado y deriva a Bycode para gestionar las opciones; no alcanza con crear una cuenta para habilitar todas las funciones.",
+  "spokenText": "Volvemos al panel comercial. Deshabilitar un comercio lo oculta y bloquea compras y canjes; no libera su cupo de comercios. Leé la confirmación antes de hacerlo. Si permanece deshabilitado más de treinta días, sus clientes se archivan conservando el historial. Para volver a operar, habilitalo nuevamente y revisá las cuentas. Los límites dependen del plan. Una cuenta sin plan activo muestra ese estado y deriva a baicode para gestionar las opciones; no alcanza con crear una cuenta para habilitar todas las funciones.",
+  "text_sha256": "07a7b4bdd30cc5ecf612fb9262268d46a44c23d9cb4e4edd2b47474b7511d89e",
+  "sha256": "1f36ef6b252d75dad0c97157abc56dc496952dd165d957b00976c50a1951f868",
+  "duration": 30.4,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 92.98,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

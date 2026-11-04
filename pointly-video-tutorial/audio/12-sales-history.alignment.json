@@ -1,0 +1,760 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "ca9775fdb9e8ac8a7b2fc131df4748042dd58d6cb4cf3be3160ccd5d59e248a9",
+  "transcript": "La pestaña Ventas muestra las compras, sus importes y fechas. Si aparece sin dato por venta, no significa cero puntos. Consulta el saldo y el historial del cliente. No recalcules una venta antigua con la regla actual porque pudo tener otra promoción. Una compra menor al mínimo puede registrarse con cero puntos. Si la conexión se corta y no hay un resultado claro, conserva el formulario y usar reintentar venta pendiente. No empieces otra operación para repetir la misma compra. El reintento conserva su identidad para evitar duplicaciones. Revisa siempre el resultado antes de seguir.",
+  "scriptSimilarity": 0.9895,
+  "differences": [
+    {
+      "op": "replace",
+      "expected": "usá",
+      "heard": "usar"
+    }
+  ],
+  "words": [
+    {
+      "word": "La",
+      "start": 0.0,
+      "end": 0.42,
+      "probability": 0.7778472900390625,
+      "display": "La"
+    },
+    {
+      "word": "pestaña",
+      "start": 0.42,
+      "end": 0.82,
+      "probability": 0.9585147102673849,
+      "display": "pestaña"
+    },
+    {
+      "word": "Ventas",
+      "start": 0.82,
+      "end": 1.24,
+      "probability": 0.6166589111089706,
+      "display": "Ventas"
+    },
+    {
+      "word": "muestra",
+      "start": 1.24,
+      "end": 1.66,
+      "probability": 0.9711610376834869,
+      "display": "muestra"
+    },
+    {
+      "word": "las",
+      "start": 1.66,
+      "end": 1.86,
+      "probability": 0.9826844334602356,
+      "display": "las"
+    },
+    {
+      "word": "compras,",
+      "start": 1.86,
+      "end": 2.24,
+      "probability": 0.9945423603057861,
+      "display": "compras,"
+    },
+    {
+      "word": "sus",
+      "start": 2.58,
+      "end": 2.7,
+      "probability": 0.9945399165153503,
+      "display": "sus"
+    },
+    {
+      "word": "importes",
+      "start": 2.7,
+      "end": 3.26,
+      "probability": 0.9178468883037567,
+      "display": "importes"
+    },
+    {
+      "word": "y",
+      "start": 3.26,
+      "end": 3.36,
+      "probability": 0.9944485425949097,
+      "display": "y"
+    },
+    {
+      "word": "fechas.",
+      "start": 3.36,
+      "end": 3.7,
+      "probability": 0.9961322247982025,
+      "display": "fechas."
+    },
+    {
+      "word": "Si",
+      "start": 4.04,
+      "end": 4.32,
+      "probability": 0.9771493077278137,
+      "display": "Si"
+    },
+    {
+      "word": "aparece",
+      "start": 4.32,
+      "end": 4.68,
+      "probability": 0.9749916791915894,
+      "display": "aparece"
+    },
+    {
+      "word": "sin",
+      "start": 4.68,
+      "end": 5.06,
+      "probability": 0.7785677909851074,
+      "display": "Sin"
+    },
+    {
+      "word": "dato",
+      "start": 5.06,
+      "end": 5.28,
+      "probability": 0.9625293612480164,
+      "display": "dato"
+    },
+    {
+      "word": "por",
+      "start": 5.28,
+      "end": 5.54,
+      "probability": 0.9902426600456238,
+      "display": "por"
+    },
+    {
+      "word": "venta,",
+      "start": 5.54,
+      "end": 5.9,
+      "probability": 0.9825310111045837,
+      "display": "venta,"
+    },
+    {
+      "word": "no",
+      "start": 6.22,
+      "end": 6.4,
+      "probability": 0.9772593975067139,
+      "display": "no"
+    },
+    {
+      "word": "significa",
+      "start": 6.4,
+      "end": 6.9,
+      "probability": 0.9965988993644714,
+      "display": "significa"
+    },
+    {
+      "word": "cero",
+      "start": 6.9,
+      "end": 7.34,
+      "probability": 0.8680528700351715,
+      "display": "cero"
+    },
+    {
+      "word": "puntos.",
+      "start": 7.34,
+      "end": 7.62,
+      "probability": 0.997650682926178,
+      "display": "puntos:"
+    },
+    {
+      "word": "Consulta",
+      "start": 8.18,
+      "end": 8.68,
+      "probability": 0.7995118200778961,
+      "display": "consultá"
+    },
+    {
+      "word": "el",
+      "start": 8.68,
+      "end": 8.78,
+      "probability": 0.9903806447982788,
+      "display": "el"
+    },
+    {
+      "word": "saldo",
+      "start": 8.78,
+      "end": 9.12,
+      "probability": 0.9978915750980377,
+      "display": "saldo"
+    },
+    {
+      "word": "y",
+      "start": 9.12,
+      "end": 9.32,
+      "probability": 0.9834955334663391,
+      "display": "y"
+    },
+    {
+      "word": "el",
+      "start": 9.32,
+      "end": 9.42,
+      "probability": 0.998040497303009,
+      "display": "el"
+    },
+    {
+      "word": "historial",
+      "start": 9.42,
+      "end": 9.8,
+      "probability": 0.9855003952980042,
+      "display": "historial"
+    },
+    {
+      "word": "del",
+      "start": 9.8,
+      "end": 9.94,
+      "probability": 0.9976428151130676,
+      "display": "del"
+    },
+    {
+      "word": "cliente.",
+      "start": 9.94,
+      "end": 10.42,
+      "probability": 0.996547132730484,
+      "display": "cliente."
+    },
+    {
+      "word": "No",
+      "start": 10.98,
+      "end": 11.1,
+      "probability": 0.9882049560546875,
+      "display": "No"
+    },
+    {
+      "word": "recalcules",
+      "start": 11.1,
+      "end": 11.62,
+      "probability": 0.9367870092391968,
+      "display": "recalcules"
+    },
+    {
+      "word": "una",
+      "start": 11.62,
+      "end": 11.98,
+      "probability": 0.997236967086792,
+      "display": "una"
+    },
+    {
+      "word": "venta",
+      "start": 11.98,
+      "end": 12.26,
+      "probability": 0.9914174973964691,
+      "display": "venta"
+    },
+    {
+      "word": "antigua",
+      "start": 12.26,
+      "end": 12.66,
+      "probability": 0.9869523346424103,
+      "display": "antigua"
+    },
+    {
+      "word": "con",
+      "start": 12.66,
+      "end": 12.82,
+      "probability": 0.9896255135536194,
+      "display": "con"
+    },
+    {
+      "word": "la",
+      "start": 12.82,
+      "end": 12.96,
+      "probability": 0.9982957243919373,
+      "display": "la"
+    },
+    {
+      "word": "regla",
+      "start": 12.96,
+      "end": 13.24,
+      "probability": 0.985508143901825,
+      "display": "regla"
+    },
+    {
+      "word": "actual",
+      "start": 13.24,
+      "end": 13.58,
+      "probability": 0.9943336248397827,
+      "display": "actual,"
+    },
+    {
+      "word": "porque",
+      "start": 13.58,
+      "end": 14.08,
+      "probability": 0.5380697250366211,
+      "display": "porque"
+    },
+    {
+      "word": "pudo",
+      "start": 14.08,
+      "end": 14.4,
+      "probability": 0.9809429049491882,
+      "display": "pudo"
+    },
+    {
+      "word": "tener",
+      "start": 14.4,
+      "end": 14.7,
+      "probability": 0.9979686141014099,
+      "display": "tener"
+    },
+    {
+      "word": "otra",
+      "start": 14.7,
+      "end": 15.1,
+      "probability": 0.9934472441673279,
+      "display": "otra"
+    },
+    {
+      "word": "promoción.",
+      "start": 15.1,
+      "end": 15.7,
+      "probability": 0.9944547116756439,
+      "display": "promoción."
+    },
+    {
+      "word": "Una",
+      "start": 16.16,
+      "end": 16.32,
+      "probability": 0.9813414812088013,
+      "display": "Una"
+    },
+    {
+      "word": "compra",
+      "start": 16.32,
+      "end": 16.6,
+      "probability": 0.9838968515396118,
+      "display": "compra"
+    },
+    {
+      "word": "menor",
+      "start": 16.6,
+      "end": 16.9,
+      "probability": 0.9992484450340271,
+      "display": "menor"
+    },
+    {
+      "word": "al",
+      "start": 16.9,
+      "end": 17.06,
+      "probability": 0.9952765703201294,
+      "display": "al"
+    },
+    {
+      "word": "mínimo",
+      "start": 17.06,
+      "end": 17.34,
+      "probability": 0.9885534048080444,
+      "display": "mínimo"
+    },
+    {
+      "word": "puede",
+      "start": 17.34,
+      "end": 17.74,
+      "probability": 0.9871467351913452,
+      "display": "puede"
+    },
+    {
+      "word": "registrarse",
+      "start": 17.74,
+      "end": 18.46,
+      "probability": 0.9828378160794576,
+      "display": "registrarse"
+    },
+    {
+      "word": "con",
+      "start": 18.46,
+      "end": 18.64,
+      "probability": 0.989867091178894,
+      "display": "con"
+    },
+    {
+      "word": "cero",
+      "start": 18.64,
+      "end": 18.9,
+      "probability": 0.9947878122329712,
+      "display": "cero"
+    },
+    {
+      "word": "puntos.",
+      "start": 18.9,
+      "end": 19.18,
+      "probability": 0.998672366142273,
+      "display": "puntos."
+    },
+    {
+      "word": "Si",
+      "start": 19.68,
+      "end": 19.88,
+      "probability": 0.994056224822998,
+      "display": "Si"
+    },
+    {
+      "word": "la",
+      "start": 19.88,
+      "end": 19.98,
+      "probability": 0.9989751577377319,
+      "display": "la"
+    },
+    {
+      "word": "conexión",
+      "start": 19.98,
+      "end": 20.44,
+      "probability": 0.9987760782241821,
+      "display": "conexión"
+    },
+    {
+      "word": "se",
+      "start": 20.44,
+      "end": 20.6,
+      "probability": 0.9977408647537231,
+      "display": "se"
+    },
+    {
+      "word": "corta",
+      "start": 20.6,
+      "end": 21.0,
+      "probability": 0.9861726462841034,
+      "display": "corta"
+    },
+    {
+      "word": "y",
+      "start": 21.0,
+      "end": 21.22,
+      "probability": 0.967018187046051,
+      "display": "y"
+    },
+    {
+      "word": "no",
+      "start": 21.22,
+      "end": 21.38,
+      "probability": 0.9989049434661865,
+      "display": "no"
+    },
+    {
+      "word": "hay",
+      "start": 21.38,
+      "end": 21.54,
+      "probability": 0.9980844259262085,
+      "display": "hay"
+    },
+    {
+      "word": "un",
+      "start": 21.54,
+      "end": 21.66,
+      "probability": 0.9921642541885376,
+      "display": "un"
+    },
+    {
+      "word": "resultado",
+      "start": 21.66,
+      "end": 22.0,
+      "probability": 0.9985777139663696,
+      "display": "resultado"
+    },
+    {
+      "word": "claro,",
+      "start": 22.0,
+      "end": 22.36,
+      "probability": 0.9950398802757263,
+      "display": "claro,"
+    },
+    {
+      "word": "conserva",
+      "start": 22.76,
+      "end": 23.26,
+      "probability": 0.924850732088089,
+      "display": "conservá"
+    },
+    {
+      "word": "el",
+      "start": 23.26,
+      "end": 23.38,
+      "probability": 0.9985325336456299,
+      "display": "el"
+    },
+    {
+      "word": "formulario",
+      "start": 23.38,
+      "end": 23.98,
+      "probability": 0.9943432609240214,
+      "display": "formulario"
+    },
+    {
+      "word": "y",
+      "start": 23.98,
+      "end": 24.12,
+      "probability": 0.9866016507148743,
+      "display": "y"
+    },
+    {
+      "word": "usar",
+      "start": 24.12,
+      "end": 24.36,
+      "probability": 0.7713384628295898,
+      "display": "usar"
+    },
+    {
+      "word": "reintentar",
+      "start": 24.36,
+      "end": 24.9,
+      "probability": 0.8935708800951639,
+      "display": "Reintentar"
+    },
+    {
+      "word": "venta",
+      "start": 24.9,
+      "end": 25.3,
+      "probability": 0.9631887376308441,
+      "display": "venta"
+    },
+    {
+      "word": "pendiente.",
+      "start": 25.3,
+      "end": 25.72,
+      "probability": 0.9952320456504822,
+      "display": "pendiente."
+    },
+    {
+      "word": "No",
+      "start": 26.24,
+      "end": 26.5,
+      "probability": 0.9913131594657898,
+      "display": "No"
+    },
+    {
+      "word": "empieces",
+      "start": 26.5,
+      "end": 26.88,
+      "probability": 0.9042817950248718,
+      "display": "empieces"
+    },
+    {
+      "word": "otra",
+      "start": 26.88,
+      "end": 27.2,
+      "probability": 0.9914782643318176,
+      "display": "otra"
+    },
+    {
+      "word": "operación",
+      "start": 27.2,
+      "end": 27.76,
+      "probability": 0.9972323477268219,
+      "display": "operación"
+    },
+    {
+      "word": "para",
+      "start": 27.76,
+      "end": 28.0,
+      "probability": 0.9969379901885986,
+      "display": "para"
+    },
+    {
+      "word": "repetir",
+      "start": 28.0,
+      "end": 28.48,
+      "probability": 0.9959053695201874,
+      "display": "repetir"
+    },
+    {
+      "word": "la",
+      "start": 28.48,
+      "end": 28.62,
+      "probability": 0.998918890953064,
+      "display": "la"
+    },
+    {
+      "word": "misma",
+      "start": 28.62,
+      "end": 28.88,
+      "probability": 0.9991098046302795,
+      "display": "misma"
+    },
+    {
+      "word": "compra.",
+      "start": 28.88,
+      "end": 29.2,
+      "probability": 0.9936338663101196,
+      "display": "compra:"
+    },
+    {
+      "word": "El",
+      "start": 29.2,
+      "end": 29.82,
+      "probability": 0.636562705039978,
+      "display": "el"
+    },
+    {
+      "word": "reintento",
+      "start": 29.82,
+      "end": 30.32,
+      "probability": 0.9089636007944742,
+      "display": "reintento"
+    },
+    {
+      "word": "conserva",
+      "start": 30.32,
+      "end": 30.84,
+      "probability": 0.9925355017185211,
+      "display": "conserva"
+    },
+    {
+      "word": "su",
+      "start": 30.84,
+      "end": 30.94,
+      "probability": 0.9966936111450195,
+      "display": "su"
+    },
+    {
+      "word": "identidad",
+      "start": 30.94,
+      "end": 31.44,
+      "probability": 0.9980899691581726,
+      "display": "identidad"
+    },
+    {
+      "word": "para",
+      "start": 31.44,
+      "end": 31.68,
+      "probability": 0.989233136177063,
+      "display": "para"
+    },
+    {
+      "word": "evitar",
+      "start": 31.68,
+      "end": 31.98,
+      "probability": 0.9988301396369934,
+      "display": "evitar"
+    },
+    {
+      "word": "duplicaciones.",
+      "start": 31.98,
+      "end": 32.76,
+      "probability": 0.9874403178691864,
+      "display": "duplicaciones."
+    },
+    {
+      "word": "Revisa",
+      "start": 33.2,
+      "end": 33.7,
+      "probability": 0.5946964174509048,
+      "display": "Revisá"
+    },
+    {
+      "word": "siempre",
+      "start": 33.7,
+      "end": 34.04,
+      "probability": 0.9953010082244873,
+      "display": "siempre"
+    },
+    {
+      "word": "el",
+      "start": 34.04,
+      "end": 34.26,
+      "probability": 0.9983077049255371,
+      "display": "el"
+    },
+    {
+      "word": "resultado",
+      "start": 34.26,
+      "end": 34.72,
+      "probability": 0.9992009997367859,
+      "display": "resultado"
+    },
+    {
+      "word": "antes",
+      "start": 34.72,
+      "end": 35.12,
+      "probability": 0.9870744943618774,
+      "display": "antes"
+    },
+    {
+      "word": "de",
+      "start": 35.12,
+      "end": 35.3,
+      "probability": 0.9988859295845032,
+      "display": "de"
+    },
+    {
+      "word": "seguir.",
+      "start": 35.3,
+      "end": 35.5,
+      "probability": 0.9996503591537476,
+      "display": "seguir."
+    }
+  ],
+  "captions": [
+    {
+      "text": "La pestaña Ventas muestra las compras, sus importes y fechas.",
+      "startMs": 0,
+      "endMs": 3700,
+      "timestampMs": null,
+      "confidence": 0.92
+    },
+    {
+      "text": "Si aparece Sin dato por venta, no significa cero puntos:",
+      "startMs": 4040,
+      "endMs": 7620,
+      "timestampMs": null,
+      "confidence": 0.951
+    },
+    {
+      "text": "consultá el saldo y el historial del cliente.",
+      "startMs": 8180,
+      "endMs": 10420,
+      "timestampMs": null,
+      "confidence": 0.969
+    },
+    {
+      "text": "No recalcules una venta antigua con la regla actual, porque pudo tener otra",
+      "startMs": 10980,
+      "endMs": 15100,
+      "timestampMs": null,
+      "confidence": 0.952
+    },
+    {
+      "text": "promoción.",
+      "startMs": 15100,
+      "endMs": 15700,
+      "timestampMs": null,
+      "confidence": 0.994
+    },
+    {
+      "text": "Una compra menor al mínimo puede registrarse con cero puntos.",
+      "startMs": 16160,
+      "endMs": 19180,
+      "timestampMs": null,
+      "confidence": 0.99
+    },
+    {
+      "text": "Si la conexión se corta y no hay un resultado claro, conservá el formulario y",
+      "startMs": 19680,
+      "endMs": 24120,
+      "timestampMs": null,
+      "confidence": 0.989
+    },
+    {
+      "text": "usar Reintentar venta pendiente.",
+      "startMs": 24120,
+      "endMs": 25720,
+      "timestampMs": null,
+      "confidence": 0.906
+    },
+    {
+      "text": "No empieces otra operación para repetir la misma compra:",
+      "startMs": 26240,
+      "endMs": 29200,
+      "timestampMs": null,
+      "confidence": 0.985
+    },
+    {
+      "text": "el reintento conserva su identidad para evitar duplicaciones.",
+      "startMs": 29200,
+      "endMs": 32760,
+      "timestampMs": null,
+      "confidence": 0.939
+    },
+    {
+      "text": "Revisá siempre el resultado antes de seguir.",
+      "startMs": 33200,
+      "endMs": 35500,
+      "timestampMs": null,
+      "confidence": 0.939
+    }
+  ],
+  "status": "REVIEW_REQUIRED"
+}

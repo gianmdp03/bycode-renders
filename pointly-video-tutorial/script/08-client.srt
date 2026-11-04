@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:04,500
+Para incorporar un cliente, habría Agregar cliente y completá nombre, país del
+
+2
+00:00:04,500 --> 00:00:05,900
+documento y DNI.
+
+3
+00:00:06,180 --> 00:00:07,940
+Correo y teléfono son opcionales:
+
+4
+00:00:08,200 --> 00:00:11,700
+la persona puede acumular y canjear puntos aunque no los tenga.
+
+5
+00:00:12,300 --> 00:00:15,760
+Si cargás un teléfono para WhatsApp, incluí el código de país.
+
+6
+00:00:16,320 --> 00:00:19,420
+El alta es inmediata y no pide confirmar un correo.
+
+7
+00:00:19,840 --> 00:00:23,980
+Si ese documento ya existe en Pointly, se conservan sus datos anteriores:
+
+8
+00:00:24,420 --> 00:00:27,900
+este formulario lo vincula al comercio, no edita su identidad.
+
+9
+00:00:27,900 --> 00:00:30,500
+Al guardar, comprobá que aparezca en la lista.

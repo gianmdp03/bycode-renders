@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:02,820
+La foto ayuda al cliente a reconocer el comercio.
+
+2
+00:00:03,280 --> 00:00:07,840
+Elegí un archivo JPEG, PNG o WebP de hasta 10 MB,
+
+3
+00:00:08,380 --> 00:00:10,520
+ajustar el recorte y guardar.
+
+4
+00:00:11,020 --> 00:00:13,920
+Podés mover la imagen y acercarla con el control de zoom.
+
+5
+00:00:14,560 --> 00:00:19,400
+Si necesitás reemplazarla o quitarla, usá las acciones de esta misma página.
+
+6
+00:00:19,840 --> 00:00:23,780
+El nombre público del enlace también puede modificarse desde su configuración:
+
+7
+00:00:24,360 --> 00:00:28,660
+revisá la disponibilidad y el aviso antes de confirmar, porque es el acceso
+
+8
+00:00:28,660 --> 00:00:30,540
+que vas a compartir con tus clientes.

@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:04,060
+Desde Editar podés actualizar el nombre, la ubicación y la regla de
+
+2
+00:00:04,060 --> 00:00:04,620
+acumulación.
+
+3
+00:00:05,340 --> 00:00:06,760
+El vencimiento es opcional:
+
+4
+00:00:07,420 --> 00:00:11,380
+si lo activás, indicá cuántos días duran los puntos de nuevas compras.
+
+5
+00:00:12,060 --> 00:00:15,560
+Ese cambio no debe interpretarse como una renovación de todos los puntos
+
+6
+00:00:15,560 --> 00:00:16,100
+anteriores.
+
+7
+00:00:16,720 --> 00:00:20,360
+Una compra nueva tampoco renueva automáticamente cada saldo histórico.
+
+8
+00:00:20,980 --> 00:00:23,680
+Leé la explicación junto a la opción antes de guardar.
+
+9
+00:00:24,240 --> 00:00:28,120
+Los niveles Bronce, Plata y Oro están suspendidos en esta versión;
+
+10
+00:00:28,120 --> 00:00:30,960
+no forman parte de la configuración disponible.

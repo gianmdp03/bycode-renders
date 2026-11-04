@@ -1,0 +1,89 @@
+{
+  "scene": "21-inactive",
+  "evidence": [
+    {
+      "label": "Three historical inactive demo clients",
+      "url": "/companies/cafe-del-puerto-tutorial",
+      "at": 1793728228600.5
+    },
+    {
+      "label": "Manual WhatsApp draft",
+      "url": "/companies/cafe-del-puerto-tutorial/actions/whatsapp/2",
+      "at": 1793728232111.2
+    },
+    {
+      "label": "Draft copied, no message sent",
+      "url": "/companies/cafe-del-puerto-tutorial/actions/whatsapp/2",
+      "at": 1793728236883.7
+    }
+  ],
+  "network": [
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/billing/account/profile",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/company-names/cafe-del-puerto-tutorial/company",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/media/6dedfc39-a8dd-4815-a680-b61b8db0307c",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/1/inactive",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/1/inactive",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/1/clients/2/contacts",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    }
+  ],
+  "source": "recordings/21-inactive-1793728253124.mp4",
+  "obs": null
+}

@@ -1,0 +1,649 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "18dff0329adec9c6d9d6ee12a2036142b0f62e51025498d35f5e7722b08ff44e",
+  "transcript": "Para incorporar un cliente, seleccionamos agregar cliente y completamos nombre, país del documento y DNI. Correo y teléfono son opcionales. La persona puede acumular y canjear puntos aunque no los tenga. Si cargas un teléfono para WhatsApp, incluí el código de país. El alta es inmediata y no pide confirmar un correo. Si ese documento ya existe en Pointly, se conservan sus datos anteriores. Este formulario lo vincula al comercio, no edita su identidad. Al guardar, comproba que aparezca en la lista.",
+  "scriptSimilarity": 1.0,
+  "differences": [],
+  "words": [
+    {
+      "word": "Para",
+      "start": 0.0,
+      "end": 0.3,
+      "probability": 0.9757762551307678,
+      "display": "Para"
+    },
+    {
+      "word": "incorporar",
+      "start": 0.3,
+      "end": 0.8,
+      "probability": 0.9965590834617615,
+      "display": "incorporar"
+    },
+    {
+      "word": "un",
+      "start": 0.8,
+      "end": 0.9,
+      "probability": 0.9980783462524414,
+      "display": "un"
+    },
+    {
+      "word": "cliente,",
+      "start": 0.9,
+      "end": 1.34,
+      "probability": 0.9930952191352844,
+      "display": "cliente,"
+    },
+    {
+      "word": "seleccionamos",
+      "start": 1.62,
+      "end": 2.16,
+      "probability": 0.998264953494072,
+      "display": "seleccionamos"
+    },
+    {
+      "word": "agregar",
+      "start": 2.16,
+      "end": 2.6,
+      "probability": 0.5478468462824821,
+      "display": "Agregar"
+    },
+    {
+      "word": "cliente",
+      "start": 2.6,
+      "end": 3.12,
+      "probability": 0.8471367955207825,
+      "display": "cliente"
+    },
+    {
+      "word": "y",
+      "start": 3.12,
+      "end": 3.24,
+      "probability": 0.9806219339370728,
+      "display": "y"
+    },
+    {
+      "word": "completamos",
+      "start": 3.24,
+      "end": 3.78,
+      "probability": 0.9967919886112213,
+      "display": "completamos"
+    },
+    {
+      "word": "nombre,",
+      "start": 3.78,
+      "end": 4.14,
+      "probability": 0.4967159926891327,
+      "display": "nombre,"
+    },
+    {
+      "word": "país",
+      "start": 4.56,
+      "end": 4.82,
+      "probability": 0.8710162043571472,
+      "display": "país"
+    },
+    {
+      "word": "del",
+      "start": 4.82,
+      "end": 5.04,
+      "probability": 0.993184506893158,
+      "display": "del"
+    },
+    {
+      "word": "documento",
+      "start": 5.04,
+      "end": 5.66,
+      "probability": 0.9904918074607849,
+      "display": "documento"
+    },
+    {
+      "word": "y",
+      "start": 5.66,
+      "end": 5.78,
+      "probability": 0.8417708277702332,
+      "display": "y"
+    },
+    {
+      "word": "DNI.",
+      "start": 5.78,
+      "end": 6.36,
+      "probability": 0.8651034832000732,
+      "display": "DNI."
+    },
+    {
+      "word": "Correo",
+      "start": 6.84,
+      "end": 7.28,
+      "probability": 0.9679104089736938,
+      "display": "Correo"
+    },
+    {
+      "word": "y",
+      "start": 7.28,
+      "end": 7.38,
+      "probability": 0.9989689588546753,
+      "display": "y"
+    },
+    {
+      "word": "teléfono",
+      "start": 7.38,
+      "end": 7.72,
+      "probability": 0.9456600745519003,
+      "display": "teléfono"
+    },
+    {
+      "word": "son",
+      "start": 7.72,
+      "end": 7.98,
+      "probability": 0.996396005153656,
+      "display": "son"
+    },
+    {
+      "word": "opcionales.",
+      "start": 7.98,
+      "end": 8.62,
+      "probability": 0.9950056076049805,
+      "display": "opcionales:"
+    },
+    {
+      "word": "La",
+      "start": 8.88,
+      "end": 9.0,
+      "probability": 0.9967007040977478,
+      "display": "la"
+    },
+    {
+      "word": "persona",
+      "start": 9.0,
+      "end": 9.34,
+      "probability": 0.9995191097259521,
+      "display": "persona"
+    },
+    {
+      "word": "puede",
+      "start": 9.34,
+      "end": 9.66,
+      "probability": 0.9965347051620483,
+      "display": "puede"
+    },
+    {
+      "word": "acumular",
+      "start": 9.66,
+      "end": 10.18,
+      "probability": 0.9975675642490387,
+      "display": "acumular"
+    },
+    {
+      "word": "y",
+      "start": 10.18,
+      "end": 10.44,
+      "probability": 0.9962748289108276,
+      "display": "y"
+    },
+    {
+      "word": "canjear",
+      "start": 10.44,
+      "end": 10.92,
+      "probability": 0.9462607502937317,
+      "display": "canjear"
+    },
+    {
+      "word": "puntos",
+      "start": 10.92,
+      "end": 11.2,
+      "probability": 0.9978408813476562,
+      "display": "puntos"
+    },
+    {
+      "word": "aunque",
+      "start": 11.2,
+      "end": 11.56,
+      "probability": 0.7771064639091492,
+      "display": "aunque"
+    },
+    {
+      "word": "no",
+      "start": 11.56,
+      "end": 11.86,
+      "probability": 0.9979875087738037,
+      "display": "no"
+    },
+    {
+      "word": "los",
+      "start": 11.86,
+      "end": 12.02,
+      "probability": 0.9870771169662476,
+      "display": "los"
+    },
+    {
+      "word": "tenga.",
+      "start": 12.02,
+      "end": 12.26,
+      "probability": 0.9988411068916321,
+      "display": "tenga."
+    },
+    {
+      "word": "Si",
+      "start": 12.82,
+      "end": 12.98,
+      "probability": 0.9972665309906006,
+      "display": "Si"
+    },
+    {
+      "word": "cargas",
+      "start": 12.98,
+      "end": 13.28,
+      "probability": 0.8124693632125854,
+      "display": "cargás"
+    },
+    {
+      "word": "un",
+      "start": 13.28,
+      "end": 13.46,
+      "probability": 0.9979842901229858,
+      "display": "un"
+    },
+    {
+      "word": "teléfono",
+      "start": 13.46,
+      "end": 13.84,
+      "probability": 0.9988490144411722,
+      "display": "teléfono"
+    },
+    {
+      "word": "para",
+      "start": 13.84,
+      "end": 14.08,
+      "probability": 0.9969195127487183,
+      "display": "para"
+    },
+    {
+      "word": "WhatsApp,",
+      "start": 14.08,
+      "end": 14.46,
+      "probability": 0.793464720249176,
+      "display": "WhatsApp,"
+    },
+    {
+      "word": "incluí",
+      "start": 14.78,
+      "end": 15.22,
+      "probability": 0.9553162157535553,
+      "display": "incluí"
+    },
+    {
+      "word": "el",
+      "start": 15.22,
+      "end": 15.46,
+      "probability": 0.9926961660385132,
+      "display": "el"
+    },
+    {
+      "word": "código",
+      "start": 15.46,
+      "end": 15.7,
+      "probability": 0.8277463316917419,
+      "display": "código"
+    },
+    {
+      "word": "de",
+      "start": 15.7,
+      "end": 15.92,
+      "probability": 0.9813277125358582,
+      "display": "de"
+    },
+    {
+      "word": "país.",
+      "start": 15.92,
+      "end": 16.14,
+      "probability": 0.978809654712677,
+      "display": "país."
+    },
+    {
+      "word": "El",
+      "start": 16.64,
+      "end": 16.8,
+      "probability": 0.9914746284484863,
+      "display": "El"
+    },
+    {
+      "word": "alta",
+      "start": 16.8,
+      "end": 17.0,
+      "probability": 0.8384639620780945,
+      "display": "alta"
+    },
+    {
+      "word": "es",
+      "start": 17.0,
+      "end": 17.2,
+      "probability": 0.9970134496688843,
+      "display": "es"
+    },
+    {
+      "word": "inmediata",
+      "start": 17.2,
+      "end": 17.7,
+      "probability": 0.9896652102470398,
+      "display": "inmediata"
+    },
+    {
+      "word": "y",
+      "start": 17.7,
+      "end": 17.98,
+      "probability": 0.9746522903442383,
+      "display": "y"
+    },
+    {
+      "word": "no",
+      "start": 17.98,
+      "end": 18.14,
+      "probability": 0.9982733726501465,
+      "display": "no"
+    },
+    {
+      "word": "pide",
+      "start": 18.14,
+      "end": 18.36,
+      "probability": 0.9961833953857422,
+      "display": "pide"
+    },
+    {
+      "word": "confirmar",
+      "start": 18.36,
+      "end": 18.82,
+      "probability": 0.9913574457168579,
+      "display": "confirmar"
+    },
+    {
+      "word": "un",
+      "start": 18.82,
+      "end": 18.94,
+      "probability": 0.9974977374076843,
+      "display": "un"
+    },
+    {
+      "word": "correo.",
+      "start": 18.94,
+      "end": 19.3,
+      "probability": 0.993687629699707,
+      "display": "correo."
+    },
+    {
+      "word": "Si",
+      "start": 19.72,
+      "end": 19.92,
+      "probability": 0.9928572177886963,
+      "display": "Si"
+    },
+    {
+      "word": "ese",
+      "start": 19.92,
+      "end": 20.12,
+      "probability": 0.9324046969413757,
+      "display": "ese"
+    },
+    {
+      "word": "documento",
+      "start": 20.12,
+      "end": 20.62,
+      "probability": 0.9996296465396881,
+      "display": "documento"
+    },
+    {
+      "word": "ya",
+      "start": 20.62,
+      "end": 20.78,
+      "probability": 0.9970459342002869,
+      "display": "ya"
+    },
+    {
+      "word": "existe",
+      "start": 20.78,
+      "end": 20.98,
+      "probability": 0.5362265706062317,
+      "display": "existe"
+    },
+    {
+      "word": "en",
+      "start": 20.98,
+      "end": 21.24,
+      "probability": 0.9940741658210754,
+      "display": "en"
+    },
+    {
+      "word": "Pointly,",
+      "start": 21.24,
+      "end": 21.66,
+      "probability": 0.7381854355335236,
+      "display": "Pointly,"
+    },
+    {
+      "word": "se",
+      "start": 21.86,
+      "end": 22.02,
+      "probability": 0.9976982474327087,
+      "display": "se"
+    },
+    {
+      "word": "conservan",
+      "start": 22.02,
+      "end": 22.52,
+      "probability": 0.9565647840499878,
+      "display": "conservan"
+    },
+    {
+      "word": "sus",
+      "start": 22.52,
+      "end": 22.68,
+      "probability": 0.9986860156059265,
+      "display": "sus"
+    },
+    {
+      "word": "datos",
+      "start": 22.68,
+      "end": 22.92,
+      "probability": 0.998674750328064,
+      "display": "datos"
+    },
+    {
+      "word": "anteriores.",
+      "start": 22.92,
+      "end": 23.48,
+      "probability": 0.9980429410934448,
+      "display": "anteriores:"
+    },
+    {
+      "word": "Este",
+      "start": 23.98,
+      "end": 24.26,
+      "probability": 0.985410213470459,
+      "display": "este"
+    },
+    {
+      "word": "formulario",
+      "start": 24.26,
+      "end": 24.8,
+      "probability": 0.9950831731160482,
+      "display": "formulario"
+    },
+    {
+      "word": "lo",
+      "start": 24.8,
+      "end": 24.9,
+      "probability": 0.9896601438522339,
+      "display": "lo"
+    },
+    {
+      "word": "vincula",
+      "start": 24.9,
+      "end": 25.3,
+      "probability": 0.9656235575675964,
+      "display": "vincula"
+    },
+    {
+      "word": "al",
+      "start": 25.3,
+      "end": 25.4,
+      "probability": 0.997933030128479,
+      "display": "al"
+    },
+    {
+      "word": "comercio,",
+      "start": 25.4,
+      "end": 25.88,
+      "probability": 0.9865634143352509,
+      "display": "comercio,"
+    },
+    {
+      "word": "no",
+      "start": 26.12,
+      "end": 26.22,
+      "probability": 0.9914542436599731,
+      "display": "no"
+    },
+    {
+      "word": "edita",
+      "start": 26.22,
+      "end": 26.52,
+      "probability": 0.9784030318260193,
+      "display": "edita"
+    },
+    {
+      "word": "su",
+      "start": 26.52,
+      "end": 26.68,
+      "probability": 0.9970529079437256,
+      "display": "su"
+    },
+    {
+      "word": "identidad.",
+      "start": 26.68,
+      "end": 27.2,
+      "probability": 0.9985643327236176,
+      "display": "identidad."
+    },
+    {
+      "word": "Al",
+      "start": 27.5,
+      "end": 27.64,
+      "probability": 0.9957016110420227,
+      "display": "Al"
+    },
+    {
+      "word": "guardar,",
+      "start": 27.64,
+      "end": 28.02,
+      "probability": 0.9969464242458344,
+      "display": "guardar,"
+    },
+    {
+      "word": "comproba",
+      "start": 28.22,
+      "end": 28.5,
+      "probability": 0.8057006994883219,
+      "display": "comprobá"
+    },
+    {
+      "word": "que",
+      "start": 28.5,
+      "end": 28.64,
+      "probability": 0.9856879711151123,
+      "display": "que"
+    },
+    {
+      "word": "aparezca",
+      "start": 28.64,
+      "end": 29.06,
+      "probability": 0.9948347806930542,
+      "display": "aparezca"
+    },
+    {
+      "word": "en",
+      "start": 29.06,
+      "end": 29.2,
+      "probability": 0.9975454211235046,
+      "display": "en"
+    },
+    {
+      "word": "la",
+      "start": 29.2,
+      "end": 29.28,
+      "probability": 0.9980325102806091,
+      "display": "la"
+    },
+    {
+      "word": "lista.",
+      "start": 29.28,
+      "end": 29.48,
+      "probability": 0.9963935017585754,
+      "display": "lista."
+    }
+  ],
+  "captions": [
+    {
+      "text": "Para incorporar un cliente, seleccionamos Agregar cliente y completamos",
+      "startMs": 0,
+      "endMs": 3780,
+      "timestampMs": null,
+      "confidence": 0.926
+    },
+    {
+      "text": "nombre, país del documento y DNI.",
+      "startMs": 3780,
+      "endMs": 6360,
+      "timestampMs": null,
+      "confidence": 0.843
+    },
+    {
+      "text": "Correo y teléfono son opcionales:",
+      "startMs": 6840,
+      "endMs": 8620,
+      "timestampMs": null,
+      "confidence": 0.981
+    },
+    {
+      "text": "la persona puede acumular y canjear puntos aunque no los tenga.",
+      "startMs": 8880,
+      "endMs": 12260,
+      "timestampMs": null,
+      "confidence": 0.972
+    },
+    {
+      "text": "Si cargás un teléfono para WhatsApp, incluí el código de país.",
+      "startMs": 12820,
+      "endMs": 16140,
+      "timestampMs": null,
+      "confidence": 0.939
+    },
+    {
+      "text": "El alta es inmediata y no pide confirmar un correo.",
+      "startMs": 16640,
+      "endMs": 19300,
+      "timestampMs": null,
+      "confidence": 0.977
+    },
+    {
+      "text": "Si ese documento ya existe en Pointly, se conservan sus datos anteriores:",
+      "startMs": 19720,
+      "endMs": 23480,
+      "timestampMs": null,
+      "confidence": 0.928
+    },
+    {
+      "text": "este formulario lo vincula al comercio, no edita su identidad.",
+      "startMs": 23980,
+      "endMs": 27200,
+      "timestampMs": null,
+      "confidence": 0.989
+    },
+    {
+      "text": "Al guardar, comprobá que aparezca en la lista.",
+      "startMs": 27500,
+      "endMs": 29480,
+      "timestampMs": null,
+      "confidence": 0.971
+    }
+  ],
+  "status": "ACOUSTIC_MATCH"
+}

@@ -1,0 +1,679 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "1f36ef6b252d75dad0c97157abc56dc496952dd165d957b00976c50a1951f868",
+  "transcript": "Volvemos al panel comercial. Deshabilitar un comercio lo oculta y bloquea compras y canjes. No libera su cupo de comercios. Leé la confirmación antes de hacerlo. Si permanece deshabilitado más de 30 días, sus clientes se archivan conservando el historial. Para volver a operar, habilitarlo nuevamente y revisar las cuentas. Los límites dependen del plan. Una cuenta sin plan activo muestra ese estado y deriva a Bycode para gestionar las opciones. No alcanza con crear una cuenta para habilitar todas las funciones.",
+  "scriptSimilarity": 0.9634,
+  "differences": [
+    {
+      "op": "replace",
+      "expected": "treinta",
+      "heard": "30"
+    },
+    {
+      "op": "replace",
+      "expected": "habilitalo",
+      "heard": "habilitarlo"
+    },
+    {
+      "op": "replace",
+      "expected": "revisá",
+      "heard": "revisar"
+    }
+  ],
+  "words": [
+    {
+      "word": "Volvemos",
+      "start": 0.0,
+      "end": 0.78,
+      "probability": 0.9391940434773763,
+      "display": "Volvemos"
+    },
+    {
+      "word": "al",
+      "start": 0.78,
+      "end": 0.94,
+      "probability": 0.994443953037262,
+      "display": "al"
+    },
+    {
+      "word": "panel",
+      "start": 0.94,
+      "end": 1.18,
+      "probability": 0.8868209719657898,
+      "display": "panel"
+    },
+    {
+      "word": "comercial.",
+      "start": 1.18,
+      "end": 1.68,
+      "probability": 0.9922724962234497,
+      "display": "comercial."
+    },
+    {
+      "word": "Deshabilitar",
+      "start": 2.28,
+      "end": 2.8,
+      "probability": 0.9744953066110611,
+      "display": "Deshabilitar"
+    },
+    {
+      "word": "un",
+      "start": 2.8,
+      "end": 2.94,
+      "probability": 0.9976502060890198,
+      "display": "un"
+    },
+    {
+      "word": "comercio",
+      "start": 2.94,
+      "end": 3.4,
+      "probability": 0.9918897151947021,
+      "display": "comercio"
+    },
+    {
+      "word": "lo",
+      "start": 3.4,
+      "end": 3.62,
+      "probability": 0.9447425603866577,
+      "display": "lo"
+    },
+    {
+      "word": "oculta",
+      "start": 3.62,
+      "end": 4.14,
+      "probability": 0.9857616623242696,
+      "display": "oculta"
+    },
+    {
+      "word": "y",
+      "start": 4.14,
+      "end": 4.3,
+      "probability": 0.9850519895553589,
+      "display": "y"
+    },
+    {
+      "word": "bloquea",
+      "start": 4.3,
+      "end": 4.74,
+      "probability": 0.9954099059104919,
+      "display": "bloquea"
+    },
+    {
+      "word": "compras",
+      "start": 4.74,
+      "end": 5.12,
+      "probability": 0.9714173674583435,
+      "display": "compras"
+    },
+    {
+      "word": "y",
+      "start": 5.12,
+      "end": 5.26,
+      "probability": 0.9979956150054932,
+      "display": "y"
+    },
+    {
+      "word": "canjes.",
+      "start": 5.26,
+      "end": 5.62,
+      "probability": 0.9672541618347168,
+      "display": "canjes;"
+    },
+    {
+      "word": "No",
+      "start": 5.96,
+      "end": 6.04,
+      "probability": 0.9606749415397644,
+      "display": "no"
+    },
+    {
+      "word": "libera",
+      "start": 6.04,
+      "end": 6.36,
+      "probability": 0.9947735965251923,
+      "display": "libera"
+    },
+    {
+      "word": "su",
+      "start": 6.36,
+      "end": 6.52,
+      "probability": 0.9600367546081543,
+      "display": "su"
+    },
+    {
+      "word": "cupo",
+      "start": 6.52,
+      "end": 6.82,
+      "probability": 0.83284792304039,
+      "display": "cupo"
+    },
+    {
+      "word": "de",
+      "start": 6.82,
+      "end": 6.88,
+      "probability": 0.9989722967147827,
+      "display": "de"
+    },
+    {
+      "word": "comercios.",
+      "start": 6.88,
+      "end": 7.34,
+      "probability": 0.9760420024394989,
+      "display": "comercios."
+    },
+    {
+      "word": "Leé",
+      "start": 7.88,
+      "end": 8.22,
+      "probability": 0.7400295734405518,
+      "display": "Leé"
+    },
+    {
+      "word": "la",
+      "start": 8.22,
+      "end": 8.32,
+      "probability": 0.998263418674469,
+      "display": "la"
+    },
+    {
+      "word": "confirmación",
+      "start": 8.32,
+      "end": 9.02,
+      "probability": 0.987853616476059,
+      "display": "confirmación"
+    },
+    {
+      "word": "antes",
+      "start": 9.02,
+      "end": 9.44,
+      "probability": 0.9928164482116699,
+      "display": "antes"
+    },
+    {
+      "word": "de",
+      "start": 9.44,
+      "end": 9.62,
+      "probability": 0.9991171956062317,
+      "display": "de"
+    },
+    {
+      "word": "hacerlo.",
+      "start": 9.62,
+      "end": 9.94,
+      "probability": 0.9990398287773132,
+      "display": "hacerlo."
+    },
+    {
+      "word": "Si",
+      "start": 10.36,
+      "end": 10.48,
+      "probability": 0.9934778213500977,
+      "display": "Si"
+    },
+    {
+      "word": "permanece",
+      "start": 10.48,
+      "end": 10.98,
+      "probability": 0.979973574479421,
+      "display": "permanece"
+    },
+    {
+      "word": "deshabilitado",
+      "start": 10.98,
+      "end": 11.66,
+      "probability": 0.9836196422576904,
+      "display": "deshabilitado"
+    },
+    {
+      "word": "más",
+      "start": 11.66,
+      "end": 11.96,
+      "probability": 0.9751383066177368,
+      "display": "más"
+    },
+    {
+      "word": "de",
+      "start": 11.96,
+      "end": 12.14,
+      "probability": 0.9976462721824646,
+      "display": "de"
+    },
+    {
+      "word": "30",
+      "start": 12.14,
+      "end": 12.38,
+      "probability": 0.9436314702033997,
+      "display": "30"
+    },
+    {
+      "word": "días,",
+      "start": 12.38,
+      "end": 12.76,
+      "probability": 0.9963690042495728,
+      "display": "días,"
+    },
+    {
+      "word": "sus",
+      "start": 13.1,
+      "end": 13.26,
+      "probability": 0.9872704744338989,
+      "display": "sus"
+    },
+    {
+      "word": "clientes",
+      "start": 13.26,
+      "end": 13.78,
+      "probability": 0.998647153377533,
+      "display": "clientes"
+    },
+    {
+      "word": "se",
+      "start": 13.78,
+      "end": 14.02,
+      "probability": 0.9959885478019714,
+      "display": "se"
+    },
+    {
+      "word": "archivan",
+      "start": 14.02,
+      "end": 14.38,
+      "probability": 0.966980367898941,
+      "display": "archivan"
+    },
+    {
+      "word": "conservando",
+      "start": 14.38,
+      "end": 15.02,
+      "probability": 0.9936548173427582,
+      "display": "conservando"
+    },
+    {
+      "word": "el",
+      "start": 15.02,
+      "end": 15.16,
+      "probability": 0.9979494214057922,
+      "display": "el"
+    },
+    {
+      "word": "historial.",
+      "start": 15.16,
+      "end": 15.58,
+      "probability": 0.9860228002071381,
+      "display": "historial."
+    },
+    {
+      "word": "Para",
+      "start": 15.86,
+      "end": 16.1,
+      "probability": 0.994645357131958,
+      "display": "Para"
+    },
+    {
+      "word": "volver",
+      "start": 16.1,
+      "end": 16.36,
+      "probability": 0.9997469782829285,
+      "display": "volver"
+    },
+    {
+      "word": "a",
+      "start": 16.36,
+      "end": 16.5,
+      "probability": 0.9994839429855347,
+      "display": "a"
+    },
+    {
+      "word": "operar,",
+      "start": 16.5,
+      "end": 16.88,
+      "probability": 0.9977040588855743,
+      "display": "operar,"
+    },
+    {
+      "word": "habilitarlo",
+      "start": 17.2,
+      "end": 17.64,
+      "probability": 0.6073373109102249,
+      "display": "habilitarlo"
+    },
+    {
+      "word": "nuevamente",
+      "start": 17.64,
+      "end": 18.14,
+      "probability": 0.9979958534240723,
+      "display": "nuevamente"
+    },
+    {
+      "word": "y",
+      "start": 18.14,
+      "end": 18.34,
+      "probability": 0.9844754338264465,
+      "display": "y"
+    },
+    {
+      "word": "revisar",
+      "start": 18.34,
+      "end": 18.74,
+      "probability": 0.9594621360301971,
+      "display": "revisar"
+    },
+    {
+      "word": "las",
+      "start": 18.74,
+      "end": 18.88,
+      "probability": 0.9977980852127075,
+      "display": "las"
+    },
+    {
+      "word": "cuentas.",
+      "start": 18.88,
+      "end": 19.24,
+      "probability": 0.9985891282558441,
+      "display": "cuentas."
+    },
+    {
+      "word": "Los",
+      "start": 19.72,
+      "end": 19.9,
+      "probability": 0.9839057326316833,
+      "display": "Los"
+    },
+    {
+      "word": "límites",
+      "start": 19.9,
+      "end": 20.34,
+      "probability": 0.9936445156733195,
+      "display": "límites"
+    },
+    {
+      "word": "dependen",
+      "start": 20.34,
+      "end": 20.92,
+      "probability": 0.9959639310836792,
+      "display": "dependen"
+    },
+    {
+      "word": "del",
+      "start": 20.92,
+      "end": 21.1,
+      "probability": 0.9973045587539673,
+      "display": "del"
+    },
+    {
+      "word": "plan.",
+      "start": 21.1,
+      "end": 21.28,
+      "probability": 0.9862133860588074,
+      "display": "plan."
+    },
+    {
+      "word": "Una",
+      "start": 21.66,
+      "end": 21.92,
+      "probability": 0.9758656024932861,
+      "display": "Una"
+    },
+    {
+      "word": "cuenta",
+      "start": 21.92,
+      "end": 22.18,
+      "probability": 0.9715744853019714,
+      "display": "cuenta"
+    },
+    {
+      "word": "sin",
+      "start": 22.18,
+      "end": 22.44,
+      "probability": 0.9922164678573608,
+      "display": "sin"
+    },
+    {
+      "word": "plan",
+      "start": 22.44,
+      "end": 22.62,
+      "probability": 0.9862307906150818,
+      "display": "plan"
+    },
+    {
+      "word": "activo",
+      "start": 22.62,
+      "end": 23.08,
+      "probability": 0.9973106384277344,
+      "display": "activo"
+    },
+    {
+      "word": "muestra",
+      "start": 23.08,
+      "end": 23.46,
+      "probability": 0.9934779107570648,
+      "display": "muestra"
+    },
+    {
+      "word": "ese",
+      "start": 23.46,
+      "end": 23.62,
+      "probability": 0.9734920263290405,
+      "display": "ese"
+    },
+    {
+      "word": "estado",
+      "start": 23.62,
+      "end": 24.0,
+      "probability": 0.9677493572235107,
+      "display": "estado"
+    },
+    {
+      "word": "y",
+      "start": 24.0,
+      "end": 24.2,
+      "probability": 0.9896163940429688,
+      "display": "y"
+    },
+    {
+      "word": "deriva",
+      "start": 24.2,
+      "end": 24.52,
+      "probability": 0.9788444340229034,
+      "display": "deriva"
+    },
+    {
+      "word": "a",
+      "start": 24.52,
+      "end": 24.68,
+      "probability": 0.3921911418437958,
+      "display": "a"
+    },
+    {
+      "word": "Bycode",
+      "start": 24.68,
+      "end": 25.02,
+      "probability": 0.2021629773080349,
+      "display": "Bycode"
+    },
+    {
+      "word": "para",
+      "start": 25.02,
+      "end": 25.34,
+      "probability": 0.9887300133705139,
+      "display": "para"
+    },
+    {
+      "word": "gestionar",
+      "start": 25.34,
+      "end": 25.74,
+      "probability": 0.9963573217391968,
+      "display": "gestionar"
+    },
+    {
+      "word": "las",
+      "start": 25.74,
+      "end": 25.96,
+      "probability": 0.9975680708885193,
+      "display": "las"
+    },
+    {
+      "word": "opciones.",
+      "start": 25.96,
+      "end": 26.36,
+      "probability": 0.9986153841018677,
+      "display": "opciones;"
+    },
+    {
+      "word": "No",
+      "start": 26.36,
+      "end": 26.96,
+      "probability": 0.5291967988014221,
+      "display": "no"
+    },
+    {
+      "word": "alcanza",
+      "start": 26.96,
+      "end": 27.48,
+      "probability": 0.9517150719960531,
+      "display": "alcanza"
+    },
+    {
+      "word": "con",
+      "start": 27.48,
+      "end": 27.64,
+      "probability": 0.9411532282829285,
+      "display": "con"
+    },
+    {
+      "word": "crear",
+      "start": 27.64,
+      "end": 27.88,
+      "probability": 0.9988399147987366,
+      "display": "crear"
+    },
+    {
+      "word": "una",
+      "start": 27.88,
+      "end": 28.06,
+      "probability": 0.9967671632766724,
+      "display": "una"
+    },
+    {
+      "word": "cuenta",
+      "start": 28.06,
+      "end": 28.34,
+      "probability": 0.9980186223983765,
+      "display": "cuenta"
+    },
+    {
+      "word": "para",
+      "start": 28.34,
+      "end": 28.66,
+      "probability": 0.993767261505127,
+      "display": "para"
+    },
+    {
+      "word": "habilitar",
+      "start": 28.66,
+      "end": 29.18,
+      "probability": 0.9790279567241669,
+      "display": "habilitar"
+    },
+    {
+      "word": "todas",
+      "start": 29.18,
+      "end": 29.42,
+      "probability": 0.9961203336715698,
+      "display": "todas"
+    },
+    {
+      "word": "las",
+      "start": 29.42,
+      "end": 29.72,
+      "probability": 0.9981644749641418,
+      "display": "las"
+    },
+    {
+      "word": "funciones.",
+      "start": 29.72,
+      "end": 30.16,
+      "probability": 0.9975462853908539,
+      "display": "funciones."
+    }
+  ],
+  "captions": [
+    {
+      "text": "Volvemos al panel comercial.",
+      "startMs": 0,
+      "endMs": 1680,
+      "timestampMs": null,
+      "confidence": 0.953
+    },
+    {
+      "text": "Deshabilitar un comercio lo oculta y bloquea compras y canjes;",
+      "startMs": 2280,
+      "endMs": 5620,
+      "timestampMs": null,
+      "confidence": 0.981
+    },
+    {
+      "text": "no libera su cupo de comercios.",
+      "startMs": 5960,
+      "endMs": 7340,
+      "timestampMs": null,
+      "confidence": 0.954
+    },
+    {
+      "text": "Leé la confirmación antes de hacerlo.",
+      "startMs": 7880,
+      "endMs": 9940,
+      "timestampMs": null,
+      "confidence": 0.953
+    },
+    {
+      "text": "Si permanece deshabilitado más de 30 días, sus clientes se archivan",
+      "startMs": 10360,
+      "endMs": 14380,
+      "timestampMs": null,
+      "confidence": 0.984
+    },
+    {
+      "text": "conservando el historial.",
+      "startMs": 14380,
+      "endMs": 15580,
+      "timestampMs": null,
+      "confidence": 0.993
+    },
+    {
+      "text": "Para volver a operar, habilitarlo nuevamente y revisar las cuentas.",
+      "startMs": 15860,
+      "endMs": 19240,
+      "timestampMs": null,
+      "confidence": 0.954
+    },
+    {
+      "text": "Los límites dependen del plan.",
+      "startMs": 19720,
+      "endMs": 21280,
+      "timestampMs": null,
+      "confidence": 0.991
+    },
+    {
+      "text": "Una cuenta sin plan activo muestra ese estado y deriva a Bycode para gestionar",
+      "startMs": 21660,
+      "endMs": 25740,
+      "timestampMs": null,
+      "confidence": 0.886
+    },
+    {
+      "text": "las opciones;",
+      "startMs": 25740,
+      "endMs": 26360,
+      "timestampMs": null,
+      "confidence": 0.998
+    },
+    {
+      "text": "no alcanza con crear una cuenta para habilitar todas las funciones.",
+      "startMs": 26360,
+      "endMs": 30160,
+      "timestampMs": null,
+      "confidence": 0.944
+    }
+  ],
+  "status": "REVIEW_REQUIRED"
+}

@@ -1,0 +1,34 @@
+{
+  "scene": "25-expiration",
+  "evidence": [
+    {
+      "label": "Real expiry groups and nonexpiring summary",
+      "url": "/client/toeelVWmwuW6/cafe-del-puerto-aula/points",
+      "at": 1793729217028.2002
+    },
+    {
+      "label": "Point group dates and quantities",
+      "url": "/client/toeelVWmwuW6/cafe-del-puerto-aula/points",
+      "at": 1793729218761.5
+    }
+  ],
+  "network": [
+    {
+      "method": "POST",
+      "path": "/api/pointly/public/client-access/companies/cafe-del-puerto-aula/point-expirations/query",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/public/client-access/companies/cafe-del-puerto-aula/query",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 401
+    }
+  ],
+  "source": "recordings/25-expiration-1793729246012.mp4",
+  "obs": null
+}

@@ -1,0 +1,655 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "0b6699b469ccaadd1f40902f3a9bed6b346a30b6cd12c35be51d69bd280d4041",
+  "transcript": "Las promociones permiten otorgar puntos extras durante un período si tu plan las incluye. Crea una, pone un nombre claro y explica las condiciones en la descripción. Podés elegir 50 % más, el doble, el triple o un beneficio personalizado. Revisá la equivalencia que calcula la pantalla. Elegí una fecha de inicio futura y un fin posterior. Presta atención al horario mostrado. No supongas que una fecha significa todo el día. Guarda y verifica la promoción en su lista antes de comunicarla.",
+  "scriptSimilarity": 0.9697,
+  "differences": [
+    {
+      "op": "replace",
+      "expected": "cincuenta por ciento",
+      "heard": "50 %"
+    }
+  ],
+  "words": [
+    {
+      "word": "Las",
+      "start": 0.0,
+      "end": 0.32,
+      "probability": 0.915314257144928,
+      "display": "Las"
+    },
+    {
+      "word": "promociones",
+      "start": 0.32,
+      "end": 0.82,
+      "probability": 0.9828206896781921,
+      "display": "promociones"
+    },
+    {
+      "word": "permiten",
+      "start": 0.82,
+      "end": 1.44,
+      "probability": 0.9890216886997223,
+      "display": "permiten"
+    },
+    {
+      "word": "otorgar",
+      "start": 1.44,
+      "end": 1.8,
+      "probability": 0.9779058496157328,
+      "display": "otorgar"
+    },
+    {
+      "word": "puntos",
+      "start": 1.8,
+      "end": 2.14,
+      "probability": 0.9936734437942505,
+      "display": "puntos"
+    },
+    {
+      "word": "extras",
+      "start": 2.14,
+      "end": 2.56,
+      "probability": 0.9946802258491516,
+      "display": "extras"
+    },
+    {
+      "word": "durante",
+      "start": 2.56,
+      "end": 2.92,
+      "probability": 0.9896903038024902,
+      "display": "durante"
+    },
+    {
+      "word": "un",
+      "start": 2.92,
+      "end": 3.18,
+      "probability": 0.9981028437614441,
+      "display": "un"
+    },
+    {
+      "word": "período",
+      "start": 3.18,
+      "end": 3.52,
+      "probability": 0.679728090763092,
+      "display": "período,"
+    },
+    {
+      "word": "si",
+      "start": 3.52,
+      "end": 4.02,
+      "probability": 0.7824661135673523,
+      "display": "si"
+    },
+    {
+      "word": "tu",
+      "start": 4.02,
+      "end": 4.16,
+      "probability": 0.9978961944580078,
+      "display": "tu"
+    },
+    {
+      "word": "plan",
+      "start": 4.16,
+      "end": 4.42,
+      "probability": 0.9949117302894592,
+      "display": "plan"
+    },
+    {
+      "word": "las",
+      "start": 4.42,
+      "end": 4.56,
+      "probability": 0.9541932940483093,
+      "display": "las"
+    },
+    {
+      "word": "incluye.",
+      "start": 4.56,
+      "end": 5.04,
+      "probability": 0.9946471452713013,
+      "display": "incluye."
+    },
+    {
+      "word": "Crea",
+      "start": 5.4,
+      "end": 5.68,
+      "probability": 0.9037931859493256,
+      "display": "Creá"
+    },
+    {
+      "word": "una,",
+      "start": 5.68,
+      "end": 5.86,
+      "probability": 0.9977317452430725,
+      "display": "una,"
+    },
+    {
+      "word": "pone",
+      "start": 6.2,
+      "end": 6.36,
+      "probability": 0.5316689014434814,
+      "display": "poné"
+    },
+    {
+      "word": "un",
+      "start": 6.36,
+      "end": 6.52,
+      "probability": 0.9979731440544128,
+      "display": "un"
+    },
+    {
+      "word": "nombre",
+      "start": 6.52,
+      "end": 6.7,
+      "probability": 0.9988872408866882,
+      "display": "nombre"
+    },
+    {
+      "word": "claro",
+      "start": 6.7,
+      "end": 7.0,
+      "probability": 0.9920516014099121,
+      "display": "claro"
+    },
+    {
+      "word": "y",
+      "start": 7.0,
+      "end": 7.38,
+      "probability": 0.8970271944999695,
+      "display": "y"
+    },
+    {
+      "word": "explica",
+      "start": 7.38,
+      "end": 7.76,
+      "probability": 0.9700113832950592,
+      "display": "explicá"
+    },
+    {
+      "word": "las",
+      "start": 7.76,
+      "end": 7.98,
+      "probability": 0.993301510810852,
+      "display": "las"
+    },
+    {
+      "word": "condiciones",
+      "start": 7.98,
+      "end": 8.42,
+      "probability": 0.9938825368881226,
+      "display": "condiciones"
+    },
+    {
+      "word": "en",
+      "start": 8.42,
+      "end": 8.72,
+      "probability": 0.9975437521934509,
+      "display": "en"
+    },
+    {
+      "word": "la",
+      "start": 8.72,
+      "end": 8.8,
+      "probability": 0.9988293051719666,
+      "display": "la"
+    },
+    {
+      "word": "descripción.",
+      "start": 8.8,
+      "end": 9.34,
+      "probability": 0.9982383251190186,
+      "display": "descripción."
+    },
+    {
+      "word": "Podés",
+      "start": 9.74,
+      "end": 10.04,
+      "probability": 0.6863602101802826,
+      "display": "Podés"
+    },
+    {
+      "word": "elegir",
+      "start": 10.04,
+      "end": 10.52,
+      "probability": 0.9976212680339813,
+      "display": "elegir"
+    },
+    {
+      "word": "50",
+      "start": 10.52,
+      "end": 10.88,
+      "probability": 0.9307063221931458,
+      "display": "50"
+    },
+    {
+      "word": "%",
+      "start": 10.88,
+      "end": 11.3,
+      "probability": 0.9078412055969238,
+      "display": "%"
+    },
+    {
+      "word": "más,",
+      "start": 11.3,
+      "end": 11.74,
+      "probability": 0.9921759963035583,
+      "display": "más,"
+    },
+    {
+      "word": "el",
+      "start": 12.06,
+      "end": 12.16,
+      "probability": 0.9917042255401611,
+      "display": "el"
+    },
+    {
+      "word": "doble,",
+      "start": 12.16,
+      "end": 12.48,
+      "probability": 0.9859034419059753,
+      "display": "doble,"
+    },
+    {
+      "word": "el",
+      "start": 12.7,
+      "end": 12.78,
+      "probability": 0.9977297186851501,
+      "display": "el"
+    },
+    {
+      "word": "triple",
+      "start": 12.78,
+      "end": 13.06,
+      "probability": 0.9643437266349792,
+      "display": "triple"
+    },
+    {
+      "word": "o",
+      "start": 13.06,
+      "end": 13.56,
+      "probability": 0.7638113498687744,
+      "display": "o"
+    },
+    {
+      "word": "un",
+      "start": 13.56,
+      "end": 13.7,
+      "probability": 0.997158408164978,
+      "display": "un"
+    },
+    {
+      "word": "beneficio",
+      "start": 13.7,
+      "end": 14.24,
+      "probability": 0.9965721368789673,
+      "display": "beneficio"
+    },
+    {
+      "word": "personalizado.",
+      "start": 14.24,
+      "end": 14.98,
+      "probability": 0.997821033000946,
+      "display": "personalizado."
+    },
+    {
+      "word": "Revisá",
+      "start": 15.44,
+      "end": 15.92,
+      "probability": 0.7752164403597513,
+      "display": "Revisá"
+    },
+    {
+      "word": "la",
+      "start": 15.92,
+      "end": 16.04,
+      "probability": 0.9967856407165527,
+      "display": "la"
+    },
+    {
+      "word": "equivalencia",
+      "start": 16.04,
+      "end": 16.62,
+      "probability": 0.9983211159706116,
+      "display": "equivalencia"
+    },
+    {
+      "word": "que",
+      "start": 16.62,
+      "end": 16.84,
+      "probability": 0.9936349391937256,
+      "display": "que"
+    },
+    {
+      "word": "calcula",
+      "start": 16.84,
+      "end": 17.28,
+      "probability": 0.9871588349342346,
+      "display": "calcula"
+    },
+    {
+      "word": "la",
+      "start": 17.28,
+      "end": 17.38,
+      "probability": 0.995206892490387,
+      "display": "la"
+    },
+    {
+      "word": "pantalla.",
+      "start": 17.38,
+      "end": 17.74,
+      "probability": 0.9996036887168884,
+      "display": "pantalla."
+    },
+    {
+      "word": "Elegí",
+      "start": 18.32,
+      "end": 18.66,
+      "probability": 0.9705996712048849,
+      "display": "Elegí"
+    },
+    {
+      "word": "una",
+      "start": 18.66,
+      "end": 18.82,
+      "probability": 0.9968239068984985,
+      "display": "una"
+    },
+    {
+      "word": "fecha",
+      "start": 18.82,
+      "end": 19.18,
+      "probability": 0.9980253875255585,
+      "display": "fecha"
+    },
+    {
+      "word": "de",
+      "start": 19.18,
+      "end": 19.3,
+      "probability": 0.9986867308616638,
+      "display": "de"
+    },
+    {
+      "word": "inicio",
+      "start": 19.3,
+      "end": 19.62,
+      "probability": 0.9587200880050659,
+      "display": "inicio"
+    },
+    {
+      "word": "futura",
+      "start": 19.62,
+      "end": 20.16,
+      "probability": 0.9498776495456696,
+      "display": "futura"
+    },
+    {
+      "word": "y",
+      "start": 20.16,
+      "end": 20.38,
+      "probability": 0.9925861954689026,
+      "display": "y"
+    },
+    {
+      "word": "un",
+      "start": 20.38,
+      "end": 20.52,
+      "probability": 0.9919224977493286,
+      "display": "un"
+    },
+    {
+      "word": "fin",
+      "start": 20.52,
+      "end": 20.74,
+      "probability": 0.971883237361908,
+      "display": "fin"
+    },
+    {
+      "word": "posterior.",
+      "start": 20.74,
+      "end": 21.14,
+      "probability": 0.998538613319397,
+      "display": "posterior."
+    },
+    {
+      "word": "Presta",
+      "start": 21.48,
+      "end": 21.68,
+      "probability": 0.797101616859436,
+      "display": "Prestá"
+    },
+    {
+      "word": "atención",
+      "start": 21.68,
+      "end": 22.08,
+      "probability": 0.9961496591567993,
+      "display": "atención"
+    },
+    {
+      "word": "al",
+      "start": 22.08,
+      "end": 22.32,
+      "probability": 0.9940229058265686,
+      "display": "al"
+    },
+    {
+      "word": "horario",
+      "start": 22.32,
+      "end": 22.58,
+      "probability": 0.9859593212604523,
+      "display": "horario"
+    },
+    {
+      "word": "mostrado.",
+      "start": 22.58,
+      "end": 23.04,
+      "probability": 0.9946200251579285,
+      "display": "mostrado:"
+    },
+    {
+      "word": "No",
+      "start": 23.5,
+      "end": 23.62,
+      "probability": 0.9952154159545898,
+      "display": "no"
+    },
+    {
+      "word": "supongas",
+      "start": 23.62,
+      "end": 24.2,
+      "probability": 0.9956709941228231,
+      "display": "supongas"
+    },
+    {
+      "word": "que",
+      "start": 24.2,
+      "end": 24.36,
+      "probability": 0.9826860427856445,
+      "display": "que"
+    },
+    {
+      "word": "una",
+      "start": 24.36,
+      "end": 24.54,
+      "probability": 0.9971887469291687,
+      "display": "una"
+    },
+    {
+      "word": "fecha",
+      "start": 24.54,
+      "end": 24.94,
+      "probability": 0.9990282654762268,
+      "display": "fecha"
+    },
+    {
+      "word": "significa",
+      "start": 24.94,
+      "end": 25.38,
+      "probability": 0.9803193211555481,
+      "display": "significa"
+    },
+    {
+      "word": "todo",
+      "start": 25.38,
+      "end": 25.84,
+      "probability": 0.9667692184448242,
+      "display": "todo"
+    },
+    {
+      "word": "el",
+      "start": 25.84,
+      "end": 26.04,
+      "probability": 0.9985153079032898,
+      "display": "el"
+    },
+    {
+      "word": "día.",
+      "start": 26.04,
+      "end": 26.24,
+      "probability": 0.9984416365623474,
+      "display": "día."
+    },
+    {
+      "word": "Guarda",
+      "start": 26.24,
+      "end": 27.06,
+      "probability": 0.5525503903627396,
+      "display": "Guardá"
+    },
+    {
+      "word": "y",
+      "start": 27.06,
+      "end": 27.16,
+      "probability": 0.9788955450057983,
+      "display": "y"
+    },
+    {
+      "word": "verifica",
+      "start": 27.16,
+      "end": 27.58,
+      "probability": 0.9270235896110535,
+      "display": "verificá"
+    },
+    {
+      "word": "la",
+      "start": 27.58,
+      "end": 27.74,
+      "probability": 0.9922828078269958,
+      "display": "la"
+    },
+    {
+      "word": "promoción",
+      "start": 27.74,
+      "end": 28.26,
+      "probability": 0.9855634868144989,
+      "display": "promoción"
+    },
+    {
+      "word": "en",
+      "start": 28.26,
+      "end": 28.38,
+      "probability": 0.9964019060134888,
+      "display": "en"
+    },
+    {
+      "word": "su",
+      "start": 28.38,
+      "end": 28.48,
+      "probability": 0.9910932183265686,
+      "display": "su"
+    },
+    {
+      "word": "lista",
+      "start": 28.48,
+      "end": 28.78,
+      "probability": 0.9994193315505981,
+      "display": "lista"
+    },
+    {
+      "word": "antes",
+      "start": 28.78,
+      "end": 29.18,
+      "probability": 0.9027521014213562,
+      "display": "antes"
+    },
+    {
+      "word": "de",
+      "start": 29.18,
+      "end": 29.36,
+      "probability": 0.9990233182907104,
+      "display": "de"
+    },
+    {
+      "word": "comunicarla.",
+      "start": 29.36,
+      "end": 29.96,
+      "probability": 0.9935856660207113,
+      "display": "comunicarla."
+    }
+  ],
+  "captions": [
+    {
+      "text": "Las promociones permiten otorgar puntos extras durante un período, si tu plan",
+      "startMs": 0,
+      "endMs": 4420,
+      "timestampMs": null,
+      "confidence": 0.941
+    },
+    {
+      "text": "las incluye.",
+      "startMs": 4420,
+      "endMs": 5040,
+      "timestampMs": null,
+      "confidence": 0.974
+    },
+    {
+      "text": "Creá una, poné un nombre claro y explicá las condiciones en la descripción.",
+      "startMs": 5400,
+      "endMs": 9340,
+      "timestampMs": null,
+      "confidence": 0.944
+    },
+    {
+      "text": "Podés elegir 50 % más, el doble, el triple o un beneficio personalizado.",
+      "startMs": 9740,
+      "endMs": 14980,
+      "timestampMs": null,
+      "confidence": 0.939
+    },
+    {
+      "text": "Revisá la equivalencia que calcula la pantalla.",
+      "startMs": 15440,
+      "endMs": 17740,
+      "timestampMs": null,
+      "confidence": 0.964
+    },
+    {
+      "text": "Elegí una fecha de inicio futura y un fin posterior.",
+      "startMs": 18320,
+      "endMs": 21140,
+      "timestampMs": null,
+      "confidence": 0.983
+    },
+    {
+      "text": "Prestá atención al horario mostrado:",
+      "startMs": 21480,
+      "endMs": 23040,
+      "timestampMs": null,
+      "confidence": 0.954
+    },
+    {
+      "text": "no supongas que una fecha significa todo el día.",
+      "startMs": 23500,
+      "endMs": 26240,
+      "timestampMs": null,
+      "confidence": 0.99
+    },
+    {
+      "text": "Guardá y verificá la promoción en su lista antes de comunicarla.",
+      "startMs": 26240,
+      "endMs": 29960,
+      "timestampMs": null,
+      "confidence": 0.938
+    }
+  ],
+  "status": "REVIEW_REQUIRED"
+}

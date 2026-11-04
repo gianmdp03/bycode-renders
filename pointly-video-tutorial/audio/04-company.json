@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "Escribí el nombre con el que tus clientes conocen al negocio. El nombre del enlace se genera a partir de ese texto, se puede ajustar y tiene que estar disponible. Usá letras, números y guiones. Después definí la regla: en nuestro ejemplo, cada mil pesos completos de una compra otorgan diez puntos. País es obligatorio; los demás datos de ubicación se pueden dejar vacíos si no corresponden. Revisá los campos antes de crear la empresa y esperá la confirmación.",
+  "spokenText": "Escribí el nombre con el que tus clientes conocen al negocio. El nombre del enlace se genera a partir de ese texto, se puede ajustar y tiene que estar disponible. Usá letras, números y guiones. Después definí la regla: en nuestro ejemplo, cada mil pesos completos de una compra otorgan diez puntos. País es obligatorio; los demás datos de ubicación se pueden dejar vacíos si no corresponden. Revisá los campos antes de crear la empresa y esperá la confirmación.",
+  "text_sha256": "0961a33e7a40685e3692a2e40a5da901dc2fb7380b69688352de60f249f811ee",
+  "sha256": "0b59459181865917d597575e4ea1739b80203465b7a335304b4e67244234959f",
+  "duration": 27.76,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 108.5,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

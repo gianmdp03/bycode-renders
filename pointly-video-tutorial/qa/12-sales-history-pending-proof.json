@@ -1,0 +1,13 @@
+{
+  "scene": "12-sales-history",
+  "path": "/api/pointly/sales",
+  "upstreamStatus": 201,
+  "retryStatus": 201,
+  "sameRequestIdentity": true,
+  "requestIdentitySha256": "ce74616f5bcaa4cddb5e43f6066ddca1ef87177f84dd15239a9b4187f50a3902",
+  "sameSaleId": 47,
+  "balanceBefore": 180,
+  "balanceAfterCommit": 180,
+  "balanceAfterRetry": 180,
+  "method": "Real backend request, dropped response, then real retry; no success response fabricated"
+}

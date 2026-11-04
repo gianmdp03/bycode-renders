@@ -1,0 +1,13 @@
+{
+  "scene": "20-redeem-errors",
+  "path": "/api/pointly/rewards/redeem",
+  "upstreamStatus": 200,
+  "retryStatus": 200,
+  "sameRequestIdentity": true,
+  "requestIdentitySha256": "243e1c56ef6d98b0a2964179e0b7584c5f2cece6a5e0d4dc43e444a4f541689c",
+  "sameSaleId": null,
+  "balanceBefore": 180,
+  "balanceAfterCommit": 100,
+  "balanceAfterRetry": 100,
+  "method": "Real backend request, dropped response, then real retry; no success response fabricated"
+}

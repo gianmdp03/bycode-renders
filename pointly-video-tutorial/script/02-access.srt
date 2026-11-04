@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:03,860
+Para administrar un comercio necesitás tu cuenta de Bycode y un plan de
+
+2
+00:00:03,860 --> 00:00:04,900
+Pointly habilitado.
+
+3
+00:00:05,420 --> 00:00:07,620
+El acceso Crear cuenta lleva a Bycode:
+
+4
+00:00:08,140 --> 00:00:11,900
+el alta comercial no se completa dentro de esta pantalla de Pointly.
+
+5
+00:00:12,380 --> 00:00:15,700
+Si ya tenés cuenta, entrá con tu correo y contraseña.
+
+6
+00:00:16,260 --> 00:00:17,620
+El modo cliente es diferente:
+
+7
+00:00:18,220 --> 00:00:21,260
+permite consultar puntos, sin acceder a la administración.
+
+8
+00:00:21,940 --> 00:00:25,220
+Revisá el correo que escribís y mantené tu contraseña privada.
+
+9
+00:00:25,740 --> 00:00:30,360
+Si los datos no coinciden, la pantalla informa el error y permite corregirlos.

@@ -1,0 +1,690 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "cf04375f9ab8d90db851840808e61a0e825648e388fd9e8b818a27d0b3f32a00",
+  "transcript": "Para seguir usamos Café del Puerto, un comercio de ejemplo con actividad. Desde Editar, podés actualizar el nombre, la ubicación y la regla de acumulación. El vencimiento es opcional. Si lo activás, indica cuántos días duran los puntos de nuevas compras. Ese cambio no renueva todos los puntos anteriores. Una compra nueva tampoco renueva automáticamente cada saldo histórico. Leé la explicación junto a la opción antes de guardar. Los niveles bronze, plata y oro están suspendidos en esta versión, no forman parte de la configuración disponible.",
+  "scriptSimilarity": 0.9884,
+  "differences": [
+    {
+      "op": "replace",
+      "expected": "Bronce,",
+      "heard": "bronze,"
+    }
+  ],
+  "words": [
+    {
+      "word": "Para",
+      "start": 0.0,
+      "end": 0.3,
+      "probability": 0.7392887473106384,
+      "display": "Para"
+    },
+    {
+      "word": "seguir",
+      "start": 0.3,
+      "end": 0.56,
+      "probability": 0.9962126016616821,
+      "display": "seguir"
+    },
+    {
+      "word": "usamos",
+      "start": 0.56,
+      "end": 0.9,
+      "probability": 0.9426123797893524,
+      "display": "usamos"
+    },
+    {
+      "word": "Café",
+      "start": 0.9,
+      "end": 1.38,
+      "probability": 0.7181881219148636,
+      "display": "Café"
+    },
+    {
+      "word": "del",
+      "start": 1.38,
+      "end": 1.5,
+      "probability": 0.8698288798332214,
+      "display": "del"
+    },
+    {
+      "word": "Puerto,",
+      "start": 1.5,
+      "end": 1.78,
+      "probability": 0.7014464139938354,
+      "display": "Puerto,"
+    },
+    {
+      "word": "un",
+      "start": 2.16,
+      "end": 2.38,
+      "probability": 0.9867392778396606,
+      "display": "un"
+    },
+    {
+      "word": "comercio",
+      "start": 2.38,
+      "end": 2.84,
+      "probability": 0.9919085800647736,
+      "display": "comercio"
+    },
+    {
+      "word": "de",
+      "start": 2.84,
+      "end": 2.98,
+      "probability": 0.9979350566864014,
+      "display": "de"
+    },
+    {
+      "word": "ejemplo",
+      "start": 2.98,
+      "end": 3.36,
+      "probability": 0.9195998311042786,
+      "display": "ejemplo"
+    },
+    {
+      "word": "con",
+      "start": 3.36,
+      "end": 3.66,
+      "probability": 0.9945853352546692,
+      "display": "con"
+    },
+    {
+      "word": "actividad.",
+      "start": 3.66,
+      "end": 4.14,
+      "probability": 0.9707180857658386,
+      "display": "actividad."
+    },
+    {
+      "word": "Desde",
+      "start": 4.68,
+      "end": 5.0,
+      "probability": 0.9711973071098328,
+      "display": "Desde"
+    },
+    {
+      "word": "Editar,",
+      "start": 5.0,
+      "end": 5.4,
+      "probability": 0.6827426105737686,
+      "display": "Editar"
+    },
+    {
+      "word": "podés",
+      "start": 5.62,
+      "end": 5.78,
+      "probability": 0.7273485362529755,
+      "display": "podés"
+    },
+    {
+      "word": "actualizar",
+      "start": 5.78,
+      "end": 6.3,
+      "probability": 0.9982685148715973,
+      "display": "actualizar"
+    },
+    {
+      "word": "el",
+      "start": 6.3,
+      "end": 6.46,
+      "probability": 0.9987090826034546,
+      "display": "el"
+    },
+    {
+      "word": "nombre,",
+      "start": 6.46,
+      "end": 6.72,
+      "probability": 0.9994694590568542,
+      "display": "nombre,"
+    },
+    {
+      "word": "la",
+      "start": 7.0,
+      "end": 7.1,
+      "probability": 0.9964801669120789,
+      "display": "la"
+    },
+    {
+      "word": "ubicación",
+      "start": 7.1,
+      "end": 7.68,
+      "probability": 0.9984590609868368,
+      "display": "ubicación"
+    },
+    {
+      "word": "y",
+      "start": 7.68,
+      "end": 7.96,
+      "probability": 0.9402147531509399,
+      "display": "y"
+    },
+    {
+      "word": "la",
+      "start": 7.96,
+      "end": 8.08,
+      "probability": 0.9965434670448303,
+      "display": "la"
+    },
+    {
+      "word": "regla",
+      "start": 8.08,
+      "end": 8.42,
+      "probability": 0.9734033346176147,
+      "display": "regla"
+    },
+    {
+      "word": "de",
+      "start": 8.42,
+      "end": 8.56,
+      "probability": 0.9988254904747009,
+      "display": "de"
+    },
+    {
+      "word": "acumulación.",
+      "start": 8.56,
+      "end": 9.1,
+      "probability": 0.9813866019248962,
+      "display": "acumulación."
+    },
+    {
+      "word": "El",
+      "start": 9.72,
+      "end": 9.92,
+      "probability": 0.9811974167823792,
+      "display": "El"
+    },
+    {
+      "word": "vencimiento",
+      "start": 9.92,
+      "end": 10.52,
+      "probability": 0.9918436606725057,
+      "display": "vencimiento"
+    },
+    {
+      "word": "es",
+      "start": 10.52,
+      "end": 10.92,
+      "probability": 0.9399520754814148,
+      "display": "es"
+    },
+    {
+      "word": "opcional.",
+      "start": 10.92,
+      "end": 11.4,
+      "probability": 0.9900970458984375,
+      "display": "opcional:"
+    },
+    {
+      "word": "Si",
+      "start": 11.88,
+      "end": 12.06,
+      "probability": 0.936233401298523,
+      "display": "si"
+    },
+    {
+      "word": "lo",
+      "start": 12.06,
+      "end": 12.2,
+      "probability": 0.9953857064247131,
+      "display": "lo"
+    },
+    {
+      "word": "activás,",
+      "start": 12.2,
+      "end": 12.66,
+      "probability": 0.7717980444431305,
+      "display": "activás,"
+    },
+    {
+      "word": "indica",
+      "start": 12.94,
+      "end": 13.3,
+      "probability": 0.8408468663692474,
+      "display": "indicá"
+    },
+    {
+      "word": "cuántos",
+      "start": 13.3,
+      "end": 13.88,
+      "probability": 0.8527939021587372,
+      "display": "cuántos"
+    },
+    {
+      "word": "días",
+      "start": 13.88,
+      "end": 14.1,
+      "probability": 0.9989029169082642,
+      "display": "días"
+    },
+    {
+      "word": "duran",
+      "start": 14.1,
+      "end": 14.46,
+      "probability": 0.9886597692966461,
+      "display": "duran"
+    },
+    {
+      "word": "los",
+      "start": 14.46,
+      "end": 14.58,
+      "probability": 0.9985876083374023,
+      "display": "los"
+    },
+    {
+      "word": "puntos",
+      "start": 14.58,
+      "end": 14.92,
+      "probability": 0.9975916147232056,
+      "display": "puntos"
+    },
+    {
+      "word": "de",
+      "start": 14.92,
+      "end": 15.16,
+      "probability": 0.9988285899162292,
+      "display": "de"
+    },
+    {
+      "word": "nuevas",
+      "start": 15.16,
+      "end": 15.42,
+      "probability": 0.9984319806098938,
+      "display": "nuevas"
+    },
+    {
+      "word": "compras.",
+      "start": 15.42,
+      "end": 15.9,
+      "probability": 0.9948749840259552,
+      "display": "compras."
+    },
+    {
+      "word": "Ese",
+      "start": 16.38,
+      "end": 16.66,
+      "probability": 0.9788305759429932,
+      "display": "Ese"
+    },
+    {
+      "word": "cambio",
+      "start": 16.66,
+      "end": 16.96,
+      "probability": 0.9911924004554749,
+      "display": "cambio"
+    },
+    {
+      "word": "no",
+      "start": 16.96,
+      "end": 17.4,
+      "probability": 0.779417872428894,
+      "display": "no"
+    },
+    {
+      "word": "renueva",
+      "start": 17.4,
+      "end": 17.86,
+      "probability": 0.9078138868014017,
+      "display": "renueva"
+    },
+    {
+      "word": "todos",
+      "start": 17.86,
+      "end": 18.14,
+      "probability": 0.5939604043960571,
+      "display": "todos"
+    },
+    {
+      "word": "los",
+      "start": 18.14,
+      "end": 18.42,
+      "probability": 0.9988754391670227,
+      "display": "los"
+    },
+    {
+      "word": "puntos",
+      "start": 18.42,
+      "end": 18.68,
+      "probability": 0.9985882639884949,
+      "display": "puntos"
+    },
+    {
+      "word": "anteriores.",
+      "start": 18.68,
+      "end": 19.24,
+      "probability": 0.9992968042691549,
+      "display": "anteriores."
+    },
+    {
+      "word": "Una",
+      "start": 19.74,
+      "end": 19.96,
+      "probability": 0.9705395102500916,
+      "display": "Una"
+    },
+    {
+      "word": "compra",
+      "start": 19.96,
+      "end": 20.26,
+      "probability": 0.9778732061386108,
+      "display": "compra"
+    },
+    {
+      "word": "nueva",
+      "start": 20.26,
+      "end": 20.62,
+      "probability": 0.9967368245124817,
+      "display": "nueva"
+    },
+    {
+      "word": "tampoco",
+      "start": 20.62,
+      "end": 20.96,
+      "probability": 0.9486179947853088,
+      "display": "tampoco"
+    },
+    {
+      "word": "renueva",
+      "start": 20.96,
+      "end": 21.58,
+      "probability": 0.9816925923029581,
+      "display": "renueva"
+    },
+    {
+      "word": "automáticamente",
+      "start": 21.58,
+      "end": 22.32,
+      "probability": 0.9889474312464396,
+      "display": "automáticamente"
+    },
+    {
+      "word": "cada",
+      "start": 22.32,
+      "end": 22.66,
+      "probability": 0.975300133228302,
+      "display": "cada"
+    },
+    {
+      "word": "saldo",
+      "start": 22.66,
+      "end": 23.04,
+      "probability": 0.99639892578125,
+      "display": "saldo"
+    },
+    {
+      "word": "histórico.",
+      "start": 23.04,
+      "end": 23.5,
+      "probability": 0.9988978803157806,
+      "display": "histórico."
+    },
+    {
+      "word": "Leé",
+      "start": 23.94,
+      "end": 24.22,
+      "probability": 0.8237750828266144,
+      "display": "Leé"
+    },
+    {
+      "word": "la",
+      "start": 24.22,
+      "end": 24.32,
+      "probability": 0.9977756142616272,
+      "display": "la"
+    },
+    {
+      "word": "explicación",
+      "start": 24.32,
+      "end": 24.9,
+      "probability": 0.9952942430973053,
+      "display": "explicación"
+    },
+    {
+      "word": "junto",
+      "start": 24.9,
+      "end": 25.06,
+      "probability": 0.9663732647895813,
+      "display": "junto"
+    },
+    {
+      "word": "a",
+      "start": 25.06,
+      "end": 25.28,
+      "probability": 0.9910777807235718,
+      "display": "a"
+    },
+    {
+      "word": "la",
+      "start": 25.28,
+      "end": 25.34,
+      "probability": 0.9993566870689392,
+      "display": "la"
+    },
+    {
+      "word": "opción",
+      "start": 25.34,
+      "end": 25.74,
+      "probability": 0.9947472214698792,
+      "display": "opción"
+    },
+    {
+      "word": "antes",
+      "start": 25.74,
+      "end": 26.08,
+      "probability": 0.9051732420921326,
+      "display": "antes"
+    },
+    {
+      "word": "de",
+      "start": 26.08,
+      "end": 26.26,
+      "probability": 0.999382734298706,
+      "display": "de"
+    },
+    {
+      "word": "guardar.",
+      "start": 26.26,
+      "end": 26.6,
+      "probability": 0.9971671104431152,
+      "display": "guardar."
+    },
+    {
+      "word": "Los",
+      "start": 26.6,
+      "end": 27.24,
+      "probability": 0.9363960027694702,
+      "display": "Los"
+    },
+    {
+      "word": "niveles",
+      "start": 27.24,
+      "end": 27.66,
+      "probability": 0.9989548027515411,
+      "display": "niveles"
+    },
+    {
+      "word": "bronze,",
+      "start": 27.66,
+      "end": 27.94,
+      "probability": 0.6518722772598267,
+      "display": "bronze,"
+    },
+    {
+      "word": "plata",
+      "start": 28.04,
+      "end": 28.3,
+      "probability": 0.9869409203529358,
+      "display": "Plata"
+    },
+    {
+      "word": "y",
+      "start": 28.3,
+      "end": 28.5,
+      "probability": 0.9803344011306763,
+      "display": "y"
+    },
+    {
+      "word": "oro",
+      "start": 28.5,
+      "end": 28.68,
+      "probability": 0.9681830406188965,
+      "display": "Oro"
+    },
+    {
+      "word": "están",
+      "start": 28.68,
+      "end": 29.1,
+      "probability": 0.928049623966217,
+      "display": "están"
+    },
+    {
+      "word": "suspendidos",
+      "start": 29.1,
+      "end": 29.86,
+      "probability": 0.9979520440101624,
+      "display": "suspendidos"
+    },
+    {
+      "word": "en",
+      "start": 29.86,
+      "end": 30.06,
+      "probability": 0.9959343671798706,
+      "display": "en"
+    },
+    {
+      "word": "esta",
+      "start": 30.06,
+      "end": 30.28,
+      "probability": 0.9845321774482727,
+      "display": "esta"
+    },
+    {
+      "word": "versión,",
+      "start": 30.28,
+      "end": 30.64,
+      "probability": 0.9978082776069641,
+      "display": "versión;"
+    },
+    {
+      "word": "no",
+      "start": 30.96,
+      "end": 31.22,
+      "probability": 0.9939339756965637,
+      "display": "no"
+    },
+    {
+      "word": "forman",
+      "start": 31.22,
+      "end": 31.58,
+      "probability": 0.9954761266708374,
+      "display": "forman"
+    },
+    {
+      "word": "parte",
+      "start": 31.58,
+      "end": 31.86,
+      "probability": 0.9996187686920166,
+      "display": "parte"
+    },
+    {
+      "word": "de",
+      "start": 31.86,
+      "end": 32.06,
+      "probability": 0.9991244673728943,
+      "display": "de"
+    },
+    {
+      "word": "la",
+      "start": 32.06,
+      "end": 32.16,
+      "probability": 0.9974517226219177,
+      "display": "la"
+    },
+    {
+      "word": "configuración",
+      "start": 32.16,
+      "end": 32.86,
+      "probability": 0.9983209073543549,
+      "display": "configuración"
+    },
+    {
+      "word": "disponible.",
+      "start": 32.86,
+      "end": 33.38,
+      "probability": 0.9907433390617371,
+      "display": "disponible."
+    }
+  ],
+  "captions": [
+    {
+      "text": "Para seguir usamos Café del Puerto, un comercio de ejemplo con actividad.",
+      "startMs": 0,
+      "endMs": 4140,
+      "timestampMs": null,
+      "confidence": 0.902
+    },
+    {
+      "text": "Desde Editar podés actualizar el nombre, la ubicación y la regla de",
+      "startMs": 4680,
+      "endMs": 8560,
+      "timestampMs": null,
+      "confidence": 0.94
+    },
+    {
+      "text": "acumulación.",
+      "startMs": 8560,
+      "endMs": 9100,
+      "timestampMs": null,
+      "confidence": 0.981
+    },
+    {
+      "text": "El vencimiento es opcional:",
+      "startMs": 9720,
+      "endMs": 11400,
+      "timestampMs": null,
+      "confidence": 0.976
+    },
+    {
+      "text": "si lo activás, indicá cuántos días duran los puntos de nuevas compras.",
+      "startMs": 11880,
+      "endMs": 15900,
+      "timestampMs": null,
+      "confidence": 0.948
+    },
+    {
+      "text": "Ese cambio no renueva todos los puntos anteriores.",
+      "startMs": 16380,
+      "endMs": 19240,
+      "timestampMs": null,
+      "confidence": 0.906
+    },
+    {
+      "text": "Una compra nueva tampoco renueva automáticamente cada saldo histórico.",
+      "startMs": 19740,
+      "endMs": 23500,
+      "timestampMs": null,
+      "confidence": 0.982
+    },
+    {
+      "text": "Leé la explicación junto a la opción antes de guardar.",
+      "startMs": 23940,
+      "endMs": 26600,
+      "timestampMs": null,
+      "confidence": 0.967
+    },
+    {
+      "text": "Los niveles bronze, Plata y Oro están suspendidos en esta versión;",
+      "startMs": 26600,
+      "endMs": 30640,
+      "timestampMs": null,
+      "confidence": 0.948
+    },
+    {
+      "text": "no forman parte de la configuración disponible.",
+      "startMs": 30960,
+      "endMs": 33380,
+      "timestampMs": null,
+      "confidence": 0.996
+    }
+  ],
+  "status": "REVIEW_REQUIRED"
+}

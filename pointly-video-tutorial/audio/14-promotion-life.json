@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "Desde la lista podés editar una promoción y guardar sus cambios. Pausar conserva el elemento pero evita que se aplique; Reactivar lo vuelve a habilitar, siempre sujeto a sus fechas. Eliminar es una acción distinta y definitiva, con confirmación dentro de la página. Revisá qué elemento seleccionaste y cancelá si no corresponde. Antes de registrar una venta con beneficio, comprobá la vigencia y la estimación de puntos del formulario; no te guíes solamente por el nombre de la promoción.",
+  "spokenText": "Desde la lista podés editar una promoción y guardar sus cambios. Pausar conserva el elemento pero evita que se aplique; Reactivar lo vuelve a habilitar, siempre sujeto a sus fechas. Eliminar es una acción distinta y definitiva, con confirmación dentro de la página. Revisá qué elemento seleccionaste y cancelá si no corresponde. Antes de registrar una venta con beneficio, comprobá la vigencia y la estimación de puntos del formulario; no te guíes solamente por el nombre de la promoción.",
+  "text_sha256": "4fce345cb0981611d1872acd58647b7b5b45292ccd8272cf8793fd41622d5dd3",
+  "sha256": "4d4eae337bd129a96239f3da50c834e462de9adfa20f94fb44f53dbc84c76e9f",
+  "duration": 29.12,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 196.92,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

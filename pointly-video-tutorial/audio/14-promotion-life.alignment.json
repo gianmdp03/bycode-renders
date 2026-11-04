@@ -1,0 +1,639 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "4d4eae337bd129a96239f3da50c834e462de9adfa20f94fb44f53dbc84c76e9f",
+  "transcript": "Desde la lista podés editar una promoción y guardar sus cambios. Pausar conserva el elemento, pero evita que se aplique. Reactivar lo vuelve a habilitar, siempre sujeto a sus fechas. Eliminar es una acción distinta y definitiva, con confirmación dentro de la página. Revisá que elemento seleccionaste y cancelás si no corresponde. Antes de registrar una venta con beneficio, comprova la vigencia y la estimación de puntos del formulario. No te guíes solamente por el nombre de la promoción.",
+  "scriptSimilarity": 0.9747,
+  "differences": [
+    {
+      "op": "replace",
+      "expected": "cancelá",
+      "heard": "cancelás"
+    },
+    {
+      "op": "replace",
+      "expected": "comprobá",
+      "heard": "comprova"
+    }
+  ],
+  "words": [
+    {
+      "word": "Desde",
+      "start": 0.0,
+      "end": 0.46,
+      "probability": 0.9740251898765564,
+      "display": "Desde"
+    },
+    {
+      "word": "la",
+      "start": 0.46,
+      "end": 0.68,
+      "probability": 0.9978901743888855,
+      "display": "la"
+    },
+    {
+      "word": "lista",
+      "start": 0.68,
+      "end": 0.92,
+      "probability": 0.9974127411842346,
+      "display": "lista"
+    },
+    {
+      "word": "podés",
+      "start": 0.92,
+      "end": 1.34,
+      "probability": 0.6476339995861053,
+      "display": "podés"
+    },
+    {
+      "word": "editar",
+      "start": 1.34,
+      "end": 1.64,
+      "probability": 0.99468594789505,
+      "display": "editar"
+    },
+    {
+      "word": "una",
+      "start": 1.64,
+      "end": 1.84,
+      "probability": 0.9983720183372498,
+      "display": "una"
+    },
+    {
+      "word": "promoción",
+      "start": 1.84,
+      "end": 2.46,
+      "probability": 0.9664722979068756,
+      "display": "promoción"
+    },
+    {
+      "word": "y",
+      "start": 2.46,
+      "end": 2.68,
+      "probability": 0.9907875657081604,
+      "display": "y"
+    },
+    {
+      "word": "guardar",
+      "start": 2.68,
+      "end": 3.08,
+      "probability": 0.9969203770160675,
+      "display": "guardar"
+    },
+    {
+      "word": "sus",
+      "start": 3.08,
+      "end": 3.28,
+      "probability": 0.9850874543190002,
+      "display": "sus"
+    },
+    {
+      "word": "cambios.",
+      "start": 3.28,
+      "end": 3.72,
+      "probability": 0.997989684343338,
+      "display": "cambios."
+    },
+    {
+      "word": "Pausar",
+      "start": 4.16,
+      "end": 4.68,
+      "probability": 0.9569149613380432,
+      "display": "Pausar"
+    },
+    {
+      "word": "conserva",
+      "start": 4.68,
+      "end": 5.22,
+      "probability": 0.9866162538528442,
+      "display": "conserva"
+    },
+    {
+      "word": "el",
+      "start": 5.22,
+      "end": 5.36,
+      "probability": 0.9981385469436646,
+      "display": "el"
+    },
+    {
+      "word": "elemento,",
+      "start": 5.36,
+      "end": 5.66,
+      "probability": 0.9951216578483582,
+      "display": "elemento"
+    },
+    {
+      "word": "pero",
+      "start": 6.04,
+      "end": 6.16,
+      "probability": 0.995913565158844,
+      "display": "pero"
+    },
+    {
+      "word": "evita",
+      "start": 6.16,
+      "end": 6.5,
+      "probability": 0.9965967535972595,
+      "display": "evita"
+    },
+    {
+      "word": "que",
+      "start": 6.5,
+      "end": 6.66,
+      "probability": 0.9980681538581848,
+      "display": "que"
+    },
+    {
+      "word": "se",
+      "start": 6.66,
+      "end": 6.78,
+      "probability": 0.9954159259796143,
+      "display": "se"
+    },
+    {
+      "word": "aplique.",
+      "start": 6.78,
+      "end": 7.12,
+      "probability": 0.9730758666992188,
+      "display": "aplique;"
+    },
+    {
+      "word": "Reactivar",
+      "start": 7.64,
+      "end": 8.16,
+      "probability": 0.8964892824490865,
+      "display": "Reactivar"
+    },
+    {
+      "word": "lo",
+      "start": 8.16,
+      "end": 8.32,
+      "probability": 0.9788683652877808,
+      "display": "lo"
+    },
+    {
+      "word": "vuelve",
+      "start": 8.32,
+      "end": 8.62,
+      "probability": 0.9983089566230774,
+      "display": "vuelve"
+    },
+    {
+      "word": "a",
+      "start": 8.62,
+      "end": 8.72,
+      "probability": 0.9925000071525574,
+      "display": "a"
+    },
+    {
+      "word": "habilitar,",
+      "start": 8.72,
+      "end": 9.16,
+      "probability": 0.98968705534935,
+      "display": "habilitar,"
+    },
+    {
+      "word": "siempre",
+      "start": 9.4,
+      "end": 9.74,
+      "probability": 0.9930134415626526,
+      "display": "siempre"
+    },
+    {
+      "word": "sujeto",
+      "start": 9.74,
+      "end": 10.28,
+      "probability": 0.9906601309776306,
+      "display": "sujeto"
+    },
+    {
+      "word": "a",
+      "start": 10.28,
+      "end": 10.38,
+      "probability": 0.9980053305625916,
+      "display": "a"
+    },
+    {
+      "word": "sus",
+      "start": 10.38,
+      "end": 10.54,
+      "probability": 0.9987034797668457,
+      "display": "sus"
+    },
+    {
+      "word": "fechas.",
+      "start": 10.54,
+      "end": 10.86,
+      "probability": 0.9964637160301208,
+      "display": "fechas."
+    },
+    {
+      "word": "Eliminar",
+      "start": 11.72,
+      "end": 12.26,
+      "probability": 0.8639566898345947,
+      "display": "Eliminar"
+    },
+    {
+      "word": "es",
+      "start": 12.26,
+      "end": 12.52,
+      "probability": 0.9947900772094727,
+      "display": "es"
+    },
+    {
+      "word": "una",
+      "start": 12.52,
+      "end": 12.7,
+      "probability": 0.9990912675857544,
+      "display": "una"
+    },
+    {
+      "word": "acción",
+      "start": 12.7,
+      "end": 13.06,
+      "probability": 0.9910284578800201,
+      "display": "acción"
+    },
+    {
+      "word": "distinta",
+      "start": 13.06,
+      "end": 13.58,
+      "probability": 0.996314287185669,
+      "display": "distinta"
+    },
+    {
+      "word": "y",
+      "start": 13.58,
+      "end": 13.86,
+      "probability": 0.9798689484596252,
+      "display": "y"
+    },
+    {
+      "word": "definitiva,",
+      "start": 13.86,
+      "end": 14.48,
+      "probability": 0.9937966465950012,
+      "display": "definitiva,"
+    },
+    {
+      "word": "con",
+      "start": 14.72,
+      "end": 14.88,
+      "probability": 0.9961327314376831,
+      "display": "con"
+    },
+    {
+      "word": "confirmación",
+      "start": 14.88,
+      "end": 15.58,
+      "probability": 0.9751882553100586,
+      "display": "confirmación"
+    },
+    {
+      "word": "dentro",
+      "start": 15.58,
+      "end": 15.84,
+      "probability": 0.9934273958206177,
+      "display": "dentro"
+    },
+    {
+      "word": "de",
+      "start": 15.84,
+      "end": 16.08,
+      "probability": 0.9990880489349365,
+      "display": "de"
+    },
+    {
+      "word": "la",
+      "start": 16.08,
+      "end": 16.18,
+      "probability": 0.9987088441848755,
+      "display": "la"
+    },
+    {
+      "word": "página.",
+      "start": 16.18,
+      "end": 16.48,
+      "probability": 0.9852885603904724,
+      "display": "página."
+    },
+    {
+      "word": "Revisá",
+      "start": 17.06,
+      "end": 17.46,
+      "probability": 0.7691071828206381,
+      "display": "Revisá"
+    },
+    {
+      "word": "que",
+      "start": 17.46,
+      "end": 17.6,
+      "probability": 0.6086811423301697,
+      "display": "qué"
+    },
+    {
+      "word": "elemento",
+      "start": 17.6,
+      "end": 17.9,
+      "probability": 0.9168345332145691,
+      "display": "elemento"
+    },
+    {
+      "word": "seleccionaste",
+      "start": 17.9,
+      "end": 18.74,
+      "probability": 0.9949398189783096,
+      "display": "seleccionaste"
+    },
+    {
+      "word": "y",
+      "start": 18.74,
+      "end": 18.98,
+      "probability": 0.9906749129295349,
+      "display": "y"
+    },
+    {
+      "word": "cancelás",
+      "start": 18.98,
+      "end": 19.48,
+      "probability": 0.7355967164039612,
+      "display": "cancelás"
+    },
+    {
+      "word": "si",
+      "start": 19.48,
+      "end": 19.68,
+      "probability": 0.9368866682052612,
+      "display": "si"
+    },
+    {
+      "word": "no",
+      "start": 19.68,
+      "end": 19.76,
+      "probability": 0.9989708662033081,
+      "display": "no"
+    },
+    {
+      "word": "corresponde.",
+      "start": 19.76,
+      "end": 20.4,
+      "probability": 0.9923515319824219,
+      "display": "corresponde."
+    },
+    {
+      "word": "Antes",
+      "start": 20.9,
+      "end": 21.22,
+      "probability": 0.9970799088478088,
+      "display": "Antes"
+    },
+    {
+      "word": "de",
+      "start": 21.22,
+      "end": 21.4,
+      "probability": 0.9993901252746582,
+      "display": "de"
+    },
+    {
+      "word": "registrar",
+      "start": 21.4,
+      "end": 21.82,
+      "probability": 0.9973788261413574,
+      "display": "registrar"
+    },
+    {
+      "word": "una",
+      "start": 21.82,
+      "end": 22.0,
+      "probability": 0.9978576302528381,
+      "display": "una"
+    },
+    {
+      "word": "venta",
+      "start": 22.0,
+      "end": 22.32,
+      "probability": 0.978071004152298,
+      "display": "venta"
+    },
+    {
+      "word": "con",
+      "start": 22.32,
+      "end": 22.48,
+      "probability": 0.9926396608352661,
+      "display": "con"
+    },
+    {
+      "word": "beneficio,",
+      "start": 22.48,
+      "end": 23.1,
+      "probability": 0.9937659502029419,
+      "display": "beneficio,"
+    },
+    {
+      "word": "comprova",
+      "start": 23.52,
+      "end": 23.86,
+      "probability": 0.7232073446114858,
+      "display": "comprova"
+    },
+    {
+      "word": "la",
+      "start": 23.86,
+      "end": 23.98,
+      "probability": 0.9934496283531189,
+      "display": "la"
+    },
+    {
+      "word": "vigencia",
+      "start": 23.98,
+      "end": 24.48,
+      "probability": 0.9907875061035156,
+      "display": "vigencia"
+    },
+    {
+      "word": "y",
+      "start": 24.48,
+      "end": 24.74,
+      "probability": 0.9914897680282593,
+      "display": "y"
+    },
+    {
+      "word": "la",
+      "start": 24.74,
+      "end": 24.84,
+      "probability": 0.9955154061317444,
+      "display": "la"
+    },
+    {
+      "word": "estimación",
+      "start": 24.84,
+      "end": 25.3,
+      "probability": 0.9906833171844482,
+      "display": "estimación"
+    },
+    {
+      "word": "de",
+      "start": 25.3,
+      "end": 25.42,
+      "probability": 0.9987356066703796,
+      "display": "de"
+    },
+    {
+      "word": "puntos",
+      "start": 25.42,
+      "end": 25.66,
+      "probability": 0.9966709017753601,
+      "display": "puntos"
+    },
+    {
+      "word": "del",
+      "start": 25.66,
+      "end": 25.86,
+      "probability": 0.9910410046577454,
+      "display": "del"
+    },
+    {
+      "word": "formulario.",
+      "start": 25.86,
+      "end": 26.4,
+      "probability": 0.9922184546788534,
+      "display": "formulario;"
+    },
+    {
+      "word": "No",
+      "start": 26.68,
+      "end": 26.86,
+      "probability": 0.925484299659729,
+      "display": "no"
+    },
+    {
+      "word": "te",
+      "start": 26.86,
+      "end": 26.98,
+      "probability": 0.9979859590530396,
+      "display": "te"
+    },
+    {
+      "word": "guíes",
+      "start": 26.98,
+      "end": 27.28,
+      "probability": 0.8918203314145406,
+      "display": "guíes"
+    },
+    {
+      "word": "solamente",
+      "start": 27.28,
+      "end": 27.5,
+      "probability": 0.9931554198265076,
+      "display": "solamente"
+    },
+    {
+      "word": "por",
+      "start": 27.5,
+      "end": 27.88,
+      "probability": 0.9979369640350342,
+      "display": "por"
+    },
+    {
+      "word": "el",
+      "start": 27.88,
+      "end": 27.98,
+      "probability": 0.9978996515274048,
+      "display": "el"
+    },
+    {
+      "word": "nombre",
+      "start": 27.98,
+      "end": 28.22,
+      "probability": 0.999574601650238,
+      "display": "nombre"
+    },
+    {
+      "word": "de",
+      "start": 28.22,
+      "end": 28.34,
+      "probability": 0.9991438388824463,
+      "display": "de"
+    },
+    {
+      "word": "la",
+      "start": 28.34,
+      "end": 28.44,
+      "probability": 0.9988740086555481,
+      "display": "la"
+    },
+    {
+      "word": "promoción.",
+      "start": 28.44,
+      "end": 28.88,
+      "probability": 0.9983322024345398,
+      "display": "promoción."
+    }
+  ],
+  "captions": [
+    {
+      "text": "Desde la lista podés editar una promoción y guardar sus cambios.",
+      "startMs": 0,
+      "endMs": 3720,
+      "timestampMs": null,
+      "confidence": 0.959
+    },
+    {
+      "text": "Pausar conserva el elemento pero evita que se aplique;",
+      "startMs": 4160,
+      "endMs": 7120,
+      "timestampMs": null,
+      "confidence": 0.988
+    },
+    {
+      "text": "Reactivar lo vuelve a habilitar, siempre sujeto a sus fechas.",
+      "startMs": 7640,
+      "endMs": 10860,
+      "timestampMs": null,
+      "confidence": 0.983
+    },
+    {
+      "text": "Eliminar es una acción distinta y definitiva, con confirmación dentro de la",
+      "startMs": 11720,
+      "endMs": 16180,
+      "timestampMs": null,
+      "confidence": 0.982
+    },
+    {
+      "text": "página.",
+      "startMs": 16180,
+      "endMs": 16480,
+      "timestampMs": null,
+      "confidence": 0.985
+    },
+    {
+      "text": "Revisá qué elemento seleccionaste y cancelás si no corresponde.",
+      "startMs": 17060,
+      "endMs": 20400,
+      "timestampMs": null,
+      "confidence": 0.883
+    },
+    {
+      "text": "Antes de registrar una venta con beneficio, comprova la vigencia y la",
+      "startMs": 20900,
+      "endMs": 24840,
+      "timestampMs": null,
+      "confidence": 0.971
+    },
+    {
+      "text": "estimación de puntos del formulario;",
+      "startMs": 24840,
+      "endMs": 26400,
+      "timestampMs": null,
+      "confidence": 0.994
+    },
+    {
+      "text": "no te guíes solamente por el nombre de la promoción.",
+      "startMs": 26680,
+      "endMs": 28880,
+      "timestampMs": null,
+      "confidence": 0.98
+    }
+  ],
+  "status": "REVIEW_REQUIRED"
+}

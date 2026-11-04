@@ -1,0 +1,663 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "63e5b213d3343c49067ea8e3b74999a1edf77126e61a452e17dae16c8871ca3e",
+  "transcript": "La cuenta de comercio administra sus propios negocios. La administración general tiene una vista diferente con empresas de toda la plataforma, sus reglas y sus estados. Algunas acciones visibles pueden seguir restringidas por el servidor. No tener permiso no se resuelve cambiando la dirección de la página. Este tutorial usa la cuenta comercial para las tareas diarias. El asistente de inteligencia artificial y los niveles de fidelidad están desactivados en esta versión, aunque exista código histórico. No son herramientas disponibles que tengas que configurar.",
+  "scriptSimilarity": 1.0,
+  "differences": [],
+  "words": [
+    {
+      "word": "La",
+      "start": 0.0,
+      "end": 0.44,
+      "probability": 0.7571129202842712,
+      "display": "La"
+    },
+    {
+      "word": "cuenta",
+      "start": 0.44,
+      "end": 0.66,
+      "probability": 0.8476272821426392,
+      "display": "cuenta"
+    },
+    {
+      "word": "de",
+      "start": 0.66,
+      "end": 0.86,
+      "probability": 0.9948963522911072,
+      "display": "de"
+    },
+    {
+      "word": "comercio",
+      "start": 0.86,
+      "end": 1.3,
+      "probability": 0.9902751743793488,
+      "display": "comercio"
+    },
+    {
+      "word": "administra",
+      "start": 1.3,
+      "end": 1.92,
+      "probability": 0.9956348836421967,
+      "display": "administra"
+    },
+    {
+      "word": "sus",
+      "start": 1.92,
+      "end": 2.1,
+      "probability": 0.9809377789497375,
+      "display": "sus"
+    },
+    {
+      "word": "propios",
+      "start": 2.1,
+      "end": 2.58,
+      "probability": 0.9987852573394775,
+      "display": "propios"
+    },
+    {
+      "word": "negocios.",
+      "start": 2.58,
+      "end": 3.0,
+      "probability": 0.9976548552513123,
+      "display": "negocios."
+    },
+    {
+      "word": "La",
+      "start": 3.52,
+      "end": 3.74,
+      "probability": 0.9878613948822021,
+      "display": "La"
+    },
+    {
+      "word": "administración",
+      "start": 3.74,
+      "end": 4.36,
+      "probability": 0.8569572567939758,
+      "display": "administración"
+    },
+    {
+      "word": "general",
+      "start": 4.36,
+      "end": 4.72,
+      "probability": 0.9594460129737854,
+      "display": "general"
+    },
+    {
+      "word": "tiene",
+      "start": 4.72,
+      "end": 5.06,
+      "probability": 0.9971731901168823,
+      "display": "tiene"
+    },
+    {
+      "word": "una",
+      "start": 5.06,
+      "end": 5.24,
+      "probability": 0.9960242509841919,
+      "display": "una"
+    },
+    {
+      "word": "vista",
+      "start": 5.24,
+      "end": 5.5,
+      "probability": 0.9948068261146545,
+      "display": "vista"
+    },
+    {
+      "word": "diferente",
+      "start": 5.5,
+      "end": 5.9,
+      "probability": 0.9952505826950073,
+      "display": "diferente"
+    },
+    {
+      "word": "con",
+      "start": 5.9,
+      "end": 6.22,
+      "probability": 0.9835967421531677,
+      "display": "con"
+    },
+    {
+      "word": "empresas",
+      "start": 6.22,
+      "end": 6.6,
+      "probability": 0.994474470615387,
+      "display": "empresas"
+    },
+    {
+      "word": "de",
+      "start": 6.6,
+      "end": 6.86,
+      "probability": 0.9965370893478394,
+      "display": "de"
+    },
+    {
+      "word": "toda",
+      "start": 6.86,
+      "end": 7.08,
+      "probability": 0.9977191090583801,
+      "display": "toda"
+    },
+    {
+      "word": "la",
+      "start": 7.08,
+      "end": 7.24,
+      "probability": 0.9973405003547668,
+      "display": "la"
+    },
+    {
+      "word": "plataforma,",
+      "start": 7.24,
+      "end": 7.7,
+      "probability": 0.993008017539978,
+      "display": "plataforma,"
+    },
+    {
+      "word": "sus",
+      "start": 8.16,
+      "end": 8.38,
+      "probability": 0.9901522994041443,
+      "display": "sus"
+    },
+    {
+      "word": "reglas",
+      "start": 8.38,
+      "end": 8.8,
+      "probability": 0.9963499307632446,
+      "display": "reglas"
+    },
+    {
+      "word": "y",
+      "start": 8.8,
+      "end": 9.18,
+      "probability": 0.9431796669960022,
+      "display": "y"
+    },
+    {
+      "word": "sus",
+      "start": 9.18,
+      "end": 9.38,
+      "probability": 0.9884065985679626,
+      "display": "sus"
+    },
+    {
+      "word": "estados.",
+      "start": 9.38,
+      "end": 9.76,
+      "probability": 0.9805988073348999,
+      "display": "estados."
+    },
+    {
+      "word": "Algunas",
+      "start": 10.38,
+      "end": 10.84,
+      "probability": 0.9657052159309387,
+      "display": "Algunas"
+    },
+    {
+      "word": "acciones",
+      "start": 10.84,
+      "end": 11.16,
+      "probability": 0.9985813200473785,
+      "display": "acciones"
+    },
+    {
+      "word": "visibles",
+      "start": 11.16,
+      "end": 11.66,
+      "probability": 0.9908343851566315,
+      "display": "visibles"
+    },
+    {
+      "word": "pueden",
+      "start": 11.66,
+      "end": 12.14,
+      "probability": 0.9660765528678894,
+      "display": "pueden"
+    },
+    {
+      "word": "seguir",
+      "start": 12.14,
+      "end": 12.46,
+      "probability": 0.9984802603721619,
+      "display": "seguir"
+    },
+    {
+      "word": "restringidas",
+      "start": 12.46,
+      "end": 13.16,
+      "probability": 0.9810029864311218,
+      "display": "restringidas"
+    },
+    {
+      "word": "por",
+      "start": 13.16,
+      "end": 13.4,
+      "probability": 0.9977661371231079,
+      "display": "por"
+    },
+    {
+      "word": "el",
+      "start": 13.4,
+      "end": 13.52,
+      "probability": 0.9948786497116089,
+      "display": "el"
+    },
+    {
+      "word": "servidor.",
+      "start": 13.52,
+      "end": 13.92,
+      "probability": 0.987841010093689,
+      "display": "servidor:"
+    },
+    {
+      "word": "No",
+      "start": 14.36,
+      "end": 14.6,
+      "probability": 0.9857827425003052,
+      "display": "no"
+    },
+    {
+      "word": "tener",
+      "start": 14.6,
+      "end": 14.8,
+      "probability": 0.9985849857330322,
+      "display": "tener"
+    },
+    {
+      "word": "permiso",
+      "start": 14.8,
+      "end": 15.32,
+      "probability": 0.9936488270759583,
+      "display": "permiso"
+    },
+    {
+      "word": "no",
+      "start": 15.32,
+      "end": 15.54,
+      "probability": 0.9303746819496155,
+      "display": "no"
+    },
+    {
+      "word": "se",
+      "start": 15.54,
+      "end": 15.68,
+      "probability": 0.9990854263305664,
+      "display": "se"
+    },
+    {
+      "word": "resuelve",
+      "start": 15.68,
+      "end": 16.14,
+      "probability": 0.9864384531974792,
+      "display": "resuelve"
+    },
+    {
+      "word": "cambiando",
+      "start": 16.14,
+      "end": 16.66,
+      "probability": 0.9935914278030396,
+      "display": "cambiando"
+    },
+    {
+      "word": "la",
+      "start": 16.66,
+      "end": 16.82,
+      "probability": 0.9967613816261292,
+      "display": "la"
+    },
+    {
+      "word": "dirección",
+      "start": 16.82,
+      "end": 17.22,
+      "probability": 0.9971331655979156,
+      "display": "dirección"
+    },
+    {
+      "word": "de",
+      "start": 17.22,
+      "end": 17.36,
+      "probability": 0.9989734888076782,
+      "display": "de"
+    },
+    {
+      "word": "la",
+      "start": 17.36,
+      "end": 17.48,
+      "probability": 0.9980827569961548,
+      "display": "la"
+    },
+    {
+      "word": "página.",
+      "start": 17.48,
+      "end": 17.7,
+      "probability": 0.9883520007133484,
+      "display": "página."
+    },
+    {
+      "word": "Este",
+      "start": 18.2,
+      "end": 18.46,
+      "probability": 0.9857058525085449,
+      "display": "Este"
+    },
+    {
+      "word": "tutorial",
+      "start": 18.46,
+      "end": 18.8,
+      "probability": 0.9946922659873962,
+      "display": "tutorial"
+    },
+    {
+      "word": "usa",
+      "start": 18.8,
+      "end": 19.28,
+      "probability": 0.983262300491333,
+      "display": "usa"
+    },
+    {
+      "word": "la",
+      "start": 19.28,
+      "end": 19.42,
+      "probability": 0.996629536151886,
+      "display": "la"
+    },
+    {
+      "word": "cuenta",
+      "start": 19.42,
+      "end": 19.68,
+      "probability": 0.9866762757301331,
+      "display": "cuenta"
+    },
+    {
+      "word": "comercial",
+      "start": 19.68,
+      "end": 20.28,
+      "probability": 0.9986996650695801,
+      "display": "comercial"
+    },
+    {
+      "word": "para",
+      "start": 20.28,
+      "end": 20.54,
+      "probability": 0.9971956014633179,
+      "display": "para"
+    },
+    {
+      "word": "las",
+      "start": 20.54,
+      "end": 20.76,
+      "probability": 0.9968671202659607,
+      "display": "las"
+    },
+    {
+      "word": "tareas",
+      "start": 20.76,
+      "end": 21.12,
+      "probability": 0.9938133656978607,
+      "display": "tareas"
+    },
+    {
+      "word": "diarias.",
+      "start": 21.12,
+      "end": 21.46,
+      "probability": 0.9942744374275208,
+      "display": "diarias."
+    },
+    {
+      "word": "El",
+      "start": 22.04,
+      "end": 22.28,
+      "probability": 0.9881431460380554,
+      "display": "El"
+    },
+    {
+      "word": "asistente",
+      "start": 22.28,
+      "end": 22.68,
+      "probability": 0.9646326700846354,
+      "display": "asistente"
+    },
+    {
+      "word": "de",
+      "start": 22.68,
+      "end": 22.84,
+      "probability": 0.9988735318183899,
+      "display": "de"
+    },
+    {
+      "word": "inteligencia",
+      "start": 22.84,
+      "end": 23.4,
+      "probability": 0.8758711417516073,
+      "display": "inteligencia"
+    },
+    {
+      "word": "artificial",
+      "start": 23.4,
+      "end": 23.84,
+      "probability": 0.9975882768630981,
+      "display": "artificial"
+    },
+    {
+      "word": "y",
+      "start": 23.84,
+      "end": 24.2,
+      "probability": 0.9844732284545898,
+      "display": "y"
+    },
+    {
+      "word": "los",
+      "start": 24.2,
+      "end": 24.34,
+      "probability": 0.9961662292480469,
+      "display": "los"
+    },
+    {
+      "word": "niveles",
+      "start": 24.34,
+      "end": 24.68,
+      "probability": 0.9993536472320557,
+      "display": "niveles"
+    },
+    {
+      "word": "de",
+      "start": 24.68,
+      "end": 24.84,
+      "probability": 0.99916672706604,
+      "display": "de"
+    },
+    {
+      "word": "fidelidad",
+      "start": 24.84,
+      "end": 25.36,
+      "probability": 0.974886159102122,
+      "display": "fidelidad"
+    },
+    {
+      "word": "están",
+      "start": 25.36,
+      "end": 25.76,
+      "probability": 0.9517937898635864,
+      "display": "están"
+    },
+    {
+      "word": "desactivados",
+      "start": 25.76,
+      "end": 26.4,
+      "probability": 0.9966948628425598,
+      "display": "desactivados"
+    },
+    {
+      "word": "en",
+      "start": 26.4,
+      "end": 26.6,
+      "probability": 0.996664822101593,
+      "display": "en"
+    },
+    {
+      "word": "esta",
+      "start": 26.6,
+      "end": 26.78,
+      "probability": 0.9902883768081665,
+      "display": "esta"
+    },
+    {
+      "word": "versión,",
+      "start": 26.78,
+      "end": 27.18,
+      "probability": 0.9941522479057312,
+      "display": "versión,"
+    },
+    {
+      "word": "aunque",
+      "start": 27.42,
+      "end": 27.68,
+      "probability": 0.9934271574020386,
+      "display": "aunque"
+    },
+    {
+      "word": "exista",
+      "start": 27.68,
+      "end": 28.18,
+      "probability": 0.8973453044891357,
+      "display": "exista"
+    },
+    {
+      "word": "código",
+      "start": 28.18,
+      "end": 28.44,
+      "probability": 0.9762985706329346,
+      "display": "código"
+    },
+    {
+      "word": "histórico.",
+      "start": 28.44,
+      "end": 29.02,
+      "probability": 0.9991596937179565,
+      "display": "histórico:"
+    },
+    {
+      "word": "No",
+      "start": 29.02,
+      "end": 29.48,
+      "probability": 0.7027274966239929,
+      "display": "no"
+    },
+    {
+      "word": "son",
+      "start": 29.48,
+      "end": 29.66,
+      "probability": 0.9971407651901245,
+      "display": "son"
+    },
+    {
+      "word": "herramientas",
+      "start": 29.66,
+      "end": 30.14,
+      "probability": 0.9989984035491943,
+      "display": "herramientas"
+    },
+    {
+      "word": "disponibles",
+      "start": 30.14,
+      "end": 30.66,
+      "probability": 0.998911440372467,
+      "display": "disponibles"
+    },
+    {
+      "word": "que",
+      "start": 30.66,
+      "end": 30.86,
+      "probability": 0.9857538938522339,
+      "display": "que"
+    },
+    {
+      "word": "tengas",
+      "start": 30.86,
+      "end": 31.26,
+      "probability": 0.9985741376876831,
+      "display": "tengas"
+    },
+    {
+      "word": "que",
+      "start": 31.26,
+      "end": 31.34,
+      "probability": 0.9990333318710327,
+      "display": "que"
+    },
+    {
+      "word": "configurar.",
+      "start": 31.34,
+      "end": 31.92,
+      "probability": 0.9980514049530029,
+      "display": "configurar."
+    }
+  ],
+  "captions": [
+    {
+      "text": "La cuenta de comercio administra sus propios negocios.",
+      "startMs": 0,
+      "endMs": 3000,
+      "timestampMs": null,
+      "confidence": 0.945
+    },
+    {
+      "text": "La administración general tiene una vista diferente con empresas de toda la",
+      "startMs": 3520,
+      "endMs": 7240,
+      "timestampMs": null,
+      "confidence": 0.98
+    },
+    {
+      "text": "plataforma, sus reglas y sus estados.",
+      "startMs": 7240,
+      "endMs": 9760,
+      "timestampMs": null,
+      "confidence": 0.982
+    },
+    {
+      "text": "Algunas acciones visibles pueden seguir restringidas por el servidor:",
+      "startMs": 10380,
+      "endMs": 13920,
+      "timestampMs": null,
+      "confidence": 0.987
+    },
+    {
+      "text": "no tener permiso no se resuelve cambiando la dirección de la página.",
+      "startMs": 14360,
+      "endMs": 17700,
+      "timestampMs": null,
+      "confidence": 0.989
+    },
+    {
+      "text": "Este tutorial usa la cuenta comercial para las tareas diarias.",
+      "startMs": 18200,
+      "endMs": 21460,
+      "timestampMs": null,
+      "confidence": 0.993
+    },
+    {
+      "text": "El asistente de inteligencia artificial y los niveles de fidelidad están",
+      "startMs": 22040,
+      "endMs": 25760,
+      "timestampMs": null,
+      "confidence": 0.976
+    },
+    {
+      "text": "desactivados en esta versión, aunque exista código histórico:",
+      "startMs": 25760,
+      "endMs": 29020,
+      "timestampMs": null,
+      "confidence": 0.981
+    },
+    {
+      "text": "no son herramientas disponibles que tengas que configurar.",
+      "startMs": 29020,
+      "endMs": 31920,
+      "timestampMs": null,
+      "confidence": 0.96
+    }
+  ],
+  "status": "ACOUSTIC_MATCH"
+}

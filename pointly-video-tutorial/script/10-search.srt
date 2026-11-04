@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:05,100
+En Clientes podés buscar por nombre o DNI, incluso usando solo una parte.
+
+2
+00:00:05,520 --> 00:00:08,560
+El filtro permite ver todos, activos o archivados;
+
+3
+00:00:09,080 --> 00:00:11,460
+dejá la búsqueda vacía para recuperar la lista.
+
+4
+00:00:11,860 --> 00:00:14,800
+Abríver detalle para revisar el saldo y los movimientos.
+
+5
+00:00:15,160 --> 00:00:18,940
+Cada movimiento muestra su fecha y distingue puntos sumados, canjes o
+
+6
+00:00:18,940 --> 00:00:19,440
+vencimientos.
+
+7
+00:00:20,020 --> 00:00:23,800
+Los contactos se consultan con una acción específica y se pueden volver a
+
+8
+00:00:23,800 --> 00:00:24,240
+ocultar.
+
+9
+00:00:24,740 --> 00:00:27,760
+Si hay varias páginas, avanzá con los controles de navegación;
+
+10
+00:00:27,760 --> 00:00:30,640
+una búsqueda sin resultados no es un error de carga.

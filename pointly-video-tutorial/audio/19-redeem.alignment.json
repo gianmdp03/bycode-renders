@@ -1,0 +1,702 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "c79a06b337d69cd78dfaf90c10cc750b9a475ad4aa2fa8b6dae79ac7cf18bb2b",
+  "transcript": "Antes de canjear, acordá con el cliente qué premio va a recibir. En su tarjeta, abrí canjear e indicá país y DNI verificar el nombre del premio y su costo, y confirmá una sola vez. En nuestro ejemplo, el café cuesta 80 puntos. Después del canje, el saldo baja en esa cantidad y aparece un movimiento de canje en el historial. La entrega física o la aplicación del descuento la coordina el comercio. El cliente consulta sus opciones en la billetera, pero no ejecuta el canje desde allí.",
+  "scriptSimilarity": 0.9773,
+  "differences": [
+    {
+      "op": "replace",
+      "expected": "Verificá",
+      "heard": "verificar"
+    },
+    {
+      "op": "replace",
+      "expected": "ochenta",
+      "heard": "80"
+    }
+  ],
+  "words": [
+    {
+      "word": "Antes",
+      "start": 0.0,
+      "end": 0.42,
+      "probability": 0.890287458896637,
+      "display": "Antes"
+    },
+    {
+      "word": "de",
+      "start": 0.42,
+      "end": 0.64,
+      "probability": 0.9972412586212158,
+      "display": "de"
+    },
+    {
+      "word": "canjear,",
+      "start": 0.64,
+      "end": 1.14,
+      "probability": 0.9545314908027649,
+      "display": "canjear,"
+    },
+    {
+      "word": "acordá",
+      "start": 1.42,
+      "end": 1.74,
+      "probability": 0.8823204636573792,
+      "display": "acordá"
+    },
+    {
+      "word": "con",
+      "start": 1.74,
+      "end": 1.92,
+      "probability": 0.9953022003173828,
+      "display": "con"
+    },
+    {
+      "word": "el",
+      "start": 1.92,
+      "end": 2.08,
+      "probability": 0.9951474070549011,
+      "display": "el"
+    },
+    {
+      "word": "cliente",
+      "start": 2.08,
+      "end": 2.6,
+      "probability": 0.9885888695716858,
+      "display": "cliente"
+    },
+    {
+      "word": "qué",
+      "start": 2.6,
+      "end": 2.84,
+      "probability": 0.7772752046585083,
+      "display": "qué"
+    },
+    {
+      "word": "premio",
+      "start": 2.84,
+      "end": 3.28,
+      "probability": 0.9906265437602997,
+      "display": "premio"
+    },
+    {
+      "word": "va",
+      "start": 3.28,
+      "end": 3.5,
+      "probability": 0.9831892251968384,
+      "display": "va"
+    },
+    {
+      "word": "a",
+      "start": 3.5,
+      "end": 3.62,
+      "probability": 0.9986833930015564,
+      "display": "a"
+    },
+    {
+      "word": "recibir.",
+      "start": 3.62,
+      "end": 3.9,
+      "probability": 0.9992086291313171,
+      "display": "recibir."
+    },
+    {
+      "word": "En",
+      "start": 4.52,
+      "end": 4.72,
+      "probability": 0.9953761100769043,
+      "display": "En"
+    },
+    {
+      "word": "su",
+      "start": 4.72,
+      "end": 4.84,
+      "probability": 0.9955061674118042,
+      "display": "su"
+    },
+    {
+      "word": "tarjeta,",
+      "start": 4.84,
+      "end": 5.36,
+      "probability": 0.9946695367495219,
+      "display": "tarjeta,"
+    },
+    {
+      "word": "abrí",
+      "start": 5.68,
+      "end": 5.98,
+      "probability": 0.8776102066040039,
+      "display": "abrí"
+    },
+    {
+      "word": "canjear",
+      "start": 5.98,
+      "end": 6.6,
+      "probability": 0.9774928092956543,
+      "display": "Canjear"
+    },
+    {
+      "word": "e",
+      "start": 6.6,
+      "end": 6.8,
+      "probability": 0.9893907904624939,
+      "display": "e"
+    },
+    {
+      "word": "indicá",
+      "start": 6.8,
+      "end": 7.14,
+      "probability": 0.662749394774437,
+      "display": "indicá"
+    },
+    {
+      "word": "país",
+      "start": 7.14,
+      "end": 7.54,
+      "probability": 0.6868492364883423,
+      "display": "país"
+    },
+    {
+      "word": "y",
+      "start": 7.54,
+      "end": 7.8,
+      "probability": 0.9678089618682861,
+      "display": "y"
+    },
+    {
+      "word": "DNI",
+      "start": 7.8,
+      "end": 8.26,
+      "probability": 0.7562918961048126,
+      "display": "DNI."
+    },
+    {
+      "word": "verificar",
+      "start": 8.26,
+      "end": 8.7,
+      "probability": 0.6125847399234772,
+      "display": "verificar"
+    },
+    {
+      "word": "el",
+      "start": 8.7,
+      "end": 8.88,
+      "probability": 0.9989499449729919,
+      "display": "el"
+    },
+    {
+      "word": "nombre",
+      "start": 8.88,
+      "end": 9.14,
+      "probability": 0.9994305968284607,
+      "display": "nombre"
+    },
+    {
+      "word": "del",
+      "start": 9.14,
+      "end": 9.34,
+      "probability": 0.9855296015739441,
+      "display": "del"
+    },
+    {
+      "word": "premio",
+      "start": 9.34,
+      "end": 9.8,
+      "probability": 0.9861827790737152,
+      "display": "premio"
+    },
+    {
+      "word": "y",
+      "start": 9.8,
+      "end": 9.96,
+      "probability": 0.9973276853561401,
+      "display": "y"
+    },
+    {
+      "word": "su",
+      "start": 9.96,
+      "end": 10.08,
+      "probability": 0.996309220790863,
+      "display": "su"
+    },
+    {
+      "word": "costo,",
+      "start": 10.08,
+      "end": 10.54,
+      "probability": 0.9988884329795837,
+      "display": "costo,"
+    },
+    {
+      "word": "y",
+      "start": 10.7,
+      "end": 10.92,
+      "probability": 0.9954172372817993,
+      "display": "y"
+    },
+    {
+      "word": "confirmá",
+      "start": 10.92,
+      "end": 11.48,
+      "probability": 0.8255011439323425,
+      "display": "confirmá"
+    },
+    {
+      "word": "una",
+      "start": 11.48,
+      "end": 11.74,
+      "probability": 0.9963805079460144,
+      "display": "una"
+    },
+    {
+      "word": "sola",
+      "start": 11.74,
+      "end": 11.98,
+      "probability": 0.9938415288925171,
+      "display": "sola"
+    },
+    {
+      "word": "vez.",
+      "start": 11.98,
+      "end": 12.24,
+      "probability": 0.9991672039031982,
+      "display": "vez."
+    },
+    {
+      "word": "En",
+      "start": 12.84,
+      "end": 12.98,
+      "probability": 0.9901424646377563,
+      "display": "En"
+    },
+    {
+      "word": "nuestro",
+      "start": 12.98,
+      "end": 13.14,
+      "probability": 0.9989054203033447,
+      "display": "nuestro"
+    },
+    {
+      "word": "ejemplo,",
+      "start": 13.14,
+      "end": 13.58,
+      "probability": 0.9957157969474792,
+      "display": "ejemplo,"
+    },
+    {
+      "word": "el",
+      "start": 14.08,
+      "end": 14.16,
+      "probability": 0.9914755821228027,
+      "display": "el"
+    },
+    {
+      "word": "café",
+      "start": 14.16,
+      "end": 14.36,
+      "probability": 0.9741938710212708,
+      "display": "café"
+    },
+    {
+      "word": "cuesta",
+      "start": 14.36,
+      "end": 14.76,
+      "probability": 0.9947181344032288,
+      "display": "cuesta"
+    },
+    {
+      "word": "80",
+      "start": 14.76,
+      "end": 15.08,
+      "probability": 0.9732610583305359,
+      "display": "80"
+    },
+    {
+      "word": "puntos.",
+      "start": 15.08,
+      "end": 15.46,
+      "probability": 0.9968851208686829,
+      "display": "puntos:"
+    },
+    {
+      "word": "Después",
+      "start": 15.88,
+      "end": 16.14,
+      "probability": 0.9944732785224915,
+      "display": "después"
+    },
+    {
+      "word": "del",
+      "start": 16.14,
+      "end": 16.4,
+      "probability": 0.9879897236824036,
+      "display": "del"
+    },
+    {
+      "word": "canje,",
+      "start": 16.4,
+      "end": 16.8,
+      "probability": 0.9894493520259857,
+      "display": "canje,"
+    },
+    {
+      "word": "el",
+      "start": 17.16,
+      "end": 17.22,
+      "probability": 0.9951193332672119,
+      "display": "el"
+    },
+    {
+      "word": "saldo",
+      "start": 17.22,
+      "end": 17.54,
+      "probability": 0.9989742338657379,
+      "display": "saldo"
+    },
+    {
+      "word": "baja",
+      "start": 17.54,
+      "end": 17.78,
+      "probability": 0.9942499399185181,
+      "display": "baja"
+    },
+    {
+      "word": "en",
+      "start": 17.78,
+      "end": 17.98,
+      "probability": 0.9958329796791077,
+      "display": "en"
+    },
+    {
+      "word": "esa",
+      "start": 17.98,
+      "end": 18.14,
+      "probability": 0.9958475232124329,
+      "display": "esa"
+    },
+    {
+      "word": "cantidad",
+      "start": 18.14,
+      "end": 18.5,
+      "probability": 0.9937441945075989,
+      "display": "cantidad"
+    },
+    {
+      "word": "y",
+      "start": 18.5,
+      "end": 18.88,
+      "probability": 0.9700796008110046,
+      "display": "y"
+    },
+    {
+      "word": "aparece",
+      "start": 18.88,
+      "end": 19.22,
+      "probability": 0.9957981705665588,
+      "display": "aparece"
+    },
+    {
+      "word": "un",
+      "start": 19.22,
+      "end": 19.4,
+      "probability": 0.9981677532196045,
+      "display": "un"
+    },
+    {
+      "word": "movimiento",
+      "start": 19.4,
+      "end": 19.68,
+      "probability": 0.9931455850601196,
+      "display": "movimiento"
+    },
+    {
+      "word": "de",
+      "start": 19.68,
+      "end": 20.04,
+      "probability": 0.9874968528747559,
+      "display": "de"
+    },
+    {
+      "word": "canje",
+      "start": 20.04,
+      "end": 20.4,
+      "probability": 0.9905135035514832,
+      "display": "canje"
+    },
+    {
+      "word": "en",
+      "start": 20.4,
+      "end": 20.6,
+      "probability": 0.9979454874992371,
+      "display": "en"
+    },
+    {
+      "word": "el",
+      "start": 20.6,
+      "end": 20.68,
+      "probability": 0.994312047958374,
+      "display": "el"
+    },
+    {
+      "word": "historial.",
+      "start": 20.68,
+      "end": 21.08,
+      "probability": 0.9682453870773315,
+      "display": "historial."
+    },
+    {
+      "word": "La",
+      "start": 21.64,
+      "end": 21.9,
+      "probability": 0.9864885210990906,
+      "display": "La"
+    },
+    {
+      "word": "entrega",
+      "start": 21.9,
+      "end": 22.28,
+      "probability": 0.9952373504638672,
+      "display": "entrega"
+    },
+    {
+      "word": "física",
+      "start": 22.28,
+      "end": 22.58,
+      "probability": 0.9963217973709106,
+      "display": "física"
+    },
+    {
+      "word": "o",
+      "start": 22.58,
+      "end": 22.92,
+      "probability": 0.9523992538452148,
+      "display": "o"
+    },
+    {
+      "word": "la",
+      "start": 22.92,
+      "end": 23.02,
+      "probability": 0.9975917339324951,
+      "display": "la"
+    },
+    {
+      "word": "aplicación",
+      "start": 23.02,
+      "end": 23.5,
+      "probability": 0.9953453838825226,
+      "display": "aplicación"
+    },
+    {
+      "word": "del",
+      "start": 23.5,
+      "end": 23.66,
+      "probability": 0.989801824092865,
+      "display": "del"
+    },
+    {
+      "word": "descuento",
+      "start": 23.66,
+      "end": 24.08,
+      "probability": 0.987795869509379,
+      "display": "descuento"
+    },
+    {
+      "word": "la",
+      "start": 24.08,
+      "end": 24.38,
+      "probability": 0.8410030603408813,
+      "display": "la"
+    },
+    {
+      "word": "coordina",
+      "start": 24.38,
+      "end": 24.86,
+      "probability": 0.8972560465335846,
+      "display": "coordina"
+    },
+    {
+      "word": "el",
+      "start": 24.86,
+      "end": 25.02,
+      "probability": 0.9916604161262512,
+      "display": "el"
+    },
+    {
+      "word": "comercio.",
+      "start": 25.02,
+      "end": 25.48,
+      "probability": 0.9964810311794281,
+      "display": "comercio."
+    },
+    {
+      "word": "El",
+      "start": 25.48,
+      "end": 26.38,
+      "probability": 0.927042543888092,
+      "display": "El"
+    },
+    {
+      "word": "cliente",
+      "start": 26.38,
+      "end": 26.78,
+      "probability": 0.9944184422492981,
+      "display": "cliente"
+    },
+    {
+      "word": "consulta",
+      "start": 26.78,
+      "end": 27.26,
+      "probability": 0.9911048114299774,
+      "display": "consulta"
+    },
+    {
+      "word": "sus",
+      "start": 27.26,
+      "end": 27.38,
+      "probability": 0.9970676302909851,
+      "display": "sus"
+    },
+    {
+      "word": "opciones",
+      "start": 27.38,
+      "end": 27.8,
+      "probability": 0.9981124401092529,
+      "display": "opciones"
+    },
+    {
+      "word": "en",
+      "start": 27.8,
+      "end": 28.0,
+      "probability": 0.997081458568573,
+      "display": "en"
+    },
+    {
+      "word": "la",
+      "start": 28.0,
+      "end": 28.1,
+      "probability": 0.9738327264785767,
+      "display": "la"
+    },
+    {
+      "word": "billetera,",
+      "start": 28.1,
+      "end": 28.56,
+      "probability": 0.9812645614147186,
+      "display": "billetera,"
+    },
+    {
+      "word": "pero",
+      "start": 28.98,
+      "end": 29.1,
+      "probability": 0.9930188059806824,
+      "display": "pero"
+    },
+    {
+      "word": "no",
+      "start": 29.1,
+      "end": 29.28,
+      "probability": 0.999068558216095,
+      "display": "no"
+    },
+    {
+      "word": "ejecuta",
+      "start": 29.28,
+      "end": 29.72,
+      "probability": 0.9508517384529114,
+      "display": "ejecuta"
+    },
+    {
+      "word": "el",
+      "start": 29.72,
+      "end": 29.8,
+      "probability": 0.9387115240097046,
+      "display": "el"
+    },
+    {
+      "word": "canje",
+      "start": 29.8,
+      "end": 30.14,
+      "probability": 0.8708769977092743,
+      "display": "canje"
+    },
+    {
+      "word": "desde",
+      "start": 30.14,
+      "end": 30.32,
+      "probability": 0.9926760792732239,
+      "display": "desde"
+    },
+    {
+      "word": "allí.",
+      "start": 30.32,
+      "end": 30.58,
+      "probability": 0.9947324991226196,
+      "display": "allí."
+    }
+  ],
+  "captions": [
+    {
+      "text": "Antes de canjear, acordá con el cliente qué premio va a recibir.",
+      "startMs": 0,
+      "endMs": 3900,
+      "timestampMs": null,
+      "confidence": 0.954
+    },
+    {
+      "text": "En su tarjeta, abrí Canjear e indicá país y DNI.",
+      "startMs": 4520,
+      "endMs": 8260,
+      "timestampMs": null,
+      "confidence": 0.89
+    },
+    {
+      "text": "verificar el nombre del premio y su costo, y confirmá una sola vez.",
+      "startMs": 8260,
+      "endMs": 12240,
+      "timestampMs": null,
+      "confidence": 0.953
+    },
+    {
+      "text": "En nuestro ejemplo, el café cuesta 80 puntos:",
+      "startMs": 12840,
+      "endMs": 15460,
+      "timestampMs": null,
+      "confidence": 0.989
+    },
+    {
+      "text": "después del canje, el saldo baja en esa cantidad y aparece un movimiento de",
+      "startMs": 15880,
+      "endMs": 20040,
+      "timestampMs": null,
+      "confidence": 0.992
+    },
+    {
+      "text": "canje en el historial.",
+      "startMs": 20040,
+      "endMs": 21080,
+      "timestampMs": null,
+      "confidence": 0.988
+    },
+    {
+      "text": "La entrega física o la aplicación del descuento la coordina el comercio.",
+      "startMs": 21640,
+      "endMs": 25480,
+      "timestampMs": null,
+      "confidence": 0.969
+    },
+    {
+      "text": "El cliente consulta sus opciones en la billetera, pero no ejecuta el canje",
+      "startMs": 25480,
+      "endMs": 30140,
+      "timestampMs": null,
+      "confidence": 0.97
+    },
+    {
+      "text": "desde allí.",
+      "startMs": 30140,
+      "endMs": 30580,
+      "timestampMs": null,
+      "confidence": 0.994
+    }
+  ],
+  "status": "REVIEW_REQUIRED"
+}

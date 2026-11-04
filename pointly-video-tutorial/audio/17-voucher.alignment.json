@@ -1,0 +1,663 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "063b7acb5c67d7fe5992801bb7a11f8d73f329bbd3692d797d8495657713c474",
+  "transcript": "Un voucher también se obtiene con puntos, pero representa un descuento. Elegí voucher de descuento y definí si será un porcentaje o un importe fijo. Por ejemplo, 10 % o 2000 pesos. El porcentaje debe ser mayor que 0 y no superar 100. Completá las condiciones y el costo en puntos. Revisá la vista previa antes de guardar. El comercio aplica el beneficio al entregar el premio. Esto no crea un cupón con código ni descuenta dinero automáticamente en una caja.",
+  "scriptSimilarity": 0.9268,
+  "differences": [
+    {
+      "op": "replace",
+      "expected": "diez por ciento",
+      "heard": "10 %"
+    },
+    {
+      "op": "replace",
+      "expected": "dos mil",
+      "heard": "2000"
+    },
+    {
+      "op": "replace",
+      "expected": "cero",
+      "heard": "0"
+    },
+    {
+      "op": "replace",
+      "expected": "cien.",
+      "heard": "100."
+    }
+  ],
+  "words": [
+    {
+      "word": "Un",
+      "start": 0.0,
+      "end": 0.58,
+      "probability": 0.9715785384178162,
+      "display": "Un"
+    },
+    {
+      "word": "voucher",
+      "start": 0.58,
+      "end": 0.98,
+      "probability": 0.9929028153419495,
+      "display": "voucher"
+    },
+    {
+      "word": "también",
+      "start": 0.98,
+      "end": 1.24,
+      "probability": 0.9856997132301331,
+      "display": "también"
+    },
+    {
+      "word": "se",
+      "start": 1.24,
+      "end": 1.4,
+      "probability": 0.9961832165718079,
+      "display": "se"
+    },
+    {
+      "word": "obtiene",
+      "start": 1.4,
+      "end": 1.72,
+      "probability": 0.9968780279159546,
+      "display": "obtiene"
+    },
+    {
+      "word": "con",
+      "start": 1.72,
+      "end": 1.92,
+      "probability": 0.9940549731254578,
+      "display": "con"
+    },
+    {
+      "word": "puntos,",
+      "start": 1.92,
+      "end": 2.26,
+      "probability": 0.9823351502418518,
+      "display": "puntos,"
+    },
+    {
+      "word": "pero",
+      "start": 2.48,
+      "end": 2.64,
+      "probability": 0.9916219711303711,
+      "display": "pero"
+    },
+    {
+      "word": "representa",
+      "start": 2.64,
+      "end": 3.12,
+      "probability": 0.9951176643371582,
+      "display": "representa"
+    },
+    {
+      "word": "un",
+      "start": 3.12,
+      "end": 3.38,
+      "probability": 0.9966350197792053,
+      "display": "un"
+    },
+    {
+      "word": "descuento.",
+      "start": 3.38,
+      "end": 3.84,
+      "probability": 0.9867379864056905,
+      "display": "descuento."
+    },
+    {
+      "word": "Elegí",
+      "start": 4.44,
+      "end": 4.7,
+      "probability": 0.8343025247255961,
+      "display": "Elegí"
+    },
+    {
+      "word": "voucher",
+      "start": 4.7,
+      "end": 5.02,
+      "probability": 0.9537424147129059,
+      "display": "Voucher"
+    },
+    {
+      "word": "de",
+      "start": 5.02,
+      "end": 5.12,
+      "probability": 0.9958398342132568,
+      "display": "de"
+    },
+    {
+      "word": "descuento",
+      "start": 5.12,
+      "end": 5.58,
+      "probability": 0.9964866439501444,
+      "display": "descuento"
+    },
+    {
+      "word": "y",
+      "start": 5.58,
+      "end": 5.84,
+      "probability": 0.8998365998268127,
+      "display": "y"
+    },
+    {
+      "word": "definí",
+      "start": 5.84,
+      "end": 6.26,
+      "probability": 0.9024621248245239,
+      "display": "definí"
+    },
+    {
+      "word": "si",
+      "start": 6.26,
+      "end": 6.32,
+      "probability": 0.991904079914093,
+      "display": "si"
+    },
+    {
+      "word": "será",
+      "start": 6.32,
+      "end": 6.56,
+      "probability": 0.997929573059082,
+      "display": "será"
+    },
+    {
+      "word": "un",
+      "start": 6.56,
+      "end": 6.7,
+      "probability": 0.9880397915840149,
+      "display": "un"
+    },
+    {
+      "word": "porcentaje",
+      "start": 6.7,
+      "end": 7.36,
+      "probability": 0.996187706788381,
+      "display": "porcentaje"
+    },
+    {
+      "word": "o",
+      "start": 7.36,
+      "end": 7.62,
+      "probability": 0.9860759377479553,
+      "display": "o"
+    },
+    {
+      "word": "un",
+      "start": 7.62,
+      "end": 7.74,
+      "probability": 0.9988442659378052,
+      "display": "un"
+    },
+    {
+      "word": "importe",
+      "start": 7.74,
+      "end": 8.14,
+      "probability": 0.9873479902744293,
+      "display": "importe"
+    },
+    {
+      "word": "fijo.",
+      "start": 8.14,
+      "end": 8.38,
+      "probability": 0.9654199182987213,
+      "display": "fijo."
+    },
+    {
+      "word": "Por",
+      "start": 9.04,
+      "end": 9.18,
+      "probability": 0.9919825196266174,
+      "display": "Por"
+    },
+    {
+      "word": "ejemplo,",
+      "start": 9.18,
+      "end": 9.46,
+      "probability": 0.9992923736572266,
+      "display": "ejemplo,"
+    },
+    {
+      "word": "10",
+      "start": 9.78,
+      "end": 9.94,
+      "probability": 0.9657700061798096,
+      "display": "10"
+    },
+    {
+      "word": "%",
+      "start": 9.94,
+      "end": 10.4,
+      "probability": 0.8629063963890076,
+      "display": "%"
+    },
+    {
+      "word": "o",
+      "start": 10.4,
+      "end": 10.84,
+      "probability": 0.9761404991149902,
+      "display": "o"
+    },
+    {
+      "word": "2000",
+      "start": 10.84,
+      "end": 11.12,
+      "probability": 0.42716673016548157,
+      "display": "2000"
+    },
+    {
+      "word": "pesos.",
+      "start": 11.12,
+      "end": 11.48,
+      "probability": 0.9849793314933777,
+      "display": "pesos."
+    },
+    {
+      "word": "El",
+      "start": 12.12,
+      "end": 12.26,
+      "probability": 0.9966765642166138,
+      "display": "El"
+    },
+    {
+      "word": "porcentaje",
+      "start": 12.26,
+      "end": 12.86,
+      "probability": 0.9983711838722229,
+      "display": "porcentaje"
+    },
+    {
+      "word": "debe",
+      "start": 12.86,
+      "end": 13.06,
+      "probability": 0.996891438961029,
+      "display": "debe"
+    },
+    {
+      "word": "ser",
+      "start": 13.06,
+      "end": 13.28,
+      "probability": 0.9941266775131226,
+      "display": "ser"
+    },
+    {
+      "word": "mayor",
+      "start": 13.28,
+      "end": 13.54,
+      "probability": 0.9940634369850159,
+      "display": "mayor"
+    },
+    {
+      "word": "que",
+      "start": 13.54,
+      "end": 13.76,
+      "probability": 0.9973251819610596,
+      "display": "que"
+    },
+    {
+      "word": "0",
+      "start": 13.76,
+      "end": 14.04,
+      "probability": 0.6492202281951904,
+      "display": "0"
+    },
+    {
+      "word": "y",
+      "start": 14.04,
+      "end": 14.32,
+      "probability": 0.9603990316390991,
+      "display": "y"
+    },
+    {
+      "word": "no",
+      "start": 14.32,
+      "end": 14.48,
+      "probability": 0.9947592616081238,
+      "display": "no"
+    },
+    {
+      "word": "superar",
+      "start": 14.48,
+      "end": 14.96,
+      "probability": 0.9903933107852936,
+      "display": "superar"
+    },
+    {
+      "word": "100.",
+      "start": 14.96,
+      "end": 15.18,
+      "probability": 0.9815752506256104,
+      "display": "100."
+    },
+    {
+      "word": "Completá",
+      "start": 15.7,
+      "end": 16.12,
+      "probability": 0.7640528082847595,
+      "display": "Completá"
+    },
+    {
+      "word": "las",
+      "start": 16.12,
+      "end": 16.26,
+      "probability": 0.9957588315010071,
+      "display": "las"
+    },
+    {
+      "word": "condiciones",
+      "start": 16.26,
+      "end": 16.7,
+      "probability": 0.9892483353614807,
+      "display": "condiciones"
+    },
+    {
+      "word": "y",
+      "start": 16.7,
+      "end": 17.1,
+      "probability": 0.9937945604324341,
+      "display": "y"
+    },
+    {
+      "word": "el",
+      "start": 17.1,
+      "end": 17.2,
+      "probability": 0.9959716200828552,
+      "display": "el"
+    },
+    {
+      "word": "costo",
+      "start": 17.2,
+      "end": 17.52,
+      "probability": 0.9987152218818665,
+      "display": "costo"
+    },
+    {
+      "word": "en",
+      "start": 17.52,
+      "end": 17.58,
+      "probability": 0.9990290403366089,
+      "display": "en"
+    },
+    {
+      "word": "puntos.",
+      "start": 17.58,
+      "end": 17.82,
+      "probability": 0.9989087581634521,
+      "display": "puntos;"
+    },
+    {
+      "word": "Revisá",
+      "start": 18.36,
+      "end": 18.72,
+      "probability": 0.8150107463200887,
+      "display": "revisá"
+    },
+    {
+      "word": "la",
+      "start": 18.72,
+      "end": 18.8,
+      "probability": 0.9980815649032593,
+      "display": "la"
+    },
+    {
+      "word": "vista",
+      "start": 18.8,
+      "end": 19.02,
+      "probability": 0.987191915512085,
+      "display": "vista"
+    },
+    {
+      "word": "previa",
+      "start": 19.02,
+      "end": 19.56,
+      "probability": 0.9804504811763763,
+      "display": "previa"
+    },
+    {
+      "word": "antes",
+      "start": 19.56,
+      "end": 19.92,
+      "probability": 0.9715443253517151,
+      "display": "antes"
+    },
+    {
+      "word": "de",
+      "start": 19.92,
+      "end": 20.1,
+      "probability": 0.9985988736152649,
+      "display": "de"
+    },
+    {
+      "word": "guardar.",
+      "start": 20.1,
+      "end": 20.46,
+      "probability": 0.9970488846302032,
+      "display": "guardar."
+    },
+    {
+      "word": "El",
+      "start": 21.0,
+      "end": 21.12,
+      "probability": 0.9941944479942322,
+      "display": "El"
+    },
+    {
+      "word": "comercio",
+      "start": 21.12,
+      "end": 21.52,
+      "probability": 0.9896431863307953,
+      "display": "comercio"
+    },
+    {
+      "word": "aplica",
+      "start": 21.52,
+      "end": 21.88,
+      "probability": 0.994751513004303,
+      "display": "aplica"
+    },
+    {
+      "word": "el",
+      "start": 21.88,
+      "end": 21.98,
+      "probability": 0.9713830947875977,
+      "display": "el"
+    },
+    {
+      "word": "beneficio",
+      "start": 21.98,
+      "end": 22.44,
+      "probability": 0.9982079863548279,
+      "display": "beneficio"
+    },
+    {
+      "word": "al",
+      "start": 22.44,
+      "end": 22.52,
+      "probability": 0.9953442215919495,
+      "display": "al"
+    },
+    {
+      "word": "entregar",
+      "start": 22.52,
+      "end": 22.9,
+      "probability": 0.9967908263206482,
+      "display": "entregar"
+    },
+    {
+      "word": "el",
+      "start": 22.9,
+      "end": 23.04,
+      "probability": 0.9990546107292175,
+      "display": "el"
+    },
+    {
+      "word": "premio.",
+      "start": 23.04,
+      "end": 23.4,
+      "probability": 0.9892416000366211,
+      "display": "premio."
+    },
+    {
+      "word": "Esto",
+      "start": 23.76,
+      "end": 24.0,
+      "probability": 0.9798939824104309,
+      "display": "Esto"
+    },
+    {
+      "word": "no",
+      "start": 24.0,
+      "end": 24.18,
+      "probability": 0.9970996379852295,
+      "display": "no"
+    },
+    {
+      "word": "crea",
+      "start": 24.18,
+      "end": 24.4,
+      "probability": 0.993813157081604,
+      "display": "crea"
+    },
+    {
+      "word": "un",
+      "start": 24.4,
+      "end": 24.52,
+      "probability": 0.9968234300613403,
+      "display": "un"
+    },
+    {
+      "word": "cupón",
+      "start": 24.52,
+      "end": 24.82,
+      "probability": 0.9542635679244995,
+      "display": "cupón"
+    },
+    {
+      "word": "con",
+      "start": 24.82,
+      "end": 25.0,
+      "probability": 0.9952640533447266,
+      "display": "con"
+    },
+    {
+      "word": "código",
+      "start": 25.0,
+      "end": 25.3,
+      "probability": 0.9748270511627197,
+      "display": "código"
+    },
+    {
+      "word": "ni",
+      "start": 25.3,
+      "end": 25.54,
+      "probability": 0.8785322308540344,
+      "display": "ni"
+    },
+    {
+      "word": "descuenta",
+      "start": 25.54,
+      "end": 26.02,
+      "probability": 0.9436121980349222,
+      "display": "descuenta"
+    },
+    {
+      "word": "dinero",
+      "start": 26.02,
+      "end": 26.44,
+      "probability": 0.9959583878517151,
+      "display": "dinero"
+    },
+    {
+      "word": "automáticamente",
+      "start": 26.44,
+      "end": 27.4,
+      "probability": 0.9491291443506876,
+      "display": "automáticamente"
+    },
+    {
+      "word": "en",
+      "start": 27.4,
+      "end": 27.56,
+      "probability": 0.9965357780456543,
+      "display": "en"
+    },
+    {
+      "word": "una",
+      "start": 27.56,
+      "end": 27.72,
+      "probability": 0.9985837936401367,
+      "display": "una"
+    },
+    {
+      "word": "caja.",
+      "start": 27.72,
+      "end": 28.0,
+      "probability": 0.9962160587310791,
+      "display": "caja."
+    }
+  ],
+  "captions": [
+    {
+      "text": "Un voucher también se obtiene con puntos, pero representa un descuento.",
+      "startMs": 0,
+      "endMs": 3840,
+      "timestampMs": null,
+      "confidence": 0.99
+    },
+    {
+      "text": "Elegí Voucher de descuento y definí si será un porcentaje o un importe fijo.",
+      "startMs": 4440,
+      "endMs": 8380,
+      "timestampMs": null,
+      "confidence": 0.964
+    },
+    {
+      "text": "Por ejemplo, 10 % o 2000 pesos.",
+      "startMs": 9040,
+      "endMs": 11480,
+      "timestampMs": null,
+      "confidence": 0.887
+    },
+    {
+      "text": "El porcentaje debe ser mayor que 0 y no superar 100.",
+      "startMs": 12120,
+      "endMs": 15180,
+      "timestampMs": null,
+      "confidence": 0.959
+    },
+    {
+      "text": "Completá las condiciones y el costo en puntos;",
+      "startMs": 15700,
+      "endMs": 17820,
+      "timestampMs": null,
+      "confidence": 0.967
+    },
+    {
+      "text": "revisá la vista previa antes de guardar.",
+      "startMs": 18360,
+      "endMs": 20460,
+      "timestampMs": null,
+      "confidence": 0.964
+    },
+    {
+      "text": "El comercio aplica el beneficio al entregar el premio.",
+      "startMs": 21000,
+      "endMs": 23400,
+      "timestampMs": null,
+      "confidence": 0.992
+    },
+    {
+      "text": "Esto no crea un cupón con código ni descuenta dinero automáticamente en una",
+      "startMs": 23760,
+      "endMs": 27720,
+      "timestampMs": null,
+      "confidence": 0.973
+    },
+    {
+      "text": "caja.",
+      "startMs": 27720,
+      "endMs": 28000,
+      "timestampMs": null,
+      "confidence": 0.996
+    }
+  ],
+  "status": "REVIEW_REQUIRED"
+}

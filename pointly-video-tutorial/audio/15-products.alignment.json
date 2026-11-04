@@ -1,0 +1,837 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "db67feb29c4e4799dc7e5a07d44cf0783158985c5511d04c95ee4bed8fa6615f",
+  "transcript": "El catálogo de productos informa lo que ofrece tu comercio, cargá un nombre y un precio. La descripción es opcional. Para la imagen, podés elegir un archivo, pegar un enlace directo o dejar el producto sin foto. Primero, guardamos una foto desde archivo y revisamos la tarjeta. Desde Editar también podemos reemplazarla con enlace. La dirección tiene que apuntar a la imagen, no a una página web. Guardamos y comprobamos el resultado. Para dejarlos sin foto, usamos quitar imagen y guardamos otra vez. Si el producto ya no corresponde, eliminar pide confirmación. Este catálogo no es un carrito de compras ni un control de stock.",
+  "scriptSimilarity": 0.9905,
+  "differences": [
+    {
+      "op": "replace",
+      "expected": "dejarlo",
+      "heard": "dejarlos"
+    }
+  ],
+  "words": [
+    {
+      "word": "El",
+      "start": 0.0,
+      "end": 0.36,
+      "probability": 0.6959933638572693,
+      "display": "El"
+    },
+    {
+      "word": "catálogo",
+      "start": 0.36,
+      "end": 0.74,
+      "probability": 0.9835921923319498,
+      "display": "catálogo"
+    },
+    {
+      "word": "de",
+      "start": 0.74,
+      "end": 0.96,
+      "probability": 0.9953740239143372,
+      "display": "de"
+    },
+    {
+      "word": "productos",
+      "start": 0.96,
+      "end": 1.32,
+      "probability": 0.8364890217781067,
+      "display": "Productos"
+    },
+    {
+      "word": "informa",
+      "start": 1.32,
+      "end": 2.12,
+      "probability": 0.9451330006122589,
+      "display": "informa"
+    },
+    {
+      "word": "lo",
+      "start": 2.12,
+      "end": 2.26,
+      "probability": 0.9949727058410645,
+      "display": "lo"
+    },
+    {
+      "word": "que",
+      "start": 2.26,
+      "end": 2.36,
+      "probability": 0.9984622001647949,
+      "display": "que"
+    },
+    {
+      "word": "ofrece",
+      "start": 2.36,
+      "end": 2.66,
+      "probability": 0.9959534406661987,
+      "display": "ofrece"
+    },
+    {
+      "word": "tu",
+      "start": 2.66,
+      "end": 2.88,
+      "probability": 0.9919396042823792,
+      "display": "tu"
+    },
+    {
+      "word": "comercio,",
+      "start": 2.88,
+      "end": 3.36,
+      "probability": 0.9864893853664398,
+      "display": "comercio."
+    },
+    {
+      "word": "cargá",
+      "start": 3.68,
+      "end": 4.1,
+      "probability": 0.7215041120847067,
+      "display": "Cargá"
+    },
+    {
+      "word": "un",
+      "start": 4.1,
+      "end": 4.26,
+      "probability": 0.9910205006599426,
+      "display": "un"
+    },
+    {
+      "word": "nombre",
+      "start": 4.26,
+      "end": 4.54,
+      "probability": 0.9987388253211975,
+      "display": "nombre"
+    },
+    {
+      "word": "y",
+      "start": 4.54,
+      "end": 4.74,
+      "probability": 0.9964243769645691,
+      "display": "y"
+    },
+    {
+      "word": "un",
+      "start": 4.74,
+      "end": 4.9,
+      "probability": 0.9947847723960876,
+      "display": "un"
+    },
+    {
+      "word": "precio.",
+      "start": 4.9,
+      "end": 5.16,
+      "probability": 0.9968615770339966,
+      "display": "precio;"
+    },
+    {
+      "word": "La",
+      "start": 5.68,
+      "end": 5.82,
+      "probability": 0.9811534881591797,
+      "display": "la"
+    },
+    {
+      "word": "descripción",
+      "start": 5.82,
+      "end": 6.42,
+      "probability": 0.9975206553936005,
+      "display": "descripción"
+    },
+    {
+      "word": "es",
+      "start": 6.42,
+      "end": 6.62,
+      "probability": 0.9977036118507385,
+      "display": "es"
+    },
+    {
+      "word": "opcional.",
+      "start": 6.62,
+      "end": 7.02,
+      "probability": 0.996160477399826,
+      "display": "opcional."
+    },
+    {
+      "word": "Para",
+      "start": 7.62,
+      "end": 7.76,
+      "probability": 0.9949748516082764,
+      "display": "Para"
+    },
+    {
+      "word": "la",
+      "start": 7.76,
+      "end": 7.9,
+      "probability": 0.9989873766899109,
+      "display": "la"
+    },
+    {
+      "word": "imagen,",
+      "start": 7.9,
+      "end": 8.24,
+      "probability": 0.9986658096313477,
+      "display": "imagen"
+    },
+    {
+      "word": "podés",
+      "start": 8.54,
+      "end": 8.72,
+      "probability": 0.7498956322669983,
+      "display": "podés"
+    },
+    {
+      "word": "elegir",
+      "start": 8.72,
+      "end": 9.1,
+      "probability": 0.9982523322105408,
+      "display": "elegir"
+    },
+    {
+      "word": "un",
+      "start": 9.1,
+      "end": 9.22,
+      "probability": 0.9982020854949951,
+      "display": "un"
+    },
+    {
+      "word": "archivo,",
+      "start": 9.22,
+      "end": 9.64,
+      "probability": 0.9938511252403259,
+      "display": "archivo,"
+    },
+    {
+      "word": "pegar",
+      "start": 9.96,
+      "end": 10.16,
+      "probability": 0.9847574234008789,
+      "display": "pegar"
+    },
+    {
+      "word": "un",
+      "start": 10.16,
+      "end": 10.38,
+      "probability": 0.9987702965736389,
+      "display": "un"
+    },
+    {
+      "word": "enlace",
+      "start": 10.38,
+      "end": 10.66,
+      "probability": 0.9981315433979034,
+      "display": "enlace"
+    },
+    {
+      "word": "directo",
+      "start": 10.66,
+      "end": 11.3,
+      "probability": 0.9984723925590515,
+      "display": "directo"
+    },
+    {
+      "word": "o",
+      "start": 11.3,
+      "end": 11.48,
+      "probability": 0.731899082660675,
+      "display": "o"
+    },
+    {
+      "word": "dejar",
+      "start": 11.48,
+      "end": 11.7,
+      "probability": 0.9989014863967896,
+      "display": "dejar"
+    },
+    {
+      "word": "el",
+      "start": 11.7,
+      "end": 11.88,
+      "probability": 0.9975201487541199,
+      "display": "el"
+    },
+    {
+      "word": "producto",
+      "start": 11.88,
+      "end": 12.14,
+      "probability": 0.995543897151947,
+      "display": "producto"
+    },
+    {
+      "word": "sin",
+      "start": 12.14,
+      "end": 12.46,
+      "probability": 0.9983649849891663,
+      "display": "sin"
+    },
+    {
+      "word": "foto.",
+      "start": 12.46,
+      "end": 12.7,
+      "probability": 0.983463704586029,
+      "display": "foto."
+    },
+    {
+      "word": "Primero,",
+      "start": 13.22,
+      "end": 13.72,
+      "probability": 0.9948371052742004,
+      "display": "Primero"
+    },
+    {
+      "word": "guardamos",
+      "start": 13.9,
+      "end": 14.24,
+      "probability": 0.9840844869613647,
+      "display": "guardamos"
+    },
+    {
+      "word": "una",
+      "start": 14.24,
+      "end": 14.52,
+      "probability": 0.9972257018089294,
+      "display": "una"
+    },
+    {
+      "word": "foto",
+      "start": 14.52,
+      "end": 14.78,
+      "probability": 0.9987718462944031,
+      "display": "foto"
+    },
+    {
+      "word": "desde",
+      "start": 14.78,
+      "end": 15.04,
+      "probability": 0.9864554405212402,
+      "display": "desde"
+    },
+    {
+      "word": "archivo",
+      "start": 15.04,
+      "end": 15.66,
+      "probability": 0.8326334357261658,
+      "display": "Archivo"
+    },
+    {
+      "word": "y",
+      "start": 15.66,
+      "end": 15.94,
+      "probability": 0.9556177854537964,
+      "display": "y"
+    },
+    {
+      "word": "revisamos",
+      "start": 15.94,
+      "end": 16.44,
+      "probability": 0.9876694977283478,
+      "display": "revisamos"
+    },
+    {
+      "word": "la",
+      "start": 16.44,
+      "end": 16.68,
+      "probability": 0.9985151886940002,
+      "display": "la"
+    },
+    {
+      "word": "tarjeta.",
+      "start": 16.68,
+      "end": 17.18,
+      "probability": 0.9962041775385538,
+      "display": "tarjeta."
+    },
+    {
+      "word": "Desde",
+      "start": 17.62,
+      "end": 17.88,
+      "probability": 0.9892938137054443,
+      "display": "Desde"
+    },
+    {
+      "word": "Editar",
+      "start": 17.88,
+      "end": 18.3,
+      "probability": 0.7003568410873413,
+      "display": "Editar"
+    },
+    {
+      "word": "también",
+      "start": 18.3,
+      "end": 18.66,
+      "probability": 0.7011000514030457,
+      "display": "también"
+    },
+    {
+      "word": "podemos",
+      "start": 18.66,
+      "end": 19.12,
+      "probability": 0.9364004135131836,
+      "display": "podemos"
+    },
+    {
+      "word": "reemplazarla",
+      "start": 19.12,
+      "end": 19.78,
+      "probability": 0.9311598837375641,
+      "display": "reemplazarla"
+    },
+    {
+      "word": "con",
+      "start": 19.78,
+      "end": 20.0,
+      "probability": 0.9982569813728333,
+      "display": "con"
+    },
+    {
+      "word": "enlace.",
+      "start": 20.0,
+      "end": 20.28,
+      "probability": 0.9801545739173889,
+      "display": "Enlace:"
+    },
+    {
+      "word": "La",
+      "start": 20.66,
+      "end": 20.9,
+      "probability": 0.9923679232597351,
+      "display": "la"
+    },
+    {
+      "word": "dirección",
+      "start": 20.9,
+      "end": 21.34,
+      "probability": 0.9809229075908661,
+      "display": "dirección"
+    },
+    {
+      "word": "tiene",
+      "start": 21.34,
+      "end": 21.7,
+      "probability": 0.996117353439331,
+      "display": "tiene"
+    },
+    {
+      "word": "que",
+      "start": 21.7,
+      "end": 21.92,
+      "probability": 0.9979092478752136,
+      "display": "que"
+    },
+    {
+      "word": "apuntar",
+      "start": 21.92,
+      "end": 22.38,
+      "probability": 0.9984421133995056,
+      "display": "apuntar"
+    },
+    {
+      "word": "a",
+      "start": 22.38,
+      "end": 22.48,
+      "probability": 0.9923895001411438,
+      "display": "a"
+    },
+    {
+      "word": "la",
+      "start": 22.48,
+      "end": 22.56,
+      "probability": 0.9995651841163635,
+      "display": "la"
+    },
+    {
+      "word": "imagen,",
+      "start": 22.56,
+      "end": 22.92,
+      "probability": 0.9986569881439209,
+      "display": "imagen,"
+    },
+    {
+      "word": "no",
+      "start": 23.34,
+      "end": 23.58,
+      "probability": 0.9744971394538879,
+      "display": "no"
+    },
+    {
+      "word": "a",
+      "start": 23.58,
+      "end": 23.92,
+      "probability": 0.982431948184967,
+      "display": "a"
+    },
+    {
+      "word": "una",
+      "start": 23.92,
+      "end": 24.12,
+      "probability": 0.997803270816803,
+      "display": "una"
+    },
+    {
+      "word": "página",
+      "start": 24.12,
+      "end": 24.36,
+      "probability": 0.9835577607154846,
+      "display": "página"
+    },
+    {
+      "word": "web.",
+      "start": 24.36,
+      "end": 24.76,
+      "probability": 0.9701780080795288,
+      "display": "web."
+    },
+    {
+      "word": "Guardamos",
+      "start": 25.16,
+      "end": 25.74,
+      "probability": 0.9884909689426422,
+      "display": "Guardamos"
+    },
+    {
+      "word": "y",
+      "start": 25.74,
+      "end": 26.02,
+      "probability": 0.9896484017372131,
+      "display": "y"
+    },
+    {
+      "word": "comprobamos",
+      "start": 26.02,
+      "end": 26.58,
+      "probability": 0.9331475496292114,
+      "display": "comprobamos"
+    },
+    {
+      "word": "el",
+      "start": 26.58,
+      "end": 26.8,
+      "probability": 0.9986758828163147,
+      "display": "el"
+    },
+    {
+      "word": "resultado.",
+      "start": 26.8,
+      "end": 27.16,
+      "probability": 0.9990769624710083,
+      "display": "resultado."
+    },
+    {
+      "word": "Para",
+      "start": 27.16,
+      "end": 27.92,
+      "probability": 0.9109036922454834,
+      "display": "Para"
+    },
+    {
+      "word": "dejarlos",
+      "start": 27.92,
+      "end": 28.32,
+      "probability": 0.6012887358665466,
+      "display": "dejarlos"
+    },
+    {
+      "word": "sin",
+      "start": 28.32,
+      "end": 28.5,
+      "probability": 0.9634193778038025,
+      "display": "sin"
+    },
+    {
+      "word": "foto,",
+      "start": 28.5,
+      "end": 28.7,
+      "probability": 0.9827100038528442,
+      "display": "foto,"
+    },
+    {
+      "word": "usamos",
+      "start": 28.94,
+      "end": 29.24,
+      "probability": 0.9976846575737,
+      "display": "usamos"
+    },
+    {
+      "word": "quitar",
+      "start": 29.24,
+      "end": 29.54,
+      "probability": 0.8336217403411865,
+      "display": "Quitar"
+    },
+    {
+      "word": "imagen",
+      "start": 29.54,
+      "end": 29.9,
+      "probability": 0.9567340612411499,
+      "display": "imagen"
+    },
+    {
+      "word": "y",
+      "start": 29.9,
+      "end": 30.2,
+      "probability": 0.9858479499816895,
+      "display": "y"
+    },
+    {
+      "word": "guardamos",
+      "start": 30.2,
+      "end": 30.62,
+      "probability": 0.9892180860042572,
+      "display": "guardamos"
+    },
+    {
+      "word": "otra",
+      "start": 30.62,
+      "end": 30.8,
+      "probability": 0.998633086681366,
+      "display": "otra"
+    },
+    {
+      "word": "vez.",
+      "start": 30.8,
+      "end": 31.08,
+      "probability": 0.9996778964996338,
+      "display": "vez."
+    },
+    {
+      "word": "Si",
+      "start": 31.52,
+      "end": 31.6,
+      "probability": 0.991908848285675,
+      "display": "Si"
+    },
+    {
+      "word": "el",
+      "start": 31.6,
+      "end": 31.7,
+      "probability": 0.9989456534385681,
+      "display": "el"
+    },
+    {
+      "word": "producto",
+      "start": 31.7,
+      "end": 32.0,
+      "probability": 0.9984129667282104,
+      "display": "producto"
+    },
+    {
+      "word": "ya",
+      "start": 32.0,
+      "end": 32.24,
+      "probability": 0.9916486740112305,
+      "display": "ya"
+    },
+    {
+      "word": "no",
+      "start": 32.24,
+      "end": 32.34,
+      "probability": 0.9987139701843262,
+      "display": "no"
+    },
+    {
+      "word": "corresponde,",
+      "start": 32.34,
+      "end": 33.02,
+      "probability": 0.9921586215496063,
+      "display": "corresponde,"
+    },
+    {
+      "word": "eliminar",
+      "start": 33.1,
+      "end": 33.58,
+      "probability": 0.962447464466095,
+      "display": "Eliminar"
+    },
+    {
+      "word": "pide",
+      "start": 33.58,
+      "end": 33.86,
+      "probability": 0.9854006171226501,
+      "display": "pide"
+    },
+    {
+      "word": "confirmación.",
+      "start": 33.86,
+      "end": 34.46,
+      "probability": 0.982276052236557,
+      "display": "confirmación."
+    },
+    {
+      "word": "Este",
+      "start": 35.16,
+      "end": 35.54,
+      "probability": 0.9874265193939209,
+      "display": "Este"
+    },
+    {
+      "word": "catálogo",
+      "start": 35.54,
+      "end": 36.06,
+      "probability": 0.9943580230077108,
+      "display": "catálogo"
+    },
+    {
+      "word": "no",
+      "start": 36.06,
+      "end": 36.38,
+      "probability": 0.9777600169181824,
+      "display": "no"
+    },
+    {
+      "word": "es",
+      "start": 36.38,
+      "end": 36.52,
+      "probability": 0.9988413453102112,
+      "display": "es"
+    },
+    {
+      "word": "un",
+      "start": 36.52,
+      "end": 36.64,
+      "probability": 0.9966439008712769,
+      "display": "un"
+    },
+    {
+      "word": "carrito",
+      "start": 36.64,
+      "end": 37.0,
+      "probability": 0.9607390463352203,
+      "display": "carrito"
+    },
+    {
+      "word": "de",
+      "start": 37.0,
+      "end": 37.12,
+      "probability": 0.9992433786392212,
+      "display": "de"
+    },
+    {
+      "word": "compras",
+      "start": 37.12,
+      "end": 37.58,
+      "probability": 0.9966757893562317,
+      "display": "compras"
+    },
+    {
+      "word": "ni",
+      "start": 37.58,
+      "end": 37.86,
+      "probability": 0.7924646735191345,
+      "display": "ni"
+    },
+    {
+      "word": "un",
+      "start": 37.86,
+      "end": 38.0,
+      "probability": 0.997536301612854,
+      "display": "un"
+    },
+    {
+      "word": "control",
+      "start": 38.0,
+      "end": 38.34,
+      "probability": 0.995422899723053,
+      "display": "control"
+    },
+    {
+      "word": "de",
+      "start": 38.34,
+      "end": 38.48,
+      "probability": 0.9866907596588135,
+      "display": "de"
+    },
+    {
+      "word": "stock.",
+      "start": 38.48,
+      "end": 38.66,
+      "probability": 0.9327660799026489,
+      "display": "stock."
+    }
+  ],
+  "captions": [
+    {
+      "text": "El catálogo de Productos informa lo que ofrece tu comercio.",
+      "startMs": 0,
+      "endMs": 3360,
+      "timestampMs": null,
+      "confidence": 0.942
+    },
+    {
+      "text": "Cargá un nombre y un precio;",
+      "startMs": 3680,
+      "endMs": 5160,
+      "timestampMs": null,
+      "confidence": 0.95
+    },
+    {
+      "text": "la descripción es opcional.",
+      "startMs": 5680,
+      "endMs": 7020,
+      "timestampMs": null,
+      "confidence": 0.993
+    },
+    {
+      "text": "Para la imagen podés elegir un archivo, pegar un enlace directo o dejar el",
+      "startMs": 7620,
+      "endMs": 11880,
+      "timestampMs": null,
+      "confidence": 0.96
+    },
+    {
+      "text": "producto sin foto.",
+      "startMs": 11880,
+      "endMs": 12700,
+      "timestampMs": null,
+      "confidence": 0.992
+    },
+    {
+      "text": "Primero guardamos una foto desde Archivo y revisamos la tarjeta.",
+      "startMs": 13220,
+      "endMs": 17180,
+      "timestampMs": null,
+      "confidence": 0.973
+    },
+    {
+      "text": "Desde Editar también podemos reemplazarla con Enlace:",
+      "startMs": 17620,
+      "endMs": 20280,
+      "timestampMs": null,
+      "confidence": 0.891
+    },
+    {
+      "text": "la dirección tiene que apuntar a la imagen, no a una página web.",
+      "startMs": 20660,
+      "endMs": 24760,
+      "timestampMs": null,
+      "confidence": 0.99
+    },
+    {
+      "text": "Guardamos y comprobamos el resultado.",
+      "startMs": 25160,
+      "endMs": 27160,
+      "timestampMs": null,
+      "confidence": 0.982
+    },
+    {
+      "text": "Para dejarlos sin foto, usamos Quitar imagen y guardamos otra vez.",
+      "startMs": 27160,
+      "endMs": 31080,
+      "timestampMs": null,
+      "confidence": 0.929
+    },
+    {
+      "text": "Si el producto ya no corresponde, Eliminar pide confirmación.",
+      "startMs": 31520,
+      "endMs": 34460,
+      "timestampMs": null,
+      "confidence": 0.989
+    },
+    {
+      "text": "Este catálogo no es un carrito de compras ni un control de stock.",
+      "startMs": 35160,
+      "endMs": 38660,
+      "timestampMs": null,
+      "confidence": 0.971
+    }
+  ],
+  "status": "REVIEW_REQUIRED"
+}

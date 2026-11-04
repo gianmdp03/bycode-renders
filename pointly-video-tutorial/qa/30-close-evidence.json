@@ -1,0 +1,24 @@
+{
+  "scene": "30-close",
+  "evidence": [
+    {
+      "label": "Product learning recap",
+      "url": "/",
+      "at": 1793728668892.9
+    }
+  ],
+  "network": [
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 401
+    }
+  ],
+  "source": "recordings/30-close-1793728690823.mp4",
+  "obs": null
+}

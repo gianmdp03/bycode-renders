@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "En Mi acceso podés copiar el enlace de la billetera y guardarlo en este dispositivo para volver más rápido. Ese enlace permite consultar la información del cliente: compartilo con cuidado. Guardarlo en el navegador no crea una cuenta comercial. La opción de agregar Pointly como acceso o instalarlo depende del navegador y del dispositivo. Abrimos Agregar acceso para leer la guía disponible. También podés quitar el acceso recordado sin borrar puntos. Para cambiar de persona, elegí Consultar otro DNI y volvés al formulario.",
+  "spokenText": "En Mi acceso podés copiar el enlace de la billetera y guardarlo en este dispositivo para volver más rápido. Ese enlace permite consultar la información del cliente: compartilo con cuidado. Guardarlo en el navegador no crea una cuenta comercial. La opción de agregar Pointli como acceso o instalarlo depende del navegador y del dispositivo. Abrimos Agregar acceso para leer la guía disponible. También podés quitar el acceso recordado sin borrar puntos. Para cambiar de persona, elegí Consultar otro de ene i y volvés al formulario.",
+  "text_sha256": "dc96aa898aa63794dbf068f528a51c5b8901d832668fe39da93d23467e1cdcbf",
+  "sha256": "e67eaf9a0209d8faaa84c4478febd3fe0118c9842554e8320fb132e49f087da7",
+  "duration": 31.2,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 209.06,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}
