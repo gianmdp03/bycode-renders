@@ -3,23 +3,23 @@
   "evidence": [
     {
       "label": "Wallet link saved and copied",
-      "url": "/client/68iikeSretZ0/access",
-      "at": 1793732174992.2
+      "url": "/client/LdyPvraccyxi/access",
+      "at": 1794068050623
     },
     {
-      "label": "Actual browser-dependent install guidance expanded",
-      "url": "/client/68iikeSretZ0/access",
-      "at": 1793732176283.6
+      "label": "Saved wallet reopened from actual current home entry",
+      "url": "/",
+      "at": 1794068058490.8
     },
     {
       "label": "Remembered access removed",
-      "url": "/client/68iikeSretZ0/access",
-      "at": 1793732177475.4
+      "url": "/client/LdyPvraccyxi/access",
+      "at": 1794068062098.9
     },
     {
       "label": "Switch person returns to real country-DNI lookup",
-      "url": "/client/68iikeSretZ0/access",
-      "at": 1793732178700.5
+      "url": "/",
+      "at": 1794068063706.7
     }
   ],
   "network": [
@@ -35,10 +35,65 @@
     },
     {
       "method": "GET",
+      "path": "/api/pointly/public/media/abf1bc3b-8f5e-47c2-b69a-d4822226336f",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/public/client-access/companies/query",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/public/client-access/companies/query",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/media/abf1bc3b-8f5e-47c2-b69a-d4822226336f",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/public/client-access/companies/query",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 401
+    },
+    {
+      "method": "GET",
       "path": "/api/pointly/limits/my-limits",
       "status": 401
     }
   ],
-  "source": "recordings/26-wallet-access-1793732200579.mp4",
+  "source": "recordings/26-wallet-access-1794068065952.mp4",
   "obs": null
 }

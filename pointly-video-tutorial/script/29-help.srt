@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:03,080
+Cuando una lista no carga, usá su botón Reintentar;
+
+2
+00:00:03,620 --> 00:00:07,280
+un error de conexión no significa que no existan clientes o ventas.
+
+3
+00:00:07,760 --> 00:00:11,600
+Si la búsqueda está vacía, revisá el país, el documento y el filtro.
+
+4
+00:00:12,080 --> 00:00:15,140
+Podés cambiar entre tema claro y oscuro desde la aplicación,
+
+5
+00:00:15,500 --> 00:00:18,880
+consultar las preguntas frecuentes y volver al panel desde el menú.
+
+6
+00:00:19,260 --> 00:00:22,540
+Al terminar en una computadora compartida, cerrá la sesión.
+
+7
+00:00:23,020 --> 00:00:24,440
+Recordá la secuencia diaria:
+
+8
+00:00:24,760 --> 00:00:27,180
+identificar al cliente, registrar la compra,
+
+9
+00:00:27,540 --> 00:00:30,820
+verificar los puntos y registrar el canje cuando corresponda.

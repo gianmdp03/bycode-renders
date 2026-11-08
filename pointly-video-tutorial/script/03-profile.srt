@@ -16,24 +16,16 @@ es un dato de tu perfil.
 
 5
 00:00:09,860 --> 00:00:11,420
-Completalo y continúal panel.
+Completalo y continuá al panel.
 
 6
-00:00:11,820 --> 00:00:16,080
-Acá aparece el plan, sus comercios permitidos y el cupo de clientes activos
+00:00:11,820 --> 00:00:16,700
+Acá aparece el plan, sus comercios permitidos y el cupo de clientes activos por comercio.
 
 7
-00:00:16,080 --> 00:00:16,700
-por comercio.
-
-8
 00:00:17,140 --> 00:00:20,140
 Si todavía no creaste ninguno, empezá con Nueva Empresa.
 
-9
-00:00:20,700 --> 00:00:24,680
-No necesitás preparar una planilla ni importar clientes para dar este primer
-
-10
-00:00:24,680 --> 00:00:24,980
-paso.
+8
+00:00:20,700 --> 00:00:24,980
+No necesitás preparar una planilla ni importar clientes para dar este primer paso.

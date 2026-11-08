@@ -1,5 +1,7 @@
 # Pointly · videotutorial completo
 
+Entrega: `output/Pointly-tutorial-completo-1080p60.mp4`, 30 capítulos, aproximadamente 16 minutos y 10 segundos. MP4 H.264, 1920×1080, 60 FPS CFR, AAC estéreo a 48 kHz, voz masculina Qwen local. `script/pointly-tutorial.srt` es el subtítulo externo y `script/capitulos-youtube.txt` contiene los tiempos de capítulos. Los reportes finales conservan el hash del MP4 revisado; la impresión del QR mantiene una limitación de validación documentada.
+
 Producción educativa dentro del workspace audiovisual Bycode. El producto se toma del checkout local `../pointly-frontend`; no se reconstruyen pantallas ni se consultan páginas públicas para describir funciones. La identidad audiovisual continúa **draft**, con los assets auténticos y el adaptador `pointlyFrontendTheme` de la biblioteca compartida.
 
 ## Archivos de trabajo
@@ -44,31 +46,61 @@ $alignmentPython = '.\pointly-video-tutorial\.local\align-venv\Scripts\python.ex
 & $productionPython pointly-video-tutorial/demo/runtime.py start
 & $productionPython pointly-video-tutorial/demo/runtime.py frontend
 & $productionPython pointly-video-tutorial/demo/seed.py
+& $productionPython pointly-video-tutorial/demo/history-client.py
+& $productionPython pointly-video-tutorial/demo/second-company.py
+& $productionPython pointly-video-tutorial/demo/expiry-history.py
 
 node pointly-video-tutorial/automation/audit.mjs
 node pointly-video-tutorial/automation/capture.mjs 10-search
+# Para actualizar la guía del capítulo 26, después de su toma principal:
+node pointly-video-tutorial/automation/capture-guide.mjs
 
 # Después de editar chapters.mjs, actualizar el JSON de entrada de Qwen:
 node --input-type=module -e 'import fs from "node:fs";import {chapters} from "./pointly-video-tutorial/script/chapters.mjs";fs.writeFileSync("pointly-video-tutorial/script/chapters.json",JSON.stringify(chapters,null,2));'
 & $qwenPython pointly-video-tutorial/automation/narrate.py 10-search
 & $alignmentPython pointly-video-tutorial/automation/align.py
 node pointly-video-tutorial/automation/revise-captions.mjs
+& $alignmentPython pointly-video-tutorial/automation/verify-inputs.py
+node pointly-video-tutorial/automation/prepare-supplement.mjs
+node pointly-video-tutorial/automation/retime.mjs
 node pointly-video-tutorial/automation/compile.mjs --final
 node pointly-video-tutorial/automation/coverage.mjs
 npm run typecheck --workspace=pointly-video-tutorial
 node pointly-video-tutorial/automation/render.mjs
 & $productionPython pointly-video-tutorial/automation/verify-demo.py
+& $productionPython pointly-video-tutorial/automation/verify-video.py
+# Revisar los fotogramas y actualizar qa/visual-review.json con el hash actual.
+# Solamente después de esa revisión:
+node pointly-video-tutorial/automation/finalize-coverage.mjs
 ```
 
 Los comandos de preparación no autorizan borrar la base ni perder tomas. Antes de repetir acciones con efectos, revisar el estado DEMO y usar una nueva toma o datos ficticios apropiados; una escena de alta no es idempotente por el solo hecho de volver a ejecutar Playwright.
+
+Para repetir el onboarding, `demo/new-merchant.py --take=20261110` crea otra cuenta ficticia y conserva la anterior. Revisar en `capture.mjs` los DNI de altas, el enlace nuevo y las fechas futuras de promociones antes de repetir capítulos con escrituras. Una asociación ya existente puede devolver 409; no se debe convertir ese rechazo en un supuesto éxito. La cuenta de la segunda asociación también debe ser elegible en ese comercio. `--action-takes` recorta la espera de locución durante la grabación, conservando las acciones a velocidad normal; la pausa de lectura se agrega después con tiempos acústicos.
+
+`freeze-frontend.py` sincroniza fuentes y recursos locales sin tocar el checkout del producto y conserva los archivos previos. Excluye la configuración generada. `runtime.py frontend` prepara exclusivamente la configuración pública DEMO y un proxy local `/api` con la CA del proyecto para que las fotos relativas funcionen como en el servidor publicado. Si desaparecieron solamente los contenedores, `demo/recover-containers.py` permite recuperarlos únicamente sobre el volumen propio, con respaldo en frío y comprobación de etiquetas; no autoriza adaptar un esquema incompatible.
 
 La captura actual usa una superficie de pestaña Chromium a 1920×1080 y 60 FPS nominales, en segundo plano. No depende del monitor físico de 1366×768 ni abre ventanas sobre el escritorio. Conserva el WebM original, los timestamps reales y un MP4 CFR de edición. Un píxel de reloj de producción fuerza repintado durante estados estáticos y queda fuera del recorte final; el cursor y sus clics son anotaciones de grabación, sin reemplazar controles ni resultados.
 
 La locución reutiliza **Qwen3-TTS-12Hz-0.6B-Base**, CUDA/bfloat16/SDPA y la referencia masculina sintética existente, verificada por SHA256. No se usa voz personal. La configuración y los pesos residen en `doctorchart-video-tutorial/.local/qwen*`. Los WAV finales son PCM16, 48 kHz, estéreo, normalizados a −16 LUFS y pico verdadero objetivo −1,5 dBTP.
 
+Se puede usar `narrate.py 10-search --device=cpu --threads=2` cuando la GPU esté ocupada. Se conserva la misma referencia masculina; no se invoca ningún servicio de voz. El caché reutiliza texto sin cambios. `--force` regenera solo los IDs elegidos, archivando los audios anteriores. El cierre corregido de la sección 08 se conserva como `audio/08-client-tail.wav`, con su manifiesto en `script/fragments.json`; `splice-client-tail.py` documenta el corte acústico y la transición de 15 milisegundos. Después de una corrección siempre se alinea nuevamente el WAV completo.
+
 La alineación usa Faster Whisper Small local en CPU, con tiempos acústicos por palabra. La primera preparación del alineador descarga solamente el modelo abierto; la voz y el reconocimiento se ejecutan localmente. `revise-captions.mjs` conserva los tiempos y corrige límites de frases y ortografía documentada. Revisar `qa/caption-review.json`: cualquier diferencia de contenido requiere escuchar o regenerar la sección, no inventar un tiempo según su longitud.
 
 El montaje se define en Remotion, que renderiza los layouts y la marca. El exportador optimizado compone esos layouts con los fotogramas reales y el audio mediante FFmpeg/NVENC; evita volver a capturar cada fotograma de video en Chrome. También está disponible `node pointly-video-tutorial/automation/render.mjs --full-remotion` para exportar íntegramente con el renderer de Remotion. La revisión debe comprobar equivalencia visual, subtítulos y tiempos, además de resolución y codec.
+
+Las pausas de lectura están en `.local/retimed-manifest.json` y los zooms suaves en `remotion/src/visual-edits.json`. El retimado conserva el movimiento original a velocidad normal y agrega fotogramas de reposo auténticos; comprueba que se codifique la duración prevista. Se explicita `fps=60` antes de `tpad`, porque la propagación de la cadencia del decodificador local podía omitir esos reposos. La vuelta por login del capítulo 22 se recorta sin alterar el archivo, la consulta pública ni la reactivación.
+
+`script/reviewed-edits.json` conserva seis ajustes de montaje comprobados sobre las tomas actuales: recorta cargas repetidas, acompaña cada explicación con su resultado y conserva los clics a velocidad normal. Los insertos de lectura de la cuenta archivada y las preguntas frecuentes se reordenan como demostraciones separadas. Cada ajuste exige el archivo y el hash de audio originales; si se graba otra toma, revisar o retirar su entrada antes de regenerar. Nunca aplicar los mismos números de fotograma a una interfaz nueva sin volver a revisar.
+
+La guía de instalación del capítulo 26 usa otra grabación auténtica con viewport menor a 900 píxeles. `recordings/supplements.json` la vincula al tramo acústico correspondiente. No es una interfaz reconstruida. La salida es CFR a 60 FPS; la cadencia variable real del capturador se conserva en el manifiesto, incluyendo los intervalos de carga, y no se afirma que cada segundo contenga sesenta imágenes de origen diferentes.
+
+`capture-guide.mjs` mantiene un viewport lógico de 864×486 con rasterizado nativo de Chromium a 1920×1080; verifica también las dimensiones del archivo codificado. Conserva la marca temporal mediante la captura CDP directa, que no restablece el viewport emulado. Requiere el acceso DEMO válido registrado por la toma principal del capítulo 26. Las tomas exploratorias de menor resolución quedan conservadas, pero no son la fuente de la guía en la entrega final.
+
+El exportador conserva caché por escena. Para actualizar una sola escena: recompilar entradas, ejecutar `render.mjs 10-search` y luego `render.mjs --assemble-only`. El ensamblado rechaza renders obsoletos, reconstruye una mezcla continua a 48 kHz y actualiza capítulos sin reexportar las escenas válidas. `verify-video.py` decodifica el MP4 completo, analiza audio y pantallas negras y genera noventa fotogramas de revisión; estos deben revisarse además del resultado técnico.
+
+La revisión del 7 de noviembre está en `inventory/actualizacion-2026-11-07.md`. La impresión del QR tiene validación parcial en `qa/print-verification.json`: se verificaron enlace, descarga y apertura de ventana, pero no se presenta una impresión física ni una vista vacía como éxito. Los proveedores de mensajes, la contratación de planes y la instalación del sistema operativo tampoco se ejecutan en la DEMO.
 
 Abrir el editor: `npm run dev:pointly-tutorial`. No publica ni despliega. Las composiciones promocionales existentes no se modifican.
 

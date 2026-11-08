@@ -3,21 +3,16 @@
   "evidence": [
     {
       "label": "Optional expiration and its explanation",
-      "url": "/companies/cafe-del-puerto-tutorial/actions/edit-company",
-      "at": 1793728845958.8
+      "url": "/companies/cafe-del-puerto-aula/actions/edit-company",
+      "at": 1794066147337.4
     },
     {
       "label": "Saved real company settings",
-      "url": "/companies/cafe-del-puerto-tutorial",
-      "at": 1793728848136.3
+      "url": "/companies/cafe-del-puerto-aula",
+      "at": 1794066149439.9
     }
   ],
   "network": [
-    {
-      "method": "GET",
-      "path": "/api/billing/account/profile",
-      "status": 200
-    },
     {
       "method": "GET",
       "path": "/api/pointly/companies/my-companies",
@@ -25,11 +20,6 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/public/media/6dedfc39-a8dd-4815-a680-b61b8db0307c",
-      "status": 200
-    },
-    {
-      "method": "GET",
       "path": "/api/pointly/limits/my-limits",
       "status": 200
     },
@@ -50,12 +40,7 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/company-names/cafe-del-puerto-tutorial/company",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/public/media/6dedfc39-a8dd-4815-a680-b61b8db0307c",
+      "path": "/api/pointly/company-names/cafe-del-puerto-aula/company",
       "status": 200
     },
     {
@@ -65,12 +50,12 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/companies/1/public-link",
+      "path": "/api/pointly/points-accounts/1",
       "status": 200
     },
     {
       "method": "GET",
-      "path": "/api/pointly/points-accounts/1",
+      "path": "/api/pointly/companies/1/public-link",
       "status": 200
     },
     {
@@ -104,6 +89,6 @@
       "status": 200
     }
   ],
-  "source": "recordings/05-settings-1793728871945.mp4",
+  "source": "recordings/05-settings-1794066151317.mp4",
   "obs": null
 }

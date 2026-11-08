@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:04,460
+Sin actividad reúne clientes que llevan el período elegido sin compras ni canjes.
+
+2
+00:00:04,820 --> 00:00:07,460
+Podés usar los días sugeridos o escribir otro valor.
+
+3
+00:00:07,980 --> 00:00:10,940
+Abrir esta lista no archiva personas ni envía mensajes.
+
+4
+00:00:11,440 --> 00:00:16,260
+Preparar WhatsApp abre una página con un texto que podés revisar, editar y copiar.
+
+5
+00:00:16,760 --> 00:00:18,540
+Comprobá el número con código de país.
+
+6
+00:00:19,000 --> 00:00:20,680
+Abrir WhatsApp prepara el mensaje;
+
+7
+00:00:21,100 --> 00:00:22,500
+el envío final lo hacés vos.
+
+8
+00:00:22,980 --> 00:00:26,180
+En esta demostración solo revisamos y copiamos el borrador,
+
+9
+00:00:26,520 --> 00:00:28,280
+sin contactar a ninguna persona.

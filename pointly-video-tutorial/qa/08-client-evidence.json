@@ -3,21 +3,36 @@
   "evidence": [
     {
       "label": "Optional email and phone kept empty",
-      "url": "/companies/cafe-del-puerto-tutorial/actions/client",
-      "at": 1793727249833
+      "url": "/companies/cafe-del-puerto-actualizado/actions/client",
+      "at": 1794066243415.1
     },
     {
       "label": "Client association persisted",
-      "url": "/companies/cafe-del-puerto-tutorial",
-      "at": 1793727251928.4001
+      "url": "/companies/cafe-del-puerto-actualizado",
+      "at": 1794066245465.3
     },
     {
-      "label": "Existing identity preserved on repeated association",
-      "url": "/companies/cafe-del-puerto-tutorial/actions/client",
-      "at": 1793727258206.4001
+      "label": "Existing Carla identity preserved when joining second business",
+      "url": "/companies/panaderia-costera-demo",
+      "at": 1794066251426.5
     }
   ],
   "network": [
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/my-companies",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/media/abf1bc3b-8f5e-47c2-b69a-d4822226336f",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
     {
       "method": "GET",
       "path": "/api/pointly/limits/my-limits",
@@ -35,12 +50,12 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/company-names/cafe-del-puerto-tutorial/company",
+      "path": "/api/pointly/company-names/cafe-del-puerto-actualizado/company",
       "status": 200
     },
     {
       "method": "GET",
-      "path": "/api/pointly/sales/1",
+      "path": "/api/pointly/public/media/abf1bc3b-8f5e-47c2-b69a-d4822226336f",
       "status": 200
     },
     {
@@ -50,7 +65,7 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/public/media/6dedfc39-a8dd-4815-a680-b61b8db0307c",
+      "path": "/api/pointly/sales/1",
       "status": 200
     },
     {
@@ -105,27 +120,22 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/company-names/cafe-del-puerto-tutorial/company",
+      "path": "/api/pointly/company-names/panaderia-costera-demo/company",
       "status": 200
     },
     {
       "method": "GET",
-      "path": "/api/pointly/public/media/6dedfc39-a8dd-4815-a680-b61b8db0307c",
+      "path": "/api/pointly/points-accounts/4",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/4",
       "status": 200
     },
     {
       "method": "GET",
       "path": "/api/pointly/limits/my-limits",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/sales/1",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/points-accounts/1",
       "status": 200
     },
     {
@@ -136,9 +146,29 @@
     {
       "method": "POST",
       "path": "/api/pointly/points-accounts",
-      "status": 409
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/4",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/4",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/4",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
     }
   ],
-  "source": "recordings/08-client-1793727275347.mp4",
+  "source": "recordings/08-client-1794066253328.mp4",
   "obs": null
 }

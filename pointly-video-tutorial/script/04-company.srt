@@ -3,12 +3,12 @@
 Escribí el nombre con el que tus clientes conocen al negocio.
 
 2
-00:00:03,500 --> 00:00:08,040
-El nombre del enlace se genera a partir de ese texto, se puede ajustar y tiene
+00:00:03,500 --> 00:00:06,280
+El nombre del enlace se genera a partir de ese texto,
 
 3
-00:00:08,040 --> 00:00:08,980
-que estar disponible.
+00:00:06,640 --> 00:00:08,980
+se puede ajustar y tiene que estar disponible.
 
 4
 00:00:09,520 --> 00:00:11,380
@@ -19,21 +19,17 @@ Usá letras, números y guiones.
 Después definí la regla:
 
 6
-00:00:13,680 --> 00:00:17,360
-en nuestro ejemplo, cada mil pesos completos de una compra otorgan diez
+00:00:13,680 --> 00:00:17,720
+en nuestro ejemplo, cada mil pesos completos de una compra otorgan diez puntos.
 
 7
-00:00:17,360 --> 00:00:17,720
-puntos.
-
-8
 00:00:18,320 --> 00:00:19,580
 País es obligatorio;
 
-9
+8
 00:00:20,020 --> 00:00:23,440
 los demás datos de ubicación se pueden dejar vacíos si no corresponden.
 
-10
+9
 00:00:23,920 --> 00:00:27,400
 Revisá los campos antes de crear la empresa y esperá la confirmación.

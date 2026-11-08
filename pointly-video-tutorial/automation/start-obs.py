@@ -4,7 +4,7 @@ ROOT=Path(__file__).resolve().parents[1];LOCAL=ROOT/'.local'
 app=LOCAL/'obs-app';config=app/'config/obs-studio'
 config.mkdir(parents=True,exist_ok=True)
 authfile=LOCAL/'obs-auth.json'
-auth=json.loads(authfile.read_text()) if authfile.exists() else {'password':secrets.token_urlsafe(24),'port':25655}
+auth=json.loads(authfile.read_text(encoding='utf8')) if authfile.exists() else {'password':secrets.token_urlsafe(24),'port':25655}
 authfile.write_text(json.dumps(auth))
 ws=config/'plugin_config/obs-websocket';ws.mkdir(parents=True,exist_ok=True)
 (ws/'config.json').write_text(json.dumps({'alerts_enabled':False,'auth_required':True,'debug_enabled':False,'first_load':False,'server_enabled':True,'server_password':auth['password'],'server_port':auth['port']}))

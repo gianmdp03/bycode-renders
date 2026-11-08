@@ -2,12 +2,12 @@
   "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
   "audio_sha256": "39977fbdc29899db68f3923525cc248ccde885a68c12338560951c01c36cb972",
   "transcript": "Ya recorrimos la configuración, los clientes, las ventas, el catálogo, los premios y los avisos de Pointly, además de la billetera que consulta el cliente. Antes de usar tu programa con personas reales, revisa la regla de puntos, las condiciones de los premios y los vencimientos que vas a comunicar. Volve al capítulo que necesites para repetir un procedimiento. Pointly de Bycode Software. Gracias por acompañarnos.",
-  "scriptSimilarity": 1.0,
+  "scriptSimilarity": 1,
   "differences": [],
   "words": [
     {
       "word": "Ya",
-      "start": 0.0,
+      "start": 0,
       "end": 0.16,
       "probability": 0.9576186537742615,
       "display": "Ya"
@@ -470,61 +470,59 @@
   ],
   "captions": [
     {
-      "text": "Ya recorrimos la configuración, los clientes, las ventas, el catálogo, los",
+      "text": "Ya recorrimos la configuración, los clientes, las ventas, el catálogo,",
       "startMs": 0,
-      "endMs": 4580,
+      "endMs": 4100,
       "timestampMs": null,
-      "confidence": 0.985
+      "confidence": 0.9839589953422546
     },
     {
-      "text": "premios y los avisos de Pointly, además de la billetera que consulta el",
-      "startMs": 4580,
-      "endMs": 8700,
-      "timestampMs": null,
-      "confidence": 0.981
-    },
-    {
-      "text": "cliente.",
-      "startMs": 8700,
+      "text": "los premios y los avisos de Pointly, además de la billetera que consulta el cliente.",
+      "startMs": 4460,
       "endMs": 9520,
       "timestampMs": null,
-      "confidence": 0.999
+      "confidence": 0.9829639236132304
     },
     {
-      "text": "Antes de usar tu programa con personas reales, revisá la regla de puntos, las",
+      "text": "Antes de usar tu programa con personas reales, revisá la regla de puntos,",
       "startMs": 9760,
-      "endMs": 14280,
+      "endMs": 13680,
       "timestampMs": null,
-      "confidence": 0.972
+      "confidence": 0.9698118739403211
     },
     {
-      "text": "condiciones de los premios y los vencimientos que vas a comunicar.",
-      "startMs": 14280,
+      "text": "las condiciones de los premios y los vencimientos que vas a comunicar.",
+      "startMs": 14160,
       "endMs": 17440,
       "timestampMs": null,
-      "confidence": 0.996
+      "confidence": 0.9959296559294065
     },
     {
       "text": "Volvé al capítulo que necesites para repetir un procedimiento.",
       "startMs": 18020,
       "endMs": 21020,
       "timestampMs": null,
-      "confidence": 0.958
+      "confidence": 0.9576478666729398
     },
     {
       "text": "Pointly, de Bycode Software.",
       "startMs": 21440,
       "endMs": 23220,
       "timestampMs": null,
-      "confidence": 0.703
+      "confidence": 0.7033287091180682
     },
     {
       "text": "Gracias por acompañarnos.",
       "startMs": 23760,
       "endMs": 25100,
       "timestampMs": null,
-      "confidence": 0.982
+      "confidence": 0.9822942515214285
     }
   ],
-  "status": "ACOUSTIC_MATCH"
+  "status": "ACOUSTIC_MATCH",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [],
+    "sourceAudioHash": "39977fbdc29899db68f3923525cc248ccde885a68c12338560951c01c36cb972"
+  }
 }

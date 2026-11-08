@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:03,720
+Desde la lista podés editar una promoción y guardar sus cambios.
+
+2
+00:00:04,160 --> 00:00:07,120
+Pausar conserva el elemento pero evita que se aplique;
+
+3
+00:00:07,640 --> 00:00:10,860
+Reactivar lo vuelve a habilitar, siempre sujeto a sus fechas.
+
+4
+00:00:11,720 --> 00:00:16,480
+Eliminar es una acción distinta y definitiva, con confirmación dentro de la página.
+
+5
+00:00:17,060 --> 00:00:20,400
+Revisá qué elemento seleccionaste y cancelá si no corresponde.
+
+6
+00:00:20,900 --> 00:00:23,100
+Antes de registrar una venta con beneficio,
+
+7
+00:00:23,520 --> 00:00:26,400
+comprobá la vigencia y la estimación de puntos del formulario;
+
+8
+00:00:26,680 --> 00:00:28,880
+no te guíes solamente por el nombre de la promoción.

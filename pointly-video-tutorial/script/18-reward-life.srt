@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:04,720
+Podés editar un premio para cambiar su descripción, su beneficio o su costo futuro.
+
+2
+00:00:05,060 --> 00:00:08,160
+Si querés dejar de ofrecerlo temporalmente, usá Pausar.
+
+3
+00:00:08,780 --> 00:00:11,280
+El canje queda deshabilitado mientras esté pausado.
+
+4
+00:00:11,600 --> 00:00:13,520
+Reactivar permite ofrecerlo otra vez.
+
+5
+00:00:13,980 --> 00:00:18,540
+Eliminar lo quita definitivamente del catálogo, pero no borra los canjes históricos:
+
+6
+00:00:18,900 --> 00:00:21,860
+cada movimiento conserva la información del premio entregado.
+
+7
+00:00:22,500 --> 00:00:27,100
+Probá primero la opción de cancelar una confirmación cuando tengas dudas y revisá
+
+8
+00:00:27,100 --> 00:00:28,720
+la tarjeta después de cada cambio.

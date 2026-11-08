@@ -1,0 +1,19 @@
+{
+  "state": "COMPLETE_RECONCILIATION_WITH_DOCUMENTED_PRINT_LIMITATION",
+  "videoSha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+  "functionalGroups": 34,
+  "demonstratedAndNarrated": 34,
+  "partialValidation": [
+    "F09: print popup rendering / physical printing"
+  ],
+  "individualControls": 291,
+  "controlStates": {
+    "MAPPED_TO_DEMONSTRATED_WORKFLOW": 225,
+    "LOCAL_FLOW_SHOWN_EXTERNAL_ACTION_NOT_EXECUTED": 8,
+    "EXCLUDED_WITH_REASON": 57,
+    "PARTIAL_PRINT_ENVIRONMENT_LIMITATION": 1
+  },
+  "unmappedActiveControls": 0,
+  "sourceDrift": 0,
+  "scope": "Source audit, actual UI captures/HTTP outcomes, final narration and acoustically timed captions, sampled rendered-video visual review. No claim that all conditional controls or external dependencies were independently exercised."
+}

@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "Después de guardar, revisamos el nombre en la lista.",
+  "spokenText": "Después de guardar, revisamos el nombre en la lista.",
+  "text_sha256": "1cad21d2a457b819da1710f43917ddea75c2d0ebe2d24825c1902a40b0bfd501",
+  "sha256": "5d0dfb21bcdf92207f2da9ae7ae413df752deaf555dc1215eb90fa5ce011a769",
+  "duration": 3.44,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 52.03,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

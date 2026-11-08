@@ -1,676 +1,756 @@
 {
   "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
-  "audio_sha256": "e67eaf9a0209d8faaa84c4478febd3fe0118c9842554e8320fb132e49f087da7",
-  "transcript": "En mi acceso, podés copiar el enlace de la billetera y guardarlo en este dispositivo para volver más rápido. Ese enlace permite consultar la información del cliente. Compartilo con cuidado. Guardarlo en el navegador no crea una cuenta comercial. La opción de agregar Pointly como acceso o instalarlo depende del navegador y del dispositivo. Abrimos a agregar acceso para leer la guía disponible. También podés quitar el acceso recordado sin borrar puntos. Para cambiar de persona, elegí consultar otro DNI y volvés al formulario.",
-  "scriptSimilarity": 0.994,
+  "audio_sha256": "6cadb901a613c42c37900b381bf95668b50afb0e02de845b6d5f9a075073b3cc",
+  "transcript": "Desde tus comercios, verme enlace personal, abre tu acceso. Podés copiar el enlace de la billetera y guardarlo en este dispositivo. Ese enlace permite consultar la información del cliente. Compartilo con cuidado. Al volver al inicio público, aparece a abrir mi acceso guardado. Guardarlo en el navegador no crea una cuenta comercial. En pantallas pequeñas aparece una guía para agregar Pointly como acceso. La instalación depende del navegador y del dispositivo. También podés quitar el acceso recordado sin borrar puntos. Para cambiar de persona, elegí consultar otro DNE y volvés al formulario.",
+  "scriptSimilarity": 0.9674,
   "differences": [
+    {
+      "op": "replace",
+      "expected": "Ver mi",
+      "heard": "verme"
+    },
     {
       "op": "insert",
       "expected": "",
       "heard": "a"
+    },
+    {
+      "op": "replace",
+      "expected": "DNI",
+      "heard": "DNE"
     }
   ],
   "words": [
     {
-      "word": "En",
-      "start": 0.0,
-      "end": 0.52,
-      "probability": 0.9712315201759338,
-      "display": "En"
+      "word": "Desde",
+      "start": 0,
+      "end": 0.46,
+      "probability": 0.842787504196167,
+      "display": "Desde"
     },
     {
-      "word": "mi",
-      "start": 0.52,
-      "end": 0.62,
-      "probability": 0.6219255924224854,
-      "display": "Mi"
+      "word": "tus",
+      "start": 0.46,
+      "end": 0.74,
+      "probability": 0.8795202970504761,
+      "display": "tus"
     },
     {
-      "word": "acceso,",
-      "start": 0.62,
-      "end": 0.92,
-      "probability": 0.9888226985931396,
-      "display": "acceso"
+      "word": "comercios,",
+      "start": 0.74,
+      "end": 1.22,
+      "probability": 0.9699935019016266,
+      "display": "comercios,"
     },
     {
-      "word": "podés",
-      "start": 1.24,
-      "end": 1.36,
-      "probability": 0.8157374858856201,
-      "display": "podés"
+      "word": "verme",
+      "start": 1.56,
+      "end": 1.72,
+      "probability": 0.9237715005874634,
+      "display": "verme"
+    },
+    {
+      "word": "enlace",
+      "start": 1.72,
+      "end": 2.16,
+      "probability": 0.8028934895992279,
+      "display": "enlace"
+    },
+    {
+      "word": "personal,",
+      "start": 2.16,
+      "end": 2.72,
+      "probability": 0.9924978613853455,
+      "display": "personal"
+    },
+    {
+      "word": "abre",
+      "start": 2.92,
+      "end": 3.12,
+      "probability": 0.9293375015258789,
+      "display": "abre"
+    },
+    {
+      "word": "tu",
+      "start": 3.12,
+      "end": 3.32,
+      "probability": 0.9908707737922668,
+      "display": "Tu"
+    },
+    {
+      "word": "acceso.",
+      "start": 3.32,
+      "end": 3.58,
+      "probability": 0.9976840019226074,
+      "display": "acceso."
+    },
+    {
+      "word": "Podés",
+      "start": 4.34,
+      "end": 4.64,
+      "probability": 0.7778379023075104,
+      "display": "Podés"
     },
     {
       "word": "copiar",
-      "start": 1.36,
-      "end": 1.74,
-      "probability": 0.9974041283130646,
+      "start": 4.64,
+      "end": 4.96,
+      "probability": 0.9980157315731049,
       "display": "copiar"
     },
     {
       "word": "el",
-      "start": 1.74,
-      "end": 2.08,
-      "probability": 0.9926441311836243,
+      "start": 4.96,
+      "end": 5.12,
+      "probability": 0.9918814301490784,
       "display": "el"
     },
     {
       "word": "enlace",
-      "start": 2.08,
-      "end": 2.46,
-      "probability": 0.9879938960075378,
+      "start": 5.12,
+      "end": 5.46,
+      "probability": 0.9972202479839325,
       "display": "enlace"
     },
     {
       "word": "de",
-      "start": 2.46,
-      "end": 2.66,
-      "probability": 0.9981671571731567,
+      "start": 5.46,
+      "end": 5.62,
+      "probability": 0.9960653185844421,
       "display": "de"
     },
     {
       "word": "la",
-      "start": 2.66,
-      "end": 2.78,
-      "probability": 0.9937784075737,
+      "start": 5.62,
+      "end": 5.72,
+      "probability": 0.9946320056915283,
       "display": "la"
     },
     {
       "word": "billetera",
-      "start": 2.78,
-      "end": 3.2,
-      "probability": 0.979204535484314,
+      "start": 5.72,
+      "end": 6.14,
+      "probability": 0.9763916432857513,
       "display": "billetera"
     },
     {
       "word": "y",
-      "start": 3.2,
-      "end": 3.54,
-      "probability": 0.9665325880050659,
+      "start": 6.14,
+      "end": 6.52,
+      "probability": 0.9401666522026062,
       "display": "y"
     },
     {
       "word": "guardarlo",
-      "start": 3.54,
-      "end": 4.0,
-      "probability": 0.9715577960014343,
+      "start": 6.52,
+      "end": 7,
+      "probability": 0.9811795353889465,
       "display": "guardarlo"
     },
     {
       "word": "en",
-      "start": 4.0,
-      "end": 4.14,
-      "probability": 0.998275876045227,
+      "start": 7,
+      "end": 7.2,
+      "probability": 0.9975841045379639,
       "display": "en"
     },
     {
       "word": "este",
-      "start": 4.14,
-      "end": 4.32,
-      "probability": 0.995341420173645,
+      "start": 7.2,
+      "end": 7.38,
+      "probability": 0.992755115032196,
       "display": "este"
     },
     {
-      "word": "dispositivo",
-      "start": 4.32,
-      "end": 4.98,
-      "probability": 0.9985975325107574,
-      "display": "dispositivo"
-    },
-    {
-      "word": "para",
-      "start": 4.98,
-      "end": 5.26,
-      "probability": 0.9689061045646667,
-      "display": "para"
-    },
-    {
-      "word": "volver",
-      "start": 5.26,
-      "end": 5.56,
-      "probability": 0.994170069694519,
-      "display": "volver"
-    },
-    {
-      "word": "más",
-      "start": 5.56,
-      "end": 5.92,
-      "probability": 0.9936220049858093,
-      "display": "más"
-    },
-    {
-      "word": "rápido.",
-      "start": 5.92,
-      "end": 6.24,
-      "probability": 0.9985045194625854,
-      "display": "rápido."
+      "word": "dispositivo.",
+      "start": 7.38,
+      "end": 8.02,
+      "probability": 0.998346209526062,
+      "display": "dispositivo."
     },
     {
       "word": "Ese",
-      "start": 6.8,
-      "end": 7.14,
-      "probability": 0.9449605345726013,
+      "start": 8.54,
+      "end": 8.86,
+      "probability": 0.8625729382038116,
       "display": "Ese"
     },
     {
       "word": "enlace",
-      "start": 7.14,
-      "end": 7.46,
-      "probability": 0.9993897080421448,
+      "start": 8.86,
+      "end": 9.22,
+      "probability": 0.9979008734226227,
       "display": "enlace"
     },
     {
       "word": "permite",
-      "start": 7.46,
-      "end": 7.9,
-      "probability": 0.9957242012023926,
+      "start": 9.22,
+      "end": 9.76,
+      "probability": 0.9914141297340393,
       "display": "permite"
     },
     {
       "word": "consultar",
-      "start": 7.9,
-      "end": 8.52,
-      "probability": 0.993891179561615,
+      "start": 9.76,
+      "end": 10.36,
+      "probability": 0.9952081739902496,
       "display": "consultar"
     },
     {
       "word": "la",
-      "start": 8.52,
-      "end": 8.64,
-      "probability": 0.9981253743171692,
+      "start": 10.36,
+      "end": 10.46,
+      "probability": 0.9963091015815735,
       "display": "la"
     },
     {
       "word": "información",
-      "start": 8.64,
-      "end": 8.86,
-      "probability": 0.999352753162384,
+      "start": 10.46,
+      "end": 10.76,
+      "probability": 0.9992368221282959,
       "display": "información"
     },
     {
       "word": "del",
-      "start": 8.86,
-      "end": 9.3,
-      "probability": 0.9937267303466797,
+      "start": 10.76,
+      "end": 11.14,
+      "probability": 0.9927564263343811,
       "display": "del"
     },
     {
       "word": "cliente.",
-      "start": 9.3,
-      "end": 9.76,
-      "probability": 0.9964720904827118,
+      "start": 11.14,
+      "end": 11.66,
+      "probability": 0.9956948757171631,
       "display": "cliente:"
     },
     {
       "word": "Compartilo",
-      "start": 10.14,
-      "end": 10.66,
-      "probability": 0.905922512213389,
+      "start": 12.12,
+      "end": 12.72,
+      "probability": 0.895973801612854,
       "display": "compartilo"
     },
     {
       "word": "con",
-      "start": 10.66,
-      "end": 10.94,
-      "probability": 0.9934222102165222,
+      "start": 12.72,
+      "end": 13.04,
+      "probability": 0.9943101406097412,
       "display": "con"
     },
     {
       "word": "cuidado.",
-      "start": 10.94,
-      "end": 11.22,
-      "probability": 0.9954075217247009,
+      "start": 13.04,
+      "end": 13.34,
+      "probability": 0.9827917218208313,
       "display": "cuidado."
     },
     {
+      "word": "Al",
+      "start": 13.86,
+      "end": 14.06,
+      "probability": 0.9915046095848083,
+      "display": "Al"
+    },
+    {
+      "word": "volver",
+      "start": 14.06,
+      "end": 14.3,
+      "probability": 0.9981095790863037,
+      "display": "volver"
+    },
+    {
+      "word": "al",
+      "start": 14.3,
+      "end": 14.48,
+      "probability": 0.994189977645874,
+      "display": "al"
+    },
+    {
+      "word": "inicio",
+      "start": 14.48,
+      "end": 14.74,
+      "probability": 0.9734427034854889,
+      "display": "inicio"
+    },
+    {
+      "word": "público,",
+      "start": 14.74,
+      "end": 15.16,
+      "probability": 0.9844761490821838,
+      "display": "público"
+    },
+    {
+      "word": "aparece",
+      "start": 15.36,
+      "end": 15.76,
+      "probability": 0.9775805473327637,
+      "display": "aparece"
+    },
+    {
+      "word": "a",
+      "start": 15.76,
+      "end": 16.04,
+      "probability": 0.9224855899810791,
+      "display": "a"
+    },
+    {
+      "word": "abrir",
+      "start": 16.04,
+      "end": 16.24,
+      "probability": 0.9560948610305786,
+      "display": "Abrir"
+    },
+    {
+      "word": "mi",
+      "start": 16.24,
+      "end": 16.46,
+      "probability": 0.9871631264686584,
+      "display": "mi"
+    },
+    {
+      "word": "acceso",
+      "start": 16.46,
+      "end": 16.8,
+      "probability": 0.9954426288604736,
+      "display": "acceso"
+    },
+    {
+      "word": "guardado.",
+      "start": 16.8,
+      "end": 17.32,
+      "probability": 0.9939762055873871,
+      "display": "guardado."
+    },
+    {
       "word": "Guardarlo",
-      "start": 11.6,
-      "end": 12.0,
-      "probability": 0.982615739107132,
+      "start": 17.68,
+      "end": 18.14,
+      "probability": 0.9833263456821442,
       "display": "Guardarlo"
     },
     {
       "word": "en",
-      "start": 12.0,
-      "end": 12.12,
-      "probability": 0.9983773231506348,
+      "start": 18.14,
+      "end": 18.28,
+      "probability": 0.9982728958129883,
       "display": "en"
     },
     {
       "word": "el",
-      "start": 12.12,
-      "end": 12.22,
-      "probability": 0.9902446269989014,
+      "start": 18.28,
+      "end": 18.36,
+      "probability": 0.971111536026001,
       "display": "el"
     },
     {
       "word": "navegador",
-      "start": 12.22,
-      "end": 12.62,
-      "probability": 0.9994799494743347,
+      "start": 18.36,
+      "end": 18.78,
+      "probability": 0.9994938373565674,
       "display": "navegador"
     },
     {
       "word": "no",
-      "start": 12.62,
-      "end": 12.82,
-      "probability": 0.9264581799507141,
+      "start": 18.78,
+      "end": 19.1,
+      "probability": 0.6518175601959229,
       "display": "no"
     },
     {
       "word": "crea",
-      "start": 12.82,
-      "end": 13.1,
-      "probability": 0.9945871233940125,
+      "start": 19.1,
+      "end": 19.42,
+      "probability": 0.8917683959007263,
       "display": "crea"
     },
     {
       "word": "una",
-      "start": 13.1,
-      "end": 13.24,
-      "probability": 0.9972400665283203,
+      "start": 19.42,
+      "end": 19.58,
+      "probability": 0.9947232007980347,
       "display": "una"
     },
     {
       "word": "cuenta",
-      "start": 13.24,
-      "end": 13.52,
-      "probability": 0.9954817295074463,
+      "start": 19.58,
+      "end": 19.84,
+      "probability": 0.996107280254364,
       "display": "cuenta"
     },
     {
       "word": "comercial.",
-      "start": 13.52,
-      "end": 13.94,
-      "probability": 0.9989266991615295,
+      "start": 19.84,
+      "end": 20.3,
+      "probability": 0.9993570446968079,
       "display": "comercial."
     },
     {
-      "word": "La",
-      "start": 14.48,
-      "end": 14.7,
-      "probability": 0.9941158294677734,
-      "display": "La"
+      "word": "En",
+      "start": 20.82,
+      "end": 21.04,
+      "probability": 0.9967678785324097,
+      "display": "En"
     },
     {
-      "word": "opción",
-      "start": 14.7,
-      "end": 15.0,
-      "probability": 0.9968258440494537,
-      "display": "opción"
+      "word": "pantallas",
+      "start": 21.04,
+      "end": 21.42,
+      "probability": 0.8156251609325409,
+      "display": "pantallas"
     },
     {
-      "word": "de",
-      "start": 15.0,
-      "end": 15.14,
-      "probability": 0.9985374212265015,
-      "display": "de"
+      "word": "pequeñas",
+      "start": 21.42,
+      "end": 21.96,
+      "probability": 0.99813312292099,
+      "display": "pequeñas"
+    },
+    {
+      "word": "aparece",
+      "start": 21.96,
+      "end": 22.36,
+      "probability": 0.8582301735877991,
+      "display": "aparece"
+    },
+    {
+      "word": "una",
+      "start": 22.36,
+      "end": 22.64,
+      "probability": 0.9946889877319336,
+      "display": "una"
+    },
+    {
+      "word": "guía",
+      "start": 22.64,
+      "end": 22.94,
+      "probability": 0.9877989292144775,
+      "display": "guía"
+    },
+    {
+      "word": "para",
+      "start": 22.94,
+      "end": 23.16,
+      "probability": 0.9961304664611816,
+      "display": "para"
     },
     {
       "word": "agregar",
-      "start": 15.14,
-      "end": 15.46,
-      "probability": 0.9884239435195923,
+      "start": 23.16,
+      "end": 23.56,
+      "probability": 0.9980235397815704,
       "display": "agregar"
     },
     {
       "word": "Pointly",
-      "start": 15.46,
-      "end": 15.96,
-      "probability": 0.6023780256509781,
+      "start": 23.56,
+      "end": 24.1,
+      "probability": 0.5106523185968399,
       "display": "Pointly"
     },
     {
       "word": "como",
-      "start": 15.96,
-      "end": 16.24,
-      "probability": 0.9843824505805969,
+      "start": 24.1,
+      "end": 24.3,
+      "probability": 0.9830003976821899,
       "display": "como"
     },
     {
-      "word": "acceso",
-      "start": 16.24,
-      "end": 16.6,
-      "probability": 0.9794443845748901,
-      "display": "acceso"
+      "word": "acceso.",
+      "start": 24.3,
+      "end": 24.62,
+      "probability": 0.9911942481994629,
+      "display": "acceso;"
     },
     {
-      "word": "o",
-      "start": 16.6,
-      "end": 16.96,
-      "probability": 0.9262701272964478,
-      "display": "o"
+      "word": "La",
+      "start": 25.16,
+      "end": 25.32,
+      "probability": 0.9929680228233337,
+      "display": "la"
     },
     {
-      "word": "instalarlo",
-      "start": 16.96,
-      "end": 17.52,
-      "probability": 0.9476532141367594,
-      "display": "instalarlo"
+      "word": "instalación",
+      "start": 25.32,
+      "end": 25.86,
+      "probability": 0.9969610869884491,
+      "display": "instalación"
     },
     {
       "word": "depende",
-      "start": 17.52,
-      "end": 17.82,
-      "probability": 0.981168270111084,
+      "start": 25.86,
+      "end": 26.2,
+      "probability": 0.9918276071548462,
       "display": "depende"
     },
     {
       "word": "del",
-      "start": 17.82,
-      "end": 18.1,
-      "probability": 0.9964357614517212,
+      "start": 26.2,
+      "end": 26.48,
+      "probability": 0.9930782914161682,
       "display": "del"
     },
     {
       "word": "navegador",
-      "start": 18.1,
-      "end": 18.52,
-      "probability": 0.9997970461845398,
+      "start": 26.48,
+      "end": 26.96,
+      "probability": 0.9998408357302347,
       "display": "navegador"
     },
     {
       "word": "y",
-      "start": 18.52,
-      "end": 18.86,
-      "probability": 0.9969226717948914,
+      "start": 26.96,
+      "end": 27.18,
+      "probability": 0.9982056617736816,
       "display": "y"
     },
     {
       "word": "del",
-      "start": 18.86,
-      "end": 19.0,
-      "probability": 0.9405080676078796,
+      "start": 27.18,
+      "end": 27.3,
+      "probability": 0.9334564208984375,
       "display": "del"
     },
     {
       "word": "dispositivo.",
-      "start": 19.0,
-      "end": 19.6,
-      "probability": 0.999451607465744,
+      "start": 27.3,
+      "end": 27.92,
+      "probability": 0.999213695526123,
       "display": "dispositivo."
     },
     {
-      "word": "Abrimos",
-      "start": 20.16,
-      "end": 20.6,
-      "probability": 0.972781777381897,
-      "display": "Abrimos"
-    },
-    {
-      "word": "a",
-      "start": 20.6,
-      "end": 20.78,
-      "probability": 0.8765690326690674,
-      "display": "a"
-    },
-    {
-      "word": "agregar",
-      "start": 20.78,
-      "end": 21.04,
-      "probability": 0.9952152967453003,
-      "display": "Agregar"
-    },
-    {
-      "word": "acceso",
-      "start": 21.04,
-      "end": 21.4,
-      "probability": 0.9803900122642517,
-      "display": "acceso"
-    },
-    {
-      "word": "para",
-      "start": 21.4,
-      "end": 21.7,
-      "probability": 0.998544454574585,
-      "display": "para"
-    },
-    {
-      "word": "leer",
-      "start": 21.7,
-      "end": 21.94,
-      "probability": 0.9850838780403137,
-      "display": "leer"
-    },
-    {
-      "word": "la",
-      "start": 21.94,
-      "end": 22.14,
-      "probability": 0.9980744123458862,
-      "display": "la"
-    },
-    {
-      "word": "guía",
-      "start": 22.14,
-      "end": 22.32,
-      "probability": 0.9928258657455444,
-      "display": "guía"
-    },
-    {
-      "word": "disponible.",
-      "start": 22.32,
-      "end": 22.86,
-      "probability": 0.9980539381504059,
-      "display": "disponible."
-    },
-    {
       "word": "También",
-      "start": 23.4,
-      "end": 23.72,
-      "probability": 0.994326651096344,
+      "start": 27.92,
+      "end": 28.54,
+      "probability": 0.9154065251350403,
       "display": "También"
     },
     {
       "word": "podés",
-      "start": 23.72,
-      "end": 24.08,
-      "probability": 0.9828251898288727,
+      "start": 28.54,
+      "end": 28.94,
+      "probability": 0.655114158987999,
       "display": "podés"
     },
     {
       "word": "quitar",
-      "start": 24.08,
-      "end": 24.34,
-      "probability": 0.9945369362831116,
+      "start": 28.94,
+      "end": 29.24,
+      "probability": 0.9973384141921997,
       "display": "quitar"
     },
     {
       "word": "el",
-      "start": 24.34,
-      "end": 24.48,
-      "probability": 0.9988670349121094,
+      "start": 29.24,
+      "end": 29.32,
+      "probability": 0.9974851608276367,
       "display": "el"
     },
     {
       "word": "acceso",
-      "start": 24.48,
-      "end": 24.72,
-      "probability": 0.9942560791969299,
+      "start": 29.32,
+      "end": 29.58,
+      "probability": 0.9891313314437866,
       "display": "acceso"
     },
     {
       "word": "recordado",
-      "start": 24.72,
-      "end": 25.34,
-      "probability": 0.9964754581451416,
+      "start": 29.58,
+      "end": 30.28,
+      "probability": 0.9577449560165405,
       "display": "recordado"
     },
     {
       "word": "sin",
-      "start": 25.34,
-      "end": 25.58,
-      "probability": 0.932834267616272,
+      "start": 30.28,
+      "end": 30.52,
+      "probability": 0.9521384239196777,
       "display": "sin"
     },
     {
       "word": "borrar",
-      "start": 25.58,
-      "end": 25.9,
-      "probability": 0.9941243827342987,
+      "start": 30.52,
+      "end": 30.82,
+      "probability": 0.9949743449687958,
       "display": "borrar"
     },
     {
       "word": "puntos.",
-      "start": 25.9,
-      "end": 26.24,
-      "probability": 0.9989171028137207,
+      "start": 30.82,
+      "end": 31.08,
+      "probability": 0.9987301230430603,
       "display": "puntos."
     },
     {
       "word": "Para",
-      "start": 26.24,
-      "end": 26.92,
-      "probability": 0.8191067576408386,
+      "start": 31.54,
+      "end": 31.8,
+      "probability": 0.9964225888252258,
       "display": "Para"
     },
     {
       "word": "cambiar",
-      "start": 26.92,
-      "end": 27.22,
-      "probability": 0.9971038699150085,
+      "start": 31.8,
+      "end": 32.1,
+      "probability": 0.9972125887870789,
       "display": "cambiar"
     },
     {
       "word": "de",
-      "start": 27.22,
-      "end": 27.38,
-      "probability": 0.9990941286087036,
+      "start": 32.1,
+      "end": 32.26,
+      "probability": 0.999235987663269,
       "display": "de"
     },
     {
       "word": "persona,",
-      "start": 27.38,
-      "end": 27.76,
-      "probability": 0.9984903335571289,
+      "start": 32.26,
+      "end": 32.66,
+      "probability": 0.9988183379173279,
       "display": "persona,"
     },
     {
       "word": "elegí",
-      "start": 27.98,
-      "end": 28.3,
-      "probability": 0.9877537786960602,
+      "start": 32.88,
+      "end": 33.22,
+      "probability": 0.981862485408783,
       "display": "elegí"
     },
     {
       "word": "consultar",
-      "start": 28.3,
-      "end": 28.86,
-      "probability": 0.9716671705245972,
+      "start": 33.22,
+      "end": 33.84,
+      "probability": 0.9693176746368408,
       "display": "Consultar"
     },
     {
       "word": "otro",
-      "start": 28.86,
-      "end": 29.14,
-      "probability": 0.9925927519798279,
+      "start": 33.84,
+      "end": 34.18,
+      "probability": 0.9684459567070007,
       "display": "otro"
     },
     {
-      "word": "DNI",
-      "start": 29.14,
-      "end": 29.8,
-      "probability": 0.9451376497745514,
-      "display": "DNI"
+      "word": "DNE",
+      "start": 34.18,
+      "end": 34.74,
+      "probability": 0.6483790576457977,
+      "display": "DNE"
     },
     {
       "word": "y",
-      "start": 29.8,
-      "end": 30.1,
-      "probability": 0.9723150134086609,
+      "start": 34.74,
+      "end": 34.92,
+      "probability": 0.9301767349243164,
       "display": "y"
     },
     {
       "word": "volvés",
-      "start": 30.1,
-      "end": 30.48,
-      "probability": 0.9466432730356852,
+      "start": 34.92,
+      "end": 35.46,
+      "probability": 0.7197690904140472,
       "display": "volvés"
     },
     {
       "word": "al",
-      "start": 30.48,
-      "end": 30.62,
-      "probability": 0.998779833316803,
+      "start": 35.46,
+      "end": 35.58,
+      "probability": 0.9981871247291565,
       "display": "al"
     },
     {
       "word": "formulario.",
-      "start": 30.62,
-      "end": 31.18,
-      "probability": 0.9918973843256632,
+      "start": 35.58,
+      "end": 36.12,
+      "probability": 0.9915850758552551,
       "display": "formulario."
     }
   ],
   "captions": [
     {
-      "text": "En Mi acceso podés copiar el enlace de la billetera y guardarlo en este",
+      "text": "Desde tus comercios, Ver mi enlace personal abre Tu acceso.",
       "startMs": 0,
-      "endMs": 4320,
+      "endMs": 3580,
       "timestampMs": null,
-      "confidence": 0.948
+      "confidence": 0.9254840479956733
     },
     {
-      "text": "dispositivo para volver más rápido.",
-      "startMs": 4320,
-      "endMs": 6240,
+      "text": "Podés copiar el enlace de la billetera y guardarlo en este dispositivo.",
+      "startMs": 4340,
+      "endMs": 8020,
       "timestampMs": null,
-      "confidence": 0.991
+      "confidence": 0.9701729913552603
     },
     {
       "text": "Ese enlace permite consultar la información del cliente:",
-      "startMs": 6800,
-      "endMs": 9760,
+      "startMs": 8540,
+      "endMs": 11660,
       "timestampMs": null,
-      "confidence": 0.99
+      "confidence": 0.9788866676390171
     },
     {
       "text": "compartilo con cuidado.",
-      "startMs": 10140,
-      "endMs": 11220,
+      "startMs": 12120,
+      "endMs": 13340,
       "timestampMs": null,
-      "confidence": 0.965
+      "confidence": 0.9576918880144755
+    },
+    {
+      "text": "Al volver al inicio público aparece a Abrir mi acceso guardado.",
+      "startMs": 13860,
+      "endMs": 17320,
+      "timestampMs": null,
+      "confidence": 0.9794969071041454
     },
     {
       "text": "Guardarlo en el navegador no crea una cuenta comercial.",
-      "startMs": 11600,
-      "endMs": 13940,
+      "startMs": 17680,
+      "endMs": 20300,
       "timestampMs": null,
-      "confidence": 0.987
+      "confidence": 0.9428864551915063
     },
     {
-      "text": "La opción de agregar Pointly como acceso o instalarlo depende del navegador y",
-      "startMs": 14480,
-      "endMs": 18860,
+      "text": "En pantallas pequeñas aparece una guía para agregar Pointly como acceso;",
+      "startMs": 20820,
+      "endMs": 24620,
       "timestampMs": null,
-      "confidence": 0.953
+      "confidence": 0.9209313839673996
     },
     {
-      "text": "del dispositivo.",
-      "startMs": 18860,
-      "endMs": 19600,
+      "text": "la instalación depende del navegador y del dispositivo.",
+      "startMs": 25160,
+      "endMs": 27920,
       "timestampMs": null,
-      "confidence": 0.97
-    },
-    {
-      "text": "Abrimos a Agregar acceso para leer la guía disponible.",
-      "startMs": 20160,
-      "endMs": 22860,
-      "timestampMs": null,
-      "confidence": 0.978
+      "confidence": 0.9881939527889093
     },
     {
       "text": "También podés quitar el acceso recordado sin borrar puntos.",
-      "startMs": 23400,
-      "endMs": 26240,
+      "startMs": 27920,
+      "endMs": 31080,
       "timestampMs": null,
-      "confidence": 0.987
+      "confidence": 0.9397848265038596
     },
     {
       "text": "Para cambiar de persona, elegí Consultar otro DNI y volvés al formulario.",
-      "startMs": 26240,
-      "endMs": 31180,
+      "startMs": 31540,
+      "endMs": 36120,
       "timestampMs": null,
-      "confidence": 0.968
+      "confidence": 0.9332843919595083
     }
   ],
-  "status": "REVIEW_REQUIRED"
+  "status": "REVIEW_REQUIRED",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [
+      [
+        "verme",
+        "Ver mi"
+      ],
+      [
+        "DNE",
+        "DNI"
+      ]
+    ],
+    "sourceAudioHash": "6cadb901a613c42c37900b381bf95668b50afb0e02de845b6d5f9a075073b3cc"
+  }
 }

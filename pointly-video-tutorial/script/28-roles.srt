@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:03,000
+La cuenta de comercio administra sus propios negocios.
+
+2
+00:00:03,520 --> 00:00:07,700
+La administración general tiene una vista diferente con empresas de toda la plataforma,
+
+3
+00:00:08,160 --> 00:00:09,760
+sus reglas y sus estados.
+
+4
+00:00:10,380 --> 00:00:13,920
+Algunas acciones visibles pueden seguir restringidas por el servidor:
+
+5
+00:00:14,360 --> 00:00:17,700
+no tener permiso no se resuelve cambiando la dirección de la página.
+
+6
+00:00:18,200 --> 00:00:21,460
+Este tutorial usa la cuenta comercial para las tareas diarias.
+
+7
+00:00:22,040 --> 00:00:26,600
+El asistente de inteligencia artificial y los niveles de fidelidad están desactivados en
+
+8
+00:00:26,600 --> 00:00:29,020
+esta versión, aunque exista código histórico:
+
+9
+00:00:29,020 --> 00:00:31,920
+no son herramientas disponibles que tengas que configurar.

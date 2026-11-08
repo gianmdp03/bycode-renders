@@ -1,0 +1,47 @@
+1
+00:00:00,000 --> 00:00:03,360
+El catálogo de Productos informa lo que ofrece tu comercio.
+
+2
+00:00:03,680 --> 00:00:05,160
+Cargá un nombre y un precio;
+
+3
+00:00:05,680 --> 00:00:07,020
+la descripción es opcional.
+
+4
+00:00:07,620 --> 00:00:09,640
+Para la imagen podés elegir un archivo,
+
+5
+00:00:09,960 --> 00:00:12,700
+pegar un enlace directo o dejar el producto sin foto.
+
+6
+00:00:13,220 --> 00:00:17,180
+Primero guardamos una foto desde Archivo y revisamos la tarjeta.
+
+7
+00:00:17,620 --> 00:00:20,280
+Desde Editar también podemos reemplazarla con Enlace:
+
+8
+00:00:20,660 --> 00:00:24,760
+la dirección tiene que apuntar a la imagen, no a una página web.
+
+9
+00:00:25,160 --> 00:00:27,160
+Guardamos y comprobamos el resultado.
+
+10
+00:00:27,160 --> 00:00:31,080
+Para dejarlos sin foto, usamos Quitar imagen y guardamos otra vez.
+
+11
+00:00:31,520 --> 00:00:34,460
+Si el producto ya no corresponde, Eliminar pide confirmación.
+
+12
+00:00:35,160 --> 00:00:38,660
+Este catálogo no es un carrito de compras ni un control de stock.

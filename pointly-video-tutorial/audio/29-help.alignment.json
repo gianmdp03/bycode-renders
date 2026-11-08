@@ -2,12 +2,12 @@
   "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
   "audio_sha256": "c5ae82977f17caef300e7e0a8b31b3d085ca8b4906846f29b1624849d02b9270",
   "transcript": "Cuando una lista no carga, usa su botón reintentar. Un error de conexión no significa que no existan clientes o ventas. Si la búsqueda está vacía, revisa el país, el documento y el filtro. Podés cambiar entre tema claro y oscuro desde la aplicación, consultar las preguntas frecuentes y volver al panel desde el menú. Al terminar en una computadora compartida, cerrá la sesión. Recordá la secuencia diaria. Identificar al cliente, registrar la compra, verificar los puntos y registrar el canje cuando corresponda.",
-  "scriptSimilarity": 1.0,
+  "scriptSimilarity": 1,
   "differences": [],
   "words": [
     {
       "word": "Cuando",
-      "start": 0.0,
+      "start": 0,
       "end": 0.58,
       "probability": 0.8469550609588623,
       "display": "Cuando"
@@ -498,7 +498,7 @@
     {
       "word": "cliente,",
       "start": 25.5,
-      "end": 26.0,
+      "end": 26,
       "probability": 0.9983080923557281,
       "display": "cliente,"
     },
@@ -593,64 +593,69 @@
       "startMs": 0,
       "endMs": 3080,
       "timestampMs": null,
-      "confidence": 0.929
+      "confidence": 0.9286212457550896
     },
     {
       "text": "un error de conexión no significa que no existan clientes o ventas.",
       "startMs": 3620,
       "endMs": 7280,
       "timestampMs": null,
-      "confidence": 0.99
+      "confidence": 0.9900901640454928
     },
     {
       "text": "Si la búsqueda está vacía, revisá el país, el documento y el filtro.",
       "startMs": 7760,
       "endMs": 11600,
       "timestampMs": null,
-      "confidence": 0.979
+      "confidence": 0.9787278576539113
     },
     {
-      "text": "Podés cambiar entre tema claro y oscuro desde la aplicación, consultar las",
+      "text": "Podés cambiar entre tema claro y oscuro desde la aplicación,",
       "startMs": 12080,
-      "endMs": 16180,
+      "endMs": 15140,
       "timestampMs": null,
-      "confidence": 0.979
+      "confidence": 0.9762625257174176
     },
     {
-      "text": "preguntas frecuentes y volver al panel desde el menú.",
-      "startMs": 16180,
+      "text": "consultar las preguntas frecuentes y volver al panel desde el menú.",
+      "startMs": 15500,
       "endMs": 18880,
       "timestampMs": null,
-      "confidence": 0.983
+      "confidence": 0.9849353956453727
     },
     {
       "text": "Al terminar en una computadora compartida, cerrá la sesión.",
       "startMs": 19260,
       "endMs": 22540,
       "timestampMs": null,
-      "confidence": 0.978
+      "confidence": 0.9779054224491119
     },
     {
       "text": "Recordá la secuencia diaria:",
       "startMs": 23020,
       "endMs": 24440,
       "timestampMs": null,
-      "confidence": 0.967
+      "confidence": 0.9671899527311325
     },
     {
-      "text": "identificar al cliente, registrar la compra, verificar los puntos y registrar",
+      "text": "identificar al cliente, registrar la compra,",
       "startMs": 24760,
-      "endMs": 29400,
+      "endMs": 27180,
       "timestampMs": null,
-      "confidence": 0.958
+      "confidence": 0.986927772561709
     },
     {
-      "text": "el canje cuando corresponda.",
-      "startMs": 29400,
+      "text": "verificar los puntos y registrar el canje cuando corresponda.",
+      "startMs": 27540,
       "endMs": 30820,
       "timestampMs": null,
-      "confidence": 0.969
+      "confidence": 0.9436190260781182
     }
   ],
-  "status": "ACOUSTIC_MATCH"
+  "status": "ACOUSTIC_MATCH",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [],
+    "sourceAudioHash": "c5ae82977f17caef300e7e0a8b31b3d085ca8b4906846f29b1624849d02b9270"
+  }
 }

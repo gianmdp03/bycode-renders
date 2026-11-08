@@ -3,13 +3,13 @@
   "evidence": [
     {
       "label": "Calculator result applied to cost",
-      "url": "/companies/cafe-del-puerto-tutorial/actions/add-reward",
-      "at": 1793727949006.8
+      "url": "/companies/cafe-del-puerto-actualizado/actions/add-reward",
+      "at": 1794066507861.8
     },
     {
       "label": "Physical reward saved",
-      "url": "/companies/cafe-del-puerto-tutorial",
-      "at": 1793727951198.6
+      "url": "/companies/cafe-del-puerto-actualizado",
+      "at": 1794066509950.1
     }
   ],
   "network": [
@@ -30,12 +30,12 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/company-names/cafe-del-puerto-tutorial/company",
+      "path": "/api/pointly/company-names/cafe-del-puerto-actualizado/company",
       "status": 200
     },
     {
       "method": "GET",
-      "path": "/api/pointly/public/media/6dedfc39-a8dd-4815-a680-b61b8db0307c",
+      "path": "/api/pointly/public/media/abf1bc3b-8f5e-47c2-b69a-d4822226336f",
       "status": 200
     },
     {
@@ -60,7 +60,7 @@
     },
     {
       "method": "POST",
-      "path": "/api/pointly/rewards/1/4/image",
+      "path": "/api/pointly/rewards/1/7/image",
       "status": 201
     },
     {
@@ -84,6 +84,6 @@
       "status": 200
     }
   ],
-  "source": "recordings/16-physical-reward-1793727966921.mp4",
+  "source": "recordings/16-physical-reward-1794066511891.mp4",
   "obs": null
 }

@@ -4,7 +4,7 @@ Vamos a registrar una compra para Ana.
 
 2
 00:00:02,600 --> 00:00:06,700
-Buscamos su país y DNI y cargamos 8 .500 pesos.
+Buscamos su país y DNI y cargamos 8.500 pesos.
 
 3
 00:00:07,540 --> 00:00:11,420

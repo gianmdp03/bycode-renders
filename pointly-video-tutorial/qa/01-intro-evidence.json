@@ -4,40 +4,10 @@
     {
       "label": "Public product explanation and FAQ",
       "url": "/",
-      "at": 1793726562565.9001
+      "at": 1794066024440.9001
     }
   ],
   "network": [],
-  "source": "recordings/01-intro-1793726586847.mkv",
-  "obs": {
-    "renderSkippedFrames": 0,
-    "outputSkippedFrames": 0,
-    "rawBefore": {
-      "activeFps": 60.0000024000001,
-      "availableDiskSpace": 127662.64453125,
-      "averageFrameRenderTime": 1.844701,
-      "cpuUsage": 0.6890990381032897,
-      "memoryUsage": 164.48046875,
-      "outputSkippedFrames": 0,
-      "outputTotalFrames": 0,
-      "renderSkippedFrames": 0,
-      "renderTotalFrames": 10462,
-      "webSocketSessionIncomingMessages": 12,
-      "webSocketSessionOutgoingMessages": 14
-    },
-    "rawAfter": {
-      "activeFps": 60.0000024000001,
-      "availableDiskSpace": 127617.82421875,
-      "averageFrameRenderTime": 5.142721,
-      "cpuUsage": 1.6646945618022828,
-      "memoryUsage": 308.87890625,
-      "outputSkippedFrames": 0,
-      "outputTotalFrames": 1570,
-      "renderSkippedFrames": 0,
-      "renderTotalFrames": 12044,
-      "webSocketSessionIncomingMessages": 15,
-      "webSocketSessionOutgoingMessages": 21
-    },
-    "note": "Render counters accumulate since OBS startup; output counters reset when recording starts."
-  }
+  "source": "recordings/01-intro-1794066026311.mp4",
+  "obs": null
 }

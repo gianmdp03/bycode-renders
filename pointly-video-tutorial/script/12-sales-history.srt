@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:03,700
+La pestaña Ventas muestra las compras, sus importes y fechas.
+
+2
+00:00:04,040 --> 00:00:07,620
+Si aparece Sin dato por venta, no significa cero puntos:
+
+3
+00:00:08,180 --> 00:00:10,420
+consultá el saldo y el historial del cliente.
+
+4
+00:00:10,980 --> 00:00:15,700
+No recalcules una venta antigua con la regla actual, porque pudo tener otra promoción.
+
+5
+00:00:16,160 --> 00:00:19,180
+Una compra menor al mínimo puede registrarse con cero puntos.
+
+6
+00:00:19,680 --> 00:00:22,360
+Si la conexión se corta y no hay un resultado claro,
+
+7
+00:00:22,760 --> 00:00:25,720
+conservá el formulario y usá Reintentar venta pendiente.
+
+8
+00:00:26,240 --> 00:00:29,200
+No empieces otra operación para repetir la misma compra:
+
+9
+00:00:29,200 --> 00:00:32,760
+el reintento conserva su identidad para evitar duplicaciones.
+
+10
+00:00:33,200 --> 00:00:35,500
+Revisá siempre el resultado antes de seguir.

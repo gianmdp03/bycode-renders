@@ -2,12 +2,12 @@
   "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
   "audio_sha256": "f3e3e2695d9780b8f57be21fcc2af9504c3ee9ac035189a2e2afc84876ae6d50",
   "transcript": "Sin actividad, reúne clientes que llevan el período elegido sin compras ni canjes. Podés usar los días sugeridos o escribir otro valor. Abrir esta lista no archiva personas ni envía mensajes. Preparar WhatsApp abre una página con un texto que podés revisar, editar y copiar. Comproba el número con código de país. Abrir WhatsApp prepara el mensaje. El envío final lo haces vos. En esta demostración solo revisamos y copiamos el borrador, sin contactar a ninguna persona.",
-  "scriptSimilarity": 1.0,
+  "scriptSimilarity": 1,
   "differences": [],
   "words": [
     {
       "word": "Sin",
-      "start": 0.0,
+      "start": 0,
       "end": 0.3,
       "probability": 0.8885983824729919,
       "display": "Sin"
@@ -371,7 +371,7 @@
     },
     {
       "word": "Abrir",
-      "start": 19.0,
+      "start": 19,
       "end": 19.34,
       "probability": 0.9898799955844879,
       "display": "Abrir"
@@ -547,82 +547,73 @@
   ],
   "captions": [
     {
-      "text": "Sin actividad reúne clientes que llevan el período elegido sin compras ni",
+      "text": "Sin actividad reúne clientes que llevan el período elegido sin compras ni canjes.",
       "startMs": 0,
-      "endMs": 4040,
-      "timestampMs": null,
-      "confidence": 0.938
-    },
-    {
-      "text": "canjes.",
-      "startMs": 4040,
       "endMs": 4460,
       "timestampMs": null,
-      "confidence": 0.948
+      "confidence": 0.9391117791334788
     },
     {
       "text": "Podés usar los días sugeridos o escribir otro valor.",
       "startMs": 4820,
       "endMs": 7460,
       "timestampMs": null,
-      "confidence": 0.958
+      "confidence": 0.9584100478225284
     },
     {
       "text": "Abrir esta lista no archiva personas ni envía mensajes.",
       "startMs": 7980,
       "endMs": 10940,
       "timestampMs": null,
-      "confidence": 0.969
+      "confidence": 0.9687113828129239
     },
     {
-      "text": "Preparar WhatsApp abre una página con un texto que podés revisar, editar y",
+      "text": "Preparar WhatsApp abre una página con un texto que podés revisar, editar y copiar.",
       "startMs": 11440,
-      "endMs": 15940,
-      "timestampMs": null,
-      "confidence": 0.974
-    },
-    {
-      "text": "copiar.",
-      "startMs": 15940,
       "endMs": 16260,
       "timestampMs": null,
-      "confidence": 0.997
+      "confidence": 0.9756988201822553
     },
     {
       "text": "Comprobá el número con código de país.",
       "startMs": 16760,
       "endMs": 18540,
       "timestampMs": null,
-      "confidence": 0.922
+      "confidence": 0.9219433182761784
     },
     {
       "text": "Abrir WhatsApp prepara el mensaje;",
       "startMs": 19000,
       "endMs": 20680,
       "timestampMs": null,
-      "confidence": 0.984
+      "confidence": 0.9839552164077758
     },
     {
       "text": "el envío final lo hacés vos.",
       "startMs": 21100,
       "endMs": 22500,
       "timestampMs": null,
-      "confidence": 0.975
+      "confidence": 0.975363885362943
     },
     {
-      "text": "En esta demostración solo revisamos y copiamos el borrador, sin contactar a",
+      "text": "En esta demostración solo revisamos y copiamos el borrador,",
       "startMs": 22980,
-      "endMs": 27580,
+      "endMs": 26180,
       "timestampMs": null,
-      "confidence": 0.952
+      "confidence": 0.93731055215553
     },
     {
-      "text": "ninguna persona.",
-      "startMs": 27580,
+      "text": "sin contactar a ninguna persona.",
+      "startMs": 26520,
       "endMs": 28280,
       "timestampMs": null,
-      "confidence": 0.999
+      "confidence": 0.9973469138145447
     }
   ],
-  "status": "ACOUSTIC_MATCH"
+  "status": "ACOUSTIC_MATCH",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [],
+    "sourceAudioHash": "f3e3e2695d9780b8f57be21fcc2af9504c3ee9ac035189a2e2afc84876ae6d50"
+  }
 }

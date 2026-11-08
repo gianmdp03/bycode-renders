@@ -1,4 +1,5 @@
 .local/
+build/
 recordings/*
 !recordings/manifest.json
 audio/*.wav
@@ -8,6 +9,9 @@ qa/*.png
 qa/*.jpg
 qa/*.mp4
 qa/*.webm
+qa/final-frames/
+!recordings/supplements.json
+!recordings/edit-manifest.json
 remotion/public/footage/
 remotion/public/audio/
 remotion/.remotion/

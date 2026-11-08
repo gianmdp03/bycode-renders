@@ -1,39 +1,43 @@
 1
-00:00:00,000 --> 00:00:05,100
-En Clientes podés buscar por nombre o DNI, incluso usando solo una parte.
+00:00:00,000 --> 00:00:02,080
+Ver clientes abre la lista del comercio.
 
 2
-00:00:05,520 --> 00:00:08,560
-El filtro permite ver todos, activos o archivados;
+00:00:02,500 --> 00:00:05,960
+Buscá por nombre o DNI, incluso usando solo una parte.
 
 3
-00:00:09,080 --> 00:00:11,460
-dejá la búsqueda vacía para recuperar la lista.
+00:00:06,460 --> 00:00:09,480
+El filtro permite ver todos, activos o archivados;
 
 4
-00:00:11,860 --> 00:00:14,800
-Abríver detalle para revisar el saldo y los movimientos.
+00:00:09,940 --> 00:00:12,260
+dejá la búsqueda vacía para recuperar la lista.
 
 5
-00:00:15,160 --> 00:00:18,940
-Cada movimiento muestra su fecha y distingue puntos sumados, canjes o
+00:00:12,660 --> 00:00:15,940
+Entramos en Ver detalle para revisar el saldo y los movimientos.
 
 6
-00:00:18,940 --> 00:00:19,440
-vencimientos.
+00:00:16,360 --> 00:00:21,100
+Cada movimiento muestra su fecha y distingue puntos sumados, canjes o vencimientos.
 
 7
-00:00:20,020 --> 00:00:23,800
-Los contactos se consultan con una acción específica y se pueden volver a
+00:00:21,680 --> 00:00:25,900
+Los contactos aparecen directamente cuando el cliente y el comercio están activos.
 
 8
-00:00:23,800 --> 00:00:24,240
-ocultar.
+00:00:26,260 --> 00:00:29,060
+Si falta correo o teléfono, la pantalla lo indica;
 
 9
-00:00:24,740 --> 00:00:27,760
-Si hay varias páginas, avanzá con los controles de navegación;
+00:00:29,060 --> 00:00:30,780
+no impide consultar puntos.
 
 10
-00:00:27,760 --> 00:00:30,640
-una búsqueda sin resultados no es un error de carga.
+00:00:31,220 --> 00:00:34,600
+Si hay varias páginas de historial, avanzá con sus controles.
+
+11
+00:00:35,000 --> 00:00:37,780
+Una búsqueda sin resultados no es un error de carga.

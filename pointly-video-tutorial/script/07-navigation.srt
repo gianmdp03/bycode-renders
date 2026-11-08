@@ -1,43 +1,43 @@
 1
-00:00:00,000 --> 00:00:02,540
-Abrimos un comercio que ya tiene actividad.
+00:00:00,000 --> 00:00:02,880
+En Mis comercios encontramos los negocios de tu cuenta.
 
 2
-00:00:02,960 --> 00:00:07,380
-Resumen General muestra la regla, los clientes activos que ocupan cupo y los
+00:00:03,320 --> 00:00:04,700
+Abrimos Café del Puerto.
 
 3
-00:00:07,380 --> 00:00:08,180
-saldos vigentes.
+00:00:05,040 --> 00:00:06,920
+Resumen General muestra la regla,
 
 4
-00:00:08,980 --> 00:00:14,220
-Las pestañas separan Clientes, Productos, Promociones, Premios, Ventas, Sin
+00:00:07,240 --> 00:00:10,420
+los clientes activos que ocupan cupo y los puntos disponibles.
 
 5
-00:00:14,220 --> 00:00:16,500
-actividad, Archivados y Correos.
+00:00:11,040 --> 00:00:15,720
+Las pestañas separan Clientes, Productos, Promociones, Premios, Ventas,
 
 6
-00:00:17,140 --> 00:00:20,020
-Los contadores del catálogo indican elementos creados;
+00:00:16,000 --> 00:00:18,120
+Sin actividad, Archivados y Correos.
 
 7
-00:00:20,500 --> 00:00:22,140
-no son una medida de facturación.
+00:00:18,680 --> 00:00:21,500
+Los contadores del catálogo indican elementos creados;
 
 8
-00:00:22,780 --> 00:00:27,260
-Esta versión presenta tablas e indicadores, sin un panel de gráficos
+00:00:21,860 --> 00:00:23,500
+no son una medida de facturación.
 
 9
-00:00:27,260 --> 00:00:27,920
-estadísticos.
+00:00:23,960 --> 00:00:28,580
+Esta versión presenta tablas e indicadores, sin un panel de gráficos estadísticos.
 
 10
-00:00:27,920 --> 00:00:33,180
-Desde el inicio también tenés accesos rápidos para agregar clientes, registrar
+00:00:28,580 --> 00:00:33,640
+Desde el inicio comercial, Operaciones Rápidas permite seleccionar el comercio,
 
 11
-00:00:33,180 --> 00:00:34,700
-ventas y consultar puntos.
+00:00:33,980 --> 00:00:37,700
+agregar clientes, registrar ventas y abrir Ver clientes.

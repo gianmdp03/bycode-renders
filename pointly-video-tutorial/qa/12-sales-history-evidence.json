@@ -3,53 +3,33 @@
   "evidence": [
     {
       "label": "Stored amounts, dates and honest missing per-sale point field",
-      "url": "/companies/cafe-del-puerto-aula",
-      "at": 1793729105591.5
+      "url": "/companies/cafe-del-puerto-actualizado",
+      "at": 1794066308807.6
     },
     {
       "label": "Purchase below minimum estimates zero",
-      "url": "/companies/cafe-del-puerto-aula/actions/sale",
-      "at": 1793729110066.3
+      "url": "/companies/cafe-del-puerto-actualizado/actions/sale",
+      "at": 1794066313044
     },
     {
       "label": "Real operation committed; browser response interrupted; original pending identity retained",
-      "url": "/companies/cafe-del-puerto-aula/actions/sale",
-      "at": 1793729112226.0999
+      "url": "/companies/cafe-del-puerto-actualizado/actions/sale",
+      "at": 1794066315121
     },
     {
       "label": "Original pending operation retried and confirmed without changing identity",
-      "url": "/companies/cafe-del-puerto-aula",
-      "at": 1793729114307.9
+      "url": "/companies/cafe-del-puerto-actualizado",
+      "at": 1794066317185
     },
     {
       "label": "Zero-point purchase recorded",
-      "url": "/companies/cafe-del-puerto-aula",
-      "at": 1793729114416
+      "url": "/companies/cafe-del-puerto-actualizado",
+      "at": 1794066317298.2
     }
   ],
   "network": [
     {
       "method": "GET",
-      "path": "/api/billing/account/profile",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/companies/my-companies",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/public/media/88f04c39-82db-4d2e-8062-e046c1a537ac",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/limits/my-limits",
-      "status": 200
-    },
-    {
-      "method": "GET",
       "path": "/api/pointly/limits/my-limits",
       "status": 200
     },
@@ -65,12 +45,12 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/company-names/cafe-del-puerto-aula/company",
+      "path": "/api/pointly/company-names/cafe-del-puerto-actualizado/company",
       "status": 200
     },
     {
       "method": "GET",
-      "path": "/api/pointly/public/media/88f04c39-82db-4d2e-8062-e046c1a537ac",
+      "path": "/api/pointly/public/media/abf1bc3b-8f5e-47c2-b69a-d4822226336f",
       "status": 200
     },
     {
@@ -115,12 +95,12 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/company-names/cafe-del-puerto-aula/company",
+      "path": "/api/pointly/company-names/cafe-del-puerto-actualizado/company",
       "status": 200
     },
     {
       "method": "GET",
-      "path": "/api/pointly/public/media/88f04c39-82db-4d2e-8062-e046c1a537ac",
+      "path": "/api/pointly/public/media/abf1bc3b-8f5e-47c2-b69a-d4822226336f",
       "status": 200
     },
     {
@@ -166,12 +146,12 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/points-accounts/1",
+      "path": "/api/pointly/sales/1",
       "status": 200
     },
     {
       "method": "GET",
-      "path": "/api/pointly/sales/1",
+      "path": "/api/pointly/points-accounts/1",
       "status": 200
     },
     {
@@ -185,6 +165,6 @@
       "status": 200
     }
   ],
-  "source": "recordings/12-sales-history-1793729134182.mp4",
+  "source": "recordings/12-sales-history-1794066319200.mp4",
   "obs": null
 }

@@ -11,20 +11,23 @@ export class TabRecorder extends Recorder{
  async begin(scene){
   this.scene=scene;this.events=[];this.network=[];this.active=true;
   await this.page.evaluate(()=>{document.title='Pointly DEMO'});
+  await pause(500);
   this.controller=await this.page.context().newPage();await this.controller.goto(base+'/');
-  this.settings=await this.controller.evaluate(async()=>{
+  await this.controller.evaluate(()=>{document.title='Grabador local'});await pause(700);
+  this.settings=await this.controller.evaluate(async({allowResponsive})=>{
    document.title='Grabador local';
    const stream=await navigator.mediaDevices.getDisplayMedia({video:{width:{ideal:1920},height:{ideal:1080},frameRate:{ideal:60,max:60},displaySurface:'browser'},audio:false,preferCurrentTab:false,selfBrowserSurface:'exclude'});
    const track=stream.getVideoTracks()[0];const settings=track.getSettings();
-   if(settings.width!==1920||settings.height!==1080||settings.frameRate!==60||settings.displaySurface!=='browser')throw Error('Not a native Full HD browser tab at 60 FPS');
+   if(settings.frameRate!==60||settings.displaySurface!=='browser'||(!allowResponsive&&(settings.width!==1920||settings.height!==1080)))throw Error('Unexpected actual tab settings: '+JSON.stringify(settings));
    window.capture={stream,chunks:[],timestamps:[]};const c=window.capture;
    const processor=new MediaStreamTrackProcessor({track:track.clone()});c.reader=processor.readable.getReader();
    (async()=>{while(true){const {value,done}=await c.reader.read();if(done)break;c.timestamps.push(value.timestamp);value.close()}})().catch(()=>{});
    c.rec=new MediaRecorder(stream,{mimeType:'video/webm;codecs=vp8',videoBitsPerSecond:40000000});
    await new Promise(resolve=>{c.rec.ondataavailable=e=>{c.chunks.push(e.data);resolve()};c.rec.start(250)});return settings;
-  });
+  },{allowResponsive:process.argv.includes('--responsive')});
   this.syncBrowserMs=await this.page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>{const d=document.createElement('div');d.id='tutorial-sync-marker';Object.assign(d.style,{position:'fixed',left:'0',top:'0',width:'1920px',height:'8px',background:'#ff00ff',zIndex:2147483647,pointerEvents:'none'});document.documentElement.appendChild(d);resolve(performance.timeOrigin+performance.now())})));
-  await pause(200);await this.page.evaluate(()=>document.getElementById('tutorial-sync-marker')?.remove());await pause(100);
+  const proofSession=await this.page.context().newCDPSession(this.page);const proof=await proofSession.send('Page.captureScreenshot',{format:'png',captureBeyondViewport:false,fromSurface:true});fs.writeFileSync(path.join(root,'qa/capture-sync-proof.png'),Buffer.from(proof.data,'base64'));await proofSession.detach();
+  await pause(600);await this.page.evaluate(()=>document.getElementById('tutorial-sync-marker')?.remove());await pause(150);
   this.startBrowserMs=await this.page.evaluate(()=>performance.timeOrigin+performance.now());
  }
  async end(){
@@ -34,12 +37,16 @@ export class TabRecorder extends Recorder{
   const target=path.join(root,'recordings',stem+'.mp4');
   execFileSync(ffmpeg,['-v','error','-y','-i',original,'-an','-vf','fps=60','-c:v','h264_nvenc','-preset','p4','-cq','17','-b:v','16M','-pix_fmt','yuv420p','-movflags','+faststart',target],{stdio:'pipe'});
   const metadata=JSON.parse(execFileSync(ffprobe,['-v','quiet','-print_format','json','-show_streams','-show_format',target],{encoding:'utf8'}));const stream=metadata.streams.find(s=>s.codec_type==='video');
-  const bytes=execFileSync(ffmpeg,['-v','error','-i',target,'-t','2','-vf','crop=8:8:0:0,format=rgb24','-f','rawvideo','pipe:1'],{maxBuffer:2e6});let markerFrame=-1;const size=192;
+  const bytes=execFileSync(ffmpeg,['-v','error','-i',target,'-vf','crop=8:8:0:0,format=rgb24','-f','rawvideo','pipe:1'],{maxBuffer:12e6});let markerFrame=-1;const size=192;
   for(let f=0;f<bytes.length/size;f++){const o=f*size+108;if(bytes[o]>180&&bytes[o+1]<50&&bytes[o+2]>180){markerFrame=f;break}}
   if(markerFrame<0)throw Error('No actual encoded sync marker; source retained for diagnosis');
   const toFrame=ms=>markerFrame+Math.round((ms-this.syncBrowserMs)*.06);const source_start=toFrame(this.startBrowserMs);const source_end=Math.min(Number(stream.nb_frames),toFrame(this.endBrowserMs));
   const timestamps=data.timestamps;const gaps=timestamps.slice(1).map((t,i)=>(t-timestamps[i])/1000);const motion={nativeFrames:timestamps.length,nominalFrameRate:this.settings.frameRate,actualAverageFps:timestamps.length>1?+(1000000*(timestamps.length-1)/(timestamps.at(-1)-timestamps[0])).toFixed(3):0,maxFrameGapMs:gaps.length?Math.max(...gaps):null,frameTimestampsUs:timestamps};
   const entry={scene_id:this.scene.id,recording_id:stem,file:path.relative(root,target).replaceAll('\\','/'),original:path.relative(root,original).replaceAll('\\','/'),source_start,source_end,browser_url:new URL(this.page.url()).pathname,expected_state:this.scene.expected_state,cursor_events:this.events.map(e=>({...e,frame:toFrame(e.timeMs)})),network_assertions:this.network,sync:{method:'encoded magenta marker plus actual browser clock; original tab VFR retained',markerFrame,browserMs:this.syncBrowserMs,maximum_quantization_frames:1},capture_settings:this.settings,sourceMotion:motion,probe:{width:stream.width,height:stream.height,frame_rate:stream.r_frame_rate,codec:stream.codec_name,pixel_format:stream.pix_fmt,duration:metadata.format.duration},obs_stats:null,status:'CAPTURED'};
-  const f=path.join(root,'recordings/manifest.json');const manifest=fs.existsSync(f)?JSON.parse(fs.readFileSync(f,'utf8')):{fps:60,width:1920,height:1080,recordings:[]};manifest.recordings=manifest.recordings.filter(r=>r.scene_id!==entry.scene_id);manifest.recordings.push(entry);fs.writeFileSync(f,JSON.stringify(manifest,null,2));return entry;
+  const snapshot=JSON.parse(fs.readFileSync(path.join(root,'inventory/recorded-source-snapshot.json'),'utf8'));entry.frontendSnapshot={timestamp:snapshot.timestamp,sourceUnmodified:snapshot.sourceUnmodified};
+  const retained=path.join(root,'.local/capture-entries');fs.mkdirSync(retained,{recursive:true});fs.writeFileSync(path.join(retained,stem+'.json'),JSON.stringify(entry,null,2));
+  const f=path.join(root,'recordings/manifest.json');const manifest=fs.existsSync(f)?JSON.parse(fs.readFileSync(f,'utf8')):{fps:60,width:1920,height:1080,recordings:[]};manifest.recordings=manifest.recordings.filter(r=>r.scene_id!==entry.scene_id);manifest.recordings.push(entry);
+  const temporary=f+'.'+stem+'.tmp';fs.writeFileSync(temporary,JSON.stringify(manifest,null,2));
+  for(let attempt=0;;attempt++){try{fs.renameSync(temporary,f);break}catch(error){if(attempt>=10)throw error;await pause(250)}}return entry;
  }
 }

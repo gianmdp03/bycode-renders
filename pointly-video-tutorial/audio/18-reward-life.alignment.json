@@ -13,7 +13,7 @@
   "words": [
     {
       "word": "Podés",
-      "start": 0.0,
+      "start": 0,
       "end": 0.54,
       "probability": 0.6829950213432312,
       "display": "Podés"
@@ -168,13 +168,13 @@
     {
       "word": "El",
       "start": 8.78,
-      "end": 9.0,
+      "end": 9,
       "probability": 0.992274820804596,
       "display": "El"
     },
     {
       "word": "canje",
-      "start": 9.0,
+      "start": 9,
       "end": 9.3,
       "probability": 0.9318104982376099,
       "display": "canje"
@@ -518,75 +518,71 @@
   ],
   "captions": [
     {
-      "text": "Podés editar un premio para cambiar su descripción, su beneficio o su costo",
+      "text": "Podés editar un premio para cambiar su descripción, su beneficio o su costo futuro.",
       "startMs": 0,
-      "endMs": 4400,
-      "timestampMs": null,
-      "confidence": 0.966
-    },
-    {
-      "text": "futuro.",
-      "startMs": 4400,
       "endMs": 4720,
       "timestampMs": null,
-      "confidence": 0.993
+      "confidence": 0.9675899403435844
     },
     {
       "text": "Si querés dejar de ofrecerlo temporalmente, usá Pausar.",
       "startMs": 5060,
       "endMs": 8160,
       "timestampMs": null,
-      "confidence": 0.958
+      "confidence": 0.9584368535627922
     },
     {
       "text": "El canje queda deshabilitado mientras esté pausado.",
       "startMs": 8780,
       "endMs": 11280,
       "timestampMs": null,
-      "confidence": 0.982
+      "confidence": 0.9817580086844309
     },
     {
       "text": "Reactivar permite ofrecerlo otra vez.",
       "startMs": 11600,
       "endMs": 13520,
       "timestampMs": null,
-      "confidence": 0.98
+      "confidence": 0.9795798331499099
     },
     {
-      "text": "Eliminar loquita definitivamente del catálogo, pero no borra los canjes",
+      "text": "Eliminar lo quita definitivamente del catálogo, pero no borra los canjes históricos:",
       "startMs": 13980,
-      "endMs": 17900,
-      "timestampMs": null,
-      "confidence": 0.958
-    },
-    {
-      "text": "históricos:",
-      "startMs": 17900,
       "endMs": 18540,
       "timestampMs": null,
-      "confidence": 0.998
+      "confidence": 0.9612357200998249
     },
     {
       "text": "cada movimiento conserva la información del premio entregado.",
       "startMs": 18900,
       "endMs": 21860,
       "timestampMs": null,
-      "confidence": 0.994
+      "confidence": 0.9939802177250385
     },
     {
-      "text": "Probá primero la opción de cancelar una confirmación cuando tengas dudas y",
+      "text": "Probá primero la opción de cancelar una confirmación cuando tengas dudas y revisá",
       "startMs": 22500,
-      "endMs": 26760,
+      "endMs": 27100,
       "timestampMs": null,
-      "confidence": 0.919
+      "confidence": 0.9105523114021008
     },
     {
-      "text": "revisá la tarjeta después de cada cambio.",
-      "startMs": 26760,
+      "text": "la tarjeta después de cada cambio.",
+      "startMs": 27100,
       "endMs": 28720,
       "timestampMs": null,
-      "confidence": 0.969
+      "confidence": 0.9962291618188223
     }
   ],
-  "status": "REVIEW_REQUIRED"
+  "status": "REVIEW_REQUIRED",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [
+      [
+        "loquita",
+        "lo quita"
+      ]
+    ],
+    "sourceAudioHash": "6db33489b7f9ab450cc6febeae96ac6383d821389472238cdb73a0527ecd22c7"
+  }
 }

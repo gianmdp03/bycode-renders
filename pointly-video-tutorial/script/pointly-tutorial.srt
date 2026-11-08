@@ -11,12 +11,12 @@ En este tutorial vamos a configurar un comercio, incorporar clientes,
 registrar compras y entregar premios con puntos.
 
 4
-00:00:11,020 --> 00:00:14,520
-También vamos a ver qué consulta el cliente desde su billetera y cómo
+00:00:11,020 --> 00:00:15,100
+También vamos a ver qué consulta el cliente desde su billetera y cómo administrar
 
 5
-00:00:14,520 --> 00:00:16,500
-administrar el catálogo y los avisos.
+00:00:15,100 --> 00:00:16,500
+el catálogo y los avisos.
 
 6
 00:00:16,980 --> 00:00:19,340
@@ -31,373 +31,1085 @@ Seguí el recorrido en orden la primera vez;
 después podés volver al capítulo que necesites.
 
 9
-00:00:25,850 --> 00:00:29,710
-Para administrar un comercio necesitás tu cuenta de Bycode y un plan de
+00:00:25,850 --> 00:00:28,290
+Desde el inicio, ¿Sos un comercio?
 
 10
-00:00:29,710 --> 00:00:30,750
-Pointly habilitado.
+00:00:28,810 --> 00:00:31,750
+Empezá ahora abre una guía con los primeros pasos.
 
 11
-00:00:31,270 --> 00:00:33,470
-El acceso Crear cuenta lleva a Bycode:
+00:00:32,150 --> 00:00:33,890
+Primero creás tu cuenta en Bycode.
 
 12
-00:00:33,990 --> 00:00:37,750
-el alta comercial no se completa dentro de esta pantalla de Pointly.
+00:00:34,690 --> 00:00:38,770
+Después volvés a Pointly e ingresás con el mismo correo y contraseña.
 
 13
-00:00:38,230 --> 00:00:41,550
-Si ya tenés cuenta, entrá con tu correo y contraseña.
+00:00:39,510 --> 00:00:41,970
+Cada aplicación de Bycode tiene su propio plan:
 
 14
-00:00:42,110 --> 00:00:43,470
-El modo cliente es diferente:
+00:00:42,490 --> 00:00:44,290
+Pointly tiene que estar habilitado.
 
 15
-00:00:44,070 --> 00:00:47,110
-permite consultar puntos, sin acceder a la administración.
+00:00:44,970 --> 00:00:47,690
+Si ya tenés cuenta, elegí Ingresar como comercio.
 
 16
-00:00:47,790 --> 00:00:51,070
-Revisá el correo que escribís y mantené tu contraseña privada.
+00:00:48,330 --> 00:00:52,670
+El formulario público del inicio es para consultar la billetera de clientes.
 
 17
-00:00:51,590 --> 00:00:56,210
-Si los datos no coinciden, la pantalla informa el error y permite corregirlos.
+00:00:52,670 --> 00:00:56,670
+Es importante revisar el correo y mantener la contraseña privada.
 
 18
-00:00:57,150 --> 00:01:02,270
-En una cuenta nueva, Pointly puede pedir el DNI de la persona que administra
+00:00:57,110 --> 00:01:01,330
+Si los datos no coinciden, la pantalla informa el error y permite corregirlos.
 
 19
-00:01:02,270 --> 00:01:02,870
-el comercio.
+00:01:02,883 --> 00:01:08,003
+En una cuenta nueva, Pointly puede pedir el DNI de la persona que administra
 
 20
-00:01:03,290 --> 00:01:05,010
-No es el documento de un cliente:
+00:01:08,003 --> 00:01:08,603
+el comercio.
 
 21
-00:01:05,310 --> 00:01:06,590
-es un dato de tu perfil.
+00:01:09,023 --> 00:01:10,743
+No es el documento de un cliente:
 
 22
-00:01:07,010 --> 00:01:08,570
-Completalo y continúal panel.
+00:01:11,043 --> 00:01:12,323
+es un dato de tu perfil.
 
 23
-00:01:08,970 --> 00:01:13,230
-Acá aparece el plan, sus comercios permitidos y el cupo de clientes activos
+00:01:12,743 --> 00:01:14,303
+Completalo y continuá al panel.
 
 24
-00:01:13,230 --> 00:01:13,850
-por comercio.
+00:01:14,703 --> 00:01:19,583
+Acá aparece el plan, sus comercios permitidos y el cupo de clientes activos por comercio.
 
 25
-00:01:14,290 --> 00:01:17,290
+00:01:20,023 --> 00:01:23,023
 Si todavía no creaste ninguno, empezá con Nueva Empresa.
 
 26
-00:01:17,850 --> 00:01:21,830
-No necesitás preparar una planilla ni importar clientes para dar este primer
+00:01:23,583 --> 00:01:27,863
+No necesitás preparar una planilla ni importar clientes para dar este primer paso.
 
 27
-00:01:21,830 --> 00:01:22,130
-paso.
-
-28
-00:01:23,000 --> 00:01:26,140
+00:01:28,733 --> 00:01:31,873
 Escribí el nombre con el que tus clientes conocen al negocio.
 
+28
+00:01:32,233 --> 00:01:35,013
+El nombre del enlace se genera a partir de ese texto,
+
 29
-00:01:26,500 --> 00:01:31,040
-El nombre del enlace se genera a partir de ese texto, se puede ajustar y tiene
+00:01:35,373 --> 00:01:37,713
+se puede ajustar y tiene que estar disponible.
 
 30
-00:01:31,040 --> 00:01:31,980
-que estar disponible.
-
-31
-00:01:32,520 --> 00:01:34,380
+00:01:38,253 --> 00:01:40,113
 Usá letras, números y guiones.
 
-32
-00:01:35,060 --> 00:01:36,320
+31
+00:01:40,793 --> 00:01:42,053
 Después definí la regla:
 
+32
+00:01:42,413 --> 00:01:46,453
+en nuestro ejemplo, cada mil pesos completos de una compra otorgan diez puntos.
+
 33
-00:01:36,680 --> 00:01:40,360
-en nuestro ejemplo, cada mil pesos completos de una compra otorgan diez
-
-34
-00:01:40,360 --> 00:01:40,720
-puntos.
-
-35
-00:01:41,320 --> 00:01:42,580
+00:01:47,053 --> 00:01:48,313
 País es obligatorio;
 
-36
-00:01:43,020 --> 00:01:46,440
+34
+00:01:48,753 --> 00:01:52,173
 los demás datos de ubicación se pueden dejar vacíos si no corresponden.
 
-37
-00:01:46,920 --> 00:01:50,400
+35
+00:01:52,653 --> 00:01:56,133
 Revisá los campos antes de crear la empresa y esperá la confirmación.
 
+36
+00:01:57,150 --> 00:02:01,290
+Para seguir usamos Café del Puerto, un comercio de ejemplo con actividad.
+
+37
+00:02:01,830 --> 00:02:06,250
+Desde Editar podés actualizar el nombre, la ubicación y la regla de acumulación.
+
 38
-00:01:51,417 --> 00:01:55,477
-Desde Editar podés actualizar el nombre, la ubicación y la regla de
-
-39
-00:01:55,477 --> 00:01:56,037
-acumulación.
-
-40
-00:01:56,757 --> 00:01:58,177
+00:02:06,870 --> 00:02:08,550
 El vencimiento es opcional:
 
-41
-00:01:58,837 --> 00:02:02,797
+39
+00:02:09,030 --> 00:02:13,050
 si lo activás, indicá cuántos días duran los puntos de nuevas compras.
 
-42
-00:02:03,477 --> 00:02:06,977
-Ese cambio no debe interpretarse como una renovación de todos los puntos
+40
+00:02:13,530 --> 00:02:16,390
+Ese cambio no renueva todos los puntos anteriores.
 
-43
-00:02:06,977 --> 00:02:07,517
-anteriores.
-
-44
-00:02:08,137 --> 00:02:11,777
+41
+00:02:16,890 --> 00:02:20,650
 Una compra nueva tampoco renueva automáticamente cada saldo histórico.
 
-45
-00:02:12,397 --> 00:02:15,097
+42
+00:02:21,090 --> 00:02:23,750
 Leé la explicación junto a la opción antes de guardar.
 
-46
-00:02:15,657 --> 00:02:19,537
+43
+00:02:23,750 --> 00:02:27,790
 Los niveles Bronce, Plata y Oro están suspendidos en esta versión;
 
-47
-00:02:19,537 --> 00:02:22,377
+44
+00:02:28,110 --> 00:02:30,530
 no forman parte de la configuración disponible.
 
-48
-00:02:23,350 --> 00:02:26,170
+45
+00:02:31,483 --> 00:02:34,083
 La foto ayuda al cliente a reconocer el comercio.
 
+46
+00:02:34,563 --> 00:02:39,543
+Podemos subir un archivo JPEG, PNG o WebP de hasta 10 MB.
+
+47
+00:02:40,163 --> 00:02:44,723
+Ajustamos el recorte con los controles de posición y zoom, y guardamos la imagen.
+
+48
+00:02:45,443 --> 00:02:49,163
+Desde esta misma página también se puede reemplazar o quitar la foto.
+
 49
-00:02:26,630 --> 00:02:31,190
-Elegí un archivo JPEG, PNG o WebP de hasta 10 MB,
+00:02:49,763 --> 00:02:53,103
+El nombre público del enlace se modifica desde su configuración.
 
 50
-00:02:31,730 --> 00:02:33,870
-ajustar el recorte y guardar.
+00:02:53,603 --> 00:02:55,943
+Revisá la disponibilidad y la advertencia:
 
 51
-00:02:34,370 --> 00:02:37,270
-Podés mover la imagen y acercarla con el control de zoom.
+00:02:56,283 --> 00:02:59,923
+al confirmar el cambio, el acceso anterior deja de funcionar.
 
 52
-00:02:37,910 --> 00:02:42,750
-Si necesitás reemplazarla o quitarla, usá las acciones de esta misma página.
+00:02:59,923 --> 00:03:03,683
+Compartí el nuevo enlace y el nuevo QR con tus clientes.
 
 53
-00:02:43,190 --> 00:02:47,130
-El nombre público del enlace también puede modificarse desde su configuración:
+00:03:04,617 --> 00:03:07,497
+En Mis comercios encontramos los negocios de tu cuenta.
 
 54
-00:02:47,710 --> 00:02:52,010
-revisá la disponibilidad y el aviso antes de confirmar, porque es el acceso
+00:03:07,937 --> 00:03:09,317
+Abrimos Café del Puerto.
 
 55
-00:02:52,010 --> 00:02:53,890
-que vas a compartir con tus clientes.
+00:03:09,657 --> 00:03:11,537
+Resumen General muestra la regla,
 
 56
-00:02:54,800 --> 00:02:57,340
-Abrimos un comercio que ya tiene actividad.
+00:03:11,857 --> 00:03:15,037
+los clientes activos que ocupan cupo y los puntos disponibles.
 
 57
-00:02:57,760 --> 00:03:02,180
-Resumen General muestra la regla, los clientes activos que ocupan cupo y los
+00:03:15,657 --> 00:03:20,337
+Las pestañas separan Clientes, Productos, Promociones, Premios, Ventas,
 
 58
-00:03:02,180 --> 00:03:02,980
-saldos vigentes.
+00:03:20,617 --> 00:03:22,737
+Sin actividad, Archivados y Correos.
 
 59
-00:03:03,780 --> 00:03:09,020
-Las pestañas separan Clientes, Productos, Promociones, Premios, Ventas, Sin
-
-60
-00:03:09,020 --> 00:03:11,300
-actividad, Archivados y Correos.
-
-61
-00:03:11,940 --> 00:03:14,820
+00:03:23,297 --> 00:03:26,117
 Los contadores del catálogo indican elementos creados;
 
-62
-00:03:15,300 --> 00:03:16,940
+60
+00:03:26,477 --> 00:03:28,117
 no son una medida de facturación.
 
+61
+00:03:28,577 --> 00:03:33,197
+Esta versión presenta tablas e indicadores, sin un panel de gráficos estadísticos.
+
+62
+00:03:33,197 --> 00:03:38,257
+Desde el inicio comercial, Operaciones Rápidas permite seleccionar el comercio,
+
 63
-00:03:17,580 --> 00:03:22,060
-Esta versión presenta tablas e indicadores, sin un panel de gráficos
+00:03:38,597 --> 00:03:42,317
+agregar clientes, registrar ventas y abrir Ver clientes.
 
 64
-00:03:22,060 --> 00:03:22,720
-estadísticos.
+00:03:43,350 --> 00:03:47,410
+Para incorporar un cliente, seleccionamos Agregar cliente y completamos nombre,
 
 65
-00:03:22,720 --> 00:03:27,980
-Desde el inicio también tenés accesos rápidos para agregar clientes, registrar
+00:03:47,670 --> 00:03:49,330
+país del documento y DNI.
 
 66
-00:03:27,980 --> 00:03:29,500
-ventas y consultar puntos.
-
-67
-00:03:30,500 --> 00:03:35,000
-Para incorporar un cliente, habría Agregar cliente y completá nombre, país del
-
-68
-00:03:35,000 --> 00:03:36,400
-documento y DNI.
-
-69
-00:03:36,680 --> 00:03:38,440
+00:03:49,690 --> 00:03:51,610
 Correo y teléfono son opcionales:
 
-70
-00:03:38,700 --> 00:03:42,200
+67
+00:03:51,990 --> 00:03:55,250
 la persona puede acumular y canjear puntos aunque no los tenga.
 
-71
-00:03:42,800 --> 00:03:46,260
+68
+00:03:55,970 --> 00:03:59,190
 Si cargás un teléfono para WhatsApp, incluí el código de país.
 
-72
-00:03:46,820 --> 00:03:49,920
+69
+00:03:59,970 --> 00:04:02,750
 El alta es inmediata y no pide confirmar un correo.
 
-73
-00:03:50,340 --> 00:03:54,480
+70
+00:04:03,490 --> 00:04:06,030
+Ahora asociamos a Carla en nuestro segundo comercio.
+
+71
+00:04:06,510 --> 00:04:10,230
 Si ese documento ya existe en Pointly, se conservan sus datos anteriores:
 
+72
+00:04:10,230 --> 00:04:13,770
+el formulario lo vincula al comercio, no edita su identidad.
+
+73
+00:04:14,270 --> 00:04:17,070
+Después de guardar, revisamos el nombre en la lista.
+
 74
-00:03:54,920 --> 00:03:58,400
-este formulario lo vincula al comercio, no edita su identidad.
-
-75
-00:03:58,400 --> 00:04:01,000
-Al guardar, comprobá que aparezca en la lista.
-
-76
-00:04:01,950 --> 00:04:05,350
+00:04:18,100 --> 00:04:21,500
 Otra forma de incorporar clientes es el QR de registro.
 
-77
-00:04:06,010 --> 00:04:08,670
+75
+00:04:22,160 --> 00:04:24,820
 Desde el resumen abrí Generar QR de Registro.
 
-78
-00:04:09,030 --> 00:04:13,190
+76
+00:04:25,180 --> 00:04:29,340
 Podés copiar el enlace, descargar el código como imagen o abrir la impresión.
 
-79
-00:04:13,810 --> 00:04:17,950
+77
+00:04:29,960 --> 00:04:34,100
 Si el navegador bloquea la ventana de impresión, habilitala o usá la descarga.
 
-80
-00:04:18,550 --> 00:04:21,750
+78
+00:04:34,700 --> 00:04:37,900
 El enlace abre un formulario público con el nombre del comercio.
 
-81
-00:04:22,310 --> 00:04:24,830
+79
+00:04:38,460 --> 00:04:40,980
 El cliente completa sus datos y confirma el alta.
 
-82
-00:04:25,470 --> 00:04:27,850
+80
+00:04:41,620 --> 00:04:44,000
 Mostrar un QR no suma puntos por sí solo:
 
-83
-00:04:27,850 --> 00:04:31,470
+81
+00:04:44,000 --> 00:04:47,620
 después tenés que registrar las compras desde tu cuenta comercial.
 
-84
-00:04:32,683 --> 00:04:37,783
-En Clientes podés buscar por nombre o DNI, incluso usando solo una parte.
+82
+00:04:48,833 --> 00:04:50,913
+Ver clientes abre la lista del comercio.
 
-85
-00:04:38,203 --> 00:04:41,243
+83
+00:04:51,333 --> 00:04:54,793
+Buscá por nombre o DNI, incluso usando solo una parte.
+
+84
+00:04:55,293 --> 00:04:58,313
 El filtro permite ver todos, activos o archivados;
 
-86
-00:04:41,763 --> 00:04:44,143
+85
+00:04:58,773 --> 00:05:01,093
 dejá la búsqueda vacía para recuperar la lista.
 
+86
+00:05:01,493 --> 00:05:04,773
+Entramos en Ver detalle para revisar el saldo y los movimientos.
+
 87
-00:04:44,543 --> 00:04:47,483
-Abríver detalle para revisar el saldo y los movimientos.
+00:05:05,193 --> 00:05:09,933
+Cada movimiento muestra su fecha y distingue puntos sumados, canjes o vencimientos.
 
 88
-00:04:47,843 --> 00:04:51,623
-Cada movimiento muestra su fecha y distingue puntos sumados, canjes o
+00:05:10,513 --> 00:05:14,733
+Los contactos aparecen directamente cuando el cliente y el comercio están activos.
 
 89
-00:04:51,623 --> 00:04:52,123
-vencimientos.
+00:05:15,093 --> 00:05:17,893
+Si falta correo o teléfono, la pantalla lo indica;
 
 90
-00:04:52,703 --> 00:04:56,483
-Los contactos se consultan con una acción específica y se pueden volver a
+00:05:17,893 --> 00:05:19,613
+no impide consultar puntos.
 
 91
-00:04:56,483 --> 00:04:56,923
-ocultar.
+00:05:20,053 --> 00:05:23,433
+Si hay varias páginas de historial, avanzá con sus controles.
 
 92
-00:04:57,423 --> 00:05:00,443
-Si hay varias páginas, avanzá con los controles de navegación;
+00:05:23,833 --> 00:05:26,613
+Una búsqueda sin resultados no es un error de carga.
 
 93
-00:05:00,443 --> 00:05:03,323
-una búsqueda sin resultados no es un error de carga.
-
-94
-00:05:04,133 --> 00:05:06,313
+00:05:27,567 --> 00:05:29,747
 Vamos a registrar una compra para Ana.
 
-95
-00:05:06,733 --> 00:05:10,833
-Buscamos su país y DNI y cargamos 8 .500 pesos.
+94
+00:05:30,167 --> 00:05:34,267
+Buscamos su país y DNI y cargamos 8.500 pesos.
 
-96
-00:05:11,673 --> 00:05:15,553
+95
+00:05:35,107 --> 00:05:38,987
 Con nuestra regla, los 8 bloques completos de 1000 suman 80 puntos;
 
-97
-00:05:16,153 --> 00:05:18,813
+96
+00:05:39,587 --> 00:05:42,247
 los 500 restantes no pasan a otra compra.
 
-98
-00:05:19,453 --> 00:05:22,513
+97
+00:05:42,887 --> 00:05:45,947
 La pantalla muestra una estimación y el cliente encontrado.
 
-99
-00:05:23,233 --> 00:05:26,133
+98
+00:05:46,667 --> 00:05:49,567
 Al confirmar se registra la venta y se suman los puntos.
 
-100
-00:05:26,653 --> 00:05:29,793
+99
+00:05:50,087 --> 00:05:53,227
 Pointly no cobra dinero ni emite una factura por esta acción.
 
-101
-00:05:30,173 --> 00:05:33,453
+100
+00:05:53,607 --> 00:05:56,887
 Después verificamos la venta y el nuevo movimiento del cliente.
+
+101
+00:05:57,817 --> 00:06:01,517
+La pestaña Ventas muestra las compras, sus importes y fechas.
+
+102
+00:06:01,857 --> 00:06:05,437
+Si aparece Sin dato por venta, no significa cero puntos:
+
+103
+00:06:05,997 --> 00:06:08,237
+consultá el saldo y el historial del cliente.
+
+104
+00:06:08,797 --> 00:06:13,517
+No recalcules una venta antigua con la regla actual, porque pudo tener otra promoción.
+
+105
+00:06:13,977 --> 00:06:16,997
+Una compra menor al mínimo puede registrarse con cero puntos.
+
+106
+00:06:17,497 --> 00:06:20,177
+Si la conexión se corta y no hay un resultado claro,
+
+107
+00:06:20,577 --> 00:06:23,537
+conservá el formulario y usá Reintentar venta pendiente.
+
+108
+00:06:24,057 --> 00:06:27,017
+No empieces otra operación para repetir la misma compra:
+
+109
+00:06:27,017 --> 00:06:30,577
+el reintento conserva su identidad para evitar duplicaciones.
+
+110
+00:06:31,017 --> 00:06:33,317
+Revisá siempre el resultado antes de seguir.
+
+111
+00:06:34,233 --> 00:06:37,753
+Las promociones permiten otorgar puntos extras durante un período,
+
+112
+00:06:37,753 --> 00:06:39,273
+si tu plan las incluye.
+
+113
+00:06:39,633 --> 00:06:43,573
+Creá una, poné un nombre claro y explicá las condiciones en la descripción.
+
+114
+00:06:43,973 --> 00:06:49,213
+Podés elegir 50 más, el doble, el triple o un beneficio personalizado.
+
+115
+00:06:49,673 --> 00:06:51,973
+Revisá la equivalencia que calcula la pantalla.
+
+116
+00:06:52,553 --> 00:06:55,373
+Elegí una fecha de inicio futura y un fin posterior.
+
+117
+00:06:55,713 --> 00:06:57,273
+Prestá atención al horario mostrado:
+
+118
+00:06:57,733 --> 00:07:00,473
+no supongas que una fecha significa todo el día.
+
+119
+00:07:00,473 --> 00:07:04,193
+Guardá y verificá la promoción en su lista antes de comunicarla.
+
+120
+00:07:05,050 --> 00:07:08,770
+Desde la lista podés editar una promoción y guardar sus cambios.
+
+121
+00:07:09,210 --> 00:07:12,170
+Pausar conserva el elemento pero evita que se aplique;
+
+122
+00:07:12,690 --> 00:07:15,910
+Reactivar lo vuelve a habilitar, siempre sujeto a sus fechas.
+
+123
+00:07:16,770 --> 00:07:21,530
+Eliminar es una acción distinta y definitiva, con confirmación dentro de la página.
+
+124
+00:07:22,110 --> 00:07:25,450
+Revisá qué elemento seleccionaste y cancelá si no corresponde.
+
+125
+00:07:25,950 --> 00:07:28,150
+Antes de registrar una venta con beneficio,
+
+126
+00:07:28,570 --> 00:07:31,450
+comprobá la vigencia y la estimación de puntos del formulario;
+
+127
+00:07:31,730 --> 00:07:33,930
+no te guíes solamente por el nombre de la promoción.
+
+128
+00:07:34,833 --> 00:07:38,193
+El catálogo de Productos informa lo que ofrece tu comercio.
+
+129
+00:07:38,513 --> 00:07:39,993
+Cargá un nombre y un precio;
+
+130
+00:07:40,513 --> 00:07:41,853
+la descripción es opcional.
+
+131
+00:07:42,453 --> 00:07:44,473
+Para la imagen podés elegir un archivo,
+
+132
+00:07:44,793 --> 00:07:47,533
+pegar un enlace directo o dejar el producto sin foto.
+
+133
+00:07:48,053 --> 00:07:52,013
+Primero guardamos una foto desde Archivo y revisamos la tarjeta.
+
+134
+00:07:52,453 --> 00:07:55,113
+Desde Editar también podemos reemplazarla con Enlace:
+
+135
+00:07:55,493 --> 00:07:59,593
+la dirección tiene que apuntar a la imagen, no a una página web.
+
+136
+00:07:59,993 --> 00:08:01,993
+Guardamos y comprobamos el resultado.
+
+137
+00:08:01,993 --> 00:08:05,913
+Para dejarlos sin foto, usamos Quitar imagen y guardamos otra vez.
+
+138
+00:08:06,353 --> 00:08:09,293
+Si el producto ya no corresponde, Eliminar pide confirmación.
+
+139
+00:08:09,993 --> 00:08:13,493
+Este catálogo no es un carrito de compras ni un control de stock.
+
+140
+00:08:14,683 --> 00:08:17,443
+En Premios vamos a crear una recompensa física:
+
+141
+00:08:17,803 --> 00:08:19,063
+un desayuno de regalo.
+
+142
+00:08:19,703 --> 00:08:24,203
+Elegí Premio físico, agregá nombre, condiciones y, si tenés, una foto.
+
+143
+00:08:25,343 --> 00:08:29,103
+El costo indica cuántos puntos necesita el cliente para obtener ese premio.
+
+144
+00:08:29,523 --> 00:08:31,023
+La calculadora es una ayuda:
+
+145
+00:08:31,623 --> 00:08:35,903
+ingresá el precio de la recompensa y cuánto querés que gaste el cliente para alcanzarla.
+
+146
+00:08:36,603 --> 00:08:40,703
+Calculá, revisá el resultado y usalo como costo si encaja con tu programa.
+
+147
+00:08:40,703 --> 00:08:43,383
+La sugerencia no guarda el premio:
+
+148
+00:08:43,723 --> 00:08:45,763
+todavía tenés que confirmar el formulario.
+
+149
+00:08:47,217 --> 00:08:51,057
+Un voucher también se obtiene con puntos, pero representa un descuento.
+
+150
+00:08:51,657 --> 00:08:55,597
+Elegí Voucher de descuento y definí si será un porcentaje o un importe fijo.
+
+151
+00:08:56,257 --> 00:08:58,697
+Por ejemplo, 10 o 2000 pesos.
+
+152
+00:08:59,337 --> 00:09:02,397
+El porcentaje debe ser mayor que 0 y no superar 100.
+
+153
+00:09:02,917 --> 00:09:05,037
+Completá las condiciones y el costo en puntos;
+
+154
+00:09:05,577 --> 00:09:07,677
+revisá la vista previa antes de guardar.
+
+155
+00:09:08,217 --> 00:09:10,617
+El comercio aplica el beneficio al entregar el premio.
+
+156
+00:09:10,977 --> 00:09:15,217
+Esto no crea un cupón con código ni descuenta dinero automáticamente en una caja.
+
+157
+00:09:16,033 --> 00:09:20,753
+Podés editar un premio para cambiar su descripción, su beneficio o su costo futuro.
+
+158
+00:09:21,093 --> 00:09:24,193
+Si querés dejar de ofrecerlo temporalmente, usá Pausar.
+
+159
+00:09:24,813 --> 00:09:27,313
+El canje queda deshabilitado mientras esté pausado.
+
+160
+00:09:27,633 --> 00:09:29,553
+Reactivar permite ofrecerlo otra vez.
+
+161
+00:09:30,013 --> 00:09:34,573
+Eliminar lo quita definitivamente del catálogo, pero no borra los canjes históricos:
+
+162
+00:09:34,933 --> 00:09:37,893
+cada movimiento conserva la información del premio entregado.
+
+163
+00:09:38,533 --> 00:09:43,133
+Probá primero la opción de cancelar una confirmación cuando tengas dudas y revisá
+
+164
+00:09:43,133 --> 00:09:44,753
+la tarjeta después de cada cambio.
+
+165
+00:09:45,567 --> 00:09:49,467
+Antes de canjear, acordá con el cliente qué premio va a recibir.
+
+166
+00:09:50,087 --> 00:09:53,827
+En su tarjeta, abrí Canjear e indicá país y DNI.
+
+167
+00:09:53,827 --> 00:09:57,807
+Verificá el nombre del premio y su costo, y confirmá una sola vez.
+
+168
+00:09:58,407 --> 00:10:01,027
+En nuestro ejemplo, el café cuesta 80 puntos:
+
+169
+00:10:01,447 --> 00:10:06,167
+después del canje, el saldo baja en esa cantidad y aparece un movimiento de canje en
+
+170
+00:10:06,167 --> 00:10:06,647
+el historial.
+
+171
+00:10:07,207 --> 00:10:11,047
+La entrega física o la aplicación del descuento la coordina el comercio.
+
+172
+00:10:11,047 --> 00:10:16,147
+El cliente consulta sus opciones en la billetera, pero no ejecuta el canje desde allí.
+
+173
+00:10:16,950 --> 00:10:18,950
+Si el cliente no tiene puntos suficientes,
+
+174
+00:10:19,210 --> 00:10:22,070
+el canje se rechaza y el formulario explica el problema.
+
+175
+00:10:22,710 --> 00:10:26,010
+También hay bloqueos para premios pausados y cuentas archivadas.
+
+176
+00:10:26,490 --> 00:10:29,310
+No prometas un premio basándote en un saldo anterior:
+
+177
+00:10:29,910 --> 00:10:30,910
+consultá el vigente.
+
+178
+00:10:31,570 --> 00:10:33,770
+Si el resultado queda incierto por conexión,
+
+179
+00:10:34,110 --> 00:10:38,410
+el botón Reintentar canje pendiente conserva la misma operación y sus datos.
+
+180
+00:10:39,070 --> 00:10:41,950
+Un rechazo confirmado permite corregir el formulario.
+
+181
+00:10:41,950 --> 00:10:45,730
+Un resultado incierto requiere resolver esa misma operación,
+
+182
+00:10:45,950 --> 00:10:47,570
+para no descontar dos veces.
+
+183
+00:10:48,400 --> 00:10:52,860
+Sin actividad reúne clientes que llevan el período elegido sin compras ni canjes.
+
+184
+00:10:53,220 --> 00:10:55,860
+Podés usar los días sugeridos o escribir otro valor.
+
+185
+00:10:56,380 --> 00:10:59,340
+Abrir esta lista no archiva personas ni envía mensajes.
+
+186
+00:10:59,840 --> 00:11:04,660
+Preparar WhatsApp abre una página con un texto que podés revisar, editar y copiar.
+
+187
+00:11:05,160 --> 00:11:06,940
+Comprobá el número con código de país.
+
+188
+00:11:07,400 --> 00:11:09,080
+Abrir WhatsApp prepara el mensaje;
+
+189
+00:11:09,500 --> 00:11:10,900
+el envío final lo hacés vos.
+
+190
+00:11:11,380 --> 00:11:14,580
+En esta demostración solo revisamos y copiamos el borrador,
+
+191
+00:11:14,920 --> 00:11:16,680
+sin contactar a ninguna persona.
+
+192
+00:11:17,850 --> 00:11:19,650
+Para dejar de operar con un cliente,
+
+193
+00:11:19,850 --> 00:11:23,050
+usá Archivar desde Sin actividad y leé la confirmación.
+
+194
+00:11:23,790 --> 00:11:24,710
+El archivo es manual:
+
+195
+00:11:25,270 --> 00:11:28,470
+una persona no se archiva simplemente por aparecer en esta lista.
+
+196
+00:11:29,130 --> 00:11:33,590
+La cuenta deja de ocupar cupo activo, pero conserva su historial y sus vencimientos.
+
+197
+00:11:34,330 --> 00:11:37,590
+Desde Archivados podés reactivarla si hay lugar en tu plan.
+
+198
+00:11:38,130 --> 00:11:42,410
+La billetera sigue mostrando el comercio y los puntos vigentes con un aviso de cuenta
+
+199
+00:11:42,410 --> 00:11:42,970
+archivada;
+
+200
+00:11:43,410 --> 00:11:46,530
+para volver a operar, la reactivación la realiza el comercio.
+
+201
+00:11:47,467 --> 00:11:49,307
+En Correos elegís Sí o No.
+
+202
+00:11:49,707 --> 00:11:54,327
+Los avisos están desactivados por defecto y solo se preparan para clientes activos
+
+203
+00:11:54,327 --> 00:11:55,267
+con correo cargado.
+
+204
+00:11:55,647 --> 00:11:57,507
+Hay tres ejemplos del contenido real;
+
+205
+00:11:57,907 --> 00:12:00,367
+abrir cada vista previa no envía un mensaje.
+
+206
+00:12:00,847 --> 00:12:03,287
+No hay que escribir plantillas ni completar variables.
+
+207
+00:12:03,927 --> 00:12:06,767
+Si elegís No, se cancelan los avisos pendientes;
+
+208
+00:12:07,167 --> 00:12:10,407
+un correo ya entregado al servicio de envío no se puede retirar.
+
+209
+00:12:10,707 --> 00:12:13,067
+WhatsApp es independiente y sigue siendo manual.
+
+210
+00:12:13,067 --> 00:12:16,507
+Acá verificamos la configuración y las vistas previas,
+
+211
+00:12:16,627 --> 00:12:19,367
+con el envío externo desactivado en el entorno de prueba.
+
+212
+00:12:20,450 --> 00:12:22,630
+Ahora vemos cómo consulta un cliente.
+
+213
+00:12:22,870 --> 00:12:25,590
+En el inicio público elegimos el país del documento,
+
+214
+00:12:25,810 --> 00:12:28,530
+ingresamos el DNI y usamos Ver mis puntos.
+
+215
+00:12:29,150 --> 00:12:31,390
+La billetera muestra los comercios asociados.
+
+216
+00:12:31,830 --> 00:12:33,670
+Cada comercio tiene su propio saldo:
+
+217
+00:12:34,030 --> 00:12:36,770
+los puntos de la panadería no se suman a los del café.
+
+218
+00:12:37,230 --> 00:12:39,610
+Al abrir uno, aparecen los premios disponibles,
+
+219
+00:12:40,050 --> 00:12:45,150
+los puntos que faltan o el aviso Te alcanza, y las condiciones para coordinar el canje.
+
+220
+00:12:45,390 --> 00:12:48,650
+Las otras pestañas muestran promociones vigentes y productos.
+
+221
+00:12:48,650 --> 00:12:51,030
+Esta es una vista de consulta:
+
+222
+00:12:51,330 --> 00:12:54,070
+no permite registrar compras ni modificar puntos.
+
+223
+00:12:54,910 --> 00:12:58,210
+El comerciante conserva esas acciones en su panel privado.
+
+224
+00:12:58,950 --> 00:13:02,130
+Para revisar varias fechas, abrimos la billetera de Camila,
+
+225
+00:13:02,510 --> 00:13:04,310
+una cliente con historial de compras.
+
+226
+00:13:04,770 --> 00:13:08,250
+Ver detalles separa los puntos con vencimiento de los que no vencen.
+
+227
+00:13:08,690 --> 00:13:11,150
+Revisar las fechas y cantidades de cada grupo:
+
+228
+00:13:11,670 --> 00:13:14,270
+el saldo disponible es la referencia para un canje.
+
+229
+00:13:14,670 --> 00:13:17,790
+Cargar más vencimientos permite revisar las siguientes fechas.
+
+230
+00:13:18,230 --> 00:13:20,910
+La regla actual del comercio describe nuevas compras,
+
+231
+00:13:21,190 --> 00:13:24,030
+pero no reemplaza la fecha que ya tiene cada grupo anterior.
+
+232
+00:13:24,030 --> 00:13:28,710
+Así podés explicarle al cliente qué puntos necesita usar primero sin prometer que
+
+233
+00:13:28,710 --> 00:13:30,810
+una compra nueva renovará todos sus puntos.
+
+234
+00:13:32,000 --> 00:13:35,580
+Desde tus comercios, Ver mi enlace personal abre Tu acceso.
+
+235
+00:13:36,340 --> 00:13:40,020
+Podés copiar el enlace de la billetera y guardarlo en este dispositivo.
+
+236
+00:13:40,540 --> 00:13:43,660
+Ese enlace permite consultar la información del cliente:
+
+237
+00:13:44,120 --> 00:13:45,340
+compartilo con cuidado.
+
+238
+00:13:45,860 --> 00:13:49,320
+Al volver al inicio público aparece a Abrir mi acceso guardado.
+
+239
+00:13:49,680 --> 00:13:52,300
+Guardarlo en el navegador no crea una cuenta comercial.
+
+240
+00:13:52,820 --> 00:13:56,620
+En pantallas pequeñas aparece una guía para agregar Pointly como acceso;
+
+241
+00:13:57,160 --> 00:13:59,920
+la instalación depende del navegador y del dispositivo.
+
+242
+00:13:59,920 --> 00:14:03,080
+También podés quitar el acceso recordado sin borrar puntos.
+
+243
+00:14:03,540 --> 00:14:08,120
+Para cambiar de persona, elegí Consultar otro DNI y volvés al formulario.
+
+244
+00:14:08,900 --> 00:14:10,580
+Volvemos al panel comercial.
+
+245
+00:14:11,180 --> 00:14:14,520
+Deshabilitar un comercio lo oculta y bloquea compras y canjes;
+
+246
+00:14:14,860 --> 00:14:16,240
+no libera su cupo de comercios.
+
+247
+00:14:16,780 --> 00:14:18,840
+Leé la confirmación antes de hacerlo.
+
+248
+00:14:19,260 --> 00:14:21,660
+Si permanece deshabilitado más de 30 días,
+
+249
+00:14:22,000 --> 00:14:24,480
+sus clientes se archivan conservando el historial.
+
+250
+00:14:24,760 --> 00:14:28,140
+Para volver a operar, habilitarlo nuevamente y revisar las cuentas.
+
+251
+00:14:28,620 --> 00:14:30,180
+Los límites dependen del plan.
+
+252
+00:14:30,560 --> 00:14:34,640
+Una cuenta sin plan activo muestra ese estado y deriva a Bycode para gestionar
+
+253
+00:14:34,640 --> 00:14:35,260
+las opciones;
+
+254
+00:14:35,260 --> 00:14:39,060
+no alcanza con crear una cuenta para habilitar todas las funciones.
+
+255
+00:14:39,950 --> 00:14:42,950
+La cuenta de comercio administra sus propios negocios.
+
+256
+00:14:43,470 --> 00:14:47,650
+La administración general tiene una vista diferente con empresas de toda la plataforma,
+
+257
+00:14:48,110 --> 00:14:49,710
+sus reglas y sus estados.
+
+258
+00:14:50,330 --> 00:14:53,870
+Algunas acciones visibles pueden seguir restringidas por el servidor:
+
+259
+00:14:54,310 --> 00:14:57,650
+no tener permiso no se resuelve cambiando la dirección de la página.
+
+260
+00:14:58,150 --> 00:15:01,410
+Este tutorial usa la cuenta comercial para las tareas diarias.
+
+261
+00:15:01,990 --> 00:15:06,550
+El asistente de inteligencia artificial y los niveles de fidelidad están desactivados en
+
+262
+00:15:06,550 --> 00:15:08,970
+esta versión, aunque exista código histórico:
+
+263
+00:15:08,970 --> 00:15:11,870
+no son herramientas disponibles que tengas que configurar.
+
+264
+00:15:12,767 --> 00:15:15,847
+Cuando una lista no carga, usá su botón Reintentar;
+
+265
+00:15:16,387 --> 00:15:20,047
+un error de conexión no significa que no existan clientes o ventas.
+
+266
+00:15:20,527 --> 00:15:24,367
+Si la búsqueda está vacía, revisá el país, el documento y el filtro.
+
+267
+00:15:24,847 --> 00:15:27,907
+Podés cambiar entre tema claro y oscuro desde la aplicación,
+
+268
+00:15:28,267 --> 00:15:31,647
+consultar las preguntas frecuentes y volver al panel desde el menú.
+
+269
+00:15:32,027 --> 00:15:35,307
+Al terminar en una computadora compartida, cerrá la sesión.
+
+270
+00:15:35,787 --> 00:15:37,207
+Recordá la secuencia diaria:
+
+271
+00:15:37,527 --> 00:15:39,947
+identificar al cliente, registrar la compra,
+
+272
+00:15:40,307 --> 00:15:43,587
+verificar los puntos y registrar el canje cuando corresponda.
+
+273
+00:15:44,467 --> 00:15:48,567
+Ya recorrimos la configuración, los clientes, las ventas, el catálogo,
+
+274
+00:15:48,927 --> 00:15:53,987
+los premios y los avisos de Pointly, además de la billetera que consulta el cliente.
+
+275
+00:15:54,227 --> 00:15:58,147
+Antes de usar tu programa con personas reales, revisá la regla de puntos,
+
+276
+00:15:58,627 --> 00:16:01,907
+las condiciones de los premios y los vencimientos que vas a comunicar.
+
+277
+00:16:02,487 --> 00:16:05,487
+Volvé al capítulo que necesites para repetir un procedimiento.
+
+278
+00:16:05,907 --> 00:16:07,687
+Pointly, de Bycode Software.
+
+279
+00:16:08,227 --> 00:16:09,567
+Gracias por acompañarnos.

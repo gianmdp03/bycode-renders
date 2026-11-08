@@ -18,7 +18,7 @@
   "words": [
     {
       "word": "Desde",
-      "start": 0.0,
+      "start": 0,
       "end": 0.46,
       "probability": 0.9740251898765564,
       "display": "Desde"
@@ -404,13 +404,13 @@
     {
       "word": "una",
       "start": 21.82,
-      "end": 22.0,
+      "end": 22,
       "probability": 0.9978576302528381,
       "display": "una"
     },
     {
       "word": "venta",
-      "start": 22.0,
+      "start": 22,
       "end": 22.32,
       "probability": 0.978071004152298,
       "display": "venta"
@@ -576,64 +576,71 @@
       "startMs": 0,
       "endMs": 3720,
       "timestampMs": null,
-      "confidence": 0.959
+      "confidence": 0.9588434045965021
     },
     {
       "text": "Pausar conserva el elemento pero evita que se aplique;",
       "startMs": 4160,
       "endMs": 7120,
       "timestampMs": null,
-      "confidence": 0.988
+      "confidence": 0.9884290761417813
     },
     {
       "text": "Reactivar lo vuelve a habilitar, siempre sujeto a sus fechas.",
       "startMs": 7640,
       "endMs": 10860,
       "timestampMs": null,
-      "confidence": 0.983
+      "confidence": 0.9832699765761694
     },
     {
-      "text": "Eliminar es una acción distinta y definitiva, con confirmación dentro de la",
+      "text": "Eliminar es una acción distinta y definitiva, con confirmación dentro de la página.",
       "startMs": 11720,
-      "endMs": 16180,
-      "timestampMs": null,
-      "confidence": 0.982
-    },
-    {
-      "text": "página.",
-      "startMs": 16180,
       "endMs": 16480,
       "timestampMs": null,
-      "confidence": 0.985
+      "confidence": 0.9820523239099063
     },
     {
-      "text": "Revisá qué elemento seleccionaste y cancelás si no corresponde.",
+      "text": "Revisá qué elemento seleccionaste y cancelá si no corresponde.",
       "startMs": 17060,
       "endMs": 20400,
       "timestampMs": null,
-      "confidence": 0.883
+      "confidence": 0.8826714858964638
     },
     {
-      "text": "Antes de registrar una venta con beneficio, comprova la vigencia y la",
+      "text": "Antes de registrar una venta con beneficio,",
       "startMs": 20900,
-      "endMs": 24840,
+      "endMs": 23100,
       "timestampMs": null,
-      "confidence": 0.971
+      "confidence": 0.9937404436724526
     },
     {
-      "text": "estimación de puntos del formulario;",
-      "startMs": 24840,
+      "text": "comprobá la vigencia y la estimación de puntos del formulario;",
+      "startMs": 23520,
       "endMs": 26400,
       "timestampMs": null,
-      "confidence": 0.994
+      "confidence": 0.9663798938194912
     },
     {
       "text": "no te guíes solamente por el nombre de la promoción.",
       "startMs": 26680,
       "endMs": 28880,
       "timestampMs": null,
-      "confidence": 0.98
+      "confidence": 0.9800207277139028
     }
   ],
-  "status": "REVIEW_REQUIRED"
+  "status": "REVIEW_REQUIRED",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [
+      [
+        "cancelás",
+        "cancelá"
+      ],
+      [
+        "comprova",
+        "comprobá"
+      ]
+    ],
+    "sourceAudioHash": "4d4eae337bd129a96239f3da50c834e462de9adfa20f94fb44f53dbc84c76e9f"
+  }
 }

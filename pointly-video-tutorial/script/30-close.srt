@@ -1,0 +1,27 @@
+1
+00:00:00,000 --> 00:00:04,100
+Ya recorrimos la configuración, los clientes, las ventas, el catálogo,
+
+2
+00:00:04,460 --> 00:00:09,520
+los premios y los avisos de Pointly, además de la billetera que consulta el cliente.
+
+3
+00:00:09,760 --> 00:00:13,680
+Antes de usar tu programa con personas reales, revisá la regla de puntos,
+
+4
+00:00:14,160 --> 00:00:17,440
+las condiciones de los premios y los vencimientos que vas a comunicar.
+
+5
+00:00:18,020 --> 00:00:21,020
+Volvé al capítulo que necesites para repetir un procedimiento.
+
+6
+00:00:21,440 --> 00:00:23,220
+Pointly, de Bycode Software.
+
+7
+00:00:23,760 --> 00:00:25,100
+Gracias por acompañarnos.

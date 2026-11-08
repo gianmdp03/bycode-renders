@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:01,800
+Para dejar de operar con un cliente,
+
+2
+00:00:02,000 --> 00:00:05,200
+usá Archivar desde Sin actividad y leé la confirmación.
+
+3
+00:00:05,940 --> 00:00:06,860
+El archivo es manual:
+
+4
+00:00:07,420 --> 00:00:10,620
+una persona no se archiva simplemente por aparecer en esta lista.
+
+5
+00:00:11,280 --> 00:00:15,740
+La cuenta deja de ocupar cupo activo, pero conserva su historial y sus vencimientos.
+
+6
+00:00:16,480 --> 00:00:19,740
+Desde Archivados podés reactivarla si hay lugar en tu plan.
+
+7
+00:00:20,280 --> 00:00:24,560
+La billetera sigue mostrando el comercio y los puntos vigentes con un aviso de cuenta
+
+8
+00:00:24,560 --> 00:00:25,120
+archivada;
+
+9
+00:00:25,560 --> 00:00:28,680
+para volver a operar, la reactivación la realiza el comercio.

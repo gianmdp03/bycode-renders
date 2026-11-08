@@ -3,21 +3,31 @@
   "evidence": [
     {
       "label": "Percentage voucher and manual discount explanation",
-      "url": "/companies/cafe-del-puerto-tutorial/actions/add-reward",
-      "at": 1793728087552.1
+      "url": "/companies/cafe-del-puerto-actualizado/actions/add-reward",
+      "at": 1794066635588.7
     },
     {
       "label": "Fixed amount voucher",
-      "url": "/companies/cafe-del-puerto-tutorial/actions/add-reward",
-      "at": 1793728090088.8
+      "url": "/companies/cafe-del-puerto-actualizado/actions/add-reward",
+      "at": 1794066638046.5
     },
     {
       "label": "Voucher saved",
-      "url": "/companies/cafe-del-puerto-tutorial",
-      "at": 1793728092259.1
+      "url": "/companies/cafe-del-puerto-actualizado",
+      "at": 1794066640187.2
     }
   ],
   "network": [
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/billing/account/profile",
+      "status": 200
+    },
     {
       "method": "GET",
       "path": "/api/pointly/companies/my-companies",
@@ -25,12 +35,7 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/public/media/6dedfc39-a8dd-4815-a680-b61b8db0307c",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/limits/my-limits",
+      "path": "/api/pointly/public/media/abf1bc3b-8f5e-47c2-b69a-d4822226336f",
       "status": 200
     },
     {
@@ -50,12 +55,17 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/company-names/cafe-del-puerto-tutorial/company",
+      "path": "/api/pointly/limits/my-limits",
       "status": 200
     },
     {
       "method": "GET",
-      "path": "/api/pointly/public/media/6dedfc39-a8dd-4815-a680-b61b8db0307c",
+      "path": "/api/pointly/company-names/cafe-del-puerto-actualizado/company",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/media/abf1bc3b-8f5e-47c2-b69a-d4822226336f",
       "status": 200
     },
     {
@@ -99,6 +109,6 @@
       "status": 200
     }
   ],
-  "source": "recordings/17-voucher-1793728109474.mp4",
+  "source": "recordings/17-voucher-1794066642152.mp4",
   "obs": null
 }

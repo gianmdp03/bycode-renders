@@ -87,12 +87,13 @@ export class Recorder{
  async fill(locator,value){await this.move(locator);await locator.fill(value);}
  async select(locator,value){await this.move(locator);await locator.selectOption(value);}
  async scroll(dy,dx=0){
-  await this.page.mouse.move(1845,760);this.position={x:1845,y:760};
+  const viewport=this.page.viewportSize();const point={x:Math.min(1845,viewport.width-40),y:Math.min(760,viewport.height-70)};
+  await this.page.mouse.move(point.x,point.y);this.position=point;
   // Scroll the real overflow element on browser animation frames. This avoids
   // round-trip wheel dispatch limiting actual UI motion to 30–40 updates/sec.
   // No DOM content, values, state or results are replaced.
-  const samples=await this.page.evaluate(({dx,dy})=>new Promise(resolve=>{
-   let target=document.elementFromPoint(1845,760);
+  const samples=await this.page.evaluate(({dx,dy,point})=>new Promise(resolve=>{
+   let target=document.elementFromPoint(point.x,point.y);
    while(target&&target!==document.documentElement){
     const s=getComputedStyle(target),canY=dy&&target.scrollHeight>target.clientHeight+2&&/(auto|scroll)/.test(s.overflowY),canX=dx&&target.scrollWidth>target.clientWidth+2&&/(auto|scroll)/.test(s.overflowX);
     if(canY||canX)break;target=target.parentElement;
@@ -100,7 +101,7 @@ export class Recorder{
    target=target??document.scrollingElement;
    const startX=target.scrollLeft,startY=target.scrollTop,start=performance.now(),duration=1600,samples=[];
    const step=now=>{const t=Math.min(1,(now-start)/duration),e=t*t*(3-2*t);target.scrollTo({left:startX+dx*e,top:startY+dy*e,behavior:'instant'});samples.push({ms:now-start,x:target.scrollLeft,y:target.scrollTop});if(t<1)requestAnimationFrame(step);else resolve(samples);};requestAnimationFrame(step);
-  }),{dx,dy});
+  }),{dx,dy,point});
   if(process.env.TUTORIAL_MOTION_DIAGNOSTIC==='1')fs.writeFileSync(path.join(root,'qa','browser-motion-'+Date.now()+'.json'),JSON.stringify(samples));
  }
  async beat(beat,fn){

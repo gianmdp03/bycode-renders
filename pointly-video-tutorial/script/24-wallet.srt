@@ -1,0 +1,47 @@
+1
+00:00:00,000 --> 00:00:02,180
+Ahora vemos cómo consulta un cliente.
+
+2
+00:00:02,420 --> 00:00:05,140
+En el inicio público elegimos el país del documento,
+
+3
+00:00:05,360 --> 00:00:08,080
+ingresamos el DNI y usamos Ver mis puntos.
+
+4
+00:00:08,700 --> 00:00:10,940
+La billetera muestra los comercios asociados.
+
+5
+00:00:11,380 --> 00:00:13,220
+Cada comercio tiene su propio saldo:
+
+6
+00:00:13,580 --> 00:00:16,320
+los puntos de la panadería no se suman a los del café.
+
+7
+00:00:16,780 --> 00:00:19,160
+Al abrir uno, aparecen los premios disponibles,
+
+8
+00:00:19,600 --> 00:00:24,700
+los puntos que faltan o el aviso Te alcanza, y las condiciones para coordinar el canje.
+
+9
+00:00:24,940 --> 00:00:28,200
+Las otras pestañas muestran promociones vigentes y productos.
+
+10
+00:00:28,200 --> 00:00:30,580
+Esta es una vista de consulta:
+
+11
+00:00:30,880 --> 00:00:33,620
+no permite registrar compras ni modificar puntos.
+
+12
+00:00:34,460 --> 00:00:37,760
+El comerciante conserva esas acciones en su panel privado.

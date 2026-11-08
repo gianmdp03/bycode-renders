@@ -1,0 +1,26 @@
+{
+  "state": "PASS",
+  "commands": [
+    {
+      "command": "npm run typecheck --workspace=pointly-video-tutorial",
+      "result": "PASS"
+    },
+    {
+      "command": "npm run build --workspace=pointly-video-tutorial",
+      "result": "PASS: Remotion bundle"
+    },
+    {
+      "command": "npm run check",
+      "result": "PASS: shared brand and three existing promo workspaces"
+    },
+    {
+      "command": "npm test",
+      "result": "PASS: 7 brand tests and 4 integration tests"
+    },
+    {
+      "command": "git diff --check -- pointly-video-tutorial",
+      "result": "PASS"
+    }
+  ],
+  "scope": "Tutorial source/build and existing shared integration; no business code changed."
+}

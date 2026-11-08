@@ -3,18 +3,18 @@
   "evidence": [
     {
       "label": "Real QR downloaded and link copied",
-      "url": "/companies/cafe-del-puerto-aula/actions/qr",
-      "at": 1793728918963.8
+      "url": "/companies/cafe-del-puerto-actualizado/actions/qr",
+      "at": 1794066260899.5
     },
     {
       "label": "Actual printable QR view opened, no physical print job sent",
-      "url": "/companies/cafe-del-puerto-aula/actions/qr",
-      "at": 1793728920349.7
+      "url": "/companies/cafe-del-puerto-actualizado/actions/qr",
+      "at": 1794066262301.9
     },
     {
       "label": "Public join confirmed",
-      "url": "/join/cafe-del-puerto-aula",
-      "at": 1793728926169
+      "url": "/join/cafe-del-puerto-actualizado",
+      "at": 1794066267927.2
     }
   ],
   "network": [
@@ -35,12 +35,12 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/company-names/cafe-del-puerto-aula/company",
+      "path": "/api/pointly/company-names/cafe-del-puerto-actualizado/company",
       "status": 200
     },
     {
       "method": "GET",
-      "path": "/api/pointly/public/media/88f04c39-82db-4d2e-8062-e046c1a537ac",
+      "path": "/api/pointly/public/media/abf1bc3b-8f5e-47c2-b69a-d4822226336f",
       "status": 200
     },
     {
@@ -80,7 +80,7 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/public/company-links/cafe-del-puerto-aula",
+      "path": "/api/pointly/public/company-links/cafe-del-puerto-actualizado",
       "status": 200
     },
     {
@@ -90,10 +90,10 @@
     },
     {
       "method": "POST",
-      "path": "/api/pointly/public/company-links/cafe-del-puerto-aula/join",
+      "path": "/api/pointly/public/company-links/cafe-del-puerto-actualizado/join",
       "status": 201
     }
   ],
-  "source": "recordings/09-qr-1793728945786.mp4",
+  "source": "recordings/09-qr-1794066269789.mp4",
   "obs": null
 }

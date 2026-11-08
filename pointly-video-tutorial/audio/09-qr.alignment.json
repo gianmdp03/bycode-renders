@@ -2,12 +2,12 @@
   "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
   "audio_sha256": "64e786238d810b879b39d908e90186a129ef3bcd151c844bae773cb11cc02da8",
   "transcript": "Otra forma de incorporar clientes es el QR de registro. Desde el resumen, abrí generar QR de registro. Podés copiar el enlace, descargar el código como imagen o abrir la impresión. Si el navegador bloquea la ventana de impresión, habilitala o usa la descarga. El enlace abre un formulario público con el nombre del comercio. El cliente completa sus datos y confirma el alta. Mostrar un QR no suma puntos por sí solo. Después tenés que registrar las compras desde tu cuenta comercial.",
-  "scriptSimilarity": 1.0,
+  "scriptSimilarity": 1,
   "differences": [],
   "words": [
     {
       "word": "Otra",
-      "start": 0.0,
+      "start": 0,
       "end": 0.42,
       "probability": 0.9848846197128296,
       "display": "Otra"
@@ -309,7 +309,7 @@
     {
       "word": "descarga.",
       "start": 15.56,
-      "end": 16.0,
+      "end": 16,
       "probability": 0.9980078140894572,
       "display": "descarga."
     },
@@ -593,57 +593,62 @@
       "startMs": 0,
       "endMs": 3400,
       "timestampMs": null,
-      "confidence": 0.992
+      "confidence": 0.9915509343147277
     },
     {
       "text": "Desde el resumen abrí Generar QR de Registro.",
       "startMs": 4060,
       "endMs": 6720,
       "timestampMs": null,
-      "confidence": 0.938
+      "confidence": 0.9378380794078112
     },
     {
       "text": "Podés copiar el enlace, descargar el código como imagen o abrir la impresión.",
       "startMs": 7080,
       "endMs": 11240,
       "timestampMs": null,
-      "confidence": 0.965
+      "confidence": 0.9648168216913173
     },
     {
       "text": "Si el navegador bloquea la ventana de impresión, habilitala o usá la descarga.",
       "startMs": 11860,
       "endMs": 16000,
       "timestampMs": null,
-      "confidence": 0.969
+      "confidence": 0.9687822705660112
     },
     {
       "text": "El enlace abre un formulario público con el nombre del comercio.",
       "startMs": 16600,
       "endMs": 19800,
       "timestampMs": null,
-      "confidence": 0.99
+      "confidence": 0.989940041845495
     },
     {
       "text": "El cliente completa sus datos y confirma el alta.",
       "startMs": 20360,
       "endMs": 22880,
       "timestampMs": null,
-      "confidence": 0.982
+      "confidence": 0.9821216464042664
     },
     {
       "text": "Mostrar un QR no suma puntos por sí solo:",
       "startMs": 23520,
       "endMs": 25900,
       "timestampMs": null,
-      "confidence": 0.973
+      "confidence": 0.972525782055325
     },
     {
       "text": "después tenés que registrar las compras desde tu cuenta comercial.",
       "startMs": 25900,
       "endMs": 29520,
       "timestampMs": null,
-      "confidence": 0.948
+      "confidence": 0.9484071165323258
     }
   ],
-  "status": "ACOUSTIC_MATCH"
+  "status": "ACOUSTIC_MATCH",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [],
+    "sourceAudioHash": "64e786238d810b879b39d908e90186a129ef3bcd151c844bae773cb11cc02da8"
+  }
 }

@@ -1,0 +1,24 @@
+[
+  {
+    "scene": "26-wallet-access",
+    "kind": "GENUINE_RESPONSIVE_TAB_RECORDING",
+    "file": "recordings/26-wallet-access-guide-hd-1794071162787.mp4",
+    "original": "recordings/26-wallet-access-guide-hd-1794071162787.webm",
+    "sourceStart": 67,
+    "sourceFrames": 202,
+    "from": 1249,
+    "durationInFrames": 426,
+    "width": 1920,
+    "height": 1080,
+    "audioSha256": "6cadb901a613c42c37900b381bf95668b50afb0e02de845b6d5f9a075073b3cc",
+    "caption": "Vista en pantalla pequeña",
+    "evidence": [
+      {
+        "label": "Actual browser-dependent install guidance expanded",
+        "url": "/client/Mq0Xm_mZUvqp/access",
+        "at": 1794071161498.0999
+      }
+    ],
+    "installation": "Actual guidance expanded; any browser install prompt dismissed with Escape. No OS installation claimed."
+  }
+]

@@ -3,46 +3,31 @@
   "evidence": [
     {
       "label": "Product and image stored",
-      "url": "/companies/cafe-del-puerto-aula",
-      "at": 1793731921453.8
+      "url": "/companies/cafe-del-puerto-actualizado",
+      "at": 1794066463751.9
     },
     {
       "label": "Direct image URL persisted and actual catalog image displayed",
-      "url": "/companies/cafe-del-puerto-aula",
-      "at": 1793731934265.5999
+      "url": "/companies/cafe-del-puerto-actualizado",
+      "at": 1794066476782.7998
     },
     {
       "label": "Product edition and photo removal",
-      "url": "/companies/cafe-del-puerto-aula",
-      "at": 1793731940588.5999
+      "url": "/companies/cafe-del-puerto-actualizado",
+      "at": 1794066483094.0999
     },
     {
       "label": "Product deletion confirmation",
-      "url": "/companies/cafe-del-puerto-aula",
-      "at": 1793731941898.5999
+      "url": "/companies/cafe-del-puerto-actualizado",
+      "at": 1794066484386.2
     },
     {
       "label": "Demo product deleted, original catalog retained",
-      "url": "/companies/cafe-del-puerto-aula",
-      "at": 1793731943947.4
+      "url": "/companies/cafe-del-puerto-actualizado",
+      "at": 1794066486282.2
     }
   ],
   "network": [
-    {
-      "method": "GET",
-      "path": "/api/pointly/companies/my-companies",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/public/media/88f04c39-82db-4d2e-8062-e046c1a537ac",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/limits/my-limits",
-      "status": 200
-    },
     {
       "method": "GET",
       "path": "/api/pointly/limits/my-limits",
@@ -60,12 +45,12 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/company-names/cafe-del-puerto-aula/company",
+      "path": "/api/pointly/company-names/cafe-del-puerto-actualizado/company",
       "status": 200
     },
     {
       "method": "GET",
-      "path": "/api/pointly/public/media/88f04c39-82db-4d2e-8062-e046c1a537ac",
+      "path": "/api/pointly/public/media/abf1bc3b-8f5e-47c2-b69a-d4822226336f",
       "status": 200
     },
     {
@@ -90,7 +75,7 @@
     },
     {
       "method": "POST",
-      "path": "/api/pointly/products/1/7/image",
+      "path": "/api/pointly/products/1/8/image",
       "status": 201
     },
     {
@@ -115,12 +100,7 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/public/media/e01b4523-91c5-4efa-a278-39e2ffe05394",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/public/media/35f7c34e-4689-4109-9897-d08923f068a7",
+      "path": "/api/pointly/public/media/3b29218d-6e82-45bc-a34e-fd2909c4088a",
       "status": 200
     },
     {
@@ -135,17 +115,12 @@
     },
     {
       "method": "PUT",
-      "path": "/api/pointly/products/1/7",
+      "path": "/api/pointly/products/1/8",
       "status": 200
     },
     {
       "method": "GET",
       "path": "/api/pointly/companies/1",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/public/media/e01b4523-91c5-4efa-a278-39e2ffe05394",
       "status": 200
     },
     {
@@ -170,7 +145,7 @@
     },
     {
       "method": "PUT",
-      "path": "/api/pointly/products/1/7",
+      "path": "/api/pointly/products/1/8",
       "status": 200
     },
     {
@@ -195,7 +170,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/api/pointly/products/1/7",
+      "path": "/api/pointly/products/1/8",
       "status": 204
     },
     {
@@ -214,6 +189,6 @@
       "status": 200
     }
   ],
-  "source": "recordings/15-products-1793731944742.mp4",
+  "source": "recordings/15-products-1794066488377.mp4",
   "obs": null
 }

@@ -5,14 +5,23 @@
   "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
   "personalVoice": false,
   "externalSpeechAPI": null,
-  "text": "Para incorporar un cliente, seleccionamos Agregar cliente y completamos nombre, país del documento y DNI. Correo y teléfono son opcionales: la persona puede acumular y canjear puntos aunque no los tenga. Si cargás un teléfono para WhatsApp, incluí el código de país. El alta es inmediata y no pide confirmar un correo. Si ese documento ya existe en Pointly, se conservan sus datos anteriores: este formulario lo vincula al comercio, no edita su identidad. Al guardar, comprobá que aparezca en la lista.",
-  "spokenText": "Para incorporar un cliente, seleccionamos Agregar cliente y completamos nombre, país del documento y de ene i. Correo y teléfono son opcionales: la persona puede acumular y canjear puntos aunque no los tenga. Si cargás un teléfono para guasap, incluí el código de país. El alta es inmediata y no pide confirmar un correo. Si ese documento ya existe en Pointli, se conservan sus datos anteriores: este formulario lo vincula al comercio, no edita su identidad. Al guardar, comprobá que aparezca en la lista.",
-  "text_sha256": "99fe1dc24335403c0af2f169909514f3e43868a74f9e61d64959b24b44137447",
-  "sha256": "18dff0329adec9c6d9d6ee12a2036142b0f62e51025498d35f5e7722b08ff44e",
-  "duration": 29.76,
+  "text": "Para incorporar un cliente, seleccionamos Agregar cliente y completamos nombre, país del documento y DNI. Correo y teléfono son opcionales: la persona puede acumular y canjear puntos aunque no los tenga. Si cargás un teléfono para WhatsApp, incluí el código de país. El alta es inmediata y no pide confirmar un correo. Ahora asociamos a Carla en nuestro segundo comercio. Si ese documento ya existe en Pointly, se conservan sus datos anteriores: el formulario lo vincula al comercio, no edita su identidad. Después de guardar, revisamos el nombre en la lista.",
+  "spokenText": "Para incorporar un cliente, seleccionamos Agregar cliente y completamos nombre, país del documento y de ene i. Correo y teléfono son opcionales: la persona puede acumular y canjear puntos aunque no los tenga. Si cargás un teléfono para WhatsApp, incluí el código de país. El alta es inmediata y no pide confirmar un correo. Ahora asociamos a Carla en nuestro segundo comercio. Si ese documento ya existe en Pointli, se conservan sus datos anteriores: el formulario lo vincula al comercio, no edita su identidad. Después de guardar, revisamos el nombre en la lista.",
+  "text_sha256": "fe8db91402a986c95046c3b93b2ad8d9c8dd53c9e8b935432160bc6cc7383996",
+  "sha256": "2729139508bcbc057325a8dbbaa4d09da0f1737488d27abb5b18ac5dc566cff8",
+  "duration": 34.085,
   "sampleRate": 48000,
   "channels": 2,
-  "generationSeconds": 134.47,
+  "generationSeconds": 1157.34,
   "seed": 20261103,
-  "review": "Awaiting acoustic transcription and audiovisual QA"
+  "review": "Final sentence replaced with locally generated Qwen phrase; complete acoustic realignment required.",
+  "correction": {
+    "cutSeconds": 30.66,
+    "crossfadeSeconds": 0.015,
+    "priorAudioSha256": "9fb56cb07457e7309c3129fad4fe603c19dcbc2c2a660333fca41db6aeca03b8",
+    "tailAudioSha256": "5d0dfb21bcdf92207f2da9ae7ae413df752deaf555dc1215eb90fa5ce011a769",
+    "fragment": "audio/08-client-tail.wav",
+    "sameSyntheticMaleReference": true,
+    "reason": "Low-confidence mispronunciation at final sentence; only that sentence regenerated."
+  }
 }

@@ -13,7 +13,7 @@
   "words": [
     {
       "word": "Para",
-      "start": 0.0,
+      "start": 0,
       "end": 0.3,
       "probability": 0.7392887473106384,
       "display": "Para"
@@ -98,13 +98,13 @@
     {
       "word": "Desde",
       "start": 4.68,
-      "end": 5.0,
+      "end": 5,
       "probability": 0.9711973071098328,
       "display": "Desde"
     },
     {
       "word": "Editar,",
-      "start": 5.0,
+      "start": 5,
       "end": 5.4,
       "probability": 0.6827426105737686,
       "display": "Editar"
@@ -139,7 +139,7 @@
     },
     {
       "word": "la",
-      "start": 7.0,
+      "start": 7,
       "end": 7.1,
       "probability": 0.9964801669120789,
       "display": "la"
@@ -620,71 +620,74 @@
       "startMs": 0,
       "endMs": 4140,
       "timestampMs": null,
-      "confidence": 0.902
+      "confidence": 0.9024219426016012
     },
     {
-      "text": "Desde Editar podés actualizar el nombre, la ubicación y la regla de",
+      "text": "Desde Editar podés actualizar el nombre, la ubicación y la regla de acumulación.",
       "startMs": 4680,
-      "endMs": 8560,
-      "timestampMs": null,
-      "confidence": 0.94
-    },
-    {
-      "text": "acumulación.",
-      "startMs": 8560,
       "endMs": 9100,
       "timestampMs": null,
-      "confidence": 0.981
+      "confidence": 0.9433114142754138
     },
     {
       "text": "El vencimiento es opcional:",
       "startMs": 9720,
       "endMs": 11400,
       "timestampMs": null,
-      "confidence": 0.976
+      "confidence": 0.9757725497086843
     },
     {
       "text": "si lo activás, indicá cuántos días duran los puntos de nuevas compras.",
       "startMs": 11880,
       "endMs": 15900,
       "timestampMs": null,
-      "confidence": 0.948
+      "confidence": 0.9477446153759956
     },
     {
       "text": "Ese cambio no renueva todos los puntos anteriores.",
       "startMs": 16380,
       "endMs": 19240,
       "timestampMs": null,
-      "confidence": 0.906
+      "confidence": 0.9059969559311866
     },
     {
       "text": "Una compra nueva tampoco renueva automáticamente cada saldo histórico.",
       "startMs": 19740,
       "endMs": 23500,
       "timestampMs": null,
-      "confidence": 0.982
+      "confidence": 0.9816671665068026
     },
     {
       "text": "Leé la explicación junto a la opción antes de guardar.",
       "startMs": 23940,
       "endMs": 26600,
       "timestampMs": null,
-      "confidence": 0.967
+      "confidence": 0.9670122981071472
     },
     {
-      "text": "Los niveles bronze, Plata y Oro están suspendidos en esta versión;",
+      "text": "Los niveles Bronce, Plata y Oro están suspendidos en esta versión;",
       "startMs": 26600,
       "endMs": 30640,
       "timestampMs": null,
-      "confidence": 0.948
+      "confidence": 0.947905266826803
     },
     {
       "text": "no forman parte de la configuración disponible.",
       "startMs": 30960,
       "endMs": 33380,
       "timestampMs": null,
-      "confidence": 0.996
+      "confidence": 0.9963813296386174
     }
   ],
-  "status": "REVIEW_REQUIRED"
+  "status": "REVIEW_REQUIRED",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [
+      [
+        "bronze,",
+        "Bronce,"
+      ]
+    ],
+    "sourceAudioHash": "cf04375f9ab8d90db851840808e61a0e825648e388fd9e8b818a27d0b3f32a00"
+  }
 }

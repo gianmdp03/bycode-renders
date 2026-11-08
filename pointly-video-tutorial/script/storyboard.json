@@ -6,17 +6,28 @@
     "account": "B",
     "from": 0,
     "durationInFrames": 1551,
-    "recording": "recordings/01-intro-1793726586847.mkv",
+    "recording": "recordings/01-intro-1794066026311.mp4",
+    "actions": [
+      "Presentar Pointly y Bycode con sus logos auténticos.",
+      "Mostrar el inicio comercial real y el recorrido de aprendizaje."
+    ],
+    "resources": [
+      "logo.svg",
+      "bycode-logo.svg",
+      "Grabación del inicio público"
+    ],
+    "limitation": null,
+    "edit": null,
     "actionEvidence": [
       {
         "label": "Public product explanation and FAQ",
         "url": "/",
-        "at": 1793726562565.9001
+        "at": 1794066024440.9001
       }
     ],
     "narration": "Pointly es el sistema de fidelización de clientes de Bycode Software. En este tutorial vamos a configurar un comercio, incorporar clientes, registrar compras y entregar premios con puntos. También vamos a ver qué consulta el cliente desde su billetera y cómo administrar el catálogo y los avisos. Trabajaremos con un café y datos ficticios. Seguí el recorrido en orden la primera vez; después podés volver al capítulo que necesites.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": null
   },
   {
     "id": "02-access",
@@ -24,510 +35,1310 @@
     "objective": "Distinguir cuenta comercial y consulta del cliente",
     "account": "A",
     "from": 1551,
-    "durationInFrames": 1878,
-    "recording": "recordings/02-access-1793726621915.mkv",
+    "durationInFrames": 2222,
+    "recording": "recordings/02-access-1794066069774.mp4",
+    "actions": [
+      "Abrir Empezá ahora desde el inicio.",
+      "Mostrar los tres pasos y el vínculo de registro externo en Bycode.",
+      "Ingresar a Pointly; probar credenciales incorrectas y corregirlas."
+    ],
+    "resources": [
+      "Cuenta A ficticia",
+      "Página for-businesses",
+      "Respuesta real de autenticación"
+    ],
+    "limitation": null,
+    "edit": null,
     "actionEvidence": [
       {
-        "label": "Merchant registration delegates to Bycode",
-        "url": "/",
-        "at": 1793726591799.9001
+        "label": "Current public merchant onboarding with three real steps and external Bycode registration",
+        "url": "/for-businesses",
+        "at": 1794066056409.0999
       },
       {
         "label": "Real invalid-credential response",
         "url": "/login",
-        "at": 1793726599864.2
+        "at": 1794066063567.3
       },
       {
         "label": "Authenticated new account",
         "url": "/complete-profile",
-        "at": 1793726606911.2
+        "at": 1794066067845.0999
       }
     ],
-    "narration": "Para administrar un comercio necesitás tu cuenta de Bycode y un plan de Pointly habilitado. El acceso Crear cuenta lleva a Bycode: el alta comercial no se completa dentro de esta pantalla de Pointly. Si ya tenés cuenta, entrá con tu correo y contraseña. El modo cliente es diferente: permite consultar puntos, sin acceder a la administración. Revisá el correo que escribís y mantené tu contraseña privada. Si los datos no coinciden, la pantalla informa el error y permite corregirlos.",
+    "narration": "Desde el inicio, ¿Sos un comercio? Empezá ahora abre una guía con los primeros pasos. Primero creás tu cuenta en Bycode. Después volvés a Pointly e ingresás con el mismo correo y contraseña. Cada aplicación de Bycode tiene su propio plan: Pointly tiene que estar habilitado. Si ya tenés cuenta, elegí Ingresar como comercio. El formulario público del inicio es para consultar la billetera de clientes. Es importante revisar el correo y mantener la contraseña privada. Si los datos no coinciden, la pantalla informa el error y permite corregirlos.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": null
   },
   {
     "id": "03-profile",
     "title": "Primer ingreso",
     "objective": "Completar el perfil y reconocer el estado inicial",
     "account": "A",
-    "from": 3429,
+    "from": 3773,
     "durationInFrames": 1551,
-    "recording": "recordings/03-profile-1793726981458.mp4",
+    "recording": "recordings/03-profile-1794066083594.mp4",
+    "actions": [
+      "Completar el DNI del comerciante en el primer ingreso.",
+      "Continuar al panel y revisar el plan sin comercios creados."
+    ],
+    "resources": [
+      "Cuenta nueva A",
+      "Perfil inicial sin DNI"
+    ],
+    "limitation": null,
+    "edit": null,
     "actionEvidence": [
       {
         "label": "New merchant plan and no companies",
         "url": "/dashboard",
-        "at": 1793726959875.1
+        "at": 1794066081692.2
       }
     ],
     "narration": "En una cuenta nueva, Pointly puede pedir el DNI de la persona que administra el comercio. No es el documento de un cliente: es un dato de tu perfil. Completalo y continuá al panel. Acá aparece el plan, sus comercios permitidos y el cupo de clientes activos por comercio. Si todavía no creaste ninguno, empezá con Nueva Empresa. No necesitás preparar una planilla ni importar clientes para dar este primer paso.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": null
   },
   {
     "id": "04-company",
     "title": "Crear el comercio",
     "objective": "Configurar identidad y regla base de puntos",
     "account": "A",
-    "from": 4980,
+    "from": 5324,
     "durationInFrames": 1705,
-    "recording": "recordings/04-company-1793727014999.mp4",
+    "recording": "recordings/04-company-1794066102114.mp4",
+    "actions": [
+      "Completar nombre y enlace disponible del comercio.",
+      "Definir 10 puntos por cada 1.000 pesos completos.",
+      "Elegir Argentina y mostrar ubicación física opcional.",
+      "Crear y verificar el comercio."
+    ],
+    "resources": [
+      "Comercio Almacén Inicio DEMO",
+      "Estado A"
+    ],
+    "limitation": null,
+    "edit": null,
     "actionEvidence": [
       {
         "label": "Required country and optional address",
         "url": "/dashboard/companies/new",
-        "at": 1793726996875.5
+        "at": 1794066098117.6
       },
       {
         "label": "New company persisted",
-        "url": "/companies/almacen-inicio-demo",
-        "at": 1793726999384.9
+        "url": "/companies/almacen-inicio-actualizado",
+        "at": 1794066100193.5
       }
     ],
     "narration": "Escribí el nombre con el que tus clientes conocen al negocio. El nombre del enlace se genera a partir de ese texto, se puede ajustar y tiene que estar disponible. Usá letras, números y guiones. Después definí la regla: en nuestro ejemplo, cada mil pesos completos de una compra otorgan diez puntos. País es obligatorio; los demás datos de ubicación se pueden dejar vacíos si no corresponden. Revisá los campos antes de crear la empresa y esperá la confirmación.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": {
+      "start": 360,
+      "end": 1500,
+      "amount": 0.1,
+      "x": 0.65,
+      "y": 0.56
+    }
   },
   {
     "id": "05-settings",
     "title": "Reglas y vencimientos",
     "objective": "Modificar configuración sin confundir puntos históricos",
     "account": "B",
-    "from": 6685,
-    "durationInFrames": 1916,
-    "recording": "recordings/05-settings-1793727053751.mp4",
+    "from": 7029,
+    "durationInFrames": 2060,
+    "recording": "recordings/05-settings-1794066151317.mp4",
+    "actions": [
+      "Abrir Editar Empresa de Café del Puerto.",
+      "Revisar identidad, ubicación y regla de acumulación.",
+      "Activar vencimiento a 90 días y guardar."
+    ],
+    "resources": [
+      "Comercio B con actividad",
+      "Ayuda junto al vencimiento"
+    ],
+    "limitation": null,
+    "edit": null,
     "actionEvidence": [
       {
         "label": "Optional expiration and its explanation",
-        "url": "/companies/cafe-del-puerto-demo/actions/edit-company",
-        "at": 1793727029047.8
+        "url": "/companies/cafe-del-puerto-aula/actions/edit-company",
+        "at": 1794066147337.4
       },
       {
         "label": "Saved real company settings",
-        "url": "/companies/cafe-del-puerto-demo",
-        "at": 1793727031689.4
+        "url": "/companies/cafe-del-puerto-aula",
+        "at": 1794066149439.9
       }
     ],
-    "narration": "Desde Editar podés actualizar el nombre, la ubicación y la regla de acumulación. El vencimiento es opcional: si lo activás, indicá cuántos días duran los puntos de nuevas compras. Ese cambio no debe interpretarse como una renovación de todos los puntos anteriores. Una compra nueva tampoco renueva automáticamente cada saldo histórico. Leé la explicación junto a la opción antes de guardar. Los niveles Bronce, Plata y Oro están suspendidos en esta versión; no forman parte de la configuración disponible.",
+    "narration": "Para seguir usamos Café del Puerto, un comercio de ejemplo con actividad. Desde Editar podés actualizar el nombre, la ubicación y la regla de acumulación. El vencimiento es opcional: si lo activás, indicá cuántos días duran los puntos de nuevas compras. Ese cambio no renueva todos los puntos anteriores. Una compra nueva tampoco renueva automáticamente cada saldo histórico. Leé la explicación junto a la opción antes de guardar. Los niveles Bronce, Plata y Oro están suspendidos en esta versión; no forman parte de la configuración disponible.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": null
   },
   {
     "id": "06-photo",
     "title": "Foto y enlace del comercio",
     "objective": "Personalizar la identificación del negocio",
     "account": "B",
-    "from": 8601,
-    "durationInFrames": 1887,
-    "recording": "recordings/06-photo-1793727090626.mp4",
+    "from": 9089,
+    "durationInFrames": 1988,
+    "recording": "recordings/06-photo-1794066169375.mp4",
+    "actions": [
+      "Quitar la foto actual con confirmación.",
+      "Subir el PNG ficticio, ajustar el recorte y guardar.",
+      "Revisar disponibilidad del nuevo enlace y confirmar la invalidación del anterior."
+    ],
+    "resources": [
+      "demo/assets/cafe-demo.png",
+      "Convertidor y almacenamiento reales de la DEMO"
+    ],
+    "limitation": null,
+    "edit": null,
     "actionEvidence": [
       {
+        "label": "Company photo removed through real API",
+        "url": "/companies/cafe-del-puerto-aula/actions/photo",
+        "at": 1794066158224.1
+      },
+      {
         "label": "Photo crop controls",
-        "url": "/companies/cafe-del-puerto-demo/actions/photo",
-        "at": 1793727060726.6
+        "url": "/companies/cafe-del-puerto-aula/actions/photo",
+        "at": 1794066158357.5
       },
       {
         "label": "Photo uploaded through real converter",
-        "url": "/companies/cafe-del-puerto-demo/actions/photo",
-        "at": 1793727063344.8
+        "url": "/companies/cafe-del-puerto-aula/actions/photo",
+        "at": 1794066160429.9001
       },
       {
         "label": "Changing link invalidates previous access",
-        "url": "/companies/cafe-del-puerto-demo/actions/qr",
-        "at": 1793727070732.1
+        "url": "/companies/cafe-del-puerto-aula/actions/qr",
+        "at": 1794066165375.5
       },
       {
-        "label": "Original demo public name restored",
-        "url": "/companies/cafe-del-puerto-tutorial/actions/qr",
-        "at": 1793727080209.8
+        "label": "New public link persisted",
+        "url": "/companies/cafe-del-puerto-actualizado/actions/qr",
+        "at": 1794066167494.7
       }
     ],
-    "narration": "La foto ayuda al cliente a reconocer el comercio. Elegí un archivo JPEG, PNG o WebP de hasta diez megabytes, ajustá el recorte y guardá. Podés mover la imagen y acercarla con el control de zoom. Si necesitás reemplazarla o quitarla, usá las acciones de esta misma página. El nombre público del enlace también puede modificarse desde su configuración: revisá la disponibilidad y el aviso antes de confirmar, porque es el acceso que vas a compartir con tus clientes.",
+    "narration": "La foto ayuda al cliente a reconocer el comercio. Podemos subir un archivo JPEG, PNG o WebP de hasta diez megabytes. Ajustamos el recorte con los controles de posición y zoom, y guardamos la imagen. Desde esta misma página también se puede reemplazar o quitar la foto. El nombre público del enlace se modifica desde su configuración. Revisá la disponibilidad y la advertencia: al confirmar el cambio, el acceso anterior deja de funcionar. Compartí el nuevo enlace y el nuevo QR con tus clientes.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": null
   },
   {
     "id": "07-navigation",
     "title": "Orientarse en el panel",
     "objective": "Encontrar acciones y leer los indicadores reales",
     "account": "B",
-    "from": 10488,
-    "durationInFrames": 2142,
-    "recording": "recordings/07-navigation-1793727237736.mp4",
+    "from": 11077,
+    "durationInFrames": 2324,
+    "recording": "recordings/07-navigation-1794067008177.mp4",
+    "actions": [
+      "Entrar a Café del Puerto desde Mis comercios.",
+      "Desplegar Plan y límites y recorrer las pestañas principales.",
+      "Volver al inicio comercial y cambiar entre los dos comercios en Operaciones Rápidas."
+    ],
+    "resources": [
+      "Café del Puerto DEMO",
+      "Panadería Costera DEMO",
+      "Indicadores reales"
+    ],
+    "limitation": null,
+    "edit": null,
     "actionEvidence": [
       {
+        "label": "Two real businesses owned by the merchant",
+        "url": "/dashboard",
+        "at": 1794066987679.7002
+      },
+      {
         "label": "Earning rule and active-client quota",
-        "url": "/companies/cafe-del-puerto-tutorial",
-        "at": 1793727206323.7
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794066992766.2002
       },
       {
         "label": "Live company navigation",
-        "url": "/companies/cafe-del-puerto-tutorial",
-        "at": 1793727213931.5
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794067001020.3
+      },
+      {
+        "label": "Quick actions selection changes to second business",
+        "url": "/",
+        "at": 1794067004449.2
+      },
+      {
+        "label": "Quick actions selected business and actual client-list shortcut",
+        "url": "/",
+        "at": 1794067005978.8
       }
     ],
-    "narration": "Abrimos un comercio que ya tiene actividad. Resumen General muestra la regla, los clientes activos que ocupan cupo y los saldos vigentes. Las pestañas separan Clientes, Productos, Promociones, Premios, Ventas, Sin actividad, Archivados y Correos. Los contadores del catálogo indican elementos creados; no son una medida de facturación. Esta versión presenta tablas e indicadores, sin un panel de gráficos estadísticos. Desde el inicio también tenés accesos rápidos para agregar clientes, registrar ventas y consultar puntos.",
+    "narration": "En Mis comercios encontramos los negocios de tu cuenta. Abrimos Café del Puerto. Resumen General muestra la regla, los clientes activos que ocupan cupo y los puntos disponibles. Las pestañas separan Clientes, Productos, Promociones, Premios, Ventas, Sin actividad, Archivados y Correos. Los contadores del catálogo indican elementos creados; no son una medida de facturación. Esta versión presenta tablas e indicadores, sin un panel de gráficos estadísticos. Desde el inicio comercial, Operaciones Rápidas permite seleccionar el comercio, agregar clientes, registrar ventas y abrir Ver clientes.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": null
   },
   {
     "id": "08-client",
     "title": "Agregar un cliente",
     "objective": "Crear una asociación válida sin contactos obligatorios",
     "account": "B",
-    "from": 12630,
-    "durationInFrames": 1887,
-    "recording": "recordings/08-client-1793727275347.mp4",
+    "from": 13401,
+    "durationInFrames": 2085,
+    "recording": "recordings/08-client-1794066253328.mp4",
+    "actions": [
+      "Agregar a Martina con nombre, país y DNI, dejando contactos opcionales vacíos.",
+      "Asociar a Carla, ya existente, al segundo comercio.",
+      "Comprobar que la asociación conserva su identidad original."
+    ],
+    "resources": [
+      "Cliente ficticia Martina",
+      "Carla existente en Pointly",
+      "Dos comercios de la cuenta B"
+    ],
+    "limitation": null,
+    "edit": null,
     "actionEvidence": [
       {
         "label": "Optional email and phone kept empty",
-        "url": "/companies/cafe-del-puerto-tutorial/actions/client",
-        "at": 1793727249833
+        "url": "/companies/cafe-del-puerto-actualizado/actions/client",
+        "at": 1794066243415.1
       },
       {
         "label": "Client association persisted",
-        "url": "/companies/cafe-del-puerto-tutorial",
-        "at": 1793727251928.4001
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794066245465.3
       },
       {
-        "label": "Existing identity preserved on repeated association",
-        "url": "/companies/cafe-del-puerto-tutorial/actions/client",
-        "at": 1793727258206.4001
+        "label": "Existing Carla identity preserved when joining second business",
+        "url": "/companies/panaderia-costera-demo",
+        "at": 1794066251426.5
       }
     ],
-    "narration": "Para incorporar un cliente, abrí Agregar cliente y completá nombre, país del documento y DNI. Correo y teléfono son opcionales: la persona puede acumular y canjear puntos aunque no los tenga. Si cargás un teléfono para WhatsApp, incluí el código de país. El alta es inmediata y no pide confirmar un correo. Si ese documento ya existe en Pointly, se conservan sus datos anteriores: este formulario lo vincula al comercio, no edita su identidad. Al guardar, comprobá que aparezca en la lista.",
+    "narration": "Para incorporar un cliente, seleccionamos Agregar cliente y completamos nombre, país del documento y DNI. Correo y teléfono son opcionales: la persona puede acumular y canjear puntos aunque no los tenga. Si cargás un teléfono para WhatsApp, incluí el código de país. El alta es inmediata y no pide confirmar un correo. Ahora asociamos a Carla en nuestro segundo comercio. Si ese documento ya existe en Pointly, se conservan sus datos anteriores: el formulario lo vincula al comercio, no edita su identidad. Después de guardar, revisamos el nombre en la lista.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": {
+      "start": 300,
+      "end": 1800,
+      "amount": 0.1,
+      "x": 0.64,
+      "y": 0.53
+    }
   },
   {
     "id": "09-qr",
     "title": "Registro por QR",
     "objective": "Compartir y utilizar el alta pública",
     "account": "B",
-    "from": 14517,
+    "from": 15486,
     "durationInFrames": 1844,
-    "recording": "recordings/09-qr-1793727311614.mp4",
+    "recording": "recordings/09-qr-1794066269789.mp4",
+    "actions": [
+      "Copiar el enlace de alta y descargar el PNG real.",
+      "Activar el botón de impresión y explicar la alternativa de descarga.",
+      "Abrir el enlace público e incorporar a Renata con nombre y documento."
+    ],
+    "resources": [
+      "QR real del comercio",
+      "PNG descargado",
+      "Formulario público join"
+    ],
+    "limitation": "La impresión nativa no se presenta como validada; ver qa/print-verification.json.",
+    "edit": null,
     "actionEvidence": [
       {
         "label": "Real QR downloaded and link copied",
-        "url": "/companies/cafe-del-puerto-tutorial/actions/qr",
-        "at": 1793727284770.2
+        "url": "/companies/cafe-del-puerto-actualizado/actions/qr",
+        "at": 1794066260899.5
+      },
+      {
+        "label": "Actual printable QR view opened, no physical print job sent",
+        "url": "/companies/cafe-del-puerto-actualizado/actions/qr",
+        "at": 1794066262301.9
       },
       {
         "label": "Public join confirmed",
-        "url": "/join/cafe-del-puerto-tutorial",
-        "at": 1793727290717.2
+        "url": "/join/cafe-del-puerto-actualizado",
+        "at": 1794066267927.2
       }
     ],
     "narration": "Otra forma de incorporar clientes es el QR de registro. Desde el resumen abrí Generar QR de Registro. Podés copiar el enlace, descargar el código como imagen o abrir la impresión. Si el navegador bloquea la ventana de impresión, habilitala o usá la descarga. El enlace abre un formulario público con el nombre del comercio. El cliente completa sus datos y confirma el alta. Mostrar un QR no suma puntos por sí solo: después tenés que registrar las compras desde tu cuenta comercial.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": null
   },
   {
     "id": "10-search",
     "title": "Buscar y revisar clientes",
     "objective": "Consultar saldo, contactos e historial",
     "account": "B",
-    "from": 16361,
-    "durationInFrames": 1887,
-    "recording": "recordings/10-search-1793727349437.mp4",
+    "from": 17330,
+    "durationInFrames": 2324,
+    "recording": "recordings/10-search-1794066285067.mp4",
+    "actions": [
+      "Abrir Ver clientes y filtrar por activos.",
+      "Buscar Cami y entrar a Ver detalle.",
+      "Revisar contactos automáticos, saldo e historial.",
+      "Avanzar a la segunda página y volver a la búsqueda."
+    ],
+    "resources": [
+      "Camila Historial DEMO",
+      "Historial paginado real"
+    ],
+    "limitation": null,
+    "edit": null,
     "actionEvidence": [
       {
         "label": "Client balance and transaction ledger",
-        "url": "/companies/cafe-del-puerto-tutorial/clients/1",
-        "at": 1793727324372.4
+        "url": "/companies/cafe-del-puerto-actualizado/clients/27",
+        "at": 1794066278838.4001
       },
       {
-        "label": "Authorized contacts fetched",
-        "url": "/companies/cafe-del-puerto-tutorial/clients/1",
-        "at": 1793727325709.1
+        "label": "Authorized contacts load automatically for active client and business",
+        "url": "/companies/cafe-del-puerto-actualizado/clients/27",
+        "at": 1794066278987.9001
       },
       {
-        "label": "History pagination",
-        "url": "/companies/cafe-del-puerto-tutorial/clients/1",
-        "at": 1793727327003.2
+        "label": "Second page of real transaction history",
+        "url": "/companies/cafe-del-puerto-actualizado/clients/27",
+        "at": 1794066280255
+      },
+      {
+        "label": "Current customer list replaces obsolete point lookup entry points",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794066283203.4001
       }
     ],
-    "narration": "En Clientes podés buscar por nombre o DNI, incluso usando solo una parte. El filtro permite ver todos, activos o archivados; dejá la búsqueda vacía para recuperar la lista. Abrí Ver detalle para revisar el saldo y los movimientos. Cada movimiento muestra su fecha y distingue puntos sumados, canjes o vencimientos. Los contactos se consultan con una acción específica y se pueden volver a ocultar. Si hay varias páginas, avanzá con los controles de navegación; una búsqueda sin resultados no es un error de carga.",
+    "narration": "Ver clientes abre la lista del comercio. Buscá por nombre o DNI, incluso usando solo una parte. El filtro permite ver todos, activos o archivados; dejá la búsqueda vacía para recuperar la lista. Entramos en Ver detalle para revisar el saldo y los movimientos. Cada movimiento muestra su fecha y distingue puntos sumados, canjes o vencimientos. Los contactos aparecen directamente cuando el cliente y el comercio están activos. Si falta correo o teléfono, la pantalla lo indica; no impide consultar puntos. Si hay varias páginas de historial, avanzá con sus controles. Una búsqueda sin resultados no es un error de carga.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": {
+      "start": 900,
+      "end": 1800,
+      "amount": 0.09,
+      "x": 0.63,
+      "y": 0.63
+    }
   },
   {
     "id": "11-sale",
     "title": "Registrar una compra",
     "objective": "Comprobar una acumulación de puntos real",
     "account": "B",
-    "from": 18248,
+    "from": 19654,
     "durationInFrames": 1815,
-    "recording": "recordings/11-sale-1793727385836.mp4",
+    "recording": "recordings/11-sale-1794066300460.mp4",
+    "actions": [
+      "Identificar a Ana mediante país y DNI.",
+      "Ingresar una compra de 8.500 pesos y revisar la estimación de 80 puntos.",
+      "Confirmar y revisar la venta registrada."
+    ],
+    "resources": [
+      "Ana Torres DEMO",
+      "Regla base 1.000/10 sin promoción activa en esa toma"
+    ],
+    "limitation": null,
+    "edit": null,
     "actionEvidence": [
       {
         "label": "80 points estimated from complete purchase tranches",
-        "url": "/companies/cafe-del-puerto-tutorial/actions/sale",
-        "at": 1793727361118.1
+        "url": "/companies/cafe-del-puerto-actualizado/actions/sale",
+        "at": 1794066293369.4
       },
       {
         "label": "Sale confirmed",
-        "url": "/companies/cafe-del-puerto-tutorial",
-        "at": 1793727363227.5
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794066295430.9
       },
       {
         "label": "Real sale and actual generated points",
-        "url": "/companies/cafe-del-puerto-tutorial",
-        "at": 1793727366498.5
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794066298548.8
       }
     ],
     "narration": "Vamos a registrar una compra para Ana. Buscamos su país y DNI y cargamos ocho mil quinientos pesos. Con nuestra regla, los ocho bloques completos de mil suman ochenta puntos; los quinientos restantes no pasan a otra compra. La pantalla muestra una estimación y el cliente encontrado. Al confirmar se registra la venta y se suman los puntos. Pointly no cobra dinero ni emite una factura por esta acción. Después verificamos la venta y el nuevo movimiento del cliente.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": {
+      "start": 300,
+      "end": 1500,
+      "amount": 0.11,
+      "x": 0.65,
+      "y": 0.55
+    }
   },
   {
     "id": "12-sales-history",
     "title": "Ventas e incidencias",
     "objective": "Leer puntos históricos y evitar duplicar operaciones",
     "account": "B",
-    "from": 20063,
-    "durationInFrames": 1884,
-    "recording": null,
-    "actionEvidence": [],
-    "narration": "La pestaña Ventas muestra las compras, sus importes, fechas y puntos entregados. Usá el valor registrado: no recalcules una venta antigua con la regla actual, porque pudo tener otra promoción. Una compra menor al mínimo puede registrarse con cero puntos. Si la conexión se corta y no hay un resultado claro, conservá el formulario y usá Reintentar venta pendiente. No empieces otra operación para repetir la misma compra: el reintento conserva su identidad para evitar duplicaciones. Revisá siempre el resultado antes de seguir.",
+    "from": 21469,
+    "durationInFrames": 2185,
+    "recording": "recordings/12-sales-history-1794066319200.mp4",
+    "actions": [
+      "Revisar fechas, importes y Sin dato por venta.",
+      "Registrar una compra de 500 pesos con cero puntos.",
+      "Interrumpir la respuesta después de un commit real y reintentar la misma venta.",
+      "Comprobar identidad y saldo sin duplicación."
+    ],
+    "resources": [
+      "Servidor real de ventas",
+      "qa/12-sales-history-pending-proof.json"
+    ],
+    "limitation": null,
+    "edit": null,
+    "actionEvidence": [
+      {
+        "label": "Stored amounts, dates and honest missing per-sale point field",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794066308807.6
+      },
+      {
+        "label": "Purchase below minimum estimates zero",
+        "url": "/companies/cafe-del-puerto-actualizado/actions/sale",
+        "at": 1794066313044
+      },
+      {
+        "label": "Real operation committed; browser response interrupted; original pending identity retained",
+        "url": "/companies/cafe-del-puerto-actualizado/actions/sale",
+        "at": 1794066315121
+      },
+      {
+        "label": "Original pending operation retried and confirmed without changing identity",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794066317185
+      },
+      {
+        "label": "Zero-point purchase recorded",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794066317298.2
+      }
+    ],
+    "narration": "La pestaña Ventas muestra las compras, sus importes y fechas. Si aparece Sin dato por venta, no significa cero puntos: consultá el saldo y el historial del cliente. No recalcules una venta antigua con la regla actual, porque pudo tener otra promoción. Una compra menor al mínimo puede registrarse con cero puntos. Si la conexión se corta y no hay un resultado claro, conservá el formulario y usá Reintentar venta pendiente. No empieces otra operación para repetir la misma compra: el reintento conserva su identidad para evitar duplicaciones. Revisá siempre el resultado antes de seguir.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": null
   },
   {
     "id": "13-promotion",
     "title": "Crear una promoción",
     "objective": "Configurar un beneficio de puntos con vigencia",
     "account": "B",
-    "from": 21947,
-    "durationInFrames": 1773,
-    "recording": null,
-    "actionEvidence": [],
-    "narration": "Las promociones permiten otorgar puntos extra durante un período, si tu plan las incluye. Creá una, poné un nombre claro y explicá las condiciones en la descripción. Podés elegir cincuenta por ciento más, el doble, el triple o un beneficio personalizado. Revisá la equivalencia que calcula la pantalla. Indicá inicio y fin y prestá atención al horario mostrado: no supongas que una fecha significa todo el día. Guardá y verificá la promoción en su lista antes de comunicarla.",
+    "from": 23654,
+    "durationInFrames": 1849,
+    "recording": "recordings/13-promotion-1794067049984.mp4",
+    "actions": [
+      "Completar nombre y descripción de la promoción.",
+      "Probar beneficios predefinidos, porcentaje personalizado y multiplicador decimal.",
+      "Revisar equivalencias; elegir fechas futuras y guardar el doble de puntos."
+    ],
+    "resources": [
+      "Formulario real de promociones",
+      "Vista previa de puntos"
+    ],
+    "limitation": null,
+    "edit": null,
+    "actionEvidence": [
+      {
+        "label": "Custom extra percentage and live equivalence",
+        "url": "/companies/cafe-del-puerto-actualizado/actions/add-promotion",
+        "at": 1794067037283.4
+      },
+      {
+        "label": "Equivalent decimal multiplier using local input validation",
+        "url": "/companies/cafe-del-puerto-actualizado/actions/add-promotion",
+        "at": 1794067040028.7
+      },
+      {
+        "label": "Benefit and precise time preview",
+        "url": "/companies/cafe-del-puerto-actualizado/actions/add-promotion",
+        "at": 1794067045510.5
+      },
+      {
+        "label": "Promotion persisted",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794067047803.4
+      }
+    ],
+    "narration": "Las promociones permiten otorgar puntos extras durante un período, si tu plan las incluye. Creá una, poné un nombre claro y explicá las condiciones en la descripción. Podés elegir cincuenta por ciento más, el doble, el triple o un beneficio personalizado. Revisá la equivalencia que calcula la pantalla. Elegí una fecha de inicio futura y un fin posterior. Prestá atención al horario mostrado: no supongas que una fecha significa todo el día. Guardá y verificá la promoción en su lista antes de comunicarla.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": {
+      "start": 420,
+      "end": 1620,
+      "amount": 0.1,
+      "x": 0.66,
+      "y": 0.6
+    }
   },
   {
     "id": "14-promotion-life",
     "title": "Editar, pausar y eliminar",
     "objective": "Distinguir disponibilidad y eliminación definitiva",
     "account": "B",
-    "from": 23720,
-    "durationInFrames": 1795,
-    "recording": null,
-    "actionEvidence": [],
+    "from": 25503,
+    "durationInFrames": 1787,
+    "recording": "recordings/14-promotion-life-1794067096110.mp4",
+    "actions": [
+      "Editar la promoción del tutorial.",
+      "Pausarla y reactivarla.",
+      "Abrir la eliminación, cancelar y luego confirmar la eliminación definitiva."
+    ],
+    "resources": [
+      "Promoción Tarde de puntos DEMO",
+      "Confirmaciones dentro de la página"
+    ],
+    "limitation": null,
+    "edit": null,
+    "actionEvidence": [
+      {
+        "label": "Tutorial promotion paused",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794067083665.7
+      },
+      {
+        "label": "Tutorial promotion reactivated",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794067087251.4
+      },
+      {
+        "label": "Destructive promotion confirmation",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794067088741.0999
+      },
+      {
+        "label": "Promotion deleted without deleting historical sales",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794067093839.9
+      }
+    ],
     "narration": "Desde la lista podés editar una promoción y guardar sus cambios. Pausar conserva el elemento pero evita que se aplique; Reactivar lo vuelve a habilitar, siempre sujeto a sus fechas. Eliminar es una acción distinta y definitiva, con confirmación dentro de la página. Revisá qué elemento seleccionaste y cancelá si no corresponde. Antes de registrar una venta con beneficio, comprobá la vigencia y la estimación de puntos del formulario; no te guíes solamente por el nombre de la promoción.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": null
   },
   {
     "id": "15-products",
     "title": "Productos del catálogo",
     "objective": "Crear, actualizar y quitar productos reales",
     "account": "B",
-    "from": 25515,
-    "durationInFrames": 1973,
-    "recording": null,
-    "actionEvidence": [],
-    "narration": "El catálogo de Productos informa lo que ofrece tu comercio. Cargá un nombre y un precio; la descripción es opcional. Para la imagen podés elegir un archivo, pegar un enlace directo o dejar el producto sin foto. El enlace tiene que apuntar a la imagen, no a una página web. Guardá y revisá la tarjeta. Desde Editar podés corregir los datos o quitar la imagen. Si el producto ya no corresponde, Eliminar pide confirmación. Este catálogo no es un carrito de compras ni un control de stock.",
+    "from": 27290,
+    "durationInFrames": 2391,
+    "recording": "recordings/15-products-1794066488377.mp4",
+    "actions": [
+      "Crear un producto con nombre, precio, descripción y archivo de imagen.",
+      "Editar el precio y reemplazar la foto por una URL directa.",
+      "Quitar la imagen y guardar.",
+      "Eliminar el producto temporal con confirmación."
+    ],
+    "resources": [
+      "Budín de limón DEMO",
+      "Archivo PNG ficticio",
+      "Ruta local real de medios"
+    ],
+    "limitation": null,
+    "edit": null,
+    "actionEvidence": [
+      {
+        "label": "Product and image stored",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794066463751.9
+      },
+      {
+        "label": "Direct image URL persisted and actual catalog image displayed",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794066476782.7998
+      },
+      {
+        "label": "Product edition and photo removal",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794066483094.0999
+      },
+      {
+        "label": "Product deletion confirmation",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794066484386.2
+      },
+      {
+        "label": "Demo product deleted, original catalog retained",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794066486282.2
+      }
+    ],
+    "narration": "El catálogo de Productos informa lo que ofrece tu comercio. Cargá un nombre y un precio; la descripción es opcional. Para la imagen podés elegir un archivo, pegar un enlace directo o dejar el producto sin foto. Primero guardamos una foto desde Archivo y revisamos la tarjeta. Desde Editar también podemos reemplazarla con Enlace: la dirección tiene que apuntar a la imagen, no a una página web. Guardamos y comprobamos el resultado. Para dejarlo sin foto, usamos Quitar imagen y guardamos otra vez. Si el producto ya no corresponde, Eliminar pide confirmación. Este catálogo no es un carrito de compras ni un control de stock.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": null
   },
   {
     "id": "16-physical-reward",
     "title": "Premios físicos y calculadora",
     "objective": "Definir una recompensa y su costo en puntos",
     "account": "B",
-    "from": 27488,
-    "durationInFrames": 1795,
-    "recording": null,
-    "actionEvidence": [],
-    "narration": "En Premios vamos a crear una recompensa física: un desayuno de regalo. Elegí Premio físico, agregá nombre, condiciones y, si tenés, una foto. El costo en puntos es lo que se descontará al canjear. La calculadora es una ayuda: ingresá el precio de la recompensa y cuánto querés que gaste el cliente para alcanzarla. Calculá, revisá el resultado y usalo como costo si encaja con tu programa. La sugerencia no guarda el premio: todavía tenés que confirmar el formulario.",
+    "from": 29681,
+    "durationInFrames": 1952,
+    "recording": "recordings/16-physical-reward-1794066511891.mp4",
+    "actions": [
+      "Definir un desayuno de regalo con condiciones y foto.",
+      "Abrir la calculadora, introducir precio y gasto objetivo.",
+      "Aplicar el costo sugerido y guardar el premio."
+    ],
+    "resources": [
+      "Desayuno de regalo DEMO",
+      "Calculadora auténtica"
+    ],
+    "limitation": null,
+    "edit": null,
+    "actionEvidence": [
+      {
+        "label": "Calculator result applied to cost",
+        "url": "/companies/cafe-del-puerto-actualizado/actions/add-reward",
+        "at": 1794066507861.8
+      },
+      {
+        "label": "Physical reward saved",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794066509950.1
+      }
+    ],
+    "narration": "En Premios vamos a crear una recompensa física: un desayuno de regalo. Elegí Premio físico, agregá nombre, condiciones y, si tenés, una foto. El costo indica cuántos puntos necesita el cliente para obtener ese premio. La calculadora es una ayuda: ingresá el precio de la recompensa y cuánto querés que gaste el cliente para alcanzarla. Calculá, revisá el resultado y usalo como costo si encaja con tu programa. La sugerencia no guarda el premio: todavía tenés que confirmar el formulario.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": {
+      "start": 480,
+      "end": 1560,
+      "amount": 0.12,
+      "x": 0.68,
+      "y": 0.6
+    }
   },
   {
     "id": "17-voucher",
     "title": "Vouchers de descuento",
     "objective": "Diferenciar porcentaje e importe fijo",
     "account": "B",
-    "from": 29283,
-    "durationInFrames": 1884,
-    "recording": null,
-    "actionEvidence": [],
+    "from": 31633,
+    "durationInFrames": 1729,
+    "recording": "recordings/17-voucher-1794066642152.mp4",
+    "actions": [
+      "Elegir Voucher de descuento.",
+      "Mostrar porcentaje del 10 por ciento y luego importe fijo de 2.000 pesos.",
+      "Revisar condiciones y costo en puntos; guardar."
+    ],
+    "resources": [
+      "Voucher temporal del tutorial",
+      "Vista previa del beneficio"
+    ],
+    "limitation": null,
+    "edit": null,
+    "actionEvidence": [
+      {
+        "label": "Percentage voucher and manual discount explanation",
+        "url": "/companies/cafe-del-puerto-actualizado/actions/add-reward",
+        "at": 1794066635588.7
+      },
+      {
+        "label": "Fixed amount voucher",
+        "url": "/companies/cafe-del-puerto-actualizado/actions/add-reward",
+        "at": 1794066638046.5
+      },
+      {
+        "label": "Voucher saved",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794066640187.2
+      }
+    ],
     "narration": "Un voucher también se obtiene con puntos, pero representa un descuento. Elegí Voucher de descuento y definí si será un porcentaje o un importe fijo. Por ejemplo, diez por ciento o dos mil pesos. El porcentaje debe ser mayor que cero y no superar cien. Completá las condiciones y el costo en puntos; revisá la vista previa antes de guardar. El comercio aplica el beneficio al entregar el premio. Esto no crea un cupón con código ni descuenta dinero automáticamente en una caja.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": null
   },
   {
     "id": "18-reward-life",
     "title": "Administrar premios",
     "objective": "Actualizar y controlar la disponibilidad del catálogo",
     "account": "B",
-    "from": 31167,
-    "durationInFrames": 1662,
-    "recording": null,
-    "actionEvidence": [],
+    "from": 33362,
+    "durationInFrames": 1772,
+    "recording": "recordings/18-reward-life-1794066673147.mp4",
+    "actions": [
+      "Editar condiciones de un premio.",
+      "Pausar y reactivar.",
+      "Cancelar una eliminación y eliminar el voucher temporal, conservando el historial."
+    ],
+    "resources": [
+      "Catálogo real de premios",
+      "Confirmaciones de disponibilidad y eliminación"
+    ],
+    "limitation": null,
+    "edit": null,
+    "actionEvidence": [
+      {
+        "label": "Paused reward cannot be redeemed",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794066661843
+      },
+      {
+        "label": "Permanent deletion confirmation",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794066666221
+      },
+      {
+        "label": "Reward kept after cancel",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794066667501.6
+      },
+      {
+        "label": "Tutorial voucher deleted; previous rewards kept",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794066670981
+      }
+    ],
     "narration": "Podés editar un premio para cambiar su descripción, su beneficio o su costo futuro. Si querés dejar de ofrecerlo temporalmente, usá Pausar. El canje queda deshabilitado mientras esté pausado. Reactivar permite ofrecerlo otra vez. Eliminar lo quita definitivamente del catálogo, pero no borra los canjes históricos: cada movimiento conserva la información del premio entregado. Probá primero la opción de cancelar una confirmación cuando tengas dudas y revisá la tarjeta después de cada cambio.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": null
   },
   {
     "id": "19-redeem",
     "title": "Registrar un canje",
     "objective": "Comprobar el descuento y la trazabilidad",
     "account": "B",
-    "from": 32829,
-    "durationInFrames": 1995,
-    "recording": null,
-    "actionEvidence": [],
+    "from": 35134,
+    "durationInFrames": 1883,
+    "recording": "recordings/19-redeem-1794066765994.mp4",
+    "actions": [
+      "Seleccionar Café de regalo de 80 puntos.",
+      "Identificar a Ana y confirmar una sola vez.",
+      "Revisar el saldo reducido y el movimiento en su historial."
+    ],
+    "resources": [
+      "Premio físico existente",
+      "Ana Torres DEMO",
+      "Libro de puntos real"
+    ],
+    "limitation": null,
+    "edit": null,
+    "actionEvidence": [
+      {
+        "label": "Selected reward costs 80 points",
+        "url": "/companies/cafe-del-puerto-actualizado/actions/redeem/1",
+        "at": 1794066753064.9001
+      },
+      {
+        "label": "Real redemption confirmed",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794066755338.8
+      },
+      {
+        "label": "Balance reduced and redemption ledger shown",
+        "url": "/companies/cafe-del-puerto-actualizado/clients/1",
+        "at": 1794066764003.3
+      }
+    ],
     "narration": "Antes de canjear, acordá con el cliente qué premio va a recibir. En su tarjeta, abrí Canjear e indicá país y DNI. Verificá el nombre del premio y su costo, y confirmá una sola vez. En nuestro ejemplo, el café cuesta ochenta puntos: después del canje, el saldo baja en esa cantidad y aparece un movimiento de canje en el historial. La entrega física o la aplicación del descuento la coordina el comercio. El cliente consulta sus opciones en la billetera, pero no ejecuta el canje desde allí.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": {
+      "start": 300,
+      "end": 1260,
+      "amount": 0.1,
+      "x": 0.66,
+      "y": 0.55
+    }
   },
   {
     "id": "20-redeem-errors",
     "title": "Cuando no se puede canjear",
     "objective": "Interpretar rechazos y reintentos pendientes",
     "account": "B",
-    "from": 34824,
-    "durationInFrames": 1728,
-    "recording": null,
-    "actionEvidence": [],
-    "narration": "Si el cliente no tiene puntos suficientes, el canje se rechaza y el formulario explica el problema. También hay bloqueos para premios pausados y cuentas archivadas. No prometas un premio basándote en un saldo anterior: consultá el vigente. Si el resultado de la operación queda incierto por conexión, usá Reintentar canje pendiente y mantené sus datos. Un rechazo confirmado permite corregir el formulario; un resultado incierto requiere resolver esa misma operación, para no descontar dos veces.",
+    "from": 37017,
+    "durationInFrames": 1887,
+    "recording": "recordings/20-redeem-errors-1794066790542.mp4",
+    "actions": [
+      "Intentar un canje sin saldo suficiente y mostrar el rechazo real.",
+      "Interrumpir otra respuesta después del commit del canje.",
+      "Reintentar con la misma identidad y comprobar que el saldo no vuelve a descontarse."
+    ],
+    "resources": [
+      "qa/20-redeem-errors-pending-proof.json",
+      "Rechazo real del servidor"
+    ],
+    "limitation": null,
+    "edit": null,
+    "actionEvidence": [
+      {
+        "label": "Real insufficient-points rejection",
+        "url": "/companies/cafe-del-puerto-actualizado/actions/redeem/3",
+        "at": 1794066780038.5999
+      },
+      {
+        "label": "Real operation committed; browser response interrupted; original pending identity retained",
+        "url": "/companies/cafe-del-puerto-actualizado/actions/redeem/1",
+        "at": 1794066786068.9
+      },
+      {
+        "label": "Original pending operation retried and confirmed without changing identity",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794066788419.9
+      }
+    ],
+    "narration": "Si el cliente no tiene puntos suficientes, el canje se rechaza y el formulario explica el problema. También hay bloqueos para premios pausados y cuentas archivadas. No prometas un premio basándote en un saldo anterior: consultá el vigente. Si el resultado queda incierto por conexión, el botón Reintentar canje pendiente conserva la misma operación y sus datos. Un rechazo confirmado permite corregir el formulario. Un resultado incierto requiere resolver esa misma operación, para no descontar dos veces.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": {
+      "start": 240,
+      "end": 1440,
+      "amount": 0.09,
+      "x": 0.66,
+      "y": 0.55
+    }
   },
   {
     "id": "21-inactive",
     "title": "Clientes sin actividad",
     "objective": "Filtrar y preparar un contacto manual",
     "account": "B",
-    "from": 36552,
-    "durationInFrames": 1751,
-    "recording": null,
-    "actionEvidence": [],
+    "from": 38904,
+    "durationInFrames": 1767,
+    "recording": "recordings/21-inactive-1794066948584.mp4",
+    "actions": [
+      "Elegir 30 días y después un período personalizado.",
+      "Abrir la preparación manual de WhatsApp.",
+      "Editar y copiar el borrador sin enviar un mensaje."
+    ],
+    "resources": [
+      "Clientes ficticios con actividad histórica",
+      "Borrador manual"
+    ],
+    "limitation": null,
+    "edit": null,
+    "actionEvidence": [
+      {
+        "label": "Three historical inactive demo clients",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794066936889.4001
+      },
+      {
+        "label": "Manual WhatsApp draft",
+        "url": "/companies/cafe-del-puerto-actualizado/actions/whatsapp/3",
+        "at": 1794066940963.6
+      },
+      {
+        "label": "Draft copied, no message sent",
+        "url": "/companies/cafe-del-puerto-actualizado/actions/whatsapp/3",
+        "at": 1794066946564
+      }
+    ],
     "narration": "Sin actividad reúne clientes que llevan el período elegido sin compras ni canjes. Podés usar los días sugeridos o escribir otro valor. Abrir esta lista no archiva personas ni envía mensajes. Preparar WhatsApp abre una página con un texto que podés revisar, editar y copiar. Comprobá el número con código de país. Abrir WhatsApp prepara el mensaje; el envío final lo hacés vos. En esta demostración solo revisamos y copiamos el borrador, sin contactar a ninguna persona.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": null
   },
   {
     "id": "22-archive",
     "title": "Archivar y reactivar",
     "objective": "Liberar cupo sin borrar el historial",
     "account": "B",
-    "from": 38303,
-    "durationInFrames": 1839,
-    "recording": null,
-    "actionEvidence": [],
+    "from": 40671,
+    "durationInFrames": 1777,
+    "recording": "recordings/22-archive-1794066989566.mp4",
+    "actions": [
+      "Archivar a Bruno desde Sin actividad con confirmación.",
+      "Revisar Archivados y consultar su billetera pública con el aviso.",
+      "Volver al comercio y reactivar dentro del cupo."
+    ],
+    "resources": [
+      "Bruno Díaz DEMO",
+      "Cuenta archivada con saldo conservado"
+    ],
+    "limitation": null,
+    "edit": "Se recorta un inicio de sesión repetido; la consulta pública y la reactivación son reales.",
+    "actionEvidence": [
+      {
+        "label": "Manual archival confirmation",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794066961727.6
+      },
+      {
+        "label": "Archived account retains balance",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794066965079.7002
+      },
+      {
+        "label": "Public wallet displays archived-account warning",
+        "url": "/client/ajMHuMCwjGmh/cafe-del-puerto-actualizado",
+        "at": 1794066975764.9
+      },
+      {
+        "label": "Client reactivated within quota",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794066987187.4001
+      }
+    ],
     "narration": "Para dejar de operar con un cliente, usá Archivar desde Sin actividad y leé la confirmación. El archivo es manual: una persona no se archiva simplemente por aparecer en esta lista. La cuenta deja de ocupar cupo activo, pero conserva su historial y sus vencimientos. Desde Archivados podés reactivarla si hay lugar en tu plan. La billetera sigue mostrando el comercio y los puntos vigentes con un aviso de cuenta archivada; para volver a operar, la reactivación la realiza el comercio.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": null
   },
   {
     "id": "23-emails",
     "title": "Correos a clientes",
     "objective": "Configurar avisos y reconocer sus límites",
     "account": "B",
-    "from": 40142,
-    "durationInFrames": 2017,
-    "recording": null,
-    "actionEvidence": [],
+    "from": 42448,
+    "durationInFrames": 1979,
+    "recording": "recordings/23-emails-1794067026542.mp4",
+    "actions": [
+      "Activar Sí y verificar la persistencia.",
+      "Abrir las tres vistas previas de correos.",
+      "Volver a No y explicar los avisos pendientes."
+    ],
+    "resources": [
+      "Tres contenidos fijos reales",
+      "Proveedor saliente desactivado en la DEMO"
+    ],
+    "limitation": null,
+    "edit": null,
+    "actionEvidence": [
+      {
+        "label": "Email opt-in persisted, outbound provider disabled",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794067018487.9
+      },
+      {
+        "label": "Actual fixed template preview",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794067020155.9
+      },
+      {
+        "label": "Actual fixed template preview",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794067021902
+      },
+      {
+        "label": "Actual fixed template preview",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794067023558.1
+      },
+      {
+        "label": "Automatic emails disabled again",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794067024490.5
+      }
+    ],
     "narration": "En Correos elegís Sí o No. Los avisos están desactivados por defecto y solo se preparan para clientes activos con correo cargado. Hay tres ejemplos del contenido real; abrir cada vista previa no envía un mensaje. No hay que escribir plantillas ni completar variables. Si elegís No, se cancelan los avisos pendientes; un correo ya entregado al servicio de envío no se puede retirar. WhatsApp es independiente y sigue siendo manual. Acá verificamos la configuración y las vistas previas, con el envío externo desactivado en el entorno de prueba.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": {
+      "start": 360,
+      "end": 1500,
+      "amount": 0.09,
+      "x": 0.65,
+      "y": 0.61
+    }
   },
   {
     "id": "24-wallet",
     "title": "La billetera del cliente",
     "objective": "Consultar puntos y catálogos sin cuenta comercial",
     "account": "PUBLIC",
-    "from": 42159,
-    "durationInFrames": 1773,
-    "recording": null,
-    "actionEvidence": [],
-    "narration": "Ahora cambiamos al modo cliente. Desde la consulta pública elegimos el país e ingresamos el DNI. La billetera muestra los comercios asociados y sus saldos. Al abrir uno, aparecen los premios disponibles, los puntos que faltan o el aviso Te alcanza, y las condiciones para coordinar el canje. Las otras pestañas muestran promociones vigentes y productos. Esta es una vista de consulta: no permite registrar compras ni modificar puntos. El comerciante conserva esas acciones en su panel privado.",
+    "from": 44427,
+    "durationInFrames": 2310,
+    "recording": "recordings/24-wallet-1794067989009.mp4",
+    "actions": [
+      "Consultar desde el inicio público con país y DNI.",
+      "Mostrar dos comercios con saldos independientes.",
+      "Abrir premios, promociones vigentes y productos del café."
+    ],
+    "resources": [
+      "Ana Torres DEMO",
+      "Comercios con reglas y catálogos diferentes"
+    ],
+    "limitation": null,
+    "edit": null,
+    "actionEvidence": [
+      {
+        "label": "Same client has separate real balances in two businesses",
+        "url": "/client/oKgdIQip8B90",
+        "at": 1794067974337.5
+      },
+      {
+        "label": "Second business independent balance and country-only location",
+        "url": "/client/oKgdIQip8B90/panaderia-costera-demo",
+        "at": 1794067976140.4001
+      },
+      {
+        "label": "Public wallet balance and reward eligibility",
+        "url": "/client/oKgdIQip8B90/cafe-del-puerto-actualizado",
+        "at": 1794067981564.9001
+      },
+      {
+        "label": "Three real public catalogs",
+        "url": "/client/oKgdIQip8B90/cafe-del-puerto-actualizado",
+        "at": 1794067986604
+      }
+    ],
+    "narration": "Ahora vemos cómo consulta un cliente. En el inicio público elegimos el país del documento, ingresamos el DNI y usamos Ver mis puntos. La billetera muestra los comercios asociados. Cada comercio tiene su propio saldo: los puntos de la panadería no se suman a los del café. Al abrir uno, aparecen los premios disponibles, los puntos que faltan o el aviso Te alcanza, y las condiciones para coordinar el canje. Las otras pestañas muestran promociones vigentes y productos. Esta es una vista de consulta: no permite registrar compras ni modificar puntos. El comerciante conserva esas acciones en su panel privado.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": null
   },
   {
     "id": "25-expiration",
     "title": "Detalle de puntos",
     "objective": "Interpretar qué puntos vencen y cuándo",
     "account": "PUBLIC",
-    "from": 43932,
-    "durationInFrames": 1884,
-    "recording": null,
-    "actionEvidence": [],
-    "narration": "El detalle de puntos separa los que tienen vencimiento de los que no vencen. Revisá las fechas y cantidades de cada grupo: el saldo disponible es la referencia para un canje. Si hay varias páginas de vencimientos, cargá las siguientes para revisar el resto. La regla actual del comercio describe nuevas compras, pero no reemplaza la fecha que ya tiene cada grupo anterior. Así podés explicarle al cliente qué puntos necesita usar primero sin prometer que una compra nueva renovará todos sus puntos.",
+    "from": 46737,
+    "durationInFrames": 1983,
+    "recording": "recordings/25-expiration-1794068027865.mp4",
+    "actions": [
+      "Consultar la billetera de Camila con historial ampliado.",
+      "Abrir Ver detalle y leer grupos por fecha.",
+      "Cargar más vencimientos y mostrar el grupo sin vencimiento."
+    ],
+    "resources": [
+      "demo/expiry-fixture-report.json",
+      "Compras reales por API con fechas históricas preparadas en la DEMO"
+    ],
+    "limitation": null,
+    "edit": null,
+    "actionEvidence": [
+      {
+        "label": "Camila real expiry groups from historical purchases",
+        "url": "/client/LdyPvraccyxi/cafe-del-puerto-actualizado/points",
+        "at": 1794068021261.5
+      },
+      {
+        "label": "Point group dates and quantities",
+        "url": "/client/LdyPvraccyxi/cafe-del-puerto-actualizado/points",
+        "at": 1794068023278.8
+      },
+      {
+        "label": "Next acoustic-demo expiry page loaded from real API",
+        "url": "/client/LdyPvraccyxi/cafe-del-puerto-actualizado/points",
+        "at": 1794068025228.5
+      },
+      {
+        "label": "Non-expiring historical group and available total",
+        "url": "/client/LdyPvraccyxi/cafe-del-puerto-actualizado/points",
+        "at": 1794068025599.4001
+      }
+    ],
+    "narration": "Para revisar varias fechas, abrimos la billetera de Camila, una cliente con historial de compras. Ver detalle separa los puntos con vencimiento de los que no vencen. Revisá las fechas y cantidades de cada grupo: el saldo disponible es la referencia para un canje. Cargar más vencimientos permite revisar las siguientes fechas. La regla actual del comercio describe nuevas compras, pero no reemplaza la fecha que ya tiene cada grupo anterior. Así podés explicarle al cliente qué puntos necesita usar primero sin prometer que una compra nueva renovará todos sus puntos.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": {
+      "start": 300,
+      "end": 1560,
+      "amount": 0.1,
+      "x": 0.62,
+      "y": 0.59
+    }
   },
   {
     "id": "26-wallet-access",
     "title": "Guardar el acceso",
     "objective": "Volver a la billetera y proteger su enlace",
     "account": "PUBLIC",
-    "from": 45816,
-    "durationInFrames": 1773,
-    "recording": null,
-    "actionEvidence": [],
-    "narration": "En Mi acceso podés copiar el enlace de la billetera y guardarlo en este dispositivo para volver más rápido. Ese enlace permite consultar la información del cliente: compartilo con cuidado. Guardarlo en el navegador no crea una cuenta comercial. También podés quitar el acceso recordado y volver a consultar con país y DNI. La opción de agregar Pointly como acceso o instalarlo depende del navegador y del dispositivo; seguí los pasos que muestra la aplicación cuando esté disponible.",
+    "from": 48720,
+    "durationInFrames": 2214,
+    "recording": "recordings/26-wallet-access-1794068065952.mp4",
+    "actions": [
+      "Abrir Ver mi enlace personal, guardar y copiar el acceso.",
+      "Volver al inicio y usar Abrir mi acceso guardado.",
+      "Mostrar la guía auténtica en un viewport menor a 900 píxeles.",
+      "Quitar el acceso recordado y consultar otro DNI."
+    ],
+    "resources": [
+      "Toma principal de escritorio",
+      "Toma responsive independiente",
+      "recordings/supplements.json"
+    ],
+    "limitation": "Se muestra la guía; no se afirma una instalación del sistema operativo.",
+    "edit": null,
+    "actionEvidence": [
+      {
+        "label": "Wallet link saved and copied",
+        "url": "/client/LdyPvraccyxi/access",
+        "at": 1794068050623
+      },
+      {
+        "label": "Saved wallet reopened from actual current home entry",
+        "url": "/",
+        "at": 1794068058490.8
+      },
+      {
+        "label": "Remembered access removed",
+        "url": "/client/LdyPvraccyxi/access",
+        "at": 1794068062098.9
+      },
+      {
+        "label": "Switch person returns to real country-DNI lookup",
+        "url": "/",
+        "at": 1794068063706.7
+      }
+    ],
+    "narration": "Desde tus comercios, Ver mi enlace personal abre Tu acceso. Podés copiar el enlace de la billetera y guardarlo en este dispositivo. Ese enlace permite consultar la información del cliente: compartilo con cuidado. Al volver al inicio público aparece Abrir mi acceso guardado. Guardarlo en el navegador no crea una cuenta comercial. En pantallas pequeñas aparece una guía para agregar Pointly como acceso; la instalación depende del navegador y del dispositivo. También podés quitar el acceso recordado sin borrar puntos. Para cambiar de persona, elegí Consultar otro DNI y volvés al formulario.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": null
   },
   {
     "id": "27-company-status",
     "title": "Estado del comercio y plan",
     "objective": "Administrar disponibilidad y cupos conscientemente",
     "account": "B",
-    "from": 47589,
-    "durationInFrames": 1862,
-    "recording": null,
-    "actionEvidence": [],
+    "from": 50934,
+    "durationInFrames": 1863,
+    "recording": "recordings/27-company-status-1794068114362.mp4",
+    "actions": [
+      "Deshabilitar y habilitar un comercio con confirmación.",
+      "Ingresar con una cuenta sin plan.",
+      "Abrir la página de límite sin crear un comercio ni contratar un plan."
+    ],
+    "resources": [
+      "Cuenta B",
+      "Cuenta NO_PLAN",
+      "Página plan-limit"
+    ],
+    "limitation": "La regla de archivo a los 30 días se explica por contrato; no se ejecuta un trabajo programado de 30 días en la grabación.",
+    "edit": null,
+    "actionEvidence": [
+      {
+        "label": "Company availability confirmation",
+        "url": "/dashboard",
+        "at": 1794068095650.3
+      },
+      {
+        "label": "Company disabled",
+        "url": "/dashboard",
+        "at": 1794068097784.7
+      },
+      {
+        "label": "Company enabled again",
+        "url": "/dashboard",
+        "at": 1794068102470.6
+      },
+      {
+        "label": "Real account without plan",
+        "url": "/dashboard",
+        "at": 1794068109849.8
+      },
+      {
+        "label": "Actual plan-limit page opened without creating a business or buying a plan",
+        "url": "/plan-limit",
+        "at": 1794068112023.5
+      }
+    ],
     "narration": "Volvemos al panel comercial. Deshabilitar un comercio lo oculta y bloquea compras y canjes; no libera su cupo de comercios. Leé la confirmación antes de hacerlo. Si permanece deshabilitado más de treinta días, sus clientes se archivan conservando el historial. Para volver a operar, habilitalo nuevamente y revisá las cuentas. Los límites dependen del plan. Una cuenta sin plan activo muestra ese estado y deriva a Bycode para gestionar las opciones; no alcanza con crear una cuenta para habilitar todas las funciones.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": null
   },
   {
     "id": "28-roles",
     "title": "Permisos y administración",
     "objective": "Reconocer qué cambia según el rol",
     "account": "ADMIN",
-    "from": 49451,
-    "durationInFrames": 1906,
-    "recording": null,
-    "actionEvidence": [],
+    "from": 52797,
+    "durationInFrames": 1969,
+    "recording": "recordings/28-roles-1794067138961.mp4",
+    "actions": [
+      "Mostrar la tabla global del rol SUPER_ADMIN.",
+      "Abrir un detalle y explicar las restricciones del servidor y los flags desactivados."
+    ],
+    "resources": [
+      "Cuenta ADMIN ficticia",
+      "Evidencia de roles y flags del frontend"
+    ],
+    "limitation": null,
+    "edit": null,
+    "actionEvidence": [
+      {
+        "label": "Global administrator company table",
+        "url": "/dashboard",
+        "at": 1794067135556.9001
+      },
+      {
+        "label": "Admin-specific navigation and limits",
+        "url": "/companies/panaderia-costera-demo",
+        "at": 1794067137000
+      }
+    ],
     "narration": "La cuenta de comercio administra sus propios negocios. La administración general tiene una vista diferente con empresas de toda la plataforma, sus reglas y sus estados. Algunas acciones visibles pueden seguir restringidas por el servidor: no tener permiso no se resuelve cambiando la dirección de la página. Este tutorial usa la cuenta comercial para las tareas diarias. El asistente de inteligencia artificial y los niveles de fidelidad están desactivados en esta versión, aunque exista código histórico: no son herramientas disponibles que tengas que configurar.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": null
   },
   {
     "id": "29-help",
     "title": "Ayuda y problemas frecuentes",
     "objective": "Recuperarse de errores y cerrar la sesión",
     "account": "B",
-    "from": 51357,
-    "durationInFrames": 1884,
-    "recording": null,
-    "actionEvidence": [],
+    "from": 54766,
+    "durationInFrames": 1902,
+    "recording": "recordings/29-help-1794068532076.mp4",
+    "actions": [
+      "Interrumpir una lectura real y recuperar la lista con Reintentar.",
+      "Mostrar una búsqueda vacía como estado distinto.",
+      "Cambiar entre claro y oscuro.",
+      "Cerrar sesión y consultar las preguntas frecuentes públicas."
+    ],
+    "resources": [
+      "Error real de transporte local",
+      "Tema claro/oscuro",
+      "FAQ pública"
+    ],
+    "limitation": null,
+    "edit": null,
+    "actionEvidence": [
+      {
+        "label": "Real local read request interrupted; frontend load-error state",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794068507542
+      },
+      {
+        "label": "Read retry recovered real client list",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794068509265.7002
+      },
+      {
+        "label": "Genuine empty search distinguished from load error",
+        "url": "/companies/cafe-del-puerto-actualizado",
+        "at": 1794068512813
+      },
+      {
+        "label": "Actual dark theme",
+        "url": "/",
+        "at": 1794068519616.5
+      },
+      {
+        "label": "Commercial quick actions available while signed in",
+        "url": "/",
+        "at": 1794068522846.7998
+      },
+      {
+        "label": "Session closed",
+        "url": "/",
+        "at": 1794068526100.4
+      },
+      {
+        "label": "Public frequently asked questions after logout",
+        "url": "/",
+        "at": 1794068529654.2998
+      }
+    ],
     "narration": "Cuando una lista no carga, usá su botón Reintentar; un error de conexión no significa que no existan clientes o ventas. Si la búsqueda está vacía, revisá el país, el documento y el filtro. Podés cambiar entre tema claro y oscuro desde la aplicación, consultar las preguntas frecuentes y volver al panel desde el menú. Al terminar en una computadora compartida, cerrá la sesión. Recordá la secuencia diaria: identificar al cliente, registrar la compra, verificar los puntos y registrar el canje cuando corresponda.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": null
   },
   {
     "id": "30-close",
     "title": "Listo para el uso diario",
     "objective": "Consolidar el aprendizaje",
     "account": "B",
-    "from": 53241,
-    "durationInFrames": 1506,
-    "recording": null,
-    "actionEvidence": [],
+    "from": 56668,
+    "durationInFrames": 1556,
+    "recording": "recordings/30-close-1794068560418.mp4",
+    "actions": [
+      "Recapitular el recorrido de uso diario.",
+      "Cerrar con la identidad auténtica de Pointly y Bycode."
+    ],
+    "resources": [
+      "Logos locales",
+      "Marca compartida en estado draft"
+    ],
+    "limitation": null,
+    "edit": null,
+    "actionEvidence": [
+      {
+        "label": "Product learning recap",
+        "url": "/",
+        "at": 1794068558325.4001
+      }
+    ],
     "narration": "Ya recorrimos la configuración, los clientes, las ventas, el catálogo, los premios y los avisos de Pointly, además de la billetera que consulta el cliente. Antes de usar tu programa con personas reales, revisá la regla de puntos, las condiciones de los premios y los vencimientos que vas a comunicar. Volvé al capítulo que necesites para repetir un procedimiento. Pointly, de Bycode Software. Gracias por acompañarnos.",
     "visuals": "Original Chromium UI, annotated pointer and click rings; safe subtitle band; chapter title. No UI reconstruction.",
-    "zoom": "Contextual source crop only where approved in edit decisions."
+    "zoom": null
   }
 ]

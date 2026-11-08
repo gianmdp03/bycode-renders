@@ -10,7 +10,7 @@
     "id": "02-access",
     "title": "Ingresar a tu cuenta",
     "objective": "Distinguir cuenta comercial y consulta del cliente",
-    "narration": "Para administrar un comercio necesitás tu cuenta de Bycode y un plan de Pointly habilitado. El acceso Crear cuenta lleva a Bycode: el alta comercial no se completa dentro de esta pantalla de Pointly. Si ya tenés cuenta, entrá con tu correo y contraseña. El modo cliente es diferente: permite consultar puntos, sin acceder a la administración. Revisá el correo que escribís y mantené tu contraseña privada. Si los datos no coinciden, la pantalla informa el error y permite corregirlos.",
+    "narration": "Desde el inicio, ¿Sos un comercio? Empezá ahora abre una guía con los primeros pasos. Primero creás tu cuenta en Bycode. Después volvés a Pointly e ingresás con el mismo correo y contraseña. Cada aplicación de Bycode tiene su propio plan: Pointly tiene que estar habilitado. Si ya tenés cuenta, elegí Ingresar como comercio. El formulario público del inicio es para consultar la billetera de clientes. Es importante revisar el correo y mantener la contraseña privada. Si los datos no coinciden, la pantalla informa el error y permite corregirlos.",
     "account": "A"
   },
   {
@@ -45,14 +45,14 @@
     "id": "07-navigation",
     "title": "Orientarse en el panel",
     "objective": "Encontrar acciones y leer los indicadores reales",
-    "narration": "Abrimos un comercio que ya tiene actividad. Resumen General muestra la regla, los clientes activos que ocupan cupo y los saldos vigentes. Las pestañas separan Clientes, Productos, Promociones, Premios, Ventas, Sin actividad, Archivados y Correos. Los contadores del catálogo indican elementos creados; no son una medida de facturación. Esta versión presenta tablas e indicadores, sin un panel de gráficos estadísticos. Desde el inicio también tenés accesos rápidos para agregar clientes, registrar ventas y consultar puntos.",
+    "narration": "En Mis comercios encontramos los negocios de tu cuenta. Abrimos Café del Puerto. Resumen General muestra la regla, los clientes activos que ocupan cupo y los puntos disponibles. Las pestañas separan Clientes, Productos, Promociones, Premios, Ventas, Sin actividad, Archivados y Correos. Los contadores del catálogo indican elementos creados; no son una medida de facturación. Esta versión presenta tablas e indicadores, sin un panel de gráficos estadísticos. Desde el inicio comercial, Operaciones Rápidas permite seleccionar el comercio, agregar clientes, registrar ventas y abrir Ver clientes.",
     "account": "B"
   },
   {
     "id": "08-client",
     "title": "Agregar un cliente",
     "objective": "Crear una asociación válida sin contactos obligatorios",
-    "narration": "Para incorporar un cliente, seleccionamos Agregar cliente y completamos nombre, país del documento y DNI. Correo y teléfono son opcionales: la persona puede acumular y canjear puntos aunque no los tenga. Si cargás un teléfono para WhatsApp, incluí el código de país. El alta es inmediata y no pide confirmar un correo. Si ese documento ya existe en Pointly, se conservan sus datos anteriores: este formulario lo vincula al comercio, no edita su identidad. Al guardar, comprobá que aparezca en la lista.",
+    "narration": "Para incorporar un cliente, seleccionamos Agregar cliente y completamos nombre, país del documento y DNI. Correo y teléfono son opcionales: la persona puede acumular y canjear puntos aunque no los tenga. Si cargás un teléfono para WhatsApp, incluí el código de país. El alta es inmediata y no pide confirmar un correo. Ahora asociamos a Carla en nuestro segundo comercio. Si ese documento ya existe en Pointly, se conservan sus datos anteriores: el formulario lo vincula al comercio, no edita su identidad. Después de guardar, revisamos el nombre en la lista.",
     "account": "B"
   },
   {
@@ -66,7 +66,7 @@
     "id": "10-search",
     "title": "Buscar y revisar clientes",
     "objective": "Consultar saldo, contactos e historial",
-    "narration": "En Clientes podés buscar por nombre o DNI, incluso usando solo una parte. El filtro permite ver todos, activos o archivados; dejá la búsqueda vacía para recuperar la lista. Entramos en Ver detalle para revisar el saldo y los movimientos. Cada movimiento muestra su fecha y distingue puntos sumados, canjes o vencimientos. Los contactos se consultan con una acción específica y se pueden volver a ocultar. Si hay varias páginas, avanzá con sus controles. También podés usar Consultar Puntos con país y DNI desde el comercio. Una búsqueda sin resultados no es un error de carga.",
+    "narration": "Ver clientes abre la lista del comercio. Buscá por nombre o DNI, incluso usando solo una parte. El filtro permite ver todos, activos o archivados; dejá la búsqueda vacía para recuperar la lista. Entramos en Ver detalle para revisar el saldo y los movimientos. Cada movimiento muestra su fecha y distingue puntos sumados, canjes o vencimientos. Los contactos aparecen directamente cuando el cliente y el comercio están activos. Si falta correo o teléfono, la pantalla lo indica; no impide consultar puntos. Si hay varias páginas de historial, avanzá con sus controles. Una búsqueda sin resultados no es un error de carga.",
     "account": "B"
   },
   {
@@ -164,21 +164,21 @@
     "id": "24-wallet",
     "title": "La billetera del cliente",
     "objective": "Consultar puntos y catálogos sin cuenta comercial",
-    "narration": "Ahora cambiamos al modo cliente. Desde la consulta pública elegimos el país e ingresamos el DNI. La billetera muestra los comercios asociados. Cada comercio tiene su propio saldo: los puntos de la panadería no se suman a los del café. Al abrir uno, aparecen los premios disponibles, los puntos que faltan o el aviso Te alcanza, y las condiciones para coordinar el canje. Las otras pestañas muestran promociones vigentes y productos. Esta es una vista de consulta: no permite registrar compras ni modificar puntos. El comerciante conserva esas acciones en su panel privado.",
+    "narration": "Ahora vemos cómo consulta un cliente. En el inicio público elegimos el país del documento, ingresamos el DNI y usamos Ver mis puntos. La billetera muestra los comercios asociados. Cada comercio tiene su propio saldo: los puntos de la panadería no se suman a los del café. Al abrir uno, aparecen los premios disponibles, los puntos que faltan o el aviso Te alcanza, y las condiciones para coordinar el canje. Las otras pestañas muestran promociones vigentes y productos. Esta es una vista de consulta: no permite registrar compras ni modificar puntos. El comerciante conserva esas acciones en su panel privado.",
     "account": "PUBLIC"
   },
   {
     "id": "25-expiration",
     "title": "Detalle de puntos",
     "objective": "Interpretar qué puntos vencen y cuándo",
-    "narration": "El detalle de puntos separa los que tienen vencimiento de los que no vencen. Revisá las fechas y cantidades de cada grupo: el saldo disponible es la referencia para un canje. Si hay varias páginas de vencimientos, cargá las siguientes para revisar el resto. La regla actual del comercio describe nuevas compras, pero no reemplaza la fecha que ya tiene cada grupo anterior. Así podés explicarle al cliente qué puntos necesita usar primero sin prometer que una compra nueva renovará todos sus puntos.",
+    "narration": "Para revisar varias fechas, abrimos la billetera de Camila, una cliente con historial de compras. Ver detalle separa los puntos con vencimiento de los que no vencen. Revisá las fechas y cantidades de cada grupo: el saldo disponible es la referencia para un canje. Cargar más vencimientos permite revisar las siguientes fechas. La regla actual del comercio describe nuevas compras, pero no reemplaza la fecha que ya tiene cada grupo anterior. Así podés explicarle al cliente qué puntos necesita usar primero sin prometer que una compra nueva renovará todos sus puntos.",
     "account": "PUBLIC"
   },
   {
     "id": "26-wallet-access",
     "title": "Guardar el acceso",
     "objective": "Volver a la billetera y proteger su enlace",
-    "narration": "En Mi acceso podés copiar el enlace de la billetera y guardarlo en este dispositivo para volver más rápido. Ese enlace permite consultar la información del cliente: compartilo con cuidado. Guardarlo en el navegador no crea una cuenta comercial. La opción de agregar Pointly como acceso o instalarlo depende del navegador y del dispositivo. Abrimos Agregar acceso para leer la guía disponible. También podés quitar el acceso recordado sin borrar puntos. Para cambiar de persona, elegí Consultar otro DNI y volvés al formulario.",
+    "narration": "Desde tus comercios, Ver mi enlace personal abre Tu acceso. Podés copiar el enlace de la billetera y guardarlo en este dispositivo. Ese enlace permite consultar la información del cliente: compartilo con cuidado. Al volver al inicio público aparece Abrir mi acceso guardado. Guardarlo en el navegador no crea una cuenta comercial. En pantallas pequeñas aparece una guía para agregar Pointly como acceso; la instalación depende del navegador y del dispositivo. También podés quitar el acceso recordado sin borrar puntos. Para cambiar de persona, elegí Consultar otro DNI y volvés al formulario.",
     "account": "PUBLIC"
   },
   {

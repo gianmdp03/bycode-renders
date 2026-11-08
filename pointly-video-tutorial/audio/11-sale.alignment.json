@@ -33,7 +33,7 @@
   "words": [
     {
       "word": "Vamos",
-      "start": 0.0,
+      "start": 0,
       "end": 0.5,
       "probability": 0.9198810458183289,
       "display": "Vamos"
@@ -160,13 +160,13 @@
     {
       "word": "nuestra",
       "start": 7.78,
-      "end": 8.0,
+      "end": 8,
       "probability": 0.9974991679191589,
       "display": "nuestra"
     },
     {
       "word": "regla,",
-      "start": 8.0,
+      "start": 8,
       "end": 8.38,
       "probability": 0.9950451552867889,
       "display": "regla,"
@@ -426,7 +426,7 @@
     {
       "word": "puntos.",
       "start": 21.7,
-      "end": 22.0,
+      "end": 22,
       "probability": 0.998910665512085,
       "display": "puntos."
     },
@@ -584,57 +584,67 @@
       "startMs": 0,
       "endMs": 2180,
       "timestampMs": null,
-      "confidence": 0.964
+      "confidence": 0.9639421318258558
     },
     {
-      "text": "Buscamos su país y DNI y cargamos 8 .500 pesos.",
+      "text": "Buscamos su país y DNI y cargamos 8.500 pesos.",
       "startMs": 2600,
       "endMs": 6700,
       "timestampMs": null,
-      "confidence": 0.804
+      "confidence": 0.8257039669487213
     },
     {
       "text": "Con nuestra regla, los 8 bloques completos de 1000 suman 80 puntos;",
       "startMs": 7540,
       "endMs": 11420,
       "timestampMs": null,
-      "confidence": 0.944
+      "confidence": 0.9443622678518295
     },
     {
       "text": "los 500 restantes no pasan a otra compra.",
       "startMs": 12020,
       "endMs": 14680,
       "timestampMs": null,
-      "confidence": 0.987
+      "confidence": 0.9866582006216049
     },
     {
       "text": "La pantalla muestra una estimación y el cliente encontrado.",
       "startMs": 15320,
       "endMs": 18380,
       "timestampMs": null,
-      "confidence": 0.995
+      "confidence": 0.9947089321083493
     },
     {
       "text": "Al confirmar se registra la venta y se suman los puntos.",
       "startMs": 19100,
       "endMs": 22000,
       "timestampMs": null,
-      "confidence": 0.99
+      "confidence": 0.9898400875655088
     },
     {
       "text": "Pointly no cobra dinero ni emite una factura por esta acción.",
       "startMs": 22520,
       "endMs": 25660,
       "timestampMs": null,
-      "confidence": 0.969
+      "confidence": 0.9693429605527357
     },
     {
       "text": "Después verificamos la venta y el nuevo movimiento del cliente.",
       "startMs": 26040,
       "endMs": 29320,
       "timestampMs": null,
-      "confidence": 0.99
+      "confidence": 0.9896668344736099
     }
   ],
-  "status": "REVIEW_REQUIRED"
+  "status": "REVIEW_REQUIRED",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [
+      [
+        "8 .500",
+        "8.500"
+      ]
+    ],
+    "sourceAudioHash": "9198304ab33265dae36c439c76a235dc98c8999c73ae61633169ab0522655716"
+  }
 }

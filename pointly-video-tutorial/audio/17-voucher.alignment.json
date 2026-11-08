@@ -28,7 +28,7 @@
   "words": [
     {
       "word": "Un",
-      "start": 0.0,
+      "start": 0,
       "end": 0.58,
       "probability": 0.9715785384178162,
       "display": "Un"
@@ -434,7 +434,7 @@
     },
     {
       "word": "El",
-      "start": 21.0,
+      "start": 21,
       "end": 21.12,
       "probability": 0.9941944479942322,
       "display": "El"
@@ -498,13 +498,13 @@
     {
       "word": "Esto",
       "start": 23.76,
-      "end": 24.0,
+      "end": 24,
       "probability": 0.9798939824104309,
       "display": "Esto"
     },
     {
       "word": "no",
-      "start": 24.0,
+      "start": 24,
       "end": 24.18,
       "probability": 0.9970996379852295,
       "display": "no"
@@ -533,13 +533,13 @@
     {
       "word": "con",
       "start": 24.82,
-      "end": 25.0,
+      "end": 25,
       "probability": 0.9952640533447266,
       "display": "con"
     },
     {
       "word": "código",
-      "start": 25.0,
+      "start": 25,
       "end": 25.3,
       "probability": 0.9748270511627197,
       "display": "código"
@@ -589,7 +589,7 @@
     {
       "word": "caja.",
       "start": 27.72,
-      "end": 28.0,
+      "end": 28,
       "probability": 0.9962160587310791,
       "display": "caja."
     }
@@ -600,64 +600,62 @@
       "startMs": 0,
       "endMs": 3840,
       "timestampMs": null,
-      "confidence": 0.99
+      "confidence": 0.989976825136127
     },
     {
       "text": "Elegí Voucher de descuento y definí si será un porcentaje o un importe fijo.",
       "startMs": 4440,
       "endMs": 8380,
       "timestampMs": null,
-      "confidence": 0.964
+      "confidence": 0.9638871004184086
     },
     {
-      "text": "Por ejemplo, 10 % o 2000 pesos.",
+      "text": "Por ejemplo, 10 o 2000 pesos.",
       "startMs": 9040,
       "endMs": 11480,
       "timestampMs": null,
-      "confidence": 0.887
+      "confidence": 0.8908885767062505
     },
     {
       "text": "El porcentaje debe ser mayor que 0 y no superar 100.",
       "startMs": 12120,
       "endMs": 15180,
       "timestampMs": null,
-      "confidence": 0.959
+      "confidence": 0.9594365060329437
     },
     {
       "text": "Completá las condiciones y el costo en puntos;",
       "startMs": 15700,
       "endMs": 17820,
       "timestampMs": null,
-      "confidence": 0.967
+      "confidence": 0.966934897005558
     },
     {
       "text": "revisá la vista previa antes de guardar.",
       "startMs": 18360,
       "endMs": 20460,
       "timestampMs": null,
-      "confidence": 0.964
+      "confidence": 0.9639895416441419
     },
     {
       "text": "El comercio aplica el beneficio al entregar el premio.",
       "startMs": 21000,
       "endMs": 23400,
       "timestampMs": null,
-      "confidence": 0.992
+      "confidence": 0.992067943016688
     },
     {
-      "text": "Esto no crea un cupón con código ni descuenta dinero automáticamente en una",
+      "text": "Esto no crea un cupón con código ni descuenta dinero automáticamente en una caja.",
       "startMs": 23760,
-      "endMs": 27720,
-      "timestampMs": null,
-      "confidence": 0.973
-    },
-    {
-      "text": "caja.",
-      "startMs": 27720,
       "endMs": 28000,
       "timestampMs": null,
-      "confidence": 0.996
+      "confidence": 0.9750394622484843
     }
   ],
-  "status": "REVIEW_REQUIRED"
+  "status": "REVIEW_REQUIRED",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [],
+    "sourceAudioHash": "063b7acb5c67d7fe5992801bb7a11f8d73f329bbd3692d797d8495657713c474"
+  }
 }

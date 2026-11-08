@@ -1,19 +1,50 @@
 [
   {
     "id": "F01",
-    "name": "Acceso comercial y derivación a Bycode",
+    "name": "Acceso comercial y guía Empezá ahora",
     "frontendEvidence": [
-      "src/app/pages/login/login.html:12",
-      "src/app/pages/login/login.html:27",
-      "src/app/pages/login/login.html:30",
-      "src/app/pages/login/login.html:45",
-      "src/app/pages/login/login.html:50"
+      "src/app/pages/for-businesses/for-businesses.html:2",
+      "src/app/pages/for-businesses/for-businesses.html:19",
+      "src/app/pages/for-businesses/for-businesses.html:20",
+      "src/app/pages/for-businesses/for-businesses.html:26"
     ],
     "scene": "02-access",
-    "recording": "recordings/02-access-1793728767253.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "Cuenta Bycode y plan por módulo. Google y registro local desactivados."
+    "recording": "recordings/02-access-1794066069774.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/02-access.wav",
+      "sha256": "03e3182275f840c1779f511c6a6b020b03ce6cf63cb8c977bd9d996d15967ba9",
+      "alignment": "audio/02-access.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "Ruta pública for-businesses; registro en Bycode y regreso a Pointly; plan por aplicación. Google y registro local desactivados.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 25.85,
+      "endSeconds": 62.88333333333333,
+      "timecode": "0:25"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/02-access-1794066069774.mp4",
+      "visibleResults": [
+        "Current public merchant onboarding with three real steps and external Bycode registration",
+        "Real invalid-credential response",
+        "Authenticated new account"
+      ],
+      "httpStatuses": [
+        401,
+        200
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/02-access-00741.png",
+        "qa/final-frames/02-access-01852.png",
+        "qa/final-frames/02-access-02963.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F02",
@@ -24,10 +55,39 @@
       "src/app/components/complete-profile-modal/complete-profile-modal.html:73"
     ],
     "scene": "03-profile",
-    "recording": "recordings/03-profile-1793728798777.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "DNI del administrador, no del cliente."
+    "recording": "recordings/03-profile-1794066083594.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/03-profile.wav",
+      "sha256": "049282e3476b7cb4212a6d05b030d182afb7b5f7ea2d6107f4a2ea0e61e0e018",
+      "alignment": "audio/03-profile.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "DNI del administrador, no del cliente.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 62.88333333333333,
+      "endSeconds": 88.73333333333333,
+      "timecode": "1:02"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/03-profile-1794066083594.mp4",
+      "visibleResults": [
+        "New merchant plan and no companies"
+      ],
+      "httpStatuses": [
+        200
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/03-profile-00517.png",
+        "qa/final-frames/03-profile-01292.png",
+        "qa/final-frames/03-profile-02068.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F03",
@@ -41,10 +101,41 @@
       "src/app/pages/new-company/new-company-page.html:395"
     ],
     "scene": "04-company",
-    "recording": "recordings/04-company-1793728832281.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "Nombre 2–100; enlace único; país obligatorio; campos físicos opcionales."
+    "recording": "recordings/04-company-1794066102114.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/04-company.wav",
+      "sha256": "0b59459181865917d597575e4ea1739b80203465b7a335304b4e67244234959f",
+      "alignment": "audio/04-company.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "Nombre 2–100; enlace único; país obligatorio; campos físicos opcionales.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 88.73333333333333,
+      "endSeconds": 117.15,
+      "timecode": "1:28"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/04-company-1794066102114.mp4",
+      "visibleResults": [
+        "Required country and optional address",
+        "New company persisted"
+      ],
+      "httpStatuses": [
+        200,
+        201
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/04-company-00568.png",
+        "qa/final-frames/04-company-01421.png",
+        "qa/final-frames/04-company-02273.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F04",
@@ -55,10 +146,40 @@
       "src/app/pages/company-detail/components/modals/edit-company-modal/edit-company-modal.html:227"
     ],
     "scene": "05-settings",
-    "recording": "recordings/05-settings-1793727053751.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "Configuración de compras nuevas; no renovar lotes anteriores."
+    "recording": "recordings/05-settings-1794066151317.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/05-settings.wav",
+      "sha256": "cf04375f9ab8d90db851840808e61a0e825648e388fd9e8b818a27d0b3f32a00",
+      "alignment": "audio/05-settings.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "Configuración de compras nuevas; no renovar lotes anteriores.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 117.15,
+      "endSeconds": 151.48333333333332,
+      "timecode": "1:57"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/05-settings-1794066151317.mp4",
+      "visibleResults": [
+        "Optional expiration and its explanation",
+        "Saved real company settings"
+      ],
+      "httpStatuses": [
+        200
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/05-settings-00687.png",
+        "qa/final-frames/05-settings-01717.png",
+        "qa/final-frames/05-settings-02747.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F05",
@@ -74,10 +195,45 @@
       "src/app/pages/company-photo/company-photo.html:112"
     ],
     "scene": "06-photo",
-    "recording": "recordings/06-photo-1793727090626.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "JPEG/PNG/WebP hasta 10 MB; API de medios y convertidor reales."
+    "recording": "recordings/06-photo-1794066169375.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/06-photo.wav",
+      "sha256": "3a171af5bec9d8964a05b2d1d173b62e7b3b70822efee44a56419c505cc9e5f2",
+      "alignment": "audio/06-photo.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "JPEG/PNG/WebP hasta 10 MB; API de medios y convertidor reales.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 151.48333333333332,
+      "endSeconds": 184.61666666666667,
+      "timecode": "2:31"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/06-photo-1794066169375.mp4",
+      "visibleResults": [
+        "Company photo removed through real API",
+        "Photo crop controls",
+        "Photo uploaded through real converter",
+        "Changing link invalidates previous access",
+        "New public link persisted"
+      ],
+      "httpStatuses": [
+        200,
+        204,
+        201
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/06-photo-00663.png",
+        "qa/final-frames/06-photo-01657.png",
+        "qa/final-frames/06-photo-02651.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F06",
@@ -91,10 +247,45 @@
       "src/app/components/qr-generator/qr-generator.html:31"
     ],
     "scene": "06-photo",
-    "recording": "recordings/06-photo-1793727090626.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "El anterior se invalida; la reserva anterior puede impedir reutilización inmediata."
+    "recording": "recordings/06-photo-1794066169375.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/06-photo.wav",
+      "sha256": "3a171af5bec9d8964a05b2d1d173b62e7b3b70822efee44a56419c505cc9e5f2",
+      "alignment": "audio/06-photo.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "El anterior se invalida; la reserva anterior puede impedir reutilización inmediata.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 151.48333333333332,
+      "endSeconds": 184.61666666666667,
+      "timecode": "2:31"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/06-photo-1794066169375.mp4",
+      "visibleResults": [
+        "Company photo removed through real API",
+        "Photo crop controls",
+        "Photo uploaded through real converter",
+        "Changing link invalidates previous access",
+        "New public link persisted"
+      ],
+      "httpStatuses": [
+        200,
+        204,
+        201
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/06-photo-00663.png",
+        "qa/final-frames/06-photo-01657.png",
+        "qa/final-frames/06-photo-02651.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F07",
@@ -111,10 +302,43 @@
       "src/app/pages/company-detail/components/company-detail-tabs-nav/company-detail-tabs-nav.html:13"
     ],
     "scene": "07-navigation",
-    "recording": "recordings/07-navigation-1793727237736.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "Indicadores y tablas reales; sin gráficos estadísticos implementados."
+    "recording": "recordings/07-navigation-1794067008177.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/07-navigation.wav",
+      "sha256": "49d017f6c1e450f5d7fe125fea8680c5db8dff9bc20fea46de9fb94ac65d537c",
+      "alignment": "audio/07-navigation.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "Indicadores y tablas reales; sin gráficos estadísticos implementados.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 184.61666666666667,
+      "endSeconds": 223.35,
+      "timecode": "3:04"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/07-navigation-1794067008177.mp4",
+      "visibleResults": [
+        "Two real businesses owned by the merchant",
+        "Earning rule and active-client quota",
+        "Live company navigation",
+        "Quick actions selection changes to second business",
+        "Quick actions selected business and actual client-list shortcut"
+      ],
+      "httpStatuses": [
+        200
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/07-navigation-00775.png",
+        "qa/final-frames/07-navigation-01937.png",
+        "qa/final-frames/07-navigation-03099.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F08",
@@ -125,10 +349,42 @@
       "src/app/pages/company-detail/components/modals/client-modal/client-modal.html:123"
     ],
     "scene": "08-client",
-    "recording": "recordings/08-client-1793727275347.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "Identidad por país+DNI; perfiles anteriores no se sobrescriben."
+    "recording": "recordings/08-client-1794066253328.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/08-client.wav",
+      "sha256": "2729139508bcbc057325a8dbbaa4d09da0f1737488d27abb5b18ac5dc566cff8",
+      "alignment": "audio/08-client.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "Identidad por país+DNI; perfiles anteriores no se sobrescriben.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 223.35,
+      "endSeconds": 258.1,
+      "timecode": "3:43"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/08-client-1794066253328.mp4",
+      "visibleResults": [
+        "Optional email and phone kept empty",
+        "Client association persisted",
+        "Existing Carla identity preserved when joining second business"
+      ],
+      "httpStatuses": [
+        200,
+        201
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/08-client-00695.png",
+        "qa/final-frames/08-client-01738.png",
+        "qa/final-frames/08-client-02780.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F09",
@@ -142,10 +398,60 @@
       "src/app/components/qr-generator/qr-generator.html:31"
     ],
     "scene": "09-qr",
-    "recording": "recordings/09-qr-1793727311614.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "PNG y copia locales; impresión requiere revisión específica del navegador."
+    "recording": "recordings/09-qr-1794066269789.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/09-qr.wav",
+      "sha256": "64e786238d810b879b39d908e90186a129ef3bcd151c844bae773cb11cc02da8",
+      "alignment": "audio/09-qr.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "PARTIAL_PRINT_ENVIRONMENT_LIMITATION",
+    "note": "PNG y copia locales; impresión requiere revisión específica del navegador.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 258.1,
+      "endSeconds": 288.8333333333333,
+      "timecode": "4:18"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/09-qr-1794066269789.mp4",
+      "visibleResults": [
+        "Real QR downloaded and link copied",
+        "Actual printable QR view opened, no physical print job sent",
+        "Public join confirmed"
+      ],
+      "httpStatuses": [
+        200,
+        201
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/09-qr-00615.png",
+        "qa/final-frames/09-qr-01537.png",
+        "qa/final-frames/09-qr-02459.png"
+      ],
+      "review": "qa/visual-review.json",
+      "limitation": {
+        "state": "PARTIAL_HEADLESS_LIMITATION",
+        "source": "src/app/components/qr-generator/qr-generator.ts:294",
+        "scene": "09-qr",
+        "validated": [
+          "Real QR link copied",
+          "Actual PNG download saved",
+          "Actual print button opened a popup with the product's title"
+        ],
+        "unvalidated": [
+          "Full printable card rendering in the local headless popup",
+          "Native print dialog and physical printing"
+        ],
+        "observed": "The popup retained its title and head elements but did not finish rendering its card in this capture environment. A blank screenshot is not used as a successful print demonstration.",
+        "tutorialFallback": "The narrated scene explains downloading the QR PNG when the print window is blocked or does not open.",
+        "businessCodeChanged": false,
+        "physicalPrintSent": false
+      }
+    }
   },
   {
     "id": "F10",
@@ -161,10 +467,42 @@
       "src/app/pages/client-join/client-join.html:233"
     ],
     "scene": "09-qr",
-    "recording": "recordings/09-qr-1793727311614.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "Alta inmediata con nombre, DNI y país; sin confirmación de email."
+    "recording": "recordings/09-qr-1794066269789.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/09-qr.wav",
+      "sha256": "64e786238d810b879b39d908e90186a129ef3bcd151c844bae773cb11cc02da8",
+      "alignment": "audio/09-qr.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "Alta inmediata con nombre, DNI y país; sin confirmación de email.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 258.1,
+      "endSeconds": 288.8333333333333,
+      "timecode": "4:18"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/09-qr-1794066269789.mp4",
+      "visibleResults": [
+        "Real QR downloaded and link copied",
+        "Actual printable QR view opened, no physical print job sent",
+        "Public join confirmed"
+      ],
+      "httpStatuses": [
+        200,
+        201
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/09-qr-00615.png",
+        "qa/final-frames/09-qr-01537.png",
+        "qa/final-frames/09-qr-02459.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F11",
@@ -178,10 +516,42 @@
       "src/app/pages/company-detail/components/tab-clients/tab-clients.html:50"
     ],
     "scene": "10-search",
-    "recording": "recordings/10-search-1793727349437.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "Por nombre/DNI; ALL/ACTIVE/ARCHIVED; detalle."
+    "recording": "recordings/10-search-1794066285067.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/10-search.wav",
+      "sha256": "1426c16dc098e06d11480db72e0be5b37d3954d8f7eea8baedb00b0806806467",
+      "alignment": "audio/10-search.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "Por nombre/DNI; ALL/ACTIVE/ARCHIVED; detalle.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 288.8333333333333,
+      "endSeconds": 327.56666666666666,
+      "timecode": "4:48"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/10-search-1794066285067.mp4",
+      "visibleResults": [
+        "Client balance and transaction ledger",
+        "Authorized contacts load automatically for active client and business",
+        "Second page of real transaction history",
+        "Current customer list replaces obsolete point lookup entry points"
+      ],
+      "httpStatuses": [
+        200
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/10-search-00775.png",
+        "qa/final-frames/10-search-01937.png",
+        "qa/final-frames/10-search-03099.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F12",
@@ -189,34 +559,97 @@
     "frontendEvidence": [
       "src/app/pages/company-client/company-client.html:4",
       "src/app/pages/company-client/company-client.html:10",
-      "src/app/pages/company-client/company-client.html:37",
-      "src/app/pages/company-client/company-client.html:40",
-      "src/app/pages/company-client/company-client.html:52",
-      "src/app/pages/company-client/company-client.html:68",
-      "src/app/pages/company-client/company-client.html:70"
+      "src/app/pages/company-client/company-client.html:39",
+      "src/app/pages/company-client/company-client.html:49",
+      "src/app/pages/company-client/company-client.html:65",
+      "src/app/pages/company-client/company-client.html:67"
     ],
     "scene": "10-search",
-    "recording": "recordings/10-search-1793727349437.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "Consulta autorizada de contactos; ocultación posterior."
+    "recording": "recordings/10-search-1794066285067.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/10-search.wav",
+      "sha256": "1426c16dc098e06d11480db72e0be5b37d3954d8f7eea8baedb00b0806806467",
+      "alignment": "audio/10-search.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "Contactos cargados automáticamente con permiso; sin botón de mostrar/ocultar.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 288.8333333333333,
+      "endSeconds": 327.56666666666666,
+      "timecode": "4:48"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/10-search-1794066285067.mp4",
+      "visibleResults": [
+        "Client balance and transaction ledger",
+        "Authorized contacts load automatically for active client and business",
+        "Second page of real transaction history",
+        "Current customer list replaces obsolete point lookup entry points"
+      ],
+      "httpStatuses": [
+        200
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/10-search-00775.png",
+        "qa/final-frames/10-search-01937.png",
+        "qa/final-frames/10-search-03099.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F13",
-    "name": "Consultar puntos desde comercio",
+    "name": "Entrada Ver clientes y saldo autorizado",
     "frontendEvidence": [
-      "src/app/components/company-quick-actions/modals/check-points-modal/check-points-modal.html:2",
-      "src/app/components/company-quick-actions/modals/check-points-modal/check-points-modal.html:25",
-      "src/app/components/company-quick-actions/modals/check-points-modal/check-points-modal.html:59",
-      "src/app/components/company-quick-actions/modals/check-points-modal/check-points-modal.html:68",
-      "src/app/components/company-quick-actions/modals/check-points-modal/check-points-modal.html:151",
-      "src/app/components/company-quick-actions/modals/check-points-modal/check-points-modal.html:172"
+      "src/app/pages/company-client/company-client.html:4",
+      "src/app/pages/company-client/company-client.html:10",
+      "src/app/pages/company-client/company-client.html:39",
+      "src/app/pages/company-client/company-client.html:49",
+      "src/app/pages/company-client/company-client.html:65",
+      "src/app/pages/company-client/company-client.html:67"
     ],
     "scene": "10-search",
-    "recording": "recordings/10-search-1793727349437.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "Formulario administrativo distinto de billetera pública."
+    "recording": "recordings/10-search-1794066285067.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/10-search.wav",
+      "sha256": "1426c16dc098e06d11480db72e0be5b37d3954d8f7eea8baedb00b0806806467",
+      "alignment": "audio/10-search.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "Reemplaza los antiguos accesos a consultar puntos. Contactos automáticos solo con cuenta y comercio activos.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 288.8333333333333,
+      "endSeconds": 327.56666666666666,
+      "timecode": "4:48"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/10-search-1794066285067.mp4",
+      "visibleResults": [
+        "Client balance and transaction ledger",
+        "Authorized contacts load automatically for active client and business",
+        "Second page of real transaction history",
+        "Current customer list replaces obsolete point lookup entry points"
+      ],
+      "httpStatuses": [
+        200
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/10-search-00775.png",
+        "qa/final-frames/10-search-01937.png",
+        "qa/final-frames/10-search-03099.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F14",
@@ -228,10 +661,42 @@
       "src/app/pages/company-detail/components/modals/sale-modal/sale-modal.html:138"
     ],
     "scene": "11-sale",
-    "recording": "recordings/11-sale-1793727385836.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "No cobra ni factura; conserva operación pendiente para reintentos."
+    "recording": "recordings/11-sale-1794066300460.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/11-sale.wav",
+      "sha256": "9198304ab33265dae36c439c76a235dc98c8999c73ae61633169ab0522655716",
+      "alignment": "audio/11-sale.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "No cobra ni factura; conserva operación pendiente para reintentos.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 327.56666666666666,
+      "endSeconds": 357.81666666666666,
+      "timecode": "5:27"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/11-sale-1794066300460.mp4",
+      "visibleResults": [
+        "80 points estimated from complete purchase tranches",
+        "Sale confirmed",
+        "Real sale and actual generated points"
+      ],
+      "httpStatuses": [
+        200,
+        201
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/11-sale-00605.png",
+        "qa/final-frames/11-sale-01512.png",
+        "qa/final-frames/11-sale-02420.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F15",
@@ -245,10 +710,44 @@
       "src/app/pages/company-detail/components/tab-sales/tab-sales.html:69"
     ],
     "scene": "12-sales-history",
-    "recording": "recordings/12-sales-history-1793727423036.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "La API actual puede no devolver pointsGenerated por venta; Sin dato no significa cero."
+    "recording": "recordings/12-sales-history-1794066319200.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/12-sales-history.wav",
+      "sha256": "ca9775fdb9e8ac8a7b2fc131df4748042dd58d6cb4cf3be3160ccd5d59e248a9",
+      "alignment": "audio/12-sales-history.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "La API actual puede no devolver pointsGenerated por venta; Sin dato no significa cero.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 357.81666666666666,
+      "endSeconds": 394.23333333333335,
+      "timecode": "5:57"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/12-sales-history-1794066319200.mp4",
+      "visibleResults": [
+        "Stored amounts, dates and honest missing per-sale point field",
+        "Purchase below minimum estimates zero",
+        "Real operation committed; browser response interrupted; original pending identity retained",
+        "Original pending operation retried and confirmed without changing identity",
+        "Zero-point purchase recorded"
+      ],
+      "httpStatuses": [
+        200,
+        201
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/12-sales-history-00728.png",
+        "qa/final-frames/12-sales-history-01821.png",
+        "qa/final-frames/12-sales-history-02913.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F16",
@@ -260,10 +759,43 @@
       "src/app/pages/company-detail/components/modals/promotion-modal/promotion-modal.html:153"
     ],
     "scene": "13-promotion",
-    "recording": "recordings/13-promotion-1793727748067.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "50% extra/doble/triple/personalizado, fecha futura y fin posterior; sin solapamientos."
+    "recording": "recordings/13-promotion-1794067049984.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/13-promotion.wav",
+      "sha256": "0b6699b469ccaadd1f40902f3a9bed6b346a30b6cd12c35be51d69bd280d4041",
+      "alignment": "audio/13-promotion.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "50% extra/doble/triple/personalizado, fecha futura y fin posterior; sin solapamientos.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 394.23333333333335,
+      "endSeconds": 425.05,
+      "timecode": "6:34"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/13-promotion-1794067049984.mp4",
+      "visibleResults": [
+        "Custom extra percentage and live equivalence",
+        "Equivalent decimal multiplier using local input validation",
+        "Benefit and precise time preview",
+        "Promotion persisted"
+      ],
+      "httpStatuses": [
+        200,
+        201
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/13-promotion-00616.png",
+        "qa/final-frames/13-promotion-01541.png",
+        "qa/final-frames/13-promotion-02465.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F17",
@@ -277,10 +809,43 @@
       "src/app/pages/company-detail/components/tab-promotions/tab-promotions.html:124"
     ],
     "scene": "14-promotion-life",
-    "recording": "recordings/14-promotion-life-1793727783805.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "Confirmaciones en documento, conservación del historial."
+    "recording": "recordings/14-promotion-life-1794067096110.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/14-promotion-life.wav",
+      "sha256": "4d4eae337bd129a96239f3da50c834e462de9adfa20f94fb44f53dbc84c76e9f",
+      "alignment": "audio/14-promotion-life.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "Confirmaciones en documento, conservación del historial.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 425.05,
+      "endSeconds": 454.8333333333333,
+      "timecode": "7:05"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/14-promotion-life-1794067096110.mp4",
+      "visibleResults": [
+        "Tutorial promotion paused",
+        "Tutorial promotion reactivated",
+        "Destructive promotion confirmation",
+        "Promotion deleted without deleting historical sales"
+      ],
+      "httpStatuses": [
+        200,
+        204
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/14-promotion-life-00596.png",
+        "qa/final-frames/14-promotion-life-01489.png",
+        "qa/final-frames/14-promotion-life-02383.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F18",
@@ -292,10 +857,45 @@
       "src/app/pages/company-detail/components/modals/product-modal/product-modal.html:100"
     ],
     "scene": "15-products",
-    "recording": "recordings/15-products-1793727930612.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "Catálogo informativo; no hay carrito ni inventario."
+    "recording": "recordings/15-products-1794066488377.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/15-products.wav",
+      "sha256": "db67feb29c4e4799dc7e5a07d44cf0783158985c5511d04c95ee4bed8fa6615f",
+      "alignment": "audio/15-products.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "Catálogo informativo; no hay carrito ni inventario.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 454.8333333333333,
+      "endSeconds": 494.68333333333334,
+      "timecode": "7:34"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/15-products-1794066488377.mp4",
+      "visibleResults": [
+        "Product and image stored",
+        "Direct image URL persisted and actual catalog image displayed",
+        "Product edition and photo removal",
+        "Product deletion confirmation",
+        "Demo product deleted, original catalog retained"
+      ],
+      "httpStatuses": [
+        200,
+        201,
+        204
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/15-products-00797.png",
+        "qa/final-frames/15-products-01992.png",
+        "qa/final-frames/15-products-03188.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F19",
@@ -309,10 +909,41 @@
       "src/app/pages/company-detail/components/modals/reward-modal/reward-modal.html:178"
     ],
     "scene": "16-physical-reward",
-    "recording": "recordings/16-physical-reward-1793727966921.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "Calculadora orientativa; requiere guardar el premio."
+    "recording": "recordings/16-physical-reward-1794066511891.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/16-physical-reward.wav",
+      "sha256": "53c93bf4a76cde2a8ae29c2ced1a60a90193c683362568477ecbb6a0f17ce92b",
+      "alignment": "audio/16-physical-reward.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "Calculadora orientativa; requiere guardar el premio.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 494.68333333333334,
+      "endSeconds": 527.2166666666667,
+      "timecode": "8:14"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/16-physical-reward-1794066511891.mp4",
+      "visibleResults": [
+        "Calculator result applied to cost",
+        "Physical reward saved"
+      ],
+      "httpStatuses": [
+        200,
+        201
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/16-physical-reward-00651.png",
+        "qa/final-frames/16-physical-reward-01627.png",
+        "qa/final-frames/16-physical-reward-02603.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F20",
@@ -326,10 +957,42 @@
       "src/app/pages/company-detail/components/modals/reward-modal/reward-modal.html:178"
     ],
     "scene": "17-voucher",
-    "recording": "recordings/17-voucher-1793728109474.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "Descuento manual; no genera código ni aplica dinero automáticamente."
+    "recording": "recordings/17-voucher-1794066642152.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/17-voucher.wav",
+      "sha256": "063b7acb5c67d7fe5992801bb7a11f8d73f329bbd3692d797d8495657713c474",
+      "alignment": "audio/17-voucher.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "Descuento manual; no genera código ni aplica dinero automáticamente.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 527.2166666666667,
+      "endSeconds": 556.0333333333333,
+      "timecode": "8:47"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/17-voucher-1794066642152.mp4",
+      "visibleResults": [
+        "Percentage voucher and manual discount explanation",
+        "Fixed amount voucher",
+        "Voucher saved"
+      ],
+      "httpStatuses": [
+        200,
+        201
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/17-voucher-00576.png",
+        "qa/final-frames/17-voucher-01441.png",
+        "qa/final-frames/17-voucher-02305.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F21",
@@ -343,10 +1006,43 @@
       "src/app/pages/company-detail/components/tab-rewards/tab-rewards.html:78"
     ],
     "scene": "18-reward-life",
-    "recording": "recordings/18-reward-life-1793728144213.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "No se borran canjes históricos ni sus instantáneas."
+    "recording": "recordings/18-reward-life-1794066673147.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/18-reward-life.wav",
+      "sha256": "6db33489b7f9ab450cc6febeae96ac6383d821389472238cdb73a0527ecd22c7",
+      "alignment": "audio/18-reward-life.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "No se borran canjes históricos ni sus instantáneas.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 556.0333333333333,
+      "endSeconds": 585.5666666666667,
+      "timecode": "9:16"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/18-reward-life-1794066673147.mp4",
+      "visibleResults": [
+        "Paused reward cannot be redeemed",
+        "Permanent deletion confirmation",
+        "Reward kept after cancel",
+        "Tutorial voucher deleted; previous rewards kept"
+      ],
+      "httpStatuses": [
+        200,
+        204
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/18-reward-life-00591.png",
+        "qa/final-frames/18-reward-life-01477.png",
+        "qa/final-frames/18-reward-life-02363.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F22",
@@ -358,10 +1054,41 @@
       "src/app/pages/company-detail/components/modals/redeem-modal/redeem-modal.html:84"
     ],
     "scene": "19-redeem",
-    "recording": "recordings/19-redeem-1793728183392.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "Validación contra saldo vigente y premio habilitado."
+    "recording": "recordings/19-redeem-1794066765994.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/19-redeem.wav",
+      "sha256": "c79a06b337d69cd78dfaf90c10cc750b9a475ad4aa2fa8b6dae79ac7cf18bb2b",
+      "alignment": "audio/19-redeem.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "Validación contra saldo vigente y premio habilitado.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 585.5666666666667,
+      "endSeconds": 616.95,
+      "timecode": "9:45"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/19-redeem-1794066765994.mp4",
+      "visibleResults": [
+        "Selected reward costs 80 points",
+        "Real redemption confirmed",
+        "Balance reduced and redemption ledger shown"
+      ],
+      "httpStatuses": [
+        200
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/19-redeem-00628.png",
+        "qa/final-frames/19-redeem-01569.png",
+        "qa/final-frames/19-redeem-02511.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F23",
@@ -373,10 +1100,42 @@
       "src/app/pages/company-detail/components/modals/redeem-modal/redeem-modal.html:84"
     ],
     "scene": "20-redeem-errors",
-    "recording": "recordings/20-redeem-errors-1793728218504.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "Rechazo real distinto de una respuesta perdida; no duplicar operación."
+    "recording": "recordings/20-redeem-errors-1794066790542.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/20-redeem-errors.wav",
+      "sha256": "387e6efc7315e0e5c34432ca723065166beeca7201009b976167768943ea88ce",
+      "alignment": "audio/20-redeem-errors.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "Rechazo real distinto de una respuesta perdida; no duplicar operación.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 616.95,
+      "endSeconds": 648.4,
+      "timecode": "10:16"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/20-redeem-errors-1794066790542.mp4",
+      "visibleResults": [
+        "Real insufficient-points rejection",
+        "Real operation committed; browser response interrupted; original pending identity retained",
+        "Original pending operation retried and confirmed without changing identity"
+      ],
+      "httpStatuses": [
+        200,
+        400
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/20-redeem-errors-00629.png",
+        "qa/final-frames/20-redeem-errors-01572.png",
+        "qa/final-frames/20-redeem-errors-02516.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F24",
@@ -384,18 +1143,49 @@
     "frontendEvidence": [
       "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html:40",
       "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html:59",
-      "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html:73",
-      "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html:105",
-      "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html:182",
-      "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html:194",
-      "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html:211",
-      "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html:220"
+      "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html:74",
+      "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html:106",
+      "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html:183",
+      "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html:195",
+      "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html:212",
+      "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html:221"
     ],
     "scene": "21-inactive",
-    "recording": "recordings/21-inactive-1793728253124.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "Solo se revisa/copia borrador; sin comunicación externa."
+    "recording": "recordings/21-inactive-1794066948584.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/21-inactive.wav",
+      "sha256": "f3e3e2695d9780b8f57be21fcc2af9504c3ee9ac035189a2e2afc84876ae6d50",
+      "alignment": "audio/21-inactive.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "Solo se revisa/copia borrador; sin comunicación externa.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 648.4,
+      "endSeconds": 677.85,
+      "timecode": "10:48"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/21-inactive-1794066948584.mp4",
+      "visibleResults": [
+        "Three historical inactive demo clients",
+        "Manual WhatsApp draft",
+        "Draft copied, no message sent"
+      ],
+      "httpStatuses": [
+        200
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/21-inactive-00589.png",
+        "qa/final-frames/21-inactive-01472.png",
+        "qa/final-frames/21-inactive-02356.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F25",
@@ -407,10 +1197,45 @@
       "src/app/pages/company-detail/components/archived-clients/archived-clients.html:83"
     ],
     "scene": "22-archive",
-    "recording": "recordings/22-archive-1793728289329.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "Conserva saldos, historial y vencimientos; inactividad no archiva automáticamente."
+    "recording": "recordings/22-archive-1794066989566.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/22-archive.wav",
+      "sha256": "4040d26d54c4581ddeccec0c4e41a1800b02cb50be6904b39ed4930176a2a74f",
+      "alignment": "audio/22-archive.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "Conserva saldos, historial y vencimientos; inactividad no archiva automáticamente.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 677.85,
+      "endSeconds": 707.4666666666667,
+      "timecode": "11:17"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/22-archive-1794066989566.mp4",
+      "visibleResults": [
+        "Manual archival confirmation",
+        "Archived account retains balance",
+        "Public wallet displays archived-account warning",
+        "Client reactivated within quota"
+      ],
+      "httpStatuses": [
+        200,
+        204,
+        401,
+        201
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/22-archive-00592.png",
+        "qa/final-frames/22-archive-01481.png",
+        "qa/final-frames/22-archive-02369.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F26",
@@ -420,41 +1245,106 @@
       "src/app/pages/company-detail/components/company-emails/company-emails.html:41"
     ],
     "scene": "23-emails",
-    "recording": "recordings/23-emails-1793728328754.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "Configuración persistida; proveedor saliente desactivado en DEMO."
+    "recording": "recordings/23-emails-1794067026542.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/23-emails.wav",
+      "sha256": "d99c28b9b27d4e6e8e5154197ce89b3f1e0c884815d697a8d1b37ff2d842abbf",
+      "alignment": "audio/23-emails.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "Configuración persistida; proveedor saliente desactivado en DEMO.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 707.4666666666667,
+      "endSeconds": 740.45,
+      "timecode": "11:47"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/23-emails-1794067026542.mp4",
+      "visibleResults": [
+        "Email opt-in persisted, outbound provider disabled",
+        "Actual fixed template preview",
+        "Actual fixed template preview",
+        "Actual fixed template preview",
+        "Automatic emails disabled again"
+      ],
+      "httpStatuses": [
+        200
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/23-emails-00660.png",
+        "qa/final-frames/23-emails-01649.png",
+        "qa/final-frames/23-emails-02639.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F27",
     "name": "Billetera: consulta y comercios asociados",
     "frontendEvidence": [
       "src/app/pages/client-wallet/client-wallet.html:3",
-      "src/app/pages/client-wallet/client-wallet.html:4",
       "src/app/pages/client-wallet/client-wallet.html:10",
       "src/app/pages/client-wallet/client-wallet.html:11",
-      "src/app/pages/client-wallet/client-wallet.html:12",
-      "src/app/pages/client-wallet/client-wallet.html:17",
+      "src/app/pages/client-wallet/client-wallet.html:15",
       "src/app/pages/client-wallet/client-wallet.html:21",
       "src/app/pages/client-wallet/client-wallet.html:26",
       "src/app/pages/client-wallet/client-wallet.html:35",
       "src/app/pages/client-wallet/client-wallet.html:41",
       "src/app/pages/client-wallet/client-wallet.html:48",
-      "src/app/pages/client-wallet/client-wallet.html:49",
       "src/app/pages/client-wallet/client-wallet.html:54",
       "src/app/pages/client-wallet/client-wallet.html:56",
       "src/app/pages/client-wallet/client-wallet.html:57",
-      "src/app/pages/client-wallet/client-wallet.html:64",
-      "src/app/pages/client-wallet/client-wallet.html:71",
-      "src/app/pages/client-wallet/client-wallet.html:81",
-      "src/app/pages/client-wallet/client-wallet.html:86",
-      "src/app/pages/client-wallet/client-wallet.html:92"
+      "src/app/pages/client-wallet/client-wallet.html:59",
+      "src/app/pages/client-wallet/client-wallet.html:65",
+      "src/app/pages/client-wallet/client-wallet.html:72",
+      "src/app/pages/client-wallet/client-wallet.html:82",
+      "src/app/pages/client-wallet/client-wallet.html:87"
     ],
     "scene": "24-wallet",
-    "recording": "recordings/24-wallet-1793728365679.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "Sin cuenta comercial; vínculo de lectura protegido."
+    "recording": "recordings/24-wallet-1794067989009.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/24-wallet.wav",
+      "sha256": "7cf2ff14f5243c2beb9fa5fa533758ef5a6d2b004fcb7038781d6e9175b6fb9a",
+      "alignment": "audio/24-wallet.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "Sin cuenta comercial; vínculo de lectura protegido.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 740.45,
+      "endSeconds": 778.95,
+      "timecode": "12:20"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/24-wallet-1794067989009.mp4",
+      "visibleResults": [
+        "Same client has separate real balances in two businesses",
+        "Second business independent balance and country-only location",
+        "Public wallet balance and reward eligibility",
+        "Three real public catalogs"
+      ],
+      "httpStatuses": [
+        401,
+        201,
+        200,
+        503
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/24-wallet-00770.png",
+        "qa/final-frames/24-wallet-01925.png",
+        "qa/final-frames/24-wallet-03080.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F28",
@@ -465,72 +1355,169 @@
       "src/app/pages/client-wallet/client-wallet-catalog.html:6"
     ],
     "scene": "24-wallet",
-    "recording": "recordings/24-wallet-1793728365679.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "Consulta de premios, productos y promociones vigentes; canje coordinado."
+    "recording": "recordings/24-wallet-1794067989009.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/24-wallet.wav",
+      "sha256": "7cf2ff14f5243c2beb9fa5fa533758ef5a6d2b004fcb7038781d6e9175b6fb9a",
+      "alignment": "audio/24-wallet.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "Consulta de premios, productos y promociones vigentes; canje coordinado.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 740.45,
+      "endSeconds": 778.95,
+      "timecode": "12:20"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/24-wallet-1794067989009.mp4",
+      "visibleResults": [
+        "Same client has separate real balances in two businesses",
+        "Second business independent balance and country-only location",
+        "Public wallet balance and reward eligibility",
+        "Three real public catalogs"
+      ],
+      "httpStatuses": [
+        401,
+        201,
+        200,
+        503
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/24-wallet-00770.png",
+        "qa/final-frames/24-wallet-01925.png",
+        "qa/final-frames/24-wallet-03080.png"
+      ],
+      "review": "qa/visual-review.json",
+      "additionalScene": "25-expiration: actual Te alcanza and Faltan states across genuine accounts"
+    }
   },
   {
     "id": "F29",
     "name": "Lotes con vencimiento y sin vencimiento",
     "frontendEvidence": [
       "src/app/pages/client-wallet/client-wallet.html:3",
-      "src/app/pages/client-wallet/client-wallet.html:4",
       "src/app/pages/client-wallet/client-wallet.html:10",
       "src/app/pages/client-wallet/client-wallet.html:11",
-      "src/app/pages/client-wallet/client-wallet.html:12",
-      "src/app/pages/client-wallet/client-wallet.html:17",
+      "src/app/pages/client-wallet/client-wallet.html:15",
       "src/app/pages/client-wallet/client-wallet.html:21",
       "src/app/pages/client-wallet/client-wallet.html:26",
       "src/app/pages/client-wallet/client-wallet.html:35",
       "src/app/pages/client-wallet/client-wallet.html:41",
       "src/app/pages/client-wallet/client-wallet.html:48",
-      "src/app/pages/client-wallet/client-wallet.html:49",
       "src/app/pages/client-wallet/client-wallet.html:54",
       "src/app/pages/client-wallet/client-wallet.html:56",
       "src/app/pages/client-wallet/client-wallet.html:57",
-      "src/app/pages/client-wallet/client-wallet.html:64",
-      "src/app/pages/client-wallet/client-wallet.html:71",
-      "src/app/pages/client-wallet/client-wallet.html:81",
-      "src/app/pages/client-wallet/client-wallet.html:86",
-      "src/app/pages/client-wallet/client-wallet.html:92"
+      "src/app/pages/client-wallet/client-wallet.html:59",
+      "src/app/pages/client-wallet/client-wallet.html:65",
+      "src/app/pages/client-wallet/client-wallet.html:72",
+      "src/app/pages/client-wallet/client-wallet.html:82",
+      "src/app/pages/client-wallet/client-wallet.html:87"
     ],
     "scene": "25-expiration",
-    "recording": "recordings/25-expiration-1793728509611.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "Fechas y grupos provistos por API, no reconstruidos con regla actual."
+    "recording": "recordings/25-expiration-1794068027865.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/25-expiration.wav",
+      "sha256": "0bb8ff87830b376e8b75fc16d737e6585f1ee3c514456711a7d6b3eb06aca85f",
+      "alignment": "audio/25-expiration.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "Fechas y grupos provistos por API, no reconstruidos con regla actual.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 778.95,
+      "endSeconds": 812,
+      "timecode": "12:58"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/25-expiration-1794068027865.mp4",
+      "visibleResults": [
+        "Camila real expiry groups from historical purchases",
+        "Point group dates and quantities",
+        "Next acoustic-demo expiry page loaded from real API",
+        "Non-expiring historical group and available total"
+      ],
+      "httpStatuses": [
+        401,
+        201,
+        200
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/25-expiration-00661.png",
+        "qa/final-frames/25-expiration-01652.png",
+        "qa/final-frames/25-expiration-02644.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F30",
     "name": "Mi acceso: copiar, recordar y quitar",
     "frontendEvidence": [
       "src/app/pages/client-wallet/client-wallet.html:3",
-      "src/app/pages/client-wallet/client-wallet.html:4",
       "src/app/pages/client-wallet/client-wallet.html:10",
       "src/app/pages/client-wallet/client-wallet.html:11",
-      "src/app/pages/client-wallet/client-wallet.html:12",
-      "src/app/pages/client-wallet/client-wallet.html:17",
+      "src/app/pages/client-wallet/client-wallet.html:15",
       "src/app/pages/client-wallet/client-wallet.html:21",
       "src/app/pages/client-wallet/client-wallet.html:26",
       "src/app/pages/client-wallet/client-wallet.html:35",
       "src/app/pages/client-wallet/client-wallet.html:41",
       "src/app/pages/client-wallet/client-wallet.html:48",
-      "src/app/pages/client-wallet/client-wallet.html:49",
       "src/app/pages/client-wallet/client-wallet.html:54",
       "src/app/pages/client-wallet/client-wallet.html:56",
       "src/app/pages/client-wallet/client-wallet.html:57",
-      "src/app/pages/client-wallet/client-wallet.html:64",
-      "src/app/pages/client-wallet/client-wallet.html:71",
-      "src/app/pages/client-wallet/client-wallet.html:81",
-      "src/app/pages/client-wallet/client-wallet.html:86",
-      "src/app/pages/client-wallet/client-wallet.html:92"
+      "src/app/pages/client-wallet/client-wallet.html:59",
+      "src/app/pages/client-wallet/client-wallet.html:65",
+      "src/app/pages/client-wallet/client-wallet.html:72",
+      "src/app/pages/client-wallet/client-wallet.html:82",
+      "src/app/pages/client-wallet/client-wallet.html:87"
     ],
     "scene": "26-wallet-access",
-    "recording": "recordings/26-wallet-access-1793728544741.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "Acceso local y enlace de consulta; no es una nueva cuenta."
+    "recording": "recordings/26-wallet-access-1794068065952.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/26-wallet-access.wav",
+      "sha256": "6cadb901a613c42c37900b381bf95668b50afb0e02de845b6d5f9a075073b3cc",
+      "alignment": "audio/26-wallet-access.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "Acceso local y enlace de consulta; no es una nueva cuenta.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 812,
+      "endSeconds": 848.9,
+      "timecode": "13:32"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/26-wallet-access-1794068065952.mp4",
+      "visibleResults": [
+        "Wallet link saved and copied",
+        "Saved wallet reopened from actual current home entry",
+        "Remembered access removed",
+        "Switch person returns to real country-DNI lookup"
+      ],
+      "httpStatuses": [
+        401,
+        200
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/26-wallet-access-00738.png",
+        "qa/final-frames/26-wallet-access-01845.png",
+        "qa/final-frames/26-wallet-access-02952.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F31",
@@ -540,10 +1527,65 @@
       "src/app/components/install-guide/install-guide.html:8"
     ],
     "scene": "26-wallet-access",
-    "recording": "recordings/26-wallet-access-1793728544741.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "Guía real; disponibilidad de instalación depende del navegador."
+    "recording": "recordings/26-wallet-access-1794068065952.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/26-wallet-access.wav",
+      "sha256": "6cadb901a613c42c37900b381bf95668b50afb0e02de845b6d5f9a075073b3cc",
+      "alignment": "audio/26-wallet-access.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "Guía real; disponibilidad de instalación depende del navegador.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 812,
+      "endSeconds": 848.9,
+      "timecode": "13:32"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/26-wallet-access-1794068065952.mp4",
+      "visibleResults": [
+        "Wallet link saved and copied",
+        "Saved wallet reopened from actual current home entry",
+        "Remembered access removed",
+        "Switch person returns to real country-DNI lookup"
+      ],
+      "httpStatuses": [
+        401,
+        200
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/26-wallet-access-00738.png",
+        "qa/final-frames/26-wallet-access-01845.png",
+        "qa/final-frames/26-wallet-access-02952.png"
+      ],
+      "review": "qa/visual-review.json",
+      "supplement": {
+        "scene": "26-wallet-access",
+        "kind": "GENUINE_RESPONSIVE_TAB_RECORDING",
+        "file": "recordings/26-wallet-access-guide-hd-1794071162787.mp4",
+        "original": "recordings/26-wallet-access-guide-hd-1794071162787.webm",
+        "sourceStart": 67,
+        "sourceFrames": 202,
+        "from": 1249,
+        "durationInFrames": 426,
+        "width": 1920,
+        "height": 1080,
+        "audioSha256": "6cadb901a613c42c37900b381bf95668b50afb0e02de845b6d5f9a075073b3cc",
+        "caption": "Vista en pantalla pequeña",
+        "evidence": [
+          {
+            "label": "Actual browser-dependent install guidance expanded",
+            "url": "/client/Mq0Xm_mZUvqp/access",
+            "at": 1794071161498.0999
+          }
+        ],
+        "installation": "Actual guidance expanded; any browser install prompt dismissed with Escape. No OS installation claimed."
+      }
+    }
   },
   {
     "id": "F32",
@@ -558,10 +1600,44 @@
       "src/app/components/dashboard/components/role-admin-view/role-admin-view.html:158"
     ],
     "scene": "27-company-status",
-    "recording": "recordings/27-company-status-1793728582160.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "No libera cupo de comercios; plan expirado o ausente restringe funciones."
+    "recording": "recordings/27-company-status-1794068114362.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/27-company-status.wav",
+      "sha256": "1f36ef6b252d75dad0c97157abc56dc496952dd165d957b00976c50a1951f868",
+      "alignment": "audio/27-company-status.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "No libera cupo de comercios; plan expirado o ausente restringe funciones.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 848.9,
+      "endSeconds": 879.95,
+      "timecode": "14:08"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/27-company-status-1794068114362.mp4",
+      "visibleResults": [
+        "Company availability confirmation",
+        "Company disabled",
+        "Company enabled again",
+        "Real account without plan",
+        "Actual plan-limit page opened without creating a business or buying a plan"
+      ],
+      "httpStatuses": [
+        200,
+        204
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/27-company-status-00621.png",
+        "qa/final-frames/27-company-status-01552.png",
+        "qa/final-frames/27-company-status-02484.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F33",
@@ -574,10 +1650,41 @@
       "src/app/components/dashboard/components/role-app-admin-view/role-app-admin-view.html:104"
     ],
     "scene": "28-roles",
-    "recording": "recordings/28-roles-1793728620825.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "Vista global; el backend no habilita automáticamente toda acción visible."
+    "recording": "recordings/28-roles-1794067138961.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/28-roles.wav",
+      "sha256": "63e5b213d3343c49067ea8e3b74999a1edf77126e61a452e17dae16c8871ca3e",
+      "alignment": "audio/28-roles.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "Vista global; el backend no habilita automáticamente toda acción visible.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 879.95,
+      "endSeconds": 912.7666666666667,
+      "timecode": "14:39"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/28-roles-1794067138961.mp4",
+      "visibleResults": [
+        "Global administrator company table",
+        "Admin-specific navigation and limits"
+      ],
+      "httpStatuses": [
+        403,
+        200
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/28-roles-00656.png",
+        "qa/final-frames/28-roles-01641.png",
+        "qa/final-frames/28-roles-02625.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   },
   {
     "id": "F34",
@@ -590,9 +1697,44 @@
       "src/app/components/account-menu/account-menu.html:15"
     ],
     "scene": "29-help",
-    "recording": "recordings/29-help-1793728659997.mp4",
-    "narration": "script/chapters.mjs",
-    "state": "RECORDED_AWAITING_FINAL_CROSSCHECK",
-    "note": "Reintentos diferenciados de lista vacía; cierre de sesión real."
+    "recording": "recordings/29-help-1794068532076.mp4",
+    "narration": {
+      "script": "script/chapters.mjs",
+      "audio": "audio/29-help.wav",
+      "sha256": "c5ae82977f17caef300e7e0a8b31b3d085ca8b4906846f29b1624849d02b9270",
+      "alignment": "audio/29-help.alignment.json",
+      "subtitles": "script/pointly-tutorial.srt"
+    },
+    "state": "DEMONSTRATED_AND_NARRATED",
+    "note": "Reintentos diferenciados de lista vacía; cierre de sesión real.",
+    "export": {
+      "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+      "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+      "startSeconds": 912.7666666666667,
+      "endSeconds": 944.4666666666667,
+      "timecode": "15:12"
+    },
+    "validation": {
+      "source": true,
+      "realCapture": "recordings/29-help-1794068532076.mp4",
+      "visibleResults": [
+        "Real local read request interrupted; frontend load-error state",
+        "Read retry recovered real client list",
+        "Genuine empty search distinguished from load error",
+        "Actual dark theme",
+        "Commercial quick actions available while signed in",
+        "Session closed",
+        "Public frequently asked questions after logout"
+      ],
+      "httpStatuses": [
+        200
+      ],
+      "finalFrameSamples": [
+        "qa/final-frames/29-help-00634.png",
+        "qa/final-frames/29-help-01585.png",
+        "qa/final-frames/29-help-02536.png"
+      ],
+      "review": "qa/visual-review.json"
+    }
   }
 ]

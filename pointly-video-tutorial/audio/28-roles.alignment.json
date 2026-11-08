@@ -2,12 +2,12 @@
   "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
   "audio_sha256": "63e5b213d3343c49067ea8e3b74999a1edf77126e61a452e17dae16c8871ca3e",
   "transcript": "La cuenta de comercio administra sus propios negocios. La administración general tiene una vista diferente con empresas de toda la plataforma, sus reglas y sus estados. Algunas acciones visibles pueden seguir restringidas por el servidor. No tener permiso no se resuelve cambiando la dirección de la página. Este tutorial usa la cuenta comercial para las tareas diarias. El asistente de inteligencia artificial y los niveles de fidelidad están desactivados en esta versión, aunque exista código histórico. No son herramientas disponibles que tengas que configurar.",
-  "scriptSimilarity": 1.0,
+  "scriptSimilarity": 1,
   "differences": [],
   "words": [
     {
       "word": "La",
-      "start": 0.0,
+      "start": 0,
       "end": 0.44,
       "probability": 0.7571129202842712,
       "display": "La"
@@ -57,7 +57,7 @@
     {
       "word": "negocios.",
       "start": 2.58,
-      "end": 3.0,
+      "end": 3,
       "probability": 0.9976548552513123,
       "display": "negocios."
     },
@@ -600,64 +600,69 @@
       "startMs": 0,
       "endMs": 3000,
       "timestampMs": null,
-      "confidence": 0.945
+      "confidence": 0.9453655630350113
     },
     {
-      "text": "La administración general tiene una vista diferente con empresas de toda la",
+      "text": "La administración general tiene una vista diferente con empresas de toda la plataforma,",
       "startMs": 3520,
-      "endMs": 7240,
+      "endMs": 7700,
       "timestampMs": null,
-      "confidence": 0.98
+      "confidence": 0.9807842648946322
     },
     {
-      "text": "plataforma, sus reglas y sus estados.",
-      "startMs": 7240,
+      "text": "sus reglas y sus estados.",
+      "startMs": 8160,
       "endMs": 9760,
       "timestampMs": null,
-      "confidence": 0.982
+      "confidence": 0.9797374606132507
     },
     {
       "text": "Algunas acciones visibles pueden seguir restringidas por el servidor:",
       "startMs": 10380,
       "endMs": 13920,
       "timestampMs": null,
-      "confidence": 0.987
+      "confidence": 0.9867962797482809
     },
     {
       "text": "no tener permiso no se resuelve cambiando la dirección de la página.",
       "startMs": 14360,
       "endMs": 17700,
       "timestampMs": null,
-      "confidence": 0.989
+      "confidence": 0.9889007781942686
     },
     {
       "text": "Este tutorial usa la cuenta comercial para las tareas diarias.",
       "startMs": 18200,
       "endMs": 21460,
       "timestampMs": null,
-      "confidence": 0.993
+      "confidence": 0.9927816420793534
     },
     {
-      "text": "El asistente de inteligencia artificial y los niveles de fidelidad están",
+      "text": "El asistente de inteligencia artificial y los niveles de fidelidad están desactivados en",
       "startMs": 22040,
-      "endMs": 25760,
+      "endMs": 26600,
       "timestampMs": null,
-      "confidence": 0.976
+      "confidence": 0.9787929409589522
     },
     {
-      "text": "desactivados en esta versión, aunque exista código histórico:",
-      "startMs": 25760,
+      "text": "esta versión, aunque exista código histórico:",
+      "startMs": 26600,
       "endMs": 29020,
       "timestampMs": null,
-      "confidence": 0.981
+      "confidence": 0.9751118918259939
     },
     {
       "text": "no son herramientas disponibles que tengas que configurar.",
       "startMs": 29020,
       "endMs": 31920,
       "timestampMs": null,
-      "confidence": 0.96
+      "confidence": 0.9598988592624664
     }
   ],
-  "status": "ACOUSTIC_MATCH"
+  "status": "ACOUSTIC_MATCH",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [],
+    "sourceAudioHash": "63e5b213d3343c49067ea8e3b74999a1edf77126e61a452e17dae16c8871ca3e"
+  }
 }

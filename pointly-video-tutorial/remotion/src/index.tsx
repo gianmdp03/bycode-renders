@@ -31,67 +31,67 @@ import {Scene29} from './Scene29';
 import {Scene30} from './Scene30';
 export const Tutorial=()=> <AbsoluteFill>
  <Sequence from={0} durationInFrames={1551} name="Pointly, paso a paso"><Scene1/></Sequence>
- <Sequence from={1551} durationInFrames={1878} name="Ingresar a tu cuenta"><Scene2/></Sequence>
- <Sequence from={3429} durationInFrames={1551} name="Primer ingreso"><Scene3/></Sequence>
- <Sequence from={4980} durationInFrames={1705} name="Crear el comercio"><Scene4/></Sequence>
- <Sequence from={6685} durationInFrames={1916} name="Reglas y vencimientos"><Scene5/></Sequence>
- <Sequence from={8601} durationInFrames={1887} name="Foto y enlace del comercio"><Scene6/></Sequence>
- <Sequence from={10488} durationInFrames={2142} name="Orientarse en el panel"><Scene7/></Sequence>
- <Sequence from={12630} durationInFrames={1887} name="Agregar un cliente"><Scene8/></Sequence>
- <Sequence from={14517} durationInFrames={1844} name="Registro por QR"><Scene9/></Sequence>
- <Sequence from={16361} durationInFrames={1887} name="Buscar y revisar clientes"><Scene10/></Sequence>
- <Sequence from={18248} durationInFrames={1815} name="Registrar una compra"><Scene11/></Sequence>
- <Sequence from={20063} durationInFrames={1884} name="Ventas e incidencias"><Scene12/></Sequence>
- <Sequence from={21947} durationInFrames={1773} name="Crear una promoción"><Scene13/></Sequence>
- <Sequence from={23720} durationInFrames={1795} name="Editar, pausar y eliminar"><Scene14/></Sequence>
- <Sequence from={25515} durationInFrames={1973} name="Productos del catálogo"><Scene15/></Sequence>
- <Sequence from={27488} durationInFrames={1795} name="Premios físicos y calculadora"><Scene16/></Sequence>
- <Sequence from={29283} durationInFrames={1884} name="Vouchers de descuento"><Scene17/></Sequence>
- <Sequence from={31167} durationInFrames={1662} name="Administrar premios"><Scene18/></Sequence>
- <Sequence from={32829} durationInFrames={1995} name="Registrar un canje"><Scene19/></Sequence>
- <Sequence from={34824} durationInFrames={1728} name="Cuando no se puede canjear"><Scene20/></Sequence>
- <Sequence from={36552} durationInFrames={1751} name="Clientes sin actividad"><Scene21/></Sequence>
- <Sequence from={38303} durationInFrames={1839} name="Archivar y reactivar"><Scene22/></Sequence>
- <Sequence from={40142} durationInFrames={2017} name="Correos a clientes"><Scene23/></Sequence>
- <Sequence from={42159} durationInFrames={1773} name="La billetera del cliente"><Scene24/></Sequence>
- <Sequence from={43932} durationInFrames={1884} name="Detalle de puntos"><Scene25/></Sequence>
- <Sequence from={45816} durationInFrames={1773} name="Guardar el acceso"><Scene26/></Sequence>
- <Sequence from={47589} durationInFrames={1862} name="Estado del comercio y plan"><Scene27/></Sequence>
- <Sequence from={49451} durationInFrames={1906} name="Permisos y administración"><Scene28/></Sequence>
- <Sequence from={51357} durationInFrames={1884} name="Ayuda y problemas frecuentes"><Scene29/></Sequence>
- <Sequence from={53241} durationInFrames={1506} name="Listo para el uso diario"><Scene30/></Sequence>
+ <Sequence from={1551} durationInFrames={2222} name="Ingresar a tu cuenta"><Scene2/></Sequence>
+ <Sequence from={3773} durationInFrames={1551} name="Primer ingreso"><Scene3/></Sequence>
+ <Sequence from={5324} durationInFrames={1705} name="Crear el comercio"><Scene4/></Sequence>
+ <Sequence from={7029} durationInFrames={2060} name="Reglas y vencimientos"><Scene5/></Sequence>
+ <Sequence from={9089} durationInFrames={1988} name="Foto y enlace del comercio"><Scene6/></Sequence>
+ <Sequence from={11077} durationInFrames={2324} name="Orientarse en el panel"><Scene7/></Sequence>
+ <Sequence from={13401} durationInFrames={2085} name="Agregar un cliente"><Scene8/></Sequence>
+ <Sequence from={15486} durationInFrames={1844} name="Registro por QR"><Scene9/></Sequence>
+ <Sequence from={17330} durationInFrames={2324} name="Buscar y revisar clientes"><Scene10/></Sequence>
+ <Sequence from={19654} durationInFrames={1815} name="Registrar una compra"><Scene11/></Sequence>
+ <Sequence from={21469} durationInFrames={2185} name="Ventas e incidencias"><Scene12/></Sequence>
+ <Sequence from={23654} durationInFrames={1849} name="Crear una promoción"><Scene13/></Sequence>
+ <Sequence from={25503} durationInFrames={1787} name="Editar, pausar y eliminar"><Scene14/></Sequence>
+ <Sequence from={27290} durationInFrames={2391} name="Productos del catálogo"><Scene15/></Sequence>
+ <Sequence from={29681} durationInFrames={1952} name="Premios físicos y calculadora"><Scene16/></Sequence>
+ <Sequence from={31633} durationInFrames={1729} name="Vouchers de descuento"><Scene17/></Sequence>
+ <Sequence from={33362} durationInFrames={1772} name="Administrar premios"><Scene18/></Sequence>
+ <Sequence from={35134} durationInFrames={1883} name="Registrar un canje"><Scene19/></Sequence>
+ <Sequence from={37017} durationInFrames={1887} name="Cuando no se puede canjear"><Scene20/></Sequence>
+ <Sequence from={38904} durationInFrames={1767} name="Clientes sin actividad"><Scene21/></Sequence>
+ <Sequence from={40671} durationInFrames={1777} name="Archivar y reactivar"><Scene22/></Sequence>
+ <Sequence from={42448} durationInFrames={1979} name="Correos a clientes"><Scene23/></Sequence>
+ <Sequence from={44427} durationInFrames={2310} name="La billetera del cliente"><Scene24/></Sequence>
+ <Sequence from={46737} durationInFrames={1983} name="Detalle de puntos"><Scene25/></Sequence>
+ <Sequence from={48720} durationInFrames={2214} name="Guardar el acceso"><Scene26/></Sequence>
+ <Sequence from={50934} durationInFrames={1863} name="Estado del comercio y plan"><Scene27/></Sequence>
+ <Sequence from={52797} durationInFrames={1969} name="Permisos y administración"><Scene28/></Sequence>
+ <Sequence from={54766} durationInFrames={1902} name="Ayuda y problemas frecuentes"><Scene29/></Sequence>
+ <Sequence from={56668} durationInFrames={1556} name="Listo para el uso diario"><Scene30/></Sequence>
 </AbsoluteFill>;
 const Root=()=> <>
- <Composition id="PointlyTutorial" component={Tutorial} durationInFrames={54747} fps={60} width={1920} height={1080}/>
+ <Composition id="PointlyTutorial" component={Tutorial} durationInFrames={58224} fps={60} width={1920} height={1080}/>
  <Composition id="Chapter1" component={Scene1} durationInFrames={1551} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
- <Composition id="Chapter2" component={Scene2} durationInFrames={1878} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
+ <Composition id="Chapter2" component={Scene2} durationInFrames={2222} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
  <Composition id="Chapter3" component={Scene3} durationInFrames={1551} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
  <Composition id="Chapter4" component={Scene4} durationInFrames={1705} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
- <Composition id="Chapter5" component={Scene5} durationInFrames={1916} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
- <Composition id="Chapter6" component={Scene6} durationInFrames={1887} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
- <Composition id="Chapter7" component={Scene7} durationInFrames={2142} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
- <Composition id="Chapter8" component={Scene8} durationInFrames={1887} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
+ <Composition id="Chapter5" component={Scene5} durationInFrames={2060} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
+ <Composition id="Chapter6" component={Scene6} durationInFrames={1988} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
+ <Composition id="Chapter7" component={Scene7} durationInFrames={2324} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
+ <Composition id="Chapter8" component={Scene8} durationInFrames={2085} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
  <Composition id="Chapter9" component={Scene9} durationInFrames={1844} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
- <Composition id="Chapter10" component={Scene10} durationInFrames={1887} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
+ <Composition id="Chapter10" component={Scene10} durationInFrames={2324} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
  <Composition id="Chapter11" component={Scene11} durationInFrames={1815} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
- <Composition id="Chapter12" component={Scene12} durationInFrames={1884} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
- <Composition id="Chapter13" component={Scene13} durationInFrames={1773} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
- <Composition id="Chapter14" component={Scene14} durationInFrames={1795} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
- <Composition id="Chapter15" component={Scene15} durationInFrames={1973} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
- <Composition id="Chapter16" component={Scene16} durationInFrames={1795} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
- <Composition id="Chapter17" component={Scene17} durationInFrames={1884} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
- <Composition id="Chapter18" component={Scene18} durationInFrames={1662} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
- <Composition id="Chapter19" component={Scene19} durationInFrames={1995} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
- <Composition id="Chapter20" component={Scene20} durationInFrames={1728} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
- <Composition id="Chapter21" component={Scene21} durationInFrames={1751} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
- <Composition id="Chapter22" component={Scene22} durationInFrames={1839} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
- <Composition id="Chapter23" component={Scene23} durationInFrames={2017} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
- <Composition id="Chapter24" component={Scene24} durationInFrames={1773} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
- <Composition id="Chapter25" component={Scene25} durationInFrames={1884} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
- <Composition id="Chapter26" component={Scene26} durationInFrames={1773} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
- <Composition id="Chapter27" component={Scene27} durationInFrames={1862} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
- <Composition id="Chapter28" component={Scene28} durationInFrames={1906} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
- <Composition id="Chapter29" component={Scene29} durationInFrames={1884} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
- <Composition id="Chapter30" component={Scene30} durationInFrames={1506} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
+ <Composition id="Chapter12" component={Scene12} durationInFrames={2185} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
+ <Composition id="Chapter13" component={Scene13} durationInFrames={1849} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
+ <Composition id="Chapter14" component={Scene14} durationInFrames={1787} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
+ <Composition id="Chapter15" component={Scene15} durationInFrames={2391} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
+ <Composition id="Chapter16" component={Scene16} durationInFrames={1952} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
+ <Composition id="Chapter17" component={Scene17} durationInFrames={1729} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
+ <Composition id="Chapter18" component={Scene18} durationInFrames={1772} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
+ <Composition id="Chapter19" component={Scene19} durationInFrames={1883} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
+ <Composition id="Chapter20" component={Scene20} durationInFrames={1887} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
+ <Composition id="Chapter21" component={Scene21} durationInFrames={1767} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
+ <Composition id="Chapter22" component={Scene22} durationInFrames={1777} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
+ <Composition id="Chapter23" component={Scene23} durationInFrames={1979} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
+ <Composition id="Chapter24" component={Scene24} durationInFrames={2310} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
+ <Composition id="Chapter25" component={Scene25} durationInFrames={1983} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
+ <Composition id="Chapter26" component={Scene26} durationInFrames={2214} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
+ <Composition id="Chapter27" component={Scene27} durationInFrames={1863} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
+ <Composition id="Chapter28" component={Scene28} durationInFrames={1969} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
+ <Composition id="Chapter29" component={Scene29} durationInFrames={1902} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
+ <Composition id="Chapter30" component={Scene30} durationInFrames={1556} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
 </>;
 registerRoot(Root);

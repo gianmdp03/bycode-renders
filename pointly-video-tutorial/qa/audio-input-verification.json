@@ -1,0 +1,602 @@
+{
+  "state": "PASS",
+  "narratedChapters": 30,
+  "consistentSyntheticMaleReference": true,
+  "externalVoiceAPI": false,
+  "method": "File hashes, PCM format/peak, independent local acoustic transcription and timing, reviewed Spanish tokenization, silence analysis. No claim of a human listening session.",
+  "chapters": [
+    {
+      "id": "01-intro",
+      "state": "PASS",
+      "durationSeconds": 25.2,
+      "peakDbFS": -4.51,
+      "sha256": "9aee2db221827ef075eb3a6520ba1be34c2c5fe0f5b93bad44879a9b288d3481",
+      "scriptSimilarity": 1,
+      "differences": [],
+      "captionCorrections": [],
+      "captionCount": 8,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "02-access",
+      "state": "PASS",
+      "durationSeconds": 35.68,
+      "peakDbFS": -4.51,
+      "sha256": "03e3182275f840c1779f511c6a6b020b03ce6cf63cb8c977bd9d996d15967ba9",
+      "scriptSimilarity": 1,
+      "differences": [],
+      "captionCorrections": [],
+      "captionCount": 10,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "03-profile",
+      "state": "PASS",
+      "durationSeconds": 25.2,
+      "peakDbFS": -4.51,
+      "sha256": "049282e3476b7cb4212a6d05b030d182afb7b5f7ea2d6107f4a2ea0e61e0e018",
+      "scriptSimilarity": 0.9787,
+      "differences": [
+        {
+          "op": "replace",
+          "expected": "continuá al",
+          "heard": "continúal"
+        }
+      ],
+      "captionCorrections": [
+        [
+          "continúal",
+          "continuá al"
+        ]
+      ],
+      "captionCount": 8,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "04-company",
+      "state": "PASS",
+      "durationSeconds": 27.76,
+      "peakDbFS": -4.51,
+      "sha256": "0b59459181865917d597575e4ea1739b80203465b7a335304b4e67244234959f",
+      "scriptSimilarity": 1,
+      "differences": [],
+      "captionCorrections": [],
+      "captionCount": 9,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "05-settings",
+      "state": "PASS",
+      "durationSeconds": 33.68,
+      "peakDbFS": -4.51,
+      "sha256": "cf04375f9ab8d90db851840808e61a0e825648e388fd9e8b818a27d0b3f32a00",
+      "scriptSimilarity": 0.9884,
+      "differences": [
+        {
+          "op": "replace",
+          "expected": "Bronce,",
+          "heard": "bronze,"
+        }
+      ],
+      "captionCorrections": [
+        [
+          "bronze,",
+          "Bronce,"
+        ]
+      ],
+      "captionCount": 9,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "06-photo",
+      "state": "PASS",
+      "durationSeconds": 32.48,
+      "peakDbFS": -4.51,
+      "sha256": "3a171af5bec9d8964a05b2d1d173b62e7b3b70822efee44a56419c505cc9e5f2",
+      "scriptSimilarity": 0.9762,
+      "differences": [
+        {
+          "op": "replace",
+          "expected": "diez megabytes.",
+          "heard": "10 MB."
+        }
+      ],
+      "captionCorrections": [],
+      "captionCount": 8,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "07-navigation",
+      "state": "PASS",
+      "durationSeconds": 38.08,
+      "peakDbFS": -4.51,
+      "sha256": "49d017f6c1e450f5d7fe125fea8680c5db8dff9bc20fea46de9fb94ac65d537c",
+      "scriptSimilarity": 0.9643,
+      "differences": [
+        {
+          "op": "replace",
+          "expected": "Resumen",
+          "heard": "Resume en"
+        },
+        {
+          "op": "replace",
+          "expected": "Sin actividad,",
+          "heard": "sinactividad,"
+        }
+      ],
+      "captionCorrections": [
+        [
+          "Resume en",
+          "Resumen"
+        ],
+        [
+          "sinactividad,",
+          "Sin actividad,"
+        ]
+      ],
+      "captionCount": 11,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "08-client",
+      "state": "PASS",
+      "durationSeconds": 34.085,
+      "peakDbFS": -4.08,
+      "sha256": "2729139508bcbc057325a8dbbaa4d09da0f1737488d27abb5b18ac5dc566cff8",
+      "scriptSimilarity": 1,
+      "differences": [],
+      "captionCorrections": [],
+      "captionCount": 10,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "09-qr",
+      "state": "PASS",
+      "durationSeconds": 30.08,
+      "peakDbFS": -4.51,
+      "sha256": "64e786238d810b879b39d908e90186a129ef3bcd151c844bae773cb11cc02da8",
+      "scriptSimilarity": 1,
+      "differences": [],
+      "captionCorrections": [],
+      "captionCount": 8,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "10-search",
+      "state": "PASS",
+      "durationSeconds": 38.08,
+      "peakDbFS": -4.51,
+      "sha256": "1426c16dc098e06d11480db72e0be5b37d3954d8f7eea8baedb00b0806806467",
+      "scriptSimilarity": 0.9851,
+      "differences": [
+        {
+          "op": "replace",
+          "expected": "Ver detalle",
+          "heard": "Verdetalle"
+        }
+      ],
+      "captionCorrections": [
+        [
+          "Verdetalle",
+          "Ver detalle"
+        ]
+      ],
+      "captionCount": 11,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "11-sale",
+      "state": "PASS",
+      "durationSeconds": 29.6,
+      "peakDbFS": -4.51,
+      "sha256": "9198304ab33265dae36c439c76a235dc98c8999c73ae61633169ab0522655716",
+      "scriptSimilarity": 0.9172,
+      "differences": [
+        {
+          "op": "replace",
+          "expected": "ocho mil quinientos",
+          "heard": "8 .500"
+        },
+        {
+          "op": "replace",
+          "expected": "ocho",
+          "heard": "8"
+        },
+        {
+          "op": "replace",
+          "expected": "mil",
+          "heard": "1000"
+        },
+        {
+          "op": "replace",
+          "expected": "ochenta",
+          "heard": "80"
+        },
+        {
+          "op": "replace",
+          "expected": "quinientos",
+          "heard": "500"
+        }
+      ],
+      "captionCorrections": [
+        [
+          "8 .500",
+          "8.500"
+        ]
+      ],
+      "captionCount": 8,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "12-sales-history",
+      "state": "PASS",
+      "durationSeconds": 35.76,
+      "peakDbFS": -4.51,
+      "sha256": "ca9775fdb9e8ac8a7b2fc131df4748042dd58d6cb4cf3be3160ccd5d59e248a9",
+      "scriptSimilarity": 0.9895,
+      "differences": [
+        {
+          "op": "replace",
+          "expected": "usá",
+          "heard": "usar"
+        }
+      ],
+      "captionCorrections": [
+        [
+          "usar",
+          "usá"
+        ]
+      ],
+      "captionCount": 10,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "13-promotion",
+      "state": "PASS",
+      "durationSeconds": 30.16,
+      "peakDbFS": -4.51,
+      "sha256": "0b6699b469ccaadd1f40902f3a9bed6b346a30b6cd12c35be51d69bd280d4041",
+      "scriptSimilarity": 0.9697,
+      "differences": [
+        {
+          "op": "replace",
+          "expected": "cincuenta por ciento",
+          "heard": "50 %"
+        }
+      ],
+      "captionCorrections": [],
+      "captionCount": 9,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "14-promotion-life",
+      "state": "PASS",
+      "durationSeconds": 29.12,
+      "peakDbFS": -4.51,
+      "sha256": "4d4eae337bd129a96239f3da50c834e462de9adfa20f94fb44f53dbc84c76e9f",
+      "scriptSimilarity": 0.9747,
+      "differences": [
+        {
+          "op": "replace",
+          "expected": "cancelá",
+          "heard": "cancelás"
+        },
+        {
+          "op": "replace",
+          "expected": "comprobá",
+          "heard": "comprova"
+        }
+      ],
+      "captionCorrections": [
+        [
+          "cancelás",
+          "cancelá"
+        ],
+        [
+          "comprova",
+          "comprobá"
+        ]
+      ],
+      "captionCount": 8,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "15-products",
+      "state": "PASS",
+      "durationSeconds": 39.2,
+      "peakDbFS": -4.51,
+      "sha256": "db67feb29c4e4799dc7e5a07d44cf0783158985c5511d04c95ee4bed8fa6615f",
+      "scriptSimilarity": 0.9905,
+      "differences": [
+        {
+          "op": "replace",
+          "expected": "dejarlo",
+          "heard": "dejarlos"
+        }
+      ],
+      "captionCorrections": [],
+      "captionCount": 12,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "16-physical-reward",
+      "state": "PASS",
+      "durationSeconds": 31.12,
+      "peakDbFS": -4.51,
+      "sha256": "53c93bf4a76cde2a8ae29c2ced1a60a90193c683362568477ecbb6a0f17ce92b",
+      "scriptSimilarity": 1,
+      "differences": [],
+      "captionCorrections": [],
+      "captionCount": 9,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "17-voucher",
+      "state": "PASS",
+      "durationSeconds": 28.16,
+      "peakDbFS": -4.51,
+      "sha256": "063b7acb5c67d7fe5992801bb7a11f8d73f329bbd3692d797d8495657713c474",
+      "scriptSimilarity": 0.9268,
+      "differences": [
+        {
+          "op": "replace",
+          "expected": "diez por ciento",
+          "heard": "10 %"
+        },
+        {
+          "op": "replace",
+          "expected": "dos mil",
+          "heard": "2000"
+        },
+        {
+          "op": "replace",
+          "expected": "cero",
+          "heard": "0"
+        },
+        {
+          "op": "replace",
+          "expected": "cien.",
+          "heard": "100."
+        }
+      ],
+      "captionCorrections": [],
+      "captionCount": 8,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "18-reward-life",
+      "state": "PASS",
+      "durationSeconds": 28.88,
+      "peakDbFS": -4.51,
+      "sha256": "6db33489b7f9ab450cc6febeae96ac6383d821389472238cdb73a0527ecd22c7",
+      "scriptSimilarity": 0.9793,
+      "differences": [
+        {
+          "op": "replace",
+          "expected": "lo quita",
+          "heard": "loquita"
+        }
+      ],
+      "captionCorrections": [
+        [
+          "loquita",
+          "lo quita"
+        ]
+      ],
+      "captionCount": 8,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "19-redeem",
+      "state": "PASS",
+      "durationSeconds": 30.72,
+      "peakDbFS": -4.51,
+      "sha256": "c79a06b337d69cd78dfaf90c10cc750b9a475ad4aa2fa8b6dae79ac7cf18bb2b",
+      "scriptSimilarity": 0.9773,
+      "differences": [
+        {
+          "op": "replace",
+          "expected": "Verificá",
+          "heard": "verificar"
+        },
+        {
+          "op": "replace",
+          "expected": "ochenta",
+          "heard": "80"
+        }
+      ],
+      "captionCorrections": [
+        [
+          "verificar",
+          "Verificá"
+        ]
+      ],
+      "captionCount": 8,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "20-redeem-errors",
+      "state": "PASS",
+      "durationSeconds": 30.8,
+      "peakDbFS": -4.51,
+      "sha256": "387e6efc7315e0e5c34432ca723065166beeca7201009b976167768943ea88ce",
+      "scriptSimilarity": 1,
+      "differences": [],
+      "captionCorrections": [],
+      "captionCount": 10,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "21-inactive",
+      "state": "PASS",
+      "durationSeconds": 28.8,
+      "peakDbFS": -4.51,
+      "sha256": "f3e3e2695d9780b8f57be21fcc2af9504c3ee9ac035189a2e2afc84876ae6d50",
+      "scriptSimilarity": 1,
+      "differences": [],
+      "captionCorrections": [],
+      "captionCount": 9,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "22-archive",
+      "state": "PASS",
+      "durationSeconds": 28.96,
+      "peakDbFS": -4.51,
+      "sha256": "4040d26d54c4581ddeccec0c4e41a1800b02cb50be6904b39ed4930176a2a74f",
+      "scriptSimilarity": 1,
+      "differences": [],
+      "captionCorrections": [],
+      "captionCount": 9,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "23-emails",
+      "state": "PASS",
+      "durationSeconds": 32.32,
+      "peakDbFS": -4.51,
+      "sha256": "d99c28b9b27d4e6e8e5154197ce89b3f1e0c884815d697a8d1b37ff2d842abbf",
+      "scriptSimilarity": 1,
+      "differences": [],
+      "captionCorrections": [],
+      "captionCount": 11,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "24-wallet",
+      "state": "PASS",
+      "durationSeconds": 37.84,
+      "peakDbFS": -4.51,
+      "sha256": "7cf2ff14f5243c2beb9fa5fa533758ef5a6d2b004fcb7038781d6e9175b6fb9a",
+      "scriptSimilarity": 1,
+      "differences": [],
+      "captionCorrections": [],
+      "captionCount": 12,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "25-expiration",
+      "state": "PASS",
+      "durationSeconds": 32.4,
+      "peakDbFS": -4.51,
+      "sha256": "0bb8ff87830b376e8b75fc16d737e6585f1ee3c514456711a7d6b3eb06aca85f",
+      "scriptSimilarity": 0.978,
+      "differences": [
+        {
+          "op": "replace",
+          "expected": "detalle",
+          "heard": "detalles"
+        },
+        {
+          "op": "replace",
+          "expected": "Revisá",
+          "heard": "Revisar"
+        }
+      ],
+      "captionCorrections": [],
+      "captionCount": 10,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "26-wallet-access",
+      "state": "PASS",
+      "durationSeconds": 36.24,
+      "peakDbFS": -4.51,
+      "sha256": "6cadb901a613c42c37900b381bf95668b50afb0e02de845b6d5f9a075073b3cc",
+      "scriptSimilarity": 0.9674,
+      "differences": [
+        {
+          "op": "replace",
+          "expected": "Ver mi",
+          "heard": "verme"
+        },
+        {
+          "op": "insert",
+          "expected": "",
+          "heard": "a"
+        },
+        {
+          "op": "replace",
+          "expected": "DNI",
+          "heard": "DNE"
+        }
+      ],
+      "captionCorrections": [
+        [
+          "verme",
+          "Ver mi"
+        ],
+        [
+          "DNE",
+          "DNI"
+        ]
+      ],
+      "captionCount": 10,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "27-company-status",
+      "state": "PASS",
+      "durationSeconds": 30.4,
+      "peakDbFS": -4.51,
+      "sha256": "1f36ef6b252d75dad0c97157abc56dc496952dd165d957b00976c50a1951f868",
+      "scriptSimilarity": 0.9634,
+      "differences": [
+        {
+          "op": "replace",
+          "expected": "treinta",
+          "heard": "30"
+        },
+        {
+          "op": "replace",
+          "expected": "habilitalo",
+          "heard": "habilitarlo"
+        },
+        {
+          "op": "replace",
+          "expected": "revisá",
+          "heard": "revisar"
+        }
+      ],
+      "captionCorrections": [],
+      "captionCount": 11,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "28-roles",
+      "state": "PASS",
+      "durationSeconds": 32.16,
+      "peakDbFS": -4.51,
+      "sha256": "63e5b213d3343c49067ea8e3b74999a1edf77126e61a452e17dae16c8871ca3e",
+      "scriptSimilarity": 1,
+      "differences": [],
+      "captionCorrections": [],
+      "captionCount": 9,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "29-help",
+      "state": "PASS",
+      "durationSeconds": 31.04,
+      "peakDbFS": -4.51,
+      "sha256": "c5ae82977f17caef300e7e0a8b31b3d085ca8b4906846f29b1624849d02b9270",
+      "scriptSimilarity": 1,
+      "differences": [],
+      "captionCorrections": [],
+      "captionCount": 9,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "30-close",
+      "state": "PASS",
+      "durationSeconds": 25.28,
+      "peakDbFS": -4.51,
+      "sha256": "39977fbdc29899db68f3923525cc248ccde885a68c12338560951c01c36cb972",
+      "scriptSimilarity": 1,
+      "differences": [],
+      "captionCorrections": [],
+      "captionCount": 7,
+      "internalSilencesOver1_2Seconds": []
+    }
+  ]
+}

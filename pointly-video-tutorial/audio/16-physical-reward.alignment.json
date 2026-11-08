@@ -2,12 +2,12 @@
   "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
   "audio_sha256": "53c93bf4a76cde2a8ae29c2ced1a60a90193c683362568477ecbb6a0f17ce92b",
   "transcript": "En Premios vamos a crear una recompensa física, un desayuno de regalo. Elegí premio físico, agregá nombre, condiciones y, si tenés, una foto. El costo indica cuántos puntos necesita el cliente para obtener ese premio. La calculadora es una ayuda. Ingresa el precio de la recompensa y cuánto querés que gaste el cliente para alcanzarla. Calculá, revisa el resultado y usalo como costo si encaja con tu programa. La sugerencia no guarda el premio, todavía tenés que confirmar el formulario.",
-  "scriptSimilarity": 1.0,
+  "scriptSimilarity": 1,
   "differences": [],
   "words": [
     {
       "word": "En",
-      "start": 0.0,
+      "start": 0,
       "end": 0.52,
       "probability": 0.8023567199707031,
       "display": "En"
@@ -120,7 +120,7 @@
     {
       "word": "nombre,",
       "start": 6.74,
-      "end": 7.0,
+      "end": 7,
       "probability": 0.965297281742096,
       "display": "nombre,"
     },
@@ -572,71 +572,69 @@
       "startMs": 0,
       "endMs": 2760,
       "timestampMs": null,
-      "confidence": 0.883
+      "confidence": 0.8826634865254164
     },
     {
       "text": "un desayuno de regalo.",
       "startMs": 3120,
       "endMs": 4380,
       "timestampMs": null,
-      "confidence": 0.991
+      "confidence": 0.9906633819142977
     },
     {
       "text": "Elegí Premio físico, agregá nombre, condiciones y, si tenés, una foto.",
       "startMs": 5020,
       "endMs": 9520,
       "timestampMs": null,
-      "confidence": 0.9
+      "confidence": 0.9004231005003956
     },
     {
       "text": "El costo indica cuántos puntos necesita el cliente para obtener ese premio.",
       "startMs": 10660,
       "endMs": 14420,
       "timestampMs": null,
-      "confidence": 0.982
+      "confidence": 0.9817048758268356
     },
     {
       "text": "La calculadora es una ayuda:",
       "startMs": 14840,
       "endMs": 16340,
       "timestampMs": null,
-      "confidence": 0.992
+      "confidence": 0.9923485696315766
     },
     {
-      "text": "ingresá el precio de la recompensa y cuánto querés que gaste el cliente para",
+      "text": "ingresá el precio de la recompensa y cuánto querés que gaste el cliente para alcanzarla.",
       "startMs": 16940,
-      "endMs": 20640,
-      "timestampMs": null,
-      "confidence": 0.965
-    },
-    {
-      "text": "alcanzarla.",
-      "startMs": 20640,
       "endMs": 21220,
       "timestampMs": null,
-      "confidence": 0.984
+      "confidence": 0.96661027736134
     },
     {
       "text": "Calculá, revisá el resultado y usalo como costo si encaja con tu programa.",
       "startMs": 21920,
       "endMs": 26020,
       "timestampMs": null,
-      "confidence": 0.936
+      "confidence": 0.9359683940807978
     },
     {
       "text": "La sugerencia no guarda el premio:",
       "startMs": 26020,
       "endMs": 28700,
       "timestampMs": null,
-      "confidence": 0.942
+      "confidence": 0.9420320490996043
     },
     {
       "text": "todavía tenés que confirmar el formulario.",
       "startMs": 29040,
       "endMs": 31080,
       "timestampMs": null,
-      "confidence": 0.985
+      "confidence": 0.9848741292953491
     }
   ],
-  "status": "ACOUSTIC_MATCH"
+  "status": "ACOUSTIC_MATCH",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [],
+    "sourceAudioHash": "53c93bf4a76cde2a8ae29c2ced1a60a90193c683362568477ecbb6a0f17ce92b"
+  }
 }

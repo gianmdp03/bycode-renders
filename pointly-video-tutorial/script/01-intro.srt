@@ -11,12 +11,12 @@ En este tutorial vamos a configurar un comercio, incorporar clientes,
 registrar compras y entregar premios con puntos.
 
 4
-00:00:11,020 --> 00:00:14,520
-También vamos a ver qué consulta el cliente desde su billetera y cómo
+00:00:11,020 --> 00:00:15,100
+También vamos a ver qué consulta el cliente desde su billetera y cómo administrar
 
 5
-00:00:14,520 --> 00:00:16,500
-administrar el catálogo y los avisos.
+00:00:15,100 --> 00:00:16,500
+el catálogo y los avisos.
 
 6
 00:00:16,980 --> 00:00:19,340

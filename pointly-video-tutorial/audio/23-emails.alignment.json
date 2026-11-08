@@ -2,12 +2,12 @@
   "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
   "audio_sha256": "d99c28b9b27d4e6e8e5154197ce89b3f1e0c884815d697a8d1b37ff2d842abbf",
   "transcript": "En correos elegís, sí o no. Los avisos están desactivados por defecto y solo se preparan para clientes activos con correo cargado. Hay tres ejemplos del contenido real. Abrir cada vista previa no envía un mensaje. No hay que escribir plantillas ni completar variables. Si elegís, no. Se cancelan los avisos pendientes. Un correo ya entregado al servicio de envío no se puede retirar. WhatsApp es independiente y sigue siendo manual. Acá verificamos la configuración y las vistas previas, con el envío externo desactivado en el entorno de prueba.",
-  "scriptSimilarity": 1.0,
+  "scriptSimilarity": 1,
   "differences": [],
   "words": [
     {
       "word": "En",
-      "start": 0.0,
+      "start": 0,
       "end": 0.4,
       "probability": 0.8413479924201965,
       "display": "En"
@@ -323,7 +323,7 @@
     {
       "word": "elegís,",
       "start": 16.64,
-      "end": 17.0,
+      "end": 17,
       "probability": 0.9923888444900513,
       "display": "elegís"
     },
@@ -635,78 +635,83 @@
       "startMs": 0,
       "endMs": 1840,
       "timestampMs": null,
-      "confidence": 0.882
+      "confidence": 0.8816323280334473
     },
     {
-      "text": "Los avisos están desactivados por defecto y solo se preparan para clientes",
+      "text": "Los avisos están desactivados por defecto y solo se preparan para clientes activos",
       "startMs": 2240,
-      "endMs": 6420,
+      "endMs": 6860,
       "timestampMs": null,
-      "confidence": 0.925
+      "confidence": 0.9305230088723011
     },
     {
-      "text": "activos con correo cargado.",
-      "startMs": 6420,
+      "text": "con correo cargado.",
+      "startMs": 6860,
       "endMs": 7800,
       "timestampMs": null,
-      "confidence": 0.995
+      "confidence": 0.9936948120594025
     },
     {
       "text": "Hay tres ejemplos del contenido real;",
       "startMs": 8180,
       "endMs": 10040,
       "timestampMs": null,
-      "confidence": 0.979
+      "confidence": 0.9793448944886526
     },
     {
       "text": "abrir cada vista previa no envía un mensaje.",
       "startMs": 10440,
       "endMs": 12900,
       "timestampMs": null,
-      "confidence": 0.986
+      "confidence": 0.985941007733345
     },
     {
       "text": "No hay que escribir plantillas ni completar variables.",
       "startMs": 13380,
       "endMs": 15820,
       "timestampMs": null,
-      "confidence": 0.972
+      "confidence": 0.9720634706318378
     },
     {
       "text": "Si elegís No, se cancelan los avisos pendientes;",
       "startMs": 16460,
       "endMs": 19300,
       "timestampMs": null,
-      "confidence": 0.988
+      "confidence": 0.9884187467396259
     },
     {
       "text": "un correo ya entregado al servicio de envío no se puede retirar.",
       "startMs": 19700,
       "endMs": 22940,
       "timestampMs": null,
-      "confidence": 0.988
+      "confidence": 0.9882986197868983
     },
     {
       "text": "WhatsApp es independiente y sigue siendo manual.",
       "startMs": 23240,
       "endMs": 25600,
       "timestampMs": null,
-      "confidence": 0.861
+      "confidence": 0.8607102589947837
     },
     {
-      "text": "Acá verificamos la configuración y las vistas previas, con el envío externo",
+      "text": "Acá verificamos la configuración y las vistas previas,",
       "startMs": 25600,
-      "endMs": 30300,
+      "endMs": 29040,
       "timestampMs": null,
-      "confidence": 0.986
+      "confidence": 0.9855038486421108
     },
     {
-      "text": "desactivado en el entorno de prueba.",
-      "startMs": 30300,
+      "text": "con el envío externo desactivado en el entorno de prueba.",
+      "startMs": 29160,
       "endMs": 31900,
       "timestampMs": null,
-      "confidence": 0.997
+      "confidence": 0.9926725169022879
     }
   ],
-  "status": "ACOUSTIC_MATCH"
+  "status": "ACOUSTIC_MATCH",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [],
+    "sourceAudioHash": "d99c28b9b27d4e6e8e5154197ce89b3f1e0c884815d697a8d1b37ff2d842abbf"
+  }
 }

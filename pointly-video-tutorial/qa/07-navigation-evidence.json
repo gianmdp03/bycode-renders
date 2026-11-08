@@ -4,22 +4,57 @@
     {
       "label": "Two real businesses owned by the merchant",
       "url": "/dashboard",
-      "at": 1793731701728.1
+      "at": 1794066987679.7002
     },
     {
       "label": "Earning rule and active-client quota",
-      "url": "/companies/cafe-del-puerto-aula",
-      "at": 1793731705904.6
+      "url": "/companies/cafe-del-puerto-actualizado",
+      "at": 1794066992766.2002
     },
     {
       "label": "Live company navigation",
-      "url": "/companies/cafe-del-puerto-aula",
-      "at": 1793731713521.9001
+      "url": "/companies/cafe-del-puerto-actualizado",
+      "at": 1794067001020.3
+    },
+    {
+      "label": "Quick actions selection changes to second business",
+      "url": "/",
+      "at": 1794067004449.2
+    },
+    {
+      "label": "Quick actions selected business and actual client-list shortcut",
+      "url": "/",
+      "at": 1794067005978.8
     }
   ],
   "network": [
     {
       "method": "GET",
+      "path": "/api/pointly/companies/my-companies",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/media/abf1bc3b-8f5e-47c2-b69a-d4822226336f",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
       "path": "/api/billing/account/profile",
       "status": 200
     },
@@ -30,7 +65,7 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/public/media/88f04c39-82db-4d2e-8062-e046c1a537ac",
+      "path": "/api/pointly/public/media/abf1bc3b-8f5e-47c2-b69a-d4822226336f",
       "status": 200
     },
     {
@@ -40,37 +75,7 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/limits/my-limits",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/limits/my-limits",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/billing/account/profile",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/companies/my-companies",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/public/media/88f04c39-82db-4d2e-8062-e046c1a537ac",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/limits/my-limits",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/company-names/cafe-del-puerto-aula/company",
+      "path": "/api/pointly/company-names/cafe-del-puerto-actualizado/company",
       "status": 200
     },
     {
@@ -100,11 +105,6 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/public/media/e01b4523-91c5-4efa-a278-39e2ffe05394",
-      "status": 200
-    },
-    {
-      "method": "GET",
       "path": "/api/pointly/limits/my-limits",
       "status": 200
     },
@@ -122,8 +122,58 @@
       "method": "GET",
       "path": "/api/pointly/limits/my-limits",
       "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/billing/account/profile",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/my-companies",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/my-companies",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/promotions/4",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/promotions/4",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/promotions/4",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/promotions/1",
+      "status": 200
     }
   ],
-  "source": "recordings/07-navigation-1793731734365.mp4",
+  "source": "recordings/07-navigation-1794067008177.mp4",
   "obs": null
 }

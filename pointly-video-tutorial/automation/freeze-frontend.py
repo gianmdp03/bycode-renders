@@ -9,6 +9,7 @@ for base in ('src','public'):
  for src in (source/base).rglob('*'):
   if not src.is_file():continue
   rel=src.relative_to(source)
+  if src.name=='environment.local.generated.ts' or src.name.startswith('.env'):continue
   if src.suffix not in ('.ts','.html','.css','.svg','.js','.json','.woff2','.txt','.webmanifest','.png','.ico'):continue
   content=src.read_bytes();hashes[str(rel).replace('\\','/')]=hashlib.sha256(content).hexdigest();dst=target/rel
   if dst.exists() and dst.read_bytes()==content:continue

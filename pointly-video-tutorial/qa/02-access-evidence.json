@@ -2,22 +2,32 @@
   "scene": "02-access",
   "evidence": [
     {
-      "label": "Merchant registration delegates to Bycode",
-      "url": "/",
-      "at": 1793728737537.7
+      "label": "Current public merchant onboarding with three real steps and external Bycode registration",
+      "url": "/for-businesses",
+      "at": 1794066056409.0999
     },
     {
       "label": "Real invalid-credential response",
       "url": "/login",
-      "at": 1793728744249.5
+      "at": 1794066063567.3
     },
     {
       "label": "Authenticated new account",
       "url": "/complete-profile",
-      "at": 1793728748340.2
+      "at": 1794066067845.0999
     }
   ],
   "network": [
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 401
+    },
     {
       "method": "GET",
       "path": "/api/pointly/limits/my-limits",
@@ -44,6 +54,6 @@
       "status": 200
     }
   ],
-  "source": "recordings/02-access-1793728767253.mp4",
+  "source": "recordings/02-access-1794066069774.mp4",
   "obs": null
 }

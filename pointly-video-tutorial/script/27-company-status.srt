@@ -1,0 +1,43 @@
+1
+00:00:00,000 --> 00:00:01,680
+Volvemos al panel comercial.
+
+2
+00:00:02,280 --> 00:00:05,620
+Deshabilitar un comercio lo oculta y bloquea compras y canjes;
+
+3
+00:00:05,960 --> 00:00:07,340
+no libera su cupo de comercios.
+
+4
+00:00:07,880 --> 00:00:09,940
+Leé la confirmación antes de hacerlo.
+
+5
+00:00:10,360 --> 00:00:12,760
+Si permanece deshabilitado más de 30 días,
+
+6
+00:00:13,100 --> 00:00:15,580
+sus clientes se archivan conservando el historial.
+
+7
+00:00:15,860 --> 00:00:19,240
+Para volver a operar, habilitarlo nuevamente y revisar las cuentas.
+
+8
+00:00:19,720 --> 00:00:21,280
+Los límites dependen del plan.
+
+9
+00:00:21,660 --> 00:00:25,740
+Una cuenta sin plan activo muestra ese estado y deriva a Bycode para gestionar
+
+10
+00:00:25,740 --> 00:00:26,360
+las opciones;
+
+11
+00:00:26,360 --> 00:00:30,160
+no alcanza con crear una cuenta para habilitar todas las funciones.

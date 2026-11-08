@@ -1,0 +1,10 @@
+import fs from 'node:fs';import {root} from './browser.mjs';import path from 'node:path';
+const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
+const r=read('.local/26-responsive.json'),proof=read('.local/26-responsive-evidence.json'),a=read('audio/26-wallet-access.alignment.json');
+const click=r.cursor_events.find(e=>e.event==='click'&&/Instalar Pointly|Agregar acceso/.test(e.target));const note=proof.evidence.find(e=>/install guidance expanded/.test(e.label));
+if(!click||!note)throw Error('Actual responsive guide evidence missing');
+const words=a.words;const begin=words.findIndex(w=>(w.display??w.word).toLowerCase().includes('pantallas'));const end=words.find(w=>(w.display??w.word).toLowerCase()==='también');if(begin<0||!end)throw Error('Final acoustic guide phrase missing');
+const sourceStart=Math.max(r.source_start,click.frame-30),sourceEnd=Math.min(r.source_end,r.sync.markerFrame+Math.round((note.at-r.sync.browserMs)*.06)+90);
+const from=Math.round(words[Math.max(0,begin-1)].start*60),duration=Math.round(end.start*60)-from;
+const supplement={scene:'26-wallet-access',kind:'GENUINE_RESPONSIVE_TAB_RECORDING',file:r.file,original:r.original,sourceStart,sourceFrames:sourceEnd-sourceStart,from,durationInFrames:duration,width:r.probe.width,height:r.probe.height,audioSha256:a.audio_sha256,caption:'Vista en pantalla pequeña',evidence:proof.evidence,installation:'Actual guidance expanded; any browser install prompt dismissed with Escape. No OS installation claimed.'};
+fs.writeFileSync(path.join(root,'recordings/supplements.json'),JSON.stringify([supplement],null,2));console.log('Responsive guide excerpt:',(duration/60).toFixed(2),'seconds, aligned to the actual final narration.');

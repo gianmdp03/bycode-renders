@@ -1,0 +1,348 @@
+{
+  "01-intro": {
+    "actions": [
+      "Presentar Pointly y Bycode con sus logos auténticos.",
+      "Mostrar el inicio comercial real y el recorrido de aprendizaje."
+    ],
+    "resources": [
+      "logo.svg",
+      "bycode-logo.svg",
+      "Grabación del inicio público"
+    ]
+  },
+  "02-access": {
+    "actions": [
+      "Abrir Empezá ahora desde el inicio.",
+      "Mostrar los tres pasos y el vínculo de registro externo en Bycode.",
+      "Ingresar a Pointly; probar credenciales incorrectas y corregirlas."
+    ],
+    "resources": [
+      "Cuenta A ficticia",
+      "Página for-businesses",
+      "Respuesta real de autenticación"
+    ]
+  },
+  "03-profile": {
+    "actions": [
+      "Completar el DNI del comerciante en el primer ingreso.",
+      "Continuar al panel y revisar el plan sin comercios creados."
+    ],
+    "resources": [
+      "Cuenta nueva A",
+      "Perfil inicial sin DNI"
+    ]
+  },
+  "04-company": {
+    "actions": [
+      "Completar nombre y enlace disponible del comercio.",
+      "Definir 10 puntos por cada 1.000 pesos completos.",
+      "Elegir Argentina y mostrar ubicación física opcional.",
+      "Crear y verificar el comercio."
+    ],
+    "resources": [
+      "Comercio Almacén Inicio DEMO",
+      "Estado A"
+    ]
+  },
+  "05-settings": {
+    "actions": [
+      "Abrir Editar Empresa de Café del Puerto.",
+      "Revisar identidad, ubicación y regla de acumulación.",
+      "Activar vencimiento a 90 días y guardar."
+    ],
+    "resources": [
+      "Comercio B con actividad",
+      "Ayuda junto al vencimiento"
+    ]
+  },
+  "06-photo": {
+    "actions": [
+      "Quitar la foto actual con confirmación.",
+      "Subir el PNG ficticio, ajustar el recorte y guardar.",
+      "Revisar disponibilidad del nuevo enlace y confirmar la invalidación del anterior."
+    ],
+    "resources": [
+      "demo/assets/cafe-demo.png",
+      "Convertidor y almacenamiento reales de la DEMO"
+    ]
+  },
+  "07-navigation": {
+    "actions": [
+      "Entrar a Café del Puerto desde Mis comercios.",
+      "Desplegar Plan y límites y recorrer las pestañas principales.",
+      "Volver al inicio comercial y cambiar entre los dos comercios en Operaciones Rápidas."
+    ],
+    "resources": [
+      "Café del Puerto DEMO",
+      "Panadería Costera DEMO",
+      "Indicadores reales"
+    ]
+  },
+  "08-client": {
+    "actions": [
+      "Agregar a Martina con nombre, país y DNI, dejando contactos opcionales vacíos.",
+      "Asociar a Carla, ya existente, al segundo comercio.",
+      "Comprobar que la asociación conserva su identidad original."
+    ],
+    "resources": [
+      "Cliente ficticia Martina",
+      "Carla existente en Pointly",
+      "Dos comercios de la cuenta B"
+    ]
+  },
+  "09-qr": {
+    "actions": [
+      "Copiar el enlace de alta y descargar el PNG real.",
+      "Activar el botón de impresión y explicar la alternativa de descarga.",
+      "Abrir el enlace público e incorporar a Renata con nombre y documento."
+    ],
+    "resources": [
+      "QR real del comercio",
+      "PNG descargado",
+      "Formulario público join"
+    ],
+    "limitation": "La impresión nativa no se presenta como validada; ver qa/print-verification.json."
+  },
+  "10-search": {
+    "actions": [
+      "Abrir Ver clientes y filtrar por activos.",
+      "Buscar Cami y entrar a Ver detalle.",
+      "Revisar contactos automáticos, saldo e historial.",
+      "Avanzar a la segunda página y volver a la búsqueda."
+    ],
+    "resources": [
+      "Camila Historial DEMO",
+      "Historial paginado real"
+    ]
+  },
+  "11-sale": {
+    "actions": [
+      "Identificar a Ana mediante país y DNI.",
+      "Ingresar una compra de 8.500 pesos y revisar la estimación de 80 puntos.",
+      "Confirmar y revisar la venta registrada."
+    ],
+    "resources": [
+      "Ana Torres DEMO",
+      "Regla base 1.000/10 sin promoción activa en esa toma"
+    ]
+  },
+  "12-sales-history": {
+    "actions": [
+      "Revisar fechas, importes y Sin dato por venta.",
+      "Registrar una compra de 500 pesos con cero puntos.",
+      "Interrumpir la respuesta después de un commit real y reintentar la misma venta.",
+      "Comprobar identidad y saldo sin duplicación."
+    ],
+    "resources": [
+      "Servidor real de ventas",
+      "qa/12-sales-history-pending-proof.json"
+    ]
+  },
+  "13-promotion": {
+    "actions": [
+      "Completar nombre y descripción de la promoción.",
+      "Probar beneficios predefinidos, porcentaje personalizado y multiplicador decimal.",
+      "Revisar equivalencias; elegir fechas futuras y guardar el doble de puntos."
+    ],
+    "resources": [
+      "Formulario real de promociones",
+      "Vista previa de puntos"
+    ]
+  },
+  "14-promotion-life": {
+    "actions": [
+      "Editar la promoción del tutorial.",
+      "Pausarla y reactivarla.",
+      "Abrir la eliminación, cancelar y luego confirmar la eliminación definitiva."
+    ],
+    "resources": [
+      "Promoción Tarde de puntos DEMO",
+      "Confirmaciones dentro de la página"
+    ]
+  },
+  "15-products": {
+    "actions": [
+      "Crear un producto con nombre, precio, descripción y archivo de imagen.",
+      "Editar el precio y reemplazar la foto por una URL directa.",
+      "Quitar la imagen y guardar.",
+      "Eliminar el producto temporal con confirmación."
+    ],
+    "resources": [
+      "Budín de limón DEMO",
+      "Archivo PNG ficticio",
+      "Ruta local real de medios"
+    ]
+  },
+  "16-physical-reward": {
+    "actions": [
+      "Definir un desayuno de regalo con condiciones y foto.",
+      "Abrir la calculadora, introducir precio y gasto objetivo.",
+      "Aplicar el costo sugerido y guardar el premio."
+    ],
+    "resources": [
+      "Desayuno de regalo DEMO",
+      "Calculadora auténtica"
+    ]
+  },
+  "17-voucher": {
+    "actions": [
+      "Elegir Voucher de descuento.",
+      "Mostrar porcentaje del 10 por ciento y luego importe fijo de 2.000 pesos.",
+      "Revisar condiciones y costo en puntos; guardar."
+    ],
+    "resources": [
+      "Voucher temporal del tutorial",
+      "Vista previa del beneficio"
+    ]
+  },
+  "18-reward-life": {
+    "actions": [
+      "Editar condiciones de un premio.",
+      "Pausar y reactivar.",
+      "Cancelar una eliminación y eliminar el voucher temporal, conservando el historial."
+    ],
+    "resources": [
+      "Catálogo real de premios",
+      "Confirmaciones de disponibilidad y eliminación"
+    ]
+  },
+  "19-redeem": {
+    "actions": [
+      "Seleccionar Café de regalo de 80 puntos.",
+      "Identificar a Ana y confirmar una sola vez.",
+      "Revisar el saldo reducido y el movimiento en su historial."
+    ],
+    "resources": [
+      "Premio físico existente",
+      "Ana Torres DEMO",
+      "Libro de puntos real"
+    ]
+  },
+  "20-redeem-errors": {
+    "actions": [
+      "Intentar un canje sin saldo suficiente y mostrar el rechazo real.",
+      "Interrumpir otra respuesta después del commit del canje.",
+      "Reintentar con la misma identidad y comprobar que el saldo no vuelve a descontarse."
+    ],
+    "resources": [
+      "qa/20-redeem-errors-pending-proof.json",
+      "Rechazo real del servidor"
+    ]
+  },
+  "21-inactive": {
+    "actions": [
+      "Elegir 30 días y después un período personalizado.",
+      "Abrir la preparación manual de WhatsApp.",
+      "Editar y copiar el borrador sin enviar un mensaje."
+    ],
+    "resources": [
+      "Clientes ficticios con actividad histórica",
+      "Borrador manual"
+    ]
+  },
+  "22-archive": {
+    "actions": [
+      "Archivar a Bruno desde Sin actividad con confirmación.",
+      "Revisar Archivados y consultar su billetera pública con el aviso.",
+      "Volver al comercio y reactivar dentro del cupo."
+    ],
+    "resources": [
+      "Bruno Díaz DEMO",
+      "Cuenta archivada con saldo conservado"
+    ],
+    "edit": "Se recorta un inicio de sesión repetido; la consulta pública y la reactivación son reales."
+  },
+  "23-emails": {
+    "actions": [
+      "Activar Sí y verificar la persistencia.",
+      "Abrir las tres vistas previas de correos.",
+      "Volver a No y explicar los avisos pendientes."
+    ],
+    "resources": [
+      "Tres contenidos fijos reales",
+      "Proveedor saliente desactivado en la DEMO"
+    ]
+  },
+  "24-wallet": {
+    "actions": [
+      "Consultar desde el inicio público con país y DNI.",
+      "Mostrar dos comercios con saldos independientes.",
+      "Abrir premios, promociones vigentes y productos del café."
+    ],
+    "resources": [
+      "Ana Torres DEMO",
+      "Comercios con reglas y catálogos diferentes"
+    ]
+  },
+  "25-expiration": {
+    "actions": [
+      "Consultar la billetera de Camila con historial ampliado.",
+      "Abrir Ver detalle y leer grupos por fecha.",
+      "Cargar más vencimientos y mostrar el grupo sin vencimiento."
+    ],
+    "resources": [
+      "demo/expiry-fixture-report.json",
+      "Compras reales por API con fechas históricas preparadas en la DEMO"
+    ]
+  },
+  "26-wallet-access": {
+    "actions": [
+      "Abrir Ver mi enlace personal, guardar y copiar el acceso.",
+      "Volver al inicio y usar Abrir mi acceso guardado.",
+      "Mostrar la guía auténtica en un viewport menor a 900 píxeles.",
+      "Quitar el acceso recordado y consultar otro DNI."
+    ],
+    "resources": [
+      "Toma principal de escritorio",
+      "Toma responsive independiente",
+      "recordings/supplements.json"
+    ],
+    "limitation": "Se muestra la guía; no se afirma una instalación del sistema operativo."
+  },
+  "27-company-status": {
+    "actions": [
+      "Deshabilitar y habilitar un comercio con confirmación.",
+      "Ingresar con una cuenta sin plan.",
+      "Abrir la página de límite sin crear un comercio ni contratar un plan."
+    ],
+    "resources": [
+      "Cuenta B",
+      "Cuenta NO_PLAN",
+      "Página plan-limit"
+    ],
+    "limitation": "La regla de archivo a los 30 días se explica por contrato; no se ejecuta un trabajo programado de 30 días en la grabación."
+  },
+  "28-roles": {
+    "actions": [
+      "Mostrar la tabla global del rol SUPER_ADMIN.",
+      "Abrir un detalle y explicar las restricciones del servidor y los flags desactivados."
+    ],
+    "resources": [
+      "Cuenta ADMIN ficticia",
+      "Evidencia de roles y flags del frontend"
+    ]
+  },
+  "29-help": {
+    "actions": [
+      "Interrumpir una lectura real y recuperar la lista con Reintentar.",
+      "Mostrar una búsqueda vacía como estado distinto.",
+      "Cambiar entre claro y oscuro.",
+      "Cerrar sesión y consultar las preguntas frecuentes públicas."
+    ],
+    "resources": [
+      "Error real de transporte local",
+      "Tema claro/oscuro",
+      "FAQ pública"
+    ]
+  },
+  "30-close": {
+    "actions": [
+      "Recapitular el recorrido de uso diario.",
+      "Cerrar con la identidad auténtica de Pointly y Bycode."
+    ],
+    "resources": [
+      "Logos locales",
+      "Marca compartida en estado draft"
+    ]
+  }
+}

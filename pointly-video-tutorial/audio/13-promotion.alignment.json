@@ -13,7 +13,7 @@
   "words": [
     {
       "word": "Las",
-      "start": 0.0,
+      "start": 0,
       "end": 0.32,
       "probability": 0.915314257144928,
       "display": "Las"
@@ -147,13 +147,13 @@
     {
       "word": "claro",
       "start": 6.7,
-      "end": 7.0,
+      "end": 7,
       "probability": 0.9920516014099121,
       "display": "claro"
     },
     {
       "word": "y",
-      "start": 7.0,
+      "start": 7,
       "end": 7.38,
       "probability": 0.8970271944999695,
       "display": "y"
@@ -588,68 +588,73 @@
   ],
   "captions": [
     {
-      "text": "Las promociones permiten otorgar puntos extras durante un período, si tu plan",
+      "text": "Las promociones permiten otorgar puntos extras durante un período,",
       "startMs": 0,
-      "endMs": 4420,
+      "endMs": 3520,
       "timestampMs": null,
-      "confidence": 0.941
+      "confidence": 0.9467708214565559
     },
     {
-      "text": "las incluye.",
-      "startMs": 4420,
+      "text": "si tu plan las incluye.",
+      "startMs": 3520,
       "endMs": 5040,
       "timestampMs": null,
-      "confidence": 0.974
+      "confidence": 0.944822895526886
     },
     {
       "text": "Creá una, poné un nombre claro y explicá las condiciones en la descripción.",
       "startMs": 5400,
       "endMs": 9340,
       "timestampMs": null,
-      "confidence": 0.944
+      "confidence": 0.9439184482281024
     },
     {
-      "text": "Podés elegir 50 % más, el doble, el triple o un beneficio personalizado.",
+      "text": "Podés elegir 50 más, el doble, el triple o un beneficio personalizado.",
       "startMs": 9740,
       "endMs": 14980,
       "timestampMs": null,
-      "confidence": 0.939
+      "confidence": 0.9418256531159083
     },
     {
       "text": "Revisá la equivalencia que calcula la pantalla.",
       "startMs": 15440,
       "endMs": 17740,
       "timestampMs": null,
-      "confidence": 0.964
+      "confidence": 0.9637039360545929
     },
     {
       "text": "Elegí una fecha de inicio futura y un fin posterior.",
       "startMs": 18320,
       "endMs": 21140,
       "timestampMs": null,
-      "confidence": 0.983
+      "confidence": 0.9827663977940878
     },
     {
       "text": "Prestá atención al horario mostrado:",
       "startMs": 21480,
       "endMs": 23040,
       "timestampMs": null,
-      "confidence": 0.954
+      "confidence": 0.9535707056522369
     },
     {
       "text": "no supongas que una fecha significa todo el día.",
       "startMs": 23500,
       "endMs": 26240,
       "timestampMs": null,
-      "confidence": 0.99
+      "confidence": 0.990426105481607
     },
     {
       "text": "Guardá y verificá la promoción en su lista antes de comunicarla.",
       "startMs": 26240,
       "endMs": 29960,
       "timestampMs": null,
-      "confidence": 0.938
+      "confidence": 0.9380537601131382
     }
   ],
-  "status": "REVIEW_REQUIRED"
+  "status": "REVIEW_REQUIRED",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [],
+    "sourceAudioHash": "0b6699b469ccaadd1f40902f3a9bed6b346a30b6cd12c35be51d69bd280d4041"
+  }
 }

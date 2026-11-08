@@ -4,10 +4,10 @@
   "upstreamStatus": 200,
   "retryStatus": 200,
   "sameRequestIdentity": true,
-  "requestIdentitySha256": "243e1c56ef6d98b0a2964179e0b7584c5f2cece6a5e0d4dc43e444a4f541689c",
+  "requestIdentitySha256": "ddc76feecfbb970a1b3c175b9db661c05d103b2acbd9781d2f6757670111d8de",
   "sameSaleId": null,
-  "balanceBefore": 180,
-  "balanceAfterCommit": 100,
-  "balanceAfterRetry": 100,
+  "balanceBefore": 100,
+  "balanceAfterCommit": 20,
+  "balanceAfterRetry": 20,
   "method": "Real backend request, dropped response, then real retry; no success response fabricated"
 }

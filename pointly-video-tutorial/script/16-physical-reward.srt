@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:02,760
+En Premios vamos a crear una recompensa física:
+
+2
+00:00:03,120 --> 00:00:04,380
+un desayuno de regalo.
+
+3
+00:00:05,020 --> 00:00:09,520
+Elegí Premio físico, agregá nombre, condiciones y, si tenés, una foto.
+
+4
+00:00:10,660 --> 00:00:14,420
+El costo indica cuántos puntos necesita el cliente para obtener ese premio.
+
+5
+00:00:14,840 --> 00:00:16,340
+La calculadora es una ayuda:
+
+6
+00:00:16,940 --> 00:00:21,220
+ingresá el precio de la recompensa y cuánto querés que gaste el cliente para alcanzarla.
+
+7
+00:00:21,920 --> 00:00:26,020
+Calculá, revisá el resultado y usalo como costo si encaja con tu programa.
+
+8
+00:00:26,020 --> 00:00:28,700
+La sugerencia no guarda el premio:
+
+9
+00:00:29,040 --> 00:00:31,080
+todavía tenés que confirmar el formulario.

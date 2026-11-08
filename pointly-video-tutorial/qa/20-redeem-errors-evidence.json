@@ -3,18 +3,18 @@
   "evidence": [
     {
       "label": "Real insufficient-points rejection",
-      "url": "/companies/cafe-del-puerto-aula/actions/redeem/3",
-      "at": 1793729145794.2998
+      "url": "/companies/cafe-del-puerto-actualizado/actions/redeem/3",
+      "at": 1794066780038.5999
     },
     {
       "label": "Real operation committed; browser response interrupted; original pending identity retained",
-      "url": "/companies/cafe-del-puerto-aula/actions/redeem/1",
-      "at": 1793729150831.4
+      "url": "/companies/cafe-del-puerto-actualizado/actions/redeem/1",
+      "at": 1794066786068.9
     },
     {
       "label": "Original pending operation retried and confirmed without changing identity",
-      "url": "/companies/cafe-del-puerto-aula",
-      "at": 1793729153037.7
+      "url": "/companies/cafe-del-puerto-actualizado",
+      "at": 1794066788419.9
     }
   ],
   "network": [
@@ -35,12 +35,12 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/company-names/cafe-del-puerto-aula/company",
+      "path": "/api/pointly/company-names/cafe-del-puerto-actualizado/company",
       "status": 200
     },
     {
       "method": "GET",
-      "path": "/api/pointly/public/media/88f04c39-82db-4d2e-8062-e046c1a537ac",
+      "path": "/api/pointly/public/media/abf1bc3b-8f5e-47c2-b69a-d4822226336f",
       "status": 200
     },
     {
@@ -80,12 +80,12 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/company-names/cafe-del-puerto-aula/company",
+      "path": "/api/pointly/company-names/cafe-del-puerto-actualizado/company",
       "status": 200
     },
     {
       "method": "GET",
-      "path": "/api/pointly/public/media/88f04c39-82db-4d2e-8062-e046c1a537ac",
+      "path": "/api/pointly/public/media/abf1bc3b-8f5e-47c2-b69a-d4822226336f",
       "status": 200
     },
     {
@@ -140,6 +140,6 @@
       "status": 200
     }
   ],
-  "source": "recordings/20-redeem-errors-1793729171804.mp4",
+  "source": "recordings/20-redeem-errors-1794066790542.mp4",
   "obs": null
 }

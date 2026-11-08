@@ -1,0 +1,9 @@
+{
+  "preserved": true,
+  "pausedRewardIds": [
+    4,
+    8
+  ],
+  "activePhysicalRewardId": 7,
+  "scope": "Only temporary tutorial names; original customer rewards and every historical movement retained."
+}

@@ -13,7 +13,7 @@
   "words": [
     {
       "word": "La",
-      "start": 0.0,
+      "start": 0,
       "end": 0.42,
       "probability": 0.7778472900390625,
       "display": "La"
@@ -406,13 +406,13 @@
     {
       "word": "corta",
       "start": 20.6,
-      "end": 21.0,
+      "end": 21,
       "probability": 0.9861726462841034,
       "display": "corta"
     },
     {
       "word": "y",
-      "start": 21.0,
+      "start": 21,
       "end": 21.22,
       "probability": 0.967018187046051,
       "display": "y"
@@ -441,13 +441,13 @@
     {
       "word": "resultado",
       "start": 21.66,
-      "end": 22.0,
+      "end": 22,
       "probability": 0.9985777139663696,
       "display": "resultado"
     },
     {
       "word": "claro,",
-      "start": 22.0,
+      "start": 22,
       "end": 22.36,
       "probability": 0.9950398802757263,
       "display": "claro,"
@@ -539,13 +539,13 @@
     {
       "word": "para",
       "start": 27.76,
-      "end": 28.0,
+      "end": 28,
       "probability": 0.9969379901885986,
       "display": "para"
     },
     {
       "word": "repetir",
-      "start": 28.0,
+      "start": 28,
       "end": 28.48,
       "probability": 0.9959053695201874,
       "display": "repetir"
@@ -683,78 +683,81 @@
       "startMs": 0,
       "endMs": 3700,
       "timestampMs": null,
-      "confidence": 0.92
+      "confidence": 0.9204376315077146
     },
     {
       "text": "Si aparece Sin dato por venta, no significa cero puntos:",
       "startMs": 4040,
       "endMs": 7620,
       "timestampMs": null,
-      "confidence": 0.951
+      "confidence": 0.9505573660135269
     },
     {
       "text": "consultá el saldo y el historial del cliente.",
       "startMs": 8180,
       "endMs": 10420,
       "timestampMs": null,
-      "confidence": 0.969
+      "confidence": 0.9686263017356396
     },
     {
-      "text": "No recalcules una venta antigua con la regla actual, porque pudo tener otra",
+      "text": "No recalcules una venta antigua con la regla actual, porque pudo tener otra promoción.",
       "startMs": 10980,
-      "endMs": 15100,
-      "timestampMs": null,
-      "confidence": 0.952
-    },
-    {
-      "text": "promoción.",
-      "startMs": 15100,
       "endMs": 15700,
       "timestampMs": null,
-      "confidence": 0.994
+      "confidence": 0.9552317836454937
     },
     {
       "text": "Una compra menor al mínimo puede registrarse con cero puntos.",
       "startMs": 16160,
       "endMs": 19180,
       "timestampMs": null,
-      "confidence": 0.99
+      "confidence": 0.9901628573735554
     },
     {
-      "text": "Si la conexión se corta y no hay un resultado claro, conservá el formulario y",
+      "text": "Si la conexión se corta y no hay un resultado claro,",
       "startMs": 19680,
-      "endMs": 24120,
+      "endMs": 22360,
       "timestampMs": null,
-      "confidence": 0.989
+      "confidence": 0.9932282160628926
     },
     {
-      "text": "usar Reintentar venta pendiente.",
-      "startMs": 24120,
+      "text": "conservá el formulario y usá Reintentar venta pendiente.",
+      "startMs": 22760,
       "endMs": 25720,
       "timestampMs": null,
-      "confidence": 0.906
+      "confidence": 0.9409572879473368
     },
     {
       "text": "No empieces otra operación para repetir la misma compra:",
       "startMs": 26240,
       "endMs": 29200,
       "timestampMs": null,
-      "confidence": 0.985
+      "confidence": 0.9854234986835055
     },
     {
       "text": "el reintento conserva su identidad para evitar duplicaciones.",
       "startMs": 29200,
       "endMs": 32760,
       "timestampMs": null,
-      "confidence": 0.939
+      "confidence": 0.938543622692426
     },
     {
       "text": "Revisá siempre el resultado antes de seguir.",
       "startMs": 33200,
       "endMs": 35500,
       "timestampMs": null,
-      "confidence": 0.939
+      "confidence": 0.9390167019196919
     }
   ],
-  "status": "REVIEW_REQUIRED"
+  "status": "REVIEW_REQUIRED",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [
+      [
+        "usar",
+        "usá"
+      ]
+    ],
+    "sourceAudioHash": "ca9775fdb9e8ac8a7b2fc131df4748042dd58d6cb4cf3be3160ccd5d59e248a9"
+  }
 }

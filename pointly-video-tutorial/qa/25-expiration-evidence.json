@@ -2,33 +2,98 @@
   "scene": "25-expiration",
   "evidence": [
     {
-      "label": "Real expiry groups and nonexpiring summary",
-      "url": "/client/toeelVWmwuW6/cafe-del-puerto-aula/points",
-      "at": 1793729217028.2002
+      "label": "Camila real expiry groups from historical purchases",
+      "url": "/client/LdyPvraccyxi/cafe-del-puerto-actualizado/points",
+      "at": 1794068021261.5
     },
     {
       "label": "Point group dates and quantities",
-      "url": "/client/toeelVWmwuW6/cafe-del-puerto-aula/points",
-      "at": 1793729218761.5
+      "url": "/client/LdyPvraccyxi/cafe-del-puerto-actualizado/points",
+      "at": 1794068023278.8
+    },
+    {
+      "label": "Next acoustic-demo expiry page loaded from real API",
+      "url": "/client/LdyPvraccyxi/cafe-del-puerto-actualizado/points",
+      "at": 1794068025228.5
+    },
+    {
+      "label": "Non-expiring historical group and available total",
+      "url": "/client/LdyPvraccyxi/cafe-del-puerto-actualizado/points",
+      "at": 1794068025599.4001
     }
   ],
   "network": [
     {
-      "method": "POST",
-      "path": "/api/pointly/public/client-access/companies/cafe-del-puerto-aula/point-expirations/query",
-      "status": 200
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 401
     },
     {
       "method": "POST",
-      "path": "/api/pointly/public/client-access/companies/cafe-del-puerto-aula/query",
+      "path": "/api/pointly/public/clients/access-links",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/public/client-access/companies/query",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/media/abf1bc3b-8f5e-47c2-b69a-d4822226336f",
       "status": 200
     },
     {
       "method": "GET",
       "path": "/api/pointly/limits/my-limits",
       "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/public/client-access/companies/cafe-del-puerto-actualizado/point-expirations/query",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/public/client-access/companies/cafe-del-puerto-actualizado/query",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/media/54205951-616e-4193-b744-ff952b405222",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/public/client-access/companies/cafe-del-puerto-actualizado/point-expirations/query",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/public/client-access/companies/cafe-del-puerto-actualizado/query",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/public/client-access/companies/cafe-del-puerto-actualizado/point-expirations/query",
+      "status": 200
     }
   ],
-  "source": "recordings/25-expiration-1793729246012.mp4",
+  "source": "recordings/25-expiration-1794068027865.mp4",
   "obs": null
 }

@@ -1,0 +1,206 @@
+{
+  "07-navigation": {
+    "rawRecording": "recordings/07-navigation-1794067008177.mp4",
+    "audioSha256": "49d017f6c1e450f5d7fe125fea8680c5db8dff9bc20fea46de9fb94ac65d537c",
+    "reviewNotes": [
+      "Trim repeated dashboard load; hold real overview counters until the quick-actions sentence, then show real selector clicks."
+    ],
+    "segments": [
+      {
+        "start": 168,
+        "end": 576,
+        "hold": 252
+      },
+      {
+        "start": 576,
+        "end": 1056,
+        "hold": 540
+      },
+      {
+        "start": 1164,
+        "end": 1359,
+        "hold": 0
+      }
+    ]
+  },
+  "20-redeem-errors": {
+    "rawRecording": "recordings/20-redeem-errors-1794066790542.mp4",
+    "audioSha256": "387e6efc7315e0e5c34432ca723065166beeca7201009b976167768943ea88ce",
+    "reviewNotes": [
+      "Remove blank navigation frames; retain real insufficient-balance response, uncertain result and same-identity retry, with reading holds."
+    ],
+    "segments": [
+      {
+        "start": 120,
+        "end": 354,
+        "hold": 396
+      },
+      {
+        "start": 468,
+        "end": 714,
+        "hold": 114
+      },
+      {
+        "start": 714,
+        "end": 924,
+        "hold": 0
+      }
+    ]
+  },
+  "22-archive": {
+    "rawRecording": "recordings/22-archive-1794066989566.mp4",
+    "audioSha256": "4040d26d54c4581ddeccec0c4e41a1800b02cb50be6904b39ed4930176a2a74f",
+    "reviewNotes": [
+      "Show archive and retained balance first, then the genuine public wallet list with Cuenta archivada, 290 points and reactivation guidance, followed by real merchant reactivation. Omit sign-in; reorder the read-only wallet insert."
+    ],
+    "segments": [
+      {
+        "start": 132,
+        "end": 594,
+        "hold": 522
+      },
+      {
+        "start": 1704,
+        "end": 1761,
+        "hold": 180
+      },
+      {
+        "start": 1149,
+        "end": 1182,
+        "hold": 282
+      },
+      {
+        "start": 1761,
+        "end": 1950,
+        "hold": 0
+      }
+    ]
+  },
+  "25-expiration": {
+    "rawRecording": "recordings/25-expiration-1794068027865.mp4",
+    "audioSha256": "0bb8ff87830b376e8b75fc16d737e6585f1ee3c514456711a7d6b3eb06aca85f",
+    "reviewNotes": [
+      "Remove repeated prior-client wallet and loading waits. Keep real Camila lookup, detail click, groups and pagination aligned to speech."
+    ],
+    "segments": [
+      {
+        "start": 390,
+        "end": 528,
+        "hold": 0
+      },
+      {
+        "start": 636,
+        "end": 714,
+        "hold": 0
+      },
+      {
+        "start": 762,
+        "end": 786,
+        "hold": 88
+      },
+      {
+        "start": 786,
+        "end": 825,
+        "hold": 0
+      },
+      {
+        "start": 876,
+        "end": 984,
+        "hold": 330
+      },
+      {
+        "start": 984,
+        "end": 1026,
+        "hold": 54
+      },
+      {
+        "start": 1026,
+        "end": 1188,
+        "hold": 0
+      }
+    ]
+  },
+  "27-company-status": {
+    "rawRecording": "recordings/27-company-status-1794068114362.mp4",
+    "audioSha256": "1f36ef6b252d75dad0c97157abc56dc496952dd165d957b00976c50a1951f868",
+    "reviewNotes": [
+      "Remove dashboard reload and repeated sign-in. Keep actual disable/enable confirmations and real no-plan account / plan-limit view."
+    ],
+    "segments": [
+      {
+        "start": 420,
+        "end": 576,
+        "hold": 300
+      },
+      {
+        "start": 576,
+        "end": 630,
+        "hold": 0
+      },
+      {
+        "start": 699,
+        "end": 756,
+        "hold": 360
+      },
+      {
+        "start": 756,
+        "end": 996,
+        "hold": 0
+      },
+      {
+        "start": 1422,
+        "end": 1455,
+        "hold": 180
+      },
+      {
+        "start": 1455,
+        "end": 1539,
+        "hold": 0
+      }
+    ]
+  },
+  "29-help": {
+    "rawRecording": "recordings/29-help-1794068532076.mp4",
+    "audioSha256": "c5ae82977f17caef300e7e0a8b31b3d085ca8b4906846f29b1624849d02b9270",
+    "reviewNotes": [
+      "Remove initial loading; preserve real failed read, recovery, empty query, theme switches, FAQ and logout. Reorder actual public FAQ as a separate read-only insert before the merchant logout demonstration."
+    ],
+    "segments": [
+      {
+        "start": 390,
+        "end": 630,
+        "hold": 180
+      },
+      {
+        "start": 690,
+        "end": 894,
+        "hold": 54
+      },
+      {
+        "start": 1140,
+        "end": 1308,
+        "hold": 36
+      },
+      {
+        "start": 1716,
+        "end": 1860,
+        "hold": 72
+      },
+      {
+        "start": 1458,
+        "end": 1536,
+        "hold": 96
+      },
+      {
+        "start": 1536,
+        "end": 1614,
+        "hold": 0
+      },
+      {
+        "start": 1620,
+        "end": 1650,
+        "hold": 0
+      }
+    ]
+  }
+}

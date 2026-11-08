@@ -2,7 +2,7 @@
 from runtime import ROOT,LOCAL,ORIGIN,verify,write,run
 import json,secrets,ssl,http.client,datetime as dt,time
 CTX=ssl.create_default_context(cafile=str(LOCAL/'certs/ca.pem'))
-PRIVATE=json.loads((LOCAL/'auth-private.json').read_text())
+PRIVATE=json.loads((LOCAL/'auth-private.json').read_text(encoding='utf8'))
 def request(method,route,body=None,token=None,extra=None):
  if not route.startswith(('/api/','/auth/v1/')):raise ValueError('Non-demo route')
  c=http.client.HTTPSConnection('localhost',25443,context=CTX,timeout=90)
@@ -19,7 +19,7 @@ def login(a):return request('POST','/auth/v1/token?grant_type=password',{'email'
 def api(method,route,body=None,token=None,key=None):
  return request(method,'/api/pointly'+route,body,token,{'X-Request-ID':'pointly-idem:'+key} if key else None)
 def accounts():
- verify();f=LOCAL/'accounts.json';data=json.loads(f.read_text()) if f.exists() else {}
+ verify();f=LOCAL/'accounts.json';data=json.loads(f.read_text(encoding='utf8')) if f.exists() else {}
  for key,role,label in [('ADMIN','SUPER_ADMIN','Administración DEMO'),('A','COMPANY','Comerciante Inicio DEMO'),('B','COMPANY','Lucía Comercio DEMO'),('NO_PLAN','COMPANY','Comercio sin plan DEMO')]:
   if key not in data:data[key]={'email':key.lower()+'@pointly-demo.test','password':secrets.token_urlsafe(24),'label':label};write(f,data)
   a=data[key]

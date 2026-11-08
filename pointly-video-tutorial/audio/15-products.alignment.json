@@ -13,7 +13,7 @@
   "words": [
     {
       "word": "El",
-      "start": 0.0,
+      "start": 0,
       "end": 0.36,
       "probability": 0.6959933638572693,
       "display": "El"
@@ -378,13 +378,13 @@
     {
       "word": "con",
       "start": 19.78,
-      "end": 20.0,
+      "end": 20,
       "probability": 0.9982569813728333,
       "display": "con"
     },
     {
       "word": "enlace.",
-      "start": 20.0,
+      "start": 20,
       "end": 20.28,
       "probability": 0.9801545739173889,
       "display": "Enlace:"
@@ -609,13 +609,13 @@
     {
       "word": "producto",
       "start": 31.7,
-      "end": 32.0,
+      "end": 32,
       "probability": 0.9984129667282104,
       "display": "producto"
     },
     {
       "word": "ya",
-      "start": 32.0,
+      "start": 32,
       "end": 32.24,
       "probability": 0.9916486740112305,
       "display": "ya"
@@ -693,13 +693,13 @@
     {
       "word": "carrito",
       "start": 36.64,
-      "end": 37.0,
+      "end": 37,
       "probability": 0.9607390463352203,
       "display": "carrito"
     },
     {
       "word": "de",
-      "start": 37.0,
+      "start": 37,
       "end": 37.12,
       "probability": 0.9992433786392212,
       "display": "de"
@@ -721,13 +721,13 @@
     {
       "word": "un",
       "start": 37.86,
-      "end": 38.0,
+      "end": 38,
       "probability": 0.997536301612854,
       "display": "un"
     },
     {
       "word": "control",
-      "start": 38.0,
+      "start": 38,
       "end": 38.34,
       "probability": 0.995422899723053,
       "display": "control"
@@ -753,85 +753,90 @@
       "startMs": 0,
       "endMs": 3360,
       "timestampMs": null,
-      "confidence": 0.942
+      "confidence": 0.9424398938814799
     },
     {
       "text": "Cargá un nombre y un precio;",
       "startMs": 3680,
       "endMs": 5160,
       "timestampMs": null,
-      "confidence": 0.95
+      "confidence": 0.9498890274100834
     },
     {
       "text": "la descripción es opcional.",
       "startMs": 5680,
       "endMs": 7020,
       "timestampMs": null,
-      "confidence": 0.993
+      "confidence": 0.9931345582008362
     },
     {
-      "text": "Para la imagen podés elegir un archivo, pegar un enlace directo o dejar el",
+      "text": "Para la imagen podés elegir un archivo,",
       "startMs": 7620,
-      "endMs": 11880,
+      "endMs": 9640,
       "timestampMs": null,
-      "confidence": 0.96
+      "confidence": 0.9618327447346279
     },
     {
-      "text": "producto sin foto.",
-      "startMs": 11880,
+      "text": "pegar un enlace directo o dejar el producto sin foto.",
+      "startMs": 9960,
       "endMs": 12700,
       "timestampMs": null,
-      "confidence": 0.992
+      "confidence": 0.96858249604702
     },
     {
       "text": "Primero guardamos una foto desde Archivo y revisamos la tarjeta.",
       "startMs": 13220,
       "endMs": 17180,
       "timestampMs": null,
-      "confidence": 0.973
+      "confidence": 0.9732014666001001
     },
     {
       "text": "Desde Editar también podemos reemplazarla con Enlace:",
       "startMs": 17620,
       "endMs": 20280,
       "timestampMs": null,
-      "confidence": 0.891
+      "confidence": 0.8909603655338287
     },
     {
       "text": "la dirección tiene que apuntar a la imagen, no a una página web.",
       "startMs": 20660,
       "endMs": 24760,
       "timestampMs": null,
-      "confidence": 0.99
+      "confidence": 0.9896030265551347
     },
     {
       "text": "Guardamos y comprobamos el resultado.",
       "startMs": 25160,
       "endMs": 27160,
       "timestampMs": null,
-      "confidence": 0.982
+      "confidence": 0.9818079531192779
     },
     {
       "text": "Para dejarlos sin foto, usamos Quitar imagen y guardamos otra vez.",
       "startMs": 27160,
       "endMs": 31080,
       "timestampMs": null,
-      "confidence": 0.929
+      "confidence": 0.9290672080083326
     },
     {
       "text": "Si el producto ya no corresponde, Eliminar pide confirmación.",
       "startMs": 31520,
       "endMs": 34460,
       "timestampMs": null,
-      "confidence": 0.989
+      "confidence": 0.9891014297803243
     },
     {
       "text": "Este catálogo no es un carrito de compras ni un control de stock.",
       "startMs": 35160,
       "endMs": 38660,
       "timestampMs": null,
-      "confidence": 0.971
+      "confidence": 0.970505287249883
     }
   ],
-  "status": "REVIEW_REQUIRED"
+  "status": "REVIEW_REQUIRED",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [],
+    "sourceAudioHash": "db67feb29c4e4799dc7e5a07d44cf0783158985c5511d04c95ee4bed8fa6615f"
+  }
 }

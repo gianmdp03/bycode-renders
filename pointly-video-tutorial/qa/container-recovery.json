@@ -1,0 +1,7 @@
+{
+  "state": "RECOVERED_EXISTING_DATA",
+  "retainedOwnedVolume": "pointly-tutorial-demo_data",
+  "coldBackup": ".local\\backups\\database-volume-20261107-123820.tar.gz",
+  "schemaChanged": false,
+  "productionTouched": false
+}

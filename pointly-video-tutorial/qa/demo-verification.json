@@ -3,19 +3,28 @@
   "isolation": "Owned containers and private databases verified before read-only checks",
   "ledger": {
     "database": "tutorial_pointly_demo",
-    "accounts": 28,
+    "accounts": 30,
     "balanceMismatch": 0,
-    "sales": 47,
-    "redemptions": 3,
+    "sales": 100,
+    "redemptions": 5,
     "sentEmails": 0
   },
   "company": {
     "name": "Caf\u00e9 del Puerto DEMO",
-    "publicName": "cafe-del-puerto-aula",
+    "publicName": "cafe-del-puerto-actualizado",
     "enabled": true
   },
   "publicPrivateAnaBalanceAgreement": true,
   "salePointDisplay": "Current sales API may omit pointsGenerated; frontend honestly shows Sin dato por venta. Ledger is the authoritative verification.",
   "productionTouched": false,
-  "externalMessages": false
+  "externalMessages": false,
+  "secondaryCompanyValidation": {
+    "existingClientIdentityPreserved": true,
+    "sameGlobalCarlaId": 3,
+    "independentAnaPointsAccounts": true,
+    "primaryBalance": 20,
+    "secondaryBalance": 65,
+    "publicPrivateAgreement": true,
+    "bothCompaniesEnabled": true
+  }
 }

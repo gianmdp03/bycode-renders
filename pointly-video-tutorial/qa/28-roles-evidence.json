@@ -4,19 +4,19 @@
     {
       "label": "Global administrator company table",
       "url": "/dashboard",
-      "at": 1793728590496.2
+      "at": 1794067135556.9001
     },
     {
       "label": "Admin-specific navigation and limits",
-      "url": "/companies/cafe-del-puerto-tutorial",
-      "at": 1793728591817.5
+      "url": "/companies/panaderia-costera-demo",
+      "at": 1794067137000
     }
   ],
   "network": [
     {
       "method": "GET",
-      "path": "/api/billing/account/profile",
-      "status": 200
+      "path": "/api/pointly/limits/my-limits",
+      "status": 403
     },
     {
       "method": "GET",
@@ -55,23 +55,18 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/company-names/cafe-del-puerto-tutorial/company",
+      "path": "/api/pointly/company-names/panaderia-costera-demo/company",
       "status": 200
     },
     {
       "method": "GET",
-      "path": "/api/pointly/points-accounts/1",
+      "path": "/api/pointly/sales/4",
       "status": 403
     },
     {
       "method": "GET",
-      "path": "/api/pointly/sales/1",
+      "path": "/api/pointly/points-accounts/4",
       "status": 403
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/public/media/6dedfc39-a8dd-4815-a680-b61b8db0307c",
-      "status": 200
     },
     {
       "method": "GET",
@@ -79,6 +74,6 @@
       "status": 403
     }
   ],
-  "source": "recordings/28-roles-1793728620825.mp4",
+  "source": "recordings/28-roles-1794067138961.mp4",
   "obs": null
 }

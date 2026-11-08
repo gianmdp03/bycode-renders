@@ -1,6 +1,6 @@
 """Owned initial historical fixture. Never a UI operation or a fake API result."""
 from seed import *
-cfg=verify();ids=json.loads((LOCAL/'seed-ids.json').read_text());cid=ids['company'];a=json.loads((LOCAL/'accounts.json').read_text());t=login(a['B'])
+cfg=verify();ids=json.loads((LOCAL/'seed-ids.json').read_text(encoding='utf8'));cid=ids['company'];a=json.loads((LOCAL/'accounts.json').read_text(encoding='utf8'));t=login(a['B'])
 rows=api('GET',f'/promotions/{cid}?size=100',token=t)['content'];name='Beneficio de la semana DEMO'
 p=next((x for x in rows if x['name']==name),None)
 if not p:

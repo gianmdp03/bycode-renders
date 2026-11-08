@@ -2,7 +2,7 @@
   "fps": 60,
   "width": 1920,
   "height": 1080,
-  "durationInFrames": 54747,
+  "durationInFrames": 58224,
   "chapters": [
     {
       "id": "01-intro",
@@ -10,10 +10,10 @@
       "objective": "Entender el ciclo de fidelización",
       "narration": "Pointly es el sistema de fidelización de clientes de Bycode Software. En este tutorial vamos a configurar un comercio, incorporar clientes, registrar compras y entregar premios con puntos. También vamos a ver qué consulta el cliente desde su billetera y cómo administrar el catálogo y los avisos. Trabajaremos con un café y datos ficticios. Seguí el recorrido en orden la primera vez; después podés volver al capítulo que necesites.",
       "account": "B",
-      "footage": "footage/01-intro-1793726586847.mkv",
+      "footage": "footage/01-intro-1794066026311.mp4",
       "audio": "audio/01-intro.wav",
-      "sourceStart": 19,
-      "sourceFrames": 1513,
+      "sourceStart": 39,
+      "sourceFrames": 195,
       "durationInFrames": 1551,
       "from": 0,
       "captions": [
@@ -22,56 +22,56 @@
           "startMs": 0,
           "endMs": 3540,
           "timestampMs": null,
-          "confidence": 0.89
+          "confidence": 0.8902106391773983
         },
         {
           "text": "En este tutorial vamos a configurar un comercio, incorporar clientes,",
           "startMs": 4040,
           "endMs": 7640,
           "timestampMs": null,
-          "confidence": 0.961
+          "confidence": 0.9606283128261566
         },
         {
           "text": "registrar compras y entregar premios con puntos.",
           "startMs": 7820,
           "endMs": 10400,
           "timestampMs": null,
-          "confidence": 0.98
+          "confidence": 0.9797637207167489
         },
         {
-          "text": "También vamos a ver qué consulta el cliente desde su billetera y cómo",
+          "text": "También vamos a ver qué consulta el cliente desde su billetera y cómo administrar",
           "startMs": 11020,
-          "endMs": 14520,
+          "endMs": 15100,
           "timestampMs": null,
-          "confidence": 0.966
+          "confidence": 0.9680667413132531
         },
         {
-          "text": "administrar el catálogo y los avisos.",
-          "startMs": 14520,
+          "text": "el catálogo y los avisos.",
+          "startMs": 15100,
           "endMs": 16500,
           "timestampMs": null,
-          "confidence": 0.995
+          "confidence": 0.9950006504853566
         },
         {
           "text": "Trabajaremos con un café y datos ficticios.",
           "startMs": 16980,
           "endMs": 19340,
           "timestampMs": null,
-          "confidence": 0.99
+          "confidence": 0.9895032459781283
         },
         {
           "text": "Seguí el recorrido en orden la primera vez;",
           "startMs": 19900,
           "endMs": 22220,
           "timestampMs": null,
-          "confidence": 0.99
+          "confidence": 0.9904860878984134
         },
         {
           "text": "después podés volver al capítulo que necesites.",
           "startMs": 22580,
           "endMs": 24740,
           "timestampMs": null,
-          "confidence": 0.967
+          "confidence": 0.967444292136601
         }
       ],
       "opening": true,
@@ -81,77 +81,84 @@
       "id": "02-access",
       "title": "Ingresar a tu cuenta",
       "objective": "Distinguir cuenta comercial y consulta del cliente",
-      "narration": "Para administrar un comercio necesitás tu cuenta de Bycode y un plan de Pointly habilitado. El acceso Crear cuenta lleva a Bycode: el alta comercial no se completa dentro de esta pantalla de Pointly. Si ya tenés cuenta, entrá con tu correo y contraseña. El modo cliente es diferente: permite consultar puntos, sin acceder a la administración. Revisá el correo que escribís y mantené tu contraseña privada. Si los datos no coinciden, la pantalla informa el error y permite corregirlos.",
+      "narration": "Desde el inicio, ¿Sos un comercio? Empezá ahora abre una guía con los primeros pasos. Primero creás tu cuenta en Bycode. Después volvés a Pointly e ingresás con el mismo correo y contraseña. Cada aplicación de Bycode tiene su propio plan: Pointly tiene que estar habilitado. Si ya tenés cuenta, elegí Ingresar como comercio. El formulario público del inicio es para consultar la billetera de clientes. Es importante revisar el correo y mantener la contraseña privada. Si los datos no coinciden, la pantalla informa el error y permite corregirlos.",
       "account": "A",
-      "footage": "footage/02-access-1793726621915.mkv",
+      "footage": "footage/02-access-19ed38eff4.mp4",
       "audio": "audio/02-access.wav",
-      "sourceStart": 19,
-      "sourceFrames": 1839,
-      "durationInFrames": 1878,
+      "sourceStart": 0,
+      "sourceFrames": 2222,
+      "durationInFrames": 2222,
       "from": 1551,
       "captions": [
         {
-          "text": "Para administrar un comercio necesitás tu cuenta de Bycode y un plan de",
+          "text": "Desde el inicio, ¿Sos un comercio?",
           "startMs": 0,
-          "endMs": 3860,
+          "endMs": 2440,
           "timestampMs": null,
-          "confidence": 0.901
+          "confidence": 0.8892727941274643
         },
         {
-          "text": "Pointly habilitado.",
-          "startMs": 3860,
-          "endMs": 4900,
+          "text": "Empezá ahora abre una guía con los primeros pasos.",
+          "startMs": 2960,
+          "endMs": 5900,
           "timestampMs": null,
-          "confidence": 0.848
+          "confidence": 0.9800831234013594
         },
         {
-          "text": "El acceso Crear cuenta lleva a Bycode:",
-          "startMs": 5420,
-          "endMs": 7620,
+          "text": "Primero creás tu cuenta en Bycode.",
+          "startMs": 6300,
+          "endMs": 8040,
           "timestampMs": null,
-          "confidence": 0.887
+          "confidence": 0.8055813996276507
         },
         {
-          "text": "el alta comercial no se completa dentro de esta pantalla de Pointly.",
-          "startMs": 8140,
-          "endMs": 11900,
+          "text": "Después volvés a Pointly e ingresás con el mismo correo y contraseña.",
+          "startMs": 8840,
+          "endMs": 12920,
           "timestampMs": null,
-          "confidence": 0.987
+          "confidence": 0.9573815754718251
         },
         {
-          "text": "Si ya tenés cuenta, entrá con tu correo y contraseña.",
-          "startMs": 12380,
-          "endMs": 15700,
+          "text": "Cada aplicación de Bycode tiene su propio plan:",
+          "startMs": 13660,
+          "endMs": 16120,
           "timestampMs": null,
-          "confidence": 0.967
+          "confidence": 0.9898625947535038
         },
         {
-          "text": "El modo cliente es diferente:",
-          "startMs": 16260,
-          "endMs": 17620,
+          "text": "Pointly tiene que estar habilitado.",
+          "startMs": 16640,
+          "endMs": 18440,
           "timestampMs": null,
-          "confidence": 0.974
+          "confidence": 0.9845193405946097
         },
         {
-          "text": "permite consultar puntos, sin acceder a la administración.",
-          "startMs": 18220,
-          "endMs": 21260,
+          "text": "Si ya tenés cuenta, elegí Ingresar como comercio.",
+          "startMs": 19120,
+          "endMs": 21840,
           "timestampMs": null,
-          "confidence": 0.986
+          "confidence": 0.9899230177203814
         },
         {
-          "text": "Revisá el correo que escribís y mantené tu contraseña privada.",
-          "startMs": 21940,
-          "endMs": 25220,
+          "text": "El formulario público del inicio es para consultar la billetera de clientes.",
+          "startMs": 22480,
+          "endMs": 26820,
           "timestampMs": null,
-          "confidence": 0.93
+          "confidence": 0.9923918147881826
+        },
+        {
+          "text": "Es importante revisar el correo y mantener la contraseña privada.",
+          "startMs": 26820,
+          "endMs": 30820,
+          "timestampMs": null,
+          "confidence": 0.9714261293411255
         },
         {
           "text": "Si los datos no coinciden, la pantalla informa el error y permite corregirlos.",
-          "startMs": 25740,
-          "endMs": 30360,
+          "startMs": 31260,
+          "endMs": 35480,
           "timestampMs": null,
-          "confidence": 0.982
+          "confidence": 0.9883499626929944
         }
       ],
       "opening": false,
@@ -163,82 +170,68 @@
       "objective": "Completar el perfil y reconocer el estado inicial",
       "narration": "En una cuenta nueva, Pointly puede pedir el DNI de la persona que administra el comercio. No es el documento de un cliente: es un dato de tu perfil. Completalo y continuá al panel. Acá aparece el plan, sus comercios permitidos y el cupo de clientes activos por comercio. Si todavía no creaste ninguno, empezá con Nueva Empresa. No necesitás preparar una planilla ni importar clientes para dar este primer paso.",
       "account": "A",
-      "footage": "footage/03-profile-1793726981458.mp4",
+      "footage": "footage/03-profile-fcf39577ed.mp4",
       "audio": "audio/03-profile.wav",
-      "sourceStart": 23,
-      "sourceFrames": 1512,
+      "sourceStart": 0,
+      "sourceFrames": 1551,
       "durationInFrames": 1551,
-      "from": 3429,
+      "from": 3773,
       "captions": [
         {
           "text": "En una cuenta nueva, Pointly puede pedir el DNI de la persona que administra",
           "startMs": 0,
           "endMs": 5120,
           "timestampMs": null,
-          "confidence": 0.967
+          "confidence": 0.9665924523557935
         },
         {
           "text": "el comercio.",
           "startMs": 5120,
           "endMs": 5720,
           "timestampMs": null,
-          "confidence": 0.996
+          "confidence": 0.996174082159996
         },
         {
           "text": "No es el documento de un cliente:",
           "startMs": 6140,
           "endMs": 7860,
           "timestampMs": null,
-          "confidence": 0.987
+          "confidence": 0.9868068822792598
         },
         {
           "text": "es un dato de tu perfil.",
           "startMs": 8160,
           "endMs": 9440,
           "timestampMs": null,
-          "confidence": 0.996
+          "confidence": 0.9955778419971466
         },
         {
-          "text": "Completalo y continúal panel.",
+          "text": "Completalo y continuá al panel.",
           "startMs": 9860,
           "endMs": 11420,
           "timestampMs": null,
-          "confidence": 0.896
+          "confidence": 0.8958041667938232
         },
         {
-          "text": "Acá aparece el plan, sus comercios permitidos y el cupo de clientes activos",
+          "text": "Acá aparece el plan, sus comercios permitidos y el cupo de clientes activos por comercio.",
           "startMs": 11820,
-          "endMs": 16080,
-          "timestampMs": null,
-          "confidence": 0.974
-        },
-        {
-          "text": "por comercio.",
-          "startMs": 16080,
           "endMs": 16700,
           "timestampMs": null,
-          "confidence": 0.994
+          "confidence": 0.9767486353715261
         },
         {
           "text": "Si todavía no creaste ninguno, empezá con Nueva Empresa.",
           "startMs": 17140,
           "endMs": 20140,
           "timestampMs": null,
-          "confidence": 0.952
+          "confidence": 0.9521150986353556
         },
         {
-          "text": "No necesitás preparar una planilla ni importar clientes para dar este primer",
+          "text": "No necesitás preparar una planilla ni importar clientes para dar este primer paso.",
           "startMs": 20700,
-          "endMs": 24680,
-          "timestampMs": null,
-          "confidence": 0.989
-        },
-        {
-          "text": "paso.",
-          "startMs": 24680,
           "endMs": 24980,
           "timestampMs": null,
-          "confidence": 0.998
+          "confidence": 0.9898302807257726
         }
       ],
       "opening": false,
@@ -250,82 +243,75 @@
       "objective": "Configurar identidad y regla base de puntos",
       "narration": "Escribí el nombre con el que tus clientes conocen al negocio. El nombre del enlace se genera a partir de ese texto, se puede ajustar y tiene que estar disponible. Usá letras, números y guiones. Después definí la regla: en nuestro ejemplo, cada mil pesos completos de una compra otorgan diez puntos. País es obligatorio; los demás datos de ubicación se pueden dejar vacíos si no corresponden. Revisá los campos antes de crear la empresa y esperá la confirmación.",
       "account": "A",
-      "footage": "footage/04-company-1793727014999.mp4",
+      "footage": "footage/04-company-b26ec6c839.mp4",
       "audio": "audio/04-company.wav",
-      "sourceStart": 23,
-      "sourceFrames": 1666,
+      "sourceStart": 0,
+      "sourceFrames": 1705,
       "durationInFrames": 1705,
-      "from": 4980,
+      "from": 5324,
       "captions": [
         {
           "text": "Escribí el nombre con el que tus clientes conocen al negocio.",
           "startMs": 0,
           "endMs": 3140,
           "timestampMs": null,
-          "confidence": 0.992
+          "confidence": 0.9918679906563326
         },
         {
-          "text": "El nombre del enlace se genera a partir de ese texto, se puede ajustar y tiene",
+          "text": "El nombre del enlace se genera a partir de ese texto,",
           "startMs": 3500,
-          "endMs": 8040,
+          "endMs": 6280,
           "timestampMs": null,
-          "confidence": 0.99
+          "confidence": 0.9886435080658306
         },
         {
-          "text": "que estar disponible.",
-          "startMs": 8040,
+          "text": "se puede ajustar y tiene que estar disponible.",
+          "startMs": 6640,
           "endMs": 8980,
           "timestampMs": null,
-          "confidence": 0.998
+          "confidence": 0.9951089881360531
         },
         {
           "text": "Usá letras, números y guiones.",
           "startMs": 9520,
           "endMs": 11380,
           "timestampMs": null,
-          "confidence": 0.952
+          "confidence": 0.9517341673374176
         },
         {
           "text": "Después definí la regla:",
           "startMs": 12060,
           "endMs": 13320,
           "timestampMs": null,
-          "confidence": 0.951
+          "confidence": 0.9510983228683472
         },
         {
-          "text": "en nuestro ejemplo, cada mil pesos completos de una compra otorgan diez",
+          "text": "en nuestro ejemplo, cada mil pesos completos de una compra otorgan diez puntos.",
           "startMs": 13680,
-          "endMs": 17360,
-          "timestampMs": null,
-          "confidence": 0.923
-        },
-        {
-          "text": "puntos.",
-          "startMs": 17360,
           "endMs": 17720,
           "timestampMs": null,
-          "confidence": 0.999
+          "confidence": 0.9284636745086083
         },
         {
           "text": "País es obligatorio;",
           "startMs": 18320,
           "endMs": 19580,
           "timestampMs": null,
-          "confidence": 0.942
+          "confidence": 0.9424636960029602
         },
         {
           "text": "los demás datos de ubicación se pueden dejar vacíos si no corresponden.",
           "startMs": 20020,
           "endMs": 23440,
           "timestampMs": null,
-          "confidence": 0.985
+          "confidence": 0.9847405180335045
         },
         {
           "text": "Revisá los campos antes de crear la empresa y esperá la confirmación.",
           "startMs": 23920,
           "endMs": 27400,
           "timestampMs": null,
-          "confidence": 0.953
+          "confidence": 0.953171449402968
         }
       ],
       "opening": false,
@@ -335,84 +321,77 @@
       "id": "05-settings",
       "title": "Reglas y vencimientos",
       "objective": "Modificar configuración sin confundir puntos históricos",
-      "narration": "Desde Editar podés actualizar el nombre, la ubicación y la regla de acumulación. El vencimiento es opcional: si lo activás, indicá cuántos días duran los puntos de nuevas compras. Ese cambio no debe interpretarse como una renovación de todos los puntos anteriores. Una compra nueva tampoco renueva automáticamente cada saldo histórico. Leé la explicación junto a la opción antes de guardar. Los niveles Bronce, Plata y Oro están suspendidos en esta versión; no forman parte de la configuración disponible.",
+      "narration": "Para seguir usamos Café del Puerto, un comercio de ejemplo con actividad. Desde Editar podés actualizar el nombre, la ubicación y la regla de acumulación. El vencimiento es opcional: si lo activás, indicá cuántos días duran los puntos de nuevas compras. Ese cambio no renueva todos los puntos anteriores. Una compra nueva tampoco renueva automáticamente cada saldo histórico. Leé la explicación junto a la opción antes de guardar. Los niveles Bronce, Plata y Oro están suspendidos en esta versión; no forman parte de la configuración disponible.",
       "account": "B",
-      "footage": "footage/05-settings-1793727053751.mp4",
+      "footage": "footage/05-settings-f74453c2e1.mp4",
       "audio": "audio/05-settings.wav",
-      "sourceStart": 20,
-      "sourceFrames": 1877,
-      "durationInFrames": 1916,
-      "from": 6685,
+      "sourceStart": 0,
+      "sourceFrames": 2060,
+      "durationInFrames": 2060,
+      "from": 7029,
       "captions": [
         {
-          "text": "Desde Editar podés actualizar el nombre, la ubicación y la regla de",
+          "text": "Para seguir usamos Café del Puerto, un comercio de ejemplo con actividad.",
           "startMs": 0,
-          "endMs": 4060,
+          "endMs": 4140,
           "timestampMs": null,
-          "confidence": 0.935
+          "confidence": 0.9024219426016012
         },
         {
-          "text": "acumulación.",
-          "startMs": 4060,
-          "endMs": 4620,
+          "text": "Desde Editar podés actualizar el nombre, la ubicación y la regla de acumulación.",
+          "startMs": 4680,
+          "endMs": 9100,
           "timestampMs": null,
-          "confidence": 0.986
+          "confidence": 0.9433114142754138
         },
         {
           "text": "El vencimiento es opcional:",
-          "startMs": 5340,
-          "endMs": 6760,
+          "startMs": 9720,
+          "endMs": 11400,
           "timestampMs": null,
-          "confidence": 0.987
+          "confidence": 0.9757725497086843
         },
         {
           "text": "si lo activás, indicá cuántos días duran los puntos de nuevas compras.",
-          "startMs": 7420,
-          "endMs": 11380,
+          "startMs": 11880,
+          "endMs": 15900,
           "timestampMs": null,
-          "confidence": 0.961
+          "confidence": 0.9477446153759956
         },
         {
-          "text": "Ese cambio no debe interpretarse como una renovación de todos los puntos",
-          "startMs": 12060,
-          "endMs": 15560,
+          "text": "Ese cambio no renueva todos los puntos anteriores.",
+          "startMs": 16380,
+          "endMs": 19240,
           "timestampMs": null,
-          "confidence": 0.991
-        },
-        {
-          "text": "anteriores.",
-          "startMs": 15560,
-          "endMs": 16100,
-          "timestampMs": null,
-          "confidence": 0.999
+          "confidence": 0.9059969559311866
         },
         {
           "text": "Una compra nueva tampoco renueva automáticamente cada saldo histórico.",
-          "startMs": 16720,
-          "endMs": 20360,
+          "startMs": 19740,
+          "endMs": 23500,
           "timestampMs": null,
-          "confidence": 0.946
+          "confidence": 0.9816671665068026
         },
         {
           "text": "Leé la explicación junto a la opción antes de guardar.",
-          "startMs": 20980,
-          "endMs": 23680,
+          "startMs": 23940,
+          "endMs": 26600,
           "timestampMs": null,
-          "confidence": 0.964
+          "confidence": 0.9670122981071472
         },
         {
           "text": "Los niveles Bronce, Plata y Oro están suspendidos en esta versión;",
-          "startMs": 24240,
-          "endMs": 28120,
+          "startMs": 26600,
+          "endMs": 30640,
           "timestampMs": null,
-          "confidence": 0.967
+          "confidence": 0.947905266826803
         },
         {
           "text": "no forman parte de la configuración disponible.",
-          "startMs": 28120,
-          "endMs": 30960,
+          "startMs": 30960,
+          "endMs": 33380,
           "timestampMs": null,
-          "confidence": 0.939
+          "confidence": 0.9963813296386174
         }
       ],
       "opening": false,
@@ -422,70 +401,70 @@
       "id": "06-photo",
       "title": "Foto y enlace del comercio",
       "objective": "Personalizar la identificación del negocio",
-      "narration": "La foto ayuda al cliente a reconocer el comercio. Elegí un archivo JPEG, PNG o WebP de hasta diez megabytes, ajustá el recorte y guardá. Podés mover la imagen y acercarla con el control de zoom. Si necesitás reemplazarla o quitarla, usá las acciones de esta misma página. El nombre público del enlace también puede modificarse desde su configuración: revisá la disponibilidad y el aviso antes de confirmar, porque es el acceso que vas a compartir con tus clientes.",
+      "narration": "La foto ayuda al cliente a reconocer el comercio. Podemos subir un archivo JPEG, PNG o WebP de hasta diez megabytes. Ajustamos el recorte con los controles de posición y zoom, y guardamos la imagen. Desde esta misma página también se puede reemplazar o quitar la foto. El nombre público del enlace se modifica desde su configuración. Revisá la disponibilidad y la advertencia: al confirmar el cambio, el acceso anterior deja de funcionar. Compartí el nuevo enlace y el nuevo QR con tus clientes.",
       "account": "B",
-      "footage": "footage/06-photo-1793727090626.mp4",
+      "footage": "footage/06-photo-1a324e9cb8.mp4",
       "audio": "audio/06-photo.wav",
-      "sourceStart": 24,
-      "sourceFrames": 1849,
-      "durationInFrames": 1887,
-      "from": 8601,
+      "sourceStart": 0,
+      "sourceFrames": 1988,
+      "durationInFrames": 1988,
+      "from": 9089,
       "captions": [
         {
           "text": "La foto ayuda al cliente a reconocer el comercio.",
           "startMs": 0,
-          "endMs": 2820,
+          "endMs": 2600,
           "timestampMs": null,
-          "confidence": 0.924
+          "confidence": 0.9565839999251895
         },
         {
-          "text": "Elegí un archivo JPEG, PNG o WebP de hasta 10 MB,",
-          "startMs": 3280,
-          "endMs": 7840,
+          "text": "Podemos subir un archivo JPEG, PNG o WebP de hasta 10 MB.",
+          "startMs": 3080,
+          "endMs": 8060,
           "timestampMs": null,
-          "confidence": 0.768
+          "confidence": 0.8304188288748264
         },
         {
-          "text": "ajustar el recorte y guardar.",
-          "startMs": 8380,
-          "endMs": 10520,
+          "text": "Ajustamos el recorte con los controles de posición y zoom, y guardamos la imagen.",
+          "startMs": 8680,
+          "endMs": 13240,
           "timestampMs": null,
-          "confidence": 0.919
+          "confidence": 0.9687835673491161
         },
         {
-          "text": "Podés mover la imagen y acercarla con el control de zoom.",
-          "startMs": 11020,
-          "endMs": 13920,
+          "text": "Desde esta misma página también se puede reemplazar o quitar la foto.",
+          "startMs": 13960,
+          "endMs": 17680,
           "timestampMs": null,
-          "confidence": 0.958
+          "confidence": 0.9943321794271469
         },
         {
-          "text": "Si necesitás reemplazarla o quitarla, usá las acciones de esta misma página.",
-          "startMs": 14560,
-          "endMs": 19400,
+          "text": "El nombre público del enlace se modifica desde su configuración.",
+          "startMs": 18280,
+          "endMs": 21620,
           "timestampMs": null,
-          "confidence": 0.959
+          "confidence": 0.9917813569307328
         },
         {
-          "text": "El nombre público del enlace también puede modificarse desde su configuración:",
-          "startMs": 19840,
-          "endMs": 23780,
+          "text": "Revisá la disponibilidad y la advertencia:",
+          "startMs": 22120,
+          "endMs": 24460,
           "timestampMs": null,
-          "confidence": 0.988
+          "confidence": 0.9699269607663155
         },
         {
-          "text": "revisá la disponibilidad y el aviso antes de confirmar, porque es el acceso",
-          "startMs": 24360,
-          "endMs": 28660,
+          "text": "al confirmar el cambio, el acceso anterior deja de funcionar.",
+          "startMs": 24800,
+          "endMs": 28440,
           "timestampMs": null,
-          "confidence": 0.942
+          "confidence": 0.9957398355007172
         },
         {
-          "text": "que vas a compartir con tus clientes.",
-          "startMs": 28660,
-          "endMs": 30540,
+          "text": "Compartí el nuevo enlace y el nuevo QR con tus clientes.",
+          "startMs": 28440,
+          "endMs": 32200,
           "timestampMs": null,
-          "confidence": 0.996
+          "confidence": 0.981473249016386
         }
       ],
       "opening": false,
@@ -495,91 +474,91 @@
       "id": "07-navigation",
       "title": "Orientarse en el panel",
       "objective": "Encontrar acciones y leer los indicadores reales",
-      "narration": "Abrimos un comercio que ya tiene actividad. Resumen General muestra la regla, los clientes activos que ocupan cupo y los saldos vigentes. Las pestañas separan Clientes, Productos, Promociones, Premios, Ventas, Sin actividad, Archivados y Correos. Los contadores del catálogo indican elementos creados; no son una medida de facturación. Esta versión presenta tablas e indicadores, sin un panel de gráficos estadísticos. Desde el inicio también tenés accesos rápidos para agregar clientes, registrar ventas y consultar puntos.",
+      "narration": "En Mis comercios encontramos los negocios de tu cuenta. Abrimos Café del Puerto. Resumen General muestra la regla, los clientes activos que ocupan cupo y los puntos disponibles. Las pestañas separan Clientes, Productos, Promociones, Premios, Ventas, Sin actividad, Archivados y Correos. Los contadores del catálogo indican elementos creados; no son una medida de facturación. Esta versión presenta tablas e indicadores, sin un panel de gráficos estadísticos. Desde el inicio comercial, Operaciones Rápidas permite seleccionar el comercio, agregar clientes, registrar ventas y abrir Ver clientes.",
       "account": "B",
-      "footage": "footage/07-navigation-1793727237736.mp4",
+      "footage": "footage/07-navigation-1f31dfa680.mp4",
       "audio": "audio/07-navigation.wav",
-      "sourceStart": 37,
-      "sourceFrames": 2103,
-      "durationInFrames": 2142,
-      "from": 10488,
+      "sourceStart": 0,
+      "sourceFrames": 2324,
+      "durationInFrames": 2324,
+      "from": 11077,
       "captions": [
         {
-          "text": "Abrimos un comercio que ya tiene actividad.",
+          "text": "En Mis comercios encontramos los negocios de tu cuenta.",
           "startMs": 0,
-          "endMs": 2540,
+          "endMs": 2880,
           "timestampMs": null,
-          "confidence": 0.954
+          "confidence": 0.9220103356573317
         },
         {
-          "text": "Resumen General muestra la regla, los clientes activos que ocupan cupo y los",
-          "startMs": 2960,
-          "endMs": 7380,
+          "text": "Abrimos Café del Puerto.",
+          "startMs": 3320,
+          "endMs": 4700,
           "timestampMs": null,
-          "confidence": 0.941
+          "confidence": 0.9175806567072868
         },
         {
-          "text": "saldos vigentes.",
-          "startMs": 7380,
-          "endMs": 8180,
+          "text": "Resumen General muestra la regla,",
+          "startMs": 5040,
+          "endMs": 6920,
           "timestampMs": null,
-          "confidence": 0.954
+          "confidence": 0.9406861901283264
         },
         {
-          "text": "Las pestañas separan Clientes, Productos, Promociones, Premios, Ventas, Sin",
-          "startMs": 8980,
-          "endMs": 14220,
+          "text": "los clientes activos que ocupan cupo y los puntos disponibles.",
+          "startMs": 7240,
+          "endMs": 10420,
           "timestampMs": null,
-          "confidence": 0.986
+          "confidence": 0.9684785962104797
         },
         {
-          "text": "actividad, Archivados y Correos.",
-          "startMs": 14220,
-          "endMs": 16500,
+          "text": "Las pestañas separan Clientes, Productos, Promociones, Premios, Ventas,",
+          "startMs": 11040,
+          "endMs": 15720,
           "timestampMs": null,
-          "confidence": 0.952
+          "confidence": 0.9867257922887802
+        },
+        {
+          "text": "Sin actividad, Archivados y Correos.",
+          "startMs": 16000,
+          "endMs": 18120,
+          "timestampMs": null,
+          "confidence": 0.9168361276388168
         },
         {
           "text": "Los contadores del catálogo indican elementos creados;",
-          "startMs": 17140,
-          "endMs": 20020,
+          "startMs": 18680,
+          "endMs": 21500,
           "timestampMs": null,
-          "confidence": 0.992
+          "confidence": 0.9921034475167593
         },
         {
           "text": "no son una medida de facturación.",
-          "startMs": 20500,
-          "endMs": 22140,
+          "startMs": 21860,
+          "endMs": 23500,
           "timestampMs": null,
-          "confidence": 0.995
+          "confidence": 0.9966979589727191
         },
         {
-          "text": "Esta versión presenta tablas e indicadores, sin un panel de gráficos",
-          "startMs": 22780,
-          "endMs": 27260,
+          "text": "Esta versión presenta tablas e indicadores, sin un panel de gráficos estadísticos.",
+          "startMs": 23960,
+          "endMs": 28580,
           "timestampMs": null,
-          "confidence": 0.982
+          "confidence": 0.9563552745514445
         },
         {
-          "text": "estadísticos.",
-          "startMs": 27260,
-          "endMs": 27920,
+          "text": "Desde el inicio comercial, Operaciones Rápidas permite seleccionar el comercio,",
+          "startMs": 28580,
+          "endMs": 33640,
           "timestampMs": null,
-          "confidence": 0.991
+          "confidence": 0.9035624350110691
         },
         {
-          "text": "Desde el inicio también tenés accesos rápidos para agregar clientes, registrar",
-          "startMs": 27920,
-          "endMs": 33180,
+          "text": "agregar clientes, registrar ventas y abrir Ver clientes.",
+          "startMs": 33980,
+          "endMs": 37700,
           "timestampMs": null,
-          "confidence": 0.964
-        },
-        {
-          "text": "ventas y consultar puntos.",
-          "startMs": 33180,
-          "endMs": 34700,
-          "timestampMs": null,
-          "confidence": 0.983
+          "confidence": 0.9056939370930195
         }
       ],
       "opening": false,
@@ -589,77 +568,84 @@
       "id": "08-client",
       "title": "Agregar un cliente",
       "objective": "Crear una asociación válida sin contactos obligatorios",
-      "narration": "Para incorporar un cliente, abrí Agregar cliente y completá nombre, país del documento y DNI. Correo y teléfono son opcionales: la persona puede acumular y canjear puntos aunque no los tenga. Si cargás un teléfono para WhatsApp, incluí el código de país. El alta es inmediata y no pide confirmar un correo. Si ese documento ya existe en Pointly, se conservan sus datos anteriores: este formulario lo vincula al comercio, no edita su identidad. Al guardar, comprobá que aparezca en la lista.",
+      "narration": "Para incorporar un cliente, seleccionamos Agregar cliente y completamos nombre, país del documento y DNI. Correo y teléfono son opcionales: la persona puede acumular y canjear puntos aunque no los tenga. Si cargás un teléfono para WhatsApp, incluí el código de país. El alta es inmediata y no pide confirmar un correo. Ahora asociamos a Carla en nuestro segundo comercio. Si ese documento ya existe en Pointly, se conservan sus datos anteriores: el formulario lo vincula al comercio, no edita su identidad. Después de guardar, revisamos el nombre en la lista.",
       "account": "B",
-      "footage": "footage/08-client-1793727275347.mp4",
+      "footage": "footage/08-client-fc249dad04.mp4",
       "audio": "audio/08-client.wav",
-      "sourceStart": 37,
-      "sourceFrames": 1848,
-      "durationInFrames": 1887,
-      "from": 12630,
+      "sourceStart": 0,
+      "sourceFrames": 2085,
+      "durationInFrames": 2085,
+      "from": 13401,
       "captions": [
         {
-          "text": "Para incorporar un cliente, habría Agregar cliente y completá nombre, país del",
+          "text": "Para incorporar un cliente, seleccionamos Agregar cliente y completamos nombre,",
           "startMs": 0,
-          "endMs": 4500,
+          "endMs": 4060,
           "timestampMs": null,
-          "confidence": 0.859
+          "confidence": 0.899715847025315
         },
         {
-          "text": "documento y DNI.",
-          "startMs": 4500,
-          "endMs": 5900,
+          "text": "país del documento y DNI.",
+          "startMs": 4320,
+          "endMs": 5980,
           "timestampMs": null,
-          "confidence": 0.794
+          "confidence": 0.8930575489997864
         },
         {
           "text": "Correo y teléfono son opcionales:",
-          "startMs": 6180,
-          "endMs": 7940,
+          "startMs": 6340,
+          "endMs": 8260,
           "timestampMs": null,
-          "confidence": 0.971
+          "confidence": 0.9845643877983093
         },
         {
           "text": "la persona puede acumular y canjear puntos aunque no los tenga.",
-          "startMs": 8200,
-          "endMs": 11700,
+          "startMs": 8640,
+          "endMs": 11900,
           "timestampMs": null,
-          "confidence": 0.958
+          "confidence": 0.9935200476285182
         },
         {
           "text": "Si cargás un teléfono para WhatsApp, incluí el código de país.",
-          "startMs": 12300,
-          "endMs": 15760,
+          "startMs": 12620,
+          "endMs": 15840,
           "timestampMs": null,
-          "confidence": 0.934
+          "confidence": 0.9294356387673002
         },
         {
           "text": "El alta es inmediata y no pide confirmar un correo.",
-          "startMs": 16320,
-          "endMs": 19420,
+          "startMs": 16620,
+          "endMs": 19400,
           "timestampMs": null,
-          "confidence": 0.95
+          "confidence": 0.950439041852951
+        },
+        {
+          "text": "Ahora asociamos a Carla en nuestro segundo comercio.",
+          "startMs": 20140,
+          "endMs": 22680,
+          "timestampMs": null,
+          "confidence": 0.9579984247684479
         },
         {
           "text": "Si ese documento ya existe en Pointly, se conservan sus datos anteriores:",
-          "startMs": 19840,
-          "endMs": 23980,
+          "startMs": 23160,
+          "endMs": 26880,
           "timestampMs": null,
-          "confidence": 0.968
+          "confidence": 0.9648716847101847
         },
         {
-          "text": "este formulario lo vincula al comercio, no edita su identidad.",
-          "startMs": 24420,
-          "endMs": 27900,
+          "text": "el formulario lo vincula al comercio, no edita su identidad.",
+          "startMs": 26880,
+          "endMs": 30420,
           "timestampMs": null,
-          "confidence": 0.984
+          "confidence": 0.9357160141070684
         },
         {
-          "text": "Al guardar, comprobá que aparezca en la lista.",
-          "startMs": 27900,
-          "endMs": 30500,
+          "text": "Después de guardar, revisamos el nombre en la lista.",
+          "startMs": 30920,
+          "endMs": 33720,
           "timestampMs": null,
-          "confidence": 0.934
+          "confidence": 0.9973527921570672
         }
       ],
       "opening": false,
@@ -671,68 +657,68 @@
       "objective": "Compartir y utilizar el alta pública",
       "narration": "Otra forma de incorporar clientes es el QR de registro. Desde el resumen abrí Generar QR de Registro. Podés copiar el enlace, descargar el código como imagen o abrir la impresión. Si el navegador bloquea la ventana de impresión, habilitala o usá la descarga. El enlace abre un formulario público con el nombre del comercio. El cliente completa sus datos y confirma el alta. Mostrar un QR no suma puntos por sí solo: después tenés que registrar las compras desde tu cuenta comercial.",
       "account": "B",
-      "footage": "footage/09-qr-1793727311614.mp4",
+      "footage": "footage/09-qr-977ffa08bd.mp4",
       "audio": "audio/09-qr.wav",
-      "sourceStart": 35,
-      "sourceFrames": 1806,
+      "sourceStart": 0,
+      "sourceFrames": 1844,
       "durationInFrames": 1844,
-      "from": 14517,
+      "from": 15486,
       "captions": [
         {
           "text": "Otra forma de incorporar clientes es el QR de registro.",
           "startMs": 0,
           "endMs": 3400,
           "timestampMs": null,
-          "confidence": 0.992
+          "confidence": 0.9915509343147277
         },
         {
           "text": "Desde el resumen abrí Generar QR de Registro.",
           "startMs": 4060,
           "endMs": 6720,
           "timestampMs": null,
-          "confidence": 0.938
+          "confidence": 0.9378380794078112
         },
         {
           "text": "Podés copiar el enlace, descargar el código como imagen o abrir la impresión.",
           "startMs": 7080,
           "endMs": 11240,
           "timestampMs": null,
-          "confidence": 0.965
+          "confidence": 0.9648168216913173
         },
         {
           "text": "Si el navegador bloquea la ventana de impresión, habilitala o usá la descarga.",
           "startMs": 11860,
           "endMs": 16000,
           "timestampMs": null,
-          "confidence": 0.969
+          "confidence": 0.9687822705660112
         },
         {
           "text": "El enlace abre un formulario público con el nombre del comercio.",
           "startMs": 16600,
           "endMs": 19800,
           "timestampMs": null,
-          "confidence": 0.99
+          "confidence": 0.989940041845495
         },
         {
           "text": "El cliente completa sus datos y confirma el alta.",
           "startMs": 20360,
           "endMs": 22880,
           "timestampMs": null,
-          "confidence": 0.982
+          "confidence": 0.9821216464042664
         },
         {
           "text": "Mostrar un QR no suma puntos por sí solo:",
           "startMs": 23520,
           "endMs": 25900,
           "timestampMs": null,
-          "confidence": 0.973
+          "confidence": 0.972525782055325
         },
         {
           "text": "después tenés que registrar las compras desde tu cuenta comercial.",
           "startMs": 25900,
           "endMs": 29520,
           "timestampMs": null,
-          "confidence": 0.948
+          "confidence": 0.9484071165323258
         }
       ],
       "opening": false,
@@ -742,84 +728,91 @@
       "id": "10-search",
       "title": "Buscar y revisar clientes",
       "objective": "Consultar saldo, contactos e historial",
-      "narration": "En Clientes podés buscar por nombre o DNI, incluso usando solo una parte. El filtro permite ver todos, activos o archivados; dejá la búsqueda vacía para recuperar la lista. Abrí Ver detalle para revisar el saldo y los movimientos. Cada movimiento muestra su fecha y distingue puntos sumados, canjes o vencimientos. Los contactos se consultan con una acción específica y se pueden volver a ocultar. Si hay varias páginas, avanzá con los controles de navegación; una búsqueda sin resultados no es un error de carga.",
+      "narration": "Ver clientes abre la lista del comercio. Buscá por nombre o DNI, incluso usando solo una parte. El filtro permite ver todos, activos o archivados; dejá la búsqueda vacía para recuperar la lista. Entramos en Ver detalle para revisar el saldo y los movimientos. Cada movimiento muestra su fecha y distingue puntos sumados, canjes o vencimientos. Los contactos aparecen directamente cuando el cliente y el comercio están activos. Si falta correo o teléfono, la pantalla lo indica; no impide consultar puntos. Si hay varias páginas de historial, avanzá con sus controles. Una búsqueda sin resultados no es un error de carga.",
       "account": "B",
-      "footage": "footage/10-search-1793727349437.mp4",
+      "footage": "footage/10-search-ea9f1a68dc.mp4",
       "audio": "audio/10-search.wav",
-      "sourceStart": 35,
-      "sourceFrames": 1850,
-      "durationInFrames": 1887,
-      "from": 16361,
+      "sourceStart": 0,
+      "sourceFrames": 2324,
+      "durationInFrames": 2324,
+      "from": 17330,
       "captions": [
         {
-          "text": "En Clientes podés buscar por nombre o DNI, incluso usando solo una parte.",
+          "text": "Ver clientes abre la lista del comercio.",
           "startMs": 0,
-          "endMs": 5100,
+          "endMs": 2080,
           "timestampMs": null,
-          "confidence": 0.908
+          "confidence": 0.9644688282694135
+        },
+        {
+          "text": "Buscá por nombre o DNI, incluso usando solo una parte.",
+          "startMs": 2500,
+          "endMs": 5960,
+          "timestampMs": null,
+          "confidence": 0.9506245692571003
         },
         {
           "text": "El filtro permite ver todos, activos o archivados;",
-          "startMs": 5520,
-          "endMs": 8560,
+          "startMs": 6460,
+          "endMs": 9480,
           "timestampMs": null,
-          "confidence": 0.949
+          "confidence": 0.9839877982934316
         },
         {
           "text": "dejá la búsqueda vacía para recuperar la lista.",
-          "startMs": 9080,
-          "endMs": 11460,
+          "startMs": 9940,
+          "endMs": 12260,
           "timestampMs": null,
-          "confidence": 0.979
+          "confidence": 0.9860077630728483
         },
         {
-          "text": "Abríver detalle para revisar el saldo y los movimientos.",
-          "startMs": 11860,
-          "endMs": 14800,
+          "text": "Entramos en Ver detalle para revisar el saldo y los movimientos.",
+          "startMs": 12660,
+          "endMs": 15940,
           "timestampMs": null,
-          "confidence": 0.973
+          "confidence": 0.9574254284302393
         },
         {
-          "text": "Cada movimiento muestra su fecha y distingue puntos sumados, canjes o",
-          "startMs": 15160,
-          "endMs": 18940,
+          "text": "Cada movimiento muestra su fecha y distingue puntos sumados, canjes o vencimientos.",
+          "startMs": 16360,
+          "endMs": 21100,
           "timestampMs": null,
-          "confidence": 0.983
+          "confidence": 0.9870879650115968
         },
         {
-          "text": "vencimientos.",
-          "startMs": 18940,
-          "endMs": 19440,
+          "text": "Los contactos aparecen directamente cuando el cliente y el comercio están activos.",
+          "startMs": 21680,
+          "endMs": 25900,
           "timestampMs": null,
-          "confidence": 0.995
+          "confidence": 0.9950214823087057
         },
         {
-          "text": "Los contactos se consultan con una acción específica y se pueden volver a",
-          "startMs": 20020,
-          "endMs": 23800,
+          "text": "Si falta correo o teléfono, la pantalla lo indica;",
+          "startMs": 26260,
+          "endMs": 29060,
           "timestampMs": null,
-          "confidence": 0.988
+          "confidence": 0.9963724602151799
         },
         {
-          "text": "ocultar.",
-          "startMs": 23800,
-          "endMs": 24240,
+          "text": "no impide consultar puntos.",
+          "startMs": 29060,
+          "endMs": 30780,
           "timestampMs": null,
-          "confidence": 0.997
+          "confidence": 0.9331915006041527
         },
         {
-          "text": "Si hay varias páginas, avanzá con los controles de navegación;",
-          "startMs": 24740,
-          "endMs": 27760,
+          "text": "Si hay varias páginas de historial, avanzá con sus controles.",
+          "startMs": 31220,
+          "endMs": 34600,
           "timestampMs": null,
-          "confidence": 0.966
+          "confidence": 0.9513927072286605
         },
         {
-          "text": "una búsqueda sin resultados no es un error de carga.",
-          "startMs": 27760,
-          "endMs": 30640,
+          "text": "Una búsqueda sin resultados no es un error de carga.",
+          "startMs": 35000,
+          "endMs": 37780,
           "timestampMs": null,
-          "confidence": 0.933
+          "confidence": 0.9899580240249634
         }
       ],
       "opening": false,
@@ -831,68 +824,68 @@
       "objective": "Comprobar una acumulación de puntos real",
       "narration": "Vamos a registrar una compra para Ana. Buscamos su país y DNI y cargamos ocho mil quinientos pesos. Con nuestra regla, los ocho bloques completos de mil suman ochenta puntos; los quinientos restantes no pasan a otra compra. La pantalla muestra una estimación y el cliente encontrado. Al confirmar se registra la venta y se suman los puntos. Pointly no cobra dinero ni emite una factura por esta acción. Después verificamos la venta y el nuevo movimiento del cliente.",
       "account": "B",
-      "footage": "footage/11-sale-1793727385836.mp4",
+      "footage": "footage/11-sale-2520ce219f.mp4",
       "audio": "audio/11-sale.wav",
-      "sourceStart": 37,
-      "sourceFrames": 1777,
+      "sourceStart": 0,
+      "sourceFrames": 1815,
       "durationInFrames": 1815,
-      "from": 18248,
+      "from": 19654,
       "captions": [
         {
           "text": "Vamos a registrar una compra para Ana.",
           "startMs": 0,
           "endMs": 2180,
           "timestampMs": null,
-          "confidence": 0.964
+          "confidence": 0.9639421318258558
         },
         {
-          "text": "Buscamos su país y DNI y cargamos 8 .500 pesos.",
+          "text": "Buscamos su país y DNI y cargamos 8.500 pesos.",
           "startMs": 2600,
           "endMs": 6700,
           "timestampMs": null,
-          "confidence": 0.804
+          "confidence": 0.8257039669487213
         },
         {
           "text": "Con nuestra regla, los 8 bloques completos de 1000 suman 80 puntos;",
           "startMs": 7540,
           "endMs": 11420,
           "timestampMs": null,
-          "confidence": 0.944
+          "confidence": 0.9443622678518295
         },
         {
           "text": "los 500 restantes no pasan a otra compra.",
           "startMs": 12020,
           "endMs": 14680,
           "timestampMs": null,
-          "confidence": 0.987
+          "confidence": 0.9866582006216049
         },
         {
           "text": "La pantalla muestra una estimación y el cliente encontrado.",
           "startMs": 15320,
           "endMs": 18380,
           "timestampMs": null,
-          "confidence": 0.995
+          "confidence": 0.9947089321083493
         },
         {
           "text": "Al confirmar se registra la venta y se suman los puntos.",
           "startMs": 19100,
           "endMs": 22000,
           "timestampMs": null,
-          "confidence": 0.99
+          "confidence": 0.9898400875655088
         },
         {
           "text": "Pointly no cobra dinero ni emite una factura por esta acción.",
           "startMs": 22520,
           "endMs": 25660,
           "timestampMs": null,
-          "confidence": 0.969
+          "confidence": 0.9693429605527357
         },
         {
           "text": "Después verificamos la venta y el nuevo movimiento del cliente.",
           "startMs": 26040,
           "endMs": 29320,
           "timestampMs": null,
-          "confidence": 0.99
+          "confidence": 0.9896668344736099
         }
       ],
       "opening": false,
@@ -902,15 +895,86 @@
       "id": "12-sales-history",
       "title": "Ventas e incidencias",
       "objective": "Leer puntos históricos y evitar duplicar operaciones",
-      "narration": "La pestaña Ventas muestra las compras, sus importes, fechas y puntos entregados. Usá el valor registrado: no recalcules una venta antigua con la regla actual, porque pudo tener otra promoción. Una compra menor al mínimo puede registrarse con cero puntos. Si la conexión se corta y no hay un resultado claro, conservá el formulario y usá Reintentar venta pendiente. No empieces otra operación para repetir la misma compra: el reintento conserva su identidad para evitar duplicaciones. Revisá siempre el resultado antes de seguir.",
+      "narration": "La pestaña Ventas muestra las compras, sus importes y fechas. Si aparece Sin dato por venta, no significa cero puntos: consultá el saldo y el historial del cliente. No recalcules una venta antigua con la regla actual, porque pudo tener otra promoción. Una compra menor al mínimo puede registrarse con cero puntos. Si la conexión se corta y no hay un resultado claro, conservá el formulario y usá Reintentar venta pendiente. No empieces otra operación para repetir la misma compra: el reintento conserva su identidad para evitar duplicaciones. Revisá siempre el resultado antes de seguir.",
       "account": "B",
-      "footage": "footage/12-sales-history.mp4",
+      "footage": "footage/12-sales-history-b77dc5cc97.mp4",
       "audio": "audio/12-sales-history.wav",
       "sourceStart": 0,
-      "sourceFrames": 1,
-      "durationInFrames": 1884,
-      "from": 20063,
-      "captions": [],
+      "sourceFrames": 2185,
+      "durationInFrames": 2185,
+      "from": 21469,
+      "captions": [
+        {
+          "text": "La pestaña Ventas muestra las compras, sus importes y fechas.",
+          "startMs": 0,
+          "endMs": 3700,
+          "timestampMs": null,
+          "confidence": 0.9204376315077146
+        },
+        {
+          "text": "Si aparece Sin dato por venta, no significa cero puntos:",
+          "startMs": 4040,
+          "endMs": 7620,
+          "timestampMs": null,
+          "confidence": 0.9505573660135269
+        },
+        {
+          "text": "consultá el saldo y el historial del cliente.",
+          "startMs": 8180,
+          "endMs": 10420,
+          "timestampMs": null,
+          "confidence": 0.9686263017356396
+        },
+        {
+          "text": "No recalcules una venta antigua con la regla actual, porque pudo tener otra promoción.",
+          "startMs": 10980,
+          "endMs": 15700,
+          "timestampMs": null,
+          "confidence": 0.9552317836454937
+        },
+        {
+          "text": "Una compra menor al mínimo puede registrarse con cero puntos.",
+          "startMs": 16160,
+          "endMs": 19180,
+          "timestampMs": null,
+          "confidence": 0.9901628573735554
+        },
+        {
+          "text": "Si la conexión se corta y no hay un resultado claro,",
+          "startMs": 19680,
+          "endMs": 22360,
+          "timestampMs": null,
+          "confidence": 0.9932282160628926
+        },
+        {
+          "text": "conservá el formulario y usá Reintentar venta pendiente.",
+          "startMs": 22760,
+          "endMs": 25720,
+          "timestampMs": null,
+          "confidence": 0.9409572879473368
+        },
+        {
+          "text": "No empieces otra operación para repetir la misma compra:",
+          "startMs": 26240,
+          "endMs": 29200,
+          "timestampMs": null,
+          "confidence": 0.9854234986835055
+        },
+        {
+          "text": "el reintento conserva su identidad para evitar duplicaciones.",
+          "startMs": 29200,
+          "endMs": 32760,
+          "timestampMs": null,
+          "confidence": 0.938543622692426
+        },
+        {
+          "text": "Revisá siempre el resultado antes de seguir.",
+          "startMs": 33200,
+          "endMs": 35500,
+          "timestampMs": null,
+          "confidence": 0.9390167019196919
+        }
+      ],
       "opening": false,
       "closing": false
     },
@@ -918,15 +982,79 @@
       "id": "13-promotion",
       "title": "Crear una promoción",
       "objective": "Configurar un beneficio de puntos con vigencia",
-      "narration": "Las promociones permiten otorgar puntos extra durante un período, si tu plan las incluye. Creá una, poné un nombre claro y explicá las condiciones en la descripción. Podés elegir cincuenta por ciento más, el doble, el triple o un beneficio personalizado. Revisá la equivalencia que calcula la pantalla. Indicá inicio y fin y prestá atención al horario mostrado: no supongas que una fecha significa todo el día. Guardá y verificá la promoción en su lista antes de comunicarla.",
+      "narration": "Las promociones permiten otorgar puntos extras durante un período, si tu plan las incluye. Creá una, poné un nombre claro y explicá las condiciones en la descripción. Podés elegir cincuenta por ciento más, el doble, el triple o un beneficio personalizado. Revisá la equivalencia que calcula la pantalla. Elegí una fecha de inicio futura y un fin posterior. Prestá atención al horario mostrado: no supongas que una fecha significa todo el día. Guardá y verificá la promoción en su lista antes de comunicarla.",
       "account": "B",
-      "footage": "footage/13-promotion.mp4",
+      "footage": "footage/13-promotion-e4089c73e7.mp4",
       "audio": "audio/13-promotion.wav",
       "sourceStart": 0,
-      "sourceFrames": 1,
-      "durationInFrames": 1773,
-      "from": 21947,
-      "captions": [],
+      "sourceFrames": 1849,
+      "durationInFrames": 1849,
+      "from": 23654,
+      "captions": [
+        {
+          "text": "Las promociones permiten otorgar puntos extras durante un período,",
+          "startMs": 0,
+          "endMs": 3520,
+          "timestampMs": null,
+          "confidence": 0.9467708214565559
+        },
+        {
+          "text": "si tu plan las incluye.",
+          "startMs": 3520,
+          "endMs": 5040,
+          "timestampMs": null,
+          "confidence": 0.944822895526886
+        },
+        {
+          "text": "Creá una, poné un nombre claro y explicá las condiciones en la descripción.",
+          "startMs": 5400,
+          "endMs": 9340,
+          "timestampMs": null,
+          "confidence": 0.9439184482281024
+        },
+        {
+          "text": "Podés elegir 50 más, el doble, el triple o un beneficio personalizado.",
+          "startMs": 9740,
+          "endMs": 14980,
+          "timestampMs": null,
+          "confidence": 0.9418256531159083
+        },
+        {
+          "text": "Revisá la equivalencia que calcula la pantalla.",
+          "startMs": 15440,
+          "endMs": 17740,
+          "timestampMs": null,
+          "confidence": 0.9637039360545929
+        },
+        {
+          "text": "Elegí una fecha de inicio futura y un fin posterior.",
+          "startMs": 18320,
+          "endMs": 21140,
+          "timestampMs": null,
+          "confidence": 0.9827663977940878
+        },
+        {
+          "text": "Prestá atención al horario mostrado:",
+          "startMs": 21480,
+          "endMs": 23040,
+          "timestampMs": null,
+          "confidence": 0.9535707056522369
+        },
+        {
+          "text": "no supongas que una fecha significa todo el día.",
+          "startMs": 23500,
+          "endMs": 26240,
+          "timestampMs": null,
+          "confidence": 0.990426105481607
+        },
+        {
+          "text": "Guardá y verificá la promoción en su lista antes de comunicarla.",
+          "startMs": 26240,
+          "endMs": 29960,
+          "timestampMs": null,
+          "confidence": 0.9380537601131382
+        }
+      ],
       "opening": false,
       "closing": false
     },
@@ -936,13 +1064,70 @@
       "objective": "Distinguir disponibilidad y eliminación definitiva",
       "narration": "Desde la lista podés editar una promoción y guardar sus cambios. Pausar conserva el elemento pero evita que se aplique; Reactivar lo vuelve a habilitar, siempre sujeto a sus fechas. Eliminar es una acción distinta y definitiva, con confirmación dentro de la página. Revisá qué elemento seleccionaste y cancelá si no corresponde. Antes de registrar una venta con beneficio, comprobá la vigencia y la estimación de puntos del formulario; no te guíes solamente por el nombre de la promoción.",
       "account": "B",
-      "footage": "footage/14-promotion-life.mp4",
+      "footage": "footage/14-promotion-life-1794067096110.mp4",
       "audio": "audio/14-promotion-life.wav",
-      "sourceStart": 0,
-      "sourceFrames": 1,
-      "durationInFrames": 1795,
-      "from": 23720,
-      "captions": [],
+      "sourceStart": 38,
+      "sourceFrames": 1643,
+      "durationInFrames": 1787,
+      "from": 25503,
+      "captions": [
+        {
+          "text": "Desde la lista podés editar una promoción y guardar sus cambios.",
+          "startMs": 0,
+          "endMs": 3720,
+          "timestampMs": null,
+          "confidence": 0.9588434045965021
+        },
+        {
+          "text": "Pausar conserva el elemento pero evita que se aplique;",
+          "startMs": 4160,
+          "endMs": 7120,
+          "timestampMs": null,
+          "confidence": 0.9884290761417813
+        },
+        {
+          "text": "Reactivar lo vuelve a habilitar, siempre sujeto a sus fechas.",
+          "startMs": 7640,
+          "endMs": 10860,
+          "timestampMs": null,
+          "confidence": 0.9832699765761694
+        },
+        {
+          "text": "Eliminar es una acción distinta y definitiva, con confirmación dentro de la página.",
+          "startMs": 11720,
+          "endMs": 16480,
+          "timestampMs": null,
+          "confidence": 0.9820523239099063
+        },
+        {
+          "text": "Revisá qué elemento seleccionaste y cancelá si no corresponde.",
+          "startMs": 17060,
+          "endMs": 20400,
+          "timestampMs": null,
+          "confidence": 0.8826714858964638
+        },
+        {
+          "text": "Antes de registrar una venta con beneficio,",
+          "startMs": 20900,
+          "endMs": 23100,
+          "timestampMs": null,
+          "confidence": 0.9937404436724526
+        },
+        {
+          "text": "comprobá la vigencia y la estimación de puntos del formulario;",
+          "startMs": 23520,
+          "endMs": 26400,
+          "timestampMs": null,
+          "confidence": 0.9663798938194912
+        },
+        {
+          "text": "no te guíes solamente por el nombre de la promoción.",
+          "startMs": 26680,
+          "endMs": 28880,
+          "timestampMs": null,
+          "confidence": 0.9800207277139028
+        }
+      ],
       "opening": false,
       "closing": false
     },
@@ -950,15 +1135,100 @@
       "id": "15-products",
       "title": "Productos del catálogo",
       "objective": "Crear, actualizar y quitar productos reales",
-      "narration": "El catálogo de Productos informa lo que ofrece tu comercio. Cargá un nombre y un precio; la descripción es opcional. Para la imagen podés elegir un archivo, pegar un enlace directo o dejar el producto sin foto. El enlace tiene que apuntar a la imagen, no a una página web. Guardá y revisá la tarjeta. Desde Editar podés corregir los datos o quitar la imagen. Si el producto ya no corresponde, Eliminar pide confirmación. Este catálogo no es un carrito de compras ni un control de stock.",
+      "narration": "El catálogo de Productos informa lo que ofrece tu comercio. Cargá un nombre y un precio; la descripción es opcional. Para la imagen podés elegir un archivo, pegar un enlace directo o dejar el producto sin foto. Primero guardamos una foto desde Archivo y revisamos la tarjeta. Desde Editar también podemos reemplazarla con Enlace: la dirección tiene que apuntar a la imagen, no a una página web. Guardamos y comprobamos el resultado. Para dejarlo sin foto, usamos Quitar imagen y guardamos otra vez. Si el producto ya no corresponde, Eliminar pide confirmación. Este catálogo no es un carrito de compras ni un control de stock.",
       "account": "B",
-      "footage": "footage/15-products.mp4",
+      "footage": "footage/15-products-53cf61a83b.mp4",
       "audio": "audio/15-products.wav",
       "sourceStart": 0,
-      "sourceFrames": 1,
-      "durationInFrames": 1973,
-      "from": 25515,
-      "captions": [],
+      "sourceFrames": 2391,
+      "durationInFrames": 2391,
+      "from": 27290,
+      "captions": [
+        {
+          "text": "El catálogo de Productos informa lo que ofrece tu comercio.",
+          "startMs": 0,
+          "endMs": 3360,
+          "timestampMs": null,
+          "confidence": 0.9424398938814799
+        },
+        {
+          "text": "Cargá un nombre y un precio;",
+          "startMs": 3680,
+          "endMs": 5160,
+          "timestampMs": null,
+          "confidence": 0.9498890274100834
+        },
+        {
+          "text": "la descripción es opcional.",
+          "startMs": 5680,
+          "endMs": 7020,
+          "timestampMs": null,
+          "confidence": 0.9931345582008362
+        },
+        {
+          "text": "Para la imagen podés elegir un archivo,",
+          "startMs": 7620,
+          "endMs": 9640,
+          "timestampMs": null,
+          "confidence": 0.9618327447346279
+        },
+        {
+          "text": "pegar un enlace directo o dejar el producto sin foto.",
+          "startMs": 9960,
+          "endMs": 12700,
+          "timestampMs": null,
+          "confidence": 0.96858249604702
+        },
+        {
+          "text": "Primero guardamos una foto desde Archivo y revisamos la tarjeta.",
+          "startMs": 13220,
+          "endMs": 17180,
+          "timestampMs": null,
+          "confidence": 0.9732014666001001
+        },
+        {
+          "text": "Desde Editar también podemos reemplazarla con Enlace:",
+          "startMs": 17620,
+          "endMs": 20280,
+          "timestampMs": null,
+          "confidence": 0.8909603655338287
+        },
+        {
+          "text": "la dirección tiene que apuntar a la imagen, no a una página web.",
+          "startMs": 20660,
+          "endMs": 24760,
+          "timestampMs": null,
+          "confidence": 0.9896030265551347
+        },
+        {
+          "text": "Guardamos y comprobamos el resultado.",
+          "startMs": 25160,
+          "endMs": 27160,
+          "timestampMs": null,
+          "confidence": 0.9818079531192779
+        },
+        {
+          "text": "Para dejarlos sin foto, usamos Quitar imagen y guardamos otra vez.",
+          "startMs": 27160,
+          "endMs": 31080,
+          "timestampMs": null,
+          "confidence": 0.9290672080083326
+        },
+        {
+          "text": "Si el producto ya no corresponde, Eliminar pide confirmación.",
+          "startMs": 31520,
+          "endMs": 34460,
+          "timestampMs": null,
+          "confidence": 0.9891014297803243
+        },
+        {
+          "text": "Este catálogo no es un carrito de compras ni un control de stock.",
+          "startMs": 35160,
+          "endMs": 38660,
+          "timestampMs": null,
+          "confidence": 0.970505287249883
+        }
+      ],
       "opening": false,
       "closing": false
     },
@@ -966,15 +1236,79 @@
       "id": "16-physical-reward",
       "title": "Premios físicos y calculadora",
       "objective": "Definir una recompensa y su costo en puntos",
-      "narration": "En Premios vamos a crear una recompensa física: un desayuno de regalo. Elegí Premio físico, agregá nombre, condiciones y, si tenés, una foto. El costo en puntos es lo que se descontará al canjear. La calculadora es una ayuda: ingresá el precio de la recompensa y cuánto querés que gaste el cliente para alcanzarla. Calculá, revisá el resultado y usalo como costo si encaja con tu programa. La sugerencia no guarda el premio: todavía tenés que confirmar el formulario.",
+      "narration": "En Premios vamos a crear una recompensa física: un desayuno de regalo. Elegí Premio físico, agregá nombre, condiciones y, si tenés, una foto. El costo indica cuántos puntos necesita el cliente para obtener ese premio. La calculadora es una ayuda: ingresá el precio de la recompensa y cuánto querés que gaste el cliente para alcanzarla. Calculá, revisá el resultado y usalo como costo si encaja con tu programa. La sugerencia no guarda el premio: todavía tenés que confirmar el formulario.",
       "account": "B",
-      "footage": "footage/16-physical-reward.mp4",
+      "footage": "footage/16-physical-reward-cc55be364e.mp4",
       "audio": "audio/16-physical-reward.wav",
       "sourceStart": 0,
-      "sourceFrames": 1,
-      "durationInFrames": 1795,
-      "from": 27488,
-      "captions": [],
+      "sourceFrames": 1952,
+      "durationInFrames": 1952,
+      "from": 29681,
+      "captions": [
+        {
+          "text": "En Premios vamos a crear una recompensa física:",
+          "startMs": 0,
+          "endMs": 2760,
+          "timestampMs": null,
+          "confidence": 0.8826634865254164
+        },
+        {
+          "text": "un desayuno de regalo.",
+          "startMs": 3120,
+          "endMs": 4380,
+          "timestampMs": null,
+          "confidence": 0.9906633819142977
+        },
+        {
+          "text": "Elegí Premio físico, agregá nombre, condiciones y, si tenés, una foto.",
+          "startMs": 5020,
+          "endMs": 9520,
+          "timestampMs": null,
+          "confidence": 0.9004231005003956
+        },
+        {
+          "text": "El costo indica cuántos puntos necesita el cliente para obtener ese premio.",
+          "startMs": 10660,
+          "endMs": 14420,
+          "timestampMs": null,
+          "confidence": 0.9817048758268356
+        },
+        {
+          "text": "La calculadora es una ayuda:",
+          "startMs": 14840,
+          "endMs": 16340,
+          "timestampMs": null,
+          "confidence": 0.9923485696315766
+        },
+        {
+          "text": "ingresá el precio de la recompensa y cuánto querés que gaste el cliente para alcanzarla.",
+          "startMs": 16940,
+          "endMs": 21220,
+          "timestampMs": null,
+          "confidence": 0.96661027736134
+        },
+        {
+          "text": "Calculá, revisá el resultado y usalo como costo si encaja con tu programa.",
+          "startMs": 21920,
+          "endMs": 26020,
+          "timestampMs": null,
+          "confidence": 0.9359683940807978
+        },
+        {
+          "text": "La sugerencia no guarda el premio:",
+          "startMs": 26020,
+          "endMs": 28700,
+          "timestampMs": null,
+          "confidence": 0.9420320490996043
+        },
+        {
+          "text": "todavía tenés que confirmar el formulario.",
+          "startMs": 29040,
+          "endMs": 31080,
+          "timestampMs": null,
+          "confidence": 0.9848741292953491
+        }
+      ],
       "opening": false,
       "closing": false
     },
@@ -984,13 +1318,70 @@
       "objective": "Diferenciar porcentaje e importe fijo",
       "narration": "Un voucher también se obtiene con puntos, pero representa un descuento. Elegí Voucher de descuento y definí si será un porcentaje o un importe fijo. Por ejemplo, diez por ciento o dos mil pesos. El porcentaje debe ser mayor que cero y no superar cien. Completá las condiciones y el costo en puntos; revisá la vista previa antes de guardar. El comercio aplica el beneficio al entregar el premio. Esto no crea un cupón con código ni descuenta dinero automáticamente en una caja.",
       "account": "B",
-      "footage": "footage/17-voucher.mp4",
+      "footage": "footage/17-voucher-3dd4a6a046.mp4",
       "audio": "audio/17-voucher.wav",
       "sourceStart": 0,
-      "sourceFrames": 1,
-      "durationInFrames": 1884,
-      "from": 29283,
-      "captions": [],
+      "sourceFrames": 1729,
+      "durationInFrames": 1729,
+      "from": 31633,
+      "captions": [
+        {
+          "text": "Un voucher también se obtiene con puntos, pero representa un descuento.",
+          "startMs": 0,
+          "endMs": 3840,
+          "timestampMs": null,
+          "confidence": 0.989976825136127
+        },
+        {
+          "text": "Elegí Voucher de descuento y definí si será un porcentaje o un importe fijo.",
+          "startMs": 4440,
+          "endMs": 8380,
+          "timestampMs": null,
+          "confidence": 0.9638871004184086
+        },
+        {
+          "text": "Por ejemplo, 10 o 2000 pesos.",
+          "startMs": 9040,
+          "endMs": 11480,
+          "timestampMs": null,
+          "confidence": 0.8908885767062505
+        },
+        {
+          "text": "El porcentaje debe ser mayor que 0 y no superar 100.",
+          "startMs": 12120,
+          "endMs": 15180,
+          "timestampMs": null,
+          "confidence": 0.9594365060329437
+        },
+        {
+          "text": "Completá las condiciones y el costo en puntos;",
+          "startMs": 15700,
+          "endMs": 17820,
+          "timestampMs": null,
+          "confidence": 0.966934897005558
+        },
+        {
+          "text": "revisá la vista previa antes de guardar.",
+          "startMs": 18360,
+          "endMs": 20460,
+          "timestampMs": null,
+          "confidence": 0.9639895416441419
+        },
+        {
+          "text": "El comercio aplica el beneficio al entregar el premio.",
+          "startMs": 21000,
+          "endMs": 23400,
+          "timestampMs": null,
+          "confidence": 0.992067943016688
+        },
+        {
+          "text": "Esto no crea un cupón con código ni descuenta dinero automáticamente en una caja.",
+          "startMs": 23760,
+          "endMs": 28000,
+          "timestampMs": null,
+          "confidence": 0.9750394622484843
+        }
+      ],
       "opening": false,
       "closing": false
     },
@@ -1000,13 +1391,70 @@
       "objective": "Actualizar y controlar la disponibilidad del catálogo",
       "narration": "Podés editar un premio para cambiar su descripción, su beneficio o su costo futuro. Si querés dejar de ofrecerlo temporalmente, usá Pausar. El canje queda deshabilitado mientras esté pausado. Reactivar permite ofrecerlo otra vez. Eliminar lo quita definitivamente del catálogo, pero no borra los canjes históricos: cada movimiento conserva la información del premio entregado. Probá primero la opción de cancelar una confirmación cuando tengas dudas y revisá la tarjeta después de cada cambio.",
       "account": "B",
-      "footage": "footage/18-reward-life.mp4",
+      "footage": "footage/18-reward-life-1794066673147.mp4",
       "audio": "audio/18-reward-life.wav",
-      "sourceStart": 0,
-      "sourceFrames": 1,
-      "durationInFrames": 1662,
-      "from": 31167,
-      "captions": [],
+      "sourceStart": 38,
+      "sourceFrames": 1501,
+      "durationInFrames": 1772,
+      "from": 33362,
+      "captions": [
+        {
+          "text": "Podés editar un premio para cambiar su descripción, su beneficio o su costo futuro.",
+          "startMs": 0,
+          "endMs": 4720,
+          "timestampMs": null,
+          "confidence": 0.9675899403435844
+        },
+        {
+          "text": "Si querés dejar de ofrecerlo temporalmente, usá Pausar.",
+          "startMs": 5060,
+          "endMs": 8160,
+          "timestampMs": null,
+          "confidence": 0.9584368535627922
+        },
+        {
+          "text": "El canje queda deshabilitado mientras esté pausado.",
+          "startMs": 8780,
+          "endMs": 11280,
+          "timestampMs": null,
+          "confidence": 0.9817580086844309
+        },
+        {
+          "text": "Reactivar permite ofrecerlo otra vez.",
+          "startMs": 11600,
+          "endMs": 13520,
+          "timestampMs": null,
+          "confidence": 0.9795798331499099
+        },
+        {
+          "text": "Eliminar lo quita definitivamente del catálogo, pero no borra los canjes históricos:",
+          "startMs": 13980,
+          "endMs": 18540,
+          "timestampMs": null,
+          "confidence": 0.9612357200998249
+        },
+        {
+          "text": "cada movimiento conserva la información del premio entregado.",
+          "startMs": 18900,
+          "endMs": 21860,
+          "timestampMs": null,
+          "confidence": 0.9939802177250385
+        },
+        {
+          "text": "Probá primero la opción de cancelar una confirmación cuando tengas dudas y revisá",
+          "startMs": 22500,
+          "endMs": 27100,
+          "timestampMs": null,
+          "confidence": 0.9105523114021008
+        },
+        {
+          "text": "la tarjeta después de cada cambio.",
+          "startMs": 27100,
+          "endMs": 28720,
+          "timestampMs": null,
+          "confidence": 0.9962291618188223
+        }
+      ],
       "opening": false,
       "closing": false
     },
@@ -1016,13 +1464,70 @@
       "objective": "Comprobar el descuento y la trazabilidad",
       "narration": "Antes de canjear, acordá con el cliente qué premio va a recibir. En su tarjeta, abrí Canjear e indicá país y DNI. Verificá el nombre del premio y su costo, y confirmá una sola vez. En nuestro ejemplo, el café cuesta ochenta puntos: después del canje, el saldo baja en esa cantidad y aparece un movimiento de canje en el historial. La entrega física o la aplicación del descuento la coordina el comercio. El cliente consulta sus opciones en la billetera, pero no ejecuta el canje desde allí.",
       "account": "B",
-      "footage": "footage/19-redeem.mp4",
+      "footage": "footage/19-redeem-8b2072edb6.mp4",
       "audio": "audio/19-redeem.wav",
       "sourceStart": 0,
-      "sourceFrames": 1,
-      "durationInFrames": 1995,
-      "from": 32829,
-      "captions": [],
+      "sourceFrames": 1883,
+      "durationInFrames": 1883,
+      "from": 35134,
+      "captions": [
+        {
+          "text": "Antes de canjear, acordá con el cliente qué premio va a recibir.",
+          "startMs": 0,
+          "endMs": 3900,
+          "timestampMs": null,
+          "confidence": 0.9543668453892072
+        },
+        {
+          "text": "En su tarjeta, abrí Canjear e indicá país y DNI.",
+          "startMs": 4520,
+          "endMs": 8260,
+          "timestampMs": null,
+          "confidence": 0.890374510983626
+        },
+        {
+          "text": "Verificá el nombre del premio y su costo, y confirmá una sola vez.",
+          "startMs": 8260,
+          "endMs": 12240,
+          "timestampMs": null,
+          "confidence": 0.9527315864196191
+        },
+        {
+          "text": "En nuestro ejemplo, el café cuesta 80 puntos:",
+          "startMs": 12840,
+          "endMs": 15460,
+          "timestampMs": null,
+          "confidence": 0.9894121810793877
+        },
+        {
+          "text": "después del canje, el saldo baja en esa cantidad y aparece un movimiento de canje en",
+          "startMs": 15880,
+          "endMs": 20600,
+          "timestampMs": null,
+          "confidence": 0.9924267195165157
+        },
+        {
+          "text": "el historial.",
+          "startMs": 20600,
+          "endMs": 21080,
+          "timestampMs": null,
+          "confidence": 0.9812787175178528
+        },
+        {
+          "text": "La entrega física o la aplicación del descuento la coordina el comercio.",
+          "startMs": 21640,
+          "endMs": 25480,
+          "timestampMs": null,
+          "confidence": 0.9689485240313743
+        },
+        {
+          "text": "El cliente consulta sus opciones en la billetera, pero no ejecuta el canje desde allí.",
+          "startMs": 25480,
+          "endMs": 30580,
+          "timestampMs": null,
+          "confidence": 0.973324054479599
+        }
+      ],
       "opening": false,
       "closing": false
     },
@@ -1030,15 +1535,86 @@
       "id": "20-redeem-errors",
       "title": "Cuando no se puede canjear",
       "objective": "Interpretar rechazos y reintentos pendientes",
-      "narration": "Si el cliente no tiene puntos suficientes, el canje se rechaza y el formulario explica el problema. También hay bloqueos para premios pausados y cuentas archivadas. No prometas un premio basándote en un saldo anterior: consultá el vigente. Si el resultado de la operación queda incierto por conexión, usá Reintentar canje pendiente y mantené sus datos. Un rechazo confirmado permite corregir el formulario; un resultado incierto requiere resolver esa misma operación, para no descontar dos veces.",
+      "narration": "Si el cliente no tiene puntos suficientes, el canje se rechaza y el formulario explica el problema. También hay bloqueos para premios pausados y cuentas archivadas. No prometas un premio basándote en un saldo anterior: consultá el vigente. Si el resultado queda incierto por conexión, el botón Reintentar canje pendiente conserva la misma operación y sus datos. Un rechazo confirmado permite corregir el formulario. Un resultado incierto requiere resolver esa misma operación, para no descontar dos veces.",
       "account": "B",
-      "footage": "footage/20-redeem-errors.mp4",
+      "footage": "footage/20-redeem-errors-c6e5585096.mp4",
       "audio": "audio/20-redeem-errors.wav",
       "sourceStart": 0,
-      "sourceFrames": 1,
-      "durationInFrames": 1728,
-      "from": 34824,
-      "captions": [],
+      "sourceFrames": 1887,
+      "durationInFrames": 1887,
+      "from": 37017,
+      "captions": [
+        {
+          "text": "Si el cliente no tiene puntos suficientes,",
+          "startMs": 0,
+          "endMs": 2000,
+          "timestampMs": null,
+          "confidence": 0.9841538398038773
+        },
+        {
+          "text": "el canje se rechaza y el formulario explica el problema.",
+          "startMs": 2260,
+          "endMs": 5120,
+          "timestampMs": null,
+          "confidence": 0.9865009824434917
+        },
+        {
+          "text": "También hay bloqueos para premios pausados y cuentas archivadas.",
+          "startMs": 5760,
+          "endMs": 9060,
+          "timestampMs": null,
+          "confidence": 0.990013402921182
+        },
+        {
+          "text": "No prometas un premio basándote en un saldo anterior:",
+          "startMs": 9540,
+          "endMs": 12360,
+          "timestampMs": null,
+          "confidence": 0.9891025512306777
+        },
+        {
+          "text": "consultá el vigente.",
+          "startMs": 12960,
+          "endMs": 13960,
+          "timestampMs": null,
+          "confidence": 0.9205964108308157
+        },
+        {
+          "text": "Si el resultado queda incierto por conexión,",
+          "startMs": 14620,
+          "endMs": 16820,
+          "timestampMs": null,
+          "confidence": 0.9920836928344908
+        },
+        {
+          "text": "el botón Reintentar canje pendiente conserva la misma operación y sus datos.",
+          "startMs": 17160,
+          "endMs": 21460,
+          "timestampMs": null,
+          "confidence": 0.9570361309581332
+        },
+        {
+          "text": "Un rechazo confirmado permite corregir el formulario.",
+          "startMs": 22120,
+          "endMs": 25000,
+          "timestampMs": null,
+          "confidence": 0.9942571691104344
+        },
+        {
+          "text": "Un resultado incierto requiere resolver esa misma operación,",
+          "startMs": 25000,
+          "endMs": 28780,
+          "timestampMs": null,
+          "confidence": 0.9682638210554917
+        },
+        {
+          "text": "para no descontar dos veces.",
+          "startMs": 29000,
+          "endMs": 30620,
+          "timestampMs": null,
+          "confidence": 0.9893814365069072
+        }
+      ],
       "opening": false,
       "closing": false
     },
@@ -1048,13 +1624,77 @@
       "objective": "Filtrar y preparar un contacto manual",
       "narration": "Sin actividad reúne clientes que llevan el período elegido sin compras ni canjes. Podés usar los días sugeridos o escribir otro valor. Abrir esta lista no archiva personas ni envía mensajes. Preparar WhatsApp abre una página con un texto que podés revisar, editar y copiar. Comprobá el número con código de país. Abrir WhatsApp prepara el mensaje; el envío final lo hacés vos. En esta demostración solo revisamos y copiamos el borrador, sin contactar a ninguna persona.",
       "account": "B",
-      "footage": "footage/21-inactive.mp4",
+      "footage": "footage/21-inactive-5320ca8849.mp4",
       "audio": "audio/21-inactive.wav",
       "sourceStart": 0,
-      "sourceFrames": 1,
-      "durationInFrames": 1751,
-      "from": 36552,
-      "captions": [],
+      "sourceFrames": 1767,
+      "durationInFrames": 1767,
+      "from": 38904,
+      "captions": [
+        {
+          "text": "Sin actividad reúne clientes que llevan el período elegido sin compras ni canjes.",
+          "startMs": 0,
+          "endMs": 4460,
+          "timestampMs": null,
+          "confidence": 0.9391117791334788
+        },
+        {
+          "text": "Podés usar los días sugeridos o escribir otro valor.",
+          "startMs": 4820,
+          "endMs": 7460,
+          "timestampMs": null,
+          "confidence": 0.9584100478225284
+        },
+        {
+          "text": "Abrir esta lista no archiva personas ni envía mensajes.",
+          "startMs": 7980,
+          "endMs": 10940,
+          "timestampMs": null,
+          "confidence": 0.9687113828129239
+        },
+        {
+          "text": "Preparar WhatsApp abre una página con un texto que podés revisar, editar y copiar.",
+          "startMs": 11440,
+          "endMs": 16260,
+          "timestampMs": null,
+          "confidence": 0.9756988201822553
+        },
+        {
+          "text": "Comprobá el número con código de país.",
+          "startMs": 16760,
+          "endMs": 18540,
+          "timestampMs": null,
+          "confidence": 0.9219433182761784
+        },
+        {
+          "text": "Abrir WhatsApp prepara el mensaje;",
+          "startMs": 19000,
+          "endMs": 20680,
+          "timestampMs": null,
+          "confidence": 0.9839552164077758
+        },
+        {
+          "text": "el envío final lo hacés vos.",
+          "startMs": 21100,
+          "endMs": 22500,
+          "timestampMs": null,
+          "confidence": 0.975363885362943
+        },
+        {
+          "text": "En esta demostración solo revisamos y copiamos el borrador,",
+          "startMs": 22980,
+          "endMs": 26180,
+          "timestampMs": null,
+          "confidence": 0.93731055215553
+        },
+        {
+          "text": "sin contactar a ninguna persona.",
+          "startMs": 26520,
+          "endMs": 28280,
+          "timestampMs": null,
+          "confidence": 0.9973469138145447
+        }
+      ],
       "opening": false,
       "closing": false
     },
@@ -1064,13 +1704,77 @@
       "objective": "Liberar cupo sin borrar el historial",
       "narration": "Para dejar de operar con un cliente, usá Archivar desde Sin actividad y leé la confirmación. El archivo es manual: una persona no se archiva simplemente por aparecer en esta lista. La cuenta deja de ocupar cupo activo, pero conserva su historial y sus vencimientos. Desde Archivados podés reactivarla si hay lugar en tu plan. La billetera sigue mostrando el comercio y los puntos vigentes con un aviso de cuenta archivada; para volver a operar, la reactivación la realiza el comercio.",
       "account": "B",
-      "footage": "footage/22-archive.mp4",
+      "footage": "footage/22-archive-6585ad2115.mp4",
       "audio": "audio/22-archive.wav",
       "sourceStart": 0,
-      "sourceFrames": 1,
-      "durationInFrames": 1839,
-      "from": 38303,
-      "captions": [],
+      "sourceFrames": 1777,
+      "durationInFrames": 1777,
+      "from": 40671,
+      "captions": [
+        {
+          "text": "Para dejar de operar con un cliente,",
+          "startMs": 0,
+          "endMs": 1800,
+          "timestampMs": null,
+          "confidence": 0.9937189519405365
+        },
+        {
+          "text": "usá Archivar desde Sin actividad y leé la confirmación.",
+          "startMs": 2000,
+          "endMs": 5200,
+          "timestampMs": null,
+          "confidence": 0.8312931342257394
+        },
+        {
+          "text": "El archivo es manual:",
+          "startMs": 5940,
+          "endMs": 6860,
+          "timestampMs": null,
+          "confidence": 0.9834434315562248
+        },
+        {
+          "text": "una persona no se archiva simplemente por aparecer en esta lista.",
+          "startMs": 7420,
+          "endMs": 10620,
+          "timestampMs": null,
+          "confidence": 0.9845452958887274
+        },
+        {
+          "text": "La cuenta deja de ocupar cupo activo, pero conserva su historial y sus vencimientos.",
+          "startMs": 11280,
+          "endMs": 15740,
+          "timestampMs": null,
+          "confidence": 0.9659455257157485
+        },
+        {
+          "text": "Desde Archivados podés reactivarla si hay lugar en tu plan.",
+          "startMs": 16480,
+          "endMs": 19740,
+          "timestampMs": null,
+          "confidence": 0.9612057814995447
+        },
+        {
+          "text": "La billetera sigue mostrando el comercio y los puntos vigentes con un aviso de cuenta",
+          "startMs": 20280,
+          "endMs": 24560,
+          "timestampMs": null,
+          "confidence": 0.9857919871807098
+        },
+        {
+          "text": "archivada;",
+          "startMs": 24560,
+          "endMs": 25120,
+          "timestampMs": null,
+          "confidence": 0.9902122418085734
+        },
+        {
+          "text": "para volver a operar, la reactivación la realiza el comercio.",
+          "startMs": 25560,
+          "endMs": 28680,
+          "timestampMs": null,
+          "confidence": 0.9936272988716762
+        }
+      ],
       "opening": false,
       "closing": false
     },
@@ -1080,13 +1784,91 @@
       "objective": "Configurar avisos y reconocer sus límites",
       "narration": "En Correos elegís Sí o No. Los avisos están desactivados por defecto y solo se preparan para clientes activos con correo cargado. Hay tres ejemplos del contenido real; abrir cada vista previa no envía un mensaje. No hay que escribir plantillas ni completar variables. Si elegís No, se cancelan los avisos pendientes; un correo ya entregado al servicio de envío no se puede retirar. WhatsApp es independiente y sigue siendo manual. Acá verificamos la configuración y las vistas previas, con el envío externo desactivado en el entorno de prueba.",
       "account": "B",
-      "footage": "footage/23-emails.mp4",
+      "footage": "footage/23-emails-4b0abf1343.mp4",
       "audio": "audio/23-emails.wav",
       "sourceStart": 0,
-      "sourceFrames": 1,
-      "durationInFrames": 2017,
-      "from": 40142,
-      "captions": [],
+      "sourceFrames": 1979,
+      "durationInFrames": 1979,
+      "from": 42448,
+      "captions": [
+        {
+          "text": "En Correos elegís Sí o No.",
+          "startMs": 0,
+          "endMs": 1840,
+          "timestampMs": null,
+          "confidence": 0.8816323280334473
+        },
+        {
+          "text": "Los avisos están desactivados por defecto y solo se preparan para clientes activos",
+          "startMs": 2240,
+          "endMs": 6860,
+          "timestampMs": null,
+          "confidence": 0.9305230088723011
+        },
+        {
+          "text": "con correo cargado.",
+          "startMs": 6860,
+          "endMs": 7800,
+          "timestampMs": null,
+          "confidence": 0.9936948120594025
+        },
+        {
+          "text": "Hay tres ejemplos del contenido real;",
+          "startMs": 8180,
+          "endMs": 10040,
+          "timestampMs": null,
+          "confidence": 0.9793448944886526
+        },
+        {
+          "text": "abrir cada vista previa no envía un mensaje.",
+          "startMs": 10440,
+          "endMs": 12900,
+          "timestampMs": null,
+          "confidence": 0.985941007733345
+        },
+        {
+          "text": "No hay que escribir plantillas ni completar variables.",
+          "startMs": 13380,
+          "endMs": 15820,
+          "timestampMs": null,
+          "confidence": 0.9720634706318378
+        },
+        {
+          "text": "Si elegís No, se cancelan los avisos pendientes;",
+          "startMs": 16460,
+          "endMs": 19300,
+          "timestampMs": null,
+          "confidence": 0.9884187467396259
+        },
+        {
+          "text": "un correo ya entregado al servicio de envío no se puede retirar.",
+          "startMs": 19700,
+          "endMs": 22940,
+          "timestampMs": null,
+          "confidence": 0.9882986197868983
+        },
+        {
+          "text": "WhatsApp es independiente y sigue siendo manual.",
+          "startMs": 23240,
+          "endMs": 25600,
+          "timestampMs": null,
+          "confidence": 0.8607102589947837
+        },
+        {
+          "text": "Acá verificamos la configuración y las vistas previas,",
+          "startMs": 25600,
+          "endMs": 29040,
+          "timestampMs": null,
+          "confidence": 0.9855038486421108
+        },
+        {
+          "text": "con el envío externo desactivado en el entorno de prueba.",
+          "startMs": 29160,
+          "endMs": 31900,
+          "timestampMs": null,
+          "confidence": 0.9926725169022879
+        }
+      ],
       "opening": false,
       "closing": false
     },
@@ -1094,15 +1876,100 @@
       "id": "24-wallet",
       "title": "La billetera del cliente",
       "objective": "Consultar puntos y catálogos sin cuenta comercial",
-      "narration": "Ahora cambiamos al modo cliente. Desde la consulta pública elegimos el país e ingresamos el DNI. La billetera muestra los comercios asociados y sus saldos. Al abrir uno, aparecen los premios disponibles, los puntos que faltan o el aviso Te alcanza, y las condiciones para coordinar el canje. Las otras pestañas muestran promociones vigentes y productos. Esta es una vista de consulta: no permite registrar compras ni modificar puntos. El comerciante conserva esas acciones en su panel privado.",
+      "narration": "Ahora vemos cómo consulta un cliente. En el inicio público elegimos el país del documento, ingresamos el DNI y usamos Ver mis puntos. La billetera muestra los comercios asociados. Cada comercio tiene su propio saldo: los puntos de la panadería no se suman a los del café. Al abrir uno, aparecen los premios disponibles, los puntos que faltan o el aviso Te alcanza, y las condiciones para coordinar el canje. Las otras pestañas muestran promociones vigentes y productos. Esta es una vista de consulta: no permite registrar compras ni modificar puntos. El comerciante conserva esas acciones en su panel privado.",
       "account": "PUBLIC",
-      "footage": "footage/24-wallet.mp4",
+      "footage": "footage/24-wallet-9ec78215a2.mp4",
       "audio": "audio/24-wallet.wav",
       "sourceStart": 0,
-      "sourceFrames": 1,
-      "durationInFrames": 1773,
-      "from": 42159,
-      "captions": [],
+      "sourceFrames": 2310,
+      "durationInFrames": 2310,
+      "from": 44427,
+      "captions": [
+        {
+          "text": "Ahora vemos cómo consulta un cliente.",
+          "startMs": 0,
+          "endMs": 2180,
+          "timestampMs": null,
+          "confidence": 0.9119312365849813
+        },
+        {
+          "text": "En el inicio público elegimos el país del documento,",
+          "startMs": 2420,
+          "endMs": 5140,
+          "timestampMs": null,
+          "confidence": 0.9804177482922872
+        },
+        {
+          "text": "ingresamos el DNI y usamos Ver mis puntos.",
+          "startMs": 5360,
+          "endMs": 8080,
+          "timestampMs": null,
+          "confidence": 0.9212962376574676
+        },
+        {
+          "text": "La billetera muestra los comercios asociados.",
+          "startMs": 8700,
+          "endMs": 10940,
+          "timestampMs": null,
+          "confidence": 0.9801471456885338
+        },
+        {
+          "text": "Cada comercio tiene su propio saldo:",
+          "startMs": 11380,
+          "endMs": 13220,
+          "timestampMs": null,
+          "confidence": 0.9967706948518753
+        },
+        {
+          "text": "los puntos de la panadería no se suman a los del café.",
+          "startMs": 13580,
+          "endMs": 16320,
+          "timestampMs": null,
+          "confidence": 0.9876263298922116
+        },
+        {
+          "text": "Al abrir uno, aparecen los premios disponibles,",
+          "startMs": 16780,
+          "endMs": 19160,
+          "timestampMs": null,
+          "confidence": 0.9954909469400134
+        },
+        {
+          "text": "los puntos que faltan o el aviso Te alcanza, y las condiciones para coordinar el canje.",
+          "startMs": 19600,
+          "endMs": 24700,
+          "timestampMs": null,
+          "confidence": 0.9497996103018522
+        },
+        {
+          "text": "Las otras pestañas muestran promociones vigentes y productos.",
+          "startMs": 24940,
+          "endMs": 28200,
+          "timestampMs": null,
+          "confidence": 0.9819348007440567
+        },
+        {
+          "text": "Esta es una vista de consulta:",
+          "startMs": 28200,
+          "endMs": 30580,
+          "timestampMs": null,
+          "confidence": 0.943369577328364
+        },
+        {
+          "text": "no permite registrar compras ni modificar puntos.",
+          "startMs": 30880,
+          "endMs": 33620,
+          "timestampMs": null,
+          "confidence": 0.979779873575483
+        },
+        {
+          "text": "El comerciante conserva esas acciones en su panel privado.",
+          "startMs": 34460,
+          "endMs": 37760,
+          "timestampMs": null,
+          "confidence": 0.9814693530400594
+        }
+      ],
       "opening": false,
       "closing": false
     },
@@ -1110,15 +1977,86 @@
       "id": "25-expiration",
       "title": "Detalle de puntos",
       "objective": "Interpretar qué puntos vencen y cuándo",
-      "narration": "El detalle de puntos separa los que tienen vencimiento de los que no vencen. Revisá las fechas y cantidades de cada grupo: el saldo disponible es la referencia para un canje. Si hay varias páginas de vencimientos, cargá las siguientes para revisar el resto. La regla actual del comercio describe nuevas compras, pero no reemplaza la fecha que ya tiene cada grupo anterior. Así podés explicarle al cliente qué puntos necesita usar primero sin prometer que una compra nueva renovará todos sus puntos.",
+      "narration": "Para revisar varias fechas, abrimos la billetera de Camila, una cliente con historial de compras. Ver detalle separa los puntos con vencimiento de los que no vencen. Revisá las fechas y cantidades de cada grupo: el saldo disponible es la referencia para un canje. Cargar más vencimientos permite revisar las siguientes fechas. La regla actual del comercio describe nuevas compras, pero no reemplaza la fecha que ya tiene cada grupo anterior. Así podés explicarle al cliente qué puntos necesita usar primero sin prometer que una compra nueva renovará todos sus puntos.",
       "account": "PUBLIC",
-      "footage": "footage/25-expiration.mp4",
+      "footage": "footage/25-expiration-a6936f8c17.mp4",
       "audio": "audio/25-expiration.wav",
       "sourceStart": 0,
-      "sourceFrames": 1,
-      "durationInFrames": 1884,
-      "from": 43932,
-      "captions": [],
+      "sourceFrames": 1983,
+      "durationInFrames": 1983,
+      "from": 46737,
+      "captions": [
+        {
+          "text": "Para revisar varias fechas, abrimos la billetera de Camila,",
+          "startMs": 0,
+          "endMs": 3180,
+          "timestampMs": null,
+          "confidence": 0.9727580734977015
+        },
+        {
+          "text": "una cliente con historial de compras.",
+          "startMs": 3560,
+          "endMs": 5360,
+          "timestampMs": null,
+          "confidence": 0.9765670398871104
+        },
+        {
+          "text": "Ver detalles separa los puntos con vencimiento de los que no vencen.",
+          "startMs": 5820,
+          "endMs": 9300,
+          "timestampMs": null,
+          "confidence": 0.9826824027631019
+        },
+        {
+          "text": "Revisar las fechas y cantidades de cada grupo:",
+          "startMs": 9740,
+          "endMs": 12200,
+          "timestampMs": null,
+          "confidence": 0.9778589097162087
+        },
+        {
+          "text": "el saldo disponible es la referencia para un canje.",
+          "startMs": 12720,
+          "endMs": 15320,
+          "timestampMs": null,
+          "confidence": 0.983245720465978
+        },
+        {
+          "text": "Cargar más vencimientos permite revisar las siguientes fechas.",
+          "startMs": 15720,
+          "endMs": 18840,
+          "timestampMs": null,
+          "confidence": 0.9832681864500046
+        },
+        {
+          "text": "La regla actual del comercio describe nuevas compras,",
+          "startMs": 19280,
+          "endMs": 21960,
+          "timestampMs": null,
+          "confidence": 0.9857160300016403
+        },
+        {
+          "text": "pero no reemplaza la fecha que ya tiene cada grupo anterior.",
+          "startMs": 22240,
+          "endMs": 25080,
+          "timestampMs": null,
+          "confidence": 0.9948385466228832
+        },
+        {
+          "text": "Así podés explicarle al cliente qué puntos necesita usar primero sin prometer que",
+          "startMs": 25080,
+          "endMs": 29760,
+          "timestampMs": null,
+          "confidence": 0.9138074769423559
+        },
+        {
+          "text": "una compra nueva renovará todos sus puntos.",
+          "startMs": 29760,
+          "endMs": 31860,
+          "timestampMs": null,
+          "confidence": 0.9731537316526685
+        }
+      ],
       "opening": false,
       "closing": false
     },
@@ -1126,17 +2064,111 @@
       "id": "26-wallet-access",
       "title": "Guardar el acceso",
       "objective": "Volver a la billetera y proteger su enlace",
-      "narration": "En Mi acceso podés copiar el enlace de la billetera y guardarlo en este dispositivo para volver más rápido. Ese enlace permite consultar la información del cliente: compartilo con cuidado. Guardarlo en el navegador no crea una cuenta comercial. También podés quitar el acceso recordado y volver a consultar con país y DNI. La opción de agregar Pointly como acceso o instalarlo depende del navegador y del dispositivo; seguí los pasos que muestra la aplicación cuando esté disponible.",
+      "narration": "Desde tus comercios, Ver mi enlace personal abre Tu acceso. Podés copiar el enlace de la billetera y guardarlo en este dispositivo. Ese enlace permite consultar la información del cliente: compartilo con cuidado. Al volver al inicio público aparece Abrir mi acceso guardado. Guardarlo en el navegador no crea una cuenta comercial. En pantallas pequeñas aparece una guía para agregar Pointly como acceso; la instalación depende del navegador y del dispositivo. También podés quitar el acceso recordado sin borrar puntos. Para cambiar de persona, elegí Consultar otro DNI y volvés al formulario.",
       "account": "PUBLIC",
-      "footage": "footage/26-wallet-access.mp4",
+      "footage": "footage/26-wallet-access-d138f37073.mp4",
       "audio": "audio/26-wallet-access.wav",
       "sourceStart": 0,
-      "sourceFrames": 1,
-      "durationInFrames": 1773,
-      "from": 45816,
-      "captions": [],
+      "sourceFrames": 2214,
+      "durationInFrames": 2214,
+      "from": 48720,
+      "captions": [
+        {
+          "text": "Desde tus comercios, Ver mi enlace personal abre Tu acceso.",
+          "startMs": 0,
+          "endMs": 3580,
+          "timestampMs": null,
+          "confidence": 0.9254840479956733
+        },
+        {
+          "text": "Podés copiar el enlace de la billetera y guardarlo en este dispositivo.",
+          "startMs": 4340,
+          "endMs": 8020,
+          "timestampMs": null,
+          "confidence": 0.9701729913552603
+        },
+        {
+          "text": "Ese enlace permite consultar la información del cliente:",
+          "startMs": 8540,
+          "endMs": 11660,
+          "timestampMs": null,
+          "confidence": 0.9788866676390171
+        },
+        {
+          "text": "compartilo con cuidado.",
+          "startMs": 12120,
+          "endMs": 13340,
+          "timestampMs": null,
+          "confidence": 0.9576918880144755
+        },
+        {
+          "text": "Al volver al inicio público aparece a Abrir mi acceso guardado.",
+          "startMs": 13860,
+          "endMs": 17320,
+          "timestampMs": null,
+          "confidence": 0.9794969071041454
+        },
+        {
+          "text": "Guardarlo en el navegador no crea una cuenta comercial.",
+          "startMs": 17680,
+          "endMs": 20300,
+          "timestampMs": null,
+          "confidence": 0.9428864551915063
+        },
+        {
+          "text": "En pantallas pequeñas aparece una guía para agregar Pointly como acceso;",
+          "startMs": 20820,
+          "endMs": 24620,
+          "timestampMs": null,
+          "confidence": 0.9209313839673996
+        },
+        {
+          "text": "la instalación depende del navegador y del dispositivo.",
+          "startMs": 25160,
+          "endMs": 27920,
+          "timestampMs": null,
+          "confidence": 0.9881939527889093
+        },
+        {
+          "text": "También podés quitar el acceso recordado sin borrar puntos.",
+          "startMs": 27920,
+          "endMs": 31080,
+          "timestampMs": null,
+          "confidence": 0.9397848265038596
+        },
+        {
+          "text": "Para cambiar de persona, elegí Consultar otro DNI y volvés al formulario.",
+          "startMs": 31540,
+          "endMs": 36120,
+          "timestampMs": null,
+          "confidence": 0.9332843919595083
+        }
+      ],
       "opening": false,
-      "closing": false
+      "closing": false,
+      "supplement": {
+        "scene": "26-wallet-access",
+        "kind": "GENUINE_RESPONSIVE_TAB_RECORDING",
+        "file": "recordings/26-wallet-access-guide-hd-1794071162787.mp4",
+        "original": "recordings/26-wallet-access-guide-hd-1794071162787.webm",
+        "sourceStart": 67,
+        "sourceFrames": 202,
+        "from": 1249,
+        "durationInFrames": 426,
+        "width": 1920,
+        "height": 1080,
+        "audioSha256": "6cadb901a613c42c37900b381bf95668b50afb0e02de845b6d5f9a075073b3cc",
+        "caption": "Vista en pantalla pequeña",
+        "evidence": [
+          {
+            "label": "Actual browser-dependent install guidance expanded",
+            "url": "/client/Mq0Xm_mZUvqp/access",
+            "at": 1794071161498.0999
+          }
+        ],
+        "installation": "Actual guidance expanded; any browser install prompt dismissed with Escape. No OS installation claimed.",
+        "footage": "footage/26-wallet-access-guide-hd-1794071162787.mp4"
+      }
     },
     {
       "id": "27-company-status",
@@ -1144,13 +2176,91 @@
       "objective": "Administrar disponibilidad y cupos conscientemente",
       "narration": "Volvemos al panel comercial. Deshabilitar un comercio lo oculta y bloquea compras y canjes; no libera su cupo de comercios. Leé la confirmación antes de hacerlo. Si permanece deshabilitado más de treinta días, sus clientes se archivan conservando el historial. Para volver a operar, habilitalo nuevamente y revisá las cuentas. Los límites dependen del plan. Una cuenta sin plan activo muestra ese estado y deriva a Bycode para gestionar las opciones; no alcanza con crear una cuenta para habilitar todas las funciones.",
       "account": "B",
-      "footage": "footage/27-company-status.mp4",
+      "footage": "footage/27-company-status-777d1251a4.mp4",
       "audio": "audio/27-company-status.wav",
       "sourceStart": 0,
-      "sourceFrames": 1,
-      "durationInFrames": 1862,
-      "from": 47589,
-      "captions": [],
+      "sourceFrames": 1863,
+      "durationInFrames": 1863,
+      "from": 50934,
+      "captions": [
+        {
+          "text": "Volvemos al panel comercial.",
+          "startMs": 0,
+          "endMs": 1680,
+          "timestampMs": null,
+          "confidence": 0.9531828661759695
+        },
+        {
+          "text": "Deshabilitar un comercio lo oculta y bloquea compras y canjes;",
+          "startMs": 2280,
+          "endMs": 5620,
+          "timestampMs": null,
+          "confidence": 0.9811668490370113
+        },
+        {
+          "text": "no libera su cupo de comercios.",
+          "startMs": 5960,
+          "endMs": 7340,
+          "timestampMs": null,
+          "confidence": 0.9538912524779638
+        },
+        {
+          "text": "Leé la confirmación antes de hacerlo.",
+          "startMs": 7880,
+          "endMs": 9940,
+          "timestampMs": null,
+          "confidence": 0.9528533468643824
+        },
+        {
+          "text": "Si permanece deshabilitado más de 30 días,",
+          "startMs": 10360,
+          "endMs": 12760,
+          "timestampMs": null,
+          "confidence": 0.9814080130486261
+        },
+        {
+          "text": "sus clientes se archivan conservando el historial.",
+          "startMs": 13100,
+          "endMs": 15580,
+          "timestampMs": null,
+          "confidence": 0.9895019403525761
+        },
+        {
+          "text": "Para volver a operar, habilitarlo nuevamente y revisar las cuentas.",
+          "startMs": 15860,
+          "endMs": 19240,
+          "timestampMs": null,
+          "confidence": 0.9537238284945488
+        },
+        {
+          "text": "Los límites dependen del plan.",
+          "startMs": 19720,
+          "endMs": 21280,
+          "timestampMs": null,
+          "confidence": 0.9914064248402912
+        },
+        {
+          "text": "Una cuenta sin plan activo muestra ese estado y deriva a Bycode para gestionar",
+          "startMs": 21660,
+          "endMs": 25740,
+          "timestampMs": null,
+          "confidence": 0.8861299686666045
+        },
+        {
+          "text": "las opciones;",
+          "startMs": 25740,
+          "endMs": 26360,
+          "timestampMs": null,
+          "confidence": 0.9980917274951935
+        },
+        {
+          "text": "no alcanza con crear una cuenta para habilitar todas las funciones.",
+          "startMs": 26360,
+          "endMs": 30160,
+          "timestampMs": null,
+          "confidence": 0.9436651919827317
+        }
+      ],
       "opening": false,
       "closing": false
     },
@@ -1160,13 +2270,77 @@
       "objective": "Reconocer qué cambia según el rol",
       "narration": "La cuenta de comercio administra sus propios negocios. La administración general tiene una vista diferente con empresas de toda la plataforma, sus reglas y sus estados. Algunas acciones visibles pueden seguir restringidas por el servidor: no tener permiso no se resuelve cambiando la dirección de la página. Este tutorial usa la cuenta comercial para las tareas diarias. El asistente de inteligencia artificial y los niveles de fidelidad están desactivados en esta versión, aunque exista código histórico: no son herramientas disponibles que tengas que configurar.",
       "account": "ADMIN",
-      "footage": "footage/28-roles.mp4",
+      "footage": "footage/28-roles-1c8bb1ca92.mp4",
       "audio": "audio/28-roles.wav",
       "sourceStart": 0,
-      "sourceFrames": 1,
-      "durationInFrames": 1906,
-      "from": 49451,
-      "captions": [],
+      "sourceFrames": 1969,
+      "durationInFrames": 1969,
+      "from": 52797,
+      "captions": [
+        {
+          "text": "La cuenta de comercio administra sus propios negocios.",
+          "startMs": 0,
+          "endMs": 3000,
+          "timestampMs": null,
+          "confidence": 0.9453655630350113
+        },
+        {
+          "text": "La administración general tiene una vista diferente con empresas de toda la plataforma,",
+          "startMs": 3520,
+          "endMs": 7700,
+          "timestampMs": null,
+          "confidence": 0.9807842648946322
+        },
+        {
+          "text": "sus reglas y sus estados.",
+          "startMs": 8160,
+          "endMs": 9760,
+          "timestampMs": null,
+          "confidence": 0.9797374606132507
+        },
+        {
+          "text": "Algunas acciones visibles pueden seguir restringidas por el servidor:",
+          "startMs": 10380,
+          "endMs": 13920,
+          "timestampMs": null,
+          "confidence": 0.9867962797482809
+        },
+        {
+          "text": "no tener permiso no se resuelve cambiando la dirección de la página.",
+          "startMs": 14360,
+          "endMs": 17700,
+          "timestampMs": null,
+          "confidence": 0.9889007781942686
+        },
+        {
+          "text": "Este tutorial usa la cuenta comercial para las tareas diarias.",
+          "startMs": 18200,
+          "endMs": 21460,
+          "timestampMs": null,
+          "confidence": 0.9927816420793534
+        },
+        {
+          "text": "El asistente de inteligencia artificial y los niveles de fidelidad están desactivados en",
+          "startMs": 22040,
+          "endMs": 26600,
+          "timestampMs": null,
+          "confidence": 0.9787929409589522
+        },
+        {
+          "text": "esta versión, aunque exista código histórico:",
+          "startMs": 26600,
+          "endMs": 29020,
+          "timestampMs": null,
+          "confidence": 0.9751118918259939
+        },
+        {
+          "text": "no son herramientas disponibles que tengas que configurar.",
+          "startMs": 29020,
+          "endMs": 31920,
+          "timestampMs": null,
+          "confidence": 0.9598988592624664
+        }
+      ],
       "opening": false,
       "closing": false
     },
@@ -1176,13 +2350,77 @@
       "objective": "Recuperarse de errores y cerrar la sesión",
       "narration": "Cuando una lista no carga, usá su botón Reintentar; un error de conexión no significa que no existan clientes o ventas. Si la búsqueda está vacía, revisá el país, el documento y el filtro. Podés cambiar entre tema claro y oscuro desde la aplicación, consultar las preguntas frecuentes y volver al panel desde el menú. Al terminar en una computadora compartida, cerrá la sesión. Recordá la secuencia diaria: identificar al cliente, registrar la compra, verificar los puntos y registrar el canje cuando corresponda.",
       "account": "B",
-      "footage": "footage/29-help.mp4",
+      "footage": "footage/29-help-f263d9beda.mp4",
       "audio": "audio/29-help.wav",
       "sourceStart": 0,
-      "sourceFrames": 1,
-      "durationInFrames": 1884,
-      "from": 51357,
-      "captions": [],
+      "sourceFrames": 1902,
+      "durationInFrames": 1902,
+      "from": 54766,
+      "captions": [
+        {
+          "text": "Cuando una lista no carga, usá su botón Reintentar;",
+          "startMs": 0,
+          "endMs": 3080,
+          "timestampMs": null,
+          "confidence": 0.9286212457550896
+        },
+        {
+          "text": "un error de conexión no significa que no existan clientes o ventas.",
+          "startMs": 3620,
+          "endMs": 7280,
+          "timestampMs": null,
+          "confidence": 0.9900901640454928
+        },
+        {
+          "text": "Si la búsqueda está vacía, revisá el país, el documento y el filtro.",
+          "startMs": 7760,
+          "endMs": 11600,
+          "timestampMs": null,
+          "confidence": 0.9787278576539113
+        },
+        {
+          "text": "Podés cambiar entre tema claro y oscuro desde la aplicación,",
+          "startMs": 12080,
+          "endMs": 15140,
+          "timestampMs": null,
+          "confidence": 0.9762625257174176
+        },
+        {
+          "text": "consultar las preguntas frecuentes y volver al panel desde el menú.",
+          "startMs": 15500,
+          "endMs": 18880,
+          "timestampMs": null,
+          "confidence": 0.9849353956453727
+        },
+        {
+          "text": "Al terminar en una computadora compartida, cerrá la sesión.",
+          "startMs": 19260,
+          "endMs": 22540,
+          "timestampMs": null,
+          "confidence": 0.9779054224491119
+        },
+        {
+          "text": "Recordá la secuencia diaria:",
+          "startMs": 23020,
+          "endMs": 24440,
+          "timestampMs": null,
+          "confidence": 0.9671899527311325
+        },
+        {
+          "text": "identificar al cliente, registrar la compra,",
+          "startMs": 24760,
+          "endMs": 27180,
+          "timestampMs": null,
+          "confidence": 0.986927772561709
+        },
+        {
+          "text": "verificar los puntos y registrar el canje cuando corresponda.",
+          "startMs": 27540,
+          "endMs": 30820,
+          "timestampMs": null,
+          "confidence": 0.9436190260781182
+        }
+      ],
       "opening": false,
       "closing": false
     },
@@ -1192,13 +2430,63 @@
       "objective": "Consolidar el aprendizaje",
       "narration": "Ya recorrimos la configuración, los clientes, las ventas, el catálogo, los premios y los avisos de Pointly, además de la billetera que consulta el cliente. Antes de usar tu programa con personas reales, revisá la regla de puntos, las condiciones de los premios y los vencimientos que vas a comunicar. Volvé al capítulo que necesites para repetir un procedimiento. Pointly, de Bycode Software. Gracias por acompañarnos.",
       "account": "B",
-      "footage": "footage/30-close.mp4",
+      "footage": "footage/30-close-1794068560418.mp4",
       "audio": "audio/30-close.wav",
-      "sourceStart": 0,
-      "sourceFrames": 1,
-      "durationInFrames": 1506,
-      "from": 53241,
-      "captions": [],
+      "sourceStart": 78,
+      "sourceFrames": 286,
+      "durationInFrames": 1556,
+      "from": 56668,
+      "captions": [
+        {
+          "text": "Ya recorrimos la configuración, los clientes, las ventas, el catálogo,",
+          "startMs": 0,
+          "endMs": 4100,
+          "timestampMs": null,
+          "confidence": 0.9839589953422546
+        },
+        {
+          "text": "los premios y los avisos de Pointly, además de la billetera que consulta el cliente.",
+          "startMs": 4460,
+          "endMs": 9520,
+          "timestampMs": null,
+          "confidence": 0.9829639236132304
+        },
+        {
+          "text": "Antes de usar tu programa con personas reales, revisá la regla de puntos,",
+          "startMs": 9760,
+          "endMs": 13680,
+          "timestampMs": null,
+          "confidence": 0.9698118739403211
+        },
+        {
+          "text": "las condiciones de los premios y los vencimientos que vas a comunicar.",
+          "startMs": 14160,
+          "endMs": 17440,
+          "timestampMs": null,
+          "confidence": 0.9959296559294065
+        },
+        {
+          "text": "Volvé al capítulo que necesites para repetir un procedimiento.",
+          "startMs": 18020,
+          "endMs": 21020,
+          "timestampMs": null,
+          "confidence": 0.9576478666729398
+        },
+        {
+          "text": "Pointly, de Bycode Software.",
+          "startMs": 21440,
+          "endMs": 23220,
+          "timestampMs": null,
+          "confidence": 0.7033287091180682
+        },
+        {
+          "text": "Gracias por acompañarnos.",
+          "startMs": 23760,
+          "endMs": 25100,
+          "timestampMs": null,
+          "confidence": 0.9822942515214285
+        }
+      ],
       "opening": false,
       "closing": true
     }

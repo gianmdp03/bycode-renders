@@ -13,7 +13,7 @@
   "words": [
     {
       "word": "En",
-      "start": 0.0,
+      "start": 0,
       "end": 0.36,
       "probability": 0.9680829048156738,
       "display": "En"
@@ -469,13 +469,13 @@
     {
       "word": "para",
       "start": 23.8,
-      "end": 24.0,
+      "end": 24,
       "probability": 0.9956423044204712,
       "display": "para"
     },
     {
       "word": "dar",
-      "start": 24.0,
+      "start": 24,
       "end": 24.2,
       "probability": 0.9980490207672119,
       "display": "dar"
@@ -508,71 +508,67 @@
       "startMs": 0,
       "endMs": 5120,
       "timestampMs": null,
-      "confidence": 0.967
+      "confidence": 0.9665924523557935
     },
     {
       "text": "el comercio.",
       "startMs": 5120,
       "endMs": 5720,
       "timestampMs": null,
-      "confidence": 0.996
+      "confidence": 0.996174082159996
     },
     {
       "text": "No es el documento de un cliente:",
       "startMs": 6140,
       "endMs": 7860,
       "timestampMs": null,
-      "confidence": 0.987
+      "confidence": 0.9868068822792598
     },
     {
       "text": "es un dato de tu perfil.",
       "startMs": 8160,
       "endMs": 9440,
       "timestampMs": null,
-      "confidence": 0.996
+      "confidence": 0.9955778419971466
     },
     {
-      "text": "Completalo y continúal panel.",
+      "text": "Completalo y continuá al panel.",
       "startMs": 9860,
       "endMs": 11420,
       "timestampMs": null,
-      "confidence": 0.896
+      "confidence": 0.8958041667938232
     },
     {
-      "text": "Acá aparece el plan, sus comercios permitidos y el cupo de clientes activos",
+      "text": "Acá aparece el plan, sus comercios permitidos y el cupo de clientes activos por comercio.",
       "startMs": 11820,
-      "endMs": 16080,
-      "timestampMs": null,
-      "confidence": 0.974
-    },
-    {
-      "text": "por comercio.",
-      "startMs": 16080,
       "endMs": 16700,
       "timestampMs": null,
-      "confidence": 0.994
+      "confidence": 0.9767486353715261
     },
     {
       "text": "Si todavía no creaste ninguno, empezá con Nueva Empresa.",
       "startMs": 17140,
       "endMs": 20140,
       "timestampMs": null,
-      "confidence": 0.952
+      "confidence": 0.9521150986353556
     },
     {
-      "text": "No necesitás preparar una planilla ni importar clientes para dar este primer",
+      "text": "No necesitás preparar una planilla ni importar clientes para dar este primer paso.",
       "startMs": 20700,
-      "endMs": 24680,
-      "timestampMs": null,
-      "confidence": 0.989
-    },
-    {
-      "text": "paso.",
-      "startMs": 24680,
       "endMs": 24980,
       "timestampMs": null,
-      "confidence": 0.998
+      "confidence": 0.9898302807257726
     }
   ],
-  "status": "REVIEW_REQUIRED"
+  "status": "REVIEW_REQUIRED",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [
+      [
+        "continúal",
+        "continuá al"
+      ]
+    ],
+    "sourceAudioHash": "049282e3476b7cb4212a6d05b030d182afb7b5f7ea2d6107f4a2ea0e61e0e018"
+  }
 }

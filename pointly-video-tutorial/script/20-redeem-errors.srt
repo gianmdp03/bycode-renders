@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:02,000
+Si el cliente no tiene puntos suficientes,
+
+2
+00:00:02,260 --> 00:00:05,120
+el canje se rechaza y el formulario explica el problema.
+
+3
+00:00:05,760 --> 00:00:09,060
+También hay bloqueos para premios pausados y cuentas archivadas.
+
+4
+00:00:09,540 --> 00:00:12,360
+No prometas un premio basándote en un saldo anterior:
+
+5
+00:00:12,960 --> 00:00:13,960
+consultá el vigente.
+
+6
+00:00:14,620 --> 00:00:16,820
+Si el resultado queda incierto por conexión,
+
+7
+00:00:17,160 --> 00:00:21,460
+el botón Reintentar canje pendiente conserva la misma operación y sus datos.
+
+8
+00:00:22,120 --> 00:00:25,000
+Un rechazo confirmado permite corregir el formulario.
+
+9
+00:00:25,000 --> 00:00:28,780
+Un resultado incierto requiere resolver esa misma operación,
+
+10
+00:00:29,000 --> 00:00:30,620
+para no descontar dos veces.

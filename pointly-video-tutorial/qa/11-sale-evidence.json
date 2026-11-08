@@ -3,18 +3,18 @@
   "evidence": [
     {
       "label": "80 points estimated from complete purchase tranches",
-      "url": "/companies/cafe-del-puerto-tutorial/actions/sale",
-      "at": 1793727361118.1
+      "url": "/companies/cafe-del-puerto-actualizado/actions/sale",
+      "at": 1794066293369.4
     },
     {
       "label": "Sale confirmed",
-      "url": "/companies/cafe-del-puerto-tutorial",
-      "at": 1793727363227.5
+      "url": "/companies/cafe-del-puerto-actualizado",
+      "at": 1794066295430.9
     },
     {
       "label": "Real sale and actual generated points",
-      "url": "/companies/cafe-del-puerto-tutorial",
-      "at": 1793727366498.5
+      "url": "/companies/cafe-del-puerto-actualizado",
+      "at": 1794066298548.8
     }
   ],
   "network": [
@@ -35,12 +35,12 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/company-names/cafe-del-puerto-tutorial/company",
+      "path": "/api/pointly/company-names/cafe-del-puerto-actualizado/company",
       "status": 200
     },
     {
       "method": "GET",
-      "path": "/api/pointly/public/media/6dedfc39-a8dd-4815-a680-b61b8db0307c",
+      "path": "/api/pointly/public/media/abf1bc3b-8f5e-47c2-b69a-d4822226336f",
       "status": 200
     },
     {
@@ -80,12 +80,12 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/sales/1",
+      "path": "/api/pointly/points-accounts/1",
       "status": 200
     },
     {
       "method": "GET",
-      "path": "/api/pointly/points-accounts/1",
+      "path": "/api/pointly/sales/1",
       "status": 200
     },
     {
@@ -115,12 +115,12 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/company-names/cafe-del-puerto-tutorial/company",
+      "path": "/api/pointly/company-names/cafe-del-puerto-actualizado/company",
       "status": 200
     },
     {
       "method": "GET",
-      "path": "/api/pointly/public/media/6dedfc39-a8dd-4815-a680-b61b8db0307c",
+      "path": "/api/pointly/public/media/abf1bc3b-8f5e-47c2-b69a-d4822226336f",
       "status": 200
     },
     {
@@ -149,6 +149,6 @@
       "status": 200
     }
   ],
-  "source": "recordings/11-sale-1793727385836.mp4",
+  "source": "recordings/11-sale-1794066300460.mp4",
   "obs": null
 }

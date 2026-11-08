@@ -3,26 +3,31 @@
   "evidence": [
     {
       "label": "Same client has separate real balances in two businesses",
-      "url": "/client/nh2AmM2r5Pm3",
-      "at": 1793731784658.9001
+      "url": "/client/oKgdIQip8B90",
+      "at": 1794067974337.5
     },
     {
       "label": "Second business independent balance and country-only location",
-      "url": "/client/nh2AmM2r5Pm3/panaderia-costera-demo",
-      "at": 1793731786016.7002
+      "url": "/client/oKgdIQip8B90/panaderia-costera-demo",
+      "at": 1794067976140.4001
     },
     {
       "label": "Public wallet balance and reward eligibility",
-      "url": "/client/nh2AmM2r5Pm3/cafe-del-puerto-aula",
-      "at": 1793731790269.1
+      "url": "/client/oKgdIQip8B90/cafe-del-puerto-actualizado",
+      "at": 1794067981564.9001
     },
     {
       "label": "Three real public catalogs",
-      "url": "/client/nh2AmM2r5Pm3/cafe-del-puerto-aula",
-      "at": 1793731794241.4001
+      "url": "/client/oKgdIQip8B90/cafe-del-puerto-actualizado",
+      "at": 1794067986604
     }
   ],
   "network": [
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 401
+    },
     {
       "method": "GET",
       "path": "/api/pointly/limits/my-limits",
@@ -45,7 +50,7 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/public/media/88f04c39-82db-4d2e-8062-e046c1a537ac",
+      "path": "/api/pointly/public/media/abf1bc3b-8f5e-47c2-b69a-d4822226336f",
       "status": 200
     },
     {
@@ -80,17 +85,17 @@
     },
     {
       "method": "POST",
-      "path": "/api/pointly/public/client-access/companies/cafe-del-puerto-aula/point-expirations/query",
+      "path": "/api/pointly/public/client-access/companies/cafe-del-puerto-actualizado/query",
       "status": 200
     },
     {
       "method": "POST",
-      "path": "/api/pointly/public/client-access/companies/cafe-del-puerto-aula/query",
+      "path": "/api/pointly/public/client-access/companies/cafe-del-puerto-actualizado/point-expirations/query",
       "status": 200
     },
     {
       "method": "GET",
-      "path": "/api/pointly/public/media/f33469e7-1cfe-4712-b96d-37d148235122",
+      "path": "/api/pointly/public/media/54205951-616e-4193-b744-ff952b405222",
       "status": 200
     },
     {
@@ -101,14 +106,9 @@
     {
       "method": "GET",
       "path": "/api/pointly/public/media/e01b4523-91c5-4efa-a278-39e2ffe05394",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/public/media/f33469e7-1cfe-4712-b96d-37d148235122",
-      "status": 200
+      "status": 503
     }
   ],
-  "source": "recordings/24-wallet-1793731811116.mp4",
+  "source": "recordings/24-wallet-1794067989009.mp4",
   "obs": null
 }

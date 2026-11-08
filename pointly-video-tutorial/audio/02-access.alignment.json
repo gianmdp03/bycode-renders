@@ -1,635 +1,710 @@
 {
   "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
-  "audio_sha256": "df6e2747c7d653ea930f05e87b8ad965b575c908333a49b40b1aa06e27731246",
-  "transcript": "Para administrar un comercio, necesitas tu cuenta de Bycode y un plan de Pointly habilitado. El acceso crear cuenta lleva a Bycode. El alta comercial no se completa dentro de esta pantalla de Pointly. Si ya tenés cuenta, entra con tu correo y contraseña. El modo cliente es diferente. Permite consultar puntos sin acceder a la administración. Revisa el correo que escribís y mantene tu contraseña privada. Si los datos no coinciden, la pantalla informa el error y permite corregirlos.",
-  "scriptSimilarity": 1.0,
+  "audio_sha256": "03e3182275f840c1779f511c6a6b020b03ce6cf63cb8c977bd9d996d15967ba9",
+  "transcript": "Desde el inicio, sos un comercio? Empezá ahora, abre una guía con los primeros pasos. Primero creás tu cuenta en Bycode. Después volvés a Pointly e ingresás con el mismo correo y contraseña. Cada aplicación de Bycode tiene su propio plan. Pointly tiene que estar habilitado. Si ya tenés cuenta, elegí ingresar como comercio. El formulario público del inicio es para consultar la billetera de clientes. Es importante revisar el correo y mantener la contraseña privada. Si los datos no coinciden, la pantalla informa el error y permite corregirlos.",
+  "scriptSimilarity": 1,
   "differences": [],
   "words": [
     {
-      "word": "Para",
-      "start": 0.0,
-      "end": 0.3,
-      "probability": 0.9195346832275391,
-      "display": "Para"
+      "word": "Desde",
+      "start": 0,
+      "end": 0.46,
+      "probability": 0.6470526456832886,
+      "display": "Desde"
     },
     {
-      "word": "administrar",
-      "start": 0.3,
-      "end": 0.8,
-      "probability": 0.9824218153953552,
-      "display": "administrar"
-    },
-    {
-      "word": "un",
-      "start": 0.8,
-      "end": 0.94,
-      "probability": 0.988990068435669,
-      "display": "un"
-    },
-    {
-      "word": "comercio,",
-      "start": 0.94,
-      "end": 1.36,
-      "probability": 0.9478697776794434,
-      "display": "comercio"
-    },
-    {
-      "word": "necesitas",
-      "start": 1.4,
-      "end": 1.9,
-      "probability": 0.9381088316440582,
-      "display": "necesitás"
-    },
-    {
-      "word": "tu",
-      "start": 1.9,
-      "end": 2.1,
-      "probability": 0.9931105375289917,
-      "display": "tu"
-    },
-    {
-      "word": "cuenta",
-      "start": 2.1,
-      "end": 2.36,
-      "probability": 0.9732241034507751,
-      "display": "cuenta"
-    },
-    {
-      "word": "de",
-      "start": 2.36,
-      "end": 2.54,
-      "probability": 0.9970209002494812,
-      "display": "de"
-    },
-    {
-      "word": "Bycode",
-      "start": 2.54,
-      "end": 2.92,
-      "probability": 0.12485037650913,
-      "display": "Bycode"
-    },
-    {
-      "word": "y",
-      "start": 2.92,
-      "end": 3.32,
-      "probability": 0.9511566162109375,
-      "display": "y"
-    },
-    {
-      "word": "un",
-      "start": 3.32,
-      "end": 3.48,
-      "probability": 0.9896607398986816,
-      "display": "un"
-    },
-    {
-      "word": "plan",
-      "start": 3.48,
-      "end": 3.68,
-      "probability": 0.9073935151100159,
-      "display": "plan"
-    },
-    {
-      "word": "de",
-      "start": 3.68,
-      "end": 3.86,
-      "probability": 0.9965856075286865,
-      "display": "de"
-    },
-    {
-      "word": "Pointly",
-      "start": 3.86,
-      "end": 4.24,
-      "probability": 0.7788037061691284,
-      "display": "Pointly"
-    },
-    {
-      "word": "habilitado.",
-      "start": 4.24,
-      "end": 4.9,
-      "probability": 0.9167669812838236,
-      "display": "habilitado."
-    },
-    {
-      "word": "El",
-      "start": 5.42,
-      "end": 5.66,
-      "probability": 0.9898352026939392,
-      "display": "El"
-    },
-    {
-      "word": "acceso",
-      "start": 5.66,
-      "end": 5.92,
-      "probability": 0.9708860516548157,
-      "display": "acceso"
-    },
-    {
-      "word": "crear",
-      "start": 5.92,
-      "end": 6.3,
-      "probability": 0.6961914300918579,
-      "display": "Crear"
-    },
-    {
-      "word": "cuenta",
-      "start": 6.3,
-      "end": 6.78,
-      "probability": 0.9416168928146362,
-      "display": "cuenta"
-    },
-    {
-      "word": "lleva",
-      "start": 6.78,
-      "end": 7.08,
-      "probability": 0.6717084646224976,
-      "display": "lleva"
-    },
-    {
-      "word": "a",
-      "start": 7.08,
-      "end": 7.28,
-      "probability": 0.9667405486106873,
-      "display": "a"
-    },
-    {
-      "word": "Bycode.",
-      "start": 7.28,
-      "end": 7.62,
-      "probability": 0.9749735891819,
-      "display": "Bycode:"
-    },
-    {
-      "word": "El",
-      "start": 8.14,
-      "end": 8.44,
-      "probability": 0.9900004863739014,
+      "word": "el",
+      "start": 0.46,
+      "end": 0.64,
+      "probability": 0.9906749129295349,
       "display": "el"
     },
     {
-      "word": "alta",
-      "start": 8.44,
-      "end": 8.64,
-      "probability": 0.9260813593864441,
-      "display": "alta"
+      "word": "inicio,",
+      "start": 0.64,
+      "end": 1.02,
+      "probability": 0.9823224544525146,
+      "display": "inicio,"
     },
     {
-      "word": "comercial",
-      "start": 8.64,
-      "end": 9.08,
-      "probability": 0.9986401200294495,
-      "display": "comercial"
+      "word": "sos",
+      "start": 1.52,
+      "end": 1.78,
+      "probability": 0.7237695455551147,
+      "display": "¿Sos"
     },
     {
-      "word": "no",
-      "start": 9.08,
-      "end": 9.46,
-      "probability": 0.9832494258880615,
-      "display": "no"
+      "word": "un",
+      "start": 1.78,
+      "end": 1.96,
+      "probability": 0.9956969022750854,
+      "display": "un"
     },
     {
-      "word": "se",
-      "start": 9.46,
-      "end": 9.6,
-      "probability": 0.9994188547134399,
-      "display": "se"
+      "word": "comercio?",
+      "start": 1.96,
+      "end": 2.44,
+      "probability": 0.9961203038692474,
+      "display": "comercio?"
     },
     {
-      "word": "completa",
-      "start": 9.6,
-      "end": 10.08,
-      "probability": 0.9935598373413086,
-      "display": "completa"
+      "word": "Empezá",
+      "start": 2.96,
+      "end": 3.48,
+      "probability": 0.9040641983350118,
+      "display": "Empezá"
     },
     {
-      "word": "dentro",
-      "start": 10.08,
-      "end": 10.58,
-      "probability": 0.9934468865394592,
-      "display": "dentro"
+      "word": "ahora,",
+      "start": 3.48,
+      "end": 3.78,
+      "probability": 0.9871045351028442,
+      "display": "ahora"
     },
     {
-      "word": "de",
-      "start": 10.58,
-      "end": 10.78,
-      "probability": 0.9989638328552246,
-      "display": "de"
+      "word": "abre",
+      "start": 4,
+      "end": 4.2,
+      "probability": 0.9669672250747681,
+      "display": "abre"
     },
     {
-      "word": "esta",
-      "start": 10.78,
-      "end": 10.94,
-      "probability": 0.9855061769485474,
-      "display": "esta"
+      "word": "una",
+      "start": 4.2,
+      "end": 4.42,
+      "probability": 0.9932811260223389,
+      "display": "una"
     },
     {
-      "word": "pantalla",
-      "start": 10.94,
-      "end": 11.3,
-      "probability": 0.9994171857833862,
-      "display": "pantalla"
-    },
-    {
-      "word": "de",
-      "start": 11.3,
-      "end": 11.52,
-      "probability": 0.9968461394309998,
-      "display": "de"
-    },
-    {
-      "word": "Pointly.",
-      "start": 11.52,
-      "end": 11.9,
-      "probability": 0.9758076667785645,
-      "display": "Pointly."
-    },
-    {
-      "word": "Si",
-      "start": 12.38,
-      "end": 12.58,
-      "probability": 0.9939238429069519,
-      "display": "Si"
-    },
-    {
-      "word": "ya",
-      "start": 12.58,
-      "end": 12.8,
-      "probability": 0.9975036978721619,
-      "display": "ya"
-    },
-    {
-      "word": "tenés",
-      "start": 12.8,
-      "end": 13.1,
-      "probability": 0.8230341970920563,
-      "display": "tenés"
-    },
-    {
-      "word": "cuenta,",
-      "start": 13.1,
-      "end": 13.36,
-      "probability": 0.9983583092689514,
-      "display": "cuenta,"
-    },
-    {
-      "word": "entra",
-      "start": 13.82,
-      "end": 14.14,
-      "probability": 0.8898472785949707,
-      "display": "entrá"
+      "word": "guía",
+      "start": 4.42,
+      "end": 4.74,
+      "probability": 0.9899350106716156,
+      "display": "guía"
     },
     {
       "word": "con",
-      "start": 14.14,
-      "end": 14.38,
-      "probability": 0.9961879849433899,
+      "start": 4.74,
+      "end": 4.94,
+      "probability": 0.9865111112594604,
       "display": "con"
     },
     {
+      "word": "los",
+      "start": 4.94,
+      "end": 5.08,
+      "probability": 0.9972209930419922,
+      "display": "los"
+    },
+    {
+      "word": "primeros",
+      "start": 5.08,
+      "end": 5.48,
+      "probability": 0.9986359775066376,
+      "display": "primeros"
+    },
+    {
+      "word": "pasos.",
+      "start": 5.48,
+      "end": 5.9,
+      "probability": 0.9970279335975647,
+      "display": "pasos."
+    },
+    {
+      "word": "Primero",
+      "start": 6.3,
+      "end": 6.76,
+      "probability": 0.9905287623405457,
+      "display": "Primero"
+    },
+    {
+      "word": "creás",
+      "start": 6.76,
+      "end": 7.1,
+      "probability": 0.8284076154232025,
+      "display": "creás"
+    },
+    {
       "word": "tu",
-      "start": 14.38,
-      "end": 14.52,
-      "probability": 0.9977085590362549,
+      "start": 7.1,
+      "end": 7.26,
+      "probability": 0.9937242865562439,
       "display": "tu"
     },
     {
+      "word": "cuenta",
+      "start": 7.26,
+      "end": 7.54,
+      "probability": 0.9890162348747253,
+      "display": "cuenta"
+    },
+    {
+      "word": "en",
+      "start": 7.54,
+      "end": 7.74,
+      "probability": 0.9942634701728821,
+      "display": "en"
+    },
+    {
+      "word": "Bycode.",
+      "start": 7.74,
+      "end": 8.04,
+      "probability": 0.03754802839830518,
+      "display": "Bycode."
+    },
+    {
+      "word": "Después",
+      "start": 8.84,
+      "end": 9.32,
+      "probability": 0.9953318238258362,
+      "display": "Después"
+    },
+    {
+      "word": "volvés",
+      "start": 9.32,
+      "end": 9.82,
+      "probability": 0.7967901428540548,
+      "display": "volvés"
+    },
+    {
+      "word": "a",
+      "start": 9.82,
+      "end": 9.96,
+      "probability": 0.9952715039253235,
+      "display": "a"
+    },
+    {
+      "word": "Pointly",
+      "start": 9.96,
+      "end": 10.32,
+      "probability": 0.8052298426628113,
+      "display": "Pointly"
+    },
+    {
+      "word": "e",
+      "start": 10.32,
+      "end": 10.56,
+      "probability": 0.9861830472946167,
+      "display": "e"
+    },
+    {
+      "word": "ingresás",
+      "start": 10.56,
+      "end": 11.02,
+      "probability": 0.9767147501309713,
+      "display": "ingresás"
+    },
+    {
+      "word": "con",
+      "start": 11.02,
+      "end": 11.24,
+      "probability": 0.9960052371025085,
+      "display": "con"
+    },
+    {
+      "word": "el",
+      "start": 11.24,
+      "end": 11.36,
+      "probability": 0.9975927472114563,
+      "display": "el"
+    },
+    {
+      "word": "mismo",
+      "start": 11.36,
+      "end": 11.64,
+      "probability": 0.9984354376792908,
+      "display": "mismo"
+    },
+    {
       "word": "correo",
-      "start": 14.52,
-      "end": 14.98,
-      "probability": 0.9984816908836365,
+      "start": 11.64,
+      "end": 12.1,
+      "probability": 0.9930175840854645,
       "display": "correo"
     },
     {
       "word": "y",
-      "start": 14.98,
-      "end": 15.12,
-      "probability": 0.9969561100006104,
+      "start": 12.1,
+      "end": 12.3,
+      "probability": 0.9939568042755127,
       "display": "y"
     },
     {
       "word": "contraseña.",
-      "start": 15.12,
-      "end": 15.7,
-      "probability": 0.9821111559867859,
+      "start": 12.3,
+      "end": 12.92,
+      "probability": 0.9540499846140543,
       "display": "contraseña."
     },
     {
+      "word": "Cada",
+      "start": 13.66,
+      "end": 13.92,
+      "probability": 0.9741326570510864,
+      "display": "Cada"
+    },
+    {
+      "word": "aplicación",
+      "start": 13.92,
+      "end": 14.46,
+      "probability": 0.9897673726081848,
+      "display": "aplicación"
+    },
+    {
+      "word": "de",
+      "start": 14.46,
+      "end": 14.58,
+      "probability": 0.9957497119903564,
+      "display": "de"
+    },
+    {
+      "word": "Bycode",
+      "start": 14.58,
+      "end": 14.94,
+      "probability": 0.9730911552906036,
+      "display": "Bycode"
+    },
+    {
+      "word": "tiene",
+      "start": 14.94,
+      "end": 15.34,
+      "probability": 0.9982393980026245,
+      "display": "tiene"
+    },
+    {
+      "word": "su",
+      "start": 15.34,
+      "end": 15.56,
+      "probability": 0.9946960210800171,
+      "display": "su"
+    },
+    {
+      "word": "propio",
+      "start": 15.56,
+      "end": 15.84,
+      "probability": 0.9987775683403015,
+      "display": "propio"
+    },
+    {
+      "word": "plan.",
+      "start": 15.84,
+      "end": 16.12,
+      "probability": 0.994446873664856,
+      "display": "plan:"
+    },
+    {
+      "word": "Pointly",
+      "start": 16.64,
+      "end": 17.2,
+      "probability": 0.9857543408870697,
+      "display": "Pointly"
+    },
+    {
+      "word": "tiene",
+      "start": 17.2,
+      "end": 17.44,
+      "probability": 0.9945599436759949,
+      "display": "tiene"
+    },
+    {
+      "word": "que",
+      "start": 17.44,
+      "end": 17.64,
+      "probability": 0.9983338713645935,
+      "display": "que"
+    },
+    {
+      "word": "estar",
+      "start": 17.64,
+      "end": 17.86,
+      "probability": 0.9972339272499084,
+      "display": "estar"
+    },
+    {
+      "word": "habilitado.",
+      "start": 17.86,
+      "end": 18.44,
+      "probability": 0.9467146197954813,
+      "display": "habilitado."
+    },
+    {
+      "word": "Si",
+      "start": 19.12,
+      "end": 19.3,
+      "probability": 0.9902021288871765,
+      "display": "Si"
+    },
+    {
+      "word": "ya",
+      "start": 19.3,
+      "end": 19.44,
+      "probability": 0.9986782670021057,
+      "display": "ya"
+    },
+    {
+      "word": "tenés",
+      "start": 19.44,
+      "end": 19.7,
+      "probability": 0.9742484390735626,
+      "display": "tenés"
+    },
+    {
+      "word": "cuenta,",
+      "start": 19.7,
+      "end": 19.98,
+      "probability": 0.9988418221473694,
+      "display": "cuenta,"
+    },
+    {
+      "word": "elegí",
+      "start": 20.32,
+      "end": 20.64,
+      "probability": 0.9931319355964661,
+      "display": "elegí"
+    },
+    {
+      "word": "ingresar",
+      "start": 20.64,
+      "end": 21.1,
+      "probability": 0.9799481829007467,
+      "display": "Ingresar"
+    },
+    {
+      "word": "como",
+      "start": 21.1,
+      "end": 21.32,
+      "probability": 0.9881220459938049,
+      "display": "como"
+    },
+    {
+      "word": "comercio.",
+      "start": 21.32,
+      "end": 21.84,
+      "probability": 0.9962113201618195,
+      "display": "comercio."
+    },
+    {
       "word": "El",
-      "start": 16.26,
-      "end": 16.48,
-      "probability": 0.9828128218650818,
+      "start": 22.48,
+      "end": 23.06,
+      "probability": 0.9854773879051208,
       "display": "El"
     },
     {
-      "word": "modo",
-      "start": 16.48,
-      "end": 16.68,
-      "probability": 0.9880790114402771,
-      "display": "modo"
+      "word": "formulario",
+      "start": 23.06,
+      "end": 23.6,
+      "probability": 0.9928566813468933,
+      "display": "formulario"
     },
     {
-      "word": "cliente",
-      "start": 16.68,
-      "end": 17.18,
-      "probability": 0.9020307660102844,
-      "display": "cliente"
+      "word": "público",
+      "start": 23.6,
+      "end": 23.86,
+      "probability": 0.9866039752960205,
+      "display": "público"
+    },
+    {
+      "word": "del",
+      "start": 23.86,
+      "end": 24.12,
+      "probability": 0.9952821135520935,
+      "display": "del"
+    },
+    {
+      "word": "inicio",
+      "start": 24.12,
+      "end": 24.52,
+      "probability": 0.9982477128505707,
+      "display": "inicio"
     },
     {
       "word": "es",
-      "start": 17.18,
-      "end": 17.3,
-      "probability": 0.9957762360572815,
+      "start": 24.52,
+      "end": 24.82,
+      "probability": 0.9909197092056274,
       "display": "es"
     },
     {
-      "word": "diferente.",
-      "start": 17.3,
-      "end": 17.62,
-      "probability": 0.9989427924156189,
-      "display": "diferente:"
-    },
-    {
-      "word": "Permite",
-      "start": 18.22,
-      "end": 18.62,
-      "probability": 0.9869009554386139,
-      "display": "permite"
+      "word": "para",
+      "start": 24.82,
+      "end": 25,
+      "probability": 0.9990824460983276,
+      "display": "para"
     },
     {
       "word": "consultar",
-      "start": 18.62,
-      "end": 19.1,
-      "probability": 0.9927158653736115,
+      "start": 25,
+      "end": 25.6,
+      "probability": 0.9962593913078308,
       "display": "consultar"
     },
     {
-      "word": "puntos",
-      "start": 19.1,
-      "end": 19.54,
-      "probability": 0.9958468079566956,
-      "display": "puntos,"
-    },
-    {
-      "word": "sin",
-      "start": 19.54,
-      "end": 20.02,
-      "probability": 0.9382726550102234,
-      "display": "sin"
-    },
-    {
-      "word": "acceder",
-      "start": 20.02,
-      "end": 20.46,
-      "probability": 0.9977942109107971,
-      "display": "acceder"
-    },
-    {
-      "word": "a",
-      "start": 20.46,
-      "end": 20.54,
-      "probability": 0.9957646131515503,
-      "display": "a"
-    },
-    {
       "word": "la",
-      "start": 20.54,
-      "end": 20.64,
-      "probability": 0.9993094205856323,
+      "start": 25.6,
+      "end": 25.72,
+      "probability": 0.995713472366333,
       "display": "la"
     },
     {
-      "word": "administración.",
-      "start": 20.64,
-      "end": 21.26,
-      "probability": 0.9853475987911224,
-      "display": "administración."
+      "word": "billetera",
+      "start": 25.72,
+      "end": 26.12,
+      "probability": 0.9749647378921509,
+      "display": "billetera"
     },
     {
-      "word": "Revisa",
-      "start": 21.94,
-      "end": 22.3,
-      "probability": 0.7089619636535645,
-      "display": "Revisá"
+      "word": "de",
+      "start": 26.12,
+      "end": 26.3,
+      "probability": 0.9992358684539795,
+      "display": "de"
+    },
+    {
+      "word": "clientes.",
+      "start": 26.3,
+      "end": 26.82,
+      "probability": 0.9940582811832428,
+      "display": "clientes."
+    },
+    {
+      "word": "Es",
+      "start": 26.82,
+      "end": 27.42,
+      "probability": 0.9041226506233215,
+      "display": "Es"
+    },
+    {
+      "word": "importante",
+      "start": 27.42,
+      "end": 27.84,
+      "probability": 0.9968714118003845,
+      "display": "importante"
+    },
+    {
+      "word": "revisar",
+      "start": 27.84,
+      "end": 28.4,
+      "probability": 0.9972524046897888,
+      "display": "revisar"
     },
     {
       "word": "el",
-      "start": 22.3,
-      "end": 22.44,
-      "probability": 0.9980828762054443,
+      "start": 28.4,
+      "end": 28.48,
+      "probability": 0.998900294303894,
       "display": "el"
     },
     {
       "word": "correo",
-      "start": 22.44,
-      "end": 22.8,
-      "probability": 0.9996074140071869,
+      "start": 28.48,
+      "end": 28.98,
+      "probability": 0.9946132004261017,
       "display": "correo"
     },
     {
-      "word": "que",
-      "start": 22.8,
-      "end": 22.96,
-      "probability": 0.9970465302467346,
-      "display": "que"
-    },
-    {
-      "word": "escribís",
-      "start": 22.96,
-      "end": 23.48,
-      "probability": 0.988309363524119,
-      "display": "escribís"
-    },
-    {
       "word": "y",
-      "start": 23.48,
-      "end": 23.72,
-      "probability": 0.9796187877655029,
+      "start": 28.98,
+      "end": 29.2,
+      "probability": 0.9805117845535278,
       "display": "y"
     },
     {
-      "word": "mantene",
-      "start": 23.72,
-      "end": 24.04,
-      "probability": 0.6333642899990082,
-      "display": "mantené"
+      "word": "mantener",
+      "start": 29.2,
+      "end": 29.54,
+      "probability": 0.9975831508636475,
+      "display": "mantener"
     },
     {
-      "word": "tu",
-      "start": 24.04,
-      "end": 24.22,
-      "probability": 0.9967285394668579,
-      "display": "tu"
+      "word": "la",
+      "start": 29.54,
+      "end": 29.74,
+      "probability": 0.8548852205276489,
+      "display": "la"
     },
     {
       "word": "contraseña",
-      "start": 24.22,
-      "end": 24.78,
-      "probability": 0.999649186929067,
+      "start": 29.74,
+      "end": 30.38,
+      "probability": 0.9905235767364502,
       "display": "contraseña"
     },
     {
       "word": "privada.",
-      "start": 24.78,
-      "end": 25.22,
-      "probability": 0.9986448287963867,
+      "start": 30.38,
+      "end": 30.82,
+      "probability": 0.9989975988864899,
       "display": "privada."
     },
     {
       "word": "Si",
-      "start": 25.740000000000002,
-      "end": 26.26,
-      "probability": 0.9109697937965393,
+      "start": 31.26,
+      "end": 31.5,
+      "probability": 0.9953849911689758,
       "display": "Si"
     },
     {
       "word": "los",
-      "start": 26.26,
-      "end": 26.42,
-      "probability": 0.9985744953155518,
+      "start": 31.5,
+      "end": 31.66,
+      "probability": 0.9993993043899536,
       "display": "los"
     },
     {
       "word": "datos",
-      "start": 26.42,
-      "end": 26.66,
-      "probability": 0.9992591738700867,
+      "start": 31.66,
+      "end": 31.9,
+      "probability": 0.9994346499443054,
       "display": "datos"
     },
     {
       "word": "no",
-      "start": 26.66,
-      "end": 26.88,
-      "probability": 0.9980788230895996,
+      "start": 31.9,
+      "end": 32.12,
+      "probability": 0.998289167881012,
       "display": "no"
     },
     {
       "word": "coinciden,",
-      "start": 26.88,
-      "end": 27.44,
-      "probability": 0.990395188331604,
+      "start": 32.12,
+      "end": 32.66,
+      "probability": 0.992542177438736,
       "display": "coinciden,"
     },
     {
       "word": "la",
-      "start": 27.86,
-      "end": 27.92,
-      "probability": 0.9925427436828613,
+      "start": 32.88,
+      "end": 32.94,
+      "probability": 0.9943583607673645,
       "display": "la"
     },
     {
       "word": "pantalla",
-      "start": 27.92,
-      "end": 28.26,
-      "probability": 0.9987448453903198,
+      "start": 32.94,
+      "end": 33.28,
+      "probability": 0.9991544485092163,
       "display": "pantalla"
     },
     {
       "word": "informa",
-      "start": 28.26,
-      "end": 28.78,
-      "probability": 0.9587270617485046,
+      "start": 33.28,
+      "end": 33.82,
+      "probability": 0.9504225254058838,
       "display": "informa"
     },
     {
       "word": "el",
-      "start": 28.78,
-      "end": 28.86,
-      "probability": 0.9979236125946045,
+      "start": 33.82,
+      "end": 33.9,
+      "probability": 0.9985551238059998,
       "display": "el"
     },
     {
       "word": "error",
-      "start": 28.86,
-      "end": 29.06,
-      "probability": 0.9978569149971008,
+      "start": 33.9,
+      "end": 34.14,
+      "probability": 0.9981988072395325,
       "display": "error"
     },
     {
       "word": "y",
-      "start": 29.06,
-      "end": 29.32,
-      "probability": 0.9634328484535217,
+      "start": 34.14,
+      "end": 34.46,
+      "probability": 0.9486346244812012,
       "display": "y"
     },
     {
       "word": "permite",
-      "start": 29.32,
-      "end": 29.66,
-      "probability": 0.9954102635383606,
+      "start": 34.46,
+      "end": 34.78,
+      "probability": 0.9947369694709778,
       "display": "permite"
     },
     {
       "word": "corregirlos.",
-      "start": 29.66,
-      "end": 30.36,
-      "probability": 0.9687947928905487,
+      "start": 34.78,
+      "end": 35.48,
+      "probability": 0.9794383645057678,
       "display": "corregirlos."
     }
   ],
   "captions": [
     {
-      "text": "Para administrar un comercio necesitás tu cuenta de Bycode y un plan de",
+      "text": "Desde el inicio, ¿Sos un comercio?",
       "startMs": 0,
-      "endMs": 3860,
+      "endMs": 2440,
       "timestampMs": null,
-      "confidence": 0.901
+      "confidence": 0.8892727941274643
     },
     {
-      "text": "Pointly habilitado.",
-      "startMs": 3860,
-      "endMs": 4900,
+      "text": "Empezá ahora abre una guía con los primeros pasos.",
+      "startMs": 2960,
+      "endMs": 5900,
       "timestampMs": null,
-      "confidence": 0.848
+      "confidence": 0.9800831234013594
     },
     {
-      "text": "El acceso Crear cuenta lleva a Bycode:",
-      "startMs": 5420,
-      "endMs": 7620,
+      "text": "Primero creás tu cuenta en Bycode.",
+      "startMs": 6300,
+      "endMs": 8040,
       "timestampMs": null,
-      "confidence": 0.887
+      "confidence": 0.8055813996276507
     },
     {
-      "text": "el alta comercial no se completa dentro de esta pantalla de Pointly.",
-      "startMs": 8140,
-      "endMs": 11900,
+      "text": "Después volvés a Pointly e ingresás con el mismo correo y contraseña.",
+      "startMs": 8840,
+      "endMs": 12920,
       "timestampMs": null,
-      "confidence": 0.987
+      "confidence": 0.9573815754718251
     },
     {
-      "text": "Si ya tenés cuenta, entrá con tu correo y contraseña.",
-      "startMs": 12380,
-      "endMs": 15700,
+      "text": "Cada aplicación de Bycode tiene su propio plan:",
+      "startMs": 13660,
+      "endMs": 16120,
       "timestampMs": null,
-      "confidence": 0.967
+      "confidence": 0.9898625947535038
     },
     {
-      "text": "El modo cliente es diferente:",
-      "startMs": 16260,
-      "endMs": 17620,
+      "text": "Pointly tiene que estar habilitado.",
+      "startMs": 16640,
+      "endMs": 18440,
       "timestampMs": null,
-      "confidence": 0.974
+      "confidence": 0.9845193405946097
     },
     {
-      "text": "permite consultar puntos, sin acceder a la administración.",
-      "startMs": 18220,
-      "endMs": 21260,
+      "text": "Si ya tenés cuenta, elegí Ingresar como comercio.",
+      "startMs": 19120,
+      "endMs": 21840,
       "timestampMs": null,
-      "confidence": 0.986
+      "confidence": 0.9899230177203814
     },
     {
-      "text": "Revisá el correo que escribís y mantené tu contraseña privada.",
-      "startMs": 21940,
-      "endMs": 25220,
+      "text": "El formulario público del inicio es para consultar la billetera de clientes.",
+      "startMs": 22480,
+      "endMs": 26820,
       "timestampMs": null,
-      "confidence": 0.93
+      "confidence": 0.9923918147881826
+    },
+    {
+      "text": "Es importante revisar el correo y mantener la contraseña privada.",
+      "startMs": 26820,
+      "endMs": 30820,
+      "timestampMs": null,
+      "confidence": 0.9714261293411255
     },
     {
       "text": "Si los datos no coinciden, la pantalla informa el error y permite corregirlos.",
-      "startMs": 25740,
-      "endMs": 30360,
+      "startMs": 31260,
+      "endMs": 35480,
       "timestampMs": null,
-      "confidence": 0.982
+      "confidence": 0.9883499626929944
     }
   ],
-  "status": "ACOUSTIC_MATCH"
+  "status": "ACOUSTIC_MATCH",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [],
+    "sourceAudioHash": "03e3182275f840c1779f511c6a6b020b03ce6cf63cb8c977bd9d996d15967ba9"
+  }
 }

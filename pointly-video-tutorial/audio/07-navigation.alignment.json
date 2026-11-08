@@ -1,614 +1,702 @@
 {
   "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
-  "audio_sha256": "f9287927cdaade360f4cd88b49030ab22ada20b14840f488b2839a119879f174",
-  "transcript": "Abrimos un comercio que ya tiene actividad. Resumen general muestra la regla, los clientes activos que ocupan cupo y los saldos vigentes. Las pestañas separan clientes, productos, promociones, premios, ventas, sin actividad, archivados y correos. Los contadores del catálogo indican elementos creados. No son una medida de facturación. Esta versión presenta tablas e indicadores, sin un panel de gráficos estadísticos. Desde el inicio también tenés accesos rápidos para agregar clientes, registrar ventas y consultar puntos.",
-  "scriptSimilarity": 1.0,
-  "differences": [],
+  "audio_sha256": "49d017f6c1e450f5d7fe125fea8680c5db8dff9bc20fea46de9fb94ac65d537c",
+  "transcript": "En mis comercios encontramos los negocios de tu cuenta. Abrimos café del puerto. Resume en general, muestra la regla, los clientes activos que ocupan cupo y los puntos disponibles. Las pestañas separan clientes, productos, promociones, premios, ventas, sinactividad, archivados y correos. Los contadores del catálogo indican elementos creados, no son una medida de facturación. Esta versión presenta tablas e indicadores sin un panel de gráficos estadísticos. Desde el inicio comercial, operaciones rápidas permite seleccionar el comercio, agregar clientes, registrar ventas y abrir ver clientes.",
+  "scriptSimilarity": 0.9643,
+  "differences": [
+    {
+      "op": "replace",
+      "expected": "Resumen",
+      "heard": "Resume en"
+    },
+    {
+      "op": "replace",
+      "expected": "Sin actividad,",
+      "heard": "sinactividad,"
+    }
+  ],
   "words": [
     {
+      "word": "En",
+      "start": 0,
+      "end": 0.36,
+      "probability": 0.7932360768318176,
+      "display": "En"
+    },
+    {
+      "word": "mis",
+      "start": 0.36,
+      "end": 0.5,
+      "probability": 0.6455608010292053,
+      "display": "Mis"
+    },
+    {
+      "word": "comercios",
+      "start": 0.5,
+      "end": 0.94,
+      "probability": 0.978905200958252,
+      "display": "comercios"
+    },
+    {
+      "word": "encontramos",
+      "start": 0.94,
+      "end": 1.44,
+      "probability": 0.9204789400100708,
+      "display": "encontramos"
+    },
+    {
+      "word": "los",
+      "start": 1.44,
+      "end": 1.88,
+      "probability": 0.9924044013023376,
+      "display": "los"
+    },
+    {
+      "word": "negocios",
+      "start": 1.88,
+      "end": 2.3,
+      "probability": 0.995073139667511,
+      "display": "negocios"
+    },
+    {
+      "word": "de",
+      "start": 2.3,
+      "end": 2.5,
+      "probability": 0.99854975938797,
+      "display": "de"
+    },
+    {
+      "word": "tu",
+      "start": 2.5,
+      "end": 2.6,
+      "probability": 0.9831854701042175,
+      "display": "tu"
+    },
+    {
+      "word": "cuenta.",
+      "start": 2.6,
+      "end": 2.88,
+      "probability": 0.9906992316246033,
+      "display": "cuenta."
+    },
+    {
       "word": "Abrimos",
-      "start": 0.0,
-      "end": 0.52,
-      "probability": 0.7291324734687805,
+      "start": 3.32,
+      "end": 3.76,
+      "probability": 0.9672691524028778,
       "display": "Abrimos"
     },
     {
-      "word": "un",
-      "start": 0.52,
-      "end": 0.78,
-      "probability": 0.9968339800834656,
-      "display": "un"
+      "word": "café",
+      "start": 3.76,
+      "end": 4.12,
+      "probability": 0.7626667618751526,
+      "display": "Café"
     },
     {
-      "word": "comercio",
-      "start": 0.78,
-      "end": 1.3,
-      "probability": 0.9949527084827423,
-      "display": "comercio"
+      "word": "del",
+      "start": 4.12,
+      "end": 4.34,
+      "probability": 0.9650874733924866,
+      "display": "del"
     },
     {
-      "word": "que",
-      "start": 1.3,
-      "end": 1.48,
-      "probability": 0.9874091148376465,
-      "display": "que"
+      "word": "puerto.",
+      "start": 4.34,
+      "end": 4.7,
+      "probability": 0.9752992391586304,
+      "display": "Puerto."
     },
     {
-      "word": "ya",
-      "start": 1.48,
-      "end": 1.7,
-      "probability": 0.9948276877403259,
-      "display": "ya"
+      "word": "Resume",
+      "start": 5.04,
+      "end": 5.42,
+      "probability": 0.7210809886455536,
+      "display": "Resume"
     },
     {
-      "word": "tiene",
-      "start": 1.7,
-      "end": 1.98,
-      "probability": 0.9975023865699768,
-      "display": "tiene"
+      "word": "en",
+      "start": 5.42,
+      "end": 5.56,
+      "probability": 0.7937809228897095,
+      "display": "en"
     },
     {
-      "word": "actividad.",
-      "start": 1.98,
-      "end": 2.54,
-      "probability": 0.9751554727554321,
-      "display": "actividad."
-    },
-    {
-      "word": "Resumen",
-      "start": 2.96,
-      "end": 3.46,
-      "probability": 0.8788629770278931,
-      "display": "Resumen"
-    },
-    {
-      "word": "general",
-      "start": 3.46,
-      "end": 3.84,
-      "probability": 0.8332780003547668,
+      "word": "general,",
+      "start": 5.56,
+      "end": 5.86,
+      "probability": 0.9973737001419067,
       "display": "General"
     },
     {
       "word": "muestra",
-      "start": 3.84,
-      "end": 4.26,
-      "probability": 0.991232842206955,
+      "start": 6.12,
+      "end": 6.4,
+      "probability": 0.9950198233127594,
       "display": "muestra"
     },
     {
       "word": "la",
-      "start": 4.26,
-      "end": 4.42,
-      "probability": 0.9123141169548035,
+      "start": 6.4,
+      "end": 6.58,
+      "probability": 0.9940968751907349,
       "display": "la"
     },
     {
       "word": "regla,",
-      "start": 4.42,
-      "end": 4.72,
-      "probability": 0.9971989095211029,
+      "start": 6.58,
+      "end": 6.92,
+      "probability": 0.9958595633506775,
       "display": "regla,"
     },
     {
       "word": "los",
-      "start": 4.96,
-      "end": 5.12,
-      "probability": 0.9877440333366394,
+      "start": 7.24,
+      "end": 7.36,
+      "probability": 0.9760369062423706,
       "display": "los"
     },
     {
       "word": "clientes",
-      "start": 5.12,
-      "end": 5.52,
-      "probability": 0.9977356493473053,
+      "start": 7.36,
+      "end": 7.78,
+      "probability": 0.9979777932167053,
       "display": "clientes"
     },
     {
       "word": "activos",
-      "start": 5.52,
-      "end": 6.0,
-      "probability": 0.9983413219451904,
+      "start": 7.78,
+      "end": 8.22,
+      "probability": 0.9980826079845428,
       "display": "activos"
     },
     {
       "word": "que",
-      "start": 6.0,
-      "end": 6.12,
-      "probability": 0.9888432025909424,
+      "start": 8.22,
+      "end": 8.34,
+      "probability": 0.9964417815208435,
       "display": "que"
     },
     {
       "word": "ocupan",
-      "start": 6.12,
-      "end": 6.48,
-      "probability": 0.9960636794567108,
+      "start": 8.34,
+      "end": 8.74,
+      "probability": 0.9982724487781525,
       "display": "ocupan"
     },
     {
       "word": "cupo",
-      "start": 6.48,
-      "end": 6.94,
-      "probability": 0.8510050773620605,
+      "start": 8.74,
+      "end": 9.18,
+      "probability": 0.7830605208873749,
       "display": "cupo"
     },
     {
       "word": "y",
-      "start": 6.94,
-      "end": 7.26,
-      "probability": 0.8092879056930542,
+      "start": 9.18,
+      "end": 9.34,
+      "probability": 0.9479426741600037,
       "display": "y"
     },
     {
       "word": "los",
-      "start": 7.26,
-      "end": 7.38,
-      "probability": 0.992682158946991,
+      "start": 9.34,
+      "end": 9.48,
+      "probability": 0.9909712076187134,
       "display": "los"
     },
     {
-      "word": "saldos",
-      "start": 7.38,
-      "end": 7.78,
-      "probability": 0.9518248438835144,
-      "display": "saldos"
+      "word": "puntos",
+      "start": 9.48,
+      "end": 9.82,
+      "probability": 0.9968390464782715,
+      "display": "puntos"
     },
     {
-      "word": "vigentes.",
-      "start": 7.78,
-      "end": 8.18,
-      "probability": 0.9567902982234955,
-      "display": "vigentes."
+      "word": "disponibles.",
+      "start": 9.82,
+      "end": 10.42,
+      "probability": 0.9991609752178192,
+      "display": "disponibles."
     },
     {
       "word": "Las",
-      "start": 8.98,
-      "end": 9.22,
-      "probability": 0.9668431878089905,
+      "start": 11.04,
+      "end": 11.24,
+      "probability": 0.991048276424408,
       "display": "Las"
     },
     {
       "word": "pestañas",
-      "start": 9.22,
-      "end": 9.68,
-      "probability": 0.9859083493550619,
+      "start": 11.24,
+      "end": 11.7,
+      "probability": 0.976919949054718,
       "display": "pestañas"
     },
     {
       "word": "separan",
-      "start": 9.68,
-      "end": 10.18,
-      "probability": 0.9924010336399078,
+      "start": 11.7,
+      "end": 12.2,
+      "probability": 0.9881208837032318,
       "display": "separan"
     },
     {
       "word": "clientes,",
-      "start": 10.18,
-      "end": 10.72,
-      "probability": 0.9964447319507599,
+      "start": 12.2,
+      "end": 12.84,
+      "probability": 0.9948857724666595,
       "display": "Clientes,"
     },
     {
       "word": "productos,",
-      "start": 10.92,
-      "end": 11.42,
-      "probability": 0.9731141328811646,
+      "start": 13.06,
+      "end": 13.36,
+      "probability": 0.9828965067863464,
       "display": "Productos,"
     },
     {
       "word": "promociones,",
-      "start": 11.86,
-      "end": 12.3,
-      "probability": 0.9796963731447855,
+      "start": 13.74,
+      "end": 14.16,
+      "probability": 0.9799869656562805,
       "display": "Promociones,"
     },
     {
       "word": "premios,",
-      "start": 12.68,
-      "end": 13.06,
-      "probability": 0.9945399165153503,
+      "start": 14.62,
+      "end": 14.98,
+      "probability": 0.9916405379772186,
       "display": "Premios,"
     },
     {
       "word": "ventas,",
-      "start": 13.22,
-      "end": 13.64,
-      "probability": 0.9930882453918457,
+      "start": 15.3,
+      "end": 15.72,
+      "probability": 0.9883074462413788,
       "display": "Ventas,"
     },
     {
-      "word": "sin",
-      "start": 14.02,
-      "end": 14.22,
-      "probability": 0.989794909954071,
-      "display": "Sin"
-    },
-    {
-      "word": "actividad,",
-      "start": 14.22,
-      "end": 14.74,
-      "probability": 0.8878960907459259,
-      "display": "actividad,"
+      "word": "sinactividad,",
+      "start": 16,
+      "end": 16.68,
+      "probability": 0.7545634607474009,
+      "display": "sinactividad,"
     },
     {
       "word": "archivados",
-      "start": 15.06,
-      "end": 15.7,
-      "probability": 0.9772110184033712,
+      "start": 16.9,
+      "end": 17.42,
+      "probability": 0.9840055306752523,
       "display": "Archivados"
     },
     {
       "word": "y",
-      "start": 15.7,
-      "end": 16.04,
-      "probability": 0.9451841115951538,
+      "start": 17.42,
+      "end": 17.72,
+      "probability": 0.9311301112174988,
       "display": "y"
     },
     {
       "word": "correos.",
-      "start": 16.04,
-      "end": 16.5,
-      "probability": 0.9980627000331879,
+      "start": 17.72,
+      "end": 18.12,
+      "probability": 0.9976454079151154,
       "display": "Correos."
     },
     {
       "word": "Los",
-      "start": 17.14,
-      "end": 17.36,
-      "probability": 0.9957855343818665,
+      "start": 18.68,
+      "end": 18.88,
+      "probability": 0.9949980974197388,
       "display": "Los"
     },
     {
       "word": "contadores",
-      "start": 17.36,
-      "end": 17.84,
-      "probability": 0.9980172514915466,
+      "start": 18.88,
+      "end": 19.34,
+      "probability": 0.997686356306076,
       "display": "contadores"
     },
     {
       "word": "del",
-      "start": 17.84,
-      "end": 18.06,
-      "probability": 0.9970799088478088,
+      "start": 19.34,
+      "end": 19.56,
+      "probability": 0.997122585773468,
       "display": "del"
     },
     {
       "word": "catálogo",
-      "start": 18.06,
-      "end": 18.52,
-      "probability": 0.9872188965479533,
+      "start": 19.56,
+      "end": 20.06,
+      "probability": 0.9847620328267416,
       "display": "catálogo"
     },
     {
       "word": "indican",
-      "start": 18.52,
-      "end": 19.14,
-      "probability": 0.9788413941860199,
+      "start": 20.06,
+      "end": 20.66,
+      "probability": 0.9811824262142181,
       "display": "indican"
     },
     {
       "word": "elementos",
-      "start": 19.14,
-      "end": 19.44,
-      "probability": 0.9944726824760437,
+      "start": 20.66,
+      "end": 20.96,
+      "probability": 0.9943159222602844,
       "display": "elementos"
     },
     {
-      "word": "creados.",
-      "start": 19.44,
-      "end": 20.02,
-      "probability": 0.9940370917320251,
+      "word": "creados,",
+      "start": 20.96,
+      "end": 21.5,
+      "probability": 0.9946567118167877,
       "display": "creados;"
     },
     {
-      "word": "No",
-      "start": 20.5,
-      "end": 20.66,
-      "probability": 0.984509289264679,
+      "word": "no",
+      "start": 21.86,
+      "end": 22.08,
+      "probability": 0.9955590963363647,
       "display": "no"
     },
     {
       "word": "son",
-      "start": 20.66,
-      "end": 20.88,
-      "probability": 0.9964367151260376,
+      "start": 22.08,
+      "end": 22.28,
+      "probability": 0.9966315627098083,
       "display": "son"
     },
     {
       "word": "una",
-      "start": 20.88,
-      "end": 21.06,
-      "probability": 0.9984669089317322,
+      "start": 22.28,
+      "end": 22.46,
+      "probability": 0.9983568787574768,
       "display": "una"
     },
     {
       "word": "medida",
-      "start": 21.06,
-      "end": 21.36,
-      "probability": 0.9967028498649597,
+      "start": 22.46,
+      "end": 22.74,
+      "probability": 0.9950780868530273,
       "display": "medida"
     },
     {
       "word": "de",
-      "start": 21.36,
-      "end": 21.54,
-      "probability": 0.999729335308075,
+      "start": 22.74,
+      "end": 22.92,
+      "probability": 0.9997324347496033,
       "display": "de"
     },
     {
       "word": "facturación.",
-      "start": 21.54,
-      "end": 22.14,
-      "probability": 0.9940935770670573,
+      "start": 22.92,
+      "end": 23.5,
+      "probability": 0.9948296944300333,
       "display": "facturación."
     },
     {
       "word": "Esta",
-      "start": 22.78,
-      "end": 23.14,
-      "probability": 0.9858821630477905,
+      "start": 23.96,
+      "end": 24.22,
+      "probability": 0.9864924550056458,
       "display": "Esta"
     },
     {
       "word": "versión",
-      "start": 23.14,
-      "end": 23.52,
-      "probability": 0.9954767823219299,
+      "start": 24.22,
+      "end": 24.56,
+      "probability": 0.9961661100387573,
       "display": "versión"
     },
     {
       "word": "presenta",
-      "start": 23.52,
-      "end": 24.18,
-      "probability": 0.989884078502655,
+      "start": 24.56,
+      "end": 25.18,
+      "probability": 0.9934178292751312,
       "display": "presenta"
     },
     {
       "word": "tablas",
-      "start": 24.18,
-      "end": 24.72,
-      "probability": 0.8560924530029297,
+      "start": 25.18,
+      "end": 25.6,
+      "probability": 0.9736084640026093,
       "display": "tablas"
     },
     {
       "word": "e",
-      "start": 24.72,
-      "end": 25.0,
-      "probability": 0.995976984500885,
+      "start": 25.6,
+      "end": 25.88,
+      "probability": 0.9934937357902527,
       "display": "e"
     },
     {
-      "word": "indicadores,",
-      "start": 25.0,
-      "end": 25.58,
-      "probability": 0.9984848499298096,
+      "word": "indicadores",
+      "start": 25.88,
+      "end": 26.44,
+      "probability": 0.9978319406509399,
       "display": "indicadores,"
     },
     {
       "word": "sin",
-      "start": 25.88,
-      "end": 26.22,
-      "probability": 0.9953587651252747,
+      "start": 26.44,
+      "end": 26.92,
+      "probability": 0.566295862197876,
       "display": "sin"
     },
     {
       "word": "un",
-      "start": 26.22,
-      "end": 26.34,
-      "probability": 0.9990461468696594,
+      "start": 26.92,
+      "end": 27.04,
+      "probability": 0.9985448122024536,
       "display": "un"
     },
     {
       "word": "panel",
-      "start": 26.34,
-      "end": 26.6,
-      "probability": 0.9863759875297546,
+      "start": 27.04,
+      "end": 27.3,
+      "probability": 0.9855679273605347,
       "display": "panel"
     },
     {
       "word": "de",
-      "start": 26.6,
-      "end": 26.78,
-      "probability": 0.9991292357444763,
+      "start": 27.3,
+      "end": 27.48,
+      "probability": 0.9987562894821167,
       "display": "de"
     },
     {
       "word": "gráficos",
-      "start": 26.78,
-      "end": 27.26,
-      "probability": 0.9966937303543091,
+      "start": 27.48,
+      "end": 27.98,
+      "probability": 0.9940657913684845,
       "display": "gráficos"
     },
     {
       "word": "estadísticos.",
-      "start": 27.26,
-      "end": 27.92,
-      "probability": 0.9910442034403483,
+      "start": 27.98,
+      "end": 28.58,
+      "probability": 0.9920220772425333,
       "display": "estadísticos."
     },
     {
       "word": "Desde",
-      "start": 27.92,
-      "end": 29.04,
-      "probability": 0.9245718717575073,
+      "start": 28.58,
+      "end": 29.46,
+      "probability": 0.9063272476196289,
       "display": "Desde"
     },
     {
       "word": "el",
-      "start": 29.04,
-      "end": 29.26,
-      "probability": 0.9954245686531067,
+      "start": 29.46,
+      "end": 29.72,
+      "probability": 0.9646660685539246,
       "display": "el"
     },
     {
       "word": "inicio",
-      "start": 29.26,
-      "end": 29.6,
-      "probability": 0.9870772659778595,
+      "start": 29.72,
+      "end": 30.04,
+      "probability": 0.7400225698947906,
       "display": "inicio"
     },
     {
-      "word": "también",
-      "start": 29.6,
-      "end": 29.84,
-      "probability": 0.8068311214447021,
-      "display": "también"
+      "word": "comercial,",
+      "start": 30.04,
+      "end": 30.52,
+      "probability": 0.9993736147880554,
+      "display": "comercial,"
     },
     {
-      "word": "tenés",
-      "start": 29.84,
-      "end": 30.24,
-      "probability": 0.969752848148346,
-      "display": "tenés"
+      "word": "operaciones",
+      "start": 30.86,
+      "end": 31.38,
+      "probability": 0.6458649188280106,
+      "display": "Operaciones"
     },
     {
-      "word": "accesos",
-      "start": 30.24,
-      "end": 30.7,
-      "probability": 0.9352283477783203,
-      "display": "accesos"
+      "word": "rápidas",
+      "start": 31.38,
+      "end": 31.96,
+      "probability": 0.9963654577732086,
+      "display": "Rápidas"
     },
     {
-      "word": "rápidos",
-      "start": 30.7,
-      "end": 31.14,
-      "probability": 0.996830016374588,
-      "display": "rápidos"
+      "word": "permite",
+      "start": 31.96,
+      "end": 32.36,
+      "probability": 0.7975335717201233,
+      "display": "permite"
     },
     {
-      "word": "para",
-      "start": 31.14,
-      "end": 31.4,
-      "probability": 0.9972339272499084,
-      "display": "para"
+      "word": "seleccionar",
+      "start": 32.36,
+      "end": 32.96,
+      "probability": 0.9942595163981119,
+      "display": "seleccionar"
+    },
+    {
+      "word": "el",
+      "start": 32.96,
+      "end": 33.08,
+      "probability": 0.9975454211235046,
+      "display": "el"
+    },
+    {
+      "word": "comercio,",
+      "start": 33.08,
+      "end": 33.64,
+      "probability": 0.9936659634113312,
+      "display": "comercio,"
     },
     {
       "word": "agregar",
-      "start": 31.4,
-      "end": 31.78,
-      "probability": 0.9976854622364044,
+      "start": 33.98,
+      "end": 34.46,
+      "probability": 0.9857930541038513,
       "display": "agregar"
     },
     {
       "word": "clientes,",
-      "start": 31.78,
-      "end": 32.4,
-      "probability": 0.9976606667041779,
+      "start": 34.46,
+      "end": 35.06,
+      "probability": 0.9961311519145966,
       "display": "clientes,"
     },
     {
       "word": "registrar",
-      "start": 32.6,
-      "end": 33.18,
-      "probability": 0.9966785609722137,
+      "start": 35.26,
+      "end": 35.8,
+      "probability": 0.9981293082237244,
       "display": "registrar"
     },
     {
       "word": "ventas",
-      "start": 33.18,
-      "end": 33.72,
-      "probability": 0.9873585104942322,
+      "start": 35.8,
+      "end": 36.3,
+      "probability": 0.9929955899715424,
       "display": "ventas"
     },
     {
       "word": "y",
-      "start": 33.72,
-      "end": 33.9,
-      "probability": 0.9597264528274536,
+      "start": 36.3,
+      "end": 36.5,
+      "probability": 0.9254601001739502,
       "display": "y"
     },
     {
-      "word": "consultar",
-      "start": 33.9,
-      "end": 34.44,
-      "probability": 0.9881978929042816,
-      "display": "consultar"
+      "word": "abrir",
+      "start": 36.5,
+      "end": 36.8,
+      "probability": 0.9935975074768066,
+      "display": "abrir"
     },
     {
-      "word": "puntos.",
-      "start": 34.44,
-      "end": 34.7,
-      "probability": 0.9977287650108337,
-      "display": "puntos."
+      "word": "ver",
+      "start": 36.8,
+      "end": 37.06,
+      "probability": 0.3558157682418823,
+      "display": "Ver"
+    },
+    {
+      "word": "clientes.",
+      "start": 37.06,
+      "end": 37.7,
+      "probability": 0.9976290166378021,
+      "display": "clientes."
     }
   ],
   "captions": [
     {
-      "text": "Abrimos un comercio que ya tiene actividad.",
+      "text": "En Mis comercios encontramos los negocios de tu cuenta.",
       "startMs": 0,
-      "endMs": 2540,
+      "endMs": 2880,
       "timestampMs": null,
-      "confidence": 0.954
+      "confidence": 0.9220103356573317
     },
     {
-      "text": "Resumen General muestra la regla, los clientes activos que ocupan cupo y los",
-      "startMs": 2960,
-      "endMs": 7380,
+      "text": "Abrimos Café del Puerto.",
+      "startMs": 3320,
+      "endMs": 4700,
       "timestampMs": null,
-      "confidence": 0.941
+      "confidence": 0.9175806567072868
     },
     {
-      "text": "saldos vigentes.",
-      "startMs": 7380,
-      "endMs": 8180,
+      "text": "Resumen General muestra la regla,",
+      "startMs": 5040,
+      "endMs": 6920,
       "timestampMs": null,
-      "confidence": 0.954
+      "confidence": 0.9406861901283264
     },
     {
-      "text": "Las pestañas separan Clientes, Productos, Promociones, Premios, Ventas, Sin",
-      "startMs": 8980,
-      "endMs": 14220,
+      "text": "los clientes activos que ocupan cupo y los puntos disponibles.",
+      "startMs": 7240,
+      "endMs": 10420,
       "timestampMs": null,
-      "confidence": 0.986
+      "confidence": 0.9684785962104797
     },
     {
-      "text": "actividad, Archivados y Correos.",
-      "startMs": 14220,
-      "endMs": 16500,
+      "text": "Las pestañas separan Clientes, Productos, Promociones, Premios, Ventas,",
+      "startMs": 11040,
+      "endMs": 15720,
       "timestampMs": null,
-      "confidence": 0.952
+      "confidence": 0.9867257922887802
+    },
+    {
+      "text": "Sin actividad, Archivados y Correos.",
+      "startMs": 16000,
+      "endMs": 18120,
+      "timestampMs": null,
+      "confidence": 0.9168361276388168
     },
     {
       "text": "Los contadores del catálogo indican elementos creados;",
-      "startMs": 17140,
-      "endMs": 20020,
+      "startMs": 18680,
+      "endMs": 21500,
       "timestampMs": null,
-      "confidence": 0.992
+      "confidence": 0.9921034475167593
     },
     {
       "text": "no son una medida de facturación.",
-      "startMs": 20500,
-      "endMs": 22140,
+      "startMs": 21860,
+      "endMs": 23500,
       "timestampMs": null,
-      "confidence": 0.995
+      "confidence": 0.9966979589727191
     },
     {
-      "text": "Esta versión presenta tablas e indicadores, sin un panel de gráficos",
-      "startMs": 22780,
-      "endMs": 27260,
+      "text": "Esta versión presenta tablas e indicadores, sin un panel de gráficos estadísticos.",
+      "startMs": 23960,
+      "endMs": 28580,
       "timestampMs": null,
-      "confidence": 0.982
+      "confidence": 0.9563552745514445
     },
     {
-      "text": "estadísticos.",
-      "startMs": 27260,
-      "endMs": 27920,
+      "text": "Desde el inicio comercial, Operaciones Rápidas permite seleccionar el comercio,",
+      "startMs": 28580,
+      "endMs": 33640,
       "timestampMs": null,
-      "confidence": 0.991
+      "confidence": 0.9035624350110691
     },
     {
-      "text": "Desde el inicio también tenés accesos rápidos para agregar clientes, registrar",
-      "startMs": 27920,
-      "endMs": 33180,
+      "text": "agregar clientes, registrar ventas y abrir Ver clientes.",
+      "startMs": 33980,
+      "endMs": 37700,
       "timestampMs": null,
-      "confidence": 0.964
-    },
-    {
-      "text": "ventas y consultar puntos.",
-      "startMs": 33180,
-      "endMs": 34700,
-      "timestampMs": null,
-      "confidence": 0.983
+      "confidence": 0.9056939370930195
     }
   ],
-  "status": "ACOUSTIC_MATCH"
+  "status": "REVIEW_REQUIRED",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [
+      [
+        "Resume en",
+        "Resumen"
+      ],
+      [
+        "sinactividad,",
+        "Sin actividad,"
+      ]
+    ],
+    "sourceAudioHash": "49d017f6c1e450f5d7fe125fea8680c5db8dff9bc20fea46de9fb94ac65d537c"
+  }
 }

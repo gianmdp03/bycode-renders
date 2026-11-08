@@ -18,7 +18,7 @@
   "words": [
     {
       "word": "Antes",
-      "start": 0.0,
+      "start": 0,
       "end": 0.42,
       "probability": 0.890287458896637,
       "display": "Antes"
@@ -565,13 +565,13 @@
     {
       "word": "en",
       "start": 27.8,
-      "end": 28.0,
+      "end": 28,
       "probability": 0.997081458568573,
       "display": "en"
     },
     {
       "word": "la",
-      "start": 28.0,
+      "start": 28,
       "end": 28.1,
       "probability": 0.9738327264785767,
       "display": "la"
@@ -639,64 +639,67 @@
       "startMs": 0,
       "endMs": 3900,
       "timestampMs": null,
-      "confidence": 0.954
+      "confidence": 0.9543668453892072
     },
     {
       "text": "En su tarjeta, abrí Canjear e indicá país y DNI.",
       "startMs": 4520,
       "endMs": 8260,
       "timestampMs": null,
-      "confidence": 0.89
+      "confidence": 0.890374510983626
     },
     {
-      "text": "verificar el nombre del premio y su costo, y confirmá una sola vez.",
+      "text": "Verificá el nombre del premio y su costo, y confirmá una sola vez.",
       "startMs": 8260,
       "endMs": 12240,
       "timestampMs": null,
-      "confidence": 0.953
+      "confidence": 0.9527315864196191
     },
     {
       "text": "En nuestro ejemplo, el café cuesta 80 puntos:",
       "startMs": 12840,
       "endMs": 15460,
       "timestampMs": null,
-      "confidence": 0.989
+      "confidence": 0.9894121810793877
     },
     {
-      "text": "después del canje, el saldo baja en esa cantidad y aparece un movimiento de",
+      "text": "después del canje, el saldo baja en esa cantidad y aparece un movimiento de canje en",
       "startMs": 15880,
-      "endMs": 20040,
+      "endMs": 20600,
       "timestampMs": null,
-      "confidence": 0.992
+      "confidence": 0.9924267195165157
     },
     {
-      "text": "canje en el historial.",
-      "startMs": 20040,
+      "text": "el historial.",
+      "startMs": 20600,
       "endMs": 21080,
       "timestampMs": null,
-      "confidence": 0.988
+      "confidence": 0.9812787175178528
     },
     {
       "text": "La entrega física o la aplicación del descuento la coordina el comercio.",
       "startMs": 21640,
       "endMs": 25480,
       "timestampMs": null,
-      "confidence": 0.969
+      "confidence": 0.9689485240313743
     },
     {
-      "text": "El cliente consulta sus opciones en la billetera, pero no ejecuta el canje",
+      "text": "El cliente consulta sus opciones en la billetera, pero no ejecuta el canje desde allí.",
       "startMs": 25480,
-      "endMs": 30140,
-      "timestampMs": null,
-      "confidence": 0.97
-    },
-    {
-      "text": "desde allí.",
-      "startMs": 30140,
       "endMs": 30580,
       "timestampMs": null,
-      "confidence": 0.994
+      "confidence": 0.973324054479599
     }
   ],
-  "status": "REVIEW_REQUIRED"
+  "status": "REVIEW_REQUIRED",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [
+      [
+        "verificar",
+        "Verificá"
+      ]
+    ],
+    "sourceAudioHash": "c79a06b337d69cd78dfaf90c10cc750b9a475ad4aa2fa8b6dae79ac7cf18bb2b"
+  }
 }

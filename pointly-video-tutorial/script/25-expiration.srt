@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:03,180
+Para revisar varias fechas, abrimos la billetera de Camila,
+
+2
+00:00:03,560 --> 00:00:05,360
+una cliente con historial de compras.
+
+3
+00:00:05,820 --> 00:00:09,300
+Ver detalles separa los puntos con vencimiento de los que no vencen.
+
+4
+00:00:09,740 --> 00:00:12,200
+Revisar las fechas y cantidades de cada grupo:
+
+5
+00:00:12,720 --> 00:00:15,320
+el saldo disponible es la referencia para un canje.
+
+6
+00:00:15,720 --> 00:00:18,840
+Cargar más vencimientos permite revisar las siguientes fechas.
+
+7
+00:00:19,280 --> 00:00:21,960
+La regla actual del comercio describe nuevas compras,
+
+8
+00:00:22,240 --> 00:00:25,080
+pero no reemplaza la fecha que ya tiene cada grupo anterior.
+
+9
+00:00:25,080 --> 00:00:29,760
+Así podés explicarle al cliente qué puntos necesita usar primero sin prometer que
+
+10
+00:00:29,760 --> 00:00:31,860
+una compra nueva renovará todos sus puntos.

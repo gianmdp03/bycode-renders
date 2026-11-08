@@ -1,0 +1,415 @@
+[
+  {
+    "id": "01-intro",
+    "differences": [],
+    "corrections": [],
+    "captionCount": 8
+  },
+  {
+    "id": "02-access",
+    "differences": [],
+    "corrections": [],
+    "captionCount": 10
+  },
+  {
+    "id": "03-profile",
+    "differences": [
+      {
+        "op": "replace",
+        "expected": "continuá al",
+        "heard": "continúal"
+      }
+    ],
+    "corrections": [
+      [
+        "continúal",
+        "continuá al"
+      ]
+    ],
+    "captionCount": 8
+  },
+  {
+    "id": "04-company",
+    "differences": [],
+    "corrections": [],
+    "captionCount": 9
+  },
+  {
+    "id": "05-settings",
+    "differences": [
+      {
+        "op": "replace",
+        "expected": "Bronce,",
+        "heard": "bronze,"
+      }
+    ],
+    "corrections": [
+      [
+        "bronze,",
+        "Bronce,"
+      ]
+    ],
+    "captionCount": 9
+  },
+  {
+    "id": "06-photo",
+    "differences": [
+      {
+        "op": "replace",
+        "expected": "diez megabytes.",
+        "heard": "10 MB."
+      }
+    ],
+    "corrections": [],
+    "captionCount": 8
+  },
+  {
+    "id": "07-navigation",
+    "differences": [
+      {
+        "op": "replace",
+        "expected": "Resumen",
+        "heard": "Resume en"
+      },
+      {
+        "op": "replace",
+        "expected": "Sin actividad,",
+        "heard": "sinactividad,"
+      }
+    ],
+    "corrections": [
+      [
+        "Resume en",
+        "Resumen"
+      ],
+      [
+        "sinactividad,",
+        "Sin actividad,"
+      ]
+    ],
+    "captionCount": 11
+  },
+  {
+    "id": "08-client",
+    "differences": [],
+    "corrections": [],
+    "captionCount": 10
+  },
+  {
+    "id": "09-qr",
+    "differences": [],
+    "corrections": [],
+    "captionCount": 8
+  },
+  {
+    "id": "10-search",
+    "differences": [
+      {
+        "op": "replace",
+        "expected": "Ver detalle",
+        "heard": "Verdetalle"
+      }
+    ],
+    "corrections": [
+      [
+        "Verdetalle",
+        "Ver detalle"
+      ]
+    ],
+    "captionCount": 11
+  },
+  {
+    "id": "11-sale",
+    "differences": [
+      {
+        "op": "replace",
+        "expected": "ocho mil quinientos",
+        "heard": "8 .500"
+      },
+      {
+        "op": "replace",
+        "expected": "ocho",
+        "heard": "8"
+      },
+      {
+        "op": "replace",
+        "expected": "mil",
+        "heard": "1000"
+      },
+      {
+        "op": "replace",
+        "expected": "ochenta",
+        "heard": "80"
+      },
+      {
+        "op": "replace",
+        "expected": "quinientos",
+        "heard": "500"
+      }
+    ],
+    "corrections": [
+      [
+        "8 .500",
+        "8.500"
+      ]
+    ],
+    "captionCount": 8
+  },
+  {
+    "id": "12-sales-history",
+    "differences": [
+      {
+        "op": "replace",
+        "expected": "usá",
+        "heard": "usar"
+      }
+    ],
+    "corrections": [
+      [
+        "usar",
+        "usá"
+      ]
+    ],
+    "captionCount": 10
+  },
+  {
+    "id": "13-promotion",
+    "differences": [
+      {
+        "op": "replace",
+        "expected": "cincuenta por ciento",
+        "heard": "50 %"
+      }
+    ],
+    "corrections": [],
+    "captionCount": 9
+  },
+  {
+    "id": "14-promotion-life",
+    "differences": [
+      {
+        "op": "replace",
+        "expected": "cancelá",
+        "heard": "cancelás"
+      },
+      {
+        "op": "replace",
+        "expected": "comprobá",
+        "heard": "comprova"
+      }
+    ],
+    "corrections": [
+      [
+        "cancelás",
+        "cancelá"
+      ],
+      [
+        "comprova",
+        "comprobá"
+      ]
+    ],
+    "captionCount": 8
+  },
+  {
+    "id": "15-products",
+    "differences": [
+      {
+        "op": "replace",
+        "expected": "dejarlo",
+        "heard": "dejarlos"
+      }
+    ],
+    "corrections": [],
+    "captionCount": 12
+  },
+  {
+    "id": "16-physical-reward",
+    "differences": [],
+    "corrections": [],
+    "captionCount": 9
+  },
+  {
+    "id": "17-voucher",
+    "differences": [
+      {
+        "op": "replace",
+        "expected": "diez por ciento",
+        "heard": "10 %"
+      },
+      {
+        "op": "replace",
+        "expected": "dos mil",
+        "heard": "2000"
+      },
+      {
+        "op": "replace",
+        "expected": "cero",
+        "heard": "0"
+      },
+      {
+        "op": "replace",
+        "expected": "cien.",
+        "heard": "100."
+      }
+    ],
+    "corrections": [],
+    "captionCount": 8
+  },
+  {
+    "id": "18-reward-life",
+    "differences": [
+      {
+        "op": "replace",
+        "expected": "lo quita",
+        "heard": "loquita"
+      }
+    ],
+    "corrections": [
+      [
+        "loquita",
+        "lo quita"
+      ]
+    ],
+    "captionCount": 8
+  },
+  {
+    "id": "19-redeem",
+    "differences": [
+      {
+        "op": "replace",
+        "expected": "Verificá",
+        "heard": "verificar"
+      },
+      {
+        "op": "replace",
+        "expected": "ochenta",
+        "heard": "80"
+      }
+    ],
+    "corrections": [
+      [
+        "verificar",
+        "Verificá"
+      ]
+    ],
+    "captionCount": 8
+  },
+  {
+    "id": "20-redeem-errors",
+    "differences": [],
+    "corrections": [],
+    "captionCount": 10
+  },
+  {
+    "id": "21-inactive",
+    "differences": [],
+    "corrections": [],
+    "captionCount": 9
+  },
+  {
+    "id": "22-archive",
+    "differences": [],
+    "corrections": [],
+    "captionCount": 9
+  },
+  {
+    "id": "23-emails",
+    "differences": [],
+    "corrections": [],
+    "captionCount": 11
+  },
+  {
+    "id": "24-wallet",
+    "differences": [],
+    "corrections": [],
+    "captionCount": 12
+  },
+  {
+    "id": "25-expiration",
+    "differences": [
+      {
+        "op": "replace",
+        "expected": "detalle",
+        "heard": "detalles"
+      },
+      {
+        "op": "replace",
+        "expected": "Revisá",
+        "heard": "Revisar"
+      }
+    ],
+    "corrections": [],
+    "captionCount": 10
+  },
+  {
+    "id": "26-wallet-access",
+    "differences": [
+      {
+        "op": "replace",
+        "expected": "Ver mi",
+        "heard": "verme"
+      },
+      {
+        "op": "insert",
+        "expected": "",
+        "heard": "a"
+      },
+      {
+        "op": "replace",
+        "expected": "DNI",
+        "heard": "DNE"
+      }
+    ],
+    "corrections": [
+      [
+        "verme",
+        "Ver mi"
+      ],
+      [
+        "DNE",
+        "DNI"
+      ]
+    ],
+    "captionCount": 10
+  },
+  {
+    "id": "27-company-status",
+    "differences": [
+      {
+        "op": "replace",
+        "expected": "treinta",
+        "heard": "30"
+      },
+      {
+        "op": "replace",
+        "expected": "habilitalo",
+        "heard": "habilitarlo"
+      },
+      {
+        "op": "replace",
+        "expected": "revisá",
+        "heard": "revisar"
+      }
+    ],
+    "corrections": [],
+    "captionCount": 11
+  },
+  {
+    "id": "28-roles",
+    "differences": [],
+    "corrections": [],
+    "captionCount": 9
+  },
+  {
+    "id": "29-help",
+    "differences": [],
+    "corrections": [],
+    "captionCount": 9
+  },
+  {
+    "id": "30-close",
+    "differences": [],
+    "corrections": [],
+    "captionCount": 7
+  }
+]

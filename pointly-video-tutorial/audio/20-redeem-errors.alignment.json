@@ -2,12 +2,12 @@
   "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
   "audio_sha256": "387e6efc7315e0e5c34432ca723065166beeca7201009b976167768943ea88ce",
   "transcript": "Si el cliente no tiene puntos suficientes, el canje se rechaza y el formulario explica el problema. También hay bloqueos para premios pausados y cuentas archivadas. No prometas un premio basándote en un saldo anterior. Consulta el vigente. Si el resultado queda incierto por conexión, el botón Reintentar canje pendiente conserva la misma operación y sus datos. Un rechazo confirmado permite corregir el formulario. Un resultado incierto requiere resolver esa misma operación, para no descontar dos veces.",
-  "scriptSimilarity": 1.0,
+  "scriptSimilarity": 1,
   "differences": [],
   "words": [
     {
       "word": "Si",
-      "start": 0.0,
+      "start": 0,
       "end": 0.26,
       "probability": 0.9152153730392456,
       "display": "Si"
@@ -50,7 +50,7 @@
     {
       "word": "suficientes,",
       "start": 1.4,
-      "end": 2.0,
+      "end": 2,
       "probability": 0.9926310380299886,
       "display": "suficientes,"
     },
@@ -449,13 +449,13 @@
     {
       "word": "formulario.",
       "start": 24.4,
-      "end": 25.0,
+      "end": 25,
       "probability": 0.9985233545303345,
       "display": "formulario."
     },
     {
       "word": "Un",
-      "start": 25.0,
+      "start": 25,
       "end": 25.74,
       "probability": 0.8817915916442871,
       "display": "Un"
@@ -511,7 +511,7 @@
     },
     {
       "word": "para",
-      "start": 29.0,
+      "start": 29,
       "end": 29.26,
       "probability": 0.9944356679916382,
       "display": "para"
@@ -547,75 +547,80 @@
   ],
   "captions": [
     {
-      "text": "Si el cliente no tiene puntos suficientes, el canje se rechaza y el formulario",
+      "text": "Si el cliente no tiene puntos suficientes,",
       "startMs": 0,
-      "endMs": 4200,
+      "endMs": 2000,
       "timestampMs": null,
-      "confidence": 0.983
+      "confidence": 0.9841538398038773
     },
     {
-      "text": "explica el problema.",
-      "startMs": 4200,
+      "text": "el canje se rechaza y el formulario explica el problema.",
+      "startMs": 2260,
       "endMs": 5120,
       "timestampMs": null,
-      "confidence": 0.998
+      "confidence": 0.9865009824434917
     },
     {
       "text": "También hay bloqueos para premios pausados y cuentas archivadas.",
       "startMs": 5760,
       "endMs": 9060,
       "timestampMs": null,
-      "confidence": 0.99
+      "confidence": 0.990013402921182
     },
     {
       "text": "No prometas un premio basándote en un saldo anterior:",
       "startMs": 9540,
       "endMs": 12360,
       "timestampMs": null,
-      "confidence": 0.989
+      "confidence": 0.9891025512306777
     },
     {
       "text": "consultá el vigente.",
       "startMs": 12960,
       "endMs": 13960,
       "timestampMs": null,
-      "confidence": 0.921
+      "confidence": 0.9205964108308157
     },
     {
-      "text": "Si el resultado queda incierto por conexión, el botón Reintentar canje",
+      "text": "Si el resultado queda incierto por conexión,",
       "startMs": 14620,
-      "endMs": 18520,
+      "endMs": 16820,
       "timestampMs": null,
-      "confidence": 0.952
+      "confidence": 0.9920836928344908
     },
     {
-      "text": "pendiente conserva la misma operación y sus datos.",
-      "startMs": 18520,
+      "text": "el botón Reintentar canje pendiente conserva la misma operación y sus datos.",
+      "startMs": 17160,
       "endMs": 21460,
       "timestampMs": null,
-      "confidence": 0.994
+      "confidence": 0.9570361309581332
     },
     {
       "text": "Un rechazo confirmado permite corregir el formulario.",
       "startMs": 22120,
       "endMs": 25000,
       "timestampMs": null,
-      "confidence": 0.994
+      "confidence": 0.9942571691104344
     },
     {
-      "text": "Un resultado incierto requiere resolver esa misma operación, para no descontar",
+      "text": "Un resultado incierto requiere resolver esa misma operación,",
       "startMs": 25000,
-      "endMs": 30040,
+      "endMs": 28780,
       "timestampMs": null,
-      "confidence": 0.976
+      "confidence": 0.9682638210554917
     },
     {
-      "text": "dos veces.",
-      "startMs": 30040,
+      "text": "para no descontar dos veces.",
+      "startMs": 29000,
       "endMs": 30620,
       "timestampMs": null,
-      "confidence": 0.98
+      "confidence": 0.9893814365069072
     }
   ],
-  "status": "ACOUSTIC_MATCH"
+  "status": "ACOUSTIC_MATCH",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [],
+    "sourceAudioHash": "387e6efc7315e0e5c34432ca723065166beeca7201009b976167768943ea88ce"
+  }
 }

@@ -2,12 +2,12 @@
   "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
   "audio_sha256": "0b59459181865917d597575e4ea1739b80203465b7a335304b4e67244234959f",
   "transcript": "Escribí el nombre con el que tus clientes conocen al negocio. El nombre del enlace se genera a partir de ese texto. Se puede ajustar y tiene que estar disponible. Usa letras, números y guiones. Después definí la regla. En nuestro ejemplo, cada mil pesos completos de una compra otorgan diez puntos. País es obligatorio. Los demás datos de ubicación se pueden dejar vacíos si no corresponden. Revisa los campos antes de crear la empresa y esperá la confirmación.",
-  "scriptSimilarity": 1.0,
+  "scriptSimilarity": 1,
   "differences": [],
   "words": [
     {
       "word": "Escribí",
-      "start": 0.0,
+      "start": 0,
       "end": 0.68,
       "probability": 0.9644035249948502,
       "display": "Escribí"
@@ -267,13 +267,13 @@
     {
       "word": "la",
       "start": 12.88,
-      "end": 13.0,
+      "end": 13,
       "probability": 0.9967941641807556,
       "display": "la"
     },
     {
       "word": "regla.",
-      "start": 13.0,
+      "start": 13,
       "end": 13.32,
       "probability": 0.9981649518013,
       "display": "regla:"
@@ -442,13 +442,13 @@
     {
       "word": "dejar",
       "start": 21.72,
-      "end": 22.0,
+      "end": 22,
       "probability": 0.9982513785362244,
       "display": "dejar"
     },
     {
       "word": "vacíos",
-      "start": 22.0,
+      "start": 22,
       "end": 22.56,
       "probability": 0.9861700932184855,
       "display": "vacíos"
@@ -565,71 +565,69 @@
       "startMs": 0,
       "endMs": 3140,
       "timestampMs": null,
-      "confidence": 0.992
+      "confidence": 0.9918679906563326
     },
     {
-      "text": "El nombre del enlace se genera a partir de ese texto, se puede ajustar y tiene",
+      "text": "El nombre del enlace se genera a partir de ese texto,",
       "startMs": 3500,
-      "endMs": 8040,
+      "endMs": 6280,
       "timestampMs": null,
-      "confidence": 0.99
+      "confidence": 0.9886435080658306
     },
     {
-      "text": "que estar disponible.",
-      "startMs": 8040,
+      "text": "se puede ajustar y tiene que estar disponible.",
+      "startMs": 6640,
       "endMs": 8980,
       "timestampMs": null,
-      "confidence": 0.998
+      "confidence": 0.9951089881360531
     },
     {
       "text": "Usá letras, números y guiones.",
       "startMs": 9520,
       "endMs": 11380,
       "timestampMs": null,
-      "confidence": 0.952
+      "confidence": 0.9517341673374176
     },
     {
       "text": "Después definí la regla:",
       "startMs": 12060,
       "endMs": 13320,
       "timestampMs": null,
-      "confidence": 0.951
+      "confidence": 0.9510983228683472
     },
     {
-      "text": "en nuestro ejemplo, cada mil pesos completos de una compra otorgan diez",
+      "text": "en nuestro ejemplo, cada mil pesos completos de una compra otorgan diez puntos.",
       "startMs": 13680,
-      "endMs": 17360,
-      "timestampMs": null,
-      "confidence": 0.923
-    },
-    {
-      "text": "puntos.",
-      "startMs": 17360,
       "endMs": 17720,
       "timestampMs": null,
-      "confidence": 0.999
+      "confidence": 0.9284636745086083
     },
     {
       "text": "País es obligatorio;",
       "startMs": 18320,
       "endMs": 19580,
       "timestampMs": null,
-      "confidence": 0.942
+      "confidence": 0.9424636960029602
     },
     {
       "text": "los demás datos de ubicación se pueden dejar vacíos si no corresponden.",
       "startMs": 20020,
       "endMs": 23440,
       "timestampMs": null,
-      "confidence": 0.985
+      "confidence": 0.9847405180335045
     },
     {
       "text": "Revisá los campos antes de crear la empresa y esperá la confirmación.",
       "startMs": 23920,
       "endMs": 27400,
       "timestampMs": null,
-      "confidence": 0.953
+      "confidence": 0.953171449402968
     }
   ],
-  "status": "ACOUSTIC_MATCH"
+  "status": "ACOUSTIC_MATCH",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [],
+    "sourceAudioHash": "0b59459181865917d597575e4ea1739b80203465b7a335304b4e67244234959f"
+  }
 }

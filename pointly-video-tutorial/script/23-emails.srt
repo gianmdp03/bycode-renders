@@ -1,0 +1,43 @@
+1
+00:00:00,000 --> 00:00:01,840
+En Correos elegís Sí o No.
+
+2
+00:00:02,240 --> 00:00:06,860
+Los avisos están desactivados por defecto y solo se preparan para clientes activos
+
+3
+00:00:06,860 --> 00:00:07,800
+con correo cargado.
+
+4
+00:00:08,180 --> 00:00:10,040
+Hay tres ejemplos del contenido real;
+
+5
+00:00:10,440 --> 00:00:12,900
+abrir cada vista previa no envía un mensaje.
+
+6
+00:00:13,380 --> 00:00:15,820
+No hay que escribir plantillas ni completar variables.
+
+7
+00:00:16,460 --> 00:00:19,300
+Si elegís No, se cancelan los avisos pendientes;
+
+8
+00:00:19,700 --> 00:00:22,940
+un correo ya entregado al servicio de envío no se puede retirar.
+
+9
+00:00:23,240 --> 00:00:25,600
+WhatsApp es independiente y sigue siendo manual.
+
+10
+00:00:25,600 --> 00:00:29,040
+Acá verificamos la configuración y las vistas previas,
+
+11
+00:00:29,160 --> 00:00:31,900
+con el envío externo desactivado en el entorno de prueba.

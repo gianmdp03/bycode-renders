@@ -1,6 +1,6 @@
 {
-  "templates": 75,
-  "count": 288,
+  "templates": 76,
+  "count": 291,
   "errors": [],
   "controls": [
     {
@@ -148,7 +148,7 @@
       "component": "AccountMenu",
       "source": "src/app/components/account-menu/account-menu.ts",
       "tag": "a",
-      "label": "Ingresar como comercio",
+      "label": "Ingresar como comercio Soy comercio",
       "attributes": {
         "class": "account-login",
         "routerLink": "/login"
@@ -609,6 +609,29 @@
     {
       "availability": "active-or-route-dependent",
       "id": "P019",
+      "file": "src/app/components/company-info/company-info.html",
+      "line": 44,
+      "component": "CompanyInfo",
+      "source": "src/app/components/company-info/company-info.ts",
+      "tag": "a",
+      "label": "Empezá ahora →",
+      "attributes": {
+        "hlmBtn": "",
+        "size": "lg",
+        "routerLink": "/for-businesses",
+        "class": "min-h-12 rounded-full px-8"
+      },
+      "bindings": {},
+      "events": [],
+      "form": null,
+      "conditions": [],
+      "handlers": [],
+      "testFiles": [],
+      "verification": "static-trace; test files are evidence candidates, not per-control execution"
+    },
+    {
+      "availability": "active-or-route-dependent",
+      "id": "P020",
       "file": "src/app/components/company-quick-actions/company-quick-actions.html",
       "line": 14,
       "component": "CompanyQuickActionsComponent",
@@ -642,7 +665,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P020",
+      "id": "P021",
       "file": "src/app/components/company-quick-actions/company-quick-actions.html",
       "line": 78,
       "component": "CompanyQuickActionsComponent",
@@ -688,7 +711,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P021",
+      "id": "P022",
       "file": "src/app/components/company-quick-actions/company-quick-actions.html",
       "line": 109,
       "component": "CompanyQuickActionsComponent",
@@ -731,7 +754,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P022",
+      "id": "P023",
       "file": "src/app/components/company-quick-actions/company-quick-actions.html",
       "line": 123,
       "component": "CompanyQuickActionsComponent",
@@ -771,7 +794,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P023",
+      "id": "P024",
       "file": "src/app/components/company-quick-actions/company-quick-actions.html",
       "line": 143,
       "component": "CompanyQuickActionsComponent",
@@ -811,18 +834,20 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P024",
+      "id": "P025",
       "file": "src/app/components/company-quick-actions/company-quick-actions.html",
       "line": 163,
       "component": "CompanyQuickActionsComponent",
       "source": "src/app/components/company-quick-actions/company-quick-actions.ts",
       "tag": "button",
-      "label": "Consultar Puntos Ver saldo con DNI",
+      "label": "Ver clientes Buscar clientes y consultar saldos",
       "attributes": {
         "type": "button",
         "class": "min-h-[52px] p-4 bg-muted/30 hover:bg-accent/40 border border-border hover:border-primary/40 rounded-xl transition-all cursor-pointer flex items-center gap-3.5 text-left group shadow-xs"
       },
-      "bindings": {},
+      "bindings": {
+        "disabled": "!selectedCompany()?.publicName"
+      },
       "events": [
         {
           "name": "click",
@@ -851,9 +876,9 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P025",
+      "id": "P026",
       "file": "src/app/components/company-quick-actions/company-quick-actions.html",
-      "line": 184,
+      "line": 185,
       "component": "CompanyQuickActionsComponent",
       "source": "src/app/components/company-quick-actions/company-quick-actions.ts",
       "tag": "a",
@@ -882,7 +907,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P026",
+      "id": "P027",
       "file": "src/app/components/complete-profile-modal/complete-profile-modal.html",
       "line": 34,
       "component": "CompleteProfileModalComponent",
@@ -925,7 +950,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P027",
+      "id": "P028",
       "file": "src/app/components/complete-profile-modal/complete-profile-modal.html",
       "line": 54,
       "component": "CompleteProfileModalComponent",
@@ -960,7 +985,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P028",
+      "id": "P029",
       "file": "src/app/components/complete-profile-modal/complete-profile-modal.html",
       "line": 73,
       "component": "CompleteProfileModalComponent",
@@ -983,7 +1008,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P029",
+      "id": "P030",
       "file": "src/app/components/country-select/country-select.html",
       "line": 9,
       "component": "CountrySelectComponent",
@@ -1020,7 +1045,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P030",
+      "id": "P031",
       "file": "src/app/components/country-select/country-select.html",
       "line": 66,
       "component": "CountrySelectComponent",
@@ -1056,7 +1081,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P031",
+      "id": "P032",
       "file": "src/app/components/country-select/country-select.html",
       "line": 81,
       "component": "CountrySelectComponent",
@@ -1095,7 +1120,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P032",
+      "id": "P033",
       "file": "src/app/components/cta-banner/cta-banner.html",
       "line": 8,
       "component": "CtaBanner",
@@ -1118,7 +1143,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P033",
+      "id": "P034",
       "file": "src/app/components/cta-banner/cta-banner.html",
       "line": 11,
       "component": "CtaBanner",
@@ -1142,7 +1167,7 @@
     },
     {
       "availability": "dormant-policy-or-unmounted",
-      "id": "P034",
+      "id": "P035",
       "file": "src/app/components/customer-controls/customer-controls.ts",
       "line": 16,
       "component": "CustomerControlsComponent",
@@ -1181,7 +1206,7 @@
     },
     {
       "availability": "dormant-policy-or-unmounted",
-      "id": "P035",
+      "id": "P036",
       "file": "src/app/components/customer-controls/customer-controls.ts",
       "line": 17,
       "component": "CustomerControlsComponent",
@@ -1220,7 +1245,7 @@
     },
     {
       "availability": "dormant-policy-or-unmounted",
-      "id": "P036",
+      "id": "P037",
       "file": "src/app/components/customer-controls/customer-controls.ts",
       "line": 19,
       "component": "CustomerControlsComponent",
@@ -1259,7 +1284,7 @@
     },
     {
       "availability": "dormant-policy-or-unmounted",
-      "id": "P037",
+      "id": "P038",
       "file": "src/app/components/customer-controls/customer-controls.ts",
       "line": 25,
       "component": "CustomerControlsComponent",
@@ -1297,7 +1322,7 @@
     },
     {
       "availability": "dormant-policy-or-unmounted",
-      "id": "P038",
+      "id": "P039",
       "file": "src/app/components/customer-controls/customer-controls.ts",
       "line": 28,
       "component": "CustomerControlsComponent",
@@ -1335,7 +1360,7 @@
     },
     {
       "availability": "dormant-policy-or-unmounted",
-      "id": "P039",
+      "id": "P040",
       "file": "src/app/components/customer-controls/customer-controls.ts",
       "line": 35,
       "component": "CustomerControlsComponent",
@@ -1371,7 +1396,7 @@
     },
     {
       "availability": "dormant-policy-or-unmounted",
-      "id": "P040",
+      "id": "P041",
       "file": "src/app/components/customer-controls/customer-controls.ts",
       "line": 36,
       "component": "CustomerControlsComponent",
@@ -1407,7 +1432,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P041",
+      "id": "P042",
       "file": "src/app/components/faq/faq.html",
       "line": 13,
       "component": "Faq",
@@ -1448,7 +1473,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P042",
+      "id": "P043",
       "file": "src/app/components/header/header.html",
       "line": 3,
       "component": "Header",
@@ -1473,7 +1498,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P043",
+      "id": "P044",
       "file": "src/app/components/header/header.html",
       "line": 5,
       "component": "Header",
@@ -1500,7 +1525,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P044",
+      "id": "P045",
       "file": "src/app/components/header/header.html",
       "line": 5,
       "component": "Header",
@@ -1527,7 +1552,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P045",
+      "id": "P046",
       "file": "src/app/components/header/header.html",
       "line": 5,
       "component": "Header",
@@ -1554,7 +1579,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P046",
+      "id": "P047",
       "file": "src/app/components/header/header.html",
       "line": 9,
       "component": "Header",
@@ -1581,13 +1606,13 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P047",
+      "id": "P048",
       "file": "src/app/components/header/header.html",
       "line": 11,
       "component": "Header",
       "source": "src/app/components/header/header.ts",
       "tag": "a",
-      "label": "Modo comercio ↗",
+      "label": "Mis comercios ↗",
       "attributes": {
         "routerLink": "/dashboard",
         "class": "public-merchant"
@@ -1608,7 +1633,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P048",
+      "id": "P049",
       "file": "src/app/components/hero/hero.html",
       "line": 10,
       "component": "Hero",
@@ -1637,7 +1662,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P049",
+      "id": "P050",
       "file": "src/app/components/hero/hero.html",
       "line": 11,
       "component": "Hero",
@@ -1648,7 +1673,7 @@
         "hlmBtn": "",
         "variant": "outline",
         "size": "lg",
-        "routerLink": "/points",
+        "routerLink": "/",
         "class": "rounded-full px-8 py-3.5 sm:px-9 sm:py-4 font-bold text-center flex items-center justify-center gap-2"
       },
       "bindings": {},
@@ -1663,7 +1688,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P050",
+      "id": "P051",
       "file": "src/app/components/inline-confirmation/inline-confirmation.ts",
       "line": 43,
       "component": "InlineConfirmationComponent",
@@ -1691,7 +1716,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P051",
+      "id": "P052",
       "file": "src/app/components/inline-confirmation/inline-confirmation.ts",
       "line": 50,
       "component": "InlineConfirmationComponent",
@@ -1719,7 +1744,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P052",
+      "id": "P053",
       "file": "src/app/components/install-guide/install-guide.html",
       "line": 6,
       "component": "InstallGuideComponent",
@@ -1755,7 +1780,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P053",
+      "id": "P054",
       "file": "src/app/components/install-guide/install-guide.html",
       "line": 8,
       "component": "InstallGuideComponent",
@@ -1792,7 +1817,7 @@
     },
     {
       "availability": "dormant-policy-or-unmounted",
-      "id": "P054",
+      "id": "P055",
       "file": "src/app/components/login-modal/login-modal.html",
       "line": 39,
       "component": "LoginModal",
@@ -1833,7 +1858,7 @@
     },
     {
       "availability": "dormant-policy-or-unmounted",
-      "id": "P055",
+      "id": "P056",
       "file": "src/app/components/login-modal/login-modal.html",
       "line": 78,
       "component": "LoginModal",
@@ -1866,7 +1891,7 @@
     },
     {
       "availability": "dormant-policy-or-unmounted",
-      "id": "P056",
+      "id": "P057",
       "file": "src/app/components/login-modal/login-modal.html",
       "line": 95,
       "component": "LoginModal",
@@ -1890,7 +1915,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P057",
+      "id": "P058",
       "file": "src/app/components/plan-limit-modal/plan-limit-modal.html",
       "line": 31,
       "component": "PlanLimitModalComponent",
@@ -1928,7 +1953,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P058",
+      "id": "P059",
       "file": "src/app/components/qr-generator/qr-generator.html",
       "line": 12,
       "component": "QrGeneratorComponent",
@@ -1968,7 +1993,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P059",
+      "id": "P060",
       "file": "src/app/components/qr-generator/qr-generator.html",
       "line": 14,
       "component": "QrGeneratorComponent",
@@ -2008,7 +2033,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P060",
+      "id": "P061",
       "file": "src/app/components/qr-generator/qr-generator.html",
       "line": 14,
       "component": "QrGeneratorComponent",
@@ -2047,7 +2072,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P061",
+      "id": "P062",
       "file": "src/app/components/qr-generator/qr-generator.html",
       "line": 15,
       "component": "QrGeneratorComponent",
@@ -2086,7 +2111,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P062",
+      "id": "P063",
       "file": "src/app/components/qr-generator/qr-generator.html",
       "line": 22,
       "component": "QrGeneratorComponent",
@@ -2129,7 +2154,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P063",
+      "id": "P064",
       "file": "src/app/components/qr-generator/qr-generator.html",
       "line": 27,
       "component": "QrGeneratorComponent",
@@ -2162,7 +2187,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P064",
+      "id": "P065",
       "file": "src/app/components/qr-generator/qr-generator.html",
       "line": 31,
       "component": "QrGeneratorComponent",
@@ -2202,7 +2227,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P065",
+      "id": "P066",
       "file": "src/app/components/qr-generator/qr-generator.html",
       "line": 31,
       "component": "QrGeneratorComponent",
@@ -2243,7 +2268,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P066",
+      "id": "P067",
       "file": "src/app/components/routed-workflow/routed-workflow.ts",
       "line": 18,
       "component": "RoutedWorkflowPage",
@@ -2279,7 +2304,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P067",
+      "id": "P068",
       "file": "src/app/components/scroll-to-top/scroll-to-top.component.ts",
       "line": 9,
       "component": "ScrollToTopComponent",
@@ -2318,7 +2343,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P068",
+      "id": "P069",
       "file": "src/app/components/theme-toggle/theme-toggle.ts",
       "line": 7,
       "component": "ThemeToggle",
@@ -2353,7 +2378,7 @@
     },
     {
       "availability": "dormant-policy-or-unmounted",
-      "id": "P069",
+      "id": "P070",
       "file": "src/app/components/tier-settings/tier-settings.ts",
       "line": 55,
       "component": "TierSettingsComponent",
@@ -2391,7 +2416,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P070",
+      "id": "P071",
       "file": "src/app/components/user-info/user-info.html",
       "line": 43,
       "component": "UserInfo",
@@ -2399,7 +2424,7 @@
       "tag": "a",
       "label": "Probar Consulta de Puntos Ahora",
       "attributes": {
-        "routerLink": "/points",
+        "routerLink": "/",
         "class": "inline-flex items-center gap-2 px-8 py-3.5 bg-[#1A73E8] hover:bg-[#1557B0] dark:bg-[#8AB4F8] dark:hover:bg-[#AECBFA] text-white dark:text-[#131314] font-bold text-xs sm:text-sm rounded-full shadow-md transition cursor-pointer"
       },
       "bindings": {},
@@ -2414,7 +2439,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P071",
+      "id": "P072",
       "file": "src/app/components/workspace-shell/workspace-shell.html",
       "line": 3,
       "component": "WorkspaceShellComponent",
@@ -2437,7 +2462,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P072",
+      "id": "P073",
       "file": "src/app/components/workspace-shell/workspace-shell.html",
       "line": 4,
       "component": "WorkspaceShellComponent",
@@ -2450,33 +2475,6 @@
       },
       "bindings": {},
       "events": [],
-      "form": null,
-      "conditions": [
-        "active"
-      ],
-      "handlers": [],
-      "testFiles": [],
-      "verification": "static-trace; test files are evidence candidates, not per-control execution"
-    },
-    {
-      "availability": "active-or-route-dependent",
-      "id": "P073",
-      "file": "src/app/components/workspace-shell/workspace-shell.html",
-      "line": 4,
-      "component": "WorkspaceShellComponent",
-      "source": "src/app/components/workspace-shell/workspace-shell.ts",
-      "tag": "a",
-      "label": "Modo cliente ↗",
-      "attributes": {
-        "routerLink": "/points"
-      },
-      "bindings": {},
-      "events": [
-        {
-          "name": "click",
-          "action": "install.chooseMode('client')"
-        }
-      ],
       "form": null,
       "conditions": [
         "active"
@@ -2545,33 +2543,6 @@
       "component": "WorkspaceShellComponent",
       "source": "src/app/components/workspace-shell/workspace-shell.ts",
       "tag": "a",
-      "label": "◈ Modo cliente",
-      "attributes": {
-        "routerLink": "/points"
-      },
-      "bindings": {},
-      "events": [
-        {
-          "name": "click",
-          "action": "install.chooseMode('client')"
-        }
-      ],
-      "form": null,
-      "conditions": [
-        "active"
-      ],
-      "handlers": [],
-      "testFiles": [],
-      "verification": "static-trace; test files are evidence candidates, not per-control execution"
-    },
-    {
-      "availability": "active-or-route-dependent",
-      "id": "P077",
-      "file": "src/app/components/workspace-shell/workspace-shell.html",
-      "line": 9,
-      "component": "WorkspaceShellComponent",
-      "source": "src/app/components/workspace-shell/workspace-shell.ts",
-      "tag": "a",
       "label": "Editar perfil en Bycode ↗",
       "attributes": {
         "target": "_blank",
@@ -2591,7 +2562,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P078",
+      "id": "P077",
       "file": "src/app/components/workspace-shell/workspace-shell.html",
       "line": 9,
       "component": "WorkspaceShellComponent",
@@ -2627,7 +2598,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P079",
+      "id": "P078",
       "file": "src/app/components/workspace-shell/workspace-shell.html",
       "line": 13,
       "component": "WorkspaceShellComponent",
@@ -2654,34 +2625,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P080",
-      "file": "src/app/components/workspace-shell/workspace-shell.html",
-      "line": 13,
-      "component": "WorkspaceShellComponent",
-      "source": "src/app/components/workspace-shell/workspace-shell.ts",
-      "tag": "a",
-      "label": "◈ Modo cliente",
-      "attributes": {
-        "routerLink": "/points"
-      },
-      "bindings": {},
-      "events": [
-        {
-          "name": "click",
-          "action": "install.chooseMode('client')"
-        }
-      ],
-      "form": null,
-      "conditions": [
-        "active"
-      ],
-      "handlers": [],
-      "testFiles": [],
-      "verification": "static-trace; test files are evidence candidates, not per-control execution"
-    },
-    {
-      "availability": "active-or-route-dependent",
-      "id": "P081",
+      "id": "P079",
       "file": "src/app/pages/client-join/client-join.html",
       "line": 7,
       "component": "ClientJoinComponent",
@@ -2705,7 +2649,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P082",
+      "id": "P080",
       "file": "src/app/pages/client-join/client-join.html",
       "line": 40,
       "component": "ClientJoinComponent",
@@ -2734,7 +2678,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P083",
+      "id": "P081",
       "file": "src/app/pages/client-join/client-join.html",
       "line": 70,
       "component": "ClientJoinComponent",
@@ -2745,7 +2689,7 @@
         "hlmBtn": "",
         "variant": "default",
         "size": "default",
-        "routerLink": "/points",
+        "routerLink": "/",
         "class": "w-full sm:w-auto rounded-xl shadow-xs"
       },
       "bindings": {},
@@ -2763,7 +2707,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P084",
+      "id": "P082",
       "file": "src/app/pages/client-join/client-join.html",
       "line": 73,
       "component": "ClientJoinComponent",
@@ -2804,7 +2748,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P085",
+      "id": "P083",
       "file": "src/app/pages/client-join/client-join.html",
       "line": 111,
       "component": "ClientJoinComponent",
@@ -2812,7 +2756,7 @@
       "tag": "a",
       "label": "Ver mi saldo de puntos aquí &rarr;",
       "attributes": {
-        "routerLink": "/points",
+        "routerLink": "/",
         "class": "font-extrabold text-primary hover:underline block pt-1"
       },
       "bindings": {},
@@ -2831,7 +2775,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P086",
+      "id": "P084",
       "file": "src/app/pages/client-join/client-join.html",
       "line": 120,
       "component": "ClientJoinComponent",
@@ -2873,7 +2817,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P087",
+      "id": "P085",
       "file": "src/app/pages/client-join/client-join.html",
       "line": 207,
       "component": "ClientJoinComponent",
@@ -2907,7 +2851,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P088",
+      "id": "P086",
       "file": "src/app/pages/client-join/client-join.html",
       "line": 233,
       "component": "ClientJoinComponent",
@@ -2915,7 +2859,7 @@
       "tag": "a",
       "label": "Consultar Puntos",
       "attributes": {
-        "routerLink": "/points",
+        "routerLink": "/",
         "class": "font-bold text-[#1A73E8] dark:text-[#8AB4F8] hover:underline ml-1"
       },
       "bindings": {},
@@ -2931,7 +2875,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P089",
+      "id": "P087",
       "file": "src/app/pages/client-points/client-points.html",
       "line": 17,
       "component": "ClientPointsPage",
@@ -2975,7 +2919,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P090",
+      "id": "P088",
       "file": "src/app/pages/client-points/client-points.html",
       "line": 58,
       "component": "ClientPointsPage",
@@ -3011,7 +2955,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P091",
+      "id": "P089",
       "file": "src/app/pages/client-points/client-points.html",
       "line": 226,
       "component": "ClientPointsPage",
@@ -3051,7 +2995,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P092",
+      "id": "P090",
       "file": "src/app/pages/client-points/client-points.html",
       "line": 275,
       "component": "ClientPointsPage",
@@ -3089,7 +3033,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P093",
+      "id": "P091",
       "file": "src/app/pages/client-points/client-points.html",
       "line": 288,
       "component": "ClientPointsPage",
@@ -3119,7 +3063,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P094",
+      "id": "P092",
       "file": "src/app/pages/client-points/client-points.html",
       "line": 335,
       "component": "ClientPointsPage",
@@ -3161,7 +3105,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P095",
+      "id": "P093",
       "file": "src/app/pages/client-points/client-points.html",
       "line": 452,
       "component": "ClientPointsPage",
@@ -3200,7 +3144,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P096",
+      "id": "P094",
       "file": "src/app/pages/client-points/client-points.html",
       "line": 465,
       "component": "ClientPointsPage",
@@ -3239,7 +3183,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P097",
+      "id": "P095",
       "file": "src/app/pages/client-points/client-points.html",
       "line": 477,
       "component": "ClientPointsPage",
@@ -3278,7 +3222,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P098",
+      "id": "P096",
       "file": "src/app/pages/client-points/client-points.html",
       "line": 489,
       "component": "ClientPointsPage",
@@ -3317,7 +3261,7 @@
     },
     {
       "availability": "dormant-policy-or-unmounted",
-      "id": "P099",
+      "id": "P097",
       "file": "src/app/pages/client-points/client-points.html",
       "line": 704,
       "component": "ClientPointsPage",
@@ -3356,7 +3300,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P100",
+      "id": "P098",
       "file": "src/app/pages/client-points/client-points.html",
       "line": 715,
       "component": "ClientPointsPage",
@@ -3394,7 +3338,7 @@
     },
     {
       "availability": "dormant-policy-or-unmounted",
-      "id": "P101",
+      "id": "P099",
       "file": "src/app/pages/client-points/client-points.html",
       "line": 744,
       "component": "ClientPointsPage",
@@ -3433,7 +3377,7 @@
     },
     {
       "availability": "dormant-policy-or-unmounted",
-      "id": "P102",
+      "id": "P100",
       "file": "src/app/pages/client-points/client-points.html",
       "line": 797,
       "component": "ClientPointsPage",
@@ -3471,7 +3415,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P103",
+      "id": "P101",
       "file": "src/app/pages/client-wallet/client-wallet-catalog.html",
       "line": 4,
       "component": "ClientWalletCatalog",
@@ -3498,7 +3442,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P104",
+      "id": "P102",
       "file": "src/app/pages/client-wallet/client-wallet-catalog.html",
       "line": 5,
       "component": "ClientWalletCatalog",
@@ -3525,7 +3469,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P105",
+      "id": "P103",
       "file": "src/app/pages/client-wallet/client-wallet-catalog.html",
       "line": 6,
       "component": "ClientWalletCatalog",
@@ -3552,7 +3496,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P106",
+      "id": "P104",
       "file": "src/app/pages/client-wallet/client-wallet.html",
       "line": 3,
       "component": "ClientWalletPage",
@@ -3576,31 +3520,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P107",
-      "file": "src/app/pages/client-wallet/client-wallet.html",
-      "line": 4,
-      "component": "ClientWalletPage",
-      "source": "src/app/pages/client-wallet/client-wallet.ts",
-      "tag": "a",
-      "label": "Modo comercio",
-      "attributes": {
-        "routerLink": "/dashboard"
-      },
-      "bindings": {},
-      "events": [],
-      "form": null,
-      "conditions": [
-        "auth.isLoggedIn()"
-      ],
-      "handlers": [],
-      "testFiles": [
-        "src/app/pages/client-wallet/client-wallet.spec.ts"
-      ],
-      "verification": "static-trace; test files are evidence candidates, not per-control execution"
-    },
-    {
-      "availability": "active-or-route-dependent",
-      "id": "P108",
+      "id": "P105",
       "file": "src/app/pages/client-wallet/client-wallet.html",
       "line": 10,
       "component": "ClientWalletPage",
@@ -3626,7 +3546,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P109",
+      "id": "P106",
       "file": "src/app/pages/client-wallet/client-wallet.html",
       "line": 11,
       "component": "ClientWalletPage",
@@ -3653,7 +3573,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P110",
+      "id": "P107",
       "file": "src/app/pages/client-wallet/client-wallet.html",
       "line": 15,
       "component": "ClientWalletPage",
@@ -3680,7 +3600,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P111",
+      "id": "P108",
       "file": "src/app/pages/client-wallet/client-wallet.html",
       "line": 21,
       "component": "ClientWalletPage",
@@ -3723,7 +3643,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P112",
+      "id": "P109",
       "file": "src/app/pages/client-wallet/client-wallet.html",
       "line": 26,
       "component": "ClientWalletPage",
@@ -3755,7 +3675,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P113",
+      "id": "P110",
       "file": "src/app/pages/client-wallet/client-wallet.html",
       "line": 35,
       "component": "ClientWalletPage",
@@ -3792,7 +3712,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P114",
+      "id": "P111",
       "file": "src/app/pages/client-wallet/client-wallet.html",
       "line": 35,
       "component": "ClientWalletPage",
@@ -3818,7 +3738,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P115",
+      "id": "P112",
       "file": "src/app/pages/client-wallet/client-wallet.html",
       "line": 41,
       "component": "ClientWalletPage",
@@ -3846,7 +3766,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P116",
+      "id": "P113",
       "file": "src/app/pages/client-wallet/client-wallet.html",
       "line": 48,
       "component": "ClientWalletPage",
@@ -3886,7 +3806,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P117",
+      "id": "P114",
       "file": "src/app/pages/client-wallet/client-wallet.html",
       "line": 54,
       "component": "ClientWalletPage",
@@ -3929,7 +3849,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P118",
+      "id": "P115",
       "file": "src/app/pages/client-wallet/client-wallet.html",
       "line": 56,
       "component": "ClientWalletPage",
@@ -3967,7 +3887,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P119",
+      "id": "P116",
       "file": "src/app/pages/client-wallet/client-wallet.html",
       "line": 57,
       "component": "ClientWalletPage",
@@ -4004,7 +3924,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P120",
+      "id": "P117",
       "file": "src/app/pages/client-wallet/client-wallet.html",
       "line": 59,
       "component": "ClientWalletPage",
@@ -4041,7 +3961,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P121",
+      "id": "P118",
       "file": "src/app/pages/client-wallet/client-wallet.html",
       "line": 65,
       "component": "ClientWalletPage",
@@ -4067,7 +3987,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P122",
+      "id": "P119",
       "file": "src/app/pages/client-wallet/client-wallet.html",
       "line": 72,
       "component": "ClientWalletPage",
@@ -4109,7 +4029,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P123",
+      "id": "P120",
       "file": "src/app/pages/client-wallet/client-wallet.html",
       "line": 82,
       "component": "ClientWalletPage",
@@ -4135,7 +4055,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P124",
+      "id": "P121",
       "file": "src/app/pages/client-wallet/client-wallet.html",
       "line": 87,
       "component": "ClientWalletPage",
@@ -4178,7 +4098,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P125",
+      "id": "P122",
       "file": "src/app/pages/company-client/company-client.html",
       "line": 4,
       "component": "CompanyClientPage",
@@ -4206,7 +4126,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P126",
+      "id": "P123",
       "file": "src/app/pages/company-client/company-client.html",
       "line": 10,
       "component": "CompanyClientPage",
@@ -4245,7 +4165,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P127",
+      "id": "P124",
       "file": "src/app/pages/company-client/company-client.html",
       "line": 39,
       "component": "CompanyClientPage",
@@ -4285,7 +4205,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P128",
+      "id": "P125",
       "file": "src/app/pages/company-client/company-client.html",
       "line": 49,
       "component": "CompanyClientPage",
@@ -4325,7 +4245,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P129",
+      "id": "P126",
       "file": "src/app/pages/company-client/company-client.html",
       "line": 65,
       "component": "CompanyClientPage",
@@ -4373,7 +4293,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P130",
+      "id": "P127",
       "file": "src/app/pages/company-client/company-client.html",
       "line": 67,
       "component": "CompanyClientPage",
@@ -4421,7 +4341,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P131",
+      "id": "P128",
       "file": "src/app/pages/company-detail/company-detail-page.html",
       "line": 4,
       "component": "CompanyDetailPage",
@@ -4453,7 +4373,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P132",
+      "id": "P129",
       "file": "src/app/pages/company-detail/company-detail-page.html",
       "line": 26,
       "component": "CompanyDetailPage",
@@ -4492,7 +4412,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P133",
+      "id": "P130",
       "file": "src/app/pages/company-photo/company-photo.html",
       "line": 2,
       "component": "CompanyPhotoPage",
@@ -4512,7 +4432,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P134",
+      "id": "P131",
       "file": "src/app/pages/company-photo/company-photo.html",
       "line": 26,
       "component": "CompanyPhotoPage",
@@ -4540,7 +4460,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P135",
+      "id": "P132",
       "file": "src/app/pages/company-photo/company-photo.html",
       "line": 93,
       "component": "CompanyPhotoPage",
@@ -4575,7 +4495,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P136",
+      "id": "P133",
       "file": "src/app/pages/company-photo/company-photo.html",
       "line": 94,
       "component": "CompanyPhotoPage",
@@ -4610,7 +4530,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P137",
+      "id": "P134",
       "file": "src/app/pages/company-photo/company-photo.html",
       "line": 95,
       "component": "CompanyPhotoPage",
@@ -4646,7 +4566,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P138",
+      "id": "P135",
       "file": "src/app/pages/company-photo/company-photo.html",
       "line": 106,
       "component": "CompanyPhotoPage",
@@ -4684,7 +4604,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P139",
+      "id": "P136",
       "file": "src/app/pages/company-photo/company-photo.html",
       "line": 107,
       "component": "CompanyPhotoPage",
@@ -4715,7 +4635,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P140",
+      "id": "P137",
       "file": "src/app/pages/company-photo/company-photo.html",
       "line": 112,
       "component": "CompanyPhotoPage",
@@ -4745,7 +4665,7 @@
     },
     {
       "availability": "dormant-policy-or-unmounted",
-      "id": "P141",
+      "id": "P138",
       "file": "src/app/pages/confirm-email/confirm-email.ts",
       "line": 19,
       "component": "ConfirmEmailComponent",
@@ -4753,7 +4673,7 @@
       "tag": "a",
       "label": "Consultar mis puntos",
       "attributes": {
-        "routerLink": "/points",
+        "routerLink": "/",
         "class": "underline"
       },
       "bindings": {},
@@ -4771,7 +4691,7 @@
     },
     {
       "availability": "dormant-policy-or-unmounted",
-      "id": "P142",
+      "id": "P139",
       "file": "src/app/pages/confirm-email/confirm-email.ts",
       "line": 33,
       "component": "ConfirmEmailComponent",
@@ -4809,7 +4729,7 @@
     },
     {
       "availability": "dormant-policy-or-unmounted",
-      "id": "P143",
+      "id": "P140",
       "file": "src/app/pages/confirm-email/confirm-email.ts",
       "line": 35,
       "component": "ConfirmEmailComponent",
@@ -4817,7 +4737,7 @@
       "tag": "a",
       "label": "Consultar puntos sin confirmar",
       "attributes": {
-        "routerLink": "/points",
+        "routerLink": "/",
         "class": "block underline"
       },
       "bindings": {},
@@ -4833,7 +4753,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P144",
+      "id": "P141",
       "file": "src/app/pages/dashboard/dashboard-page.html",
       "line": 2,
       "component": "DashboardPage",
@@ -4854,13 +4774,133 @@
     },
     {
       "availability": "active-or-route-dependent",
+      "id": "P142",
+      "file": "src/app/pages/for-businesses/for-businesses.html",
+      "line": 2,
+      "component": "ForBusinessesPage",
+      "source": "src/app/pages/for-businesses/for-businesses.ts",
+      "tag": "a",
+      "label": "← Volver al inicio",
+      "attributes": {
+        "class": "back-link",
+        "routerLink": "/"
+      },
+      "bindings": {},
+      "events": [],
+      "form": null,
+      "conditions": [],
+      "handlers": [],
+      "testFiles": [
+        "src/app/pages/for-businesses/for-businesses.spec.ts"
+      ],
+      "verification": "static-trace; test files are evidence candidates, not per-control execution"
+    },
+    {
+      "availability": "active-or-route-dependent",
+      "id": "P143",
+      "file": "src/app/pages/for-businesses/for-businesses.html",
+      "line": 19,
+      "component": "ForBusinessesPage",
+      "source": "src/app/pages/for-businesses/for-businesses.ts",
+      "tag": "a",
+      "label": "Crear mi cuenta en Bycode ↗",
+      "attributes": {
+        "class": "action-primary"
+      },
+      "bindings": {
+        "href": "bycodeRegisterUrl"
+      },
+      "events": [],
+      "form": null,
+      "conditions": [],
+      "handlers": [],
+      "testFiles": [
+        "src/app/pages/for-businesses/for-businesses.spec.ts"
+      ],
+      "verification": "static-trace; test files are evidence candidates, not per-control execution"
+    },
+    {
+      "availability": "active-or-route-dependent",
+      "id": "P144",
+      "file": "src/app/pages/for-businesses/for-businesses.html",
+      "line": 20,
+      "component": "ForBusinessesPage",
+      "source": "src/app/pages/for-businesses/for-businesses.ts",
+      "tag": "a",
+      "label": "Ya tengo cuenta: ingresar a Pointly",
+      "attributes": {
+        "class": "action-secondary",
+        "routerLink": "/login"
+      },
+      "bindings": {},
+      "events": [],
+      "form": null,
+      "conditions": [],
+      "handlers": [],
+      "testFiles": [
+        "src/app/pages/for-businesses/for-businesses.spec.ts"
+      ],
+      "verification": "static-trace; test files are evidence candidates, not per-control execution"
+    },
+    {
+      "availability": "active-or-route-dependent",
       "id": "P145",
+      "file": "src/app/pages/for-businesses/for-businesses.html",
+      "line": 26,
+      "component": "ForBusinessesPage",
+      "source": "src/app/pages/for-businesses/for-businesses.ts",
+      "tag": "a",
+      "label": "Escribinos por WhatsApp ↗",
+      "attributes": {
+        "class": "action-secondary",
+        "href": "https://wa.me/5492236753142",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      },
+      "bindings": {},
+      "events": [],
+      "form": null,
+      "conditions": [],
+      "handlers": [],
+      "testFiles": [
+        "src/app/pages/for-businesses/for-businesses.spec.ts"
+      ],
+      "verification": "static-trace; test files are evidence candidates, not per-control execution"
+    },
+    {
+      "availability": "active-or-route-dependent",
+      "id": "P146",
       "file": "src/app/pages/home/home.html",
       "line": 5,
       "component": "Home",
       "source": "src/app/pages/home/home.ts",
+      "tag": "a",
+      "label": "¿Sos un comercio? Empezá ahora →",
+      "attributes": {
+        "class": "home-business-start",
+        "routerLink": "/for-businesses"
+      },
+      "bindings": {},
+      "events": [],
+      "form": null,
+      "conditions": [
+        "!authService.isLoggedIn() && !currentUrl().startsWith('/actions/')"
+      ],
+      "handlers": [],
+      "testFiles": [
+        "src/app/components/routed-workflow/routed-workflow.spec.ts"
+      ],
+      "verification": "static-trace; test files are evidence candidates, not per-control execution"
+    },
+    {
+      "availability": "active-or-route-dependent",
+      "id": "P147",
+      "file": "src/app/pages/home/home.html",
+      "line": 6,
+      "component": "Home",
+      "source": "src/app/pages/home/home.ts",
       "tag": "form",
-      "label": "Consultá tus puntos Ingresá los datos con los que te registraste en el comercio. País del documento @for (country of countries; track country.code) { {{ country",
+      "label": "Consultá tus puntos Ingresá los datos con los que te registraste en el comercio. @if (savedWallet; as saved) { Abrir mi acceso guardado } País del documento @fo",
       "attributes": {
         "class": "home-lookup"
       },
@@ -4880,12 +4920,12 @@
         }
       ],
       "conditions": [
-        "!currentUrl().startsWith('/actions/')"
+        "!authService.isLoggedIn() && !currentUrl().startsWith('/actions/')"
       ],
       "handlers": [
         {
           "name": "searchPoints",
-          "line": 45,
+          "line": 55,
           "async": true,
           "terminal": true
         }
@@ -4897,9 +4937,41 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P146",
+      "id": "P148",
       "file": "src/app/pages/home/home.html",
-      "line": 11,
+      "line": 8,
+      "component": "Home",
+      "source": "src/app/pages/home/home.ts",
+      "tag": "a",
+      "label": "Abrir mi acceso guardado",
+      "attributes": {
+        "class": "saved-wallet"
+      },
+      "bindings": {
+        "routerLink": "saved"
+      },
+      "events": [],
+      "form": [
+        {
+          "name": "ngSubmit",
+          "action": "searchPoints()"
+        }
+      ],
+      "conditions": [
+        "!authService.isLoggedIn() && !currentUrl().startsWith('/actions/')",
+        "savedWallet"
+      ],
+      "handlers": [],
+      "testFiles": [
+        "src/app/components/routed-workflow/routed-workflow.spec.ts"
+      ],
+      "verification": "static-trace; test files are evidence candidates, not per-control execution"
+    },
+    {
+      "availability": "active-or-route-dependent",
+      "id": "P149",
+      "file": "src/app/pages/home/home.html",
+      "line": 13,
       "component": "Home",
       "source": "src/app/pages/home/home.ts",
       "tag": "button",
@@ -4918,7 +4990,7 @@
         }
       ],
       "conditions": [
-        "!currentUrl().startsWith('/actions/')"
+        "!authService.isLoggedIn() && !currentUrl().startsWith('/actions/')"
       ],
       "handlers": [],
       "testFiles": [
@@ -4928,26 +5000,22 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P147",
+      "id": "P150",
       "file": "src/app/pages/home/home.html",
-      "line": 17,
+      "line": 19,
       "component": "Home",
       "source": "src/app/pages/home/home.ts",
       "tag": "a",
       "label": "Abrir mi billetera →",
       "attributes": {
-        "routerLink": "/points"
+        "routerLink": "/",
+        "fragment": "home-title"
       },
       "bindings": {},
-      "events": [
-        {
-          "name": "click",
-          "action": "install.chooseMode('client')"
-        }
-      ],
+      "events": [],
       "form": null,
       "conditions": [
-        "!currentUrl().startsWith('/actions/')"
+        "!authService.isLoggedIn() && !currentUrl().startsWith('/actions/')"
       ],
       "handlers": [],
       "testFiles": [
@@ -4957,13 +5025,13 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P148",
+      "id": "P151",
       "file": "src/app/pages/login/login.html",
       "line": 12,
       "component": "Login",
       "source": "src/app/pages/login/login.ts",
       "tag": "a",
-      "label": "← Volver al modo cliente",
+      "label": "← Volver al inicio",
       "attributes": {},
       "bindings": {
         "routerLink": "clientReturn"
@@ -4977,7 +5045,7 @@
     },
     {
       "availability": "dormant-policy-or-unmounted",
-      "id": "P149",
+      "id": "P152",
       "file": "src/app/pages/login/login.html",
       "line": 27,
       "component": "Login",
@@ -5016,7 +5084,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P150",
+      "id": "P153",
       "file": "src/app/pages/login/login.html",
       "line": 30,
       "component": "Login",
@@ -5053,7 +5121,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P151",
+      "id": "P154",
       "file": "src/app/pages/login/login.html",
       "line": 45,
       "component": "Login",
@@ -5083,7 +5151,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P152",
+      "id": "P155",
       "file": "src/app/pages/login/login.html",
       "line": 50,
       "component": "Login",
@@ -5103,7 +5171,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P153",
+      "id": "P156",
       "file": "src/app/pages/new-company/new-company-page.html",
       "line": 6,
       "component": "NewCompanyPage",
@@ -5131,7 +5199,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P154",
+      "id": "P157",
       "file": "src/app/pages/new-company/new-company-page.html",
       "line": 25,
       "component": "NewCompanyPage",
@@ -5174,7 +5242,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P155",
+      "id": "P158",
       "file": "src/app/pages/new-company/new-company-page.html",
       "line": 83,
       "component": "NewCompanyPage",
@@ -5218,7 +5286,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P156",
+      "id": "P159",
       "file": "src/app/pages/new-company/new-company-page.html",
       "line": 90,
       "component": "NewCompanyPage",
@@ -5263,7 +5331,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P157",
+      "id": "P160",
       "file": "src/app/pages/new-company/new-company-page.html",
       "line": 386,
       "component": "NewCompanyPage",
@@ -5296,7 +5364,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P158",
+      "id": "P161",
       "file": "src/app/pages/new-company/new-company-page.html",
       "line": 395,
       "component": "NewCompanyPage",
@@ -5329,7 +5397,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P159",
+      "id": "P162",
       "file": "src/app/pages/not-found/not-found.component.ts",
       "line": 3,
       "component": "NotFoundComponent",
@@ -5349,7 +5417,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P160",
+      "id": "P163",
       "file": "src/app/pages/register/register.html",
       "line": 4,
       "component": "Register",
@@ -5373,7 +5441,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P161",
+      "id": "P164",
       "file": "src/app/pages/register/register.html",
       "line": 5,
       "component": "Register",
@@ -5395,7 +5463,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P162",
+      "id": "P165",
       "file": "src/app/components/company-quick-actions/modals/check-points-modal/check-points-modal.html",
       "line": 2,
       "component": "CheckPointsModalComponent",
@@ -5423,7 +5491,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P163",
+      "id": "P166",
       "file": "src/app/components/company-quick-actions/modals/check-points-modal/check-points-modal.html",
       "line": 25,
       "component": "CheckPointsModalComponent",
@@ -5464,7 +5532,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P164",
+      "id": "P167",
       "file": "src/app/components/company-quick-actions/modals/check-points-modal/check-points-modal.html",
       "line": 59,
       "component": "CheckPointsModalComponent",
@@ -5508,7 +5576,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P165",
+      "id": "P168",
       "file": "src/app/components/company-quick-actions/modals/check-points-modal/check-points-modal.html",
       "line": 68,
       "component": "CheckPointsModalComponent",
@@ -5540,7 +5608,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P166",
+      "id": "P169",
       "file": "src/app/components/company-quick-actions/modals/check-points-modal/check-points-modal.html",
       "line": 151,
       "component": "CheckPointsModalComponent",
@@ -5581,7 +5649,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P167",
+      "id": "P170",
       "file": "src/app/components/company-quick-actions/modals/check-points-modal/check-points-modal.html",
       "line": 172,
       "component": "CheckPointsModalComponent",
@@ -5611,7 +5679,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P168",
+      "id": "P171",
       "file": "src/app/components/dashboard/components/dashboard-header/dashboard-header.html",
       "line": 26,
       "component": "DashboardHeaderComponent",
@@ -5636,7 +5704,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P169",
+      "id": "P172",
       "file": "src/app/components/dashboard/components/dashboard-header/dashboard-header.html",
       "line": 33,
       "component": "DashboardHeaderComponent",
@@ -5644,7 +5712,7 @@
       "tag": "a",
       "label": "¿Eres Cliente? Consulta tus Puntos",
       "attributes": {
-        "routerLink": "/points",
+        "routerLink": "/",
         "hlmBtn": "",
         "variant": "outline",
         "class": "min-h-[44px] px-7 py-3 rounded-xl font-bold text-sm"
@@ -5661,7 +5729,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P170",
+      "id": "P173",
       "file": "src/app/components/dashboard/components/dashboard-header/dashboard-header.html",
       "line": 58,
       "component": "DashboardHeaderComponent",
@@ -5691,7 +5759,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P171",
+      "id": "P174",
       "file": "src/app/components/dashboard/components/role-admin-view/role-admin-view.html",
       "line": 22,
       "component": "RoleAdminViewComponent",
@@ -5726,7 +5794,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P172",
+      "id": "P175",
       "file": "src/app/components/dashboard/components/role-admin-view/role-admin-view.html",
       "line": 39,
       "component": "RoleAdminViewComponent",
@@ -5765,7 +5833,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P173",
+      "id": "P176",
       "file": "src/app/components/dashboard/components/role-admin-view/role-admin-view.html",
       "line": 51,
       "component": "RoleAdminViewComponent",
@@ -5802,7 +5870,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P174",
+      "id": "P177",
       "file": "src/app/components/dashboard/components/role-admin-view/role-admin-view.html",
       "line": 89,
       "component": "RoleAdminViewComponent",
@@ -5841,7 +5909,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P175",
+      "id": "P178",
       "file": "src/app/components/dashboard/components/role-admin-view/role-admin-view.html",
       "line": 141,
       "component": "RoleAdminViewComponent",
@@ -5870,7 +5938,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P176",
+      "id": "P179",
       "file": "src/app/components/dashboard/components/role-admin-view/role-admin-view.html",
       "line": 149,
       "component": "RoleAdminViewComponent",
@@ -5903,7 +5971,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P177",
+      "id": "P180",
       "file": "src/app/components/dashboard/components/role-admin-view/role-admin-view.html",
       "line": 158,
       "component": "RoleAdminViewComponent",
@@ -5936,7 +6004,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P178",
+      "id": "P181",
       "file": "src/app/components/dashboard/components/role-app-admin-view/role-app-admin-view.html",
       "line": 13,
       "component": "RoleAppAdminViewComponent",
@@ -5963,7 +6031,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P179",
+      "id": "P182",
       "file": "src/app/components/dashboard/components/role-app-admin-view/role-app-admin-view.html",
       "line": 45,
       "component": "RoleAppAdminViewComponent",
@@ -5992,7 +6060,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P180",
+      "id": "P183",
       "file": "src/app/components/dashboard/components/role-app-admin-view/role-app-admin-view.html",
       "line": 88,
       "component": "RoleAppAdminViewComponent",
@@ -6019,7 +6087,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P181",
+      "id": "P184",
       "file": "src/app/components/dashboard/components/role-app-admin-view/role-app-admin-view.html",
       "line": 96,
       "component": "RoleAppAdminViewComponent",
@@ -6049,7 +6117,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P182",
+      "id": "P185",
       "file": "src/app/components/dashboard/components/role-app-admin-view/role-app-admin-view.html",
       "line": 104,
       "component": "RoleAppAdminViewComponent",
@@ -6079,7 +6147,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P183",
+      "id": "P186",
       "file": "src/app/pages/company-detail/components/archived-clients/archived-clients.html",
       "line": 24,
       "component": "ArchivedClientsComponent",
@@ -6118,7 +6186,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P184",
+      "id": "P187",
       "file": "src/app/pages/company-detail/components/archived-clients/archived-clients.html",
       "line": 61,
       "component": "ArchivedClientsComponent",
@@ -6158,7 +6226,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P185",
+      "id": "P188",
       "file": "src/app/pages/company-detail/components/archived-clients/archived-clients.html",
       "line": 74,
       "component": "ArchivedClientsComponent",
@@ -6204,7 +6272,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P186",
+      "id": "P189",
       "file": "src/app/pages/company-detail/components/archived-clients/archived-clients.html",
       "line": 83,
       "component": "ArchivedClientsComponent",
@@ -6250,7 +6318,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P187",
+      "id": "P190",
       "file": "src/app/pages/company-detail/components/company-detail-header/company-detail-header.html",
       "line": 2,
       "component": "CompanyDetailHeaderComponent",
@@ -6277,7 +6345,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P188",
+      "id": "P191",
       "file": "src/app/pages/company-detail/components/company-detail-header/company-detail-header.html",
       "line": 6,
       "component": "CompanyDetailHeaderComponent",
@@ -6303,13 +6371,13 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P189",
+      "id": "P192",
       "file": "src/app/pages/company-detail/components/company-detail-header/company-detail-header.html",
       "line": 11,
       "component": "CompanyDetailHeaderComponent",
       "source": "src/app/pages/company-detail/components/company-detail-header/company-detail-header.ts",
       "tag": "button",
-      "label": "Consultar Puntos",
+      "label": "Ver clientes",
       "attributes": {
         "type": "button"
       },
@@ -6330,7 +6398,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P190",
+      "id": "P193",
       "file": "src/app/pages/company-detail/components/company-detail-header/company-detail-header.html",
       "line": 11,
       "component": "CompanyDetailHeaderComponent",
@@ -6358,7 +6426,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P191",
+      "id": "P194",
       "file": "src/app/pages/company-detail/components/company-detail-header/company-detail-header.html",
       "line": 12,
       "component": "CompanyDetailHeaderComponent",
@@ -6380,7 +6448,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P192",
+      "id": "P195",
       "file": "src/app/pages/company-detail/components/company-detail-tabs-nav/company-detail-tabs-nav.html",
       "line": 2,
       "component": "CompanyDetailTabsNavComponent",
@@ -6409,7 +6477,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P193",
+      "id": "P196",
       "file": "src/app/pages/company-detail/components/company-detail-tabs-nav/company-detail-tabs-nav.html",
       "line": 4,
       "component": "CompanyDetailTabsNavComponent",
@@ -6440,7 +6508,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P194",
+      "id": "P197",
       "file": "src/app/pages/company-detail/components/company-detail-tabs-nav/company-detail-tabs-nav.html",
       "line": 6,
       "component": "CompanyDetailTabsNavComponent",
@@ -6469,7 +6537,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P195",
+      "id": "P198",
       "file": "src/app/pages/company-detail/components/company-detail-tabs-nav/company-detail-tabs-nav.html",
       "line": 7,
       "component": "CompanyDetailTabsNavComponent",
@@ -6498,7 +6566,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P196",
+      "id": "P199",
       "file": "src/app/pages/company-detail/components/company-detail-tabs-nav/company-detail-tabs-nav.html",
       "line": 8,
       "component": "CompanyDetailTabsNavComponent",
@@ -6527,7 +6595,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P197",
+      "id": "P200",
       "file": "src/app/pages/company-detail/components/company-detail-tabs-nav/company-detail-tabs-nav.html",
       "line": 10,
       "component": "CompanyDetailTabsNavComponent",
@@ -6558,7 +6626,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P198",
+      "id": "P201",
       "file": "src/app/pages/company-detail/components/company-detail-tabs-nav/company-detail-tabs-nav.html",
       "line": 11,
       "component": "CompanyDetailTabsNavComponent",
@@ -6589,7 +6657,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P199",
+      "id": "P202",
       "file": "src/app/pages/company-detail/components/company-detail-tabs-nav/company-detail-tabs-nav.html",
       "line": 12,
       "component": "CompanyDetailTabsNavComponent",
@@ -6621,7 +6689,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P200",
+      "id": "P203",
       "file": "src/app/pages/company-detail/components/company-detail-tabs-nav/company-detail-tabs-nav.html",
       "line": 13,
       "component": "CompanyDetailTabsNavComponent",
@@ -6652,7 +6720,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P201",
+      "id": "P204",
       "file": "src/app/pages/company-detail/components/company-emails/company-emails.html",
       "line": 11,
       "component": "CompanyEmailsComponent",
@@ -6690,7 +6758,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P202",
+      "id": "P205",
       "file": "src/app/pages/company-detail/components/company-emails/company-emails.html",
       "line": 41,
       "component": "CompanyEmailsComponent",
@@ -6731,7 +6799,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P203",
+      "id": "P206",
       "file": "src/app/pages/company-detail/components/tab-clients/tab-clients.html",
       "line": 6,
       "component": "TabClientsComponent",
@@ -6770,7 +6838,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P204",
+      "id": "P207",
       "file": "src/app/pages/company-detail/components/tab-clients/tab-clients.html",
       "line": 18,
       "component": "TabClientsComponent",
@@ -6800,7 +6868,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P205",
+      "id": "P208",
       "file": "src/app/pages/company-detail/components/tab-clients/tab-clients.html",
       "line": 25,
       "component": "TabClientsComponent",
@@ -6839,7 +6907,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P206",
+      "id": "P209",
       "file": "src/app/pages/company-detail/components/tab-clients/tab-clients.html",
       "line": 39,
       "component": "TabClientsComponent",
@@ -6869,7 +6937,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P207",
+      "id": "P210",
       "file": "src/app/pages/company-detail/components/tab-clients/tab-clients.html",
       "line": 48,
       "component": "TabClientsComponent",
@@ -6916,7 +6984,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P208",
+      "id": "P211",
       "file": "src/app/pages/company-detail/components/tab-clients/tab-clients.html",
       "line": 50,
       "component": "TabClientsComponent",
@@ -6963,7 +7031,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P209",
+      "id": "P212",
       "file": "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html",
       "line": 40,
       "component": "TabInactiveClientsComponent",
@@ -7005,7 +7073,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P210",
+      "id": "P213",
       "file": "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html",
       "line": 59,
       "component": "TabInactiveClientsComponent",
@@ -7044,7 +7112,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P211",
+      "id": "P214",
       "file": "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html",
       "line": 74,
       "component": "TabInactiveClientsComponent",
@@ -7077,7 +7145,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P212",
+      "id": "P215",
       "file": "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html",
       "line": 106,
       "component": "TabInactiveClientsComponent",
@@ -7108,7 +7176,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P213",
+      "id": "P216",
       "file": "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html",
       "line": 183,
       "component": "TabInactiveClientsComponent",
@@ -7141,7 +7209,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P214",
+      "id": "P217",
       "file": "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html",
       "line": 195,
       "component": "TabInactiveClientsComponent",
@@ -7176,7 +7244,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P215",
+      "id": "P218",
       "file": "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html",
       "line": 212,
       "component": "TabInactiveClientsComponent",
@@ -7217,7 +7285,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P216",
+      "id": "P219",
       "file": "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html",
       "line": 221,
       "component": "TabInactiveClientsComponent",
@@ -7258,7 +7326,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P217",
+      "id": "P220",
       "file": "src/app/pages/company-detail/components/tab-overview/tab-overview.html",
       "line": 9,
       "component": "TabOverviewComponent",
@@ -7289,7 +7357,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P218",
+      "id": "P221",
       "file": "src/app/pages/company-detail/components/tab-overview/tab-overview.html",
       "line": 30,
       "component": "TabOverviewComponent",
@@ -7320,7 +7388,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P219",
+      "id": "P222",
       "file": "src/app/pages/company-detail/components/tab-overview/tab-overview.html",
       "line": 116,
       "component": "TabOverviewComponent",
@@ -7351,7 +7419,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P220",
+      "id": "P223",
       "file": "src/app/pages/company-detail/components/tab-overview/tab-overview.html",
       "line": 127,
       "component": "TabOverviewComponent",
@@ -7382,13 +7450,13 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P221",
+      "id": "P224",
       "file": "src/app/pages/company-detail/components/tab-overview/tab-overview.html",
       "line": 197,
       "component": "TabOverviewComponent",
       "source": "src/app/pages/company-detail/components/tab-overview/tab-overview.ts",
       "tag": "button",
-      "label": "Consultar Puntos",
+      "label": "Ver clientes",
       "attributes": {
         "hlmBtn": "",
         "variant": "outline",
@@ -7413,7 +7481,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P222",
+      "id": "P225",
       "file": "src/app/pages/company-detail/components/tab-overview/tab-overview.html",
       "line": 208,
       "component": "TabOverviewComponent",
@@ -7444,7 +7512,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P223",
+      "id": "P226",
       "file": "src/app/pages/company-detail/components/tab-overview/tab-overview.html",
       "line": 264,
       "component": "TabOverviewComponent",
@@ -7477,13 +7545,13 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P224",
+      "id": "P227",
       "file": "src/app/pages/company-detail/components/tab-overview/tab-overview.html",
       "line": 269,
       "component": "TabOverviewComponent",
       "source": "src/app/pages/company-detail/components/tab-overview/tab-overview.ts",
       "tag": "button",
-      "label": "Consultar Saldo DNI",
+      "label": "Ver clientes",
       "attributes": {
         "hlmBtn": "",
         "variant": "outline",
@@ -7510,7 +7578,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P225",
+      "id": "P228",
       "file": "src/app/pages/company-detail/components/tab-overview/tab-overview.html",
       "line": 276,
       "component": "TabOverviewComponent",
@@ -7543,7 +7611,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P226",
+      "id": "P229",
       "file": "src/app/pages/company-detail/components/tab-overview/tab-overview.html",
       "line": 291,
       "component": "TabOverviewComponent",
@@ -7584,7 +7652,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P227",
+      "id": "P230",
       "file": "src/app/pages/company-detail/components/tab-overview/tab-overview.html",
       "line": 298,
       "component": "TabOverviewComponent",
@@ -7625,7 +7693,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P228",
+      "id": "P231",
       "file": "src/app/pages/company-detail/components/tab-overview/tab-overview.html",
       "line": 305,
       "component": "TabOverviewComponent",
@@ -7666,7 +7734,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P229",
+      "id": "P232",
       "file": "src/app/pages/company-detail/components/tab-overview/tab-overview.html",
       "line": 312,
       "component": "TabOverviewComponent",
@@ -7707,7 +7775,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P230",
+      "id": "P233",
       "file": "src/app/pages/company-detail/components/tab-overview/tab-overview.html",
       "line": 321,
       "component": "TabOverviewComponent",
@@ -7748,7 +7816,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P231",
+      "id": "P234",
       "file": "src/app/pages/company-detail/components/tab-products/tab-products.html",
       "line": 9,
       "component": "TabProductsComponent",
@@ -7777,7 +7845,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P232",
+      "id": "P235",
       "file": "src/app/pages/company-detail/components/tab-products/tab-products.html",
       "line": 30,
       "component": "TabProductsComponent",
@@ -7808,7 +7876,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P233",
+      "id": "P236",
       "file": "src/app/pages/company-detail/components/tab-products/tab-products.html",
       "line": 65,
       "component": "TabProductsComponent",
@@ -7840,7 +7908,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P234",
+      "id": "P237",
       "file": "src/app/pages/company-detail/components/tab-products/tab-products.html",
       "line": 74,
       "component": "TabProductsComponent",
@@ -7875,7 +7943,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P235",
+      "id": "P238",
       "file": "src/app/pages/company-detail/components/tab-promotions/tab-promotions.html",
       "line": 37,
       "component": "TabPromotionsComponent",
@@ -7914,7 +7982,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P236",
+      "id": "P239",
       "file": "src/app/pages/company-detail/components/tab-promotions/tab-promotions.html",
       "line": 49,
       "component": "TabPromotionsComponent",
@@ -7951,7 +8019,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P237",
+      "id": "P240",
       "file": "src/app/pages/company-detail/components/tab-promotions/tab-promotions.html",
       "line": 82,
       "component": "TabPromotionsComponent",
@@ -7991,7 +8059,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P238",
+      "id": "P241",
       "file": "src/app/pages/company-detail/components/tab-promotions/tab-promotions.html",
       "line": 111,
       "component": "TabPromotionsComponent",
@@ -8024,7 +8092,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P239",
+      "id": "P242",
       "file": "src/app/pages/company-detail/components/tab-promotions/tab-promotions.html",
       "line": 123,
       "component": "TabPromotionsComponent",
@@ -8059,7 +8127,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P240",
+      "id": "P243",
       "file": "src/app/pages/company-detail/components/tab-promotions/tab-promotions.html",
       "line": 124,
       "component": "TabPromotionsComponent",
@@ -8094,7 +8162,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P241",
+      "id": "P244",
       "file": "src/app/pages/company-detail/components/tab-rewards/tab-rewards.html",
       "line": 9,
       "component": "TabRewardsComponent",
@@ -8123,7 +8191,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P242",
+      "id": "P245",
       "file": "src/app/pages/company-detail/components/tab-rewards/tab-rewards.html",
       "line": 30,
       "component": "TabRewardsComponent",
@@ -8154,7 +8222,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P243",
+      "id": "P246",
       "file": "src/app/pages/company-detail/components/tab-rewards/tab-rewards.html",
       "line": 58,
       "component": "TabRewardsComponent",
@@ -8187,7 +8255,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P244",
+      "id": "P247",
       "file": "src/app/pages/company-detail/components/tab-rewards/tab-rewards.html",
       "line": 69,
       "component": "TabRewardsComponent",
@@ -8217,7 +8285,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P245",
+      "id": "P248",
       "file": "src/app/pages/company-detail/components/tab-rewards/tab-rewards.html",
       "line": 77,
       "component": "TabRewardsComponent",
@@ -8251,7 +8319,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P246",
+      "id": "P249",
       "file": "src/app/pages/company-detail/components/tab-rewards/tab-rewards.html",
       "line": 78,
       "component": "TabRewardsComponent",
@@ -8286,13 +8354,13 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P247",
+      "id": "P250",
       "file": "src/app/pages/company-detail/components/tab-sales/tab-sales.html",
       "line": 9,
       "component": "TabSalesComponent",
       "source": "src/app/pages/company-detail/components/tab-sales/tab-sales.ts",
       "tag": "button",
-      "label": "Consultar Puntos",
+      "label": "Ver clientes",
       "attributes": {
         "hlmBtn": "",
         "variant": "outline",
@@ -8315,7 +8383,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P248",
+      "id": "P251",
       "file": "src/app/pages/company-detail/components/tab-sales/tab-sales.html",
       "line": 20,
       "component": "TabSalesComponent",
@@ -8344,7 +8412,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P249",
+      "id": "P252",
       "file": "src/app/pages/company-detail/components/tab-sales/tab-sales.html",
       "line": 31,
       "component": "TabSalesComponent",
@@ -8373,7 +8441,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P250",
+      "id": "P253",
       "file": "src/app/pages/company-detail/components/tab-sales/tab-sales.html",
       "line": 51,
       "component": "TabSalesComponent",
@@ -8404,13 +8472,13 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P251",
+      "id": "P254",
       "file": "src/app/pages/company-detail/components/tab-sales/tab-sales.html",
       "line": 62,
       "component": "TabSalesComponent",
       "source": "src/app/pages/company-detail/components/tab-sales/tab-sales.ts",
       "tag": "button",
-      "label": "Consultar Saldo DNI",
+      "label": "Ver clientes",
       "attributes": {
         "hlmBtn": "",
         "variant": "outline",
@@ -8435,7 +8503,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P252",
+      "id": "P255",
       "file": "src/app/pages/company-detail/components/tab-sales/tab-sales.html",
       "line": 69,
       "component": "TabSalesComponent",
@@ -8466,7 +8534,7 @@
     },
     {
       "availability": "library-control",
-      "id": "P253",
+      "id": "P256",
       "file": "src/app/ui/dialog/src/lib/hlm-dialog-content.ts",
       "line": 43,
       "component": "HlmDialogContent",
@@ -8492,7 +8560,7 @@
     },
     {
       "availability": "library-control",
-      "id": "P254",
+      "id": "P257",
       "file": "src/app/ui/tabs/src/lib/hlm-tabs-paginated-list.ts",
       "line": 34,
       "component": "HlmTabsPaginatedList",
@@ -8531,7 +8599,7 @@
     },
     {
       "availability": "library-control",
-      "id": "P255",
+      "id": "P258",
       "file": "src/app/ui/tabs/src/lib/hlm-tabs-paginated-list.ts",
       "line": 66,
       "component": "HlmTabsPaginatedList",
@@ -8570,7 +8638,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P256",
+      "id": "P259",
       "file": "src/app/components/dashboard/components/modals/edit-company-modal/edit-company-modal.html",
       "line": 26,
       "component": "DashboardEditCompanyModalComponent",
@@ -8602,7 +8670,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P257",
+      "id": "P260",
       "file": "src/app/components/dashboard/components/modals/edit-company-modal/edit-company-modal.html",
       "line": 217,
       "component": "DashboardEditCompanyModalComponent",
@@ -8637,7 +8705,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P258",
+      "id": "P261",
       "file": "src/app/components/dashboard/components/modals/edit-company-modal/edit-company-modal.html",
       "line": 226,
       "component": "DashboardEditCompanyModalComponent",
@@ -8667,7 +8735,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P259",
+      "id": "P262",
       "file": "src/app/pages/company-detail/components/modals/client-modal/client-modal.html",
       "line": 35,
       "component": "ClientModalComponent",
@@ -8701,7 +8769,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P260",
+      "id": "P263",
       "file": "src/app/pages/company-detail/components/modals/client-modal/client-modal.html",
       "line": 115,
       "component": "ClientModalComponent",
@@ -8736,7 +8804,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P261",
+      "id": "P264",
       "file": "src/app/pages/company-detail/components/modals/client-modal/client-modal.html",
       "line": 123,
       "component": "ClientModalComponent",
@@ -8768,7 +8836,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P262",
+      "id": "P265",
       "file": "src/app/pages/company-detail/components/modals/edit-company-modal/edit-company-modal.html",
       "line": 26,
       "component": "EditCompanyModalComponent",
@@ -8800,7 +8868,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P263",
+      "id": "P266",
       "file": "src/app/pages/company-detail/components/modals/edit-company-modal/edit-company-modal.html",
       "line": 219,
       "component": "EditCompanyModalComponent",
@@ -8835,7 +8903,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P264",
+      "id": "P267",
       "file": "src/app/pages/company-detail/components/modals/edit-company-modal/edit-company-modal.html",
       "line": 227,
       "component": "EditCompanyModalComponent",
@@ -8865,7 +8933,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P265",
+      "id": "P268",
       "file": "src/app/pages/company-detail/components/modals/product-modal/product-modal.html",
       "line": 25,
       "component": "ProductModalComponent",
@@ -8899,7 +8967,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P266",
+      "id": "P269",
       "file": "src/app/pages/company-detail/components/modals/product-modal/product-modal.html",
       "line": 85,
       "component": "ProductModalComponent",
@@ -8945,7 +9013,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P267",
+      "id": "P270",
       "file": "src/app/pages/company-detail/components/modals/product-modal/product-modal.html",
       "line": 92,
       "component": "ProductModalComponent",
@@ -8980,7 +9048,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P268",
+      "id": "P271",
       "file": "src/app/pages/company-detail/components/modals/product-modal/product-modal.html",
       "line": 100,
       "component": "ProductModalComponent",
@@ -9012,7 +9080,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P269",
+      "id": "P272",
       "file": "src/app/pages/company-detail/components/modals/promotion-modal/promotion-modal.html",
       "line": 25,
       "component": "PromotionModalComponent",
@@ -9047,7 +9115,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P270",
+      "id": "P273",
       "file": "src/app/pages/company-detail/components/modals/promotion-modal/promotion-modal.html",
       "line": 85,
       "component": "PromotionModalComponent",
@@ -9083,7 +9151,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P271",
+      "id": "P274",
       "file": "src/app/pages/company-detail/components/modals/promotion-modal/promotion-modal.html",
       "line": 145,
       "component": "PromotionModalComponent",
@@ -9121,7 +9189,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P272",
+      "id": "P275",
       "file": "src/app/pages/company-detail/components/modals/promotion-modal/promotion-modal.html",
       "line": 153,
       "component": "PromotionModalComponent",
@@ -9154,7 +9222,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P273",
+      "id": "P276",
       "file": "src/app/pages/company-detail/components/modals/redeem-modal/redeem-modal.html",
       "line": 42,
       "component": "RedeemModalComponent",
@@ -9186,7 +9254,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P274",
+      "id": "P277",
       "file": "src/app/pages/company-detail/components/modals/redeem-modal/redeem-modal.html",
       "line": 74,
       "component": "RedeemModalComponent",
@@ -9222,7 +9290,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P275",
+      "id": "P278",
       "file": "src/app/pages/company-detail/components/modals/redeem-modal/redeem-modal.html",
       "line": 76,
       "component": "RedeemModalComponent",
@@ -9255,7 +9323,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P276",
+      "id": "P279",
       "file": "src/app/pages/company-detail/components/modals/redeem-modal/redeem-modal.html",
       "line": 84,
       "component": "RedeemModalComponent",
@@ -9285,7 +9353,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P277",
+      "id": "P280",
       "file": "src/app/pages/company-detail/components/modals/reward-modal/reward-modal.html",
       "line": 25,
       "component": "RewardModalComponent",
@@ -9321,7 +9389,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P278",
+      "id": "P281",
       "file": "src/app/pages/company-detail/components/modals/reward-modal/reward-modal.html",
       "line": 48,
       "component": "RewardModalComponent",
@@ -9364,7 +9432,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P279",
+      "id": "P282",
       "file": "src/app/pages/company-detail/components/modals/reward-modal/reward-modal.html",
       "line": 96,
       "component": "RewardModalComponent",
@@ -9404,7 +9472,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P280",
+      "id": "P283",
       "file": "src/app/pages/company-detail/components/modals/reward-modal/reward-modal.html",
       "line": 133,
       "component": "RewardModalComponent",
@@ -9452,7 +9520,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P281",
+      "id": "P284",
       "file": "src/app/pages/company-detail/components/modals/reward-modal/reward-modal.html",
       "line": 169,
       "component": "RewardModalComponent",
@@ -9491,7 +9559,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P282",
+      "id": "P285",
       "file": "src/app/pages/company-detail/components/modals/reward-modal/reward-modal.html",
       "line": 178,
       "component": "RewardModalComponent",
@@ -9525,7 +9593,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P283",
+      "id": "P286",
       "file": "src/app/pages/company-detail/components/modals/sale-modal/sale-modal.html",
       "line": 31,
       "component": "SaleModalComponent",
@@ -9559,7 +9627,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P284",
+      "id": "P287",
       "file": "src/app/pages/company-detail/components/modals/sale-modal/sale-modal.html",
       "line": 128,
       "component": "SaleModalComponent",
@@ -9598,7 +9666,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P285",
+      "id": "P288",
       "file": "src/app/pages/company-detail/components/modals/sale-modal/sale-modal.html",
       "line": 130,
       "component": "SaleModalComponent",
@@ -9633,7 +9701,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P286",
+      "id": "P289",
       "file": "src/app/pages/company-detail/components/modals/sale-modal/sale-modal.html",
       "line": 138,
       "component": "SaleModalComponent",
@@ -9665,7 +9733,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P287",
+      "id": "P290",
       "file": "src/app/pages/company-detail/components/modals/whatsapp-retention-modal/whatsapp-retention-modal.html",
       "line": 104,
       "component": "WhatsappRetentionModalComponent",
@@ -9702,7 +9770,7 @@
     },
     {
       "availability": "active-or-route-dependent",
-      "id": "P288",
+      "id": "P291",
       "file": "src/app/pages/company-detail/components/modals/whatsapp-retention-modal/whatsapp-retention-modal.html",
       "line": 124,
       "component": "WhatsappRetentionModalComponent",
@@ -9740,17 +9808,17 @@
       "verification": "static-trace; test files are evidence candidates, not per-control execution"
     }
   ],
-  "generatedAt": "2026-11-03T18:57:58.071Z",
-  "productCommit": "b1d33ba74fb205b677e0a243d9d066999cf0ace4",
+  "generatedAt": "2026-11-07T15:34:58.181Z",
+  "productCommit": "0791245cea6dead63cd308a82ab30470643b92dd",
   "sourceHashes": {
     "src/app/app.config.server.ts": "8719e0bf658c4dd14f6228a0d6fc7cc1b2934d8d4e86c4c84da112fa729fefba",
     "src/app/app.config.ts": "eceed980e7a323fcc90622c4f92e5312b365fb6dcf57ce7e49d60976064129bf",
     "src/app/app.html": "06009f307860516a3094d6e911325a7bcb4120832c30c700216558e4e7ca2bca",
-    "src/app/app.routes.server.ts": "12b1f98432b983d62e2604d78ec9c840ced805123d75aeead84d0cbff932cdd5",
-    "src/app/app.routes.ts": "d7b0e75640de61af3ebfa40b0a8d7835613273c05869a65f2bc6a12d4b243a1d",
+    "src/app/app.routes.server.ts": "29efabe15e2482f7eb503e3b5168ba40253e66cc09c0904af8867ba6db0c9648",
+    "src/app/app.routes.ts": "3c9fa3d2326afaa242f2c0e43dc65469cac95b13062b9381148cfcddd039996b",
     "src/app/app.ts": "4c1923a022c5ee2f43a7e0342cfc45638a6bb681ea5313e9e10ef02882775291",
     "src/app/auth-policy.ts": "982f86742ce114a8005b4d5086a9f60e09a5f99f834aa33dd507cb46975fed21",
-    "src/app/components/account-menu/account-menu.html": "93841e99142f1c8e8cf0cf7ffbe0b6d3b84cad28b4183b10cc0be30e699bf273",
+    "src/app/components/account-menu/account-menu.html": "8071372b2cbd51069efc16576bf1099561e43d7cde665661690e02a9297008cc",
     "src/app/components/account-menu/account-menu.ts": "47ecd068a1beffebf4415974d7da2158454f3d59da51fb0fb4e35d6c98dae0bb",
     "src/app/components/activity-status/activity-status.ts": "9ddd3a2bad8cf1da38e78602fb8428d5ea5e5086284dbaccc6c7395cb309d2d6",
     "src/app/components/ai-chatbot/ai-chatbot.html": "d94407ba13f58fa350c0711be3cb07063581b8ca3002a010618e0ca03b61849e",
@@ -9760,10 +9828,10 @@
     "src/app/components/carousel/carousel.ts": "fbe3db655ed625cf568ce0512d2109c7df4bd0a1a892caf1e53547b004644f98",
     "src/app/components/client-contacts/client-contacts.ts": "e66648acaa225bee3c3fc094e7316ced5d4780c987d4e5a9dcbe297e51225943",
     "src/app/components/company-avatar/company-avatar.ts": "a4b264ad7e248240f9c8343526c4c1900a9343b9878a729040916f4eb6f1ddaa",
-    "src/app/components/company-info/company-info.html": "98c85744d3eec3b3b0a95ee05afeec43fea5e8f820e9c8a962edc228a20f9575",
-    "src/app/components/company-info/company-info.ts": "fd1d68e14fe569d59345d1c083accf636c0de6c1654f0c2bae2dcb03f0749975",
-    "src/app/components/company-quick-actions/company-quick-actions.html": "a1661f5b8734a47ba0aa78cdb067bfc99aaf25207715417775d8a704f748e32b",
-    "src/app/components/company-quick-actions/company-quick-actions.ts": "999298b69e4bdc5bd21ba7c5e098f6700fe3896d67d3a510c9cf300b64bb53a9",
+    "src/app/components/company-info/company-info.html": "13df6e10f79dfbc110be2956919c5dde331bf157d8e53493ba7752d0b75ac7d1",
+    "src/app/components/company-info/company-info.ts": "ce048907a134406e9ce2b76bf6dc27f191204999b543b4758819cb611619bcb1",
+    "src/app/components/company-quick-actions/company-quick-actions.html": "3bc8ef6a22f4e93e05cd83467b3bde7db75485569db788fa298694c33a23a1b8",
+    "src/app/components/company-quick-actions/company-quick-actions.ts": "b39a4e4f12110014837b50c4875ff0952b7c4c2b9022512bd0084adfef07ddf3",
     "src/app/components/complete-profile-modal/complete-profile-modal.html": "b7a630348561cd40001f0f8918a7695fec5678912994f90614b7947ae0afa8b7",
     "src/app/components/complete-profile-modal/complete-profile-modal.ts": "7197a3cd8fd5e9bd2f65d1a3c54aee832ff707d84908d5939739ba8f085aa3ba",
     "src/app/components/country-select/country-select.html": "b70c6ad4dbc6dd8515d70b8a8bcdbc931b255425d068378793bcf6ae078f3d5c",
@@ -9777,9 +9845,9 @@
     "src/app/components/faq/faq.ts": "d551147483c96e8c99949eb840c9ca9ed94e1e9575345a1ba791306205bb4cc6",
     "src/app/components/footer/footer.html": "38f8645b27f1e48128d3591eb782e8b390a46cfe44356f0190ab40eeeb11ed2e",
     "src/app/components/footer/footer.ts": "aebd09f56ad8a67065ac8b455e68dad1db42250002116b3eb7e0cac35b70496e",
-    "src/app/components/header/header.html": "fe0583fe65d550c70d14441ca2a4acfd32f4f74ba315bf3b09489d0f9d419b6c",
+    "src/app/components/header/header.html": "3491a9058cfff9f17f62292a481da7c6b65c67b64d0cb34aebe35bf6da9e1ca1",
     "src/app/components/header/header.ts": "f05603b62c84e29b75173b782d1aadd67f436724ba8ed685413d5d8cb70ad97f",
-    "src/app/components/hero/hero.html": "f3a034ddc5f881aee07bd22441c16484d737c793e7450e3b86a2db66509bc692",
+    "src/app/components/hero/hero.html": "fa2ced9609b7dafdb4fb0dd4ae23df8bac20cd470770f5195b4385f4265f5108",
     "src/app/components/hero/hero.ts": "d63bf36ee19f769183b6940885e1556ab03f6a46f06ef85999034302e590793c",
     "src/app/components/inline-confirmation/inline-confirmation.ts": "f82e542df45b5f2099647d558ed96590a38c0fec4e7c5bd143db385d0ed72811",
     "src/app/components/install-guide/install-guide.html": "af0f940648c1b619582ce7578ba376135264734076bf26720690b6ed890cb9ad",
@@ -9795,11 +9863,11 @@
     "src/app/components/reward-art/reward-benefit.ts": "e573d6a7adfec5942e56214db729e38920d8505be962df75f3639eb86e187fbb",
     "src/app/components/routed-workflow/routed-workflow.ts": "c07a22f80b9c0b6f9a42fa36cf4b56d45f57b14333b6f238c3ddbade1a9b10e5",
     "src/app/components/scroll-to-top/scroll-to-top.component.ts": "76795b647a076562ee5dbd491c81b916fd8b19aa2c63237d559117c4744679e8",
-    "src/app/components/theme-toggle/theme-toggle.ts": "fb98866b4f82d44768ae6769a7f84629939855d8702e945e15dc95f1a643e58b",
+    "src/app/components/theme-toggle/theme-toggle.ts": "194f74971203c0dc783b4e03ff88f0a9b29d0aa1d70491db02169d188fd692f2",
     "src/app/components/tier-settings/tier-settings.ts": "13aeece700430005ce30b2347a605a7d3476c20c88774716847b9a1c2ca08d62",
-    "src/app/components/user-info/user-info.html": "c0447c2526e32e220b7743f4e611be923b9e4f3fb972defe4725ac9c4fc25d34",
+    "src/app/components/user-info/user-info.html": "704f3b1f46e499e6f4582c9e5d318c25079f1f2d35ddc1c9d5c2ee6070c4d349",
     "src/app/components/user-info/user-info.ts": "9c744fb3951b75d8dff1dc3eeb4c8109b29374527c3f08eb44914d4ea0388772",
-    "src/app/components/workspace-shell/workspace-shell.html": "6fe47174c100d47e65c1596dc3fa29790ceae2545961cdc26f7d5347beab0f5b",
+    "src/app/components/workspace-shell/workspace-shell.html": "383f778b59c16a23a289d3d9b2e864189cbef73c1f2b26e7c777a24f85931757",
     "src/app/components/workspace-shell/workspace-shell.ts": "be6dac56496a339a997d06af7b2575d78c44adc1fc3ab23db036238324050a22",
     "src/app/core/config/feature-flags.ts": "888bd54c8e539e13030c6dbb0981d1380a9dc8b05de290a93dcc39b604ae564b",
     "src/app/core/config/seo.config.ts": "c0afe748e1af7f707a3fa60b3967db167c0153f3741ecebc202a29169a05f91e",
@@ -9842,12 +9910,12 @@
     "src/app/core/services/promotion-service.ts": "70ce89955cfab757c4310d48c248a7a2d053e8ac6789662e303e9d127bca4c53",
     "src/app/core/services/reward-service.ts": "ac7ae88de720260912c0678bbe89a19d17014323cdba4f5987a5252a9edca525",
     "src/app/core/services/sale-service.ts": "2ef64ef10fbaaaded1aed641720c56d9cb8ab8c231da6241c2a49f495d7cf9af",
-    "src/app/core/services/seo.service.ts": "a7596717f137afc12bb2c49e18afe8a7a51797e3a79940f9ecf86dcab395754d",
+    "src/app/core/services/seo.service.ts": "45b5934bec25075f33e8bfdab7399cb20c556aabeee64747d8d81069baa54fd8",
     "src/app/core/services/subscription-state-service.ts": "9a0ae604ccda802be01c2ea86de61b7af4dc7e9bacc963649fb3acac90455729",
     "src/app/core/services/supabase-service.ts": "6bd5c08516927aef867e9743d2ed03737cabc42d81f28096d6361420e71bdd48",
     "src/app/core/utils/auth-fetch.ts": "c5519be2f0a500b62c26005e16007cba30f7f8119abf1488a29c1f59c4d64c8b",
     "src/app/core/utils/auth-timeout.ts": "a515f4f98f73406c301844669806e2dfc0ca67a98be6136ee0f4f7c993e4d0fd",
-    "src/app/core/utils/client-return-path.ts": "64415f45054aefdea847264ba873504932ec7816e1f78c8d526c48aa25fd6fe6",
+    "src/app/core/utils/client-return-path.ts": "2b6fe57bb38df59657fca21bf3a8d6bdc23c277cb6497201ce500fc578f25864",
     "src/app/core/utils/client-wallet-format.ts": "4f77b856866ad09a0add556064f348c5e443f412cb39437a1d367878fe95e368",
     "src/app/core/utils/company-location.ts": "6d559ce2be31c3784f9d7dab2a0fb820188bd6d3eab5bf5547d616f4f9828471",
     "src/app/core/utils/company-public-name.ts": "83bd749503dee311a889d140799ca0420c35b3552b61e4ea1bdb77a1e2c75eb1",
@@ -9855,26 +9923,28 @@
     "src/app/core/utils/media-url.ts": "9412a9ae5a1d6ac910fb896eda66ad90aa3e67346c3d5adb778ce6a675fdaca9",
     "src/app/core/utils/point-operation.ts": "dae6afc37026e165e4de7491ff79ecd8f6eb4fddfbc0ac9ab02193d23718b0c4",
     "src/app/core/utils/wallet-path.ts": "6d229f2f5088153300280e9b44df1268d2193b51630003cbce9711f7f10d8ad0",
-    "src/app/pages/client-join/client-join.html": "21a5a5d3364c342eb8e59ca7355dba3c644900c0c3a8a4a011d1e87d997f64ea",
+    "src/app/pages/client-join/client-join.html": "a09143ba50ecb99d83a67bfacdc141b8ae61b77f4c06e32009d885623eb12b8a",
     "src/app/pages/client-join/client-join.ts": "7150899d4b6d199d700cb7d551df5807aba24dbbd10e5c845ad48b2a02d5d409",
     "src/app/pages/client-points/client-points.html": "24e9164814f3a59ae1e18f81ae72f2840139167a3f739e79ceb86194f7b5b957",
     "src/app/pages/client-points/client-points.ts": "7c56c812dae1e68f32bda9f48ea40c43d9d9dfebe570d31822bce6a5eb4ee920",
     "src/app/pages/client-wallet/client-wallet-catalog.html": "fa3d34b11df7b105117130dcf45c2aa3ad27cccd048bb2b187086aac8d28b9a2",
     "src/app/pages/client-wallet/client-wallet-catalog.ts": "3f199b8b7093765fa85c3a99ed9f374afe1f28d3486a5fd644c55dc812000c0d",
-    "src/app/pages/client-wallet/client-wallet.html": "c64a8d9e1a5b124665034e93a02fa555ea59f423927f441a7f24942a3b5f21d2",
-    "src/app/pages/client-wallet/client-wallet.ts": "602ec8053def2bcd3ff414182707d445e63a42553cd11bcfb5f704290f1194af",
+    "src/app/pages/client-wallet/client-wallet.html": "93e1e86e0d39abd90f03d33ba5c9a12f6bebd9d3c640b631e13899032b5ad492",
+    "src/app/pages/client-wallet/client-wallet.ts": "a8d103d2bc00312eb9a120a3de867908445cef5f9b57a79de9436a30c85437b0",
     "src/app/pages/company-client/company-client.html": "e873f06b4fac8ed587b96e1d881190d741eabcf37400a71886141edea890850b",
     "src/app/pages/company-client/company-client.ts": "ee698409f88b8484ec17e049fd542871462789ab0cb5f560bc747c357d644600",
     "src/app/pages/company-detail/company-detail-page.html": "c3932398fe10b4e300d4b87556cb0867fbdde8f3122afb877e691956035b486d",
-    "src/app/pages/company-detail/company-detail-page.ts": "65d4385ce17e2113da225ab2602bf8d36de1efded1073d2f5aad0e33c934fef5",
+    "src/app/pages/company-detail/company-detail-page.ts": "a71a6a4676d180c852a4e6be1ae45ac6d754c7e02601901abd85f0e0a510319a",
     "src/app/pages/company-photo/company-photo.html": "61f820fefd24f77debf7b28debfa1f781a15753219e0e6334174849cf0488409",
     "src/app/pages/company-photo/company-photo.ts": "34fe0a85882533b0a90b210a8e2e797d4586b77f25fee4fcd1f1868dae098f3d",
-    "src/app/pages/confirm-email/confirm-email.ts": "c89e149eae68321c4f4429c4c6f861531b54ac0dc5a4573a6e0821e3ac50938d",
-    "src/app/pages/dashboard/dashboard-page.html": "4ff8a8ddbb6aed9dc73fa63d62328ebaac7533989fd3d6bd5d5acfc62d059672",
+    "src/app/pages/confirm-email/confirm-email.ts": "fc20971187d03ec65915d955279efa5df8402cbe1ccaaa36dc38b32461aad42b",
+    "src/app/pages/dashboard/dashboard-page.html": "8f27966bdc9eb939379fbd72c6525ed882d3969395b6d26cf9a238c1e04f7117",
     "src/app/pages/dashboard/dashboard-page.ts": "2adddd7b66f2d168924574e9a81f73c52c0d6d46acb77be338648151f3a7f1c7",
-    "src/app/pages/home/home.html": "b0a42262fa370af98265a7ae6184eb2fa1b7ea348be58e6a9edf49d663f2d127",
-    "src/app/pages/home/home.ts": "0dda4382557ac3971eb63716a3ef8531a9c792f6d3ef3793db36199a84586111",
-    "src/app/pages/login/login.html": "31f68de44886bc21bac5b3cee0f866361921190ea13048565a1bf6024400fe1e",
+    "src/app/pages/for-businesses/for-businesses.html": "1c676b714de5b632ae2dfe543b731458b651309c2a006597a89bd515bd06feeb",
+    "src/app/pages/for-businesses/for-businesses.ts": "b9aa2e4cae62177fad777342d10c85cadd4d7655ed93fbff713982c135504606",
+    "src/app/pages/home/home.html": "33cdfbc8aaeca910b26ed8f919d23b31c7b2b15daa486246b3d9e67a01758db4",
+    "src/app/pages/home/home.ts": "c0fd7018280254105a85345e66a534ea4288801000e0cbdb41e6ffcb94f2e1a6",
+    "src/app/pages/login/login.html": "8ce53cf8797f3cf390b8ef4412bba74d0b13330bd8164f8429c59fe40e79b4d2",
     "src/app/pages/login/login.ts": "92efaf4fe3772906d5fa4991c1c67035f9dd0e94aa81ebf42075c18aa78ec73f",
     "src/app/pages/new-company/new-company-page.html": "aeb9e39670e21d059ade3688607da09db6b1a0616ba46bc9c8b5c007c79373f8",
     "src/app/pages/new-company/new-company-page.ts": "5319487b37ef1f3a0f035ff5ab7218e9346372440f050cc94c6a2f74449a1400",
@@ -9893,7 +9963,7 @@
     "src/app/ui/utils/src/index.ts": "19510ef9da95c2a8a1240d1b334c51c1cc6a8d9fb0aea64f08de28912b797e7d",
     "src/app/components/company-quick-actions/modals/check-points-modal/check-points-modal.html": "0a97408c2ddeb87f97fbe9a070724fea26129bd7b3a213c71449a066923868d6",
     "src/app/components/company-quick-actions/modals/check-points-modal/check-points-modal.ts": "6ad7dbbf6c3c6e22ae70eaebf14b601331b198bfa9758c7388fa5be73b591258",
-    "src/app/components/dashboard/components/dashboard-header/dashboard-header.html": "04e2e32ee70d45de6b0d782cdc5aec8881cdfcd441c1a228c08147f13df5df2f",
+    "src/app/components/dashboard/components/dashboard-header/dashboard-header.html": "6143aa6fa047cdd27c97b4530cf222e59e8dc2d7a418ae02a1c1aa10010b5473",
     "src/app/components/dashboard/components/dashboard-header/dashboard-header.ts": "4b3f194a5f50185811d711d46b74215b66c32b903062db1cf1257963406ce854",
     "src/app/components/dashboard/components/role-admin-view/role-admin-view.html": "e95614b9ce357dcc4355c0af2faf71f66ed26b79c321cd66da30457af2043e2e",
     "src/app/components/dashboard/components/role-admin-view/role-admin-view.ts": "2b53dd9e3da0a877518f4e42e0bcd2f43c226a48e8597520cbd4053ad351634c",
@@ -9901,7 +9971,7 @@
     "src/app/components/dashboard/components/role-app-admin-view/role-app-admin-view.ts": "eb53a94accf588ed4237acb85700ed3013167baf61012d53100781b97e4732f7",
     "src/app/pages/company-detail/components/archived-clients/archived-clients.html": "4e0555c784c5f4b66587b254ae8b0dc2f3a8f0c3cdb368019cc72accdb4d9661",
     "src/app/pages/company-detail/components/archived-clients/archived-clients.ts": "1e450b8d76ec8cfd327850665c59f035b7009833b3774f6f57883297aafe94d9",
-    "src/app/pages/company-detail/components/company-detail-header/company-detail-header.html": "69f6bfaa063234fa54cdcdc635d9f663ffe37a8d66616dd0b562200b40ca3b8e",
+    "src/app/pages/company-detail/components/company-detail-header/company-detail-header.html": "abf8b505389b78dd41098dc4e4bbadb3cd4d4b7fa42a98ffcd315cbf5f080e5b",
     "src/app/pages/company-detail/components/company-detail-header/company-detail-header.ts": "093f7efff7f02cc30bbadfe2447dcbcad1484649a5ababa3466bb4b3a7c571a5",
     "src/app/pages/company-detail/components/company-detail-tabs-nav/company-detail-tabs-nav.html": "e483a70b15920e843757836e36888d9c1d892c3a373438cf41daa4bee9d18d62",
     "src/app/pages/company-detail/components/company-detail-tabs-nav/company-detail-tabs-nav.ts": "3f42142bb879c7ef829e5a0951cc4a48059af752c6c4915f0898f4e8bf36f6c2",
@@ -9911,7 +9981,7 @@
     "src/app/pages/company-detail/components/tab-clients/tab-clients.ts": "3da028cfa4dbd9f9e88bc7c86aca35538a9ee9cb73e36350673b9e1be81ffbba",
     "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.html": "27df18bdeb17dcb42c8aa2586410258597d9fa58dff3702d015907c7d9ae6e40",
     "src/app/pages/company-detail/components/tab-inactive-clients/tab-inactive-clients.ts": "963889864734a9f3a8b063ddf43fcdf9566b305afefccd79146d7f53c1634148",
-    "src/app/pages/company-detail/components/tab-overview/tab-overview.html": "a1e0893fe6d25d2d3c39787c13b4c2240bc38c8fbd72291c83edba16e568a485",
+    "src/app/pages/company-detail/components/tab-overview/tab-overview.html": "0636c34be026ed745cdddf5b69aceb403c63b5177194ee87b370b9768ebc42cf",
     "src/app/pages/company-detail/components/tab-overview/tab-overview.ts": "d643e1f21ac45166f1ade77719e3ca8e121e42bd800323691f61e4e3c636723b",
     "src/app/pages/company-detail/components/tab-products/tab-products.html": "9bdff419eb24b41eb6a05ca78c9c8052b464e65dbc6890b566b6dd3731ee6eb1",
     "src/app/pages/company-detail/components/tab-products/tab-products.ts": "1383e66dd66acbb09a5b43c29e4f3994d3409e3d0aa79cfcb3deb4c341aa325c",
@@ -9919,7 +9989,7 @@
     "src/app/pages/company-detail/components/tab-promotions/tab-promotions.ts": "9b9ac6f0d598546eb0acf8e3246c2fae7ae6f8d47007c0cd72ef115e4b111d32",
     "src/app/pages/company-detail/components/tab-rewards/tab-rewards.html": "3164e58464f37154152a34fd5f922c1cccccaf042e42d674184e4b1c2be1ef01",
     "src/app/pages/company-detail/components/tab-rewards/tab-rewards.ts": "c4a10d93611a185028933bff551a14eb91b614abcd9bda47172fbdc3f446a3f3",
-    "src/app/pages/company-detail/components/tab-sales/tab-sales.html": "87e8933964790e97e6070fcdd6ff7d53fb1ca0cae85e069f251c498e8bdbb1b3",
+    "src/app/pages/company-detail/components/tab-sales/tab-sales.html": "0e1325877553f70bee5d05b8a3251d081ad349e58fea9782a75d3259775e049b",
     "src/app/pages/company-detail/components/tab-sales/tab-sales.ts": "9d2d321def3080ce70322b425d5953910a77229eb4b12eca059b3bc7acce3a12",
     "src/app/ui/badge/src/lib/hlm-badge.ts": "ab8395b40aba2fbcbf755a1a325e60bf919569150b3301c3949a1c8c6f23aa8e",
     "src/app/ui/button/src/lib/hlm-button.token.ts": "a29d141b0c0f8878b9b339b49f917224e5e1b61bb5eccea7180f71bc66e41317",

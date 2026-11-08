@@ -1,0 +1,37 @@
+{
+  "state": "PASS",
+  "videoSha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+  "method": "Visual inspection of six contact sheets containing 90 samples from the final encoded MP4, plus full-resolution critical frames; full-file decode and audio/cadence checks are recorded separately. This is sampled visual QA, not a claim of a human real-time viewing/listening session.",
+  "sheets": [
+    "qa/final-contact-sheet-1.jpg",
+    "qa/final-contact-sheet-2.jpg",
+    "qa/final-contact-sheet-3.jpg",
+    "qa/final-contact-sheet-4.jpg",
+    "qa/final-contact-sheet-5.jpg",
+    "qa/final-contact-sheet-6.jpg"
+  ],
+  "fullResolutionCriticalFrames": [
+    "qa/final-critical-01-intro.png",
+    "qa/final-critical-19-redeem.png",
+    "qa/final-critical-20-redeem-errors.png",
+    "qa/final-critical-22-archive.png",
+    "qa/final-critical-26-wallet-access.png",
+    "qa/final-critical-27-company-status.png",
+    "qa/final-critical-29-help.png"
+  ],
+  "observations": [
+    "Chapter titles and subtitle band remain legible and separate from the controls.",
+    "Cursor and click feedback are present in actual source footage; operation results are visible.",
+    "Opening and closing use authentic Pointly and Bycode assets.",
+    "Contextual zooms preserve the active fields; supplementary responsive guide fills its intended frame.",
+    "Reviewed cuts remove repeated sign-in/loading passages and retain genuine failed/retried operations.",
+    "Scene 20 holds the actual insufficient-points message; scene 22 shows the actual public archived-account card with retained points and reactivation guidance.",
+    "Final samples contain UI content; no damaged or fully black intervals were found in the complete decode."
+  ],
+  "limits": [
+    "Printing remains partially validated in qa/print-verification.json.",
+    "Browser source cadence is measured VFR; final export is 60 FPS CFR. Reading holds are intentional.",
+    "Audio was checked through local independent acoustic transcription, hashes, clipping/silence and loudness analysis; no human listening session is claimed."
+  ],
+  "brandStatus": "draft, existing authentic assets and shared product profile preserved"
+}

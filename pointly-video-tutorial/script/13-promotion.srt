@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:03,520
+Las promociones permiten otorgar puntos extras durante un período,
+
+2
+00:00:03,520 --> 00:00:05,040
+si tu plan las incluye.
+
+3
+00:00:05,400 --> 00:00:09,340
+Creá una, poné un nombre claro y explicá las condiciones en la descripción.
+
+4
+00:00:09,740 --> 00:00:14,980
+Podés elegir 50 más, el doble, el triple o un beneficio personalizado.
+
+5
+00:00:15,440 --> 00:00:17,740
+Revisá la equivalencia que calcula la pantalla.
+
+6
+00:00:18,320 --> 00:00:21,140
+Elegí una fecha de inicio futura y un fin posterior.
+
+7
+00:00:21,480 --> 00:00:23,040
+Prestá atención al horario mostrado:
+
+8
+00:00:23,500 --> 00:00:26,240
+no supongas que una fecha significa todo el día.
+
+9
+00:00:26,240 --> 00:00:29,960
+Guardá y verificá la promoción en su lista antes de comunicarla.

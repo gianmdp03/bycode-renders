@@ -4,12 +4,12 @@
     {
       "label": "Required country and optional address",
       "url": "/dashboard/companies/new",
-      "at": 1793728814725.9
+      "at": 1794066098117.6
     },
     {
       "label": "New company persisted",
-      "url": "/companies/almacen-tutorial-inicio",
-      "at": 1793728816824.8
+      "url": "/companies/almacen-inicio-actualizado",
+      "at": 1794066100193.5
     }
   ],
   "network": [
@@ -50,17 +50,17 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/company-names/almacen-tutorial-inicio/company",
+      "path": "/api/pointly/company-names/almacen-inicio-actualizado/company",
       "status": 200
     },
     {
       "method": "GET",
-      "path": "/api/pointly/points-accounts/3",
+      "path": "/api/pointly/points-accounts/5",
       "status": 200
     },
     {
       "method": "GET",
-      "path": "/api/pointly/sales/3",
+      "path": "/api/pointly/sales/5",
       "status": 200
     },
     {
@@ -69,6 +69,6 @@
       "status": 200
     }
   ],
-  "source": "recordings/04-company-1793728832281.mp4",
+  "source": "recordings/04-company-1794066102114.mp4",
   "obs": null
 }

@@ -3,23 +3,23 @@
   "evidence": [
     {
       "label": "Paused reward cannot be redeemed",
-      "url": "/companies/cafe-del-puerto-tutorial",
-      "at": 1793728131358.5
+      "url": "/companies/cafe-del-puerto-actualizado",
+      "at": 1794066661843
     },
     {
       "label": "Permanent deletion confirmation",
-      "url": "/companies/cafe-del-puerto-tutorial",
-      "at": 1793728135814.2
+      "url": "/companies/cafe-del-puerto-actualizado",
+      "at": 1794066666221
     },
     {
       "label": "Reward kept after cancel",
-      "url": "/companies/cafe-del-puerto-tutorial",
-      "at": 1793728137172.5999
+      "url": "/companies/cafe-del-puerto-actualizado",
+      "at": 1794066667501.6
     },
     {
       "label": "Tutorial voucher deleted; previous rewards kept",
-      "url": "/companies/cafe-del-puerto-tutorial",
-      "at": 1793728140491.8
+      "url": "/companies/cafe-del-puerto-actualizado",
+      "at": 1794066670981
     }
   ],
   "network": [
@@ -40,12 +40,12 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/company-names/cafe-del-puerto-tutorial/company",
+      "path": "/api/pointly/company-names/cafe-del-puerto-actualizado/company",
       "status": 200
     },
     {
       "method": "GET",
-      "path": "/api/pointly/public/media/6dedfc39-a8dd-4815-a680-b61b8db0307c",
+      "path": "/api/pointly/public/media/abf1bc3b-8f5e-47c2-b69a-d4822226336f",
       "status": 200
     },
     {
@@ -65,7 +65,7 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/public/media/f33469e7-1cfe-4712-b96d-37d148235122",
+      "path": "/api/pointly/public/media/54205951-616e-4193-b744-ff952b405222",
       "status": 200
     },
     {
@@ -80,12 +80,17 @@
     },
     {
       "method": "PUT",
-      "path": "/api/pointly/rewards/1/1",
+      "path": "/api/pointly/rewards/1/2",
       "status": 200
     },
     {
       "method": "GET",
       "path": "/api/pointly/companies/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/media/54205951-616e-4193-b744-ff952b405222",
       "status": 200
     },
     {
@@ -105,7 +110,7 @@
     },
     {
       "method": "POST",
-      "path": "/api/pointly/rewards/1/1/pause",
+      "path": "/api/pointly/rewards/1/2/pause",
       "status": 204
     },
     {
@@ -125,7 +130,7 @@
     },
     {
       "method": "POST",
-      "path": "/api/pointly/rewards/1/1/reactivate",
+      "path": "/api/pointly/rewards/1/2/reactivate",
       "status": 204
     },
     {
@@ -145,7 +150,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/api/pointly/rewards/1/5",
+      "path": "/api/pointly/rewards/1/9",
       "status": 204
     },
     {
@@ -164,6 +169,6 @@
       "status": 200
     }
   ],
-  "source": "recordings/18-reward-life-1793728144213.mp4",
+  "source": "recordings/18-reward-life-1794066673147.mp4",
   "obs": null
 }

@@ -13,7 +13,7 @@
   "words": [
     {
       "word": "La",
-      "start": 0.0,
+      "start": 0,
       "end": 0.28,
       "probability": 0.7209244966506958,
       "display": "La"
@@ -315,13 +315,13 @@
     {
       "word": "o",
       "start": 16.72,
-      "end": 17.0,
+      "end": 17,
       "probability": 0.9939217567443848,
       "display": "o"
     },
     {
       "word": "quitar",
-      "start": 17.0,
+      "start": 17,
       "end": 17.26,
       "probability": 0.9919561743736267,
       "display": "quitar"
@@ -606,64 +606,62 @@
       "startMs": 0,
       "endMs": 2600,
       "timestampMs": null,
-      "confidence": 0.957
+      "confidence": 0.9565839999251895
     },
     {
       "text": "Podemos subir un archivo JPEG, PNG o WebP de hasta 10 MB.",
       "startMs": 3080,
       "endMs": 8060,
       "timestampMs": null,
-      "confidence": 0.83
+      "confidence": 0.8304188288748264
     },
     {
-      "text": "Ajustamos el recorte con los controles de posición y zoom, y guardamos la",
+      "text": "Ajustamos el recorte con los controles de posición y zoom, y guardamos la imagen.",
       "startMs": 8680,
-      "endMs": 12920,
-      "timestampMs": null,
-      "confidence": 0.967
-    },
-    {
-      "text": "imagen.",
-      "startMs": 12920,
       "endMs": 13240,
       "timestampMs": null,
-      "confidence": 0.998
+      "confidence": 0.9687835673491161
     },
     {
       "text": "Desde esta misma página también se puede reemplazar o quitar la foto.",
       "startMs": 13960,
       "endMs": 17680,
       "timestampMs": null,
-      "confidence": 0.994
+      "confidence": 0.9943321794271469
     },
     {
       "text": "El nombre público del enlace se modifica desde su configuración.",
       "startMs": 18280,
       "endMs": 21620,
       "timestampMs": null,
-      "confidence": 0.992
+      "confidence": 0.9917813569307328
     },
     {
       "text": "Revisá la disponibilidad y la advertencia:",
       "startMs": 22120,
       "endMs": 24460,
       "timestampMs": null,
-      "confidence": 0.97
+      "confidence": 0.9699269607663155
     },
     {
       "text": "al confirmar el cambio, el acceso anterior deja de funcionar.",
       "startMs": 24800,
       "endMs": 28440,
       "timestampMs": null,
-      "confidence": 0.996
+      "confidence": 0.9957398355007172
     },
     {
       "text": "Compartí el nuevo enlace y el nuevo QR con tus clientes.",
       "startMs": 28440,
       "endMs": 32200,
       "timestampMs": null,
-      "confidence": 0.981
+      "confidence": 0.981473249016386
     }
   ],
-  "status": "REVIEW_REQUIRED"
+  "status": "REVIEW_REQUIRED",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [],
+    "sourceAudioHash": "3a171af5bec9d8964a05b2d1d173b62e7b3b70822efee44a56419c505cc9e5f2"
+  }
 }

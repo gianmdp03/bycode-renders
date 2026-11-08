@@ -23,7 +23,7 @@
   "words": [
     {
       "word": "Volvemos",
-      "start": 0.0,
+      "start": 0,
       "end": 0.78,
       "probability": 0.9391940434773763,
       "display": "Volvemos"
@@ -458,13 +458,13 @@
     {
       "word": "estado",
       "start": 23.62,
-      "end": 24.0,
+      "end": 24,
       "probability": 0.9677493572235107,
       "display": "estado"
     },
     {
       "word": "y",
-      "start": 24.0,
+      "start": 24,
       "end": 24.2,
       "probability": 0.9896163940429688,
       "display": "y"
@@ -602,78 +602,83 @@
       "startMs": 0,
       "endMs": 1680,
       "timestampMs": null,
-      "confidence": 0.953
+      "confidence": 0.9531828661759695
     },
     {
       "text": "Deshabilitar un comercio lo oculta y bloquea compras y canjes;",
       "startMs": 2280,
       "endMs": 5620,
       "timestampMs": null,
-      "confidence": 0.981
+      "confidence": 0.9811668490370113
     },
     {
       "text": "no libera su cupo de comercios.",
       "startMs": 5960,
       "endMs": 7340,
       "timestampMs": null,
-      "confidence": 0.954
+      "confidence": 0.9538912524779638
     },
     {
       "text": "Leé la confirmación antes de hacerlo.",
       "startMs": 7880,
       "endMs": 9940,
       "timestampMs": null,
-      "confidence": 0.953
+      "confidence": 0.9528533468643824
     },
     {
-      "text": "Si permanece deshabilitado más de 30 días, sus clientes se archivan",
+      "text": "Si permanece deshabilitado más de 30 días,",
       "startMs": 10360,
-      "endMs": 14380,
+      "endMs": 12760,
       "timestampMs": null,
-      "confidence": 0.984
+      "confidence": 0.9814080130486261
     },
     {
-      "text": "conservando el historial.",
-      "startMs": 14380,
+      "text": "sus clientes se archivan conservando el historial.",
+      "startMs": 13100,
       "endMs": 15580,
       "timestampMs": null,
-      "confidence": 0.993
+      "confidence": 0.9895019403525761
     },
     {
       "text": "Para volver a operar, habilitarlo nuevamente y revisar las cuentas.",
       "startMs": 15860,
       "endMs": 19240,
       "timestampMs": null,
-      "confidence": 0.954
+      "confidence": 0.9537238284945488
     },
     {
       "text": "Los límites dependen del plan.",
       "startMs": 19720,
       "endMs": 21280,
       "timestampMs": null,
-      "confidence": 0.991
+      "confidence": 0.9914064248402912
     },
     {
       "text": "Una cuenta sin plan activo muestra ese estado y deriva a Bycode para gestionar",
       "startMs": 21660,
       "endMs": 25740,
       "timestampMs": null,
-      "confidence": 0.886
+      "confidence": 0.8861299686666045
     },
     {
       "text": "las opciones;",
       "startMs": 25740,
       "endMs": 26360,
       "timestampMs": null,
-      "confidence": 0.998
+      "confidence": 0.9980917274951935
     },
     {
       "text": "no alcanza con crear una cuenta para habilitar todas las funciones.",
       "startMs": 26360,
       "endMs": 30160,
       "timestampMs": null,
-      "confidence": 0.944
+      "confidence": 0.9436651919827317
     }
   ],
-  "status": "REVIEW_REQUIRED"
+  "status": "REVIEW_REQUIRED",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [],
+    "sourceAudioHash": "1f36ef6b252d75dad0c97157abc56dc496952dd165d957b00976c50a1951f868"
+  }
 }

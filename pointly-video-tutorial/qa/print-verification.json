@@ -1,0 +1,11 @@
+{
+  "state":"PARTIAL_HEADLESS_LIMITATION",
+  "source":"src/app/components/qr-generator/qr-generator.ts:294",
+  "scene":"09-qr",
+  "validated":["Real QR link copied","Actual PNG download saved","Actual print button opened a popup with the product's title"],
+  "unvalidated":["Full printable card rendering in the local headless popup","Native print dialog and physical printing"],
+  "observed":"The popup retained its title and head elements but did not finish rendering its card in this capture environment. A blank screenshot is not used as a successful print demonstration.",
+  "tutorialFallback":"The narrated scene explains downloading the QR PNG when the print window is blocked or does not open.",
+  "businessCodeChanged":false,
+  "physicalPrintSent":false
+}

@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:03,900
+Antes de canjear, acordá con el cliente qué premio va a recibir.
+
+2
+00:00:04,520 --> 00:00:08,260
+En su tarjeta, abrí Canjear e indicá país y DNI.
+
+3
+00:00:08,260 --> 00:00:12,240
+Verificá el nombre del premio y su costo, y confirmá una sola vez.
+
+4
+00:00:12,840 --> 00:00:15,460
+En nuestro ejemplo, el café cuesta 80 puntos:
+
+5
+00:00:15,880 --> 00:00:20,600
+después del canje, el saldo baja en esa cantidad y aparece un movimiento de canje en
+
+6
+00:00:20,600 --> 00:00:21,080
+el historial.
+
+7
+00:00:21,640 --> 00:00:25,480
+La entrega física o la aplicación del descuento la coordina el comercio.
+
+8
+00:00:25,480 --> 00:00:30,580
+El cliente consulta sus opciones en la billetera, pero no ejecuta el canje desde allí.

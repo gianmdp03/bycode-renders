@@ -4,28 +4,63 @@
     {
       "label": "Company availability confirmation",
       "url": "/dashboard",
-      "at": 1793728553717.8
+      "at": 1794068095650.3
     },
     {
       "label": "Company disabled",
       "url": "/dashboard",
-      "at": 1793728554987.1
+      "at": 1794068097784.7
     },
     {
       "label": "Company enabled again",
       "url": "/dashboard",
-      "at": 1793728557385.1
+      "at": 1794068102470.6
     },
     {
       "label": "Real account without plan",
       "url": "/dashboard",
-      "at": 1793728558555.7
+      "at": 1794068109849.8
+    },
+    {
+      "label": "Actual plan-limit page opened without creating a business or buying a plan",
+      "url": "/plan-limit",
+      "at": 1794068112023.5
     }
   ],
   "network": [
     {
       "method": "GET",
+      "path": "/api/pointly/companies/my-companies",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/media/abf1bc3b-8f5e-47c2-b69a-d4822226336f",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
       "path": "/api/billing/account/profile",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
       "status": 200
     },
     {
@@ -35,47 +70,12 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/public/media/6dedfc39-a8dd-4815-a680-b61b8db0307c",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/limits/my-limits",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/limits/my-limits",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/limits/my-limits",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/billing/account/profile",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/companies/my-companies",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/public/media/6dedfc39-a8dd-4815-a680-b61b8db0307c",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/limits/my-limits",
+      "path": "/api/pointly/public/media/abf1bc3b-8f5e-47c2-b69a-d4822226336f",
       "status": 200
     },
     {
       "method": "DELETE",
-      "path": "/api/pointly/companies/disable/1",
+      "path": "/api/pointly/companies/disable/4",
       "status": 204
     },
     {
@@ -85,7 +85,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/api/pointly/companies/enable/1",
+      "path": "/api/pointly/companies/enable/4",
       "status": 204
     },
     {
@@ -100,11 +100,6 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/limits/my-limits",
-      "status": 200
-    },
-    {
-      "method": "GET",
       "path": "/api/billing/account/profile",
       "status": 200
     },
@@ -115,17 +110,27 @@
     },
     {
       "method": "GET",
-      "path": "/api/billing/account/profile",
+      "path": "/api/pointly/limits/my-limits",
       "status": 200
     },
     {
       "method": "GET",
       "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/billing/account/profile",
       "status": 200
     },
     {
       "method": "GET",
       "path": "/api/pointly/companies/my-companies",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
       "status": 200
     },
     {
@@ -134,6 +139,6 @@
       "status": 200
     }
   ],
-  "source": "recordings/27-company-status-1793728582160.mp4",
+  "source": "recordings/27-company-status-1794068114362.mp4",
   "obs": null
 }

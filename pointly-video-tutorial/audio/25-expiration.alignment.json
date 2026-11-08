@@ -1,686 +1,735 @@
 {
   "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
-  "audio_sha256": "264039b98a1d5ca0470f4bf8f89876965ba885c7eb528f97ba681d6b18a36d47",
-  "transcript": "El detalle de puntos separa los que tienen vencimiento de los que no vencen. Revisar las fechas y cantidades de cada grupo. El saldo disponible es la referencia para un canje. Si hay varias páginas de vencimientos, cargar las siguientes para revisar el resto. La regla actual del comercio describe nuevas compras, pero no reemplaza la fecha que ya tiene cada grupo anterior. Así podés explicarle al cliente qué puntos necesita usar primero sin prometer que una compra nueva renovará todos sus puntos. .",
-  "scriptSimilarity": 0.9701,
+  "audio_sha256": "0bb8ff87830b376e8b75fc16d737e6585f1ee3c514456711a7d6b3eb06aca85f",
+  "transcript": "Para revisar varias fechas, abrimos la billetera de Camila, una cliente con historial de compras. Ver detalles separa los puntos con vencimiento de los que no vencen. Revisar las fechas y cantidades de cada grupo. El saldo disponible es la referencia para un canje. Cargar más vencimientos permite revisar las siguientes fechas. La regla actual del comercio describe nuevas compras, pero no reemplaza la fecha que ya tiene cada grupo anterior. Así podés explicarle al cliente qué puntos necesita usar primero sin prometer que una compra nueva renovará todos sus puntos.",
+  "scriptSimilarity": 0.978,
   "differences": [
+    {
+      "op": "replace",
+      "expected": "detalle",
+      "heard": "detalles"
+    },
     {
       "op": "replace",
       "expected": "Revisá",
       "heard": "Revisar"
-    },
-    {
-      "op": "replace",
-      "expected": "cargá",
-      "heard": "cargar"
-    },
-    {
-      "op": "insert",
-      "expected": "",
-      "heard": "."
     }
   ],
   "words": [
     {
-      "word": "El",
-      "start": 0.0,
-      "end": 0.5,
-      "probability": 0.9658293128013611,
-      "display": "El"
+      "word": "Para",
+      "start": 0,
+      "end": 0.3,
+      "probability": 0.9379310011863708,
+      "display": "Para"
     },
     {
-      "word": "detalle",
-      "start": 0.5,
-      "end": 0.82,
-      "probability": 0.8892494440078735,
-      "display": "detalle"
+      "word": "revisar",
+      "start": 0.3,
+      "end": 0.74,
+      "probability": 0.9871233105659485,
+      "display": "revisar"
+    },
+    {
+      "word": "varias",
+      "start": 0.74,
+      "end": 1.02,
+      "probability": 0.9968275427818298,
+      "display": "varias"
+    },
+    {
+      "word": "fechas,",
+      "start": 1.02,
+      "end": 1.48,
+      "probability": 0.9962809979915619,
+      "display": "fechas,"
+    },
+    {
+      "word": "abrimos",
+      "start": 1.72,
+      "end": 2.1,
+      "probability": 0.9855629404385885,
+      "display": "abrimos"
+    },
+    {
+      "word": "la",
+      "start": 2.1,
+      "end": 2.24,
+      "probability": 0.9928891658782959,
+      "display": "la"
+    },
+    {
+      "word": "billetera",
+      "start": 2.24,
+      "end": 2.64,
+      "probability": 0.9640019536018372,
+      "display": "billetera"
     },
     {
       "word": "de",
-      "start": 0.82,
-      "end": 0.98,
-      "probability": 0.9990944862365723,
+      "start": 2.64,
+      "end": 2.8,
+      "probability": 0.9942283630371094,
       "display": "de"
     },
     {
-      "word": "puntos",
-      "start": 0.98,
-      "end": 1.24,
-      "probability": 0.9773480892181396,
-      "display": "puntos"
+      "word": "Camila,",
+      "start": 2.8,
+      "end": 3.18,
+      "probability": 0.8999773859977722,
+      "display": "Camila,"
+    },
+    {
+      "word": "una",
+      "start": 3.56,
+      "end": 3.74,
+      "probability": 0.9831885695457458,
+      "display": "una"
+    },
+    {
+      "word": "cliente",
+      "start": 3.74,
+      "end": 4.22,
+      "probability": 0.9714021682739258,
+      "display": "cliente"
+    },
+    {
+      "word": "con",
+      "start": 4.22,
+      "end": 4.36,
+      "probability": 0.9932910203933716,
+      "display": "con"
+    },
+    {
+      "word": "historial",
+      "start": 4.36,
+      "end": 4.78,
+      "probability": 0.920928418636322,
+      "display": "historial"
+    },
+    {
+      "word": "de",
+      "start": 4.78,
+      "end": 4.94,
+      "probability": 0.997646152973175,
+      "display": "de"
+    },
+    {
+      "word": "compras.",
+      "start": 4.94,
+      "end": 5.36,
+      "probability": 0.9929459095001221,
+      "display": "compras."
+    },
+    {
+      "word": "Ver",
+      "start": 5.82,
+      "end": 6.06,
+      "probability": 0.9519813060760498,
+      "display": "Ver"
+    },
+    {
+      "word": "detalles",
+      "start": 6.06,
+      "end": 6.46,
+      "probability": 0.9602760374546051,
+      "display": "detalles"
     },
     {
       "word": "separa",
-      "start": 1.24,
-      "end": 1.7,
-      "probability": 0.9633708596229553,
+      "start": 6.46,
+      "end": 6.94,
+      "probability": 0.9509959518909454,
       "display": "separa"
     },
     {
       "word": "los",
-      "start": 1.7,
-      "end": 1.86,
-      "probability": 0.9691811800003052,
+      "start": 6.94,
+      "end": 7.08,
+      "probability": 0.9943962097167969,
       "display": "los"
     },
     {
-      "word": "que",
-      "start": 1.86,
-      "end": 2.04,
-      "probability": 0.9985995888710022,
-      "display": "que"
+      "word": "puntos",
+      "start": 7.08,
+      "end": 7.42,
+      "probability": 0.9965696334838867,
+      "display": "puntos"
     },
     {
-      "word": "tienen",
-      "start": 2.04,
-      "end": 2.28,
-      "probability": 0.9350307583808899,
-      "display": "tienen"
+      "word": "con",
+      "start": 7.42,
+      "end": 7.72,
+      "probability": 0.97334223985672,
+      "display": "con"
     },
     {
       "word": "vencimiento",
-      "start": 2.28,
-      "end": 2.9,
-      "probability": 0.9848621487617493,
+      "start": 7.72,
+      "end": 8.24,
+      "probability": 0.9843132297197977,
       "display": "vencimiento"
     },
     {
       "word": "de",
-      "start": 2.9,
-      "end": 3.2,
-      "probability": 0.9682580232620239,
+      "start": 8.24,
+      "end": 8.48,
+      "probability": 0.9941316246986389,
       "display": "de"
     },
     {
       "word": "los",
-      "start": 3.2,
-      "end": 3.3,
-      "probability": 0.9984825253486633,
+      "start": 8.48,
+      "end": 8.6,
+      "probability": 0.9961769580841064,
       "display": "los"
     },
     {
       "word": "que",
-      "start": 3.3,
-      "end": 3.48,
-      "probability": 0.9981670379638672,
+      "start": 8.6,
+      "end": 8.76,
+      "probability": 0.998418927192688,
       "display": "que"
     },
     {
       "word": "no",
-      "start": 3.48,
-      "end": 3.66,
-      "probability": 0.9963939785957336,
+      "start": 8.76,
+      "end": 8.94,
+      "probability": 0.9976160526275635,
       "display": "no"
     },
     {
       "word": "vencen.",
-      "start": 3.66,
-      "end": 4.04,
-      "probability": 0.991288959980011,
+      "start": 8.94,
+      "end": 9.3,
+      "probability": 0.993970662355423,
       "display": "vencen."
     },
     {
       "word": "Revisar",
-      "start": 4.56,
-      "end": 5.02,
-      "probability": 0.5473466664552689,
+      "start": 9.74,
+      "end": 10.3,
+      "probability": 0.8507376710573832,
       "display": "Revisar"
     },
     {
       "word": "las",
-      "start": 5.02,
-      "end": 5.2,
-      "probability": 0.9942723512649536,
+      "start": 10.3,
+      "end": 10.46,
+      "probability": 0.9913555979728699,
       "display": "las"
     },
     {
       "word": "fechas",
-      "start": 5.2,
-      "end": 5.5,
-      "probability": 0.9941597878932953,
+      "start": 10.46,
+      "end": 10.82,
+      "probability": 0.9967514872550964,
       "display": "fechas"
     },
     {
       "word": "y",
-      "start": 5.5,
-      "end": 5.7,
-      "probability": 0.9966821074485779,
+      "start": 10.82,
+      "end": 11.02,
+      "probability": 0.9911160469055176,
       "display": "y"
     },
     {
       "word": "cantidades",
-      "start": 5.7,
-      "end": 6.2,
-      "probability": 0.9965665340423584,
+      "start": 11.02,
+      "end": 11.5,
+      "probability": 0.9952193796634674,
       "display": "cantidades"
     },
     {
       "word": "de",
-      "start": 6.2,
-      "end": 6.42,
-      "probability": 0.9992290735244751,
+      "start": 11.5,
+      "end": 11.7,
+      "probability": 0.999146580696106,
       "display": "de"
     },
     {
       "word": "cada",
-      "start": 6.42,
-      "end": 6.6,
-      "probability": 0.9995686411857605,
+      "start": 11.7,
+      "end": 11.9,
+      "probability": 0.9995856881141663,
       "display": "cada"
     },
     {
       "word": "grupo.",
-      "start": 6.6,
-      "end": 6.9,
-      "probability": 0.9992018342018127,
+      "start": 11.9,
+      "end": 12.2,
+      "probability": 0.9989588260650635,
       "display": "grupo:"
     },
     {
       "word": "El",
-      "start": 7.48,
-      "end": 7.74,
-      "probability": 0.9961112141609192,
+      "start": 12.72,
+      "end": 12.9,
+      "probability": 0.9913525581359863,
       "display": "el"
     },
     {
       "word": "saldo",
-      "start": 7.74,
-      "end": 8.02,
-      "probability": 0.9990006685256958,
+      "start": 12.9,
+      "end": 13.24,
+      "probability": 0.9991444647312164,
       "display": "saldo"
     },
     {
       "word": "disponible",
-      "start": 8.02,
-      "end": 8.56,
-      "probability": 0.9982470571994781,
+      "start": 13.24,
+      "end": 13.8,
+      "probability": 0.9971442222595215,
       "display": "disponible"
     },
     {
       "word": "es",
-      "start": 8.56,
-      "end": 8.9,
-      "probability": 0.9936955571174622,
+      "start": 13.8,
+      "end": 14.08,
+      "probability": 0.9750396013259888,
       "display": "es"
     },
     {
       "word": "la",
-      "start": 8.9,
-      "end": 9.04,
-      "probability": 0.998416543006897,
+      "start": 14.08,
+      "end": 14.18,
+      "probability": 0.9979074001312256,
       "display": "la"
     },
     {
       "word": "referencia",
-      "start": 9.04,
-      "end": 9.58,
-      "probability": 0.9980185627937317,
+      "start": 14.18,
+      "end": 14.62,
+      "probability": 0.9975822865962982,
       "display": "referencia"
     },
     {
       "word": "para",
-      "start": 9.58,
-      "end": 9.82,
-      "probability": 0.998171329498291,
+      "start": 14.62,
+      "end": 14.86,
+      "probability": 0.9973952770233154,
       "display": "para"
     },
     {
       "word": "un",
-      "start": 9.82,
-      "end": 9.94,
-      "probability": 0.9974857568740845,
+      "start": 14.86,
+      "end": 15.02,
+      "probability": 0.996853768825531,
       "display": "un"
     },
     {
       "word": "canje.",
-      "start": 9.94,
-      "end": 10.28,
-      "probability": 0.9237326085567474,
+      "start": 15.02,
+      "end": 15.32,
+      "probability": 0.8967919051647186,
       "display": "canje."
     },
     {
-      "word": "Si",
-      "start": 10.82,
-      "end": 10.98,
-      "probability": 0.9950148463249207,
-      "display": "Si"
+      "word": "Cargar",
+      "start": 15.72,
+      "end": 16.02,
+      "probability": 0.9440954327583313,
+      "display": "Cargar"
     },
     {
-      "word": "hay",
-      "start": 10.98,
-      "end": 11.1,
-      "probability": 0.9985535740852356,
-      "display": "hay"
+      "word": "más",
+      "start": 16.02,
+      "end": 16.22,
+      "probability": 0.9935911893844604,
+      "display": "más"
     },
     {
-      "word": "varias",
-      "start": 11.1,
-      "end": 11.34,
-      "probability": 0.9956369996070862,
-      "display": "varias"
+      "word": "vencimientos",
+      "start": 16.22,
+      "end": 16.84,
+      "probability": 0.9966263175010681,
+      "display": "vencimientos"
     },
     {
-      "word": "páginas",
-      "start": 11.34,
-      "end": 11.86,
-      "probability": 0.9950486818949381,
-      "display": "páginas"
+      "word": "permite",
+      "start": 16.84,
+      "end": 17.32,
+      "probability": 0.9494722485542297,
+      "display": "permite"
     },
     {
-      "word": "de",
-      "start": 11.86,
-      "end": 11.96,
-      "probability": 0.9975023865699768,
-      "display": "de"
-    },
-    {
-      "word": "vencimientos,",
-      "start": 11.96,
-      "end": 12.48,
-      "probability": 0.9912481307983398,
-      "display": "vencimientos,"
-    },
-    {
-      "word": "cargar",
-      "start": 12.94,
-      "end": 13.18,
-      "probability": 0.5474627315998077,
-      "display": "cargar"
+      "word": "revisar",
+      "start": 17.32,
+      "end": 17.88,
+      "probability": 0.9965806305408478,
+      "display": "revisar"
     },
     {
       "word": "las",
-      "start": 13.18,
-      "end": 13.4,
-      "probability": 0.3843570649623871,
+      "start": 17.88,
+      "end": 18.02,
+      "probability": 0.9894681572914124,
       "display": "las"
     },
     {
       "word": "siguientes",
-      "start": 13.4,
-      "end": 13.82,
-      "probability": 0.9981405138969421,
+      "start": 18.02,
+      "end": 18.44,
+      "probability": 0.9986057579517365,
       "display": "siguientes"
     },
     {
-      "word": "para",
-      "start": 13.82,
-      "end": 14.1,
-      "probability": 0.9982808828353882,
-      "display": "para"
-    },
-    {
-      "word": "revisar",
-      "start": 14.1,
-      "end": 14.56,
-      "probability": 0.9934568703174591,
-      "display": "revisar"
-    },
-    {
-      "word": "el",
-      "start": 14.56,
-      "end": 14.66,
-      "probability": 0.9986114501953125,
-      "display": "el"
-    },
-    {
-      "word": "resto.",
-      "start": 14.66,
-      "end": 14.92,
-      "probability": 0.9987910389900208,
-      "display": "resto."
+      "word": "fechas.",
+      "start": 18.44,
+      "end": 18.84,
+      "probability": 0.9977057576179504,
+      "display": "fechas."
     },
     {
       "word": "La",
-      "start": 15.52,
-      "end": 15.72,
-      "probability": 0.9950215816497803,
+      "start": 19.28,
+      "end": 19.44,
+      "probability": 0.9936349391937256,
       "display": "La"
     },
     {
       "word": "regla",
-      "start": 15.72,
-      "end": 16.0,
-      "probability": 0.9462138116359711,
+      "start": 19.44,
+      "end": 19.7,
+      "probability": 0.9633670449256897,
       "display": "regla"
     },
     {
       "word": "actual",
-      "start": 16.0,
-      "end": 16.28,
-      "probability": 0.9964536428451538,
+      "start": 19.7,
+      "end": 19.98,
+      "probability": 0.9962905645370483,
       "display": "actual"
     },
     {
       "word": "del",
-      "start": 16.28,
-      "end": 16.5,
-      "probability": 0.9947437047958374,
+      "start": 19.98,
+      "end": 20.18,
+      "probability": 0.9955533146858215,
       "display": "del"
     },
     {
       "word": "comercio",
-      "start": 16.5,
-      "end": 16.96,
-      "probability": 0.995184451341629,
+      "start": 20.18,
+      "end": 20.68,
+      "probability": 0.9952236413955688,
       "display": "comercio"
     },
     {
       "word": "describe",
-      "start": 16.96,
-      "end": 17.34,
-      "probability": 0.9241123795509338,
+      "start": 20.68,
+      "end": 21.08,
+      "probability": 0.9467313885688782,
       "display": "describe"
     },
     {
       "word": "nuevas",
-      "start": 17.34,
-      "end": 17.66,
-      "probability": 0.9972130656242371,
+      "start": 21.08,
+      "end": 21.46,
+      "probability": 0.9964866638183594,
       "display": "nuevas"
     },
     {
       "word": "compras,",
-      "start": 17.66,
-      "end": 18.2,
-      "probability": 0.9956318736076355,
+      "start": 21.46,
+      "end": 21.96,
+      "probability": 0.998440682888031,
       "display": "compras,"
     },
     {
       "word": "pero",
-      "start": 18.6,
-      "end": 18.8,
-      "probability": 0.9948652386665344,
+      "start": 22.24,
+      "end": 22.48,
+      "probability": 0.9941516518592834,
       "display": "pero"
     },
     {
       "word": "no",
-      "start": 18.8,
-      "end": 19.0,
-      "probability": 0.9978089928627014,
+      "start": 22.48,
+      "end": 22.64,
+      "probability": 0.9982851147651672,
       "display": "no"
     },
     {
       "word": "reemplaza",
-      "start": 19.0,
-      "end": 19.48,
-      "probability": 0.9707067211469015,
+      "start": 22.64,
+      "end": 23.12,
+      "probability": 0.9761127829551697,
       "display": "reemplaza"
     },
     {
       "word": "la",
-      "start": 19.48,
-      "end": 19.64,
-      "probability": 0.9978095889091492,
+      "start": 23.12,
+      "end": 23.28,
+      "probability": 0.9974240064620972,
       "display": "la"
     },
     {
       "word": "fecha",
-      "start": 19.64,
-      "end": 19.98,
-      "probability": 0.999407947063446,
+      "start": 23.28,
+      "end": 23.6,
+      "probability": 0.9989115595817566,
       "display": "fecha"
     },
     {
       "word": "que",
-      "start": 19.98,
-      "end": 20.16,
-      "probability": 0.9946367144584656,
+      "start": 23.6,
+      "end": 23.76,
+      "probability": 0.9940041899681091,
       "display": "que"
     },
     {
       "word": "ya",
-      "start": 20.16,
-      "end": 20.34,
-      "probability": 0.9961070418357849,
+      "start": 23.76,
+      "end": 23.98,
+      "probability": 0.9953314661979675,
       "display": "ya"
     },
     {
       "word": "tiene",
-      "start": 20.34,
-      "end": 20.6,
-      "probability": 0.9982879757881165,
+      "start": 23.98,
+      "end": 24.26,
+      "probability": 0.9984996318817139,
       "display": "tiene"
     },
     {
       "word": "cada",
-      "start": 20.6,
-      "end": 20.9,
-      "probability": 0.9973592162132263,
+      "start": 24.26,
+      "end": 24.5,
+      "probability": 0.9976415634155273,
       "display": "cada"
     },
     {
       "word": "grupo",
-      "start": 20.9,
-      "end": 21.18,
-      "probability": 0.9987648725509644,
+      "start": 24.5,
+      "end": 24.74,
+      "probability": 0.9966651797294617,
       "display": "grupo"
     },
     {
       "word": "anterior.",
-      "start": 21.18,
-      "end": 21.54,
-      "probability": 0.9977298378944397,
+      "start": 24.74,
+      "end": 25.08,
+      "probability": 0.9961968660354614,
       "display": "anterior."
     },
     {
       "word": "Así",
-      "start": 22.28,
-      "end": 22.62,
-      "probability": 0.9918248057365417,
+      "start": 25.08,
+      "end": 25.52,
+      "probability": 0.8622657060623169,
       "display": "Así"
     },
     {
       "word": "podés",
-      "start": 22.62,
-      "end": 23.0,
-      "probability": 0.840509831905365,
+      "start": 25.52,
+      "end": 25.86,
+      "probability": 0.7765967845916748,
       "display": "podés"
     },
     {
       "word": "explicarle",
-      "start": 23.0,
-      "end": 23.68,
-      "probability": 0.9912717640399933,
+      "start": 25.86,
+      "end": 26.5,
+      "probability": 0.9874889254570007,
       "display": "explicarle"
     },
     {
       "word": "al",
-      "start": 23.68,
-      "end": 23.76,
-      "probability": 0.9945504069328308,
+      "start": 26.5,
+      "end": 26.6,
+      "probability": 0.9752285480499268,
       "display": "al"
     },
     {
       "word": "cliente",
-      "start": 23.76,
-      "end": 24.26,
-      "probability": 0.9967895150184631,
+      "start": 26.6,
+      "end": 27.12,
+      "probability": 0.9963561296463013,
       "display": "cliente"
     },
     {
       "word": "qué",
-      "start": 24.26,
-      "end": 24.5,
-      "probability": 0.8967206478118896,
+      "start": 27.12,
+      "end": 27.36,
+      "probability": 0.6086471676826477,
       "display": "qué"
     },
     {
       "word": "puntos",
-      "start": 24.5,
-      "end": 24.8,
-      "probability": 0.9954565763473511,
+      "start": 27.36,
+      "end": 27.62,
+      "probability": 0.9938377737998962,
       "display": "puntos"
     },
     {
       "word": "necesita",
-      "start": 24.8,
-      "end": 25.16,
-      "probability": 0.9818103313446045,
+      "start": 27.62,
+      "end": 27.94,
+      "probability": 0.9575634002685547,
       "display": "necesita"
     },
     {
       "word": "usar",
-      "start": 25.16,
-      "end": 25.58,
-      "probability": 0.989343523979187,
+      "start": 27.94,
+      "end": 28.36,
+      "probability": 0.9701701402664185,
       "display": "usar"
     },
     {
       "word": "primero",
-      "start": 25.58,
-      "end": 26.08,
-      "probability": 0.9963746666908264,
+      "start": 28.36,
+      "end": 28.78,
+      "probability": 0.9938057661056519,
       "display": "primero"
     },
     {
       "word": "sin",
-      "start": 26.08,
-      "end": 26.36,
-      "probability": 0.7373811602592468,
+      "start": 28.78,
+      "end": 29.06,
+      "probability": 0.9348250031471252,
       "display": "sin"
     },
     {
       "word": "prometer",
-      "start": 26.36,
-      "end": 26.76,
-      "probability": 0.7849525213241577,
+      "start": 29.06,
+      "end": 29.52,
+      "probability": 0.8345815241336823,
       "display": "prometer"
     },
     {
       "word": "que",
-      "start": 26.76,
-      "end": 27.04,
-      "probability": 0.9978481531143188,
+      "start": 29.52,
+      "end": 29.76,
+      "probability": 0.9881303310394287,
       "display": "que"
     },
     {
       "word": "una",
-      "start": 27.04,
-      "end": 27.2,
-      "probability": 0.9980387091636658,
+      "start": 29.76,
+      "end": 29.9,
+      "probability": 0.9967953562736511,
       "display": "una"
     },
     {
       "word": "compra",
-      "start": 27.2,
-      "end": 27.52,
-      "probability": 0.9855201840400696,
+      "start": 29.9,
+      "end": 30.22,
+      "probability": 0.9942664504051208,
       "display": "compra"
     },
     {
       "word": "nueva",
-      "start": 27.52,
-      "end": 27.9,
-      "probability": 0.9974363446235657,
+      "start": 30.22,
+      "end": 30.54,
+      "probability": 0.9874356985092163,
       "display": "nueva"
     },
     {
       "word": "renovará",
-      "start": 27.9,
-      "end": 28.52,
-      "probability": 0.9343318939208984,
+      "start": 30.54,
+      "end": 31.06,
+      "probability": 0.8723529875278473,
       "display": "renovará"
     },
     {
       "word": "todos",
-      "start": 28.52,
-      "end": 28.76,
-      "probability": 0.9897480010986328,
+      "start": 31.06,
+      "end": 31.28,
+      "probability": 0.9807590842247009,
       "display": "todos"
     },
     {
       "word": "sus",
-      "start": 28.76,
-      "end": 29.04,
-      "probability": 0.9850444793701172,
+      "start": 31.28,
+      "end": 31.58,
+      "probability": 0.9820776581764221,
       "display": "sus"
     },
     {
       "word": "puntos.",
-      "start": 29.04,
-      "end": 29.28,
-      "probability": 0.9984721541404724,
+      "start": 31.58,
+      "end": 31.86,
+      "probability": 0.9983888864517212,
       "display": "puntos."
-    },
-    {
-      "word": ".",
-      "start": 29.28,
-      "end": 29.36,
-      "probability": 0.03417107090353966,
-      "display": "."
     }
   ],
   "captions": [
     {
-      "text": "El detalle de puntos separa los que tienen vencimiento de los que no vencen.",
+      "text": "Para revisar varias fechas, abrimos la billetera de Camila,",
       "startMs": 0,
-      "endMs": 4040,
+      "endMs": 3180,
       "timestampMs": null,
-      "confidence": 0.974
+      "confidence": 0.9727580734977015
+    },
+    {
+      "text": "una cliente con historial de compras.",
+      "startMs": 3560,
+      "endMs": 5360,
+      "timestampMs": null,
+      "confidence": 0.9765670398871104
+    },
+    {
+      "text": "Ver detalles separa los puntos con vencimiento de los que no vencen.",
+      "startMs": 5820,
+      "endMs": 9300,
+      "timestampMs": null,
+      "confidence": 0.9826824027631019
     },
     {
       "text": "Revisar las fechas y cantidades de cada grupo:",
-      "startMs": 4560,
-      "endMs": 6900,
+      "startMs": 9740,
+      "endMs": 12200,
       "timestampMs": null,
-      "confidence": 0.941
+      "confidence": 0.9778589097162087
     },
     {
       "text": "el saldo disponible es la referencia para un canje.",
-      "startMs": 7480,
-      "endMs": 10280,
+      "startMs": 12720,
+      "endMs": 15320,
       "timestampMs": null,
-      "confidence": 0.989
+      "confidence": 0.983245720465978
     },
     {
-      "text": "Si hay varias páginas de vencimientos, cargar las siguientes para revisar el",
-      "startMs": 10820,
-      "endMs": 14660,
+      "text": "Cargar más vencimientos permite revisar las siguientes fechas.",
+      "startMs": 15720,
+      "endMs": 18840,
       "timestampMs": null,
-      "confidence": 0.908
+      "confidence": 0.9832681864500046
     },
     {
-      "text": "resto.",
-      "startMs": 14660,
-      "endMs": 14920,
+      "text": "La regla actual del comercio describe nuevas compras,",
+      "startMs": 19280,
+      "endMs": 21960,
       "timestampMs": null,
-      "confidence": 0.999
+      "confidence": 0.9857160300016403
     },
     {
-      "text": "La regla actual del comercio describe nuevas compras, pero no reemplaza la",
-      "startMs": 15520,
-      "endMs": 19640,
+      "text": "pero no reemplaza la fecha que ya tiene cada grupo anterior.",
+      "startMs": 22240,
+      "endMs": 25080,
       "timestampMs": null,
-      "confidence": 0.984
+      "confidence": 0.9948385466228832
     },
     {
-      "text": "fecha que ya tiene cada grupo anterior.",
-      "startMs": 19640,
-      "endMs": 21540,
+      "text": "Así podés explicarle al cliente qué puntos necesita usar primero sin prometer que",
+      "startMs": 25080,
+      "endMs": 29760,
       "timestampMs": null,
-      "confidence": 0.997
+      "confidence": 0.9138074769423559
     },
     {
-      "text": "Así podés explicarle al cliente qué puntos necesita usar primero sin prometer",
-      "startMs": 22280,
-      "endMs": 26760,
+      "text": "una compra nueva renovará todos sus puntos.",
+      "startMs": 29760,
+      "endMs": 31860,
       "timestampMs": null,
-      "confidence": 0.933
-    },
-    {
-      "text": "que una compra nueva renovará todos sus puntos.",
-      "startMs": 26760,
-      "endMs": 29280,
-      "timestampMs": null,
-      "confidence": 0.986
-    },
-    {
-      "text": ".",
-      "startMs": 29280,
-      "endMs": 29360,
-      "timestampMs": null,
-      "confidence": 0.034
+      "confidence": 0.9731537316526685
     }
   ],
-  "status": "REVIEW_REQUIRED"
+  "status": "REVIEW_REQUIRED",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [],
+    "sourceAudioHash": "0bb8ff87830b376e8b75fc16d737e6585f1ee3c514456711a7d6b3eb06aca85f"
+  }
 }

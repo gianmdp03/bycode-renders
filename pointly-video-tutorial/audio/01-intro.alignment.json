@@ -2,12 +2,12 @@
   "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
   "audio_sha256": "9aee2db221827ef075eb3a6520ba1be34c2c5fe0f5b93bad44879a9b288d3481",
   "transcript": "Pointly es el sistema de fidelización de clientes de Bycode Software. En este tutorial vamos a configurar un comercio, incorporar clientes, registrar compras y entregar premios con puntos. También vamos a ver qué consulta el cliente desde su billetera y cómo administrar el catálogo y los avisos. Trabajaremos con un café y datos ficticios. Seguí el recorrido en orden la primera vez. Después podés volver al capítulo que necesites.",
-  "scriptSimilarity": 1.0,
+  "scriptSimilarity": 1,
   "differences": [],
   "words": [
     {
       "word": "Pointly",
-      "start": 0.0,
+      "start": 0,
       "end": 0.5,
       "probability": 0.77430459856987,
       "display": "Pointly"
@@ -495,57 +495,62 @@
       "startMs": 0,
       "endMs": 3540,
       "timestampMs": null,
-      "confidence": 0.89
+      "confidence": 0.8902106391773983
     },
     {
       "text": "En este tutorial vamos a configurar un comercio, incorporar clientes,",
       "startMs": 4040,
       "endMs": 7640,
       "timestampMs": null,
-      "confidence": 0.961
+      "confidence": 0.9606283128261566
     },
     {
       "text": "registrar compras y entregar premios con puntos.",
       "startMs": 7820,
       "endMs": 10400,
       "timestampMs": null,
-      "confidence": 0.98
+      "confidence": 0.9797637207167489
     },
     {
-      "text": "También vamos a ver qué consulta el cliente desde su billetera y cómo",
+      "text": "También vamos a ver qué consulta el cliente desde su billetera y cómo administrar",
       "startMs": 11020,
-      "endMs": 14520,
+      "endMs": 15100,
       "timestampMs": null,
-      "confidence": 0.966
+      "confidence": 0.9680667413132531
     },
     {
-      "text": "administrar el catálogo y los avisos.",
-      "startMs": 14520,
+      "text": "el catálogo y los avisos.",
+      "startMs": 15100,
       "endMs": 16500,
       "timestampMs": null,
-      "confidence": 0.995
+      "confidence": 0.9950006504853566
     },
     {
       "text": "Trabajaremos con un café y datos ficticios.",
       "startMs": 16980,
       "endMs": 19340,
       "timestampMs": null,
-      "confidence": 0.99
+      "confidence": 0.9895032459781283
     },
     {
       "text": "Seguí el recorrido en orden la primera vez;",
       "startMs": 19900,
       "endMs": 22220,
       "timestampMs": null,
-      "confidence": 0.99
+      "confidence": 0.9904860878984134
     },
     {
       "text": "después podés volver al capítulo que necesites.",
       "startMs": 22580,
       "endMs": 24740,
       "timestampMs": null,
-      "confidence": 0.967
+      "confidence": 0.967444292136601
     }
   ],
-  "status": "ACOUSTIC_MATCH"
+  "status": "ACOUSTIC_MATCH",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [],
+    "sourceAudioHash": "9aee2db221827ef075eb3a6520ba1be34c2c5fe0f5b93bad44879a9b288d3481"
+  }
 }

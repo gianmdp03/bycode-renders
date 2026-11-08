@@ -2,14 +2,24 @@
   "scene": "13-promotion",
   "evidence": [
     {
+      "label": "Custom extra percentage and live equivalence",
+      "url": "/companies/cafe-del-puerto-actualizado/actions/add-promotion",
+      "at": 1794067037283.4
+    },
+    {
+      "label": "Equivalent decimal multiplier using local input validation",
+      "url": "/companies/cafe-del-puerto-actualizado/actions/add-promotion",
+      "at": 1794067040028.7
+    },
+    {
       "label": "Benefit and precise time preview",
-      "url": "/companies/cafe-del-puerto-tutorial/actions/add-promotion",
-      "at": 1793727729515.5
+      "url": "/companies/cafe-del-puerto-actualizado/actions/add-promotion",
+      "at": 1794067045510.5
     },
     {
       "label": "Promotion persisted",
-      "url": "/companies/cafe-del-puerto-tutorial",
-      "at": 1793727731799.8
+      "url": "/companies/cafe-del-puerto-actualizado",
+      "at": 1794067047803.4
     }
   ],
   "network": [
@@ -20,31 +30,6 @@
     },
     {
       "method": "GET",
-      "path": "/api/billing/account/profile",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/companies/my-companies",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/public/media/6dedfc39-a8dd-4815-a680-b61b8db0307c",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/limits/my-limits",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/limits/my-limits",
-      "status": 200
-    },
-    {
-      "method": "GET",
       "path": "/api/pointly/limits/my-limits",
       "status": 200
     },
@@ -55,12 +40,7 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/company-names/cafe-del-puerto-tutorial/company",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/public/media/6dedfc39-a8dd-4815-a680-b61b8db0307c",
+      "path": "/api/pointly/company-names/cafe-del-puerto-actualizado/company",
       "status": 200
     },
     {
@@ -71,6 +51,11 @@
     {
       "method": "GET",
       "path": "/api/pointly/points-accounts/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/media/abf1bc3b-8f5e-47c2-b69a-d4822226336f",
       "status": 200
     },
     {
@@ -104,6 +89,6 @@
       "status": 200
     }
   ],
-  "source": "recordings/13-promotion-1793727748067.mp4",
+  "source": "recordings/13-promotion-1794067049984.mp4",
   "obs": null
 }

@@ -1,0 +1,936 @@
+{
+  "state": "PASS_TECHNICAL_AND_SAMPLED_VISUAL_REVIEW",
+  "file": "output/Pointly-tutorial-completo-1080p60.mp4",
+  "sha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+  "width": 1920,
+  "height": 1080,
+  "fps": "60/1 CFR",
+  "frames": "58224",
+  "durationSeconds": "970.421029",
+  "bytes": 305933322,
+  "codec": "H.264 High / yuv420p",
+  "audio": "AAC, stereo, 48000 Hz",
+  "loudness": {
+    "input_i": "-16.18",
+    "input_tp": "-4.08",
+    "input_lra": "2.30",
+    "input_thresh": "-26.58",
+    "output_i": "-16.00",
+    "output_tp": "-3.88",
+    "output_lra": "2.30",
+    "output_thresh": "-26.39",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.00"
+  },
+  "chapterCount": 30,
+  "completeDecode": "PASS",
+  "blackIntervals": [],
+  "renderedFrameSamples": [
+    {
+      "chapter": "01-intro",
+      "localSeconds": 5.17,
+      "absoluteSeconds": 5.17,
+      "visibleContentFraction": 0.01043,
+      "file": "qa/final-frames/01-intro-00517.png"
+    },
+    {
+      "chapter": "01-intro",
+      "localSeconds": 12.925,
+      "absoluteSeconds": 12.925,
+      "visibleContentFraction": 0.01047,
+      "file": "qa/final-frames/01-intro-01292.png"
+    },
+    {
+      "chapter": "01-intro",
+      "localSeconds": 20.68,
+      "absoluteSeconds": 20.68,
+      "visibleContentFraction": 0.01047,
+      "file": "qa/final-frames/01-intro-02068.png"
+    },
+    {
+      "chapter": "02-access",
+      "localSeconds": 7.407,
+      "absoluteSeconds": 33.257,
+      "visibleContentFraction": 0.03549,
+      "file": "qa/final-frames/02-access-00741.png"
+    },
+    {
+      "chapter": "02-access",
+      "localSeconds": 18.517,
+      "absoluteSeconds": 44.367,
+      "visibleContentFraction": 0.02302,
+      "file": "qa/final-frames/02-access-01852.png"
+    },
+    {
+      "chapter": "02-access",
+      "localSeconds": 29.627,
+      "absoluteSeconds": 55.477,
+      "visibleContentFraction": 0.02302,
+      "file": "qa/final-frames/02-access-02963.png"
+    },
+    {
+      "chapter": "03-profile",
+      "localSeconds": 5.17,
+      "absoluteSeconds": 68.053,
+      "visibleContentFraction": 0.0328,
+      "file": "qa/final-frames/03-profile-00517.png"
+    },
+    {
+      "chapter": "03-profile",
+      "localSeconds": 12.925,
+      "absoluteSeconds": 75.808,
+      "visibleContentFraction": 0.05293,
+      "file": "qa/final-frames/03-profile-01292.png"
+    },
+    {
+      "chapter": "03-profile",
+      "localSeconds": 20.68,
+      "absoluteSeconds": 83.563,
+      "visibleContentFraction": 0.05203,
+      "file": "qa/final-frames/03-profile-02068.png"
+    },
+    {
+      "chapter": "04-company",
+      "localSeconds": 5.683,
+      "absoluteSeconds": 94.417,
+      "visibleContentFraction": 0.02979,
+      "file": "qa/final-frames/04-company-00568.png"
+    },
+    {
+      "chapter": "04-company",
+      "localSeconds": 14.208,
+      "absoluteSeconds": 102.942,
+      "visibleContentFraction": 0.02594,
+      "file": "qa/final-frames/04-company-01421.png"
+    },
+    {
+      "chapter": "04-company",
+      "localSeconds": 22.733,
+      "absoluteSeconds": 111.467,
+      "visibleContentFraction": 0.02653,
+      "file": "qa/final-frames/04-company-02273.png"
+    },
+    {
+      "chapter": "05-settings",
+      "localSeconds": 6.867,
+      "absoluteSeconds": 124.017,
+      "visibleContentFraction": 0.0229,
+      "file": "qa/final-frames/05-settings-00687.png"
+    },
+    {
+      "chapter": "05-settings",
+      "localSeconds": 17.167,
+      "absoluteSeconds": 134.317,
+      "visibleContentFraction": 0.02307,
+      "file": "qa/final-frames/05-settings-01717.png"
+    },
+    {
+      "chapter": "05-settings",
+      "localSeconds": 27.467,
+      "absoluteSeconds": 144.617,
+      "visibleContentFraction": 0.0404,
+      "file": "qa/final-frames/05-settings-02747.png"
+    },
+    {
+      "chapter": "06-photo",
+      "localSeconds": 6.627,
+      "absoluteSeconds": 158.11,
+      "visibleContentFraction": 0.04241,
+      "file": "qa/final-frames/06-photo-00663.png"
+    },
+    {
+      "chapter": "06-photo",
+      "localSeconds": 16.567,
+      "absoluteSeconds": 168.05,
+      "visibleContentFraction": 0.05042,
+      "file": "qa/final-frames/06-photo-01657.png"
+    },
+    {
+      "chapter": "06-photo",
+      "localSeconds": 26.507,
+      "absoluteSeconds": 177.99,
+      "visibleContentFraction": 0.03427,
+      "file": "qa/final-frames/06-photo-02651.png"
+    },
+    {
+      "chapter": "07-navigation",
+      "localSeconds": 7.747,
+      "absoluteSeconds": 192.363,
+      "visibleContentFraction": 0.04424,
+      "file": "qa/final-frames/07-navigation-00775.png"
+    },
+    {
+      "chapter": "07-navigation",
+      "localSeconds": 19.367,
+      "absoluteSeconds": 203.983,
+      "visibleContentFraction": 0.0426,
+      "file": "qa/final-frames/07-navigation-01937.png"
+    },
+    {
+      "chapter": "07-navigation",
+      "localSeconds": 30.987,
+      "absoluteSeconds": 215.603,
+      "visibleContentFraction": 0.01024,
+      "file": "qa/final-frames/07-navigation-03099.png"
+    },
+    {
+      "chapter": "08-client",
+      "localSeconds": 6.95,
+      "absoluteSeconds": 230.3,
+      "visibleContentFraction": 0.02274,
+      "file": "qa/final-frames/08-client-00695.png"
+    },
+    {
+      "chapter": "08-client",
+      "localSeconds": 17.375,
+      "absoluteSeconds": 240.725,
+      "visibleContentFraction": 0.04283,
+      "file": "qa/final-frames/08-client-01738.png"
+    },
+    {
+      "chapter": "08-client",
+      "localSeconds": 27.8,
+      "absoluteSeconds": 251.15,
+      "visibleContentFraction": 0.04292,
+      "file": "qa/final-frames/08-client-02780.png"
+    },
+    {
+      "chapter": "09-qr",
+      "localSeconds": 6.147,
+      "absoluteSeconds": 264.247,
+      "visibleContentFraction": 0.05028,
+      "file": "qa/final-frames/09-qr-00615.png"
+    },
+    {
+      "chapter": "09-qr",
+      "localSeconds": 15.367,
+      "absoluteSeconds": 273.467,
+      "visibleContentFraction": 0.05057,
+      "file": "qa/final-frames/09-qr-01537.png"
+    },
+    {
+      "chapter": "09-qr",
+      "localSeconds": 24.587,
+      "absoluteSeconds": 282.687,
+      "visibleContentFraction": 0.0133,
+      "file": "qa/final-frames/09-qr-02459.png"
+    },
+    {
+      "chapter": "10-search",
+      "localSeconds": 7.747,
+      "absoluteSeconds": 296.58,
+      "visibleContentFraction": 0.02335,
+      "file": "qa/final-frames/10-search-00775.png"
+    },
+    {
+      "chapter": "10-search",
+      "localSeconds": 19.367,
+      "absoluteSeconds": 308.2,
+      "visibleContentFraction": 0.0266,
+      "file": "qa/final-frames/10-search-01937.png"
+    },
+    {
+      "chapter": "10-search",
+      "localSeconds": 30.987,
+      "absoluteSeconds": 319.82,
+      "visibleContentFraction": 0.01186,
+      "file": "qa/final-frames/10-search-03099.png"
+    },
+    {
+      "chapter": "11-sale",
+      "localSeconds": 6.05,
+      "absoluteSeconds": 333.617,
+      "visibleContentFraction": 0.02064,
+      "file": "qa/final-frames/11-sale-00605.png"
+    },
+    {
+      "chapter": "11-sale",
+      "localSeconds": 15.125,
+      "absoluteSeconds": 342.692,
+      "visibleContentFraction": 0.02285,
+      "file": "qa/final-frames/11-sale-01512.png"
+    },
+    {
+      "chapter": "11-sale",
+      "localSeconds": 24.2,
+      "absoluteSeconds": 351.767,
+      "visibleContentFraction": 0.03585,
+      "file": "qa/final-frames/11-sale-02420.png"
+    },
+    {
+      "chapter": "12-sales-history",
+      "localSeconds": 7.283,
+      "absoluteSeconds": 365.1,
+      "visibleContentFraction": 0.0347,
+      "file": "qa/final-frames/12-sales-history-00728.png"
+    },
+    {
+      "chapter": "12-sales-history",
+      "localSeconds": 18.208,
+      "absoluteSeconds": 376.025,
+      "visibleContentFraction": 0.02161,
+      "file": "qa/final-frames/12-sales-history-01821.png"
+    },
+    {
+      "chapter": "12-sales-history",
+      "localSeconds": 29.133,
+      "absoluteSeconds": 386.95,
+      "visibleContentFraction": 0.04092,
+      "file": "qa/final-frames/12-sales-history-02913.png"
+    },
+    {
+      "chapter": "13-promotion",
+      "localSeconds": 6.163,
+      "absoluteSeconds": 400.397,
+      "visibleContentFraction": 0.02637,
+      "file": "qa/final-frames/13-promotion-00616.png"
+    },
+    {
+      "chapter": "13-promotion",
+      "localSeconds": 15.408,
+      "absoluteSeconds": 409.642,
+      "visibleContentFraction": 0.02106,
+      "file": "qa/final-frames/13-promotion-01541.png"
+    },
+    {
+      "chapter": "13-promotion",
+      "localSeconds": 24.653,
+      "absoluteSeconds": 418.887,
+      "visibleContentFraction": 0.02503,
+      "file": "qa/final-frames/13-promotion-02465.png"
+    },
+    {
+      "chapter": "14-promotion-life",
+      "localSeconds": 5.957,
+      "absoluteSeconds": 431.007,
+      "visibleContentFraction": 0.02,
+      "file": "qa/final-frames/14-promotion-life-00596.png"
+    },
+    {
+      "chapter": "14-promotion-life",
+      "localSeconds": 14.892,
+      "absoluteSeconds": 439.942,
+      "visibleContentFraction": 0.03615,
+      "file": "qa/final-frames/14-promotion-life-01489.png"
+    },
+    {
+      "chapter": "14-promotion-life",
+      "localSeconds": 23.827,
+      "absoluteSeconds": 448.877,
+      "visibleContentFraction": 0.03373,
+      "file": "qa/final-frames/14-promotion-life-02383.png"
+    },
+    {
+      "chapter": "15-products",
+      "localSeconds": 7.97,
+      "absoluteSeconds": 462.803,
+      "visibleContentFraction": 0.01998,
+      "file": "qa/final-frames/15-products-00797.png"
+    },
+    {
+      "chapter": "15-products",
+      "localSeconds": 19.925,
+      "absoluteSeconds": 474.758,
+      "visibleContentFraction": 0.02255,
+      "file": "qa/final-frames/15-products-01992.png"
+    },
+    {
+      "chapter": "15-products",
+      "localSeconds": 31.88,
+      "absoluteSeconds": 486.713,
+      "visibleContentFraction": 0.02998,
+      "file": "qa/final-frames/15-products-03188.png"
+    },
+    {
+      "chapter": "16-physical-reward",
+      "localSeconds": 6.507,
+      "absoluteSeconds": 501.19,
+      "visibleContentFraction": 0.0376,
+      "file": "qa/final-frames/16-physical-reward-00651.png"
+    },
+    {
+      "chapter": "16-physical-reward",
+      "localSeconds": 16.267,
+      "absoluteSeconds": 510.95,
+      "visibleContentFraction": 0.02731,
+      "file": "qa/final-frames/16-physical-reward-01627.png"
+    },
+    {
+      "chapter": "16-physical-reward",
+      "localSeconds": 26.027,
+      "absoluteSeconds": 520.71,
+      "visibleContentFraction": 0.02469,
+      "file": "qa/final-frames/16-physical-reward-02603.png"
+    },
+    {
+      "chapter": "17-voucher",
+      "localSeconds": 5.763,
+      "absoluteSeconds": 532.98,
+      "visibleContentFraction": 0.06177,
+      "file": "qa/final-frames/17-voucher-00576.png"
+    },
+    {
+      "chapter": "17-voucher",
+      "localSeconds": 14.408,
+      "absoluteSeconds": 541.625,
+      "visibleContentFraction": 0.05623,
+      "file": "qa/final-frames/17-voucher-01441.png"
+    },
+    {
+      "chapter": "17-voucher",
+      "localSeconds": 23.053,
+      "absoluteSeconds": 550.27,
+      "visibleContentFraction": 0.04092,
+      "file": "qa/final-frames/17-voucher-02305.png"
+    },
+    {
+      "chapter": "18-reward-life",
+      "localSeconds": 5.907,
+      "absoluteSeconds": 561.94,
+      "visibleContentFraction": 0.06234,
+      "file": "qa/final-frames/18-reward-life-00591.png"
+    },
+    {
+      "chapter": "18-reward-life",
+      "localSeconds": 14.767,
+      "absoluteSeconds": 570.8,
+      "visibleContentFraction": 0.13741,
+      "file": "qa/final-frames/18-reward-life-01477.png"
+    },
+    {
+      "chapter": "18-reward-life",
+      "localSeconds": 23.627,
+      "absoluteSeconds": 579.66,
+      "visibleContentFraction": 0.06229,
+      "file": "qa/final-frames/18-reward-life-02363.png"
+    },
+    {
+      "chapter": "19-redeem",
+      "localSeconds": 6.277,
+      "absoluteSeconds": 591.843,
+      "visibleContentFraction": 0.02481,
+      "file": "qa/final-frames/19-redeem-00628.png"
+    },
+    {
+      "chapter": "19-redeem",
+      "localSeconds": 15.692,
+      "absoluteSeconds": 601.258,
+      "visibleContentFraction": 0.0475,
+      "file": "qa/final-frames/19-redeem-01569.png"
+    },
+    {
+      "chapter": "19-redeem",
+      "localSeconds": 25.107,
+      "absoluteSeconds": 610.673,
+      "visibleContentFraction": 0.01967,
+      "file": "qa/final-frames/19-redeem-02511.png"
+    },
+    {
+      "chapter": "20-redeem-errors",
+      "localSeconds": 6.29,
+      "absoluteSeconds": 623.24,
+      "visibleContentFraction": 0.02024,
+      "file": "qa/final-frames/20-redeem-errors-00629.png"
+    },
+    {
+      "chapter": "20-redeem-errors",
+      "localSeconds": 15.725,
+      "absoluteSeconds": 632.675,
+      "visibleContentFraction": 0.02552,
+      "file": "qa/final-frames/20-redeem-errors-01572.png"
+    },
+    {
+      "chapter": "20-redeem-errors",
+      "localSeconds": 25.16,
+      "absoluteSeconds": 642.11,
+      "visibleContentFraction": 0.03634,
+      "file": "qa/final-frames/20-redeem-errors-02516.png"
+    },
+    {
+      "chapter": "21-inactive",
+      "localSeconds": 5.89,
+      "absoluteSeconds": 654.29,
+      "visibleContentFraction": 0.03102,
+      "file": "qa/final-frames/21-inactive-00589.png"
+    },
+    {
+      "chapter": "21-inactive",
+      "localSeconds": 14.725,
+      "absoluteSeconds": 663.125,
+      "visibleContentFraction": 0.02993,
+      "file": "qa/final-frames/21-inactive-01472.png"
+    },
+    {
+      "chapter": "21-inactive",
+      "localSeconds": 23.56,
+      "absoluteSeconds": 671.96,
+      "visibleContentFraction": 0.02509,
+      "file": "qa/final-frames/21-inactive-02356.png"
+    },
+    {
+      "chapter": "22-archive",
+      "localSeconds": 5.923,
+      "absoluteSeconds": 683.773,
+      "visibleContentFraction": 0.03139,
+      "file": "qa/final-frames/22-archive-00592.png"
+    },
+    {
+      "chapter": "22-archive",
+      "localSeconds": 14.808,
+      "absoluteSeconds": 692.658,
+      "visibleContentFraction": 0.0259,
+      "file": "qa/final-frames/22-archive-01481.png"
+    },
+    {
+      "chapter": "22-archive",
+      "localSeconds": 23.693,
+      "absoluteSeconds": 701.543,
+      "visibleContentFraction": 0.00965,
+      "file": "qa/final-frames/22-archive-02369.png"
+    },
+    {
+      "chapter": "23-emails",
+      "localSeconds": 6.597,
+      "absoluteSeconds": 714.063,
+      "visibleContentFraction": 0.03623,
+      "file": "qa/final-frames/23-emails-00660.png"
+    },
+    {
+      "chapter": "23-emails",
+      "localSeconds": 16.492,
+      "absoluteSeconds": 723.958,
+      "visibleContentFraction": 0.03493,
+      "file": "qa/final-frames/23-emails-01649.png"
+    },
+    {
+      "chapter": "23-emails",
+      "localSeconds": 26.387,
+      "absoluteSeconds": 733.853,
+      "visibleContentFraction": 0.03403,
+      "file": "qa/final-frames/23-emails-02639.png"
+    },
+    {
+      "chapter": "24-wallet",
+      "localSeconds": 7.7,
+      "absoluteSeconds": 748.15,
+      "visibleContentFraction": 0.05674,
+      "file": "qa/final-frames/24-wallet-00770.png"
+    },
+    {
+      "chapter": "24-wallet",
+      "localSeconds": 19.25,
+      "absoluteSeconds": 759.7,
+      "visibleContentFraction": 0.23319,
+      "file": "qa/final-frames/24-wallet-01925.png"
+    },
+    {
+      "chapter": "24-wallet",
+      "localSeconds": 30.8,
+      "absoluteSeconds": 771.25,
+      "visibleContentFraction": 0.17451,
+      "file": "qa/final-frames/24-wallet-03080.png"
+    },
+    {
+      "chapter": "25-expiration",
+      "localSeconds": 6.61,
+      "absoluteSeconds": 785.56,
+      "visibleContentFraction": 0.00898,
+      "file": "qa/final-frames/25-expiration-00661.png"
+    },
+    {
+      "chapter": "25-expiration",
+      "localSeconds": 16.525,
+      "absoluteSeconds": 795.475,
+      "visibleContentFraction": 0.00509,
+      "file": "qa/final-frames/25-expiration-01652.png"
+    },
+    {
+      "chapter": "25-expiration",
+      "localSeconds": 26.44,
+      "absoluteSeconds": 805.39,
+      "visibleContentFraction": 0.0045,
+      "file": "qa/final-frames/25-expiration-02644.png"
+    },
+    {
+      "chapter": "26-wallet-access",
+      "localSeconds": 7.38,
+      "absoluteSeconds": 819.38,
+      "visibleContentFraction": 0.03097,
+      "file": "qa/final-frames/26-wallet-access-00738.png"
+    },
+    {
+      "chapter": "26-wallet-access",
+      "localSeconds": 18.45,
+      "absoluteSeconds": 830.45,
+      "visibleContentFraction": 0.03184,
+      "file": "qa/final-frames/26-wallet-access-01845.png"
+    },
+    {
+      "chapter": "26-wallet-access",
+      "localSeconds": 29.52,
+      "absoluteSeconds": 841.52,
+      "visibleContentFraction": 0.03208,
+      "file": "qa/final-frames/26-wallet-access-02952.png"
+    },
+    {
+      "chapter": "27-company-status",
+      "localSeconds": 6.21,
+      "absoluteSeconds": 855.11,
+      "visibleContentFraction": 0.04304,
+      "file": "qa/final-frames/27-company-status-00621.png"
+    },
+    {
+      "chapter": "27-company-status",
+      "localSeconds": 15.525,
+      "absoluteSeconds": 864.425,
+      "visibleContentFraction": 0.05174,
+      "file": "qa/final-frames/27-company-status-01552.png"
+    },
+    {
+      "chapter": "27-company-status",
+      "localSeconds": 24.84,
+      "absoluteSeconds": 873.74,
+      "visibleContentFraction": 0.00913,
+      "file": "qa/final-frames/27-company-status-02484.png"
+    },
+    {
+      "chapter": "28-roles",
+      "localSeconds": 6.563,
+      "absoluteSeconds": 886.513,
+      "visibleContentFraction": 0.03868,
+      "file": "qa/final-frames/28-roles-00656.png"
+    },
+    {
+      "chapter": "28-roles",
+      "localSeconds": 16.408,
+      "absoluteSeconds": 896.358,
+      "visibleContentFraction": 0.03684,
+      "file": "qa/final-frames/28-roles-01641.png"
+    },
+    {
+      "chapter": "28-roles",
+      "localSeconds": 26.253,
+      "absoluteSeconds": 906.203,
+      "visibleContentFraction": 0.03684,
+      "file": "qa/final-frames/28-roles-02625.png"
+    },
+    {
+      "chapter": "29-help",
+      "localSeconds": 6.34,
+      "absoluteSeconds": 919.107,
+      "visibleContentFraction": 0.02592,
+      "file": "qa/final-frames/29-help-00634.png"
+    },
+    {
+      "chapter": "29-help",
+      "localSeconds": 15.85,
+      "absoluteSeconds": 928.617,
+      "visibleContentFraction": 0.02462,
+      "file": "qa/final-frames/29-help-01585.png"
+    },
+    {
+      "chapter": "29-help",
+      "localSeconds": 25.36,
+      "absoluteSeconds": 938.127,
+      "visibleContentFraction": 0.05991,
+      "file": "qa/final-frames/29-help-02536.png"
+    },
+    {
+      "chapter": "30-close",
+      "localSeconds": 5.187,
+      "absoluteSeconds": 949.653,
+      "visibleContentFraction": 0.05505,
+      "file": "qa/final-frames/30-close-00519.png"
+    },
+    {
+      "chapter": "30-close",
+      "localSeconds": 12.967,
+      "absoluteSeconds": 957.433,
+      "visibleContentFraction": 0.05505,
+      "file": "qa/final-frames/30-close-01297.png"
+    },
+    {
+      "chapter": "30-close",
+      "localSeconds": 20.747,
+      "absoluteSeconds": 965.213,
+      "visibleContentFraction": 0.01778,
+      "file": "qa/final-frames/30-close-02075.png"
+    }
+  ],
+  "sourceCadence": [
+    {
+      "chapter": "01-intro",
+      "averageFps": 58.874,
+      "maximumGapMs": 49.7
+    },
+    {
+      "chapter": "02-access",
+      "averageFps": 56.227,
+      "maximumGapMs": 207.3
+    },
+    {
+      "chapter": "03-profile",
+      "averageFps": 51.284,
+      "maximumGapMs": 268.7
+    },
+    {
+      "chapter": "04-company",
+      "averageFps": 48.886,
+      "maximumGapMs": 267.5
+    },
+    {
+      "chapter": "05-settings",
+      "averageFps": 54.102,
+      "maximumGapMs": 266
+    },
+    {
+      "chapter": "06-photo",
+      "averageFps": 55.504,
+      "maximumGapMs": 193.3
+    },
+    {
+      "chapter": "08-client",
+      "averageFps": 54.008,
+      "maximumGapMs": 196.1
+    },
+    {
+      "chapter": "09-qr",
+      "averageFps": 54.655,
+      "maximumGapMs": 206.6
+    },
+    {
+      "chapter": "10-search",
+      "averageFps": 55.115,
+      "maximumGapMs": 241.2
+    },
+    {
+      "chapter": "11-sale",
+      "averageFps": 55.241,
+      "maximumGapMs": 210.3
+    },
+    {
+      "chapter": "12-sales-history",
+      "averageFps": 54.053,
+      "maximumGapMs": 258.6
+    },
+    {
+      "chapter": "15-products",
+      "averageFps": 51.103,
+      "maximumGapMs": 308.5
+    },
+    {
+      "chapter": "16-physical-reward",
+      "averageFps": 51.374,
+      "maximumGapMs": 230.5
+    },
+    {
+      "chapter": "17-voucher",
+      "averageFps": 38.517,
+      "maximumGapMs": 673.4
+    },
+    {
+      "chapter": "18-reward-life",
+      "averageFps": 54.848,
+      "maximumGapMs": 266.9
+    },
+    {
+      "chapter": "19-redeem",
+      "averageFps": 35.275,
+      "maximumGapMs": 717
+    },
+    {
+      "chapter": "20-redeem-errors",
+      "averageFps": 30.947,
+      "maximumGapMs": 788
+    },
+    {
+      "chapter": "21-inactive",
+      "averageFps": 33.264,
+      "maximumGapMs": 307.2
+    },
+    {
+      "chapter": "22-archive",
+      "averageFps": 30.171,
+      "maximumGapMs": 850
+    },
+    {
+      "chapter": "07-navigation",
+      "averageFps": 19.475,
+      "maximumGapMs": 658.5
+    },
+    {
+      "chapter": "23-emails",
+      "averageFps": 22.611,
+      "maximumGapMs": 850.2
+    },
+    {
+      "chapter": "13-promotion",
+      "averageFps": 12.197,
+      "maximumGapMs": 1046.4
+    },
+    {
+      "chapter": "14-promotion-life",
+      "averageFps": 19.201,
+      "maximumGapMs": 720.7
+    },
+    {
+      "chapter": "28-roles",
+      "averageFps": 48.097,
+      "maximumGapMs": 217.3
+    },
+    {
+      "chapter": "24-wallet",
+      "averageFps": 27.984,
+      "maximumGapMs": 1041.7
+    },
+    {
+      "chapter": "25-expiration",
+      "averageFps": 29.878,
+      "maximumGapMs": 943.2
+    },
+    {
+      "chapter": "27-company-status",
+      "averageFps": 29.567,
+      "maximumGapMs": 1049.9
+    },
+    {
+      "chapter": "26-wallet-access",
+      "averageFps": 33.611,
+      "maximumGapMs": 1046.3
+    },
+    {
+      "chapter": "29-help",
+      "averageFps": 11.302,
+      "maximumGapMs": 1042.2
+    },
+    {
+      "chapter": "30-close",
+      "averageFps": 6.113,
+      "maximumGapMs": 1046.9
+    }
+  ],
+  "sourceCadenceNote": "Original browser-tab frames have measured variable cadence, retained in the manifest. CFR conforming and deliberate reading holds do not imply 60 unique source pictures in every second.",
+  "narrationEndGaps": [
+    {
+      "id": "01-intro",
+      "seconds": 0.65
+    },
+    {
+      "id": "02-access",
+      "seconds": 1.353
+    },
+    {
+      "id": "03-profile",
+      "seconds": 0.65
+    },
+    {
+      "id": "04-company",
+      "seconds": 0.657
+    },
+    {
+      "id": "05-settings",
+      "seconds": 0.653
+    },
+    {
+      "id": "06-photo",
+      "seconds": 0.653
+    },
+    {
+      "id": "07-navigation",
+      "seconds": 0.653
+    },
+    {
+      "id": "08-client",
+      "seconds": 0.665
+    },
+    {
+      "id": "09-qr",
+      "seconds": 0.653
+    },
+    {
+      "id": "10-search",
+      "seconds": 0.653
+    },
+    {
+      "id": "11-sale",
+      "seconds": 0.65
+    },
+    {
+      "id": "12-sales-history",
+      "seconds": 0.657
+    },
+    {
+      "id": "13-promotion",
+      "seconds": 0.657
+    },
+    {
+      "id": "14-promotion-life",
+      "seconds": 0.663
+    },
+    {
+      "id": "15-products",
+      "seconds": 0.65
+    },
+    {
+      "id": "16-physical-reward",
+      "seconds": 1.413
+    },
+    {
+      "id": "17-voucher",
+      "seconds": 0.657
+    },
+    {
+      "id": "18-reward-life",
+      "seconds": 0.653
+    },
+    {
+      "id": "19-redeem",
+      "seconds": 0.663
+    },
+    {
+      "id": "20-redeem-errors",
+      "seconds": 0.65
+    },
+    {
+      "id": "21-inactive",
+      "seconds": 0.65
+    },
+    {
+      "id": "22-archive",
+      "seconds": 0.657
+    },
+    {
+      "id": "23-emails",
+      "seconds": 0.663
+    },
+    {
+      "id": "24-wallet",
+      "seconds": 0.66
+    },
+    {
+      "id": "25-expiration",
+      "seconds": 0.65
+    },
+    {
+      "id": "26-wallet-access",
+      "seconds": 0.66
+    },
+    {
+      "id": "27-company-status",
+      "seconds": 0.65
+    },
+    {
+      "id": "28-roles",
+      "seconds": 0.657
+    },
+    {
+      "id": "29-help",
+      "seconds": 0.66
+    },
+    {
+      "id": "30-close",
+      "seconds": 0.653
+    }
+  ],
+  "visualReview": "qa/visual-review.json"
+}

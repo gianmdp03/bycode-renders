@@ -3,28 +3,28 @@
   "evidence": [
     {
       "label": "Company photo removed through real API",
-      "url": "/companies/cafe-del-puerto-tutorial/actions/photo",
-      "at": 1793728881547.3
+      "url": "/companies/cafe-del-puerto-aula/actions/photo",
+      "at": 1794066158224.1
     },
     {
       "label": "Photo crop controls",
-      "url": "/companies/cafe-del-puerto-tutorial/actions/photo",
-      "at": 1793728881695.4
+      "url": "/companies/cafe-del-puerto-aula/actions/photo",
+      "at": 1794066158357.5
     },
     {
       "label": "Photo uploaded through real converter",
-      "url": "/companies/cafe-del-puerto-tutorial/actions/photo",
-      "at": 1793728883755.5
+      "url": "/companies/cafe-del-puerto-aula/actions/photo",
+      "at": 1794066160429.9001
     },
     {
       "label": "Changing link invalidates previous access",
-      "url": "/companies/cafe-del-puerto-tutorial/actions/qr",
-      "at": 1793728888674.3
+      "url": "/companies/cafe-del-puerto-aula/actions/qr",
+      "at": 1794066165375.5
     },
     {
       "label": "New public link persisted",
-      "url": "/companies/cafe-del-puerto-aula/actions/qr",
-      "at": 1793728890746
+      "url": "/companies/cafe-del-puerto-actualizado/actions/qr",
+      "at": 1794066167494.7
     }
   ],
   "network": [
@@ -45,12 +45,7 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/company-names/cafe-del-puerto-tutorial/company",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/public/media/6dedfc39-a8dd-4815-a680-b61b8db0307c",
+      "path": "/api/pointly/company-names/cafe-del-puerto-aula/company",
       "status": 200
     },
     {
@@ -85,22 +80,22 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/company-names/cafe-del-puerto-tutorial/company",
+      "path": "/api/pointly/company-names/cafe-del-puerto-aula/company",
       "status": 200
     },
     {
       "method": "GET",
-      "path": "/api/pointly/public/media/88f04c39-82db-4d2e-8062-e046c1a537ac",
-      "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/sales/1",
+      "path": "/api/pointly/public/media/abf1bc3b-8f5e-47c2-b69a-d4822226336f",
       "status": 200
     },
     {
       "method": "GET",
       "path": "/api/pointly/companies/1/public-link",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/1",
       "status": 200
     },
     {
@@ -139,6 +134,6 @@
       "status": 200
     }
   ],
-  "source": "recordings/06-photo-1793728909216.mp4",
+  "source": "recordings/06-photo-1794066169375.mp4",
   "obs": null
 }

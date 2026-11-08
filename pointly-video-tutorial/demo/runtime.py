@@ -74,7 +74,7 @@ def prepare():
  envfile('backend',{**common,'HTTP_ADDR':'127.0.0.1:25083','DATABASE_URL':f'postgresql://tutorial_demo:{secret["db"]}@db:5432/tutorial_pointly_demo?sslmode=disable','GATEWAY_SHARED_SECRET':secret['gateway'],'SERVICES_BILLING_SHARED_SECRET':secret['billing'],'SERVICES_BILLING_URL':'http://127.0.0.1:25081','APP_FRONTEND_URL':'http://localhost:25201','SUPABASE_URL':ORIGIN,'SUPABASE_SERVICE_ROLE_KEY':service,'MAIL_SERVICE_URL':'http://127.0.0.1:25086','MAIL_SERVICE_API_KEY':secret['converter'],'JOBS_ENABLED':'false','MEDIA_STORAGE_TYPE':'local','MEDIA_STORAGE_DIR':'/demo/data/pointly','MEDIA_PUBLIC_BASE_URL':ORIGIN,'IMAGE_CONVERTER_URL':'http://127.0.0.1:25086','IMAGE_CONVERTER_API_KEY':secret['converter']})
  envfile('gateway',{**common,'PORT':'25080','GATEWAY_SHARED_SECRET':secret['gateway'],'POINTLY_SERVICE_URL':'http://127.0.0.1:25083','BILLING_SERVICE_URL':'http://127.0.0.1:25081','DOCTORCHART_SERVICE_URL':'http://127.0.0.1:25999','SUPABASE_JWT_ISSUER':ORIGIN+'/auth/v1','SUPABASE_JWKS_URL':ORIGIN+'/auth/v1/.well-known/jwks.json','SUPABASE_JWT_AUDIENCE':'authenticated','CORS_ALLOWED_ORIGINS':'http://localhost:25201'})
  converter={}
- for line in (REPOS/'bycode-image-email-service-go/.env.example').read_text().splitlines():
+ for line in (REPOS/'bycode-image-email-service-go/.env.example').read_text(encoding='utf8').splitlines():
   if line and not line.startswith('#') and '=' in line:
    k,v=line.split('=',1);converter[k]=v
  converter.update({'LISTEN_ADDR':'127.0.0.1:25086','MAIL_ENABLED':'false','APP_DOCTORCHART_API_KEY':secrets.token_hex(32),'APP_POINTLY_API_KEY':secret['converter'],'APP_BYCODE_API_KEY':secrets.token_hex(32)})
@@ -108,7 +108,7 @@ location = /healthz { return 200 "DEMO"; }
 def compose(*args):
  return run(['docker','compose','-p',PROJECT,'-f',str(LOCAL/'compose.json'),*args])
 def verify():
- cfg=json.loads((LOCAL/'ownership.json').read_text())
+ cfg=json.loads((LOCAL/'ownership.json').read_text(encoding='utf8'))
  if cfg['owner']!=OWNER or cfg['project']!=PROJECT or cfg['origin']!=ORIGIN or cfg['databases']!=['tutorial_auth_demo','tutorial_billing_demo','tutorial_pointly_demo']:raise RuntimeError('Demo identity mismatch')
  for name,ident in cfg['resources'].items():
   actual=json.loads(run(['docker','inspect',ident]))[0]
@@ -148,7 +148,7 @@ def start():
    break
   time.sleep(.5)
  compose('up','-d','proxy','billing','backend','gateway','converter')
- cfg=json.loads((LOCAL/'ownership.json').read_text())
+ cfg=json.loads((LOCAL/'ownership.json').read_text(encoding='utf8'))
  cfg['resources']={s:run(['docker','inspect','--format','{{.Id}}',compose('ps','-a','-q',s).decode().strip()]).decode().strip() for s in ['db','auth','proxy','billing','backend','gateway','converter']}
  write(LOCAL/'ownership.json',cfg);verify()
  print('Owned demo started; private DB network; only 127.0.0.1:25443 published. All configured providers are local.')
@@ -158,10 +158,12 @@ def frontend():
  if not target.exists():
   shutil.copytree(source,target,ignore=shutil.ignore_patterns('.git','node_modules','.angular','dist','test-results','.env*','local.public.json','environment.local.generated.ts'))
   subprocess.run(['cmd','/d','/c','mklink','/J',str(target/'node_modules'),str(source/'node_modules')],check=True,stdout=subprocess.DEVNULL)
- write(target/'config/local.public.json',json.loads((LOCAL/'frontend-public.json').read_text()))
+ write(target/'config/local.public.json',json.loads((LOCAL/'frontend-public.json').read_text(encoding='utf8')))
+ write(LOCAL/'frontend-proxy.json',{'/api':{'target':ORIGIN,'secure':True,'changeOrigin':True}})
  print('Starting byte-identical frontend source copy with isolated PUBLIC configuration.',flush=True)
  with (LOCAL/'logs/frontend.log').open('wb') as log:
-  p=subprocess.Popen(['cmd','/d','/c','npm start -- --port 25201 --host localhost'],cwd=target,stdout=log,stderr=log,creationflags=subprocess.CREATE_NO_WINDOW)
+  childenv=dict(os.environ,NODE_EXTRA_CA_CERTS=str(LOCAL/'certs/ca.pem'))
+  p=subprocess.Popen(['cmd','/d','/c','npm start -- --port 25201 --host localhost --proxy-config '+str(LOCAL/'frontend-proxy.json')],cwd=target,env=childenv,stdout=log,stderr=log,creationflags=subprocess.CREATE_NO_WINDOW)
  write(LOCAL/'frontend-process.json',{'pid':p.pid,'path':str(target)})
 def clean():
  cfg=verify()

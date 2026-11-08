@@ -3,41 +3,41 @@
   "evidence": [
     {
       "label": "Real local read request interrupted; frontend load-error state",
-      "url": "/companies/cafe-del-puerto-aula",
-      "at": 1793732199808.6
+      "url": "/companies/cafe-del-puerto-actualizado",
+      "at": 1794068507542
     },
     {
       "label": "Read retry recovered real client list",
-      "url": "/companies/cafe-del-puerto-aula",
-      "at": 1793732201307.9
+      "url": "/companies/cafe-del-puerto-actualizado",
+      "at": 1794068509265.7002
     },
     {
       "label": "Genuine empty search distinguished from load error",
-      "url": "/companies/cafe-del-puerto-aula",
-      "at": 1793732204558.9
+      "url": "/companies/cafe-del-puerto-actualizado",
+      "at": 1794068512813
     },
     {
       "label": "Actual dark theme",
       "url": "/",
-      "at": 1793732207783.5
+      "at": 1794068519616.5
     },
     {
-      "label": "Real frequently asked questions",
+      "label": "Commercial quick actions available while signed in",
       "url": "/",
-      "at": 1793732212150.8
+      "at": 1794068522846.7998
     },
     {
       "label": "Session closed",
       "url": "/",
-      "at": 1793732214785.9
+      "at": 1794068526100.4
+    },
+    {
+      "label": "Public frequently asked questions after logout",
+      "url": "/",
+      "at": 1794068529654.2998
     }
   ],
   "network": [
-    {
-      "method": "GET",
-      "path": "/api/billing/account/profile",
-      "status": 200
-    },
     {
       "method": "GET",
       "path": "/api/pointly/companies/my-companies",
@@ -45,7 +45,7 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/public/media/88f04c39-82db-4d2e-8062-e046c1a537ac",
+      "path": "/api/pointly/public/media/abf1bc3b-8f5e-47c2-b69a-d4822226336f",
       "status": 200
     },
     {
@@ -70,12 +70,12 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/company-names/cafe-del-puerto-aula/company",
+      "path": "/api/pointly/limits/my-limits",
       "status": 200
     },
     {
       "method": "GET",
-      "path": "/api/pointly/sales/1",
+      "path": "/api/pointly/company-names/cafe-del-puerto-actualizado/company",
       "status": 200
     },
     {
@@ -85,12 +85,12 @@
     },
     {
       "method": "GET",
-      "path": "/api/pointly/public/media/88f04c39-82db-4d2e-8062-e046c1a537ac",
+      "path": "/api/pointly/public/media/abf1bc3b-8f5e-47c2-b69a-d4822226336f",
       "status": 200
     },
     {
       "method": "GET",
-      "path": "/api/pointly/limits/my-limits",
+      "path": "/api/pointly/sales/1",
       "status": 200
     },
     {
@@ -135,6 +135,11 @@
     },
     {
       "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
       "path": "/api/pointly/companies/my-companies",
       "status": 200
     },
@@ -147,13 +152,8 @@
       "method": "GET",
       "path": "/api/pointly/promotions/4",
       "status": 200
-    },
-    {
-      "method": "GET",
-      "path": "/api/pointly/limits/my-limits",
-      "status": 200
     }
   ],
-  "source": "recordings/29-help-1793732227117.mp4",
+  "source": "recordings/29-help-1794068532076.mp4",
   "obs": null
 }
