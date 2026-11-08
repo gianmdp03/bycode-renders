@@ -13,9 +13,12 @@ const fixes={
  '18-reward-life':[['loquita','lo quita']],
  '19-redeem':[['verificar','Verificá']],
  '26-wallet-access':[['verme','Ver mi'],['DNE','DNI']],
+ 'b04-sale':[['8 .500','8.500']],
+ 'b05-reward':[['DNIR,','DNI.']],
 };
 const endPunctuation=/[.!?;:]$/;const weak=new Set(['el','la','los','las','un','una','por','para','de','del','sin','y','o','con','a','al','su','sus','que']);const reports=[];
-for(const file of fs.readdirSync(path.join(root,'audio')).filter(f=>f.endsWith('.alignment.json'))){
+const selected=process.argv.slice(2).filter(a=>!a.startsWith('--'));
+for(const file of fs.readdirSync(path.join(root,'audio')).filter(f=>f.endsWith('.alignment.json')&&(selected.length?selected.includes(f.replace('.alignment.json','')):!/^b\d\d-/.test(f)))){
  const id=file.replace('.alignment.json','');const full=path.join(root,'audio',file);const a=JSON.parse(fs.readFileSync(full,'utf8'));
  // Whisper may return units as separate tokens ("50", "%"). They carry
  // meaning and acoustic spans even though they contain no letters or digits.
@@ -34,4 +37,4 @@ for(const file of fs.readdirSync(path.join(root,'audio')).filter(f=>f.endsWith('
  flush();a.captions=captions;a.captionReview={method:'Acoustic word spans retained, Spanish punctuation-based phrase segmentation',corrections:fixes[id]??[],sourceAudioHash:a.audio_sha256};
  fs.writeFileSync(full,JSON.stringify(a,null,2)+'\n');reports.push({id,differences:a.differences,corrections:fixes[id]??[],captionCount:captions.length});
 }
-fs.writeFileSync(path.join(root,'qa/caption-review.json'),JSON.stringify(reports,null,2));console.log('Revised natural phrase boundaries:',reports.length,'chapters.');
+fs.writeFileSync(path.join(root,selected.length&&selected.every(s=>s.startsWith('b'))?'qa/brief-caption-review.json':'qa/caption-review.json'),JSON.stringify(reports,null,2));console.log('Revised natural phrase boundaries:',reports.length,'chapters.');

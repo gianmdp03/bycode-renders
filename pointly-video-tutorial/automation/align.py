@@ -7,7 +7,10 @@ ROOT=Path(__file__).resolve().parents[1]
 os.environ.update(HF_HUB_DISABLE_TELEMETRY='1')
 from faster_whisper import WhisperModel
 model=WhisperModel('small',device='cpu',compute_type='int8',cpu_threads=4,num_workers=1,local_files_only=False)
-chapters=json.loads((ROOT/'script/chapters.json').read_text(encoding='utf8'))
+manifest=next((s.split('=',1)[1] for s in sys.argv[1:] if s.startswith('--manifest=')),'script/chapters.json')
+manifest=(ROOT/manifest).resolve()
+if not manifest.is_relative_to(ROOT):raise ValueError('Manifest outside audiovisual project')
+chapters=json.loads(manifest.read_text(encoding='utf8'))
 def norm(s):return re.sub(r'[^a-z0-9]','',unicodedata.normalize('NFD',s.lower()).encode('ascii','ignore').decode())
 def process(c):
  wav=ROOT/'audio'/f"{c['id']}.wav";out=ROOT/'audio'/f"{c['id']}.alignment.json"

@@ -1,0 +1,856 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "25327afa1441c46f9921b965f9b1883b080f8d38a35caf1711e45952f7abbc67",
+  "transcript": "Para comenzar, ingresa a Pointly con tu cuenta de Bycode. Si es tu primer ingreso, completá tu perfil y elegí nueva empresa. Cargamos el nombre del comercio y revisamos su enlace. Después definimos la regla de acumulación. En este ejemplo, cada mil pesos completos de una compra suman diez puntos. Elegimos el país del comercio. Los demás datos de ubicación se pueden completar cuando correspondan. En este mismo formulario decidimos si los puntos van a vencer. Activamos la opción e indicamos 90 días desde cada compra. Revisamos el nombre, la regla y el plazo y creamos el comercio. Ahora tenemos todo preparado para empezar a trabajar con clientes.",
+  "scriptSimilarity": 0.9907,
+  "differences": [
+    {
+      "op": "replace",
+      "expected": "noventa",
+      "heard": "90"
+    }
+  ],
+  "words": [
+    {
+      "word": "Para",
+      "start": 0,
+      "end": 0.3,
+      "probability": 0.9009860157966614,
+      "display": "Para"
+    },
+    {
+      "word": "comenzar,",
+      "start": 0.3,
+      "end": 0.86,
+      "probability": 0.9983145594596863,
+      "display": "comenzar,"
+    },
+    {
+      "word": "ingresa",
+      "start": 1.08,
+      "end": 1.56,
+      "probability": 0.8413524627685547,
+      "display": "ingresá"
+    },
+    {
+      "word": "a",
+      "start": 1.56,
+      "end": 1.7,
+      "probability": 0.976669192314148,
+      "display": "a"
+    },
+    {
+      "word": "Pointly",
+      "start": 1.7,
+      "end": 2.1,
+      "probability": 0.792905181646347,
+      "display": "Pointly"
+    },
+    {
+      "word": "con",
+      "start": 2.1,
+      "end": 2.32,
+      "probability": 0.966292679309845,
+      "display": "con"
+    },
+    {
+      "word": "tu",
+      "start": 2.32,
+      "end": 2.44,
+      "probability": 0.995103120803833,
+      "display": "tu"
+    },
+    {
+      "word": "cuenta",
+      "start": 2.44,
+      "end": 2.76,
+      "probability": 0.9875718355178833,
+      "display": "cuenta"
+    },
+    {
+      "word": "de",
+      "start": 2.76,
+      "end": 2.94,
+      "probability": 0.9971211552619934,
+      "display": "de"
+    },
+    {
+      "word": "Bycode.",
+      "start": 2.94,
+      "end": 3.3,
+      "probability": 0.015201082278508693,
+      "display": "Bycode."
+    },
+    {
+      "word": "Si",
+      "start": 3.84,
+      "end": 4.08,
+      "probability": 0.950251579284668,
+      "display": "Si"
+    },
+    {
+      "word": "es",
+      "start": 4.08,
+      "end": 4.24,
+      "probability": 0.9977495074272156,
+      "display": "es"
+    },
+    {
+      "word": "tu",
+      "start": 4.24,
+      "end": 4.3,
+      "probability": 0.997412383556366,
+      "display": "tu"
+    },
+    {
+      "word": "primer",
+      "start": 4.3,
+      "end": 4.56,
+      "probability": 0.9988284707069397,
+      "display": "primer"
+    },
+    {
+      "word": "ingreso,",
+      "start": 4.56,
+      "end": 4.98,
+      "probability": 0.992516279220581,
+      "display": "ingreso,"
+    },
+    {
+      "word": "completá",
+      "start": 5.36,
+      "end": 5.7,
+      "probability": 0.6956771612167358,
+      "display": "completá"
+    },
+    {
+      "word": "tu",
+      "start": 5.7,
+      "end": 5.82,
+      "probability": 0.9982714653015137,
+      "display": "tu"
+    },
+    {
+      "word": "perfil",
+      "start": 5.82,
+      "end": 6.24,
+      "probability": 0.9995195269584656,
+      "display": "perfil"
+    },
+    {
+      "word": "y",
+      "start": 6.24,
+      "end": 6.5,
+      "probability": 0.9731521010398865,
+      "display": "y"
+    },
+    {
+      "word": "elegí",
+      "start": 6.5,
+      "end": 6.88,
+      "probability": 0.9907194375991821,
+      "display": "elegí"
+    },
+    {
+      "word": "nueva",
+      "start": 6.88,
+      "end": 7.12,
+      "probability": 0.39038997888565063,
+      "display": "Nueva"
+    },
+    {
+      "word": "empresa.",
+      "start": 7.12,
+      "end": 7.58,
+      "probability": 0.9990330934524536,
+      "display": "Empresa."
+    },
+    {
+      "word": "Cargamos",
+      "start": 8.16,
+      "end": 8.56,
+      "probability": 0.9276679555575053,
+      "display": "Cargamos"
+    },
+    {
+      "word": "el",
+      "start": 8.56,
+      "end": 8.76,
+      "probability": 0.9992941617965698,
+      "display": "el"
+    },
+    {
+      "word": "nombre",
+      "start": 8.76,
+      "end": 8.98,
+      "probability": 0.9993269443511963,
+      "display": "nombre"
+    },
+    {
+      "word": "del",
+      "start": 8.98,
+      "end": 9.18,
+      "probability": 0.9929261803627014,
+      "display": "del"
+    },
+    {
+      "word": "comercio",
+      "start": 9.18,
+      "end": 9.64,
+      "probability": 0.9939318001270294,
+      "display": "comercio"
+    },
+    {
+      "word": "y",
+      "start": 9.64,
+      "end": 9.9,
+      "probability": 0.9755882024765015,
+      "display": "y"
+    },
+    {
+      "word": "revisamos",
+      "start": 9.9,
+      "end": 10.36,
+      "probability": 0.989382803440094,
+      "display": "revisamos"
+    },
+    {
+      "word": "su",
+      "start": 10.36,
+      "end": 10.58,
+      "probability": 0.9498288035392761,
+      "display": "su"
+    },
+    {
+      "word": "enlace.",
+      "start": 10.58,
+      "end": 10.88,
+      "probability": 0.9977750182151794,
+      "display": "enlace."
+    },
+    {
+      "word": "Después",
+      "start": 11.54,
+      "end": 11.86,
+      "probability": 0.9965394735336304,
+      "display": "Después"
+    },
+    {
+      "word": "definimos",
+      "start": 11.86,
+      "end": 12.48,
+      "probability": 0.8828222751617432,
+      "display": "definimos"
+    },
+    {
+      "word": "la",
+      "start": 12.48,
+      "end": 12.7,
+      "probability": 0.9977269768714905,
+      "display": "la"
+    },
+    {
+      "word": "regla",
+      "start": 12.7,
+      "end": 13,
+      "probability": 0.9703298807144165,
+      "display": "regla"
+    },
+    {
+      "word": "de",
+      "start": 13,
+      "end": 13.14,
+      "probability": 0.9994868040084839,
+      "display": "de"
+    },
+    {
+      "word": "acumulación.",
+      "start": 13.14,
+      "end": 13.64,
+      "probability": 0.992260197798411,
+      "display": "acumulación:"
+    },
+    {
+      "word": "En",
+      "start": 14.18,
+      "end": 14.3,
+      "probability": 0.9963871240615845,
+      "display": "en"
+    },
+    {
+      "word": "este",
+      "start": 14.3,
+      "end": 14.5,
+      "probability": 0.9967820644378662,
+      "display": "este"
+    },
+    {
+      "word": "ejemplo,",
+      "start": 14.5,
+      "end": 14.84,
+      "probability": 0.9963585734367371,
+      "display": "ejemplo,"
+    },
+    {
+      "word": "cada",
+      "start": 15.2,
+      "end": 15.34,
+      "probability": 0.9985232949256897,
+      "display": "cada"
+    },
+    {
+      "word": "mil",
+      "start": 15.34,
+      "end": 15.58,
+      "probability": 0.7246717214584351,
+      "display": "mil"
+    },
+    {
+      "word": "pesos",
+      "start": 15.58,
+      "end": 15.86,
+      "probability": 0.9968857169151306,
+      "display": "pesos"
+    },
+    {
+      "word": "completos",
+      "start": 15.86,
+      "end": 16.46,
+      "probability": 0.9976221919059753,
+      "display": "completos"
+    },
+    {
+      "word": "de",
+      "start": 16.46,
+      "end": 16.58,
+      "probability": 0.9976872205734253,
+      "display": "de"
+    },
+    {
+      "word": "una",
+      "start": 16.58,
+      "end": 16.74,
+      "probability": 0.9966803789138794,
+      "display": "una"
+    },
+    {
+      "word": "compra",
+      "start": 16.74,
+      "end": 17.06,
+      "probability": 0.9887371063232422,
+      "display": "compra"
+    },
+    {
+      "word": "suman",
+      "start": 17.06,
+      "end": 17.44,
+      "probability": 0.9921154081821442,
+      "display": "suman"
+    },
+    {
+      "word": "diez",
+      "start": 17.44,
+      "end": 17.74,
+      "probability": 0.30684980750083923,
+      "display": "diez"
+    },
+    {
+      "word": "puntos.",
+      "start": 17.74,
+      "end": 18.14,
+      "probability": 0.9988467693328857,
+      "display": "puntos."
+    },
+    {
+      "word": "Elegimos",
+      "start": 18.98,
+      "end": 19.58,
+      "probability": 0.939907451470693,
+      "display": "Elegimos"
+    },
+    {
+      "word": "el",
+      "start": 19.58,
+      "end": 19.84,
+      "probability": 0.995629072189331,
+      "display": "el"
+    },
+    {
+      "word": "país",
+      "start": 19.84,
+      "end": 20.04,
+      "probability": 0.9686203598976135,
+      "display": "país"
+    },
+    {
+      "word": "del",
+      "start": 20.04,
+      "end": 20.24,
+      "probability": 0.996315062046051,
+      "display": "del"
+    },
+    {
+      "word": "comercio.",
+      "start": 20.24,
+      "end": 20.76,
+      "probability": 0.9985964298248291,
+      "display": "comercio;"
+    },
+    {
+      "word": "Los",
+      "start": 21.22,
+      "end": 21.42,
+      "probability": 0.9959210157394409,
+      "display": "los"
+    },
+    {
+      "word": "demás",
+      "start": 21.42,
+      "end": 21.64,
+      "probability": 0.9956461787223816,
+      "display": "demás"
+    },
+    {
+      "word": "datos",
+      "start": 21.64,
+      "end": 21.94,
+      "probability": 0.9989414811134338,
+      "display": "datos"
+    },
+    {
+      "word": "de",
+      "start": 21.94,
+      "end": 22.12,
+      "probability": 0.9988508224487305,
+      "display": "de"
+    },
+    {
+      "word": "ubicación",
+      "start": 22.12,
+      "end": 22.58,
+      "probability": 0.9987092018127441,
+      "display": "ubicación"
+    },
+    {
+      "word": "se",
+      "start": 22.58,
+      "end": 22.98,
+      "probability": 0.9664672613143921,
+      "display": "se"
+    },
+    {
+      "word": "pueden",
+      "start": 22.98,
+      "end": 23.22,
+      "probability": 0.9977206587791443,
+      "display": "pueden"
+    },
+    {
+      "word": "completar",
+      "start": 23.22,
+      "end": 23.78,
+      "probability": 0.9983239769935608,
+      "display": "completar"
+    },
+    {
+      "word": "cuando",
+      "start": 23.78,
+      "end": 23.96,
+      "probability": 0.9934319853782654,
+      "display": "cuando"
+    },
+    {
+      "word": "correspondan.",
+      "start": 23.96,
+      "end": 24.68,
+      "probability": 0.980709433555603,
+      "display": "correspondan."
+    },
+    {
+      "word": "En",
+      "start": 24.98,
+      "end": 25.12,
+      "probability": 0.9976416826248169,
+      "display": "En"
+    },
+    {
+      "word": "este",
+      "start": 25.12,
+      "end": 25.3,
+      "probability": 0.9941667318344116,
+      "display": "este"
+    },
+    {
+      "word": "mismo",
+      "start": 25.3,
+      "end": 25.56,
+      "probability": 0.9987001419067383,
+      "display": "mismo"
+    },
+    {
+      "word": "formulario",
+      "start": 25.56,
+      "end": 26.12,
+      "probability": 0.9884596467018127,
+      "display": "formulario"
+    },
+    {
+      "word": "decidimos",
+      "start": 26.12,
+      "end": 26.62,
+      "probability": 0.9503293335437775,
+      "display": "decidimos"
+    },
+    {
+      "word": "si",
+      "start": 26.62,
+      "end": 26.96,
+      "probability": 0.9925446510314941,
+      "display": "si"
+    },
+    {
+      "word": "los",
+      "start": 26.96,
+      "end": 27.1,
+      "probability": 0.9993589520454407,
+      "display": "los"
+    },
+    {
+      "word": "puntos",
+      "start": 27.1,
+      "end": 27.42,
+      "probability": 0.9980937838554382,
+      "display": "puntos"
+    },
+    {
+      "word": "van",
+      "start": 27.42,
+      "end": 27.7,
+      "probability": 0.9980331063270569,
+      "display": "van"
+    },
+    {
+      "word": "a",
+      "start": 27.7,
+      "end": 27.82,
+      "probability": 0.9981847405433655,
+      "display": "a"
+    },
+    {
+      "word": "vencer.",
+      "start": 27.82,
+      "end": 28.14,
+      "probability": 0.998261034488678,
+      "display": "vencer."
+    },
+    {
+      "word": "Activamos",
+      "start": 28.14,
+      "end": 29.26,
+      "probability": 0.7566157976786295,
+      "display": "Activamos"
+    },
+    {
+      "word": "la",
+      "start": 29.26,
+      "end": 29.48,
+      "probability": 0.9955365657806396,
+      "display": "la"
+    },
+    {
+      "word": "opción",
+      "start": 29.48,
+      "end": 29.94,
+      "probability": 0.9752809405326843,
+      "display": "opción"
+    },
+    {
+      "word": "e",
+      "start": 29.94,
+      "end": 30.22,
+      "probability": 0.8846908807754517,
+      "display": "e"
+    },
+    {
+      "word": "indicamos",
+      "start": 30.22,
+      "end": 30.76,
+      "probability": 0.9912508726119995,
+      "display": "indicamos"
+    },
+    {
+      "word": "90",
+      "start": 30.76,
+      "end": 31.04,
+      "probability": 0.9395143389701843,
+      "display": "90"
+    },
+    {
+      "word": "días",
+      "start": 31.04,
+      "end": 31.5,
+      "probability": 0.9950737357139587,
+      "display": "días"
+    },
+    {
+      "word": "desde",
+      "start": 31.5,
+      "end": 31.84,
+      "probability": 0.9855505228042603,
+      "display": "desde"
+    },
+    {
+      "word": "cada",
+      "start": 31.84,
+      "end": 32.16,
+      "probability": 0.9964641332626343,
+      "display": "cada"
+    },
+    {
+      "word": "compra.",
+      "start": 32.16,
+      "end": 32.52,
+      "probability": 0.9925878643989563,
+      "display": "compra."
+    },
+    {
+      "word": "Revisamos",
+      "start": 33.14,
+      "end": 33.6,
+      "probability": 0.8852582375208536,
+      "display": "Revisamos"
+    },
+    {
+      "word": "el",
+      "start": 33.6,
+      "end": 33.82,
+      "probability": 0.999500036239624,
+      "display": "el"
+    },
+    {
+      "word": "nombre,",
+      "start": 33.82,
+      "end": 34.04,
+      "probability": 0.9995610117912292,
+      "display": "nombre,"
+    },
+    {
+      "word": "la",
+      "start": 34.32,
+      "end": 34.4,
+      "probability": 0.9970513582229614,
+      "display": "la"
+    },
+    {
+      "word": "regla",
+      "start": 34.4,
+      "end": 34.8,
+      "probability": 0.9976654052734375,
+      "display": "regla"
+    },
+    {
+      "word": "y",
+      "start": 34.8,
+      "end": 35.06,
+      "probability": 0.9551481008529663,
+      "display": "y"
+    },
+    {
+      "word": "el",
+      "start": 35.06,
+      "end": 35.18,
+      "probability": 0.99863201379776,
+      "display": "el"
+    },
+    {
+      "word": "plazo",
+      "start": 35.18,
+      "end": 35.54,
+      "probability": 0.9974620640277863,
+      "display": "plazo,"
+    },
+    {
+      "word": "y",
+      "start": 35.54,
+      "end": 35.94,
+      "probability": 0.4683181345462799,
+      "display": "y"
+    },
+    {
+      "word": "creamos",
+      "start": 35.94,
+      "end": 36.34,
+      "probability": 0.9945864379405975,
+      "display": "creamos"
+    },
+    {
+      "word": "el",
+      "start": 36.34,
+      "end": 36.5,
+      "probability": 0.9967801570892334,
+      "display": "el"
+    },
+    {
+      "word": "comercio.",
+      "start": 36.5,
+      "end": 36.98,
+      "probability": 0.9922890067100525,
+      "display": "comercio."
+    },
+    {
+      "word": "Ahora",
+      "start": 37.42,
+      "end": 37.62,
+      "probability": 0.9779245257377625,
+      "display": "Ahora"
+    },
+    {
+      "word": "tenemos",
+      "start": 37.62,
+      "end": 37.92,
+      "probability": 0.9729182124137878,
+      "display": "tenemos"
+    },
+    {
+      "word": "todo",
+      "start": 37.92,
+      "end": 38.2,
+      "probability": 0.9954429864883423,
+      "display": "todo"
+    },
+    {
+      "word": "preparado",
+      "start": 38.2,
+      "end": 38.78,
+      "probability": 0.9986970722675323,
+      "display": "preparado"
+    },
+    {
+      "word": "para",
+      "start": 38.78,
+      "end": 38.98,
+      "probability": 0.9990679621696472,
+      "display": "para"
+    },
+    {
+      "word": "empezar",
+      "start": 38.98,
+      "end": 39.3,
+      "probability": 0.9987180233001709,
+      "display": "empezar"
+    },
+    {
+      "word": "a",
+      "start": 39.3,
+      "end": 39.44,
+      "probability": 0.9990180730819702,
+      "display": "a"
+    },
+    {
+      "word": "trabajar",
+      "start": 39.44,
+      "end": 39.72,
+      "probability": 0.9987735152244568,
+      "display": "trabajar"
+    },
+    {
+      "word": "con",
+      "start": 39.72,
+      "end": 40,
+      "probability": 0.9992852807044983,
+      "display": "con"
+    },
+    {
+      "word": "clientes.",
+      "start": 40,
+      "end": 40.5,
+      "probability": 0.9959852397441864,
+      "display": "clientes."
+    }
+  ],
+  "captions": [
+    {
+      "text": "Para comenzar, ingresá a Pointly con tu cuenta de Bycode.",
+      "startMs": 0,
+      "endMs": 3300,
+      "timestampMs": null,
+      "confidence": 0.847151728515746
+    },
+    {
+      "text": "Si es tu primer ingreso, completá tu perfil y elegí Nueva Empresa.",
+      "startMs": 3840,
+      "endMs": 7580,
+      "timestampMs": null,
+      "confidence": 0.9152934153874716
+    },
+    {
+      "text": "Cargamos el nombre del comercio y revisamos su enlace.",
+      "startMs": 8160,
+      "endMs": 10880,
+      "timestampMs": null,
+      "confidence": 0.9806357633184503
+    },
+    {
+      "text": "Después definimos la regla de acumulación:",
+      "startMs": 11540,
+      "endMs": 13640,
+      "timestampMs": null,
+      "confidence": 0.973194268014696
+    },
+    {
+      "text": "en este ejemplo, cada mil pesos completos de una compra suman diez puntos.",
+      "startMs": 14180,
+      "endMs": 18140,
+      "timestampMs": null,
+      "confidence": 0.9221651829206027
+    },
+    {
+      "text": "Elegimos el país del comercio;",
+      "startMs": 18980,
+      "endMs": 20760,
+      "timestampMs": null,
+      "confidence": 0.9798136750857036
+    },
+    {
+      "text": "los demás datos de ubicación se pueden completar cuando correspondan.",
+      "startMs": 21220,
+      "endMs": 24680,
+      "timestampMs": null,
+      "confidence": 0.9924722015857697
+    },
+    {
+      "text": "En este mismo formulario decidimos si los puntos van a vencer.",
+      "startMs": 24980,
+      "endMs": 28140,
+      "timestampMs": null,
+      "confidence": 0.9921612549911846
+    },
+    {
+      "text": "Activamos la opción e indicamos 90 días desde cada compra.",
+      "startMs": 28140,
+      "endMs": 32520,
+      "timestampMs": null,
+      "confidence": 0.9512565652529398
+    },
+    {
+      "text": "Revisamos el nombre, la regla y el plazo, y creamos el comercio.",
+      "startMs": 33140,
+      "endMs": 36980,
+      "timestampMs": null,
+      "confidence": 0.9401876636677318
+    },
+    {
+      "text": "Ahora tenemos todo preparado para empezar a trabajar con clientes.",
+      "startMs": 37420,
+      "endMs": 40500,
+      "timestampMs": null,
+      "confidence": 0.9935830891132355
+    }
+  ],
+  "status": "REVIEW_REQUIRED",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [],
+    "sourceAudioHash": "25327afa1441c46f9921b965f9b1883b080f8d38a35caf1711e45952f7abbc67"
+  }
+}

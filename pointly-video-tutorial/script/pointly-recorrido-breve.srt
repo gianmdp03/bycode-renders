@@ -1,0 +1,315 @@
+1
+00:00:00,000 --> 00:00:04,420
+Pointly te ayuda a convertir las compras de tus clientes en puntos y premios.
+
+2
+00:00:04,800 --> 00:00:07,320
+Vamos a recorrer un ejemplo completo en Café del Puerto:
+
+3
+00:00:07,960 --> 00:00:12,520
+crear el comercio, incorporar a Ana, registrar su compra y entregar un premio.
+
+4
+00:00:12,820 --> 00:00:14,780
+Después veremos cómo consulta sus puntos.
+
+5
+00:00:15,933 --> 00:00:19,233
+Para comenzar, ingresá a Pointly con tu cuenta de Bycode.
+
+6
+00:00:19,773 --> 00:00:23,513
+Si es tu primer ingreso, completá tu perfil y elegí Nueva Empresa.
+
+7
+00:00:24,093 --> 00:00:26,813
+Cargamos el nombre del comercio y revisamos su enlace.
+
+8
+00:00:27,473 --> 00:00:29,573
+Después definimos la regla de acumulación:
+
+9
+00:00:30,113 --> 00:00:34,073
+en este ejemplo, cada mil pesos completos de una compra suman diez puntos.
+
+10
+00:00:34,913 --> 00:00:36,693
+Elegimos el país del comercio;
+
+11
+00:00:37,153 --> 00:00:40,613
+los demás datos de ubicación se pueden completar cuando correspondan.
+
+12
+00:00:40,913 --> 00:00:44,073
+En este mismo formulario decidimos si los puntos van a vencer.
+
+13
+00:00:44,073 --> 00:00:48,453
+Activamos la opción e indicamos 90 días desde cada compra.
+
+14
+00:00:49,073 --> 00:00:52,913
+Revisamos el nombre, la regla y el plazo, y creamos el comercio.
+
+15
+00:00:53,353 --> 00:00:56,433
+Ahora tenemos todo preparado para empezar a trabajar con clientes.
+
+16
+00:00:57,467 --> 00:01:00,087
+Desde el comercio elegimos Nuevo cliente.
+
+17
+00:01:00,187 --> 00:01:04,127
+Completamos el nombre de Ana, el país de su documento y su DNI.
+
+18
+00:01:04,647 --> 00:01:06,707
+Correo y teléfono son opcionales;
+
+19
+00:01:07,027 --> 00:01:10,067
+sirven para mantener el contacto cuando el cliente los comparte.
+
+20
+00:01:10,707 --> 00:01:13,307
+Guardamos sus datos y abrimos Ver clientes.
+
+21
+00:01:13,727 --> 00:01:17,107
+La búsqueda permite encontrarla por su nombre o documento.
+
+22
+00:01:17,627 --> 00:01:21,967
+En el detalle, su saldo inicial es de cero puntos y todavía no hay movimientos.
+
+23
+00:01:21,967 --> 00:01:27,187
+También podés compartir el QR de registro para que tus clientes completen el alta
+
+24
+00:01:27,187 --> 00:01:27,827
+por su cuenta.
+
+25
+00:01:28,287 --> 00:01:32,007
+Ese código se descarga desde el comercio y podés exhibirlo en el local.
+
+26
+00:01:33,000 --> 00:01:36,040
+Ana realiza una compra de 8.500 pesos.
+
+27
+00:01:36,520 --> 00:01:41,500
+Elegimos Registrar venta, indicamos su país y DNI y cargamos el importe.
+
+28
+00:01:41,980 --> 00:01:46,580
+Antes de confirmar, revisamos que sea la persona correcta y miramos la estimación:
+
+29
+00:01:47,220 --> 00:01:50,160
+los ocho tramos completos de 1000 suman 80 puntos.
+
+30
+00:01:50,800 --> 00:01:52,260
+Confirmamos una sola vez.
+
+31
+00:01:52,900 --> 00:01:56,040
+Después volvemos al detalle de Ana para comprobar el resultado.
+
+32
+00:01:56,660 --> 00:02:00,280
+Su saldo pasó de 0 a 80 y el historial muestra la acumulación.
+
+33
+00:02:00,280 --> 00:02:04,720
+Este es el procedimiento que repetís cada vez que un cliente realiza una compra.
+
+34
+00:02:05,650 --> 00:02:08,790
+Ahora preparamos un beneficio que Ana pueda alcanzar.
+
+35
+00:02:09,250 --> 00:02:11,430
+En Premios elegimos Agregar premio.
+
+36
+00:02:11,790 --> 00:02:15,070
+Podemos ofrecer un premio físico o un voucher de descuento.
+
+37
+00:02:15,650 --> 00:02:17,970
+Para este ejemplo seleccionamos Premio físico,
+
+38
+00:02:18,270 --> 00:02:21,210
+lo llamamos Café de regalo y explicamos sus condiciones.
+
+39
+00:02:21,770 --> 00:02:24,270
+Le asignamos un costo de 80 puntos y guardamos.
+
+40
+00:02:24,830 --> 00:02:28,630
+La tarjeta ya muestra el premio y lo que necesita el cliente para obtenerlo.
+
+41
+00:02:28,910 --> 00:02:33,350
+Para entregárselo a Ana, abrimos Canjear en esa misma tarjeta e indicamos su país
+
+42
+00:02:33,350 --> 00:02:34,250
+y DNI.
+
+43
+00:02:34,530 --> 00:02:37,650
+Revisamos el premio y su costo antes de confirmar.
+
+44
+00:02:38,130 --> 00:02:39,910
+El canje descuenta 80 puntos:
+
+45
+00:02:40,490 --> 00:02:44,690
+Ana queda con cero y su historial conserva tanto la compra como el premio recibido.
+
+46
+00:02:45,250 --> 00:02:47,610
+La entrega del café la coordinás en el comercio.
+
+47
+00:02:48,617 --> 00:02:51,957
+También podés sumar promociones y mostrar tus productos.
+
+48
+00:02:52,517 --> 00:02:56,197
+En Promociones creamos una campaña de puntos dobles, con un nombre,
+
+49
+00:02:56,537 --> 00:02:59,117
+sus condiciones y las fechas de inicio y fin.
+
+50
+00:02:59,817 --> 00:03:03,437
+La dejamos programada para comenzar después de nuestro ejemplo de compra.
+
+51
+00:03:03,917 --> 00:03:08,657
+Durante su vigencia, las compras que correspondan obtendrán el beneficio configurado.
+
+52
+00:03:09,177 --> 00:03:13,357
+En Productos agregamos un café doble con su precio y una descripción.
+
+53
+00:03:14,017 --> 00:03:16,637
+Guardamos y revisamos su tarjeta en el catálogo.
+
+54
+00:03:16,637 --> 00:03:21,697
+Estas herramientas ayudan a que tus clientes conozcan qué ofrecés y qué beneficios
+
+55
+00:03:21,697 --> 00:03:22,557
+pueden aprovechar.
+
+56
+00:03:23,317 --> 00:03:25,937
+Podés actualizar sus datos cuando cambie tu propuesta.
+
+57
+00:03:27,100 --> 00:03:28,760
+Para acompañar a tus clientes,
+
+58
+00:03:28,920 --> 00:03:33,220
+Sin actividad permite encontrar a quienes llevan un tiempo sin comprar ni canjear.
+
+59
+00:03:33,760 --> 00:03:36,080
+Elegís el período y revisás la lista.
+
+60
+00:03:36,740 --> 00:03:40,100
+Con Contactar por WhatsApp podés revisar un mensaje y copiarlo.
+
+61
+00:03:40,520 --> 00:03:41,800
+El envío lo confirmás vos.
+
+62
+00:03:42,500 --> 00:03:46,780
+En Correos elegís si querés activar los avisos para clientes con correo cargado.
+
+63
+00:03:47,240 --> 00:03:50,000
+Las vistas previas muestran cómo son los mensajes.
+
+64
+00:03:50,700 --> 00:03:55,000
+Así tenés herramientas para mantener el contacto además del registro diario de compras
+
+65
+00:03:55,000 --> 00:03:55,580
+y premios.
+
+66
+00:03:56,867 --> 00:03:59,487
+Ahora veamos cómo consulta sus puntos Ana.
+
+67
+00:04:00,087 --> 00:04:03,167
+Desde el inicio de Pointly elige el país de su documento,
+
+68
+00:04:03,587 --> 00:04:06,287
+ingresa el DNI y usa Ver mis puntos.
+
+69
+00:04:06,967 --> 00:04:10,967
+Abre Café del Puerto y encuentra su saldo y los premios del comercio.
+
+70
+00:04:11,407 --> 00:04:12,807
+El saldo es cero puntos:
+
+71
+00:04:13,387 --> 00:04:15,867
+Ana ya usó los ochenta para recibir el café.
+
+72
+00:04:16,307 --> 00:04:19,827
+En cada premio puede consultar cuántos puntos necesita y sus condiciones.
+
+73
+00:04:20,467 --> 00:04:22,607
+También puede recorrer los productos disponibles.
+
+74
+00:04:23,127 --> 00:04:25,967
+Para obtener otro premio, coordina el canje con el comercio.
+
+75
+00:04:25,967 --> 00:04:30,167
+El saldo que consulta coincide con el que acabamos de comprobar en su detalle.
+
+76
+00:04:31,267 --> 00:04:35,047
+En cada compra, buscá al cliente y revisá los puntos que sumó.
+
+77
+00:04:35,267 --> 00:04:37,287
+Si elige un premio, confirmá el canje.
+
+78
+00:04:37,727 --> 00:04:40,887
+El cliente puede consultar su saldo desde el inicio de Pointly.
+
+79
+00:04:41,207 --> 00:04:42,807
+Una aplicación de Bycode Software.

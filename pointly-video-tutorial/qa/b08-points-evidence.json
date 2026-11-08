@@ -1,0 +1,116 @@
+{
+  "scene": "b08-points",
+  "source": "recordings/b08-points-1794153762292.mp4",
+  "phases": [
+    {
+      "id": "lookup",
+      "voice": "Ahora veamos",
+      "start": 1794153748200.9,
+      "end": 1794153749399
+    },
+    {
+      "id": "identify",
+      "voice": "Desde el inicio",
+      "start": 1794153749400.5,
+      "end": 1794153752063.0999
+    },
+    {
+      "id": "store",
+      "voice": "Abre Café del Puerto",
+      "start": 1794153752065.5999,
+      "end": 1794153753531.5999
+    },
+    {
+      "id": "balance",
+      "voice": "El saldo es cero puntos",
+      "start": 1794153753532.9,
+      "end": 1794153754531.7
+    },
+    {
+      "id": "rewards",
+      "voice": "En cada premio",
+      "start": 1794153754532.7998,
+      "end": 1794153757161.5
+    },
+    {
+      "id": "products",
+      "voice": "También puede recorrer",
+      "start": 1794153757163.0999,
+      "end": 1794153759182.7998
+    },
+    {
+      "id": "return",
+      "voice": "Para obtener otro premio",
+      "start": 1794153759184.4,
+      "end": 1794153761183.5
+    }
+  ],
+  "evidence": [
+    {
+      "label": "Public consultation shows the same zero balance after the one canje",
+      "at": 1794153753986.7998,
+      "url": "/client/kXXcQXUZ7kHj/cafe-del-puerto-recorrido-20261108-3",
+      "frame": "qa/b08-points-1.png",
+      "expectedBalance": 0,
+      "person": "Ana Torres DEMO"
+    },
+    {
+      "label": "Same coffee reward remains in public consultation",
+      "at": 1794153756628.5999,
+      "url": "/client/kXXcQXUZ7kHj/cafe-del-puerto-recorrido-20261108-3",
+      "frame": "qa/b08-points-2.png"
+    },
+    {
+      "label": "Same product retained in public catalog",
+      "at": 1794153758632.5999,
+      "url": "/client/kXXcQXUZ7kHj/cafe-del-puerto-recorrido-20261108-3",
+      "frame": "qa/b08-points-3.png"
+    },
+    {
+      "label": "Customer consultation and merchant balance agree",
+      "at": 1794153760624.2998,
+      "url": "/client/kXXcQXUZ7kHj/cafe-del-puerto-recorrido-20261108-3",
+      "frame": "qa/b08-points-4.png",
+      "expectedBalance": 0
+    }
+  ],
+  "network": [
+    {
+      "method": "POST",
+      "path": "/api/pointly/public/clients/access-links",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/public/client-access/companies/query",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/public/client-access/companies/cafe-del-puerto-recorrido-20261108-3/query",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/public/client-access/companies/cafe-del-puerto-recorrido-20261108-3/point-expirations/query",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/media/85a83000-286f-47c6-bc06-dc01032d81c5",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 401
+    }
+  ],
+  "person": "Ana Torres DEMO",
+  "company": "Café del Puerto DEMO"
+}

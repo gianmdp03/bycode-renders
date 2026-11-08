@@ -10,8 +10,11 @@ qa/*.jpg
 qa/*.mp4
 qa/*.webm
 qa/final-frames/
+qa/brief-final-frames/
 !recordings/supplements.json
 !recordings/edit-manifest.json
+!recordings/brief-manifest.json
+!recordings/brief-edit-manifest.json
 remotion/public/footage/
 remotion/public/audio/
 remotion/.remotion/

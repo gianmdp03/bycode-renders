@@ -1,0 +1,577 @@
+{
+  "fps": 60,
+  "chapters": [
+    {
+      "id": "b01-intro",
+      "recording": "recordings/b01-intro-1794152698832.mp4",
+      "edited": "footage/b01-intro-304fce5236eb.mp4",
+      "audioSha256": "5e2b9b5e710059243ff90a801232d3433aeb3fb74fa705ba1d1eb4ee1721d96a",
+      "phases": [
+        {
+          "id": "overview",
+          "voice": "Pointly te ayuda",
+          "from": 0,
+          "start": 70,
+          "end": 240,
+          "frames": 956,
+          "speed": 1,
+          "hold": 786
+        }
+      ]
+    },
+    {
+      "id": "b02-company",
+      "recording": "recordings/b02-company-1794153336892.mp4",
+      "edited": "footage/b02-company-41447030c348.mp4",
+      "audioSha256": "25327afa1441c46f9921b965f9b1883b080f8d38a35caf1711e45952f7abbc67",
+      "phases": [
+        {
+          "id": "login",
+          "voice": "Para comenzar",
+          "from": 0,
+          "start": 68,
+          "end": 412,
+          "frames": 230,
+          "speed": 1.4956521739130435,
+          "hold": 0
+        },
+        {
+          "id": "profile",
+          "voice": "Si es tu primer ingreso",
+          "from": 230,
+          "start": 412,
+          "end": 745,
+          "frames": 260,
+          "speed": 1.2807692307692307,
+          "hold": 0
+        },
+        {
+          "id": "name",
+          "voice": "Cargamos el nombre",
+          "from": 490,
+          "start": 745,
+          "end": 1034,
+          "frames": 202,
+          "speed": 1.4306930693069306,
+          "hold": 0
+        },
+        {
+          "id": "rule",
+          "voice": "Después definimos",
+          "from": 692,
+          "start": 1034,
+          "end": 1219,
+          "frames": 447,
+          "speed": 1,
+          "hold": 262
+        },
+        {
+          "id": "country",
+          "voice": "Elegimos el país",
+          "from": 1139,
+          "start": 1220,
+          "end": 1381,
+          "frames": 360,
+          "speed": 1,
+          "hold": 199
+        },
+        {
+          "id": "expiry-section",
+          "voice": "En este mismo formulario",
+          "from": 1499,
+          "start": 1381,
+          "end": 1459,
+          "frames": 189,
+          "speed": 1,
+          "hold": 111
+        },
+        {
+          "id": "expiry",
+          "voice": "Activamos la opción",
+          "from": 1688,
+          "start": 1459,
+          "end": 1633,
+          "frames": 300,
+          "speed": 1,
+          "hold": 126
+        },
+        {
+          "id": "create",
+          "voice": "Revisamos el nombre",
+          "from": 1988,
+          "start": 1633,
+          "end": 1753,
+          "frames": 257,
+          "speed": 1,
+          "hold": 137
+        },
+        {
+          "id": "ready",
+          "voice": "Ahora tenemos",
+          "from": 2245,
+          "start": 1753,
+          "end": 1813,
+          "frames": 247,
+          "speed": 1,
+          "hold": 187
+        }
+      ]
+    },
+    {
+      "id": "b03-client",
+      "recording": "recordings/b03-client-1794153368077.mp4",
+      "edited": "footage/b03-client-defacb855d53.mp4",
+      "audioSha256": "4135f3a0dcd515cd2367d18569fe9ba5600859a6d755276cc5475e92ec9d44c5",
+      "phases": [
+        {
+          "id": "open",
+          "voice": "Desde el comercio",
+          "from": 0,
+          "start": 73,
+          "end": 161,
+          "frames": 163,
+          "speed": 1,
+          "hold": 75
+        },
+        {
+          "id": "identity",
+          "voice": "Completamos el nombre",
+          "from": 163,
+          "start": 161,
+          "end": 340,
+          "frames": 268,
+          "speed": 1,
+          "hold": 89
+        },
+        {
+          "id": "contacts",
+          "voice": "Correo y teléfono",
+          "from": 431,
+          "start": 340,
+          "end": 553,
+          "frames": 363,
+          "speed": 1,
+          "hold": 150
+        },
+        {
+          "id": "save",
+          "voice": "Guardamos sus datos",
+          "from": 794,
+          "start": 553,
+          "end": 714,
+          "frames": 182,
+          "speed": 1,
+          "hold": 21
+        },
+        {
+          "id": "search",
+          "voice": "La búsqueda permite",
+          "from": 976,
+          "start": 714,
+          "end": 889,
+          "frames": 234,
+          "speed": 1,
+          "hold": 59
+        },
+        {
+          "id": "zero",
+          "voice": "En el detalle",
+          "from": 1210,
+          "start": 889,
+          "end": 951,
+          "frames": 260,
+          "speed": 1,
+          "hold": 198
+        },
+        {
+          "id": "qr",
+          "voice": "También podés compartir",
+          "from": 1470,
+          "start": 952,
+          "end": 1249,
+          "frames": 662,
+          "speed": 1,
+          "hold": 365
+        }
+      ]
+    },
+    {
+      "id": "b04-sale",
+      "recording": "recordings/b04-sale-1794153392672.mp4",
+      "edited": "footage/b04-sale-ede2302338c4.mp4",
+      "audioSha256": "7acb6ed17bc9c86a7eb4c0be43f60c715f8322de1b78bfeee6a9b558875bd39b",
+      "phases": [
+        {
+          "id": "open",
+          "voice": "Ana realiza una compra",
+          "from": 0,
+          "start": 69,
+          "end": 159,
+          "frames": 211,
+          "speed": 1,
+          "hold": 121
+        },
+        {
+          "id": "fill",
+          "voice": "Elegimos Registrar venta",
+          "from": 211,
+          "start": 159,
+          "end": 318,
+          "frames": 328,
+          "speed": 1,
+          "hold": 169
+        },
+        {
+          "id": "estimate",
+          "voice": "Antes de confirmar",
+          "from": 539,
+          "start": 318,
+          "end": 377,
+          "frames": 529,
+          "speed": 1,
+          "hold": 470
+        },
+        {
+          "id": "confirm",
+          "voice": "Confirmamos una sola vez",
+          "from": 1068,
+          "start": 377,
+          "end": 465,
+          "frames": 114,
+          "speed": 1,
+          "hold": 26
+        },
+        {
+          "id": "detail",
+          "voice": "Después volvemos",
+          "from": 1182,
+          "start": 465,
+          "end": 748,
+          "frames": 220,
+          "speed": 1.2863636363636364,
+          "hold": 0
+        },
+        {
+          "id": "result",
+          "voice": "Su saldo pasó",
+          "from": 1402,
+          "start": 748,
+          "end": 938,
+          "frames": 557,
+          "speed": 1,
+          "hold": 367
+        }
+      ]
+    },
+    {
+      "id": "b05-reward",
+      "recording": "recordings/b05-reward-1794153427104.mp4",
+      "edited": "footage/b05-reward-a735c333a044.mp4",
+      "audioSha256": "6be91b5abec7e684e46b9b909f354e4beb24fb2e24191e755329d4c3ec86ecc1",
+      "phases": [
+        {
+          "id": "open",
+          "voice": "Ahora preparamos",
+          "from": 0,
+          "start": 71,
+          "end": 244,
+          "frames": 368,
+          "speed": 1,
+          "hold": 195
+        },
+        {
+          "id": "types",
+          "voice": "Podemos ofrecer",
+          "from": 368,
+          "start": 244,
+          "end": 314,
+          "frames": 232,
+          "speed": 1,
+          "hold": 162
+        },
+        {
+          "id": "define",
+          "voice": "Para este ejemplo",
+          "from": 600,
+          "start": 314,
+          "end": 557,
+          "frames": 367,
+          "speed": 1,
+          "hold": 124
+        },
+        {
+          "id": "cost",
+          "voice": "Le asignamos",
+          "from": 967,
+          "start": 557,
+          "end": 802,
+          "frames": 184,
+          "speed": 1.3315217391304348,
+          "hold": 0
+        },
+        {
+          "id": "card",
+          "voice": "La tarjeta ya muestra",
+          "from": 1151,
+          "start": 802,
+          "end": 872,
+          "frames": 245,
+          "speed": 1,
+          "hold": 175
+        },
+        {
+          "id": "redeem",
+          "voice": "Para entregárselo",
+          "from": 1396,
+          "start": 872,
+          "end": 1014,
+          "frames": 337,
+          "speed": 1,
+          "hold": 195
+        },
+        {
+          "id": "review",
+          "voice": "Revisamos el premio",
+          "from": 1733,
+          "start": 1014,
+          "end": 1075,
+          "frames": 216,
+          "speed": 1,
+          "hold": 155
+        },
+        {
+          "id": "confirm",
+          "voice": "El canje descuenta",
+          "from": 1949,
+          "start": 1075,
+          "end": 1162,
+          "frames": 111,
+          "speed": 1,
+          "hold": 24
+        },
+        {
+          "id": "history",
+          "voice": "Ana queda con cero",
+          "from": 2060,
+          "start": 1162,
+          "end": 1579,
+          "frames": 518,
+          "speed": 1,
+          "hold": 101
+        }
+      ]
+    },
+    {
+      "id": "b06-catalog",
+      "recording": "recordings/b06-catalog-1794153463382.mp4",
+      "edited": "footage/b06-catalog-b3c7e52c531e.mp4",
+      "audioSha256": "278deff0d124b935b04d6417201be719145db18ecb0f5bb9e590cfa1e8883da7",
+      "phases": [
+        {
+          "id": "open",
+          "voice": "También podés sumar",
+          "from": 0,
+          "start": 76,
+          "end": 260,
+          "frames": 234,
+          "speed": 1,
+          "hold": 50
+        },
+        {
+          "id": "promotion",
+          "voice": "En Promociones creamos",
+          "from": 234,
+          "start": 260,
+          "end": 847,
+          "frames": 438,
+          "speed": 1.3401826484018264,
+          "hold": 0
+        },
+        {
+          "id": "future",
+          "voice": "La dejamos programada",
+          "from": 672,
+          "start": 847,
+          "end": 906,
+          "frames": 562,
+          "speed": 1,
+          "hold": 503
+        },
+        {
+          "id": "product",
+          "voice": "En Productos agregamos",
+          "from": 1234,
+          "start": 906,
+          "end": 1500,
+          "frames": 392,
+          "speed": 1.5153061224489797,
+          "hold": 0
+        },
+        {
+          "id": "cards",
+          "voice": "Guardamos y revisamos",
+          "from": 1626,
+          "start": 1500,
+          "end": 1560,
+          "frames": 683,
+          "speed": 1,
+          "hold": 623
+        }
+      ]
+    },
+    {
+      "id": "b07-contact",
+      "recording": "recordings/b07-contact-1794153676398.mp4",
+      "edited": "footage/b07-contact-6b9df3e09fba.mp4",
+      "audioSha256": "5a43a9f7f22fb5fca5368d6459b6c88dc0528abd72779a68be19443b1892f377",
+      "phases": [
+        {
+          "id": "inactive",
+          "voice": "Para acompañar",
+          "from": 0,
+          "start": 71,
+          "end": 189,
+          "frames": 400,
+          "speed": 1,
+          "hold": 282
+        },
+        {
+          "id": "period",
+          "voice": "Elegís el período",
+          "from": 400,
+          "start": 189,
+          "end": 332,
+          "frames": 178,
+          "speed": 1,
+          "hold": 35
+        },
+        {
+          "id": "whatsapp",
+          "voice": "Con Contactar por WhatsApp",
+          "from": 578,
+          "start": 333,
+          "end": 509,
+          "frames": 346,
+          "speed": 1,
+          "hold": 170
+        },
+        {
+          "id": "email",
+          "voice": "En Correos elegís",
+          "from": 924,
+          "start": 510,
+          "end": 722,
+          "frames": 284,
+          "speed": 1,
+          "hold": 72
+        },
+        {
+          "id": "preview",
+          "voice": "Las vistas previas",
+          "from": 1208,
+          "start": 722,
+          "end": 938,
+          "frames": 578,
+          "speed": 1,
+          "hold": 362
+        }
+      ]
+    },
+    {
+      "id": "b08-points",
+      "recording": "recordings/b08-points-1794153762292.mp4",
+      "edited": "footage/b08-points-9a8c3ad850d2.mp4",
+      "audioSha256": "2da502e9f94ab7ce64cc7e8eace1a827854ae68f73018dc8cda8372c1ff7fefe",
+      "phases": [
+        {
+          "id": "lookup",
+          "voice": "Ahora veamos",
+          "from": 0,
+          "start": 70,
+          "end": 142,
+          "frames": 193,
+          "speed": 1,
+          "hold": 121
+        },
+        {
+          "id": "identify",
+          "voice": "Desde el inicio",
+          "from": 193,
+          "start": 142,
+          "end": 301,
+          "frames": 413,
+          "speed": 1,
+          "hold": 254
+        },
+        {
+          "id": "store",
+          "voice": "Abre Café del Puerto",
+          "from": 606,
+          "start": 302,
+          "end": 390,
+          "frames": 266,
+          "speed": 1,
+          "hold": 178
+        },
+        {
+          "id": "balance",
+          "voice": "El saldo es cero puntos",
+          "from": 872,
+          "start": 390,
+          "end": 450,
+          "frames": 294,
+          "speed": 1,
+          "hold": 234
+        },
+        {
+          "id": "rewards",
+          "voice": "En cada premio",
+          "from": 1166,
+          "start": 450,
+          "end": 607,
+          "frames": 250,
+          "speed": 1,
+          "hold": 93
+        },
+        {
+          "id": "products",
+          "voice": "También puede recorrer",
+          "from": 1416,
+          "start": 607,
+          "end": 729,
+          "frames": 160,
+          "speed": 1,
+          "hold": 38
+        },
+        {
+          "id": "return",
+          "voice": "Para obtener otro premio",
+          "from": 1576,
+          "start": 729,
+          "end": 849,
+          "frames": 488,
+          "speed": 1,
+          "hold": 368
+        }
+      ]
+    },
+    {
+      "id": "b09-close",
+      "recording": "recordings/b09-close-1794153772083.mp4",
+      "edited": "footage/b09-close-d93b2c08f964.mp4",
+      "audioSha256": "e912b4fe2dd41ff0e9afa3270acf3e11e39b4d3a8af49d8782db4991510cfbeb",
+      "phases": [
+        {
+          "id": "recap",
+          "voice": "En el día a día",
+          "from": 0,
+          "start": 69,
+          "end": 221,
+          "frames": 798,
+          "speed": 1,
+          "hold": 646
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "Ahora veamos cómo consulta sus puntos Ana. Desde el inicio de Pointly elige el país de su documento, ingresa el DNI y usa Ver mis puntos. Abre Café del Puerto y encuentra su saldo y los premios del comercio. El saldo es cero puntos: Ana ya usó los ochenta para recibir el café. En cada premio puede consultar cuántos puntos necesita y sus condiciones. También puede recorrer los productos disponibles. Para obtener otro premio, coordina el canje con el comercio. El saldo que consulta coincide con el que acabamos de comprobar en su detalle.",
+  "spokenText": "Ahora veamos cómo consulta sus puntos Ana. Desde el inicio de Pointli elige el país de su documento, ingresa el de ene i y usa Ver mis puntos. Abre Café del Puerto y encuentra su saldo y los premios del comercio. El saldo es cero puntos: Ana ya usó los ochenta para recibir el café. En cada premio puede consultar cuántos puntos necesita y sus condiciones. También puede recorrer los productos disponibles. Para obtener otro premio, coordina el canje con el comercio. El saldo que consulta coincide con el que acabamos de comprobar en su detalle.",
+  "text_sha256": "378a7d6101215f09a703735ab4b0ca500a3a198d2248e674412c8b5362ce255b",
+  "sha256": "2da502e9f94ab7ce64cc7e8eace1a827854ae68f73018dc8cda8372c1ff7fefe",
+  "duration": 33.6,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 101.03,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

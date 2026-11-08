@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "Desde el comercio elegimos Nuevo cliente. Completamos el nombre de Ana, el país de su documento y su DNI. Correo y teléfono son opcionales; sirven para mantener el contacto cuando el cliente los comparte. Guardamos sus datos y abrimos Ver clientes. La búsqueda permite encontrarla por su nombre o documento. En el detalle, su saldo inicial es de cero puntos y todavía no hay movimientos. También podés compartir el QR de registro para que tus clientes completen el alta por su cuenta. Ese código se descarga desde el comercio y podés exhibirlo en el local.",
+  "spokenText": "Desde el comercio elegimos Nuevo cliente. Completamos el nombre de Ana, el país de su documento y su de ene i. Correo y teléfono son opcionales; sirven para mantener el contacto cuando el cliente los comparte. Guardamos sus datos y abrimos Ver clientes. La búsqueda permite encontrarla por su nombre o documento. En el detalle, su saldo inicial es de cero puntos y todavía no hay movimientos. También podés compartir el cu erre de registro para que tus clientes completen el alta por su cuenta. Ese código se descarga desde el comercio y podés exhibirlo en el local.",
+  "text_sha256": "25e1389a21950433faa94f6f97ab11c22867fd2516c9ac3ebe2770201bc9d61c",
+  "sha256": "4135f3a0dcd515cd2367d18569fe9ba5600859a6d755276cc5475e92ec9d44c5",
+  "duration": 34.72,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 141.72,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

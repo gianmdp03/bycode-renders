@@ -1,0 +1,934 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "6be91b5abec7e684e46b9b909f354e4beb24fb2e24191e755329d4c3ec86ecc1",
+  "transcript": "Ahora preparamos un beneficio que Ana pueda alcanzar. En Premios, elegimos agregar Premio. Podemos ofrecer un Premio Físico o un voucher de descuento. Para este ejemplo, seleccionamos Premio Físico, lo llamamos Café de regalo, y explicamos sus condiciones. Le asignamos un costo de 80 puntos y guardamos. La tarjeta ya muestra el premio y lo que necesita el cliente para obtenerlo. Para entregárselo a Ana, abrimos canjear en esa misma tarjeta e indicamos su país y DNIR, revisamos el premio y su costo antes de confirmar. El canje descuenta 80 puntos, Ana queda con cero y su historial conserva tanto la compra como el premio recibido. La entrega del café la coordinás en el comercio.",
+  "scriptSimilarity": 0.9739,
+  "differences": [
+    {
+      "op": "replace",
+      "expected": "ochenta",
+      "heard": "80"
+    },
+    {
+      "op": "replace",
+      "expected": "DNI.",
+      "heard": "DNIR,"
+    },
+    {
+      "op": "replace",
+      "expected": "ochenta",
+      "heard": "80"
+    }
+  ],
+  "words": [
+    {
+      "word": "Ahora",
+      "start": 0,
+      "end": 0.46,
+      "probability": 0.8057590126991272,
+      "display": "Ahora"
+    },
+    {
+      "word": "preparamos",
+      "start": 0.46,
+      "end": 1.04,
+      "probability": 0.9169816374778748,
+      "display": "preparamos"
+    },
+    {
+      "word": "un",
+      "start": 1.04,
+      "end": 1.24,
+      "probability": 0.9913648366928101,
+      "display": "un"
+    },
+    {
+      "word": "beneficio",
+      "start": 1.24,
+      "end": 1.84,
+      "probability": 0.9951379299163818,
+      "display": "beneficio"
+    },
+    {
+      "word": "que",
+      "start": 1.84,
+      "end": 2.02,
+      "probability": 0.9838044047355652,
+      "display": "que"
+    },
+    {
+      "word": "Ana",
+      "start": 2.02,
+      "end": 2.22,
+      "probability": 0.6011054515838623,
+      "display": "Ana"
+    },
+    {
+      "word": "pueda",
+      "start": 2.22,
+      "end": 2.48,
+      "probability": 0.8417540192604065,
+      "display": "pueda"
+    },
+    {
+      "word": "alcanzar.",
+      "start": 2.48,
+      "end": 3.14,
+      "probability": 0.9953776597976685,
+      "display": "alcanzar."
+    },
+    {
+      "word": "En",
+      "start": 3.6,
+      "end": 3.94,
+      "probability": 0.986009418964386,
+      "display": "En"
+    },
+    {
+      "word": "Premios,",
+      "start": 3.94,
+      "end": 4.32,
+      "probability": 0.778646856546402,
+      "display": "Premios"
+    },
+    {
+      "word": "elegimos",
+      "start": 4.52,
+      "end": 4.88,
+      "probability": 0.9960396587848663,
+      "display": "elegimos"
+    },
+    {
+      "word": "agregar",
+      "start": 4.88,
+      "end": 5.36,
+      "probability": 0.6773073971271515,
+      "display": "Agregar"
+    },
+    {
+      "word": "Premio.",
+      "start": 5.36,
+      "end": 5.78,
+      "probability": 0.7200762778520584,
+      "display": "premio."
+    },
+    {
+      "word": "Podemos",
+      "start": 6.14,
+      "end": 6.44,
+      "probability": 0.9961253106594086,
+      "display": "Podemos"
+    },
+    {
+      "word": "ofrecer",
+      "start": 6.44,
+      "end": 6.88,
+      "probability": 0.9989447395006815,
+      "display": "ofrecer"
+    },
+    {
+      "word": "un",
+      "start": 6.88,
+      "end": 7.06,
+      "probability": 0.9907336235046387,
+      "display": "un"
+    },
+    {
+      "word": "Premio",
+      "start": 7.06,
+      "end": 7.4,
+      "probability": 0.8531342148780823,
+      "display": "premio"
+    },
+    {
+      "word": "Físico",
+      "start": 7.4,
+      "end": 7.9,
+      "probability": 0.9675508936246237,
+      "display": "físico"
+    },
+    {
+      "word": "o",
+      "start": 7.9,
+      "end": 8.24,
+      "probability": 0.9165797829627991,
+      "display": "o"
+    },
+    {
+      "word": "un",
+      "start": 8.24,
+      "end": 8.42,
+      "probability": 0.9542361497879028,
+      "display": "un"
+    },
+    {
+      "word": "voucher",
+      "start": 8.42,
+      "end": 8.82,
+      "probability": 0.6925627589225769,
+      "display": "voucher"
+    },
+    {
+      "word": "de",
+      "start": 8.82,
+      "end": 8.98,
+      "probability": 0.997904896736145,
+      "display": "de"
+    },
+    {
+      "word": "descuento.",
+      "start": 8.98,
+      "end": 9.42,
+      "probability": 0.9792779684066772,
+      "display": "descuento."
+    },
+    {
+      "word": "Para",
+      "start": 10,
+      "end": 10.24,
+      "probability": 0.9963312745094299,
+      "display": "Para"
+    },
+    {
+      "word": "este",
+      "start": 10.24,
+      "end": 10.5,
+      "probability": 0.9952749013900757,
+      "display": "este"
+    },
+    {
+      "word": "ejemplo,",
+      "start": 10.5,
+      "end": 10.84,
+      "probability": 0.9943404197692871,
+      "display": "ejemplo"
+    },
+    {
+      "word": "seleccionamos",
+      "start": 10.98,
+      "end": 11.54,
+      "probability": 0.9963397830724716,
+      "display": "seleccionamos"
+    },
+    {
+      "word": "Premio",
+      "start": 11.54,
+      "end": 11.9,
+      "probability": 0.8965001106262207,
+      "display": "Premio"
+    },
+    {
+      "word": "Físico,",
+      "start": 11.9,
+      "end": 12.32,
+      "probability": 0.9899200201034546,
+      "display": "físico,"
+    },
+    {
+      "word": "lo",
+      "start": 12.62,
+      "end": 12.7,
+      "probability": 0.9945250749588013,
+      "display": "lo"
+    },
+    {
+      "word": "llamamos",
+      "start": 12.7,
+      "end": 13.1,
+      "probability": 0.9987388551235199,
+      "display": "llamamos"
+    },
+    {
+      "word": "Café",
+      "start": 13.1,
+      "end": 13.52,
+      "probability": 0.8642517030239105,
+      "display": "Café"
+    },
+    {
+      "word": "de",
+      "start": 13.52,
+      "end": 13.6,
+      "probability": 0.9823215007781982,
+      "display": "de"
+    },
+    {
+      "word": "regalo,",
+      "start": 13.6,
+      "end": 13.96,
+      "probability": 0.8616842031478882,
+      "display": "regalo"
+    },
+    {
+      "word": "y",
+      "start": 14.28,
+      "end": 14.36,
+      "probability": 0.9947388768196106,
+      "display": "y"
+    },
+    {
+      "word": "explicamos",
+      "start": 14.36,
+      "end": 14.92,
+      "probability": 0.9917176365852356,
+      "display": "explicamos"
+    },
+    {
+      "word": "sus",
+      "start": 14.92,
+      "end": 15.12,
+      "probability": 0.9918249249458313,
+      "display": "sus"
+    },
+    {
+      "word": "condiciones.",
+      "start": 15.12,
+      "end": 15.56,
+      "probability": 0.9940590858459473,
+      "display": "condiciones."
+    },
+    {
+      "word": "Le",
+      "start": 16.12,
+      "end": 16.24,
+      "probability": 0.993212103843689,
+      "display": "Le"
+    },
+    {
+      "word": "asignamos",
+      "start": 16.24,
+      "end": 16.7,
+      "probability": 0.9939574400583903,
+      "display": "asignamos"
+    },
+    {
+      "word": "un",
+      "start": 16.7,
+      "end": 16.88,
+      "probability": 0.9964458346366882,
+      "display": "un"
+    },
+    {
+      "word": "costo",
+      "start": 16.88,
+      "end": 17.24,
+      "probability": 0.9957535862922668,
+      "display": "costo"
+    },
+    {
+      "word": "de",
+      "start": 17.24,
+      "end": 17.32,
+      "probability": 0.9953861832618713,
+      "display": "de"
+    },
+    {
+      "word": "80",
+      "start": 17.32,
+      "end": 17.56,
+      "probability": 0.9823909401893616,
+      "display": "80"
+    },
+    {
+      "word": "puntos",
+      "start": 17.56,
+      "end": 17.88,
+      "probability": 0.9778690934181213,
+      "display": "puntos"
+    },
+    {
+      "word": "y",
+      "start": 17.88,
+      "end": 18.24,
+      "probability": 0.9149986505508423,
+      "display": "y"
+    },
+    {
+      "word": "guardamos.",
+      "start": 18.24,
+      "end": 18.62,
+      "probability": 0.9890995919704437,
+      "display": "guardamos."
+    },
+    {
+      "word": "La",
+      "start": 19.18,
+      "end": 19.4,
+      "probability": 0.9907748103141785,
+      "display": "La"
+    },
+    {
+      "word": "tarjeta",
+      "start": 19.4,
+      "end": 19.88,
+      "probability": 0.9856438239415487,
+      "display": "tarjeta"
+    },
+    {
+      "word": "ya",
+      "start": 19.88,
+      "end": 20.04,
+      "probability": 0.9952591061592102,
+      "display": "ya"
+    },
+    {
+      "word": "muestra",
+      "start": 20.04,
+      "end": 20.42,
+      "probability": 0.9899556040763855,
+      "display": "muestra"
+    },
+    {
+      "word": "el",
+      "start": 20.42,
+      "end": 20.56,
+      "probability": 0.9990217685699463,
+      "display": "el"
+    },
+    {
+      "word": "premio",
+      "start": 20.56,
+      "end": 20.9,
+      "probability": 0.7242088317871094,
+      "display": "premio"
+    },
+    {
+      "word": "y",
+      "start": 20.9,
+      "end": 21.1,
+      "probability": 0.9528293013572693,
+      "display": "y"
+    },
+    {
+      "word": "lo",
+      "start": 21.1,
+      "end": 21.22,
+      "probability": 0.9986463189125061,
+      "display": "lo"
+    },
+    {
+      "word": "que",
+      "start": 21.22,
+      "end": 21.32,
+      "probability": 0.9982888102531433,
+      "display": "que"
+    },
+    {
+      "word": "necesita",
+      "start": 21.32,
+      "end": 21.66,
+      "probability": 0.9963171482086182,
+      "display": "necesita"
+    },
+    {
+      "word": "el",
+      "start": 21.66,
+      "end": 21.88,
+      "probability": 0.995069146156311,
+      "display": "el"
+    },
+    {
+      "word": "cliente",
+      "start": 21.88,
+      "end": 22.32,
+      "probability": 0.9969382584095001,
+      "display": "cliente"
+    },
+    {
+      "word": "para",
+      "start": 22.32,
+      "end": 22.48,
+      "probability": 0.9971689581871033,
+      "display": "para"
+    },
+    {
+      "word": "obtenerlo.",
+      "start": 22.48,
+      "end": 22.98,
+      "probability": 0.9955289165178934,
+      "display": "obtenerlo."
+    },
+    {
+      "word": "Para",
+      "start": 23.26,
+      "end": 23.42,
+      "probability": 0.995046854019165,
+      "display": "Para"
+    },
+    {
+      "word": "entregárselo",
+      "start": 23.42,
+      "end": 24.14,
+      "probability": 0.9149252027273178,
+      "display": "entregárselo"
+    },
+    {
+      "word": "a",
+      "start": 24.14,
+      "end": 24.22,
+      "probability": 0.9971238970756531,
+      "display": "a"
+    },
+    {
+      "word": "Ana,",
+      "start": 24.22,
+      "end": 24.42,
+      "probability": 0.9963014125823975,
+      "display": "Ana,"
+    },
+    {
+      "word": "abrimos",
+      "start": 24.74,
+      "end": 25.12,
+      "probability": 0.9860276778539022,
+      "display": "abrimos"
+    },
+    {
+      "word": "canjear",
+      "start": 25.12,
+      "end": 25.54,
+      "probability": 0.9345479210217794,
+      "display": "Canjear"
+    },
+    {
+      "word": "en",
+      "start": 25.54,
+      "end": 25.64,
+      "probability": 0.9928075075149536,
+      "display": "en"
+    },
+    {
+      "word": "esa",
+      "start": 25.64,
+      "end": 25.82,
+      "probability": 0.9770734906196594,
+      "display": "esa"
+    },
+    {
+      "word": "misma",
+      "start": 25.82,
+      "end": 26.08,
+      "probability": 0.9977673292160034,
+      "display": "misma"
+    },
+    {
+      "word": "tarjeta",
+      "start": 26.08,
+      "end": 26.72,
+      "probability": 0.9970091780026754,
+      "display": "tarjeta"
+    },
+    {
+      "word": "e",
+      "start": 26.72,
+      "end": 26.86,
+      "probability": 0.5169504284858704,
+      "display": "e"
+    },
+    {
+      "word": "indicamos",
+      "start": 26.86,
+      "end": 27.28,
+      "probability": 0.9931308627128601,
+      "display": "indicamos"
+    },
+    {
+      "word": "su",
+      "start": 27.28,
+      "end": 27.44,
+      "probability": 0.946885883808136,
+      "display": "su"
+    },
+    {
+      "word": "país",
+      "start": 27.44,
+      "end": 27.7,
+      "probability": 0.9918344020843506,
+      "display": "país"
+    },
+    {
+      "word": "y",
+      "start": 27.7,
+      "end": 28.04,
+      "probability": 0.6766828298568726,
+      "display": "y"
+    },
+    {
+      "word": "DNIR,",
+      "start": 28.04,
+      "end": 28.6,
+      "probability": 0.4667177200317383,
+      "display": "DNIR,"
+    },
+    {
+      "word": "revisamos",
+      "start": 28.88,
+      "end": 29.6,
+      "probability": 0.9734972417354584,
+      "display": "Revisamos"
+    },
+    {
+      "word": "el",
+      "start": 29.6,
+      "end": 29.8,
+      "probability": 0.9984511137008667,
+      "display": "el"
+    },
+    {
+      "word": "premio",
+      "start": 29.8,
+      "end": 30.24,
+      "probability": 0.9791804254055023,
+      "display": "premio"
+    },
+    {
+      "word": "y",
+      "start": 30.24,
+      "end": 30.38,
+      "probability": 0.9965949654579163,
+      "display": "y"
+    },
+    {
+      "word": "su",
+      "start": 30.38,
+      "end": 30.52,
+      "probability": 0.9963324666023254,
+      "display": "su"
+    },
+    {
+      "word": "costo",
+      "start": 30.52,
+      "end": 31.06,
+      "probability": 0.9987071454524994,
+      "display": "costo"
+    },
+    {
+      "word": "antes",
+      "start": 31.06,
+      "end": 31.26,
+      "probability": 0.9836914539337158,
+      "display": "antes"
+    },
+    {
+      "word": "de",
+      "start": 31.26,
+      "end": 31.44,
+      "probability": 0.9981385469436646,
+      "display": "de"
+    },
+    {
+      "word": "confirmar.",
+      "start": 31.44,
+      "end": 32,
+      "probability": 0.9912357926368713,
+      "display": "confirmar."
+    },
+    {
+      "word": "El",
+      "start": 32.48,
+      "end": 32.7,
+      "probability": 0.9726559519767761,
+      "display": "El"
+    },
+    {
+      "word": "canje",
+      "start": 32.7,
+      "end": 33.04,
+      "probability": 0.9316657781600952,
+      "display": "canje"
+    },
+    {
+      "word": "descuenta",
+      "start": 33.04,
+      "end": 33.5,
+      "probability": 0.7741400400797526,
+      "display": "descuenta"
+    },
+    {
+      "word": "80",
+      "start": 33.5,
+      "end": 33.88,
+      "probability": 0.3599837124347687,
+      "display": "80"
+    },
+    {
+      "word": "puntos,",
+      "start": 33.88,
+      "end": 34.26,
+      "probability": 0.9963721036911011,
+      "display": "puntos:"
+    },
+    {
+      "word": "Ana",
+      "start": 34.84,
+      "end": 35.02,
+      "probability": 0.854302167892456,
+      "display": "Ana"
+    },
+    {
+      "word": "queda",
+      "start": 35.02,
+      "end": 35.26,
+      "probability": 0.9885168075561523,
+      "display": "queda"
+    },
+    {
+      "word": "con",
+      "start": 35.26,
+      "end": 35.56,
+      "probability": 0.9869689345359802,
+      "display": "con"
+    },
+    {
+      "word": "cero",
+      "start": 35.56,
+      "end": 35.82,
+      "probability": 0.9569835066795349,
+      "display": "cero"
+    },
+    {
+      "word": "y",
+      "start": 35.82,
+      "end": 36.04,
+      "probability": 0.8341454863548279,
+      "display": "y"
+    },
+    {
+      "word": "su",
+      "start": 36.04,
+      "end": 36.16,
+      "probability": 0.9981040954589844,
+      "display": "su"
+    },
+    {
+      "word": "historial",
+      "start": 36.16,
+      "end": 36.54,
+      "probability": 0.9686090350151062,
+      "display": "historial"
+    },
+    {
+      "word": "conserva",
+      "start": 36.54,
+      "end": 37.12,
+      "probability": 0.9871935546398163,
+      "display": "conserva"
+    },
+    {
+      "word": "tanto",
+      "start": 37.12,
+      "end": 37.42,
+      "probability": 0.9467133283615112,
+      "display": "tanto"
+    },
+    {
+      "word": "la",
+      "start": 37.42,
+      "end": 37.62,
+      "probability": 0.9977486729621887,
+      "display": "la"
+    },
+    {
+      "word": "compra",
+      "start": 37.62,
+      "end": 37.88,
+      "probability": 0.9981938004493713,
+      "display": "compra"
+    },
+    {
+      "word": "como",
+      "start": 37.88,
+      "end": 38.2,
+      "probability": 0.9801821708679199,
+      "display": "como"
+    },
+    {
+      "word": "el",
+      "start": 38.2,
+      "end": 38.34,
+      "probability": 0.9988299012184143,
+      "display": "el"
+    },
+    {
+      "word": "premio",
+      "start": 38.34,
+      "end": 38.58,
+      "probability": 0.994610071182251,
+      "display": "premio"
+    },
+    {
+      "word": "recibido.",
+      "start": 38.58,
+      "end": 39.04,
+      "probability": 0.9908461570739746,
+      "display": "recibido."
+    },
+    {
+      "word": "La",
+      "start": 39.6,
+      "end": 39.7,
+      "probability": 0.9909271001815796,
+      "display": "La"
+    },
+    {
+      "word": "entrega",
+      "start": 39.7,
+      "end": 40.16,
+      "probability": 0.9975361227989197,
+      "display": "entrega"
+    },
+    {
+      "word": "del",
+      "start": 40.16,
+      "end": 40.24,
+      "probability": 0.9931065440177917,
+      "display": "del"
+    },
+    {
+      "word": "café",
+      "start": 40.24,
+      "end": 40.54,
+      "probability": 0.9730764627456665,
+      "display": "café"
+    },
+    {
+      "word": "la",
+      "start": 40.54,
+      "end": 40.72,
+      "probability": 0.936594545841217,
+      "display": "la"
+    },
+    {
+      "word": "coordinás",
+      "start": 40.72,
+      "end": 41.3,
+      "probability": 0.8030796051025391,
+      "display": "coordinás"
+    },
+    {
+      "word": "en",
+      "start": 41.3,
+      "end": 41.42,
+      "probability": 0.9979548454284668,
+      "display": "en"
+    },
+    {
+      "word": "el",
+      "start": 41.42,
+      "end": 41.52,
+      "probability": 0.99676513671875,
+      "display": "el"
+    },
+    {
+      "word": "comercio.",
+      "start": 41.52,
+      "end": 41.96,
+      "probability": 0.9977734386920929,
+      "display": "comercio."
+    }
+  ],
+  "captions": [
+    {
+      "text": "Ahora preparamos un beneficio que Ana pueda alcanzar.",
+      "startMs": 0,
+      "endMs": 3140,
+      "timestampMs": null,
+      "confidence": 0.891410619020462
+    },
+    {
+      "text": "En Premios elegimos Agregar premio.",
+      "startMs": 3600,
+      "endMs": 5780,
+      "timestampMs": null,
+      "confidence": 0.8316159218549728
+    },
+    {
+      "text": "Podemos ofrecer un premio físico o un voucher de descuento.",
+      "startMs": 6140,
+      "endMs": 9420,
+      "timestampMs": null,
+      "confidence": 0.9347050338983536
+    },
+    {
+      "text": "Para este ejemplo seleccionamos Premio físico,",
+      "startMs": 10000,
+      "endMs": 12320,
+      "timestampMs": null,
+      "confidence": 0.9781177515784899
+    },
+    {
+      "text": "lo llamamos Café de regalo y explicamos sus condiciones.",
+      "startMs": 12620,
+      "endMs": 15560,
+      "timestampMs": null,
+      "confidence": 0.9637624290254381
+    },
+    {
+      "text": "Le asignamos un costo de 80 puntos y guardamos.",
+      "startMs": 16120,
+      "endMs": 18620,
+      "timestampMs": null,
+      "confidence": 0.9821237138024083
+    },
+    {
+      "text": "La tarjeta ya muestra el premio y lo que necesita el cliente para obtenerlo.",
+      "startMs": 19180,
+      "endMs": 22980,
+      "timestampMs": null,
+      "confidence": 0.9725464859179088
+    },
+    {
+      "text": "Para entregárselo a Ana, abrimos Canjear en esa misma tarjeta e indicamos su país",
+      "startMs": 23260,
+      "endMs": 27700,
+      "timestampMs": null,
+      "confidence": 0.9455308605517659
+    },
+    {
+      "text": "y DNI.",
+      "startMs": 27700,
+      "endMs": 28600,
+      "timestampMs": null,
+      "confidence": 0.5717002749443054
+    },
+    {
+      "text": "Revisamos el premio y su costo antes de confirmar.",
+      "startMs": 28880,
+      "endMs": 32000,
+      "timestampMs": null,
+      "confidence": 0.99064768354098
+    },
+    {
+      "text": "El canje descuenta 80 puntos:",
+      "startMs": 32480,
+      "endMs": 34260,
+      "timestampMs": null,
+      "confidence": 0.8069635172684986
+    },
+    {
+      "text": "Ana queda con cero y su historial conserva tanto la compra como el premio recibido.",
+      "startMs": 34840,
+      "endMs": 39040,
+      "timestampMs": null,
+      "confidence": 0.9654631793498993
+    },
+    {
+      "text": "La entrega del café la coordinás en el comercio.",
+      "startMs": 39600,
+      "endMs": 41960,
+      "timestampMs": null,
+      "confidence": 0.9652015335030026
+    }
+  ],
+  "status": "REVIEW_REQUIRED",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [
+      [
+        "DNIR,",
+        "DNI."
+      ]
+    ],
+    "sourceAudioHash": "6be91b5abec7e684e46b9b909f354e4beb24fb2e24191e755329d4c3ec86ecc1"
+  }
+}

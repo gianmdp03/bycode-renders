@@ -2,12 +2,13 @@
 // assembly reuses original recorded frames instead of screenshotting them again.
 // A full Remotion render remains available through --full-remotion.
 import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';import {spawn,execFileSync} from 'node:child_process';import {bundle} from '@remotion/bundler';import {selectComposition,renderStill,renderMedia} from '@remotion/renderer';import {root} from './browser.mjs';import {ffmpeg,ffprobe} from './recorder.mjs';
-const data=JSON.parse(fs.readFileSync(path.join(root,'remotion/src/timeline.json'),'utf8'));const cache=path.join(root,'.local/render');fs.mkdirSync(cache,{recursive:true});
+const brief=process.argv.includes('--brief');
+const data=JSON.parse(fs.readFileSync(path.join(root,brief?'remotion/src/brief-timeline.json':'remotion/src/timeline.json'),'utf8'));const cache=path.join(root,brief?'.local/brief-render':'.local/render');fs.mkdirSync(cache,{recursive:true});
 fs.writeFileSync(path.join(root,'.local/render-process.json'),JSON.stringify({pid:process.pid,started:new Date().toISOString(),project:'pointly-video-tutorial'}));
-const visualEdits=JSON.parse(fs.readFileSync(path.join(root,'remotion/src/visual-edits.json'),'utf8'));
+const visualEdits=brief?Object.fromEntries(data.chapters.filter(c=>c.zoom).map(c=>[c.id,c.zoom])):JSON.parse(fs.readFileSync(path.join(root,'remotion/src/visual-edits.json'),'utf8'));
 const serveUrl=await bundle({entryPoint:path.join(root,'remotion/src/index.tsx'),publicDir:path.join(root,'remotion/public'),outDir:path.join(root,'.local/remotion-bundle')});
-if(process.argv.includes('--full-remotion')){const composition=await selectComposition({serveUrl,id:'PointlyTutorial'});await renderMedia({serveUrl,composition,codec:'h264',crf:16,pixelFormat:'yuv420p',audioBitrate:'256k',outputLocation:path.join(root,'output/Pointly-tutorial-remotion.mp4'),concurrency:2});process.exit(0)}
-const want=process.argv.filter(a=>/^\d\d-/.test(a));
+if(process.argv.includes('--full-remotion')){const composition=await selectComposition({serveUrl,id:brief?'PointlyRecorridoBreve':'PointlyTutorial'});await renderMedia({serveUrl,composition,codec:'h264',crf:16,pixelFormat:'yuv420p',audioBitrate:'256k',outputLocation:path.join(root,brief?'output/Pointly-recorrido-breve-remotion.mp4':'output/Pointly-tutorial-remotion.mp4'),concurrency:2});process.exit(0)}
+const want=process.argv.filter(a=>/^b?\d\d-/.test(a));
 const layersOnly=process.argv.includes('--layers-only');
 const stateFile=path.join(cache,'render-state.json');const state=fs.existsSync(stateFile)?JSON.parse(fs.readFileSync(stateFile,'utf8')):{};
 const implementation=fs.readFileSync(new URL(import.meta.url),'utf8')+fs.readFileSync(path.join(root,'remotion/src/Chapter.tsx'),'utf8')+JSON.stringify(visualEdits);
@@ -17,7 +18,7 @@ for(let i=0;i<data.chapters.length;i++){
  if(process.argv.includes('--assemble-only'))continue;
  if(!layersOnly&&state[c.id]===fingerprint(c)&&fs.existsSync(path.join(cache,c.id+'.mp4'))){console.log('REUSE RENDER',c.id);continue}
  if(!layersOnly&&(!fs.existsSync(path.join(root,'remotion/public',c.footage))||!fs.existsSync(path.join(root,'remotion/public',c.audio))))throw Error('Missing production media: '+c.id);
- const composition=await selectComposition({serveUrl,id:'Chapter'+(i+1),inputProps:{layerOnly:true}});
+ const composition=await selectComposition({serveUrl,id:(brief?'BriefChapter':'Chapter')+(i+1),inputProps:{layerOnly:true}});
  const layer=path.join(cache,c.id+'-layout.png');await renderStill({serveUrl,composition,frame:c.opening?300:0,inputProps:{layerOnly:true},output:layer,imageFormat:'png'});
  let cover=null;if(c.opening||c.closing){cover=path.join(cache,c.id+'-brand.png');await renderStill({serveUrl,composition,frame:c.opening?120:c.durationInFrames-1,inputProps:{layerOnly:true},output:cover,imageFormat:'png'})}
  if(layersOnly)continue;
@@ -46,5 +47,5 @@ const missing=data.chapters.filter(c=>!fs.existsSync(path.join(cache,c.id+'.mp4'
 const stale=data.chapters.filter(c=>state[c.id]!==fingerprint(c));if(stale.length)throw Error('Stale rendered chapters: '+stale.map(c=>c.id).join(','));
 const concat=path.join(cache,'concat.txt');fs.writeFileSync(concat,data.chapters.map(c=>`file '${c.id}.mp4'`).join('\n'));
 const metadata=path.join(cache,'chapters.txt');fs.writeFileSync(metadata,';FFMETADATA1\n'+data.chapters.map(c=>`[CHAPTER]\nTIMEBASE=1/60\nSTART=${c.from}\nEND=${c.from+c.durationInFrames}\ntitle=${c.title}\n`).join(''));
-execFileSync(path.join(root,'../doctorchart-video-tutorial/.local/qwen-venv/Scripts/python.exe'),[path.join(root,'automation/mix.py')],{cwd:root,stdio:'pipe'});
-const output=path.join(root,'output/Pointly-tutorial-completo-1080p60.mp4');execFileSync(ffmpeg,['-v','error','-y','-f','concat','-safe','0','-i',concat,'-i',path.join(cache,'final-narration.wav'),'-i',metadata,'-map','0:v:0','-map','1:a:0','-map_metadata','2','-map_chapters','2','-c:v','copy','-c:a','aac','-b:a','256k','-ar','48000','-ac','2','-t',String(data.durationInFrames/60),'-movflags','+faststart',output],{cwd:root,stdio:'pipe'});console.log('ASSEMBLED',output);
+execFileSync(path.join(root,'../doctorchart-video-tutorial/.local/qwen-venv/Scripts/python.exe'),[path.join(root,'automation/mix.py'),...(brief?['--brief']:[])],{cwd:root,stdio:'pipe'});
+const output=path.join(root,brief?'output/Pointly-recorrido-breve-1080p60.mp4':'output/Pointly-tutorial-completo-1080p60.mp4');execFileSync(ffmpeg,['-v','error','-y','-f','concat','-safe','0','-i',concat,'-i',path.join(cache,'final-narration.wav'),'-i',metadata,'-map','0:v:0','-map','1:a:0','-map_metadata','2','-map_chapters','2','-c:v','copy','-c:a','aac','-b:a','256k','-ar','48000','-ac','2','-t',String(data.durationInFrames/60),'-movflags','+faststart',output],{cwd:root,stdio:'pipe'});console.log('ASSEMBLED',output);

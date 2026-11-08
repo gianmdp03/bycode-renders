@@ -1,0 +1,346 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "5e2b9b5e710059243ff90a801232d3433aeb3fb74fa705ba1d1eb4ee1721d96a",
+  "transcript": "Pointly te ayuda a convertir las compras de tus clientes en puntos y premios. Vamos a recorrer un ejemplo completo en Café del Puerto. Crear el comercio, incorporar a Ana, registrar su compra y entregar un premio. Después veremos cómo consulta sus puntos.",
+  "scriptSimilarity": 1,
+  "differences": [],
+  "words": [
+    {
+      "word": "Pointly",
+      "start": 0,
+      "end": 0.78,
+      "probability": 0.7435667514801025,
+      "display": "Pointly"
+    },
+    {
+      "word": "te",
+      "start": 0.78,
+      "end": 0.96,
+      "probability": 0.9769136309623718,
+      "display": "te"
+    },
+    {
+      "word": "ayuda",
+      "start": 0.96,
+      "end": 1.2,
+      "probability": 0.9958814382553101,
+      "display": "ayuda"
+    },
+    {
+      "word": "a",
+      "start": 1.2,
+      "end": 1.38,
+      "probability": 0.9977333545684814,
+      "display": "a"
+    },
+    {
+      "word": "convertir",
+      "start": 1.38,
+      "end": 1.9,
+      "probability": 0.9861913621425629,
+      "display": "convertir"
+    },
+    {
+      "word": "las",
+      "start": 1.9,
+      "end": 2.04,
+      "probability": 0.9887528419494629,
+      "display": "las"
+    },
+    {
+      "word": "compras",
+      "start": 2.04,
+      "end": 2.42,
+      "probability": 0.997109591960907,
+      "display": "compras"
+    },
+    {
+      "word": "de",
+      "start": 2.42,
+      "end": 2.54,
+      "probability": 0.9990319013595581,
+      "display": "de"
+    },
+    {
+      "word": "tus",
+      "start": 2.54,
+      "end": 2.68,
+      "probability": 0.9849171042442322,
+      "display": "tus"
+    },
+    {
+      "word": "clientes",
+      "start": 2.68,
+      "end": 3.26,
+      "probability": 0.9990953803062439,
+      "display": "clientes"
+    },
+    {
+      "word": "en",
+      "start": 3.26,
+      "end": 3.46,
+      "probability": 0.9952625036239624,
+      "display": "en"
+    },
+    {
+      "word": "puntos",
+      "start": 3.46,
+      "end": 3.74,
+      "probability": 0.9886348247528076,
+      "display": "puntos"
+    },
+    {
+      "word": "y",
+      "start": 3.74,
+      "end": 3.96,
+      "probability": 0.9956445693969727,
+      "display": "y"
+    },
+    {
+      "word": "premios.",
+      "start": 3.96,
+      "end": 4.42,
+      "probability": 0.9946775734424591,
+      "display": "premios."
+    },
+    {
+      "word": "Vamos",
+      "start": 4.8,
+      "end": 5.06,
+      "probability": 0.9864987134933472,
+      "display": "Vamos"
+    },
+    {
+      "word": "a",
+      "start": 5.06,
+      "end": 5.24,
+      "probability": 0.9995546936988831,
+      "display": "a"
+    },
+    {
+      "word": "recorrer",
+      "start": 5.24,
+      "end": 5.58,
+      "probability": 0.986752967039744,
+      "display": "recorrer"
+    },
+    {
+      "word": "un",
+      "start": 5.58,
+      "end": 5.72,
+      "probability": 0.9977735877037048,
+      "display": "un"
+    },
+    {
+      "word": "ejemplo",
+      "start": 5.72,
+      "end": 5.96,
+      "probability": 0.9929338693618774,
+      "display": "ejemplo"
+    },
+    {
+      "word": "completo",
+      "start": 5.96,
+      "end": 6.44,
+      "probability": 0.9971569776535034,
+      "display": "completo"
+    },
+    {
+      "word": "en",
+      "start": 6.44,
+      "end": 6.66,
+      "probability": 0.9921802282333374,
+      "display": "en"
+    },
+    {
+      "word": "Café",
+      "start": 6.66,
+      "end": 6.94,
+      "probability": 0.8270659148693085,
+      "display": "Café"
+    },
+    {
+      "word": "del",
+      "start": 6.94,
+      "end": 7.04,
+      "probability": 0.8968858122825623,
+      "display": "del"
+    },
+    {
+      "word": "Puerto.",
+      "start": 7.04,
+      "end": 7.32,
+      "probability": 0.6534445285797119,
+      "display": "Puerto:"
+    },
+    {
+      "word": "Crear",
+      "start": 7.96,
+      "end": 8.34,
+      "probability": 0.9665792882442474,
+      "display": "crear"
+    },
+    {
+      "word": "el",
+      "start": 8.34,
+      "end": 8.44,
+      "probability": 0.9940754175186157,
+      "display": "el"
+    },
+    {
+      "word": "comercio,",
+      "start": 8.44,
+      "end": 8.96,
+      "probability": 0.9864665865898132,
+      "display": "comercio,"
+    },
+    {
+      "word": "incorporar",
+      "start": 9.16,
+      "end": 9.68,
+      "probability": 0.9930889904499054,
+      "display": "incorporar"
+    },
+    {
+      "word": "a",
+      "start": 9.68,
+      "end": 9.78,
+      "probability": 0.9820334315299988,
+      "display": "a"
+    },
+    {
+      "word": "Ana,",
+      "start": 9.78,
+      "end": 9.96,
+      "probability": 0.7563132643699646,
+      "display": "Ana,"
+    },
+    {
+      "word": "registrar",
+      "start": 10.32,
+      "end": 10.78,
+      "probability": 0.9948604106903076,
+      "display": "registrar"
+    },
+    {
+      "word": "su",
+      "start": 10.78,
+      "end": 10.94,
+      "probability": 0.9963175058364868,
+      "display": "su"
+    },
+    {
+      "word": "compra",
+      "start": 10.94,
+      "end": 11.26,
+      "probability": 0.9932535290718079,
+      "display": "compra"
+    },
+    {
+      "word": "y",
+      "start": 11.26,
+      "end": 11.54,
+      "probability": 0.8977630138397217,
+      "display": "y"
+    },
+    {
+      "word": "entregar",
+      "start": 11.54,
+      "end": 11.94,
+      "probability": 0.997829258441925,
+      "display": "entregar"
+    },
+    {
+      "word": "un",
+      "start": 11.94,
+      "end": 12.08,
+      "probability": 0.9984132051467896,
+      "display": "un"
+    },
+    {
+      "word": "premio.",
+      "start": 12.08,
+      "end": 12.52,
+      "probability": 0.9857500791549683,
+      "display": "premio."
+    },
+    {
+      "word": "Después",
+      "start": 12.82,
+      "end": 13.1,
+      "probability": 0.9953145980834961,
+      "display": "Después"
+    },
+    {
+      "word": "veremos",
+      "start": 13.1,
+      "end": 13.64,
+      "probability": 0.877923846244812,
+      "display": "veremos"
+    },
+    {
+      "word": "cómo",
+      "start": 13.64,
+      "end": 13.86,
+      "probability": 0.8108001351356506,
+      "display": "cómo"
+    },
+    {
+      "word": "consulta",
+      "start": 13.86,
+      "end": 14.38,
+      "probability": 0.9711242318153381,
+      "display": "consulta"
+    },
+    {
+      "word": "sus",
+      "start": 14.38,
+      "end": 14.5,
+      "probability": 0.9786561727523804,
+      "display": "sus"
+    },
+    {
+      "word": "puntos.",
+      "start": 14.5,
+      "end": 14.78,
+      "probability": 0.998267412185669,
+      "display": "puntos."
+    }
+  ],
+  "captions": [
+    {
+      "text": "Pointly te ayuda a convertir las compras de tus clientes en puntos y premios.",
+      "startMs": 0,
+      "endMs": 4420,
+      "timestampMs": null,
+      "confidence": 0.9745294877461025
+    },
+    {
+      "text": "Vamos a recorrer un ejemplo completo en Café del Puerto:",
+      "startMs": 4800,
+      "endMs": 7320,
+      "timestampMs": null,
+      "confidence": 0.933024729291598
+    },
+    {
+      "text": "crear el comercio, incorporar a Ana, registrar su compra y entregar un premio.",
+      "startMs": 7960,
+      "endMs": 12520,
+      "timestampMs": null,
+      "confidence": 0.9648264600680425
+    },
+    {
+      "text": "Después veremos cómo consulta sus puntos.",
+      "startMs": 12820,
+      "endMs": 14780,
+      "timestampMs": null,
+      "confidence": 0.9386810660362244
+    }
+  ],
+  "status": "ACOUSTIC_MATCH",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [],
+    "sourceAudioHash": "5e2b9b5e710059243ff90a801232d3433aeb3fb74fa705ba1d1eb4ee1721d96a"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "scene": "b06-catalog",
+  "source": "recordings/b06-catalog-1794153463382.mp4",
+  "phases": [
+    {
+      "id": "open",
+      "voice": "También podés sumar",
+      "start": 1794153437554.2,
+      "end": 1794153440620.4
+    },
+    {
+      "id": "promotion",
+      "voice": "En Promociones creamos",
+      "start": 1794153440622.3,
+      "end": 1794153450409.5999
+    },
+    {
+      "id": "future",
+      "voice": "La dejamos programada",
+      "start": 1794153450411.7,
+      "end": 1794153451394.7
+    },
+    {
+      "id": "product",
+      "voice": "En Productos agregamos",
+      "start": 1794153451395.7,
+      "end": 1794153461287.0999
+    },
+    {
+      "id": "cards",
+      "voice": "Guardamos y revisamos",
+      "start": 1794153461287.9,
+      "end": 1794153462285.8
+    }
+  ],
+  "evidence": [
+    {
+      "label": "Double-points promotion scheduled AFTER the demonstrated base purchase",
+      "at": 1794153450877.8,
+      "url": "/companies/cafe-del-puerto-recorrido-20261108-3",
+      "frame": "qa/b06-catalog-1.png",
+      "promotionId": 5
+    },
+    {
+      "label": "Product retained in the same company catalog",
+      "at": 1794153461751.9,
+      "url": "/companies/cafe-del-puerto-recorrido-20261108-3",
+      "frame": "qa/b06-catalog-2.png",
+      "productId": 9,
+      "price": 3500
+    }
+  ],
+  "network": [
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/promotions",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/8",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/8",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/8",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/products",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/8",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/8",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/8",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    }
+  ],
+  "person": "Ana Torres DEMO",
+  "company": "Café del Puerto DEMO"
+}

@@ -1,5 +1,22 @@
 # Pointly · videotutorial completo
 
+## Recorrido breve para comercios
+
+El recorrido breve sigue a Ana en Café del Puerto. En el alta se eligen la regla de acumulación y los 90 días de vigencia. Ana suma 80 puntos con una compra de $8.500, los usa para el café que se acaba de crear y consulta el saldo resultante. Promociones, productos y avisos se presentan como herramientas complementarias.
+
+- Video de **4:45** en 1080p60 y estéreo: `output/Pointly-recorrido-breve-1080p60.mp4`.
+- Edición: `PointlyRecorridoBreve` y nueve escenas `BriefChapter` en el mismo Studio.
+- Guion y storyboard: `script/guion-breve.md` y `script/storyboard-breve.json`.
+- Subtítulos y capítulos: `script/pointly-recorrido-breve.srt` y `script/capitulos-breve.txt`.
+- Tomas originales y cortes: `recordings/brief-manifest.json` y `recordings/brief-edit-manifest.json`.
+- Evidencia y controles: `qa/brief-demo-verification.json`, `qa/brief-audio-verification.json` y `qa/brief-video-verification.json`.
+
+Para reeditar escenas existentes, modificar `script/brief-chapters.mjs` y actualizar `script/brief-chapters.json`. Generar solo los WAV afectados con `narrate.py --manifest=script/brief-chapters.json <id>` y alinear con `align.py --manifest=script/brief-chapters.json`. Ejecutar `revise-captions.mjs` con los IDs `b01-intro` a `b09-close` incluidos en el guion, `verify-inputs.py --brief`, `compile-brief.mjs` y `render.mjs --brief` desde el directorio del tutorial. `verify-video.py --brief` comprueba el archivo de salida. Los archivos de edición conservan las tomas, la relación con los puntos de la locución y los fotogramas utilizados.
+
+Para volver a grabar el caso completo, preparar otro comerciante ficticio con `demo/new-merchant.py --key=BRIEF --take=<identificador>`, conservar el `.local/brief-state.json` previo y elegir un enlace y documento nuevos para esa toma. `capture-brief.mjs` utiliza el entorno local ya verificado. Las operaciones de alta, compra y canje se ejecutan una vez para cada caso. `verify-brief-demo.py` contrasta los saldos y el premio con el registro de la base demo. El ejemplo de inactividad utiliza un cliente histórico separado del caso principal.
+
+## Versión completa archivada
+
 Entrega: `output/Pointly-tutorial-completo-1080p60.mp4`, 30 capítulos, aproximadamente 16 minutos y 10 segundos. MP4 H.264, 1920×1080, 60 FPS CFR, AAC estéreo a 48 kHz, voz masculina Qwen local. `script/pointly-tutorial.srt` es el subtítulo externo y `script/capitulos-youtube.txt` contiene los tiempos de capítulos. Los reportes finales conservan el hash del MP4 revisado; la impresión del QR mantiene una limitación de validación documentada.
 
 Producción educativa dentro del workspace audiovisual Bycode. El producto se toma del checkout local `../pointly-frontend`; no se reconstruyen pantallas ni se consultan páginas públicas para describir funciones. La identidad audiovisual continúa **draft**, con los assets auténticos y el adaptador `pointlyFrontendTheme` de la biblioteca compartida.

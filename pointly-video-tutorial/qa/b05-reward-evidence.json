@@ -1,0 +1,220 @@
+{
+  "scene": "b05-reward",
+  "source": "recordings/b05-reward-1794153427104.mp4",
+  "phases": [
+    {
+      "id": "open",
+      "voice": "Ahora preparamos",
+      "start": 1794153400815.3,
+      "end": 1794153403695.2
+    },
+    {
+      "id": "types",
+      "voice": "Podemos ofrecer",
+      "start": 1794153403696.4001,
+      "end": 1794153404866.1
+    },
+    {
+      "id": "define",
+      "voice": "Para este ejemplo",
+      "start": 1794153404867.2,
+      "end": 1794153408920
+    },
+    {
+      "id": "cost",
+      "voice": "Le asignamos",
+      "start": 1794153408920.9001,
+      "end": 1794153412995.1
+    },
+    {
+      "id": "card",
+      "voice": "La tarjeta ya muestra",
+      "start": 1794153412996,
+      "end": 1794153413994.4001
+    },
+    {
+      "id": "redeem",
+      "voice": "Para entregárselo",
+      "start": 1794153413997,
+      "end": 1794153416535.9001
+    },
+    {
+      "id": "review",
+      "voice": "Revisamos el premio",
+      "start": 1794153416537,
+      "end": 1794153417542.1
+    },
+    {
+      "id": "confirm",
+      "voice": "El canje descuenta",
+      "start": 1794153417544.6,
+      "end": 1794153418994.1
+    },
+    {
+      "id": "history",
+      "voice": "Ana queda con cero",
+      "start": 1794153418995.6,
+      "end": 1794153425953.7
+    }
+  ],
+  "evidence": [
+    {
+      "label": "The newly created 80-point coffee reward",
+      "at": 1794153413447.6,
+      "url": "/companies/cafe-del-puerto-recorrido-20261108-3",
+      "frame": "qa/b05-reward-1.png",
+      "rewardId": 11,
+      "cost": 80
+    },
+    {
+      "label": "Same coffee and same Ana ready for a single redemption",
+      "at": 1794153417006.9001,
+      "url": "/companies/cafe-del-puerto-recorrido-20261108-3/actions/redeem/11",
+      "frame": "qa/b05-reward-2.png",
+      "balanceBefore": 80,
+      "cost": 80
+    },
+    {
+      "label": "Ana ends at zero; both earned and redeemed movements visible",
+      "at": 1794153425408,
+      "url": "/companies/cafe-del-puerto-recorrido-20261108-3/clients/32",
+      "frame": "qa/b05-reward-3.png",
+      "balanceAfter": 0,
+      "cost": 80
+    }
+  ],
+  "network": [
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/rewards",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/rewards/8/11/image",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/8",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/8",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/8",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/media/85a83000-286f-47c6-bc06-dc01032d81c5",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/rewards/redeem",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/8",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/8",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/media/85a83000-286f-47c6-bc06-dc01032d81c5",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/8",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/8",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/8/clients",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/8/clients",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/company-names/cafe-del-puerto-recorrido-20261108-3/company",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/8/clients/32",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/history/32/8",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/8/clients/32/contacts",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    }
+  ],
+  "person": "Ana Torres DEMO",
+  "company": "Café del Puerto DEMO"
+}

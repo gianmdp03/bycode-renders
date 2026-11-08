@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "También podés sumar promociones y mostrar tus productos. En Promociones creamos una campaña de puntos dobles, con un nombre, sus condiciones y las fechas de inicio y fin. La dejamos programada para comenzar después de nuestro ejemplo de compra. Durante su vigencia, las compras que correspondan obtendrán el beneficio configurado. En Productos agregamos un café doble con su precio y una descripción. Guardamos y revisamos su tarjeta en el catálogo. Estas herramientas ayudan a que tus clientes conozcan qué ofrecés y qué beneficios pueden aprovechar. Podés actualizar sus datos cuando cambie tu propuesta.",
+  "spokenText": "También podés sumar promociones y mostrar tus productos. En Promociones creamos una campaña de puntos dobles, con un nombre, sus condiciones y las fechas de inicio y fin. La dejamos programada para comenzar después de nuestro ejemplo de compra. Durante su vigencia, las compras que correspondan obtendrán el beneficio configurado. En Productos agregamos un café doble con su precio y una descripción. Guardamos y revisamos su tarjeta en el catálogo. Estas herramientas ayudan a que tus clientes conozcan qué ofrecés y qué beneficios pueden aprovechar. Podés actualizar sus datos cuando cambie tu propuesta.",
+  "text_sha256": "d3de7d3b0d09427e7f216d2a9821d73a7a6bd74fc697b2930735d11165c44101",
+  "sha256": "278deff0d124b935b04d6417201be719145db18ecb0f5bb9e590cfa1e8883da7",
+  "duration": 37.68,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 158.67,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

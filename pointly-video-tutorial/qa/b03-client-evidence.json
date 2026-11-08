@@ -1,0 +1,172 @@
+{
+  "scene": "b03-client",
+  "source": "recordings/b03-client-1794153368077.mp4",
+  "phases": [
+    {
+      "id": "open",
+      "voice": "Desde el comercio",
+      "start": 1794153347351,
+      "end": 1794153348817.1
+    },
+    {
+      "id": "identity",
+      "voice": "Completamos el nombre",
+      "start": 1794153348818.4001,
+      "end": 1794153351802.3
+    },
+    {
+      "id": "contacts",
+      "voice": "Correo y teléfono",
+      "start": 1794153351803,
+      "end": 1794153355352.7002
+    },
+    {
+      "id": "save",
+      "voice": "Guardamos sus datos",
+      "start": 1794153355353.4001,
+      "end": 1794153358034.3
+    },
+    {
+      "id": "search",
+      "voice": "La búsqueda permite",
+      "start": 1794153358035.2002,
+      "end": 1794153360964
+    },
+    {
+      "id": "zero",
+      "voice": "En su detalle",
+      "start": 1794153360964.8,
+      "end": 1794153361997.8
+    },
+    {
+      "id": "qr",
+      "voice": "También podés compartir",
+      "start": 1794153361998.9001,
+      "end": 1794153366963.2002
+    }
+  ],
+  "evidence": [
+    {
+      "label": "Ana starts at zero with no prior movements",
+      "at": 1794153361463.8,
+      "url": "/companies/cafe-del-puerto-recorrido-20261108-3/clients/32",
+      "frame": "qa/b03-client-1.png",
+      "balance": 0
+    },
+    {
+      "label": "Actual registration QR for the same company downloaded",
+      "at": 1794153366420.7002,
+      "url": "/companies/cafe-del-puerto-recorrido-20261108-3/actions/qr",
+      "frame": "qa/b03-client-2.png"
+    }
+  ],
+  "network": [
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/points-accounts",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/8",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/8",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/8",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/8/clients",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/8/clients",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/company-names/cafe-del-puerto-recorrido-20261108-3/company",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/8/clients/32",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/history/32/8",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/8/clients/32/contacts",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/8/clients",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/8/public-link",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    }
+  ],
+  "person": "Ana Torres DEMO",
+  "company": "Café del Puerto DEMO"
+}

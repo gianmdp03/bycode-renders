@@ -1,0 +1,17 @@
+{
+  "b03-client": {
+    "zero": {"voice":"En el detalle"}
+  },
+  "b04-sale": {
+    "detail": {"offset":-0.2},
+    "result": {"offset":-0.3}
+  },
+  "b05-reward": {
+    "card": {"trimEnd":-0.166667},
+    "redeem": {"trimStart":0.166667},
+    "history": {"offset":-0.5}
+  },
+  "b06-catalog": {
+    "cards": {"offset":1.7}
+  }
+}

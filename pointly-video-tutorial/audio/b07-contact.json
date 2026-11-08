@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "Para acompañar a tus clientes, Sin actividad permite encontrar a quienes llevan un tiempo sin comprar ni canjear. Elegís el período y revisás la lista. Con Contactar por WhatsApp podés revisar un mensaje y copiarlo. El envío lo confirmás vos. En Correos elegís si querés activar los avisos para clientes con correo cargado. Las vistas previas muestran cómo son los mensajes. Así tenés herramientas para mantener el contacto además del registro diario de compras y premios.",
+  "spokenText": "Para acompañar a tus clientes, Sin actividad permite encontrar a quienes llevan un tiempo sin comprar ni canjear. Elegís el período y revisás la lista. Con Contactar por guasap podés revisar un mensaje y copiarlo. El envío lo confirmás vos. En Correos elegís si querés activar los avisos para clientes con correo cargado. Las vistas previas muestran cómo son los mensajes. Así tenés herramientas para mantener el contacto además del registro diario de compras y premios.",
+  "text_sha256": "0678d40a50a22c19f3059f00928452077f67b71464d61c50499715cc8169cca5",
+  "sha256": "5a43a9f7f22fb5fca5368d6459b6c88dc0528abd72779a68be19443b1892f377",
+  "duration": 28.96,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 91.33,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

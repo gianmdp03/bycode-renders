@@ -1,0 +1,23 @@
+{
+  "scene": "b01-intro",
+  "source": "recordings/b01-intro-1794152698832.mp4",
+  "phases": [
+    {
+      "id": "overview",
+      "voice": "Pointly te ayuda",
+      "start": 1794152694941.7,
+      "end": 1794152697787.0999
+    }
+  ],
+  "evidence": [
+    {
+      "label": "Actual public Pointly home",
+      "at": 1794152695406.0999,
+      "url": "/",
+      "frame": "qa/b01-intro-1.png"
+    }
+  ],
+  "network": [],
+  "person": "Ana Torres DEMO",
+  "company": "Café del Puerto DEMO"
+}

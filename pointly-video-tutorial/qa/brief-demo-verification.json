@@ -1,0 +1,124 @@
+{
+  "state": "PASS",
+  "company": {
+    "name": "Caf\u00e9 del Puerto DEMO",
+    "publicName": "cafe-del-puerto-recorrido-20261108-3",
+    "baseRule": [
+      1000,
+      10
+    ],
+    "expirationDays": 90
+  },
+  "person": "Ana Torres DEMO",
+  "ledger": {
+    "database": "tutorial_pointly_demo",
+    "saleCount": 1,
+    "saleAmount": 8500.0,
+    "movements": [
+      {
+        "type": "EARNED",
+        "amount": 80,
+        "rewardId": null,
+        "rewardName": null,
+        "rewardCost": null,
+        "validityDays": 90.0
+      },
+      {
+        "type": "REDEEMED",
+        "amount": -80,
+        "rewardId": 11,
+        "rewardName": "Caf\u00e9 de regalo",
+        "rewardCost": 80,
+        "validityDays": null
+      }
+    ],
+    "sentEmails": 0
+  },
+  "balanceSequence": [
+    0,
+    80,
+    0
+  ],
+  "publicBalance": 0,
+  "merchantBalance": 0,
+  "sameRewardCreatedAndRedeemed": true,
+  "captures": [
+    {
+      "scene": "b01-intro",
+      "file": "recordings/b01-intro-1794152698832.mp4",
+      "evidence": [
+        "Actual public Pointly home"
+      ]
+    },
+    {
+      "scene": "b02-company",
+      "file": "recordings/b02-company-1794153336892.mp4",
+      "evidence": [
+        "Base rule selected before company creation",
+        "Expiry selected in CREATE form before saving",
+        "New company genuinely created with both rules",
+        "Same newly created company ready for first client"
+      ]
+    },
+    {
+      "scene": "b03-client",
+      "file": "recordings/b03-client-1794153368077.mp4",
+      "evidence": [
+        "Ana starts at zero with no prior movements",
+        "Actual registration QR for the same company downloaded"
+      ]
+    },
+    {
+      "scene": "b04-sale",
+      "file": "recordings/b04-sale-1794153392672.mp4",
+      "evidence": [
+        "Real purchase estimate for Ana",
+        "Ana now has 80 and the actual EARNED movement is visible"
+      ]
+    },
+    {
+      "scene": "b05-reward",
+      "file": "recordings/b05-reward-1794153427104.mp4",
+      "evidence": [
+        "The newly created 80-point coffee reward",
+        "Same coffee and same Ana ready for a single redemption",
+        "Ana ends at zero; both earned and redeemed movements visible"
+      ]
+    },
+    {
+      "scene": "b06-catalog",
+      "file": "recordings/b06-catalog-1794153463382.mp4",
+      "evidence": [
+        "Double-points promotion scheduled AFTER the demonstrated base purchase",
+        "Product retained in the same company catalog"
+      ]
+    },
+    {
+      "scene": "b07-contact",
+      "file": "recordings/b07-contact-1794153676398.mp4",
+      "evidence": [
+        "Separate historical demonstration client, not Ana, in inactivity list",
+        "Actual WhatsApp draft copied; no outside message sent",
+        "Actual email preferences and preview; no external send claimed"
+      ]
+    },
+    {
+      "scene": "b08-points",
+      "file": "recordings/b08-points-1794153762292.mp4",
+      "evidence": [
+        "Public consultation shows the same zero balance after the one canje",
+        "Same coffee reward remains in public consultation",
+        "Same product retained in public catalog",
+        "Customer consultation and merchant balance agree"
+      ]
+    },
+    {
+      "scene": "b09-close",
+      "file": "recordings/b09-close-1794153772083.mp4",
+      "evidence": [
+        "Same final customer consultation for closing"
+      ]
+    }
+  ],
+  "scope": "Verified tutorial-owned DB and localhost real API. No production data and no outbound messages."
+}

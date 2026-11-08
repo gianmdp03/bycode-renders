@@ -1,0 +1,175 @@
+{
+  "state": "PASS",
+  "narratedChapters": 9,
+  "consistentSyntheticMaleReference": true,
+  "externalVoiceAPI": false,
+  "method": "File hashes, PCM format/peak, independent local acoustic transcription and timing, reviewed Spanish tokenization, silence analysis.",
+  "chapters": [
+    {
+      "id": "b01-intro",
+      "state": "PASS",
+      "durationSeconds": 15.12,
+      "peakDbFS": -4.51,
+      "sha256": "5e2b9b5e710059243ff90a801232d3433aeb3fb74fa705ba1d1eb4ee1721d96a",
+      "scriptSimilarity": 1,
+      "differences": [],
+      "captionCorrections": [],
+      "captionCount": 4,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "b02-company",
+      "state": "PASS",
+      "durationSeconds": 40.72,
+      "peakDbFS": -4.51,
+      "sha256": "25327afa1441c46f9921b965f9b1883b080f8d38a35caf1711e45952f7abbc67",
+      "scriptSimilarity": 0.9907,
+      "differences": [
+        {
+          "op": "replace",
+          "expected": "noventa",
+          "heard": "90"
+        }
+      ],
+      "captionCorrections": [],
+      "captionCount": 11,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "b03-client",
+      "state": "PASS",
+      "durationSeconds": 34.72,
+      "peakDbFS": -4.51,
+      "sha256": "4135f3a0dcd515cd2367d18569fe9ba5600859a6d755276cc5475e92ec9d44c5",
+      "scriptSimilarity": 1,
+      "differences": [],
+      "captionCorrections": [],
+      "captionCount": 10,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "b04-sale",
+      "state": "PASS",
+      "durationSeconds": 31.84,
+      "peakDbFS": -4.51,
+      "sha256": "7acb6ed17bc9c86a7eb4c0be43f60c715f8322de1b78bfeee6a9b558875bd39b",
+      "scriptSimilarity": 0.9222,
+      "differences": [
+        {
+          "op": "replace",
+          "expected": "ocho mil quinientos",
+          "heard": "8 .500"
+        },
+        {
+          "op": "replace",
+          "expected": "mil",
+          "heard": "1000"
+        },
+        {
+          "op": "replace",
+          "expected": "ochenta",
+          "heard": "80"
+        },
+        {
+          "op": "replace",
+          "expected": "cero",
+          "heard": "0"
+        },
+        {
+          "op": "replace",
+          "expected": "ochenta",
+          "heard": "80"
+        }
+      ],
+      "captionCorrections": [
+        [
+          "8 .500",
+          "8.500"
+        ]
+      ],
+      "captionCount": 8,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "b05-reward",
+      "state": "PASS",
+      "durationSeconds": 42.16,
+      "peakDbFS": -4.51,
+      "sha256": "6be91b5abec7e684e46b9b909f354e4beb24fb2e24191e755329d4c3ec86ecc1",
+      "scriptSimilarity": 0.9739,
+      "differences": [
+        {
+          "op": "replace",
+          "expected": "ochenta",
+          "heard": "80"
+        },
+        {
+          "op": "replace",
+          "expected": "DNI.",
+          "heard": "DNIR,"
+        },
+        {
+          "op": "replace",
+          "expected": "ochenta",
+          "heard": "80"
+        }
+      ],
+      "captionCorrections": [
+        [
+          "DNIR,",
+          "DNI."
+        ]
+      ],
+      "captionCount": 13,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "b06-catalog",
+      "state": "PASS",
+      "durationSeconds": 37.68,
+      "peakDbFS": -4.51,
+      "sha256": "278deff0d124b935b04d6417201be719145db18ecb0f5bb9e590cfa1e8883da7",
+      "scriptSimilarity": 1,
+      "differences": [],
+      "captionCorrections": [],
+      "captionCount": 10,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "b07-contact",
+      "state": "PASS",
+      "durationSeconds": 28.96,
+      "peakDbFS": -4.51,
+      "sha256": "5a43a9f7f22fb5fca5368d6459b6c88dc0528abd72779a68be19443b1892f377",
+      "scriptSimilarity": 1,
+      "differences": [],
+      "captionCorrections": [],
+      "captionCount": 9,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "b08-points",
+      "state": "PASS",
+      "durationSeconds": 33.6,
+      "peakDbFS": -4.51,
+      "sha256": "2da502e9f94ab7ce64cc7e8eace1a827854ae68f73018dc8cda8372c1ff7fefe",
+      "scriptSimilarity": 1,
+      "differences": [],
+      "captionCorrections": [],
+      "captionCount": 10,
+      "internalSilencesOver1_2Seconds": []
+    },
+    {
+      "id": "b09-close",
+      "state": "PASS",
+      "durationSeconds": 12.0,
+      "peakDbFS": -4.52,
+      "sha256": "e912b4fe2dd41ff0e9afa3270acf3e11e39b4d3a8af49d8782db4991510cfbeb",
+      "scriptSimilarity": 1,
+      "differences": [],
+      "captionCorrections": [],
+      "captionCount": 4,
+      "internalSilencesOver1_2Seconds": []
+    }
+  ]
+}

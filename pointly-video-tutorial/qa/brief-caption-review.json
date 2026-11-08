@@ -1,0 +1,114 @@
+[
+  {
+    "id": "b01-intro",
+    "differences": [],
+    "corrections": [],
+    "captionCount": 4
+  },
+  {
+    "id": "b02-company",
+    "differences": [
+      {
+        "op": "replace",
+        "expected": "noventa",
+        "heard": "90"
+      }
+    ],
+    "corrections": [],
+    "captionCount": 11
+  },
+  {
+    "id": "b03-client",
+    "differences": [],
+    "corrections": [],
+    "captionCount": 10
+  },
+  {
+    "id": "b04-sale",
+    "differences": [
+      {
+        "op": "replace",
+        "expected": "ocho mil quinientos",
+        "heard": "8 .500"
+      },
+      {
+        "op": "replace",
+        "expected": "mil",
+        "heard": "1000"
+      },
+      {
+        "op": "replace",
+        "expected": "ochenta",
+        "heard": "80"
+      },
+      {
+        "op": "replace",
+        "expected": "cero",
+        "heard": "0"
+      },
+      {
+        "op": "replace",
+        "expected": "ochenta",
+        "heard": "80"
+      }
+    ],
+    "corrections": [
+      [
+        "8 .500",
+        "8.500"
+      ]
+    ],
+    "captionCount": 8
+  },
+  {
+    "id": "b05-reward",
+    "differences": [
+      {
+        "op": "replace",
+        "expected": "ochenta",
+        "heard": "80"
+      },
+      {
+        "op": "replace",
+        "expected": "DNI.",
+        "heard": "DNIR,"
+      },
+      {
+        "op": "replace",
+        "expected": "ochenta",
+        "heard": "80"
+      }
+    ],
+    "corrections": [
+      [
+        "DNIR,",
+        "DNI."
+      ]
+    ],
+    "captionCount": 13
+  },
+  {
+    "id": "b06-catalog",
+    "differences": [],
+    "corrections": [],
+    "captionCount": 10
+  },
+  {
+    "id": "b07-contact",
+    "differences": [],
+    "corrections": [],
+    "captionCount": 9
+  },
+  {
+    "id": "b08-points",
+    "differences": [],
+    "corrections": [],
+    "captionCount": 10
+  },
+  {
+    "id": "b09-close",
+    "differences": [],
+    "corrections": [],
+    "captionCount": 4
+  }
+]

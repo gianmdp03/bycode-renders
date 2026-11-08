@@ -1,0 +1,738 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "278deff0d124b935b04d6417201be719145db18ecb0f5bb9e590cfa1e8883da7",
+  "transcript": "También podés sumar promociones y mostrar tus productos. En Promociones creamos una campaña de puntos dobles, con un nombre, sus condiciones y las fechas de inicio y fin. La dejamos programada para comenzar después de nuestro ejemplo de compra. Durante su vigencia, las compras que correspondan obtendrán el beneficio configurado. En Productos agregamos un café doble con su precio y una descripción. Guardamos y revisamos su tarjeta en el catálogo. Estas herramientas ayudan a que tus clientes conozcan qué ofrecés y qué beneficios pueden aprovechar. Podés actualizar sus datos cuando cambie tu propuesta.",
+  "scriptSimilarity": 1,
+  "differences": [],
+  "words": [
+    {
+      "word": "También",
+      "start": 0,
+      "end": 0.72,
+      "probability": 0.9374622106552124,
+      "display": "También"
+    },
+    {
+      "word": "podés",
+      "start": 0.72,
+      "end": 1.1,
+      "probability": 0.8380512297153473,
+      "display": "podés"
+    },
+    {
+      "word": "sumar",
+      "start": 1.1,
+      "end": 1.44,
+      "probability": 0.9974378943443298,
+      "display": "sumar"
+    },
+    {
+      "word": "promociones",
+      "start": 1.44,
+      "end": 2,
+      "probability": 0.9863716761271158,
+      "display": "promociones"
+    },
+    {
+      "word": "y",
+      "start": 2,
+      "end": 2.34,
+      "probability": 0.9783908724784851,
+      "display": "y"
+    },
+    {
+      "word": "mostrar",
+      "start": 2.34,
+      "end": 2.7,
+      "probability": 0.9961133003234863,
+      "display": "mostrar"
+    },
+    {
+      "word": "tus",
+      "start": 2.7,
+      "end": 2.94,
+      "probability": 0.9880213737487793,
+      "display": "tus"
+    },
+    {
+      "word": "productos.",
+      "start": 2.94,
+      "end": 3.34,
+      "probability": 0.9946940541267395,
+      "display": "productos."
+    },
+    {
+      "word": "En",
+      "start": 3.9,
+      "end": 4.16,
+      "probability": 0.9911677837371826,
+      "display": "En"
+    },
+    {
+      "word": "Promociones",
+      "start": 4.16,
+      "end": 4.62,
+      "probability": 0.8360883196194967,
+      "display": "Promociones"
+    },
+    {
+      "word": "creamos",
+      "start": 4.62,
+      "end": 5.06,
+      "probability": 0.7864526510238647,
+      "display": "creamos"
+    },
+    {
+      "word": "una",
+      "start": 5.06,
+      "end": 5.4,
+      "probability": 0.9948571920394897,
+      "display": "una"
+    },
+    {
+      "word": "campaña",
+      "start": 5.4,
+      "end": 5.82,
+      "probability": 0.9962272942066193,
+      "display": "campaña"
+    },
+    {
+      "word": "de",
+      "start": 5.82,
+      "end": 5.94,
+      "probability": 0.9971864819526672,
+      "display": "de"
+    },
+    {
+      "word": "puntos",
+      "start": 5.94,
+      "end": 6.18,
+      "probability": 0.9822186827659607,
+      "display": "puntos"
+    },
+    {
+      "word": "dobles,",
+      "start": 6.18,
+      "end": 6.62,
+      "probability": 0.9811919629573822,
+      "display": "dobles,"
+    },
+    {
+      "word": "con",
+      "start": 6.94,
+      "end": 7.18,
+      "probability": 0.9949530363082886,
+      "display": "con"
+    },
+    {
+      "word": "un",
+      "start": 7.18,
+      "end": 7.3,
+      "probability": 0.9979187846183777,
+      "display": "un"
+    },
+    {
+      "word": "nombre,",
+      "start": 7.3,
+      "end": 7.58,
+      "probability": 0.999081015586853,
+      "display": "nombre,"
+    },
+    {
+      "word": "sus",
+      "start": 7.92,
+      "end": 8.06,
+      "probability": 0.9861656427383423,
+      "display": "sus"
+    },
+    {
+      "word": "condiciones",
+      "start": 8.06,
+      "end": 8.54,
+      "probability": 0.9895357489585876,
+      "display": "condiciones"
+    },
+    {
+      "word": "y",
+      "start": 8.54,
+      "end": 8.96,
+      "probability": 0.9136705994606018,
+      "display": "y"
+    },
+    {
+      "word": "las",
+      "start": 8.96,
+      "end": 9.12,
+      "probability": 0.9963229894638062,
+      "display": "las"
+    },
+    {
+      "word": "fechas",
+      "start": 9.12,
+      "end": 9.48,
+      "probability": 0.9971326291561127,
+      "display": "fechas"
+    },
+    {
+      "word": "de",
+      "start": 9.48,
+      "end": 9.68,
+      "probability": 0.9975920915603638,
+      "display": "de"
+    },
+    {
+      "word": "inicio",
+      "start": 9.68,
+      "end": 10.08,
+      "probability": 0.9722880125045776,
+      "display": "inicio"
+    },
+    {
+      "word": "y",
+      "start": 10.08,
+      "end": 10.3,
+      "probability": 0.9866922497749329,
+      "display": "y"
+    },
+    {
+      "word": "fin.",
+      "start": 10.3,
+      "end": 10.5,
+      "probability": 0.9956515431404114,
+      "display": "fin."
+    },
+    {
+      "word": "La",
+      "start": 11.2,
+      "end": 11.38,
+      "probability": 0.9770898818969727,
+      "display": "La"
+    },
+    {
+      "word": "dejamos",
+      "start": 11.38,
+      "end": 11.72,
+      "probability": 0.9984372854232788,
+      "display": "dejamos"
+    },
+    {
+      "word": "programada",
+      "start": 11.72,
+      "end": 12.32,
+      "probability": 0.9969455301761627,
+      "display": "programada"
+    },
+    {
+      "word": "para",
+      "start": 12.32,
+      "end": 12.54,
+      "probability": 0.9952125549316406,
+      "display": "para"
+    },
+    {
+      "word": "comenzar",
+      "start": 12.54,
+      "end": 13.1,
+      "probability": 0.9991963505744934,
+      "display": "comenzar"
+    },
+    {
+      "word": "después",
+      "start": 13.1,
+      "end": 13.4,
+      "probability": 0.9805817008018494,
+      "display": "después"
+    },
+    {
+      "word": "de",
+      "start": 13.4,
+      "end": 13.66,
+      "probability": 0.9983691573143005,
+      "display": "de"
+    },
+    {
+      "word": "nuestro",
+      "start": 13.66,
+      "end": 13.82,
+      "probability": 0.9971755743026733,
+      "display": "nuestro"
+    },
+    {
+      "word": "ejemplo",
+      "start": 13.82,
+      "end": 14.34,
+      "probability": 0.9844444990158081,
+      "display": "ejemplo"
+    },
+    {
+      "word": "de",
+      "start": 14.34,
+      "end": 14.52,
+      "probability": 0.9988477230072021,
+      "display": "de"
+    },
+    {
+      "word": "compra.",
+      "start": 14.52,
+      "end": 14.82,
+      "probability": 0.9867132902145386,
+      "display": "compra."
+    },
+    {
+      "word": "Durante",
+      "start": 15.3,
+      "end": 15.64,
+      "probability": 0.995190441608429,
+      "display": "Durante"
+    },
+    {
+      "word": "su",
+      "start": 15.64,
+      "end": 15.84,
+      "probability": 0.9316176772117615,
+      "display": "su"
+    },
+    {
+      "word": "vigencia,",
+      "start": 15.84,
+      "end": 16.36,
+      "probability": 0.9772728681564331,
+      "display": "vigencia,"
+    },
+    {
+      "word": "las",
+      "start": 16.66,
+      "end": 16.76,
+      "probability": 0.9966841340065002,
+      "display": "las"
+    },
+    {
+      "word": "compras",
+      "start": 16.76,
+      "end": 17.12,
+      "probability": 0.9968392550945282,
+      "display": "compras"
+    },
+    {
+      "word": "que",
+      "start": 17.12,
+      "end": 17.28,
+      "probability": 0.9985131621360779,
+      "display": "que"
+    },
+    {
+      "word": "correspondan",
+      "start": 17.28,
+      "end": 17.9,
+      "probability": 0.985010951757431,
+      "display": "correspondan"
+    },
+    {
+      "word": "obtendrán",
+      "start": 17.9,
+      "end": 18.56,
+      "probability": 0.9747302234172821,
+      "display": "obtendrán"
+    },
+    {
+      "word": "el",
+      "start": 18.56,
+      "end": 18.8,
+      "probability": 0.9962313771247864,
+      "display": "el"
+    },
+    {
+      "word": "beneficio",
+      "start": 18.8,
+      "end": 19.38,
+      "probability": 0.9906440675258636,
+      "display": "beneficio"
+    },
+    {
+      "word": "configurado.",
+      "start": 19.38,
+      "end": 20.04,
+      "probability": 0.9985672235488892,
+      "display": "configurado."
+    },
+    {
+      "word": "En",
+      "start": 20.56,
+      "end": 20.82,
+      "probability": 0.9952735304832458,
+      "display": "En"
+    },
+    {
+      "word": "Productos",
+      "start": 20.82,
+      "end": 21.32,
+      "probability": 0.7024763375520706,
+      "display": "Productos"
+    },
+    {
+      "word": "agregamos",
+      "start": 21.32,
+      "end": 21.76,
+      "probability": 0.966265082359314,
+      "display": "agregamos"
+    },
+    {
+      "word": "un",
+      "start": 21.76,
+      "end": 22,
+      "probability": 0.9934855103492737,
+      "display": "un"
+    },
+    {
+      "word": "café",
+      "start": 22,
+      "end": 22.3,
+      "probability": 0.944858968257904,
+      "display": "café"
+    },
+    {
+      "word": "doble",
+      "start": 22.3,
+      "end": 22.76,
+      "probability": 0.9949323236942291,
+      "display": "doble"
+    },
+    {
+      "word": "con",
+      "start": 22.76,
+      "end": 22.98,
+      "probability": 0.9308478236198425,
+      "display": "con"
+    },
+    {
+      "word": "su",
+      "start": 22.98,
+      "end": 23.18,
+      "probability": 0.9990653395652771,
+      "display": "su"
+    },
+    {
+      "word": "precio",
+      "start": 23.18,
+      "end": 23.46,
+      "probability": 0.9938001036643982,
+      "display": "precio"
+    },
+    {
+      "word": "y",
+      "start": 23.46,
+      "end": 23.96,
+      "probability": 0.9525261521339417,
+      "display": "y"
+    },
+    {
+      "word": "una",
+      "start": 23.96,
+      "end": 24.14,
+      "probability": 0.998305082321167,
+      "display": "una"
+    },
+    {
+      "word": "descripción.",
+      "start": 24.14,
+      "end": 24.74,
+      "probability": 0.9978269040584564,
+      "display": "descripción."
+    },
+    {
+      "word": "Guardamos",
+      "start": 25.4,
+      "end": 25.92,
+      "probability": 0.9756438732147217,
+      "display": "Guardamos"
+    },
+    {
+      "word": "y",
+      "start": 25.92,
+      "end": 26.24,
+      "probability": 0.9935018420219421,
+      "display": "y"
+    },
+    {
+      "word": "revisamos",
+      "start": 26.24,
+      "end": 26.7,
+      "probability": 0.9888511896133423,
+      "display": "revisamos"
+    },
+    {
+      "word": "su",
+      "start": 26.7,
+      "end": 26.94,
+      "probability": 0.995131254196167,
+      "display": "su"
+    },
+    {
+      "word": "tarjeta",
+      "start": 26.94,
+      "end": 27.4,
+      "probability": 0.9962482651074728,
+      "display": "tarjeta"
+    },
+    {
+      "word": "en",
+      "start": 27.4,
+      "end": 27.5,
+      "probability": 0.9976660013198853,
+      "display": "en"
+    },
+    {
+      "word": "el",
+      "start": 27.5,
+      "end": 27.6,
+      "probability": 0.9978864789009094,
+      "display": "el"
+    },
+    {
+      "word": "catálogo.",
+      "start": 27.6,
+      "end": 28.02,
+      "probability": 0.9871126810709635,
+      "display": "catálogo."
+    },
+    {
+      "word": "Estas",
+      "start": 28.02,
+      "end": 28.98,
+      "probability": 0.9330163300037384,
+      "display": "Estas"
+    },
+    {
+      "word": "herramientas",
+      "start": 28.98,
+      "end": 29.54,
+      "probability": 0.9988451600074768,
+      "display": "herramientas"
+    },
+    {
+      "word": "ayudan",
+      "start": 29.54,
+      "end": 29.96,
+      "probability": 0.996348649263382,
+      "display": "ayudan"
+    },
+    {
+      "word": "a",
+      "start": 29.96,
+      "end": 30,
+      "probability": 0.9948065876960754,
+      "display": "a"
+    },
+    {
+      "word": "que",
+      "start": 30,
+      "end": 30.14,
+      "probability": 0.9987842440605164,
+      "display": "que"
+    },
+    {
+      "word": "tus",
+      "start": 30.14,
+      "end": 30.3,
+      "probability": 0.9888032078742981,
+      "display": "tus"
+    },
+    {
+      "word": "clientes",
+      "start": 30.3,
+      "end": 30.72,
+      "probability": 0.9993538856506348,
+      "display": "clientes"
+    },
+    {
+      "word": "conozcan",
+      "start": 30.72,
+      "end": 31.18,
+      "probability": 0.9940246144930521,
+      "display": "conozcan"
+    },
+    {
+      "word": "qué",
+      "start": 31.18,
+      "end": 31.42,
+      "probability": 0.9532332420349121,
+      "display": "qué"
+    },
+    {
+      "word": "ofrecés",
+      "start": 31.42,
+      "end": 31.92,
+      "probability": 0.8239264090855917,
+      "display": "ofrecés"
+    },
+    {
+      "word": "y",
+      "start": 31.92,
+      "end": 32.18,
+      "probability": 0.9770370125770569,
+      "display": "y"
+    },
+    {
+      "word": "qué",
+      "start": 32.18,
+      "end": 32.38,
+      "probability": 0.9824106693267822,
+      "display": "qué"
+    },
+    {
+      "word": "beneficios",
+      "start": 32.38,
+      "end": 33.08,
+      "probability": 0.9971727132797241,
+      "display": "beneficios"
+    },
+    {
+      "word": "pueden",
+      "start": 33.08,
+      "end": 33.38,
+      "probability": 0.9905754327774048,
+      "display": "pueden"
+    },
+    {
+      "word": "aprovechar.",
+      "start": 33.38,
+      "end": 33.94,
+      "probability": 0.9994632601737976,
+      "display": "aprovechar."
+    },
+    {
+      "word": "Podés",
+      "start": 34.7,
+      "end": 35.04,
+      "probability": 0.7048851549625397,
+      "display": "Podés"
+    },
+    {
+      "word": "actualizar",
+      "start": 35.04,
+      "end": 35.56,
+      "probability": 0.998627632856369,
+      "display": "actualizar"
+    },
+    {
+      "word": "sus",
+      "start": 35.56,
+      "end": 35.74,
+      "probability": 0.9951022863388062,
+      "display": "sus"
+    },
+    {
+      "word": "datos",
+      "start": 35.74,
+      "end": 36.06,
+      "probability": 0.9990806579589844,
+      "display": "datos"
+    },
+    {
+      "word": "cuando",
+      "start": 36.06,
+      "end": 36.34,
+      "probability": 0.9896357655525208,
+      "display": "cuando"
+    },
+    {
+      "word": "cambie",
+      "start": 36.34,
+      "end": 36.76,
+      "probability": 0.976435512304306,
+      "display": "cambie"
+    },
+    {
+      "word": "tu",
+      "start": 36.76,
+      "end": 36.88,
+      "probability": 0.9926642775535583,
+      "display": "tu"
+    },
+    {
+      "word": "propuesta.",
+      "start": 36.88,
+      "end": 37.32,
+      "probability": 0.9989918172359467,
+      "display": "propuesta."
+    }
+  ],
+  "captions": [
+    {
+      "text": "También podés sumar promociones y mostrar tus productos.",
+      "startMs": 0,
+      "endMs": 3340,
+      "timestampMs": null,
+      "confidence": 0.9645678264399369
+    },
+    {
+      "text": "En Promociones creamos una campaña de puntos dobles, con un nombre,",
+      "startMs": 3900,
+      "endMs": 7580,
+      "timestampMs": null,
+      "confidence": 0.9597584731651075
+    },
+    {
+      "text": "sus condiciones y las fechas de inicio y fin.",
+      "startMs": 7920,
+      "endMs": 10500,
+      "timestampMs": null,
+      "confidence": 0.9816723896397485
+    },
+    {
+      "text": "La dejamos programada para comenzar después de nuestro ejemplo de compra.",
+      "startMs": 11200,
+      "endMs": 14820,
+      "timestampMs": null,
+      "confidence": 0.9920921406962655
+    },
+    {
+      "text": "Durante su vigencia, las compras que correspondan obtendrán el beneficio configurado.",
+      "startMs": 15300,
+      "endMs": 20040,
+      "timestampMs": null,
+      "confidence": 0.9855728528716348
+    },
+    {
+      "text": "En Productos agregamos un café doble con su precio y una descripción.",
+      "startMs": 20560,
+      "endMs": 24740,
+      "timestampMs": null,
+      "confidence": 0.9558052631715933
+    },
+    {
+      "text": "Guardamos y revisamos su tarjeta en el catálogo.",
+      "startMs": 25400,
+      "endMs": 28020,
+      "timestampMs": null,
+      "confidence": 0.9915051981806755
+    },
+    {
+      "text": "Estas herramientas ayudan a que tus clientes conozcan qué ofrecés y qué beneficios",
+      "startMs": 28020,
+      "endMs": 33080,
+      "timestampMs": null,
+      "confidence": 0.9721355942579417
+    },
+    {
+      "text": "pueden aprovechar.",
+      "startMs": 33080,
+      "endMs": 33940,
+      "timestampMs": null,
+      "confidence": 0.9950193464756012
+    },
+    {
+      "text": "Podés actualizar sus datos cuando cambie tu propuesta.",
+      "startMs": 34700,
+      "endMs": 37320,
+      "timestampMs": null,
+      "confidence": 0.9569278880953789
+    }
+  ],
+  "status": "ACOUSTIC_MATCH",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [],
+    "sourceAudioHash": "278deff0d124b935b04d6417201be719145db18ecb0f5bb9e590cfa1e8883da7"
+  }
+}

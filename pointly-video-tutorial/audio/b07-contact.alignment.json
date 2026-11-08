@@ -1,0 +1,612 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "5a43a9f7f22fb5fca5368d6459b6c88dc0528abd72779a68be19443b1892f377",
+  "transcript": "Para acompañar a tus clientes, sin actividad permite encontrar a quienes llevan un tiempo sin comprar ni canjear. Elegís el período y revisás la lista. Con contactar por WhatsApp, podés revisar un mensaje y copiarlo. El envío lo confirmás vos. En correos elegís si querés activar los avisos para clientes con correo cargado. Las vistas previas muestran cómo son los mensajes. Así tenés herramientas para mantener el contacto además del registro diario de compras y premios.",
+  "scriptSimilarity": 1,
+  "differences": [],
+  "words": [
+    {
+      "word": "Para",
+      "start": 0,
+      "end": 0.34,
+      "probability": 0.9641210436820984,
+      "display": "Para"
+    },
+    {
+      "word": "acompañar",
+      "start": 0.34,
+      "end": 0.84,
+      "probability": 0.9970633089542389,
+      "display": "acompañar"
+    },
+    {
+      "word": "a",
+      "start": 0.84,
+      "end": 0.92,
+      "probability": 0.9995614886283875,
+      "display": "a"
+    },
+    {
+      "word": "tus",
+      "start": 0.92,
+      "end": 1.04,
+      "probability": 0.9934749007225037,
+      "display": "tus"
+    },
+    {
+      "word": "clientes,",
+      "start": 1.04,
+      "end": 1.66,
+      "probability": 0.9990445375442505,
+      "display": "clientes,"
+    },
+    {
+      "word": "sin",
+      "start": 1.82,
+      "end": 1.94,
+      "probability": 0.7059344053268433,
+      "display": "Sin"
+    },
+    {
+      "word": "actividad",
+      "start": 1.94,
+      "end": 2.42,
+      "probability": 0.960918515920639,
+      "display": "actividad"
+    },
+    {
+      "word": "permite",
+      "start": 2.42,
+      "end": 2.74,
+      "probability": 0.4802103340625763,
+      "display": "permite"
+    },
+    {
+      "word": "encontrar",
+      "start": 2.74,
+      "end": 3.26,
+      "probability": 0.9991056323051453,
+      "display": "encontrar"
+    },
+    {
+      "word": "a",
+      "start": 3.26,
+      "end": 3.48,
+      "probability": 0.995403528213501,
+      "display": "a"
+    },
+    {
+      "word": "quienes",
+      "start": 3.48,
+      "end": 3.68,
+      "probability": 0.9786230325698853,
+      "display": "quienes"
+    },
+    {
+      "word": "llevan",
+      "start": 3.68,
+      "end": 4.08,
+      "probability": 0.9931133389472961,
+      "display": "llevan"
+    },
+    {
+      "word": "un",
+      "start": 4.08,
+      "end": 4.22,
+      "probability": 0.9970820546150208,
+      "display": "un"
+    },
+    {
+      "word": "tiempo",
+      "start": 4.22,
+      "end": 4.52,
+      "probability": 0.9992011189460754,
+      "display": "tiempo"
+    },
+    {
+      "word": "sin",
+      "start": 4.52,
+      "end": 4.76,
+      "probability": 0.9973204731941223,
+      "display": "sin"
+    },
+    {
+      "word": "comprar",
+      "start": 4.76,
+      "end": 5.18,
+      "probability": 0.9984070658683777,
+      "display": "comprar"
+    },
+    {
+      "word": "ni",
+      "start": 5.18,
+      "end": 5.6,
+      "probability": 0.849029541015625,
+      "display": "ni"
+    },
+    {
+      "word": "canjear.",
+      "start": 5.6,
+      "end": 6.12,
+      "probability": 0.9243796467781067,
+      "display": "canjear."
+    },
+    {
+      "word": "Elegís",
+      "start": 6.66,
+      "end": 7.04,
+      "probability": 0.8253823121388754,
+      "display": "Elegís"
+    },
+    {
+      "word": "el",
+      "start": 7.04,
+      "end": 7.38,
+      "probability": 0.9627825617790222,
+      "display": "el"
+    },
+    {
+      "word": "período",
+      "start": 7.38,
+      "end": 7.74,
+      "probability": 0.7875058054924011,
+      "display": "período"
+    },
+    {
+      "word": "y",
+      "start": 7.74,
+      "end": 8.12,
+      "probability": 0.9905721545219421,
+      "display": "y"
+    },
+    {
+      "word": "revisás",
+      "start": 8.12,
+      "end": 8.58,
+      "probability": 0.8492411077022552,
+      "display": "revisás"
+    },
+    {
+      "word": "la",
+      "start": 8.58,
+      "end": 8.74,
+      "probability": 0.9988232254981995,
+      "display": "la"
+    },
+    {
+      "word": "lista.",
+      "start": 8.74,
+      "end": 8.98,
+      "probability": 0.9987034797668457,
+      "display": "lista."
+    },
+    {
+      "word": "Con",
+      "start": 9.64,
+      "end": 9.84,
+      "probability": 0.9979877471923828,
+      "display": "Con"
+    },
+    {
+      "word": "contactar",
+      "start": 9.84,
+      "end": 10.34,
+      "probability": 0.8905800879001617,
+      "display": "Contactar"
+    },
+    {
+      "word": "por",
+      "start": 10.34,
+      "end": 10.5,
+      "probability": 0.9926841855049133,
+      "display": "por"
+    },
+    {
+      "word": "WhatsApp,",
+      "start": 10.5,
+      "end": 10.84,
+      "probability": 0.8018199801445007,
+      "display": "WhatsApp"
+    },
+    {
+      "word": "podés",
+      "start": 11.14,
+      "end": 11.3,
+      "probability": 0.889417290687561,
+      "display": "podés"
+    },
+    {
+      "word": "revisar",
+      "start": 11.3,
+      "end": 11.72,
+      "probability": 0.9984348714351654,
+      "display": "revisar"
+    },
+    {
+      "word": "un",
+      "start": 11.72,
+      "end": 11.84,
+      "probability": 0.997094988822937,
+      "display": "un"
+    },
+    {
+      "word": "mensaje",
+      "start": 11.84,
+      "end": 12.3,
+      "probability": 0.9994603395462036,
+      "display": "mensaje"
+    },
+    {
+      "word": "y",
+      "start": 12.3,
+      "end": 12.5,
+      "probability": 0.997492790222168,
+      "display": "y"
+    },
+    {
+      "word": "copiarlo.",
+      "start": 12.5,
+      "end": 13,
+      "probability": 0.984430213769277,
+      "display": "copiarlo."
+    },
+    {
+      "word": "El",
+      "start": 13.42,
+      "end": 13.58,
+      "probability": 0.9878586530685425,
+      "display": "El"
+    },
+    {
+      "word": "envío",
+      "start": 13.58,
+      "end": 13.9,
+      "probability": 0.9655030369758606,
+      "display": "envío"
+    },
+    {
+      "word": "lo",
+      "start": 13.9,
+      "end": 14.04,
+      "probability": 0.9819706678390503,
+      "display": "lo"
+    },
+    {
+      "word": "confirmás",
+      "start": 14.04,
+      "end": 14.54,
+      "probability": 0.9154848754405975,
+      "display": "confirmás"
+    },
+    {
+      "word": "vos.",
+      "start": 14.54,
+      "end": 14.7,
+      "probability": 0.9646492004394531,
+      "display": "vos."
+    },
+    {
+      "word": "En",
+      "start": 15.4,
+      "end": 15.56,
+      "probability": 0.9962790608406067,
+      "display": "En"
+    },
+    {
+      "word": "correos",
+      "start": 15.56,
+      "end": 15.88,
+      "probability": 0.9802757501602173,
+      "display": "Correos"
+    },
+    {
+      "word": "elegís",
+      "start": 15.88,
+      "end": 16.32,
+      "probability": 0.8879451751708984,
+      "display": "elegís"
+    },
+    {
+      "word": "si",
+      "start": 16.32,
+      "end": 16.72,
+      "probability": 0.8481268286705017,
+      "display": "si"
+    },
+    {
+      "word": "querés",
+      "start": 16.72,
+      "end": 16.98,
+      "probability": 0.9451772272586823,
+      "display": "querés"
+    },
+    {
+      "word": "activar",
+      "start": 16.98,
+      "end": 17.38,
+      "probability": 0.9961108565330505,
+      "display": "activar"
+    },
+    {
+      "word": "los",
+      "start": 17.38,
+      "end": 17.52,
+      "probability": 0.9968967437744141,
+      "display": "los"
+    },
+    {
+      "word": "avisos",
+      "start": 17.52,
+      "end": 17.88,
+      "probability": 0.9752110838890076,
+      "display": "avisos"
+    },
+    {
+      "word": "para",
+      "start": 17.88,
+      "end": 18.08,
+      "probability": 0.9991462230682373,
+      "display": "para"
+    },
+    {
+      "word": "clientes",
+      "start": 18.08,
+      "end": 18.62,
+      "probability": 0.9972607493400574,
+      "display": "clientes"
+    },
+    {
+      "word": "con",
+      "start": 18.62,
+      "end": 18.86,
+      "probability": 0.9606729745864868,
+      "display": "con"
+    },
+    {
+      "word": "correo",
+      "start": 18.86,
+      "end": 19.26,
+      "probability": 0.9944245517253876,
+      "display": "correo"
+    },
+    {
+      "word": "cargado.",
+      "start": 19.26,
+      "end": 19.68,
+      "probability": 0.9961221516132355,
+      "display": "cargado."
+    },
+    {
+      "word": "Las",
+      "start": 20.14,
+      "end": 20.28,
+      "probability": 0.9971219897270203,
+      "display": "Las"
+    },
+    {
+      "word": "vistas",
+      "start": 20.28,
+      "end": 20.6,
+      "probability": 0.9746662974357605,
+      "display": "vistas"
+    },
+    {
+      "word": "previas",
+      "start": 20.6,
+      "end": 21.14,
+      "probability": 0.916374683380127,
+      "display": "previas"
+    },
+    {
+      "word": "muestran",
+      "start": 21.14,
+      "end": 21.74,
+      "probability": 0.9922870993614197,
+      "display": "muestran"
+    },
+    {
+      "word": "cómo",
+      "start": 21.74,
+      "end": 22.08,
+      "probability": 0.9353492856025696,
+      "display": "cómo"
+    },
+    {
+      "word": "son",
+      "start": 22.08,
+      "end": 22.34,
+      "probability": 0.9979202151298523,
+      "display": "son"
+    },
+    {
+      "word": "los",
+      "start": 22.34,
+      "end": 22.48,
+      "probability": 0.999295711517334,
+      "display": "los"
+    },
+    {
+      "word": "mensajes.",
+      "start": 22.48,
+      "end": 22.9,
+      "probability": 0.9986685812473297,
+      "display": "mensajes."
+    },
+    {
+      "word": "Así",
+      "start": 23.6,
+      "end": 23.86,
+      "probability": 0.9924330711364746,
+      "display": "Así"
+    },
+    {
+      "word": "tenés",
+      "start": 23.86,
+      "end": 24.24,
+      "probability": 0.9634222090244293,
+      "display": "tenés"
+    },
+    {
+      "word": "herramientas",
+      "start": 24.24,
+      "end": 24.82,
+      "probability": 0.99864262342453,
+      "display": "herramientas"
+    },
+    {
+      "word": "para",
+      "start": 24.82,
+      "end": 25.04,
+      "probability": 0.9981667995452881,
+      "display": "para"
+    },
+    {
+      "word": "mantener",
+      "start": 25.04,
+      "end": 25.36,
+      "probability": 0.9972721934318542,
+      "display": "mantener"
+    },
+    {
+      "word": "el",
+      "start": 25.36,
+      "end": 25.58,
+      "probability": 0.9947553873062134,
+      "display": "el"
+    },
+    {
+      "word": "contacto",
+      "start": 25.58,
+      "end": 26.1,
+      "probability": 0.9983609020709991,
+      "display": "contacto"
+    },
+    {
+      "word": "además",
+      "start": 26.1,
+      "end": 26.32,
+      "probability": 0.8902832269668579,
+      "display": "además"
+    },
+    {
+      "word": "del",
+      "start": 26.32,
+      "end": 26.58,
+      "probability": 0.9905785918235779,
+      "display": "del"
+    },
+    {
+      "word": "registro",
+      "start": 26.58,
+      "end": 27.02,
+      "probability": 0.9826619327068329,
+      "display": "registro"
+    },
+    {
+      "word": "diario",
+      "start": 27.02,
+      "end": 27.3,
+      "probability": 0.9663338661193848,
+      "display": "diario"
+    },
+    {
+      "word": "de",
+      "start": 27.3,
+      "end": 27.46,
+      "probability": 0.9992274045944214,
+      "display": "de"
+    },
+    {
+      "word": "compras",
+      "start": 27.46,
+      "end": 27.9,
+      "probability": 0.9940779507160187,
+      "display": "compras"
+    },
+    {
+      "word": "y",
+      "start": 27.9,
+      "end": 28.12,
+      "probability": 0.9991586208343506,
+      "display": "y"
+    },
+    {
+      "word": "premios.",
+      "start": 28.12,
+      "end": 28.48,
+      "probability": 0.9950465261936188,
+      "display": "premios."
+    }
+  ],
+  "captions": [
+    {
+      "text": "Para acompañar a tus clientes,",
+      "startMs": 0,
+      "endMs": 1660,
+      "timestampMs": null,
+      "confidence": 0.9906530559062958
+    },
+    {
+      "text": "Sin actividad permite encontrar a quienes llevan un tiempo sin comprar ni canjear.",
+      "startMs": 1820,
+      "endMs": 6120,
+      "timestampMs": null,
+      "confidence": 0.9137483605971704
+    },
+    {
+      "text": "Elegís el período y revisás la lista.",
+      "startMs": 6660,
+      "endMs": 8980,
+      "timestampMs": null,
+      "confidence": 0.916144378128506
+    },
+    {
+      "text": "Con Contactar por WhatsApp podés revisar un mensaje y copiarlo.",
+      "startMs": 9640,
+      "endMs": 13000,
+      "timestampMs": null,
+      "confidence": 0.9549402495225271
+    },
+    {
+      "text": "El envío lo confirmás vos.",
+      "startMs": 13420,
+      "endMs": 14700,
+      "timestampMs": null,
+      "confidence": 0.9630932867527008
+    },
+    {
+      "text": "En Correos elegís si querés activar los avisos para clientes con correo cargado.",
+      "startMs": 15400,
+      "endMs": 19680,
+      "timestampMs": null,
+      "confidence": 0.9672037982023679
+    },
+    {
+      "text": "Las vistas previas muestran cómo son los mensajes.",
+      "startMs": 20140,
+      "endMs": 22900,
+      "timestampMs": null,
+      "confidence": 0.9764604829251766
+    },
+    {
+      "text": "Así tenés herramientas para mantener el contacto además del registro diario de compras",
+      "startMs": 23600,
+      "endMs": 27900,
+      "timestampMs": null,
+      "confidence": 0.9820166276051447
+    },
+    {
+      "text": "y premios.",
+      "startMs": 27900,
+      "endMs": 28480,
+      "timestampMs": null,
+      "confidence": 0.9971025735139847
+    }
+  ],
+  "status": "ACOUSTIC_MATCH",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [],
+    "sourceAudioHash": "5a43a9f7f22fb5fca5368d6459b6c88dc0528abd72779a68be19443b1892f377"
+  }
+}

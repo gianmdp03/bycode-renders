@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "Pointly te ayuda a convertir las compras de tus clientes en puntos y premios. Vamos a recorrer un ejemplo completo en Café del Puerto: crear el comercio, incorporar a Ana, registrar su compra y entregar un premio. Después veremos cómo consulta sus puntos.",
+  "spokenText": "Pointli te ayuda a convertir las compras de tus clientes en puntos y premios. Vamos a recorrer un ejemplo completo en Café del Puerto: crear el comercio, incorporar a Ana, registrar su compra y entregar un premio. Después veremos cómo consulta sus puntos.",
+  "text_sha256": "496c59de126fe99269af98437e23eea830b1a3c82b9bb1d7c4627269c5b4a11e",
+  "sha256": "5e2b9b5e710059243ff90a801232d3433aeb3fb74fa705ba1d1eb4ee1721d96a",
+  "duration": 15.12,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 71.69,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

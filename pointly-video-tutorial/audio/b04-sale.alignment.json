@@ -1,0 +1,685 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "7acb6ed17bc9c86a7eb4c0be43f60c715f8322de1b78bfeee6a9b558875bd39b",
+  "transcript": "Ana realiza una compra de 8 .500 pesos. Elegimos registrar venta, indicamos su país y DNI y cargamos el importe. Antes de confirmar, revisamos que sea la persona correcta y miramos la estimación. Los ocho tramos completos de 1000 suman 80 puntos. Confirmamos una sola vez. Después volvemos al detalle de Ana para comprobar el resultado. Su saldo paso de 0 a 80 y el historial muestra la acumulación. Este es el procedimiento que repetís cada vez que un cliente realiza una compra.",
+  "scriptSimilarity": 0.9222,
+  "differences": [
+    {
+      "op": "replace",
+      "expected": "ocho mil quinientos",
+      "heard": "8 .500"
+    },
+    {
+      "op": "replace",
+      "expected": "mil",
+      "heard": "1000"
+    },
+    {
+      "op": "replace",
+      "expected": "ochenta",
+      "heard": "80"
+    },
+    {
+      "op": "replace",
+      "expected": "cero",
+      "heard": "0"
+    },
+    {
+      "op": "replace",
+      "expected": "ochenta",
+      "heard": "80"
+    }
+  ],
+  "words": [
+    {
+      "word": "Ana",
+      "start": 0,
+      "end": 0.44,
+      "probability": 0.7729427218437195,
+      "display": "Ana"
+    },
+    {
+      "word": "realiza",
+      "start": 0.44,
+      "end": 0.94,
+      "probability": 0.9282920658588409,
+      "display": "realiza"
+    },
+    {
+      "word": "una",
+      "start": 0.94,
+      "end": 1.14,
+      "probability": 0.9957436919212341,
+      "display": "una"
+    },
+    {
+      "word": "compra",
+      "start": 1.14,
+      "end": 1.46,
+      "probability": 0.9959367513656616,
+      "display": "compra"
+    },
+    {
+      "word": "de",
+      "start": 1.46,
+      "end": 1.76,
+      "probability": 0.9976580142974854,
+      "display": "de"
+    },
+    {
+      "word": "8",
+      "start": 1.76,
+      "end": 2.04,
+      "probability": 0.8168227076530457,
+      "display": "8"
+    },
+    {
+      "word": ".500",
+      "start": 2.04,
+      "end": 2.56,
+      "probability": 0.6828421503305435,
+      "display": ".500"
+    },
+    {
+      "word": "pesos.",
+      "start": 2.56,
+      "end": 3.04,
+      "probability": 0.975078284740448,
+      "display": "pesos."
+    },
+    {
+      "word": "Elegimos",
+      "start": 3.52,
+      "end": 4.02,
+      "probability": 0.9108889897664388,
+      "display": "Elegimos"
+    },
+    {
+      "word": "registrar",
+      "start": 4.02,
+      "end": 4.56,
+      "probability": 0.8763667941093445,
+      "display": "Registrar"
+    },
+    {
+      "word": "venta,",
+      "start": 4.56,
+      "end": 4.96,
+      "probability": 0.9377121031284332,
+      "display": "venta,"
+    },
+    {
+      "word": "indicamos",
+      "start": 5.18,
+      "end": 5.62,
+      "probability": 0.9906942546367645,
+      "display": "indicamos"
+    },
+    {
+      "word": "su",
+      "start": 5.62,
+      "end": 5.86,
+      "probability": 0.9745678305625916,
+      "display": "su"
+    },
+    {
+      "word": "país",
+      "start": 5.86,
+      "end": 6.1,
+      "probability": 0.9857591390609741,
+      "display": "país"
+    },
+    {
+      "word": "y",
+      "start": 6.1,
+      "end": 6.44,
+      "probability": 0.43325352668762207,
+      "display": "y"
+    },
+    {
+      "word": "DNI",
+      "start": 6.44,
+      "end": 7.12,
+      "probability": 0.9753690659999847,
+      "display": "DNI"
+    },
+    {
+      "word": "y",
+      "start": 7.12,
+      "end": 7.42,
+      "probability": 0.7858375906944275,
+      "display": "y"
+    },
+    {
+      "word": "cargamos",
+      "start": 7.42,
+      "end": 7.82,
+      "probability": 0.9968070785204569,
+      "display": "cargamos"
+    },
+    {
+      "word": "el",
+      "start": 7.82,
+      "end": 8.04,
+      "probability": 0.9987962245941162,
+      "display": "el"
+    },
+    {
+      "word": "importe.",
+      "start": 8.04,
+      "end": 8.5,
+      "probability": 0.9936700463294983,
+      "display": "importe."
+    },
+    {
+      "word": "Antes",
+      "start": 8.98,
+      "end": 9.26,
+      "probability": 0.9910043478012085,
+      "display": "Antes"
+    },
+    {
+      "word": "de",
+      "start": 9.26,
+      "end": 9.42,
+      "probability": 0.9992590546607971,
+      "display": "de"
+    },
+    {
+      "word": "confirmar,",
+      "start": 9.42,
+      "end": 10,
+      "probability": 0.9909971952438354,
+      "display": "confirmar,"
+    },
+    {
+      "word": "revisamos",
+      "start": 10.3,
+      "end": 10.74,
+      "probability": 0.9938530623912811,
+      "display": "revisamos"
+    },
+    {
+      "word": "que",
+      "start": 10.74,
+      "end": 10.96,
+      "probability": 0.984061062335968,
+      "display": "que"
+    },
+    {
+      "word": "sea",
+      "start": 10.96,
+      "end": 11.16,
+      "probability": 0.9977139234542847,
+      "display": "sea"
+    },
+    {
+      "word": "la",
+      "start": 11.16,
+      "end": 11.36,
+      "probability": 0.9952824711799622,
+      "display": "la"
+    },
+    {
+      "word": "persona",
+      "start": 11.36,
+      "end": 11.7,
+      "probability": 0.9979979395866394,
+      "display": "persona"
+    },
+    {
+      "word": "correcta",
+      "start": 11.7,
+      "end": 12.32,
+      "probability": 0.9991716146469116,
+      "display": "correcta"
+    },
+    {
+      "word": "y",
+      "start": 12.32,
+      "end": 12.48,
+      "probability": 0.9785363078117371,
+      "display": "y"
+    },
+    {
+      "word": "miramos",
+      "start": 12.48,
+      "end": 12.84,
+      "probability": 0.9937708675861359,
+      "display": "miramos"
+    },
+    {
+      "word": "la",
+      "start": 12.84,
+      "end": 13.06,
+      "probability": 0.9989774227142334,
+      "display": "la"
+    },
+    {
+      "word": "estimación.",
+      "start": 13.06,
+      "end": 13.58,
+      "probability": 0.9959675967693329,
+      "display": "estimación:"
+    },
+    {
+      "word": "Los",
+      "start": 14.22,
+      "end": 14.38,
+      "probability": 0.992757260799408,
+      "display": "los"
+    },
+    {
+      "word": "ocho",
+      "start": 14.38,
+      "end": 14.62,
+      "probability": 0.7864193022251129,
+      "display": "ocho"
+    },
+    {
+      "word": "tramos",
+      "start": 14.62,
+      "end": 14.9,
+      "probability": 0.9874670207500458,
+      "display": "tramos"
+    },
+    {
+      "word": "completos",
+      "start": 14.9,
+      "end": 15.58,
+      "probability": 0.9969800710678101,
+      "display": "completos"
+    },
+    {
+      "word": "de",
+      "start": 15.58,
+      "end": 15.72,
+      "probability": 0.9884033799171448,
+      "display": "de"
+    },
+    {
+      "word": "1000",
+      "start": 15.72,
+      "end": 15.96,
+      "probability": 0.5835459232330322,
+      "display": "1000"
+    },
+    {
+      "word": "suman",
+      "start": 15.96,
+      "end": 16.38,
+      "probability": 0.782501220703125,
+      "display": "suman"
+    },
+    {
+      "word": "80",
+      "start": 16.38,
+      "end": 16.72,
+      "probability": 0.9573043584823608,
+      "display": "80"
+    },
+    {
+      "word": "puntos.",
+      "start": 16.72,
+      "end": 17.16,
+      "probability": 0.998104453086853,
+      "display": "puntos."
+    },
+    {
+      "word": "Confirmamos",
+      "start": 17.8,
+      "end": 18.44,
+      "probability": 0.9607277909914652,
+      "display": "Confirmamos"
+    },
+    {
+      "word": "una",
+      "start": 18.44,
+      "end": 18.82,
+      "probability": 0.9734487533569336,
+      "display": "una"
+    },
+    {
+      "word": "sola",
+      "start": 18.82,
+      "end": 19.02,
+      "probability": 0.9785373210906982,
+      "display": "sola"
+    },
+    {
+      "word": "vez.",
+      "start": 19.02,
+      "end": 19.26,
+      "probability": 0.9992967844009399,
+      "display": "vez."
+    },
+    {
+      "word": "Después",
+      "start": 19.9,
+      "end": 20.2,
+      "probability": 0.9961477518081665,
+      "display": "Después"
+    },
+    {
+      "word": "volvemos",
+      "start": 20.2,
+      "end": 20.86,
+      "probability": 0.9627444942792257,
+      "display": "volvemos"
+    },
+    {
+      "word": "al",
+      "start": 20.86,
+      "end": 21.02,
+      "probability": 0.9963722229003906,
+      "display": "al"
+    },
+    {
+      "word": "detalle",
+      "start": 21.02,
+      "end": 21.34,
+      "probability": 0.9852498471736908,
+      "display": "detalle"
+    },
+    {
+      "word": "de",
+      "start": 21.34,
+      "end": 21.52,
+      "probability": 0.9985432624816895,
+      "display": "de"
+    },
+    {
+      "word": "Ana",
+      "start": 21.52,
+      "end": 21.72,
+      "probability": 0.9874585866928101,
+      "display": "Ana"
+    },
+    {
+      "word": "para",
+      "start": 21.72,
+      "end": 21.98,
+      "probability": 0.9811460971832275,
+      "display": "para"
+    },
+    {
+      "word": "comprobar",
+      "start": 21.98,
+      "end": 22.5,
+      "probability": 0.9977175196011862,
+      "display": "comprobar"
+    },
+    {
+      "word": "el",
+      "start": 22.5,
+      "end": 22.62,
+      "probability": 0.9989959597587585,
+      "display": "el"
+    },
+    {
+      "word": "resultado.",
+      "start": 22.62,
+      "end": 23.04,
+      "probability": 0.9993873834609985,
+      "display": "resultado."
+    },
+    {
+      "word": "Su",
+      "start": 23.66,
+      "end": 23.88,
+      "probability": 0.9787628054618835,
+      "display": "Su"
+    },
+    {
+      "word": "saldo",
+      "start": 23.88,
+      "end": 24.18,
+      "probability": 0.9985884726047516,
+      "display": "saldo"
+    },
+    {
+      "word": "paso",
+      "start": 24.18,
+      "end": 24.36,
+      "probability": 0.7171541452407837,
+      "display": "pasó"
+    },
+    {
+      "word": "de",
+      "start": 24.36,
+      "end": 24.56,
+      "probability": 0.9971989393234253,
+      "display": "de"
+    },
+    {
+      "word": "0",
+      "start": 24.56,
+      "end": 24.84,
+      "probability": 0.687936007976532,
+      "display": "0"
+    },
+    {
+      "word": "a",
+      "start": 24.84,
+      "end": 25,
+      "probability": 0.8771207332611084,
+      "display": "a"
+    },
+    {
+      "word": "80",
+      "start": 25,
+      "end": 25.32,
+      "probability": 0.9942366480827332,
+      "display": "80"
+    },
+    {
+      "word": "y",
+      "start": 25.32,
+      "end": 25.52,
+      "probability": 0.9632351994514465,
+      "display": "y"
+    },
+    {
+      "word": "el",
+      "start": 25.52,
+      "end": 25.58,
+      "probability": 0.9974626302719116,
+      "display": "el"
+    },
+    {
+      "word": "historial",
+      "start": 25.58,
+      "end": 26,
+      "probability": 0.9816972017288208,
+      "display": "historial"
+    },
+    {
+      "word": "muestra",
+      "start": 26,
+      "end": 26.62,
+      "probability": 0.9608289897441864,
+      "display": "muestra"
+    },
+    {
+      "word": "la",
+      "start": 26.62,
+      "end": 26.8,
+      "probability": 0.9977697134017944,
+      "display": "la"
+    },
+    {
+      "word": "acumulación.",
+      "start": 26.8,
+      "end": 27.28,
+      "probability": 0.9901861548423767,
+      "display": "acumulación."
+    },
+    {
+      "word": "Este",
+      "start": 27.28,
+      "end": 28,
+      "probability": 0.8814269304275513,
+      "display": "Este"
+    },
+    {
+      "word": "es",
+      "start": 28,
+      "end": 28.22,
+      "probability": 0.9960983991622925,
+      "display": "es"
+    },
+    {
+      "word": "el",
+      "start": 28.22,
+      "end": 28.34,
+      "probability": 0.9991631507873535,
+      "display": "el"
+    },
+    {
+      "word": "procedimiento",
+      "start": 28.34,
+      "end": 29,
+      "probability": 0.9987858235836029,
+      "display": "procedimiento"
+    },
+    {
+      "word": "que",
+      "start": 29,
+      "end": 29.14,
+      "probability": 0.9973949193954468,
+      "display": "que"
+    },
+    {
+      "word": "repetís",
+      "start": 29.14,
+      "end": 29.64,
+      "probability": 0.9660146534442902,
+      "display": "repetís"
+    },
+    {
+      "word": "cada",
+      "start": 29.64,
+      "end": 29.86,
+      "probability": 0.9925307631492615,
+      "display": "cada"
+    },
+    {
+      "word": "vez",
+      "start": 29.86,
+      "end": 30.14,
+      "probability": 0.9995868802070618,
+      "display": "vez"
+    },
+    {
+      "word": "que",
+      "start": 30.14,
+      "end": 30.3,
+      "probability": 0.9976119995117188,
+      "display": "que"
+    },
+    {
+      "word": "un",
+      "start": 30.3,
+      "end": 30.42,
+      "probability": 0.9997128844261169,
+      "display": "un"
+    },
+    {
+      "word": "cliente",
+      "start": 30.42,
+      "end": 30.9,
+      "probability": 0.9957382380962372,
+      "display": "cliente"
+    },
+    {
+      "word": "realiza",
+      "start": 30.9,
+      "end": 31.32,
+      "probability": 0.9896483719348907,
+      "display": "realiza"
+    },
+    {
+      "word": "una",
+      "start": 31.32,
+      "end": 31.44,
+      "probability": 0.9981151819229126,
+      "display": "una"
+    },
+    {
+      "word": "compra.",
+      "start": 31.44,
+      "end": 31.72,
+      "probability": 0.996634304523468,
+      "display": "compra."
+    }
+  ],
+  "captions": [
+    {
+      "text": "Ana realiza una compra de 8.500 pesos.",
+      "startMs": 0,
+      "endMs": 3040,
+      "timestampMs": null,
+      "confidence": 0.9260677482400622
+    },
+    {
+      "text": "Elegimos Registrar venta, indicamos su país y DNI y cargamos el importe.",
+      "startMs": 3520,
+      "endMs": 8500,
+      "timestampMs": null,
+      "confidence": 0.9049768870075544
+    },
+    {
+      "text": "Antes de confirmar, revisamos que sea la persona correcta y miramos la estimación:",
+      "startMs": 8980,
+      "endMs": 13580,
+      "timestampMs": null,
+      "confidence": 0.9935840666294098
+    },
+    {
+      "text": "los ocho tramos completos de 1000 suman 80 puntos.",
+      "startMs": 14220,
+      "endMs": 17160,
+      "timestampMs": null,
+      "confidence": 0.8970536655849881
+    },
+    {
+      "text": "Confirmamos una sola vez.",
+      "startMs": 17800,
+      "endMs": 19260,
+      "timestampMs": null,
+      "confidence": 0.9780026624600092
+    },
+    {
+      "text": "Después volvemos al detalle de Ana para comprobar el resultado.",
+      "startMs": 19900,
+      "endMs": 23040,
+      "timestampMs": null,
+      "confidence": 0.9903763125340145
+    },
+    {
+      "text": "Su saldo pasó de 0 a 80 y el historial muestra la acumulación.",
+      "startMs": 23660,
+      "endMs": 27280,
+      "timestampMs": null,
+      "confidence": 0.9340136647224426
+    },
+    {
+      "text": "Este es el procedimiento que repetís cada vez que un cliente realiza una compra.",
+      "startMs": 27280,
+      "endMs": 31720,
+      "timestampMs": null,
+      "confidence": 0.9863187500408718
+    }
+  ],
+  "status": "REVIEW_REQUIRED",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [
+      [
+        "8 .500",
+        "8.500"
+      ]
+    ],
+    "sourceAudioHash": "7acb6ed17bc9c86a7eb4c0be43f60c715f8322de1b78bfeee6a9b558875bd39b"
+  }
+}

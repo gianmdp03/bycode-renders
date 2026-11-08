@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "Para comenzar, ingresá a Pointly con tu cuenta de Bycode. Si es tu primer ingreso, completá tu perfil y elegí Nueva Empresa. Cargamos el nombre del comercio y revisamos su enlace. Después definimos la regla de acumulación: en este ejemplo, cada mil pesos completos de una compra suman diez puntos. Elegimos el país del comercio; los demás datos de ubicación se pueden completar cuando correspondan. En este mismo formulario decidimos si los puntos van a vencer. Activamos la opción e indicamos noventa días desde cada compra. Revisamos el nombre, la regla y el plazo, y creamos el comercio. Ahora tenemos todo preparado para empezar a trabajar con clientes.",
+  "spokenText": "Para comenzar, ingresá a Pointli con tu cuenta de baicode. Si es tu primer ingreso, completá tu perfil y elegí Nueva Empresa. Cargamos el nombre del comercio y revisamos su enlace. Después definimos la regla de acumulación: en este ejemplo, cada mil pesos completos de una compra suman diez puntos. Elegimos el país del comercio; los demás datos de ubicación se pueden completar cuando correspondan. En este mismo formulario decidimos si los puntos van a vencer. Activamos la opción e indicamos noventa días desde cada compra. Revisamos el nombre, la regla y el plazo, y creamos el comercio. Ahora tenemos todo preparado para empezar a trabajar con clientes.",
+  "text_sha256": "cbe51b8cbd74ca6462543c68bc0d4fa0bacd0da6aaa6a4069bcb47c967dfe817",
+  "sha256": "25327afa1441c46f9921b965f9b1883b080f8d38a35caf1711e45952f7abbc67",
+  "duration": 40.72,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 206.89,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

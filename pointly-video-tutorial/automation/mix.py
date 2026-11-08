@@ -1,7 +1,10 @@
 """One sample-exact stereo narration mix; final AAC is encoded only once."""
 from pathlib import Path
-import json,numpy as np,soundfile as sf
-ROOT=Path(__file__).resolve().parents[1];data=json.loads((ROOT/'remotion/src/timeline.json').read_text(encoding='utf8'));out=ROOT/'.local/render/final-narration.wav';out.parent.mkdir(parents=True,exist_ok=True)
+import json,sys,numpy as np,soundfile as sf
+ROOT=Path(__file__).resolve().parents[1]
+brief='--brief' in sys.argv
+data=json.loads((ROOT/('remotion/src/brief-timeline.json' if brief else 'remotion/src/timeline.json')).read_text(encoding='utf8'))
+out=ROOT/('.local/brief-render/final-narration.wav' if brief else '.local/render/final-narration.wav');out.parent.mkdir(parents=True,exist_ok=True)
 with sf.SoundFile(out,'w',samplerate=48000,channels=2,subtype='PCM_16') as mix:
  for c in data['chapters']:
   samples,rate=sf.read(ROOT/'remotion/public'/c['audio'],dtype='float32',always_2d=True)

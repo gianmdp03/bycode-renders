@@ -1,0 +1,290 @@
+{
+  "method": "faster-whisper-small acoustic word timestamps, local CPU int8; independent transcription vs source",
+  "audio_sha256": "e912b4fe2dd41ff0e9afa3270acf3e11e39b4d3a8af49d8782db4991510cfbeb",
+  "transcript": "En cada compra, busca al cliente y revisa los puntos que sumó. Si elige un premio, confirma el canje. El cliente puede consultar su saldo desde el inicio de Pointly, una aplicación de Bycode Software.",
+  "scriptSimilarity": 1,
+  "differences": [],
+  "words": [
+    {
+      "word": "En",
+      "start": 0,
+      "end": 0.4,
+      "probability": 0.9616922736167908,
+      "display": "En"
+    },
+    {
+      "word": "cada",
+      "start": 0.4,
+      "end": 0.62,
+      "probability": 0.8876484632492065,
+      "display": "cada"
+    },
+    {
+      "word": "compra,",
+      "start": 0.62,
+      "end": 0.98,
+      "probability": 0.987970769405365,
+      "display": "compra,"
+    },
+    {
+      "word": "busca",
+      "start": 1.28,
+      "end": 1.5,
+      "probability": 0.8711662292480469,
+      "display": "buscá"
+    },
+    {
+      "word": "al",
+      "start": 1.5,
+      "end": 1.72,
+      "probability": 0.9617243409156799,
+      "display": "al"
+    },
+    {
+      "word": "cliente",
+      "start": 1.72,
+      "end": 2.24,
+      "probability": 0.9968959987163544,
+      "display": "cliente"
+    },
+    {
+      "word": "y",
+      "start": 2.24,
+      "end": 2.4,
+      "probability": 0.9825307726860046,
+      "display": "y"
+    },
+    {
+      "word": "revisa",
+      "start": 2.4,
+      "end": 2.8,
+      "probability": 0.8366017043590546,
+      "display": "revisá"
+    },
+    {
+      "word": "los",
+      "start": 2.8,
+      "end": 2.94,
+      "probability": 0.9947214126586914,
+      "display": "los"
+    },
+    {
+      "word": "puntos",
+      "start": 2.94,
+      "end": 3.24,
+      "probability": 0.9979127049446106,
+      "display": "puntos"
+    },
+    {
+      "word": "que",
+      "start": 3.24,
+      "end": 3.46,
+      "probability": 0.9978495836257935,
+      "display": "que"
+    },
+    {
+      "word": "sumó.",
+      "start": 3.46,
+      "end": 3.78,
+      "probability": 0.9284870028495789,
+      "display": "sumó."
+    },
+    {
+      "word": "Si",
+      "start": 4,
+      "end": 4.14,
+      "probability": 0.9936724901199341,
+      "display": "Si"
+    },
+    {
+      "word": "elige",
+      "start": 4.14,
+      "end": 4.46,
+      "probability": 0.9825784265995026,
+      "display": "elige"
+    },
+    {
+      "word": "un",
+      "start": 4.46,
+      "end": 4.58,
+      "probability": 0.9989425539970398,
+      "display": "un"
+    },
+    {
+      "word": "premio,",
+      "start": 4.58,
+      "end": 5,
+      "probability": 0.9945407807826996,
+      "display": "premio,"
+    },
+    {
+      "word": "confirma",
+      "start": 5.12,
+      "end": 5.54,
+      "probability": 0.9555677473545074,
+      "display": "confirmá"
+    },
+    {
+      "word": "el",
+      "start": 5.54,
+      "end": 5.66,
+      "probability": 0.9964334964752197,
+      "display": "el"
+    },
+    {
+      "word": "canje.",
+      "start": 5.66,
+      "end": 6.02,
+      "probability": 0.9316428899765015,
+      "display": "canje."
+    },
+    {
+      "word": "El",
+      "start": 6.46,
+      "end": 6.6,
+      "probability": 0.9954277276992798,
+      "display": "El"
+    },
+    {
+      "word": "cliente",
+      "start": 6.6,
+      "end": 7.02,
+      "probability": 0.9969654977321625,
+      "display": "cliente"
+    },
+    {
+      "word": "puede",
+      "start": 7.02,
+      "end": 7.16,
+      "probability": 0.9979056119918823,
+      "display": "puede"
+    },
+    {
+      "word": "consultar",
+      "start": 7.16,
+      "end": 7.76,
+      "probability": 0.993332028388977,
+      "display": "consultar"
+    },
+    {
+      "word": "su",
+      "start": 7.76,
+      "end": 7.88,
+      "probability": 0.9924484491348267,
+      "display": "su"
+    },
+    {
+      "word": "saldo",
+      "start": 7.88,
+      "end": 8.32,
+      "probability": 0.9988524615764618,
+      "display": "saldo"
+    },
+    {
+      "word": "desde",
+      "start": 8.32,
+      "end": 8.56,
+      "probability": 0.9924188852310181,
+      "display": "desde"
+    },
+    {
+      "word": "el",
+      "start": 8.56,
+      "end": 8.78,
+      "probability": 0.9973275661468506,
+      "display": "el"
+    },
+    {
+      "word": "inicio",
+      "start": 8.78,
+      "end": 9.08,
+      "probability": 0.9948750436306,
+      "display": "inicio"
+    },
+    {
+      "word": "de",
+      "start": 9.08,
+      "end": 9.18,
+      "probability": 0.9930903315544128,
+      "display": "de"
+    },
+    {
+      "word": "Pointly,",
+      "start": 9.18,
+      "end": 9.62,
+      "probability": 0.8340477049350739,
+      "display": "Pointly."
+    },
+    {
+      "word": "una",
+      "start": 9.94,
+      "end": 10.1,
+      "probability": 0.9961472749710083,
+      "display": "Una"
+    },
+    {
+      "word": "aplicación",
+      "start": 10.1,
+      "end": 10.66,
+      "probability": 0.9966785907745361,
+      "display": "aplicación"
+    },
+    {
+      "word": "de",
+      "start": 10.66,
+      "end": 10.8,
+      "probability": 0.9975123405456543,
+      "display": "de"
+    },
+    {
+      "word": "Bycode",
+      "start": 10.8,
+      "end": 11.14,
+      "probability": 0.07679002732038498,
+      "display": "Bycode"
+    },
+    {
+      "word": "Software.",
+      "start": 11.14,
+      "end": 11.54,
+      "probability": 0.8970741033554077,
+      "display": "Software."
+    }
+  ],
+  "captions": [
+    {
+      "text": "En cada compra, buscá al cliente y revisá los puntos que sumó.",
+      "startMs": 0,
+      "endMs": 3780,
+      "timestampMs": null,
+      "confidence": 0.9504334380229315
+    },
+    {
+      "text": "Si elige un premio, confirmá el canje.",
+      "startMs": 4000,
+      "endMs": 6020,
+      "timestampMs": null,
+      "confidence": 0.9790540550436292
+    },
+    {
+      "text": "El cliente puede consultar su saldo desde el inicio de Pointly.",
+      "startMs": 6460,
+      "endMs": 9620,
+      "timestampMs": null,
+      "confidence": 0.9806083007292314
+    },
+    {
+      "text": "Una aplicación de Bycode Software.",
+      "startMs": 9940,
+      "endMs": 11540,
+      "timestampMs": null,
+      "confidence": 0.7928404673933983
+    }
+  ],
+  "status": "ACOUSTIC_MATCH",
+  "captionReview": {
+    "method": "Acoustic word spans retained, Spanish punctuation-based phrase segmentation",
+    "corrections": [],
+    "sourceAudioHash": "e912b4fe2dd41ff0e9afa3270acf3e11e39b4d3a8af49d8782db4991510cfbeb"
+  }
+}

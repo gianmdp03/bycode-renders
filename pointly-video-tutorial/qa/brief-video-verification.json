@@ -1,0 +1,375 @@
+{
+  "state": "PASS_TECHNICAL_AND_SAMPLED_VISUAL_REVIEW",
+  "file": "output/Pointly-recorrido-breve-1080p60.mp4",
+  "sha256": "6e1e397d9eaf4d4f7cbc7dd9fbd475310413329399d7a362fb3e2d787b6172da",
+  "width": 1920,
+  "height": 1080,
+  "fps": "60/1 CFR",
+  "frames": "17074",
+  "durationSeconds": "284.587696",
+  "bytes": 73331514,
+  "codec": "H.264 High / yuv420p",
+  "audio": "AAC, stereo, 48000 Hz",
+  "loudness": {
+    "input_i": "-16.36",
+    "input_tp": "-4.46",
+    "input_lra": "2.20",
+    "input_thresh": "-26.79",
+    "output_i": "-16.04",
+    "output_tp": "-4.08",
+    "output_lra": "2.30",
+    "output_thresh": "-26.46",
+    "normalization_type": "dynamic",
+    "target_offset": "0.04"
+  },
+  "chapterCount": 9,
+  "completeDecode": "PASS",
+  "blackIntervals": [],
+  "renderedFrameSamples": [
+    {
+      "chapter": "b01-intro",
+      "localSeconds": 3.187,
+      "absoluteSeconds": 3.187,
+      "visibleContentFraction": 0.01833,
+      "file": "qa/brief-final-frames/b01-intro-00319.png"
+    },
+    {
+      "chapter": "b01-intro",
+      "localSeconds": 7.967,
+      "absoluteSeconds": 7.967,
+      "visibleContentFraction": 0.0567,
+      "file": "qa/brief-final-frames/b01-intro-00797.png"
+    },
+    {
+      "chapter": "b01-intro",
+      "localSeconds": 12.747,
+      "absoluteSeconds": 12.747,
+      "visibleContentFraction": 0.0567,
+      "file": "qa/brief-final-frames/b01-intro-01275.png"
+    },
+    {
+      "chapter": "b02-company",
+      "localSeconds": 8.307,
+      "absoluteSeconds": 24.24,
+      "visibleContentFraction": 0.02189,
+      "file": "qa/brief-final-frames/b02-company-00831.png"
+    },
+    {
+      "chapter": "b02-company",
+      "localSeconds": 20.767,
+      "absoluteSeconds": 36.7,
+      "visibleContentFraction": 0.0279,
+      "file": "qa/brief-final-frames/b02-company-02077.png"
+    },
+    {
+      "chapter": "b02-company",
+      "localSeconds": 33.227,
+      "absoluteSeconds": 49.16,
+      "visibleContentFraction": 0.02724,
+      "file": "qa/brief-final-frames/b02-company-03323.png"
+    },
+    {
+      "chapter": "b03-client",
+      "localSeconds": 7.107,
+      "absoluteSeconds": 64.573,
+      "visibleContentFraction": 0.02118,
+      "file": "qa/brief-final-frames/b03-client-00711.png"
+    },
+    {
+      "chapter": "b03-client",
+      "localSeconds": 17.767,
+      "absoluteSeconds": 75.233,
+      "visibleContentFraction": 0.02267,
+      "file": "qa/brief-final-frames/b03-client-01777.png"
+    },
+    {
+      "chapter": "b03-client",
+      "localSeconds": 28.427,
+      "absoluteSeconds": 85.893,
+      "visibleContentFraction": 0.0512,
+      "file": "qa/brief-final-frames/b03-client-02843.png"
+    },
+    {
+      "chapter": "b04-sale",
+      "localSeconds": 6.53,
+      "absoluteSeconds": 99.53,
+      "visibleContentFraction": 0.02319,
+      "file": "qa/brief-final-frames/b04-sale-00653.png"
+    },
+    {
+      "chapter": "b04-sale",
+      "localSeconds": 16.325,
+      "absoluteSeconds": 109.325,
+      "visibleContentFraction": 0.02417,
+      "file": "qa/brief-final-frames/b04-sale-01632.png"
+    },
+    {
+      "chapter": "b04-sale",
+      "localSeconds": 26.12,
+      "absoluteSeconds": 119.12,
+      "visibleContentFraction": 0.0175,
+      "file": "qa/brief-final-frames/b04-sale-02612.png"
+    },
+    {
+      "chapter": "b05-reward",
+      "localSeconds": 8.593,
+      "absoluteSeconds": 134.243,
+      "visibleContentFraction": 0.01517,
+      "file": "qa/brief-final-frames/b05-reward-00859.png"
+    },
+    {
+      "chapter": "b05-reward",
+      "localSeconds": 21.483,
+      "absoluteSeconds": 147.133,
+      "visibleContentFraction": 0.04049,
+      "file": "qa/brief-final-frames/b05-reward-02148.png"
+    },
+    {
+      "chapter": "b05-reward",
+      "localSeconds": 34.373,
+      "absoluteSeconds": 160.023,
+      "visibleContentFraction": 0.03976,
+      "file": "qa/brief-final-frames/b05-reward-03437.png"
+    },
+    {
+      "chapter": "b06-catalog",
+      "localSeconds": 7.697,
+      "absoluteSeconds": 176.313,
+      "visibleContentFraction": 0.02347,
+      "file": "qa/brief-final-frames/b06-catalog-00770.png"
+    },
+    {
+      "chapter": "b06-catalog",
+      "localSeconds": 19.242,
+      "absoluteSeconds": 187.858,
+      "visibleContentFraction": 0.02613,
+      "file": "qa/brief-final-frames/b06-catalog-01924.png"
+    },
+    {
+      "chapter": "b06-catalog",
+      "localSeconds": 30.787,
+      "absoluteSeconds": 199.403,
+      "visibleContentFraction": 0.02547,
+      "file": "qa/brief-final-frames/b06-catalog-03079.png"
+    },
+    {
+      "chapter": "b07-contact",
+      "localSeconds": 5.953,
+      "absoluteSeconds": 213.053,
+      "visibleContentFraction": 0.02635,
+      "file": "qa/brief-final-frames/b07-contact-00595.png"
+    },
+    {
+      "chapter": "b07-contact",
+      "localSeconds": 14.883,
+      "absoluteSeconds": 221.983,
+      "visibleContentFraction": 0.02644,
+      "file": "qa/brief-final-frames/b07-contact-01488.png"
+    },
+    {
+      "chapter": "b07-contact",
+      "localSeconds": 23.813,
+      "absoluteSeconds": 230.913,
+      "visibleContentFraction": 0.04045,
+      "file": "qa/brief-final-frames/b07-contact-02381.png"
+    },
+    {
+      "chapter": "b08-points",
+      "localSeconds": 6.88,
+      "absoluteSeconds": 243.747,
+      "visibleContentFraction": 0.00922,
+      "file": "qa/brief-final-frames/b08-points-00688.png"
+    },
+    {
+      "chapter": "b08-points",
+      "localSeconds": 17.2,
+      "absoluteSeconds": 254.067,
+      "visibleContentFraction": 0.14951,
+      "file": "qa/brief-final-frames/b08-points-01720.png"
+    },
+    {
+      "chapter": "b08-points",
+      "localSeconds": 27.52,
+      "absoluteSeconds": 264.387,
+      "visibleContentFraction": 0.14958,
+      "file": "qa/brief-final-frames/b08-points-02752.png"
+    },
+    {
+      "chapter": "b09-close",
+      "localSeconds": 2.66,
+      "absoluteSeconds": 273.927,
+      "visibleContentFraction": 0.14958,
+      "file": "qa/brief-final-frames/b09-close-00266.png"
+    },
+    {
+      "chapter": "b09-close",
+      "localSeconds": 6.65,
+      "absoluteSeconds": 277.917,
+      "visibleContentFraction": 0.13292,
+      "file": "qa/brief-final-frames/b09-close-00665.png"
+    },
+    {
+      "chapter": "b09-close",
+      "localSeconds": 10.64,
+      "absoluteSeconds": 281.907,
+      "visibleContentFraction": 0.01778,
+      "file": "qa/brief-final-frames/b09-close-01064.png"
+    }
+  ],
+  "sourceCadence": [
+    {
+      "chapter": "b01-intro",
+      "averageFps": 50.244,
+      "maximumGapMs": 702.8
+    },
+    {
+      "chapter": "b02-company",
+      "averageFps": 54.75,
+      "maximumGapMs": 663
+    },
+    {
+      "chapter": "b03-client",
+      "averageFps": 57.137,
+      "maximumGapMs": 58.7
+    },
+    {
+      "chapter": "b04-sale",
+      "averageFps": 57.543,
+      "maximumGapMs": 39.8
+    },
+    {
+      "chapter": "b05-reward",
+      "averageFps": 56.84,
+      "maximumGapMs": 266.4
+    },
+    {
+      "chapter": "b06-catalog",
+      "averageFps": 56.194,
+      "maximumGapMs": 44.4
+    },
+    {
+      "chapter": "b07-contact",
+      "averageFps": 56.293,
+      "maximumGapMs": 267
+    },
+    {
+      "chapter": "b08-points",
+      "averageFps": 54.311,
+      "maximumGapMs": 684.4
+    },
+    {
+      "chapter": "b09-close",
+      "averageFps": 50.561,
+      "maximumGapMs": 648
+    }
+  ],
+  "sourceCadenceNote": "Original browser-tab frames have measured variable cadence, retained in the manifest. CFR conforming and deliberate reading holds do not imply 60 unique source pictures in every second.",
+  "narrationEndGaps": [
+    {
+      "id": "b01-intro",
+      "seconds": 0.813
+    },
+    {
+      "id": "b02-company",
+      "seconds": 0.813
+    },
+    {
+      "id": "b03-client",
+      "seconds": 0.813
+    },
+    {
+      "id": "b04-sale",
+      "seconds": 0.81
+    },
+    {
+      "id": "b05-reward",
+      "seconds": 0.807
+    },
+    {
+      "id": "b06-catalog",
+      "seconds": 0.803
+    },
+    {
+      "id": "b07-contact",
+      "seconds": 0.807
+    },
+    {
+      "id": "b08-points",
+      "seconds": 0.8
+    },
+    {
+      "id": "b09-close",
+      "seconds": 1.3
+    }
+  ],
+  "visualReview": {
+    "method": "Two final contact sheets with 27 samples plus nine targeted final frames. Verified visible captions, input/result framing, chapter labels and brand transitions.",
+    "criticalFrames": [
+      {
+        "chapter": "b01-intro",
+        "phase": "brand",
+        "seconds": 2.0,
+        "file": "qa/brief-critical-b01-intro-brand.png"
+      },
+      {
+        "chapter": "b02-company",
+        "phase": "expiry",
+        "seconds": 46.667,
+        "file": "qa/brief-critical-b02-company-expiry.png"
+      },
+      {
+        "chapter": "b03-client",
+        "phase": "zero",
+        "seconds": 79.533,
+        "file": "qa/brief-critical-b03-client-zero.png"
+      },
+      {
+        "chapter": "b04-sale",
+        "phase": "estimate",
+        "seconds": 105.183,
+        "file": "qa/brief-critical-b04-sale-estimate.png"
+      },
+      {
+        "chapter": "b04-sale",
+        "phase": "result",
+        "seconds": 119.867,
+        "file": "qa/brief-critical-b04-sale-result.png"
+      },
+      {
+        "chapter": "b05-reward",
+        "phase": "card",
+        "seconds": 146.933,
+        "file": "qa/brief-critical-b05-reward-card.png"
+      },
+      {
+        "chapter": "b05-reward",
+        "phase": "history",
+        "seconds": 165.183,
+        "file": "qa/brief-critical-b05-reward-history.png"
+      },
+      {
+        "chapter": "b08-points",
+        "phase": "balance",
+        "seconds": 253.8,
+        "file": "qa/brief-critical-b08-points-balance.png"
+      },
+      {
+        "chapter": "b09-close",
+        "phase": "brand",
+        "seconds": 281.667,
+        "file": "qa/brief-critical-b09-close-brand.png"
+      }
+    ],
+    "contentChecks": [
+      "Company expiry set to 90 days before the create action",
+      "Same company and Ana throughout the customer purchase/reward sequence",
+      "80 point estimate, actual +80 movement and zero after the same 80-point reward",
+      "Public Consultar puntos y premios shows the same zero and the retained coffee reward",
+      "Customer narration excludes internal feature status and calls the customer section Consultar puntos y premios."
+    ],
+    "demoProof": "qa/brief-demo-verification.json",
+    "audioProof": "qa/brief-audio-verification.json",
+    "declaredScope": "Brief everyday walkthrough. Promotion, catalog and contact tools shown as supporting examples.",
+    "recordedTiming": "Selected movements shortened by up to 1.52x. Holds use real result frames and narration retains its generated cadence."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "scene": "b09-close",
+  "source": "recordings/b09-close-1794153772083.mp4",
+  "phases": [
+    {
+      "id": "recap",
+      "voice": "En el día a día",
+      "start": 1794153768494.0999,
+      "end": 1794153771022.5999
+    }
+  ],
+  "evidence": [
+    {
+      "label": "Same final customer consultation for closing",
+      "at": 1794153768959.2998,
+      "url": "/client/kXXcQXUZ7kHj/cafe-del-puerto-recorrido-20261108-3",
+      "frame": "qa/b09-close-1.png"
+    }
+  ],
+  "network": [],
+  "person": "Ana Torres DEMO",
+  "company": "Café del Puerto DEMO"
+}

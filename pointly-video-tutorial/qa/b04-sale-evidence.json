@@ -1,0 +1,155 @@
+{
+  "scene": "b04-sale",
+  "source": "recordings/b04-sale-1794153392672.mp4",
+  "phases": [
+    {
+      "id": "open",
+      "voice": "Ana realiza una compra",
+      "start": 1794153377098.9,
+      "end": 1794153378587.2
+    },
+    {
+      "id": "fill",
+      "voice": "Elegimos Registrar venta",
+      "start": 1794153378590.0999,
+      "end": 1794153381242.5
+    },
+    {
+      "id": "estimate",
+      "voice": "Antes de confirmar",
+      "start": 1794153381244.8,
+      "end": 1794153382231.7
+    },
+    {
+      "id": "confirm",
+      "voice": "Confirmamos una sola vez",
+      "start": 1794153382233.0999,
+      "end": 1794153383685.8
+    },
+    {
+      "id": "detail",
+      "voice": "Después volvemos",
+      "start": 1794153383687.0999,
+      "end": 1794153388415.3
+    },
+    {
+      "id": "result",
+      "voice": "Su saldo pasó",
+      "start": 1794153388416.2,
+      "end": 1794153391570.4
+    }
+  ],
+  "evidence": [
+    {
+      "label": "Real purchase estimate for Ana",
+      "at": 1794153381697.5,
+      "url": "/companies/cafe-del-puerto-recorrido-20261108-3/actions/sale",
+      "frame": "qa/b04-sale-1.png",
+      "amount": 8500,
+      "expectedPoints": 80,
+      "balanceBefore": 0
+    },
+    {
+      "label": "Ana now has 80 and the actual EARNED movement is visible",
+      "at": 1794153388867.5,
+      "url": "/companies/cafe-del-puerto-recorrido-20261108-3/clients/32",
+      "frame": "qa/b04-sale-2.png",
+      "balance": 80,
+      "saleId": 103
+    }
+  ],
+  "network": [
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/public/clients/Argentina/99951009/companies/8",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/sales",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/8",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/8",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/8",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/8",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/8",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/8/clients",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/8/clients",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/company-names/cafe-del-puerto-recorrido-20261108-3/company",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/8/clients/32",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/history/32/8",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/8/clients/32/contacts",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    }
+  ],
+  "person": "Ana Torres DEMO",
+  "company": "Café del Puerto DEMO"
+}

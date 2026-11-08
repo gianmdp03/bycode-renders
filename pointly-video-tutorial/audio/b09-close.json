@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "En cada compra, buscá al cliente y revisá los puntos que sumó. Si elige un premio, confirmá el canje. El cliente puede consultar su saldo desde el inicio de Pointly. Una aplicación de Bycode Software.",
+  "spokenText": "En cada compra, buscá al cliente y revisá los puntos que sumó. Si elige un premio, confirmá el canje. El cliente puede consultar su saldo desde el inicio de Pointli. Una aplicación de baicode Software.",
+  "text_sha256": "0d79f288ec1918ca9f45f7513761d68188c0e59783cd9408f085247d80c52ec3",
+  "sha256": "e912b4fe2dd41ff0e9afa3270acf3e11e39b4d3a8af49d8782db4991510cfbeb",
+  "duration": 12.0,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 78.3,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

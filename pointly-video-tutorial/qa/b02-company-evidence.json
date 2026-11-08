@@ -1,0 +1,170 @@
+{
+  "scene": "b02-company",
+  "source": "recordings/b02-company-1794153336892.mp4",
+  "phases": [
+    {
+      "id": "login",
+      "voice": "Para comenzar",
+      "start": 1794153306655,
+      "end": 1794153312393.4001
+    },
+    {
+      "id": "profile",
+      "voice": "Si es tu primer ingreso",
+      "start": 1794153312396.8,
+      "end": 1794153317945.8
+    },
+    {
+      "id": "name",
+      "voice": "Cargamos el nombre",
+      "start": 1794153317947.2,
+      "end": 1794153322765.3
+    },
+    {
+      "id": "rule",
+      "voice": "Después definimos",
+      "start": 1794153322768,
+      "end": 1794153325853.1
+    },
+    {
+      "id": "country",
+      "voice": "Elegimos el país",
+      "start": 1794153325854.7,
+      "end": 1794153328549.2
+    },
+    {
+      "id": "expiry-section",
+      "voice": "En este mismo formulario",
+      "start": 1794153328551.8,
+      "end": 1794153329840.6
+    },
+    {
+      "id": "expiry",
+      "voice": "Activamos la opción",
+      "start": 1794153329842.6,
+      "end": 1794153332751.4001
+    },
+    {
+      "id": "create",
+      "voice": "Revisamos el nombre",
+      "start": 1794153332752.8,
+      "end": 1794153334741.9001
+    },
+    {
+      "id": "ready",
+      "voice": "Ahora tenemos",
+      "start": 1794153334745.4001,
+      "end": 1794153335740.9001
+    }
+  ],
+  "evidence": [
+    {
+      "label": "Base rule selected before company creation",
+      "at": 1794153325290.8,
+      "url": "/dashboard/companies/new",
+      "frame": "qa/b02-company-1.png",
+      "amountStep": 1000,
+      "pointsPerStep": 10
+    },
+    {
+      "label": "Expiry selected in CREATE form before saving",
+      "at": 1794153332207.6,
+      "url": "/dashboard/companies/new",
+      "frame": "qa/b02-company-2.png",
+      "enabled": true,
+      "days": 90
+    },
+    {
+      "label": "New company genuinely created with both rules",
+      "at": 1794153334192.6,
+      "url": "/companies/cafe-del-puerto-recorrido-20261108-3",
+      "frame": "qa/b02-company-3.png",
+      "companyId": 8
+    },
+    {
+      "label": "Same newly created company ready for first client",
+      "at": 1794153335207.5,
+      "url": "/companies/cafe-del-puerto-recorrido-20261108-3",
+      "frame": "qa/b02-company-4.png"
+    }
+  ],
+  "network": [
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/billing/account/profile",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/my-companies",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/company-names/availability",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/company-names/availability",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/pointly/companies",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/company-names/cafe-del-puerto-recorrido-20261108-3/company",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/8",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/sales/8",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    }
+  ],
+  "person": "Ana Torres DEMO",
+  "company": "Café del Puerto DEMO"
+}

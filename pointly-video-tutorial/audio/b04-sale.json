@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "Ana realiza una compra de ocho mil quinientos pesos. Elegimos Registrar venta, indicamos su país y DNI y cargamos el importe. Antes de confirmar, revisamos que sea la persona correcta y miramos la estimación: los ocho tramos completos de mil suman ochenta puntos. Confirmamos una sola vez. Después volvemos al detalle de Ana para comprobar el resultado. Su saldo pasó de cero a ochenta y el historial muestra la acumulación. Este es el procedimiento que repetís cada vez que un cliente realiza una compra.",
+  "spokenText": "Ana realiza una compra de ocho mil quinientos pesos. Elegimos Registrar venta, indicamos su país y de ene i y cargamos el importe. Antes de confirmar, revisamos que sea la persona correcta y miramos la estimación: los ocho tramos completos de mil suman ochenta puntos. Confirmamos una sola vez. Después volvemos al detalle de Ana para comprobar el resultado. Su saldo pasó de cero a ochenta y el historial muestra la acumulación. Este es el procedimiento que repetís cada vez que un cliente realiza una compra.",
+  "text_sha256": "cabd7747e73be5f09e14221cf222df3c172dbeb218fa7007d2b9fe167f724d67",
+  "sha256": "7acb6ed17bc9c86a7eb4c0be43f60c715f8322de1b78bfeee6a9b558875bd39b",
+  "duration": 31.84,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 150.09,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

@@ -1,0 +1,774 @@
+[
+  {
+    "id": "b01-intro",
+    "title": "Así funciona Pointly",
+    "fromSeconds": 0,
+    "durationSeconds": 15.933333333333334,
+    "objective": "Entender el recorrido cotidiano",
+    "narration": "Pointly te ayuda a convertir las compras de tus clientes en puntos y premios. Vamos a recorrer un ejemplo completo en Café del Puerto: crear el comercio, incorporar a Ana, registrar su compra y entregar un premio. Después veremos cómo consulta sus puntos.",
+    "recording": "recordings/b01-intro-1794152698832.mp4",
+    "phases": [
+      {
+        "id": "overview",
+        "voice": "Pointly te ayuda",
+        "from": 0,
+        "start": 70,
+        "end": 240,
+        "frames": 956,
+        "speed": 1,
+        "hold": 786
+      }
+    ],
+    "evidence": [
+      {
+        "label": "Actual public Pointly home",
+        "at": 1794152695406.0999,
+        "url": "/",
+        "frame": "qa/b01-intro-1.png"
+      }
+    ]
+  },
+  {
+    "id": "b02-company",
+    "title": "Preparar tu comercio",
+    "fromSeconds": 15.933333333333334,
+    "durationSeconds": 41.53333333333333,
+    "objective": "Configurar las reglas juntas durante el alta",
+    "narration": "Para comenzar, ingresá a Pointly con tu cuenta de Bycode. Si es tu primer ingreso, completá tu perfil y elegí Nueva Empresa. Cargamos el nombre del comercio y revisamos su enlace. Después definimos la regla de acumulación: en este ejemplo, cada mil pesos completos de una compra suman diez puntos. Elegimos el país del comercio; los demás datos de ubicación se pueden completar cuando correspondan. En este mismo formulario decidimos si los puntos van a vencer. Activamos la opción e indicamos noventa días desde cada compra. Revisamos el nombre, la regla y el plazo, y creamos el comercio. Ahora tenemos todo preparado para empezar a trabajar con clientes.",
+    "recording": "recordings/b02-company-1794153336892.mp4",
+    "phases": [
+      {
+        "id": "login",
+        "voice": "Para comenzar",
+        "from": 0,
+        "start": 68,
+        "end": 412,
+        "frames": 230,
+        "speed": 1.4956521739130435,
+        "hold": 0
+      },
+      {
+        "id": "profile",
+        "voice": "Si es tu primer ingreso",
+        "from": 230,
+        "start": 412,
+        "end": 745,
+        "frames": 260,
+        "speed": 1.2807692307692307,
+        "hold": 0
+      },
+      {
+        "id": "name",
+        "voice": "Cargamos el nombre",
+        "from": 490,
+        "start": 745,
+        "end": 1034,
+        "frames": 202,
+        "speed": 1.4306930693069306,
+        "hold": 0
+      },
+      {
+        "id": "rule",
+        "voice": "Después definimos",
+        "from": 692,
+        "start": 1034,
+        "end": 1219,
+        "frames": 447,
+        "speed": 1,
+        "hold": 262
+      },
+      {
+        "id": "country",
+        "voice": "Elegimos el país",
+        "from": 1139,
+        "start": 1220,
+        "end": 1381,
+        "frames": 360,
+        "speed": 1,
+        "hold": 199
+      },
+      {
+        "id": "expiry-section",
+        "voice": "En este mismo formulario",
+        "from": 1499,
+        "start": 1381,
+        "end": 1459,
+        "frames": 189,
+        "speed": 1,
+        "hold": 111
+      },
+      {
+        "id": "expiry",
+        "voice": "Activamos la opción",
+        "from": 1688,
+        "start": 1459,
+        "end": 1633,
+        "frames": 300,
+        "speed": 1,
+        "hold": 126
+      },
+      {
+        "id": "create",
+        "voice": "Revisamos el nombre",
+        "from": 1988,
+        "start": 1633,
+        "end": 1753,
+        "frames": 257,
+        "speed": 1,
+        "hold": 137
+      },
+      {
+        "id": "ready",
+        "voice": "Ahora tenemos",
+        "from": 2245,
+        "start": 1753,
+        "end": 1813,
+        "frames": 247,
+        "speed": 1,
+        "hold": 187
+      }
+    ],
+    "evidence": [
+      {
+        "label": "Base rule selected before company creation",
+        "at": 1794153325290.8,
+        "url": "/dashboard/companies/new",
+        "frame": "qa/b02-company-1.png",
+        "amountStep": 1000,
+        "pointsPerStep": 10
+      },
+      {
+        "label": "Expiry selected in CREATE form before saving",
+        "at": 1794153332207.6,
+        "url": "/dashboard/companies/new",
+        "frame": "qa/b02-company-2.png",
+        "enabled": true,
+        "days": 90
+      },
+      {
+        "label": "New company genuinely created with both rules",
+        "at": 1794153334192.6,
+        "url": "/companies/cafe-del-puerto-recorrido-20261108-3",
+        "frame": "qa/b02-company-3.png",
+        "companyId": 8
+      },
+      {
+        "label": "Same newly created company ready for first client",
+        "at": 1794153335207.5,
+        "url": "/companies/cafe-del-puerto-recorrido-20261108-3",
+        "frame": "qa/b02-company-4.png"
+      }
+    ]
+  },
+  {
+    "id": "b03-client",
+    "title": "Incorporar a un cliente",
+    "fromSeconds": 57.46666666666667,
+    "durationSeconds": 35.53333333333333,
+    "objective": "Dar de alta a Ana y reconocer su saldo inicial",
+    "narration": "Desde el comercio elegimos Nuevo cliente. Completamos el nombre de Ana, el país de su documento y su DNI. Correo y teléfono son opcionales; sirven para mantener el contacto cuando el cliente los comparte. Guardamos sus datos y abrimos Ver clientes. La búsqueda permite encontrarla por su nombre o documento. En el detalle, su saldo inicial es de cero puntos y todavía no hay movimientos. También podés compartir el QR de registro para que tus clientes completen el alta por su cuenta. Ese código se descarga desde el comercio y podés exhibirlo en el local.",
+    "recording": "recordings/b03-client-1794153368077.mp4",
+    "phases": [
+      {
+        "id": "open",
+        "voice": "Desde el comercio",
+        "from": 0,
+        "start": 73,
+        "end": 161,
+        "frames": 163,
+        "speed": 1,
+        "hold": 75
+      },
+      {
+        "id": "identity",
+        "voice": "Completamos el nombre",
+        "from": 163,
+        "start": 161,
+        "end": 340,
+        "frames": 268,
+        "speed": 1,
+        "hold": 89
+      },
+      {
+        "id": "contacts",
+        "voice": "Correo y teléfono",
+        "from": 431,
+        "start": 340,
+        "end": 553,
+        "frames": 363,
+        "speed": 1,
+        "hold": 150
+      },
+      {
+        "id": "save",
+        "voice": "Guardamos sus datos",
+        "from": 794,
+        "start": 553,
+        "end": 714,
+        "frames": 182,
+        "speed": 1,
+        "hold": 21
+      },
+      {
+        "id": "search",
+        "voice": "La búsqueda permite",
+        "from": 976,
+        "start": 714,
+        "end": 889,
+        "frames": 234,
+        "speed": 1,
+        "hold": 59
+      },
+      {
+        "id": "zero",
+        "voice": "En el detalle",
+        "from": 1210,
+        "start": 889,
+        "end": 951,
+        "frames": 260,
+        "speed": 1,
+        "hold": 198
+      },
+      {
+        "id": "qr",
+        "voice": "También podés compartir",
+        "from": 1470,
+        "start": 952,
+        "end": 1249,
+        "frames": 662,
+        "speed": 1,
+        "hold": 365
+      }
+    ],
+    "evidence": [
+      {
+        "label": "Ana starts at zero with no prior movements",
+        "at": 1794153361463.8,
+        "url": "/companies/cafe-del-puerto-recorrido-20261108-3/clients/32",
+        "frame": "qa/b03-client-1.png",
+        "balance": 0
+      },
+      {
+        "label": "Actual registration QR for the same company downloaded",
+        "at": 1794153366420.7002,
+        "url": "/companies/cafe-del-puerto-recorrido-20261108-3/actions/qr",
+        "frame": "qa/b03-client-2.png"
+      }
+    ]
+  },
+  {
+    "id": "b04-sale",
+    "title": "Registrar una compra",
+    "fromSeconds": 93,
+    "durationSeconds": 32.65,
+    "objective": "Ver cómo una compra suma puntos al saldo",
+    "narration": "Ana realiza una compra de ocho mil quinientos pesos. Elegimos Registrar venta, indicamos su país y DNI y cargamos el importe. Antes de confirmar, revisamos que sea la persona correcta y miramos la estimación: los ocho tramos completos de mil suman ochenta puntos. Confirmamos una sola vez. Después volvemos al detalle de Ana para comprobar el resultado. Su saldo pasó de cero a ochenta y el historial muestra la acumulación. Este es el procedimiento que repetís cada vez que un cliente realiza una compra.",
+    "recording": "recordings/b04-sale-1794153392672.mp4",
+    "phases": [
+      {
+        "id": "open",
+        "voice": "Ana realiza una compra",
+        "from": 0,
+        "start": 69,
+        "end": 159,
+        "frames": 211,
+        "speed": 1,
+        "hold": 121
+      },
+      {
+        "id": "fill",
+        "voice": "Elegimos Registrar venta",
+        "from": 211,
+        "start": 159,
+        "end": 318,
+        "frames": 328,
+        "speed": 1,
+        "hold": 169
+      },
+      {
+        "id": "estimate",
+        "voice": "Antes de confirmar",
+        "from": 539,
+        "start": 318,
+        "end": 377,
+        "frames": 529,
+        "speed": 1,
+        "hold": 470
+      },
+      {
+        "id": "confirm",
+        "voice": "Confirmamos una sola vez",
+        "from": 1068,
+        "start": 377,
+        "end": 465,
+        "frames": 114,
+        "speed": 1,
+        "hold": 26
+      },
+      {
+        "id": "detail",
+        "voice": "Después volvemos",
+        "from": 1182,
+        "start": 465,
+        "end": 748,
+        "frames": 220,
+        "speed": 1.2863636363636364,
+        "hold": 0
+      },
+      {
+        "id": "result",
+        "voice": "Su saldo pasó",
+        "from": 1402,
+        "start": 748,
+        "end": 938,
+        "frames": 557,
+        "speed": 1,
+        "hold": 367
+      }
+    ],
+    "evidence": [
+      {
+        "label": "Real purchase estimate for Ana",
+        "at": 1794153381697.5,
+        "url": "/companies/cafe-del-puerto-recorrido-20261108-3/actions/sale",
+        "frame": "qa/b04-sale-1.png",
+        "amount": 8500,
+        "expectedPoints": 80,
+        "balanceBefore": 0
+      },
+      {
+        "label": "Ana now has 80 and the actual EARNED movement is visible",
+        "at": 1794153388867.5,
+        "url": "/companies/cafe-del-puerto-recorrido-20261108-3/clients/32",
+        "frame": "qa/b04-sale-2.png",
+        "balance": 80,
+        "saleId": 103
+      }
+    ]
+  },
+  {
+    "id": "b05-reward",
+    "title": "Preparar y entregar un premio",
+    "fromSeconds": 125.65,
+    "durationSeconds": 42.96666666666667,
+    "objective": "Crear el mismo premio que Ana va a canjear",
+    "narration": "Ahora preparamos un beneficio que Ana pueda alcanzar. En Premios elegimos Agregar premio. Podemos ofrecer un premio físico o un voucher de descuento. Para este ejemplo seleccionamos Premio físico, lo llamamos Café de regalo y explicamos sus condiciones. Le asignamos un costo de ochenta puntos y guardamos. La tarjeta ya muestra el premio y lo que necesita el cliente para obtenerlo. Para entregárselo a Ana, abrimos Canjear en esa misma tarjeta e indicamos su país y DNI. Revisamos el premio y su costo antes de confirmar. El canje descuenta ochenta puntos: Ana queda con cero y su historial conserva tanto la compra como el premio recibido. La entrega del café la coordinás en el comercio.",
+    "recording": "recordings/b05-reward-1794153427104.mp4",
+    "phases": [
+      {
+        "id": "open",
+        "voice": "Ahora preparamos",
+        "from": 0,
+        "start": 71,
+        "end": 244,
+        "frames": 368,
+        "speed": 1,
+        "hold": 195
+      },
+      {
+        "id": "types",
+        "voice": "Podemos ofrecer",
+        "from": 368,
+        "start": 244,
+        "end": 314,
+        "frames": 232,
+        "speed": 1,
+        "hold": 162
+      },
+      {
+        "id": "define",
+        "voice": "Para este ejemplo",
+        "from": 600,
+        "start": 314,
+        "end": 557,
+        "frames": 367,
+        "speed": 1,
+        "hold": 124
+      },
+      {
+        "id": "cost",
+        "voice": "Le asignamos",
+        "from": 967,
+        "start": 557,
+        "end": 802,
+        "frames": 184,
+        "speed": 1.3315217391304348,
+        "hold": 0
+      },
+      {
+        "id": "card",
+        "voice": "La tarjeta ya muestra",
+        "from": 1151,
+        "start": 802,
+        "end": 872,
+        "frames": 245,
+        "speed": 1,
+        "hold": 175
+      },
+      {
+        "id": "redeem",
+        "voice": "Para entregárselo",
+        "from": 1396,
+        "start": 872,
+        "end": 1014,
+        "frames": 337,
+        "speed": 1,
+        "hold": 195
+      },
+      {
+        "id": "review",
+        "voice": "Revisamos el premio",
+        "from": 1733,
+        "start": 1014,
+        "end": 1075,
+        "frames": 216,
+        "speed": 1,
+        "hold": 155
+      },
+      {
+        "id": "confirm",
+        "voice": "El canje descuenta",
+        "from": 1949,
+        "start": 1075,
+        "end": 1162,
+        "frames": 111,
+        "speed": 1,
+        "hold": 24
+      },
+      {
+        "id": "history",
+        "voice": "Ana queda con cero",
+        "from": 2060,
+        "start": 1162,
+        "end": 1579,
+        "frames": 518,
+        "speed": 1,
+        "hold": 101
+      }
+    ],
+    "evidence": [
+      {
+        "label": "The newly created 80-point coffee reward",
+        "at": 1794153413447.6,
+        "url": "/companies/cafe-del-puerto-recorrido-20261108-3",
+        "frame": "qa/b05-reward-1.png",
+        "rewardId": 11,
+        "cost": 80
+      },
+      {
+        "label": "Same coffee and same Ana ready for a single redemption",
+        "at": 1794153417006.9001,
+        "url": "/companies/cafe-del-puerto-recorrido-20261108-3/actions/redeem/11",
+        "frame": "qa/b05-reward-2.png",
+        "balanceBefore": 80,
+        "cost": 80
+      },
+      {
+        "label": "Ana ends at zero; both earned and redeemed movements visible",
+        "at": 1794153425408,
+        "url": "/companies/cafe-del-puerto-recorrido-20261108-3/clients/32",
+        "frame": "qa/b05-reward-3.png",
+        "balanceAfter": 0,
+        "cost": 80
+      }
+    ]
+  },
+  {
+    "id": "b06-catalog",
+    "title": "Promociones y productos",
+    "fromSeconds": 168.61666666666667,
+    "durationSeconds": 38.483333333333334,
+    "objective": "Reconocer herramientas complementarias del comercio",
+    "narration": "También podés sumar promociones y mostrar tus productos. En Promociones creamos una campaña de puntos dobles, con un nombre, sus condiciones y las fechas de inicio y fin. La dejamos programada para comenzar después de nuestro ejemplo de compra. Durante su vigencia, las compras que correspondan obtendrán el beneficio configurado. En Productos agregamos un café doble con su precio y una descripción. Guardamos y revisamos su tarjeta en el catálogo. Estas herramientas ayudan a que tus clientes conozcan qué ofrecés y qué beneficios pueden aprovechar. Podés actualizar sus datos cuando cambie tu propuesta.",
+    "recording": "recordings/b06-catalog-1794153463382.mp4",
+    "phases": [
+      {
+        "id": "open",
+        "voice": "También podés sumar",
+        "from": 0,
+        "start": 76,
+        "end": 260,
+        "frames": 234,
+        "speed": 1,
+        "hold": 50
+      },
+      {
+        "id": "promotion",
+        "voice": "En Promociones creamos",
+        "from": 234,
+        "start": 260,
+        "end": 847,
+        "frames": 438,
+        "speed": 1.3401826484018264,
+        "hold": 0
+      },
+      {
+        "id": "future",
+        "voice": "La dejamos programada",
+        "from": 672,
+        "start": 847,
+        "end": 906,
+        "frames": 562,
+        "speed": 1,
+        "hold": 503
+      },
+      {
+        "id": "product",
+        "voice": "En Productos agregamos",
+        "from": 1234,
+        "start": 906,
+        "end": 1500,
+        "frames": 392,
+        "speed": 1.5153061224489797,
+        "hold": 0
+      },
+      {
+        "id": "cards",
+        "voice": "Guardamos y revisamos",
+        "from": 1626,
+        "start": 1500,
+        "end": 1560,
+        "frames": 683,
+        "speed": 1,
+        "hold": 623
+      }
+    ],
+    "evidence": [
+      {
+        "label": "Double-points promotion scheduled AFTER the demonstrated base purchase",
+        "at": 1794153450877.8,
+        "url": "/companies/cafe-del-puerto-recorrido-20261108-3",
+        "frame": "qa/b06-catalog-1.png",
+        "promotionId": 5
+      },
+      {
+        "label": "Product retained in the same company catalog",
+        "at": 1794153461751.9,
+        "url": "/companies/cafe-del-puerto-recorrido-20261108-3",
+        "frame": "qa/b06-catalog-2.png",
+        "productId": 9,
+        "price": 3500
+      }
+    ]
+  },
+  {
+    "id": "b07-contact",
+    "title": "Acompañar a tus clientes",
+    "fromSeconds": 207.1,
+    "durationSeconds": 29.766666666666666,
+    "objective": "Reconocer seguimiento y avisos sin repetir el flujo principal",
+    "narration": "Para acompañar a tus clientes, Sin actividad permite encontrar a quienes llevan un tiempo sin comprar ni canjear. Elegís el período y revisás la lista. Con Contactar por WhatsApp podés revisar un mensaje y copiarlo. El envío lo confirmás vos. En Correos elegís si querés activar los avisos para clientes con correo cargado. Las vistas previas muestran cómo son los mensajes. Así tenés herramientas para mantener el contacto además del registro diario de compras y premios.",
+    "recording": "recordings/b07-contact-1794153676398.mp4",
+    "phases": [
+      {
+        "id": "inactive",
+        "voice": "Para acompañar",
+        "from": 0,
+        "start": 71,
+        "end": 189,
+        "frames": 400,
+        "speed": 1,
+        "hold": 282
+      },
+      {
+        "id": "period",
+        "voice": "Elegís el período",
+        "from": 400,
+        "start": 189,
+        "end": 332,
+        "frames": 178,
+        "speed": 1,
+        "hold": 35
+      },
+      {
+        "id": "whatsapp",
+        "voice": "Con Contactar por WhatsApp",
+        "from": 578,
+        "start": 333,
+        "end": 509,
+        "frames": 346,
+        "speed": 1,
+        "hold": 170
+      },
+      {
+        "id": "email",
+        "voice": "En Correos elegís",
+        "from": 924,
+        "start": 510,
+        "end": 722,
+        "frames": 284,
+        "speed": 1,
+        "hold": 72
+      },
+      {
+        "id": "preview",
+        "voice": "Las vistas previas",
+        "from": 1208,
+        "start": 722,
+        "end": 938,
+        "frames": 578,
+        "speed": 1,
+        "hold": 362
+      }
+    ],
+    "evidence": [
+      {
+        "label": "Separate historical demonstration client, not Ana, in inactivity list",
+        "at": 1794153664645.4,
+        "url": "/companies/cafe-del-puerto-recorrido-20261108-3",
+        "frame": "qa/b07-contact-1.png"
+      },
+      {
+        "label": "Actual WhatsApp draft copied; no outside message sent",
+        "at": 1794153667601.0999,
+        "url": "/companies/cafe-del-puerto-recorrido-20261108-3/actions/whatsapp/35",
+        "frame": "qa/b07-contact-2.png"
+      },
+      {
+        "label": "Actual email preferences and preview; no external send claimed",
+        "at": 1794153674737,
+        "url": "/companies/cafe-del-puerto-recorrido-20261108-3",
+        "frame": "qa/b07-contact-3.png"
+      }
+    ]
+  },
+  {
+    "id": "b08-points",
+    "title": "Consultar puntos y premios",
+    "fromSeconds": 236.86666666666667,
+    "durationSeconds": 34.4,
+    "objective": "Ver el mismo saldo desde el acceso del cliente",
+    "narration": "Ahora veamos cómo consulta sus puntos Ana. Desde el inicio de Pointly elige el país de su documento, ingresa el DNI y usa Ver mis puntos. Abre Café del Puerto y encuentra su saldo y los premios del comercio. El saldo es cero puntos: Ana ya usó los ochenta para recibir el café. En cada premio puede consultar cuántos puntos necesita y sus condiciones. También puede recorrer los productos disponibles. Para obtener otro premio, coordina el canje con el comercio. El saldo que consulta coincide con el que acabamos de comprobar en su detalle.",
+    "recording": "recordings/b08-points-1794153762292.mp4",
+    "phases": [
+      {
+        "id": "lookup",
+        "voice": "Ahora veamos",
+        "from": 0,
+        "start": 70,
+        "end": 142,
+        "frames": 193,
+        "speed": 1,
+        "hold": 121
+      },
+      {
+        "id": "identify",
+        "voice": "Desde el inicio",
+        "from": 193,
+        "start": 142,
+        "end": 301,
+        "frames": 413,
+        "speed": 1,
+        "hold": 254
+      },
+      {
+        "id": "store",
+        "voice": "Abre Café del Puerto",
+        "from": 606,
+        "start": 302,
+        "end": 390,
+        "frames": 266,
+        "speed": 1,
+        "hold": 178
+      },
+      {
+        "id": "balance",
+        "voice": "El saldo es cero puntos",
+        "from": 872,
+        "start": 390,
+        "end": 450,
+        "frames": 294,
+        "speed": 1,
+        "hold": 234
+      },
+      {
+        "id": "rewards",
+        "voice": "En cada premio",
+        "from": 1166,
+        "start": 450,
+        "end": 607,
+        "frames": 250,
+        "speed": 1,
+        "hold": 93
+      },
+      {
+        "id": "products",
+        "voice": "También puede recorrer",
+        "from": 1416,
+        "start": 607,
+        "end": 729,
+        "frames": 160,
+        "speed": 1,
+        "hold": 38
+      },
+      {
+        "id": "return",
+        "voice": "Para obtener otro premio",
+        "from": 1576,
+        "start": 729,
+        "end": 849,
+        "frames": 488,
+        "speed": 1,
+        "hold": 368
+      }
+    ],
+    "evidence": [
+      {
+        "label": "Public consultation shows the same zero balance after the one canje",
+        "at": 1794153753986.7998,
+        "url": "/client/kXXcQXUZ7kHj/cafe-del-puerto-recorrido-20261108-3",
+        "frame": "qa/b08-points-1.png",
+        "expectedBalance": 0,
+        "person": "Ana Torres DEMO"
+      },
+      {
+        "label": "Same coffee reward remains in public consultation",
+        "at": 1794153756628.5999,
+        "url": "/client/kXXcQXUZ7kHj/cafe-del-puerto-recorrido-20261108-3",
+        "frame": "qa/b08-points-2.png"
+      },
+      {
+        "label": "Same product retained in public catalog",
+        "at": 1794153758632.5999,
+        "url": "/client/kXXcQXUZ7kHj/cafe-del-puerto-recorrido-20261108-3",
+        "frame": "qa/b08-points-3.png"
+      },
+      {
+        "label": "Customer consultation and merchant balance agree",
+        "at": 1794153760624.2998,
+        "url": "/client/kXXcQXUZ7kHj/cafe-del-puerto-recorrido-20261108-3",
+        "frame": "qa/b08-points-4.png",
+        "expectedBalance": 0
+      }
+    ]
+  },
+  {
+    "id": "b09-close",
+    "title": "Listo para el día a día",
+    "fromSeconds": 271.26666666666665,
+    "durationSeconds": 13.3,
+    "objective": "Recordar el ciclo principal",
+    "narration": "En cada compra, buscá al cliente y revisá los puntos que sumó. Si elige un premio, confirmá el canje. El cliente puede consultar su saldo desde el inicio de Pointly. Una aplicación de Bycode Software.",
+    "recording": "recordings/b09-close-1794153772083.mp4",
+    "phases": [
+      {
+        "id": "recap",
+        "voice": "En el día a día",
+        "from": 0,
+        "start": 69,
+        "end": 221,
+        "frames": 798,
+        "speed": 1,
+        "hold": 646
+      }
+    ],
+    "evidence": [
+      {
+        "label": "Same final customer consultation for closing",
+        "at": 1794153768959.2998,
+        "url": "/client/kXXcQXUZ7kHj/cafe-del-puerto-recorrido-20261108-3",
+        "frame": "qa/b09-close-1.png"
+      }
+    ]
+  }
+]

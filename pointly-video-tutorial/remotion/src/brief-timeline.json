@@ -1,0 +1,721 @@
+{
+  "fps": 60,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 17074,
+  "chapters": [
+    {
+      "id": "b01-intro",
+      "title": "Así funciona Pointly",
+      "objective": "Entender el recorrido cotidiano",
+      "narration": "Pointly te ayuda a convertir las compras de tus clientes en puntos y premios. Vamos a recorrer un ejemplo completo en Café del Puerto: crear el comercio, incorporar a Ana, registrar su compra y entregar un premio. Después veremos cómo consulta sus puntos.",
+      "edition": "brief",
+      "from": 0,
+      "durationInFrames": 956,
+      "sourceStart": 0,
+      "sourceFrames": 956,
+      "footage": "footage/b01-intro-304fce5236eb.mp4",
+      "audio": "audio/b01-intro.wav",
+      "captions": [
+        {
+          "text": "Pointly te ayuda a convertir las compras de tus clientes en puntos y premios.",
+          "startMs": 0,
+          "endMs": 4420,
+          "timestampMs": null,
+          "confidence": 0.9745294877461025
+        },
+        {
+          "text": "Vamos a recorrer un ejemplo completo en Café del Puerto:",
+          "startMs": 4800,
+          "endMs": 7320,
+          "timestampMs": null,
+          "confidence": 0.933024729291598
+        },
+        {
+          "text": "crear el comercio, incorporar a Ana, registrar su compra y entregar un premio.",
+          "startMs": 7960,
+          "endMs": 12520,
+          "timestampMs": null,
+          "confidence": 0.9648264600680425
+        },
+        {
+          "text": "Después veremos cómo consulta sus puntos.",
+          "startMs": 12820,
+          "endMs": 14780,
+          "timestampMs": null,
+          "confidence": 0.9386810660362244
+        }
+      ],
+      "opening": true,
+      "closing": false
+    },
+    {
+      "id": "b02-company",
+      "title": "Preparar tu comercio",
+      "objective": "Configurar las reglas juntas durante el alta",
+      "narration": "Para comenzar, ingresá a Pointly con tu cuenta de Bycode. Si es tu primer ingreso, completá tu perfil y elegí Nueva Empresa. Cargamos el nombre del comercio y revisamos su enlace. Después definimos la regla de acumulación: en este ejemplo, cada mil pesos completos de una compra suman diez puntos. Elegimos el país del comercio; los demás datos de ubicación se pueden completar cuando correspondan. En este mismo formulario decidimos si los puntos van a vencer. Activamos la opción e indicamos noventa días desde cada compra. Revisamos el nombre, la regla y el plazo, y creamos el comercio. Ahora tenemos todo preparado para empezar a trabajar con clientes.",
+      "edition": "brief",
+      "from": 956,
+      "durationInFrames": 2492,
+      "sourceStart": 0,
+      "sourceFrames": 2492,
+      "footage": "footage/b02-company-41447030c348.mp4",
+      "audio": "audio/b02-company.wav",
+      "captions": [
+        {
+          "text": "Para comenzar, ingresá a Pointly con tu cuenta de Bycode.",
+          "startMs": 0,
+          "endMs": 3300,
+          "timestampMs": null,
+          "confidence": 0.847151728515746
+        },
+        {
+          "text": "Si es tu primer ingreso, completá tu perfil y elegí Nueva Empresa.",
+          "startMs": 3840,
+          "endMs": 7580,
+          "timestampMs": null,
+          "confidence": 0.9152934153874716
+        },
+        {
+          "text": "Cargamos el nombre del comercio y revisamos su enlace.",
+          "startMs": 8160,
+          "endMs": 10880,
+          "timestampMs": null,
+          "confidence": 0.9806357633184503
+        },
+        {
+          "text": "Después definimos la regla de acumulación:",
+          "startMs": 11540,
+          "endMs": 13640,
+          "timestampMs": null,
+          "confidence": 0.973194268014696
+        },
+        {
+          "text": "en este ejemplo, cada mil pesos completos de una compra suman diez puntos.",
+          "startMs": 14180,
+          "endMs": 18140,
+          "timestampMs": null,
+          "confidence": 0.9221651829206027
+        },
+        {
+          "text": "Elegimos el país del comercio;",
+          "startMs": 18980,
+          "endMs": 20760,
+          "timestampMs": null,
+          "confidence": 0.9798136750857036
+        },
+        {
+          "text": "los demás datos de ubicación se pueden completar cuando correspondan.",
+          "startMs": 21220,
+          "endMs": 24680,
+          "timestampMs": null,
+          "confidence": 0.9924722015857697
+        },
+        {
+          "text": "En este mismo formulario decidimos si los puntos van a vencer.",
+          "startMs": 24980,
+          "endMs": 28140,
+          "timestampMs": null,
+          "confidence": 0.9921612549911846
+        },
+        {
+          "text": "Activamos la opción e indicamos 90 días desde cada compra.",
+          "startMs": 28140,
+          "endMs": 32520,
+          "timestampMs": null,
+          "confidence": 0.9512565652529398
+        },
+        {
+          "text": "Revisamos el nombre, la regla y el plazo, y creamos el comercio.",
+          "startMs": 33140,
+          "endMs": 36980,
+          "timestampMs": null,
+          "confidence": 0.9401876636677318
+        },
+        {
+          "text": "Ahora tenemos todo preparado para empezar a trabajar con clientes.",
+          "startMs": 37420,
+          "endMs": 40500,
+          "timestampMs": null,
+          "confidence": 0.9935830891132355
+        }
+      ],
+      "opening": false,
+      "closing": false
+    },
+    {
+      "id": "b03-client",
+      "title": "Incorporar a un cliente",
+      "objective": "Dar de alta a Ana y reconocer su saldo inicial",
+      "narration": "Desde el comercio elegimos Nuevo cliente. Completamos el nombre de Ana, el país de su documento y su DNI. Correo y teléfono son opcionales; sirven para mantener el contacto cuando el cliente los comparte. Guardamos sus datos y abrimos Ver clientes. La búsqueda permite encontrarla por su nombre o documento. En el detalle, su saldo inicial es de cero puntos y todavía no hay movimientos. También podés compartir el QR de registro para que tus clientes completen el alta por su cuenta. Ese código se descarga desde el comercio y podés exhibirlo en el local.",
+      "edition": "brief",
+      "from": 3448,
+      "durationInFrames": 2132,
+      "sourceStart": 0,
+      "sourceFrames": 2132,
+      "footage": "footage/b03-client-defacb855d53.mp4",
+      "audio": "audio/b03-client.wav",
+      "captions": [
+        {
+          "text": "Desde el comercio elegimos Nuevo cliente.",
+          "startMs": 0,
+          "endMs": 2620,
+          "timestampMs": null,
+          "confidence": 0.8428163776795069
+        },
+        {
+          "text": "Completamos el nombre de Ana, el país de su documento y su DNI.",
+          "startMs": 2720,
+          "endMs": 6660,
+          "timestampMs": null,
+          "confidence": 0.9510659139889938
+        },
+        {
+          "text": "Correo y teléfono son opcionales;",
+          "startMs": 7180,
+          "endMs": 9240,
+          "timestampMs": null,
+          "confidence": 0.9865271528561909
+        },
+        {
+          "text": "sirven para mantener el contacto cuando el cliente los comparte.",
+          "startMs": 9560,
+          "endMs": 12600,
+          "timestampMs": null,
+          "confidence": 0.9950093567371369
+        },
+        {
+          "text": "Guardamos sus datos y abrimos Ver clientes.",
+          "startMs": 13240,
+          "endMs": 15840,
+          "timestampMs": null,
+          "confidence": 0.9169499803157081
+        },
+        {
+          "text": "La búsqueda permite encontrarla por su nombre o documento.",
+          "startMs": 16260,
+          "endMs": 19640,
+          "timestampMs": null,
+          "confidence": 0.9948936469025083
+        },
+        {
+          "text": "En el detalle, su saldo inicial es de cero puntos y todavía no hay movimientos.",
+          "startMs": 20160,
+          "endMs": 24500,
+          "timestampMs": null,
+          "confidence": 0.9801894068717957
+        },
+        {
+          "text": "También podés compartir el QR de registro para que tus clientes completen el alta",
+          "startMs": 24500,
+          "endMs": 29720,
+          "timestampMs": null,
+          "confidence": 0.9403370427233833
+        },
+        {
+          "text": "por su cuenta.",
+          "startMs": 29720,
+          "endMs": 30360,
+          "timestampMs": null,
+          "confidence": 0.9949487249056498
+        },
+        {
+          "text": "Ese código se descarga desde el comercio y podés exhibirlo en el local.",
+          "startMs": 30820,
+          "endMs": 34540,
+          "timestampMs": null,
+          "confidence": 0.9889040879714183
+        }
+      ],
+      "opening": false,
+      "closing": false
+    },
+    {
+      "id": "b04-sale",
+      "title": "Registrar una compra",
+      "objective": "Ver cómo una compra suma puntos al saldo",
+      "narration": "Ana realiza una compra de ocho mil quinientos pesos. Elegimos Registrar venta, indicamos su país y DNI y cargamos el importe. Antes de confirmar, revisamos que sea la persona correcta y miramos la estimación: los ocho tramos completos de mil suman ochenta puntos. Confirmamos una sola vez. Después volvemos al detalle de Ana para comprobar el resultado. Su saldo pasó de cero a ochenta y el historial muestra la acumulación. Este es el procedimiento que repetís cada vez que un cliente realiza una compra.",
+      "edition": "brief",
+      "from": 5580,
+      "durationInFrames": 1959,
+      "sourceStart": 0,
+      "sourceFrames": 1959,
+      "footage": "footage/b04-sale-ede2302338c4.mp4",
+      "audio": "audio/b04-sale.wav",
+      "captions": [
+        {
+          "text": "Ana realiza una compra de 8.500 pesos.",
+          "startMs": 0,
+          "endMs": 3040,
+          "timestampMs": null,
+          "confidence": 0.9260677482400622
+        },
+        {
+          "text": "Elegimos Registrar venta, indicamos su país y DNI y cargamos el importe.",
+          "startMs": 3520,
+          "endMs": 8500,
+          "timestampMs": null,
+          "confidence": 0.9049768870075544
+        },
+        {
+          "text": "Antes de confirmar, revisamos que sea la persona correcta y miramos la estimación:",
+          "startMs": 8980,
+          "endMs": 13580,
+          "timestampMs": null,
+          "confidence": 0.9935840666294098
+        },
+        {
+          "text": "los ocho tramos completos de 1000 suman 80 puntos.",
+          "startMs": 14220,
+          "endMs": 17160,
+          "timestampMs": null,
+          "confidence": 0.8970536655849881
+        },
+        {
+          "text": "Confirmamos una sola vez.",
+          "startMs": 17800,
+          "endMs": 19260,
+          "timestampMs": null,
+          "confidence": 0.9780026624600092
+        },
+        {
+          "text": "Después volvemos al detalle de Ana para comprobar el resultado.",
+          "startMs": 19900,
+          "endMs": 23040,
+          "timestampMs": null,
+          "confidence": 0.9903763125340145
+        },
+        {
+          "text": "Su saldo pasó de 0 a 80 y el historial muestra la acumulación.",
+          "startMs": 23660,
+          "endMs": 27280,
+          "timestampMs": null,
+          "confidence": 0.9340136647224426
+        },
+        {
+          "text": "Este es el procedimiento que repetís cada vez que un cliente realiza una compra.",
+          "startMs": 27280,
+          "endMs": 31720,
+          "timestampMs": null,
+          "confidence": 0.9863187500408718
+        }
+      ],
+      "opening": false,
+      "closing": false,
+      "zoom": {
+        "x": 0.78,
+        "y": 0.96,
+        "amount": 0.055,
+        "start": 539,
+        "end": 1182
+      }
+    },
+    {
+      "id": "b05-reward",
+      "title": "Preparar y entregar un premio",
+      "objective": "Crear el mismo premio que Ana va a canjear",
+      "narration": "Ahora preparamos un beneficio que Ana pueda alcanzar. En Premios elegimos Agregar premio. Podemos ofrecer un premio físico o un voucher de descuento. Para este ejemplo seleccionamos Premio físico, lo llamamos Café de regalo y explicamos sus condiciones. Le asignamos un costo de ochenta puntos y guardamos. La tarjeta ya muestra el premio y lo que necesita el cliente para obtenerlo. Para entregárselo a Ana, abrimos Canjear en esa misma tarjeta e indicamos su país y DNI. Revisamos el premio y su costo antes de confirmar. El canje descuenta ochenta puntos: Ana queda con cero y su historial conserva tanto la compra como el premio recibido. La entrega del café la coordinás en el comercio.",
+      "edition": "brief",
+      "from": 7539,
+      "durationInFrames": 2578,
+      "sourceStart": 0,
+      "sourceFrames": 2578,
+      "footage": "footage/b05-reward-a735c333a044.mp4",
+      "audio": "audio/b05-reward.wav",
+      "captions": [
+        {
+          "text": "Ahora preparamos un beneficio que Ana pueda alcanzar.",
+          "startMs": 0,
+          "endMs": 3140,
+          "timestampMs": null,
+          "confidence": 0.891410619020462
+        },
+        {
+          "text": "En Premios elegimos Agregar premio.",
+          "startMs": 3600,
+          "endMs": 5780,
+          "timestampMs": null,
+          "confidence": 0.8316159218549728
+        },
+        {
+          "text": "Podemos ofrecer un premio físico o un voucher de descuento.",
+          "startMs": 6140,
+          "endMs": 9420,
+          "timestampMs": null,
+          "confidence": 0.9347050338983536
+        },
+        {
+          "text": "Para este ejemplo seleccionamos Premio físico,",
+          "startMs": 10000,
+          "endMs": 12320,
+          "timestampMs": null,
+          "confidence": 0.9781177515784899
+        },
+        {
+          "text": "lo llamamos Café de regalo y explicamos sus condiciones.",
+          "startMs": 12620,
+          "endMs": 15560,
+          "timestampMs": null,
+          "confidence": 0.9637624290254381
+        },
+        {
+          "text": "Le asignamos un costo de 80 puntos y guardamos.",
+          "startMs": 16120,
+          "endMs": 18620,
+          "timestampMs": null,
+          "confidence": 0.9821237138024083
+        },
+        {
+          "text": "La tarjeta ya muestra el premio y lo que necesita el cliente para obtenerlo.",
+          "startMs": 19180,
+          "endMs": 22980,
+          "timestampMs": null,
+          "confidence": 0.9725464859179088
+        },
+        {
+          "text": "Para entregárselo a Ana, abrimos Canjear en esa misma tarjeta e indicamos su país",
+          "startMs": 23260,
+          "endMs": 27700,
+          "timestampMs": null,
+          "confidence": 0.9455308605517659
+        },
+        {
+          "text": "y DNI.",
+          "startMs": 27700,
+          "endMs": 28600,
+          "timestampMs": null,
+          "confidence": 0.5717002749443054
+        },
+        {
+          "text": "Revisamos el premio y su costo antes de confirmar.",
+          "startMs": 28880,
+          "endMs": 32000,
+          "timestampMs": null,
+          "confidence": 0.99064768354098
+        },
+        {
+          "text": "El canje descuenta 80 puntos:",
+          "startMs": 32480,
+          "endMs": 34260,
+          "timestampMs": null,
+          "confidence": 0.8069635172684986
+        },
+        {
+          "text": "Ana queda con cero y su historial conserva tanto la compra como el premio recibido.",
+          "startMs": 34840,
+          "endMs": 39040,
+          "timestampMs": null,
+          "confidence": 0.9654631793498993
+        },
+        {
+          "text": "La entrega del café la coordinás en el comercio.",
+          "startMs": 39600,
+          "endMs": 41960,
+          "timestampMs": null,
+          "confidence": 0.9652015335030026
+        }
+      ],
+      "opening": false,
+      "closing": false
+    },
+    {
+      "id": "b06-catalog",
+      "title": "Promociones y productos",
+      "objective": "Reconocer herramientas complementarias del comercio",
+      "narration": "También podés sumar promociones y mostrar tus productos. En Promociones creamos una campaña de puntos dobles, con un nombre, sus condiciones y las fechas de inicio y fin. La dejamos programada para comenzar después de nuestro ejemplo de compra. Durante su vigencia, las compras que correspondan obtendrán el beneficio configurado. En Productos agregamos un café doble con su precio y una descripción. Guardamos y revisamos su tarjeta en el catálogo. Estas herramientas ayudan a que tus clientes conozcan qué ofrecés y qué beneficios pueden aprovechar. Podés actualizar sus datos cuando cambie tu propuesta.",
+      "edition": "brief",
+      "from": 10117,
+      "durationInFrames": 2309,
+      "sourceStart": 0,
+      "sourceFrames": 2309,
+      "footage": "footage/b06-catalog-b3c7e52c531e.mp4",
+      "audio": "audio/b06-catalog.wav",
+      "captions": [
+        {
+          "text": "También podés sumar promociones y mostrar tus productos.",
+          "startMs": 0,
+          "endMs": 3340,
+          "timestampMs": null,
+          "confidence": 0.9645678264399369
+        },
+        {
+          "text": "En Promociones creamos una campaña de puntos dobles, con un nombre,",
+          "startMs": 3900,
+          "endMs": 7580,
+          "timestampMs": null,
+          "confidence": 0.9597584731651075
+        },
+        {
+          "text": "sus condiciones y las fechas de inicio y fin.",
+          "startMs": 7920,
+          "endMs": 10500,
+          "timestampMs": null,
+          "confidence": 0.9816723896397485
+        },
+        {
+          "text": "La dejamos programada para comenzar después de nuestro ejemplo de compra.",
+          "startMs": 11200,
+          "endMs": 14820,
+          "timestampMs": null,
+          "confidence": 0.9920921406962655
+        },
+        {
+          "text": "Durante su vigencia, las compras que correspondan obtendrán el beneficio configurado.",
+          "startMs": 15300,
+          "endMs": 20040,
+          "timestampMs": null,
+          "confidence": 0.9855728528716348
+        },
+        {
+          "text": "En Productos agregamos un café doble con su precio y una descripción.",
+          "startMs": 20560,
+          "endMs": 24740,
+          "timestampMs": null,
+          "confidence": 0.9558052631715933
+        },
+        {
+          "text": "Guardamos y revisamos su tarjeta en el catálogo.",
+          "startMs": 25400,
+          "endMs": 28020,
+          "timestampMs": null,
+          "confidence": 0.9915051981806755
+        },
+        {
+          "text": "Estas herramientas ayudan a que tus clientes conozcan qué ofrecés y qué beneficios",
+          "startMs": 28020,
+          "endMs": 33080,
+          "timestampMs": null,
+          "confidence": 0.9721355942579417
+        },
+        {
+          "text": "pueden aprovechar.",
+          "startMs": 33080,
+          "endMs": 33940,
+          "timestampMs": null,
+          "confidence": 0.9950193464756012
+        },
+        {
+          "text": "Podés actualizar sus datos cuando cambie tu propuesta.",
+          "startMs": 34700,
+          "endMs": 37320,
+          "timestampMs": null,
+          "confidence": 0.9569278880953789
+        }
+      ],
+      "opening": false,
+      "closing": false
+    },
+    {
+      "id": "b07-contact",
+      "title": "Acompañar a tus clientes",
+      "objective": "Reconocer seguimiento y avisos sin repetir el flujo principal",
+      "narration": "Para acompañar a tus clientes, Sin actividad permite encontrar a quienes llevan un tiempo sin comprar ni canjear. Elegís el período y revisás la lista. Con Contactar por WhatsApp podés revisar un mensaje y copiarlo. El envío lo confirmás vos. En Correos elegís si querés activar los avisos para clientes con correo cargado. Las vistas previas muestran cómo son los mensajes. Así tenés herramientas para mantener el contacto además del registro diario de compras y premios.",
+      "edition": "brief",
+      "from": 12426,
+      "durationInFrames": 1786,
+      "sourceStart": 0,
+      "sourceFrames": 1786,
+      "footage": "footage/b07-contact-6b9df3e09fba.mp4",
+      "audio": "audio/b07-contact.wav",
+      "captions": [
+        {
+          "text": "Para acompañar a tus clientes,",
+          "startMs": 0,
+          "endMs": 1660,
+          "timestampMs": null,
+          "confidence": 0.9906530559062958
+        },
+        {
+          "text": "Sin actividad permite encontrar a quienes llevan un tiempo sin comprar ni canjear.",
+          "startMs": 1820,
+          "endMs": 6120,
+          "timestampMs": null,
+          "confidence": 0.9137483605971704
+        },
+        {
+          "text": "Elegís el período y revisás la lista.",
+          "startMs": 6660,
+          "endMs": 8980,
+          "timestampMs": null,
+          "confidence": 0.916144378128506
+        },
+        {
+          "text": "Con Contactar por WhatsApp podés revisar un mensaje y copiarlo.",
+          "startMs": 9640,
+          "endMs": 13000,
+          "timestampMs": null,
+          "confidence": 0.9549402495225271
+        },
+        {
+          "text": "El envío lo confirmás vos.",
+          "startMs": 13420,
+          "endMs": 14700,
+          "timestampMs": null,
+          "confidence": 0.9630932867527008
+        },
+        {
+          "text": "En Correos elegís si querés activar los avisos para clientes con correo cargado.",
+          "startMs": 15400,
+          "endMs": 19680,
+          "timestampMs": null,
+          "confidence": 0.9672037982023679
+        },
+        {
+          "text": "Las vistas previas muestran cómo son los mensajes.",
+          "startMs": 20140,
+          "endMs": 22900,
+          "timestampMs": null,
+          "confidence": 0.9764604829251766
+        },
+        {
+          "text": "Así tenés herramientas para mantener el contacto además del registro diario de compras",
+          "startMs": 23600,
+          "endMs": 27900,
+          "timestampMs": null,
+          "confidence": 0.9820166276051447
+        },
+        {
+          "text": "y premios.",
+          "startMs": 27900,
+          "endMs": 28480,
+          "timestampMs": null,
+          "confidence": 0.9971025735139847
+        }
+      ],
+      "opening": false,
+      "closing": false
+    },
+    {
+      "id": "b08-points",
+      "title": "Consultar puntos y premios",
+      "objective": "Ver el mismo saldo desde el acceso del cliente",
+      "narration": "Ahora veamos cómo consulta sus puntos Ana. Desde el inicio de Pointly elige el país de su documento, ingresa el DNI y usa Ver mis puntos. Abre Café del Puerto y encuentra su saldo y los premios del comercio. El saldo es cero puntos: Ana ya usó los ochenta para recibir el café. En cada premio puede consultar cuántos puntos necesita y sus condiciones. También puede recorrer los productos disponibles. Para obtener otro premio, coordina el canje con el comercio. El saldo que consulta coincide con el que acabamos de comprobar en su detalle.",
+      "edition": "brief",
+      "from": 14212,
+      "durationInFrames": 2064,
+      "sourceStart": 0,
+      "sourceFrames": 2064,
+      "footage": "footage/b08-points-9a8c3ad850d2.mp4",
+      "audio": "audio/b08-points.wav",
+      "captions": [
+        {
+          "text": "Ahora veamos cómo consulta sus puntos Ana.",
+          "startMs": 0,
+          "endMs": 2620,
+          "timestampMs": null,
+          "confidence": 0.8546809873410633
+        },
+        {
+          "text": "Desde el inicio de Pointly elige el país de su documento,",
+          "startMs": 3220,
+          "endMs": 6300,
+          "timestampMs": null,
+          "confidence": 0.943313020196828
+        },
+        {
+          "text": "ingresa el DNI y usa Ver mis puntos.",
+          "startMs": 6720,
+          "endMs": 9420,
+          "timestampMs": null,
+          "confidence": 0.85025207636257
+        },
+        {
+          "text": "Abre Café del Puerto y encuentra su saldo y los premios del comercio.",
+          "startMs": 10100,
+          "endMs": 14100,
+          "timestampMs": null,
+          "confidence": 0.9241073796382318
+        },
+        {
+          "text": "El saldo es cero puntos:",
+          "startMs": 14540,
+          "endMs": 15940,
+          "timestampMs": null,
+          "confidence": 0.9624145805835724
+        },
+        {
+          "text": "Ana ya usó los ochenta para recibir el café.",
+          "startMs": 16520,
+          "endMs": 19000,
+          "timestampMs": null,
+          "confidence": 0.9460739327801598
+        },
+        {
+          "text": "En cada premio puede consultar cuántos puntos necesita y sus condiciones.",
+          "startMs": 19440,
+          "endMs": 22960,
+          "timestampMs": null,
+          "confidence": 0.9806317985057831
+        },
+        {
+          "text": "También puede recorrer los productos disponibles.",
+          "startMs": 23600,
+          "endMs": 25740,
+          "timestampMs": null,
+          "confidence": 0.995743324359258
+        },
+        {
+          "text": "Para obtener otro premio, coordina el canje con el comercio.",
+          "startMs": 26260,
+          "endMs": 29100,
+          "timestampMs": null,
+          "confidence": 0.9788640439510345
+        },
+        {
+          "text": "El saldo que consulta coincide con el que acabamos de comprobar en su detalle.",
+          "startMs": 29100,
+          "endMs": 33300,
+          "timestampMs": null,
+          "confidence": 0.9818477517082578
+        }
+      ],
+      "opening": false,
+      "closing": false
+    },
+    {
+      "id": "b09-close",
+      "title": "Listo para el día a día",
+      "objective": "Recordar el ciclo principal",
+      "narration": "En cada compra, buscá al cliente y revisá los puntos que sumó. Si elige un premio, confirmá el canje. El cliente puede consultar su saldo desde el inicio de Pointly. Una aplicación de Bycode Software.",
+      "edition": "brief",
+      "from": 16276,
+      "durationInFrames": 798,
+      "sourceStart": 0,
+      "sourceFrames": 798,
+      "footage": "footage/b09-close-d93b2c08f964.mp4",
+      "audio": "audio/b09-close.wav",
+      "captions": [
+        {
+          "text": "En cada compra, buscá al cliente y revisá los puntos que sumó.",
+          "startMs": 0,
+          "endMs": 3780,
+          "timestampMs": null,
+          "confidence": 0.9504334380229315
+        },
+        {
+          "text": "Si elige un premio, confirmá el canje.",
+          "startMs": 4000,
+          "endMs": 6020,
+          "timestampMs": null,
+          "confidence": 0.9790540550436292
+        },
+        {
+          "text": "El cliente puede consultar su saldo desde el inicio de Pointly.",
+          "startMs": 6460,
+          "endMs": 9620,
+          "timestampMs": null,
+          "confidence": 0.9806083007292314
+        },
+        {
+          "text": "Una aplicación de Bycode Software.",
+          "startMs": 9940,
+          "endMs": 11540,
+          "timestampMs": null,
+          "confidence": 0.7928404673933983
+        }
+      ],
+      "opening": false,
+      "closing": true
+    }
+  ]
+}

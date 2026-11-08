@@ -1,0 +1,110 @@
+{
+  "scene": "b07-contact",
+  "source": "recordings/b07-contact-1794153676398.mp4",
+  "phases": [
+    {
+      "id": "inactive",
+      "voice": "Para acompañar",
+      "start": 1794153660839.5999,
+      "end": 1794153662802.8
+    },
+    {
+      "id": "period",
+      "voice": "Elegís el período",
+      "start": 1794153662803.8,
+      "end": 1794153665197.8
+    },
+    {
+      "id": "whatsapp",
+      "voice": "Con Contactar por WhatsApp",
+      "start": 1794153665200.5,
+      "end": 1794153668147.5
+    },
+    {
+      "id": "email",
+      "voice": "En Correos elegís",
+      "start": 1794153668151.0999,
+      "end": 1794153671690.9
+    },
+    {
+      "id": "preview",
+      "voice": "Las vistas previas",
+      "start": 1794153671692.5,
+      "end": 1794153675286.2
+    }
+  ],
+  "evidence": [
+    {
+      "label": "Separate historical demonstration client, not Ana, in inactivity list",
+      "at": 1794153664645.4,
+      "url": "/companies/cafe-del-puerto-recorrido-20261108-3",
+      "frame": "qa/b07-contact-1.png"
+    },
+    {
+      "label": "Actual WhatsApp draft copied; no outside message sent",
+      "at": 1794153667601.0999,
+      "url": "/companies/cafe-del-puerto-recorrido-20261108-3/actions/whatsapp/35",
+      "frame": "qa/b07-contact-2.png"
+    },
+    {
+      "label": "Actual email preferences and preview; no external send claimed",
+      "at": 1794153674737,
+      "url": "/companies/cafe-del-puerto-recorrido-20261108-3",
+      "frame": "qa/b07-contact-3.png"
+    }
+  ],
+  "network": [
+    {
+      "method": "GET",
+      "path": "/api/pointly/points-accounts/8/inactive",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/8/clients/33/contacts",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/8/clients/33/contacts",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/8/clients/33/contacts",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/companies/8/emails",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/pointly/limits/my-limits",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/pointly/companies/8/emails",
+      "status": 200
+    }
+  ],
+  "person": "Ana Torres DEMO",
+  "company": "Café del Puerto DEMO"
+}

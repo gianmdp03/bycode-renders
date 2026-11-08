@@ -1,0 +1,18 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-Base",
+  "voice": "masculina",
+  "reference": "doctorchart-video-tutorial\\qa\\qwen-voz-masculina.wav",
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "personalVoice": false,
+  "externalSpeechAPI": null,
+  "text": "Ahora preparamos un beneficio que Ana pueda alcanzar. En Premios elegimos Agregar premio. Podemos ofrecer un premio físico o un voucher de descuento. Para este ejemplo seleccionamos Premio físico, lo llamamos Café de regalo y explicamos sus condiciones. Le asignamos un costo de ochenta puntos y guardamos. La tarjeta ya muestra el premio y lo que necesita el cliente para obtenerlo. Para entregárselo a Ana, abrimos Canjear en esa misma tarjeta e indicamos su país y DNI. Revisamos el premio y su costo antes de confirmar. El canje descuenta ochenta puntos: Ana queda con cero y su historial conserva tanto la compra como el premio recibido. La entrega del café la coordinás en el comercio.",
+  "spokenText": "Ahora preparamos un beneficio que Ana pueda alcanzar. En Premios elegimos Agregar premio. Podemos ofrecer un premio físico o un voucher de descuento. Para este ejemplo seleccionamos Premio físico, lo llamamos Café de regalo y explicamos sus condiciones. Le asignamos un costo de ochenta puntos y guardamos. La tarjeta ya muestra el premio y lo que necesita el cliente para obtenerlo. Para entregárselo a Ana, abrimos Canjear en esa misma tarjeta e indicamos su país y de ene i. Revisamos el premio y su costo antes de confirmar. El canje descuenta ochenta puntos: Ana queda con cero y su historial conserva tanto la compra como el premio recibido. La entrega del café la coordinás en el comercio.",
+  "text_sha256": "291b0d974d3d9b70073aaf0186d113d0b6b9f8daf9717c56399530a622b66780",
+  "sha256": "6be91b5abec7e684e46b9b909f354e4beb24fb2e24191e755329d4c3ec86ecc1",
+  "duration": 42.16,
+  "sampleRate": 48000,
+  "channels": 2,
+  "generationSeconds": 218.97,
+  "seed": 20261103,
+  "review": "Awaiting acoustic transcription and audiovisual QA"
+}

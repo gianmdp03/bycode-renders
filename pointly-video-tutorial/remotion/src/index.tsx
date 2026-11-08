@@ -1,4 +1,5 @@
 import {registerRoot,Composition,Sequence,AbsoluteFill} from 'remotion';
+import {BriefCompositions} from './Brief';
 import {Scene1} from './Scene1';
 import {Scene2} from './Scene2';
 import {Scene3} from './Scene3';
@@ -93,5 +94,6 @@ const Root=()=> <>
  <Composition id="Chapter28" component={Scene28} durationInFrames={1969} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
  <Composition id="Chapter29" component={Scene29} durationInFrames={1902} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
  <Composition id="Chapter30" component={Scene30} durationInFrames={1556} fps={60} width={1920} height={1080} defaultProps={{layerOnly:false}}/>
+ <BriefCompositions/>
 </>;
 registerRoot(Root);
