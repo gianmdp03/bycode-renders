@@ -431,5 +431,48 @@
     "Denominación para el cliente: Consultar puntos y premios; evitar billetera.",
     "Enseñar acumulación y vencimiento juntos en Crear empresa, antes de guardar.",
     "No repetir vencimiento desde Editar empresa ni cambiar de comercio sin continuidad."
+  ],
+  "coherenceReview": "qa/coherence-review.json",
+  "continuityContract": {
+    "oneCompany": true,
+    "oneMainClient": true,
+    "oneMainReward": true,
+    "initialConfigurationBeforeCreation": true,
+    "sameRewardCreatedAndRedeemed": true,
+    "genuineClientBalanceBeforeAndAfterEachOperation": true,
+    "consultationMustMatchLastRecordedBalance": true,
+    "example": [
+      {
+        "step": "Alta de un cliente sin movimientos en el nuevo comercio",
+        "balance": 0
+      },
+      {
+        "step": "Compra de 8500",
+        "delta": 80,
+        "balance": 80
+      },
+      {
+        "step": "Mismo premio creado, costo 80",
+        "delta": -80,
+        "balance": 0
+      },
+      {
+        "step": "Consulta de esa misma persona después del canje",
+        "balance": 0
+      }
+    ],
+    "state": "REQUIRES_NEW_GENUINE_CORE_TAKES"
+  },
+  "acceptanceGates": [
+    "La persona creada es la misma de compra, canje y consulta.",
+    "Se canjea el premio que se creó; nombre y costo no cambian entre escenas.",
+    "La acumulación y el vencimiento se eligen antes de crear la empresa.",
+    "Saldo inicial + compra - canje = saldo final visible en el panel y en Consultar puntos y premios.",
+    "No reutilizar el saldo 20 de Ana si se elimina el segundo canje que lo produjo.",
+    "La voz nombra el control o resultado que realmente se ve en ese instante.",
+    "Los porcentajes conservan su unidad en locución, subtítulo y formulario.",
+    "La compra con regla base precede a la demostración de promociones.",
+    "El producto, premio o promoción mostrado se conserva para la consulta posterior.",
+    "Rótulos consecutivos, portada de recorrido breve y sin explicaciones internas."
   ]
 }

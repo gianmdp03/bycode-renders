@@ -17,7 +17,9 @@ const fixes={
 const endPunctuation=/[.!?;:]$/;const weak=new Set(['el','la','los','las','un','una','por','para','de','del','sin','y','o','con','a','al','su','sus','que']);const reports=[];
 for(const file of fs.readdirSync(path.join(root,'audio')).filter(f=>f.endsWith('.alignment.json'))){
  const id=file.replace('.alignment.json','');const full=path.join(root,'audio',file);const a=JSON.parse(fs.readFileSync(full,'utf8'));
- const words=a.words.filter(w=>/[\p{L}\p{N}]/u.test(w.display??w.word)).map(w=>({...w,text:w.display??w.word}));
+ // Whisper may return units as separate tokens ("50", "%"). They carry
+ // meaning and acoustic spans even though they contain no letters or digits.
+ const words=a.words.filter(w=>/[\p{L}\p{N}%‰$€£]/u.test(w.display??w.word)).map(w=>({...w,text:w.display??w.word}));
  for(const [from,to] of fixes[id]??[]){for(let i=0;i<words.length;i++)for(let n=1;n<=4&&i+n<=words.length;n++){if(words.slice(i,i+n).map(w=>w.text).join(' ')===from){words.splice(i,n,{...words[i],end:words[i+n-1].end,text:to});break}}}
  const captions=[];let group=[];
  const flush=(n=group.length)=>{const part=group.splice(0,n);if(!part.length)return;captions.push({text:part.map(w=>w.text).join(' '),startMs:Math.round(part[0].start*1000),endMs:Math.round(part.at(-1).end*1000),timestampMs:null,confidence:part.reduce((v,w)=>v+w.probability,0)/part.length})};

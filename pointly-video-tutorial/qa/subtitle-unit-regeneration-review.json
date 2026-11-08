@@ -1,0 +1,25 @@
+{
+  "state": "PIPELINE_FIX_VERIFIED_ORIGINAL_RENDER_UNCHANGED",
+  "sourceVideoSha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+  "method": "Run the actual corrected caption producer on isolated copies of the two affected original acoustic alignments. Original video, SRT and alignments preserved; new edition must regenerate captions.",
+  "chapters": [
+    {
+      "chapter": "13-promotion",
+      "before": "PodÃ©s elegir 50 mÃ¡s, el doble, el triple o un beneficio personalizado.",
+      "corrected": "PodÃ©s elegir 50 % mÃ¡s, el doble, el triple o un beneficio personalizado.",
+      "acousticWordsAndTimesUnchanged": true
+    },
+    {
+      "chapter": "17-voucher",
+      "before": "Por ejemplo, 10 o 2000 pesos.",
+      "corrected": "Por ejemplo, 10 % o 2000 pesos.",
+      "acousticWordsAndTimesUnchanged": true
+    }
+  ],
+  "completeInputGate": {
+    "before": "Correctly rejects the original dropped-unit captions",
+    "after": "PASS on all 30 real final audio inputs, with only the two regenerated caption files replaced in an isolated copy",
+    "originalAudioFiles": "Read-only hardlinks; no voice regeneration or audio changes",
+    "originalDeliverableFiles": "Unchanged"
+  }
+}

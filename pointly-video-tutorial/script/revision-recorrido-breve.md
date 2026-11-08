@@ -63,3 +63,9 @@ Seguir un mismo comercio y cliente. Mostrar una compra y un canje con antes/desp
 Locución propuesta para ese paso:
 
 > Antes de crear el comercio, definimos cuántos puntos suma cada compra y si van a vencer. En este ejemplo, cada mil pesos completos suman diez puntos. Activamos el vencimiento y elegimos noventa días desde cada compra. Revisamos la configuración y creamos el comercio.
+
+## Nuevos controles de coherencia
+
+Ver `../qa/coherence-review.md` para los hallazgos con tiempos. El recorrido breve necesita nuevas tomas centrales coherentes: una persona, un premio y el mismo saldo al final. No se puede obtener una versión correcta solo recortando capítulos del MP4 anterior. La nueva locución y sus subtítulos deben corresponder a las acciones elegidas.
+
+Caso numérico propuesto para la nueva toma real: cliente nuevo con 0 puntos → compra de $8.500 suma 80 → premio de 80 puntos deja 0 → consulta final muestra 0. Es una especificación de continuidad, no una operación ya grabada.

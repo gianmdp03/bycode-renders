@@ -17,6 +17,9 @@ for c in chapters:
  unknown=[d for d in a['differences'] if numeric.get(norm(d['expected']))!=norm(d['heard']) and (norm(d['expected']),norm(d['heard'])) not in reviewed]
  assert not unknown,c['id']+' unreviewed transcript content '+str(unknown)
  assert all(0<=x['startMs']<x['endMs']<=duration*1000+100 for x in a['captions']),c['id']+' invalid acoustic captions'
+ source_units=re.findall(r'[%‰$€£]',' '.join(w.get('display',w['word']) for w in a['words']))
+ caption_units=re.findall(r'[%‰$€£]',' '.join(x['text'] for x in a['captions']))
+ assert source_units==caption_units,c['id']+' meaningful unit lost in captions; regenerate from the retained acoustic words'
  mono=samples.reshape(-1,2).mean(axis=1);hop=2400;levels=np.array([np.sqrt(np.mean(mono[i:i+hop]**2)) for i in range(0,len(mono),hop)]);silent=levels<.001
  runs=[];start=None
  for i,value in enumerate(silent):
