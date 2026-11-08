@@ -6,18 +6,18 @@ Se revisaron el montaje mediante fotogramas del MP4, sus tiempos y la narración
 
 ## Recomendación
 
-Apuntar a **6 minutos**, aproximadamente un 63 % menos que los 16:10 actuales. Reducir alcance y repeticiones, conservando una explicación útil y clics a velocidad natural. No acelerar la voz ni convertirlo en un anuncio. Los tiempos siguientes son un presupuesto editorial, no tiempos finales de audio.
+Apuntar a **5–6 minutos**, aproximadamente un 63–69 % menos que los 16:10 actuales. La tabla reserva cinco minutos de contenido, con margen para lectura útil y transiciones. Reducir alcance y repeticiones, conservando una explicación útil y clics a velocidad natural. No acelerar la voz ni convertirlo en un anuncio. Los tiempos siguientes son un presupuesto editorial, no tiempos finales de audio.
 
 | Bloque | Duración objetivo | Qué se muestra |
 |---|---:|---|
 | Qué es Pointly | 15 s | Explicar clientes, compras y recompensas con la interfaz a la vista. |
-| Empezar y configurar el comercio | 40 s | Unir acceso, alta y regla de puntos. Explicar una sola vez el vencimiento opcional. |
+| Empezar y configurar el comercio | 40 s | Completar datos, regla de acumulación y vencimiento opcional dentro de Crear empresa, antes de guardar. Continuar con el mismo comercio. |
 | Incorporar y encontrar clientes | 35 s | Una alta manual, alternativa del QR y consulta breve del saldo e historial. |
 | Registrar una compra | 40 s | Una compra real, estimación de puntos y resultado. Omitir el capítulo de incidencias. |
 | Crear un premio y registrar un canje | 60 s | Un premio físico con costo en puntos; mostrar el voucher como alternativa y concretar un canje con su efecto en el saldo. |
 | Promociones y catálogo | 40 s | Un ejemplo de doble de puntos y una tarjeta de producto; sin repetir todos los campos ni las operaciones de mantenimiento. |
 | Acompañar a los clientes | 20 s | Mostrar inactividad, WhatsApp manual y avisos por correo, desde el beneficio cotidiano para el comercio. |
-| Lo que ve el cliente | 40 s | Consulta con país y DNI, saldo, premios disponibles y comercios separados. Sin instalación ni configuración del navegador. |
+| Consultar puntos y premios | 40 s | Consulta con país y DNI, saldo, premios disponibles y comercios separados. Sin instalación ni configuración del navegador. |
 | Cierre | 10 s | Cerrar el ciclo cliente, compra y premio, sin volver a enumerar toda la aplicación. |
 
 ## Sacar del relato del cliente
@@ -43,7 +43,7 @@ Bronce/Plata/Oro e IA desactivados, código histórico, restricciones del servid
 ## Repeticiones a resolver
 
 - Editar/pausar/reactivar/eliminar: aparecen por separado en promociones, productos y premios. Mostrar una sola idea de administración; no ejecutar cada combinación.
-- Vencimiento: se explica al configurar, al hablar de compras antiguas y al recorrer lotes. Explicarlo una vez con un ejemplo.
+- Vencimiento: mostrarlo una sola vez en el formulario de alta, junto con la regla de acumulación, antes de Crear empresa. Eliminar el salto posterior a Editar empresa.
 - Clientes: el alta manual, el registro público y la búsqueda ocupan cerca de 1:44. Mantener un alta, presentar el QR como alternativa y mostrar el saldo; objetivo 35 segundos.
 - Premios: premio físico, calculadora, voucher, mantenimiento, canje y rechazos suman aproximadamente 2:34. Mostrar un premio y un canje; resumir el voucher sin otro formulario completo.
 - Acceso/configuración/foto: más de 2:39 antes del recorrido del panel. Unirlo en 40 segundos y quitar la demostración de credenciales incorrectas y edición de imagen.
@@ -52,3 +52,14 @@ Bronce/Plata/Oro e IA desactivados, código histórico, restricciones del servid
 ## Criterio de la edición siguiente
 
 Seguir un mismo comercio y cliente. Mostrar una compra y un canje con antes/después; presentar las herramientas complementarias brevemente. Reescribir la locución como recorrido continuo, manteniendo Qwen masculino, y obtener una nueva alineación acústica. Reutilizar tomas auténticas y conservar originales. El recorte tiene que elegir qué enseñar, no apurar todos los procedimientos.
+
+## Correcciones acordadas para la nueva edición
+
+- Título y locución: **Consultar puntos y premios**. Evitar el término billetera.
+- Orden del alta: datos del comercio → regla de acumulación → activar o dejar sin vencimiento → días de validez cuando corresponde → revisar → crear.
+- Ejemplo continuo: diez puntos por cada mil pesos completos, con vencimiento a noventa días desde cada compra. Mostrar esa elección antes de guardar y continuar usando el mismo comercio.
+- El frontend ya ofrece esa opción durante el alta. Hace falta otra grabación auténtica: la toma original no la activa. No cubrir esa falta saltando a Editar empresa.
+
+Locución propuesta para ese paso:
+
+> Antes de crear el comercio, definimos cuántos puntos suma cada compra y si van a vencer. En este ejemplo, cada mil pesos completos suman diez puntos. Activamos el vencimiento y elegimos noventa días desde cada compra. Revisamos la configuración y creamos el comercio.

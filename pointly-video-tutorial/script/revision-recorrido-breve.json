@@ -23,10 +23,24 @@
         "02-access",
         "03-profile",
         "04-company",
-        "05-settings",
         "07-navigation"
       ],
-      "learning": "Unir acceso, alta y regla de puntos. Explicar una sola vez el vencimiento opcional."
+      "learning": "Unir acceso y alta: datos del comercio, regla de acumulación y vencimiento opcional en el formulario de creación, antes de guardar. Mantener el mismo comercio durante todo el recorrido.",
+      "actions": [
+        "Completar los datos básicos del comercio.",
+        "Definir diez puntos por cada mil pesos completos de una compra.",
+        "Activar Habilitar vencimiento de puntos en el propio formulario de creación.",
+        "Completar Días de validez de los puntos con 90.",
+        "Revisar ambas reglas y recién entonces crear la empresa.",
+        "Continuar con ese mismo comercio para clientes, compra y canje."
+      ],
+      "narrationDraft": "Antes de crear el comercio, definimos cuántos puntos suma cada compra y si van a vencer. En este ejemplo, cada mil pesos completos suman diez puntos. Activamos el vencimiento y elegimos noventa días desde cada compra. Revisamos la configuración y creamos el comercio.",
+      "newCaptureRequired": "El alta original no activa el vencimiento. Grabar otra toma auténtica que lo active y complete 90 días antes de crear. No sustituirla por la toma de Editar empresa.",
+      "frontendEvidence": [
+        "src/app/pages/new-company/new-company-page.html:305",
+        "src/app/pages/new-company/new-company-page.html:326",
+        "src/app/pages/new-company/new-company-page.ts:278"
+      ]
     },
     {
       "title": "Incorporar y encontrar clientes",
@@ -75,12 +89,12 @@
       "learning": "Mostrar inactividad, WhatsApp manual y avisos por correo, desde el beneficio cotidiano para el comercio."
     },
     {
-      "title": "Lo que ve el cliente",
+      "title": "Consultar puntos y premios",
       "targetSeconds": 40,
       "sourceChapters": [
         "24-wallet"
       ],
-      "learning": "Consulta con país y DNI, saldo, premios disponibles y comercios separados. Sin instalación ni configuración del navegador."
+      "learning": "Mostrar cómo el cliente elige país e ingresa DNI para consultar su saldo y los premios del comercio. Usar esta denominación en títulos y locución."
     },
     {
       "title": "Cierre",
@@ -134,18 +148,16 @@
       "shortSection": [
         "Empezar y configurar el comercio"
       ],
-      "reason": "Conservar el aprendizaje principal y un solo ejemplo; retirar variantes, repeticiones y notas de implementación."
+      "reason": "Nueva toma: completar nombre, regla de puntos y vencimiento opcional antes de crear el comercio, conservando la continuidad del ejemplo."
     },
     {
       "chapter": "05-settings",
       "title": "Reglas y vencimientos",
       "startSeconds": 117.15,
       "durationSeconds": 34.333333333333336,
-      "decision": "CONDENSE",
-      "shortSection": [
-        "Empezar y configurar el comercio"
-      ],
-      "reason": "Conservar el aprendizaje principal y un solo ejemplo; retirar variantes, repeticiones y notas de implementación."
+      "decision": "REMOVE_AS_STANDALONE",
+      "shortSection": [],
+      "reason": "La regla de acumulación y el vencimiento se enseñan una sola vez durante el alta; eliminar el salto posterior a Editar empresa."
     },
     {
       "chapter": "06-photo",
@@ -340,7 +352,7 @@
       "durationSeconds": 38.5,
       "decision": "CONDENSE",
       "shortSection": [
-        "Lo que ve el cliente"
+        "Consultar puntos y premios"
       ],
       "reason": "Conservar el aprendizaje principal y un solo ejemplo; retirar variantes, repeticiones y notas de implementación."
     },
@@ -413,5 +425,11 @@
     "Regla de vencimiento comunicada una sola vez.",
     "El envío final por WhatsApp es manual; no prometer automatización inexistente."
   ],
-  "preserveOriginal": true
+  "preserveOriginal": true,
+  "maximumSeconds": 360,
+  "acceptedEditorialDecisions": [
+    "Denominación para el cliente: Consultar puntos y premios; evitar billetera.",
+    "Enseñar acumulación y vencimiento juntos en Crear empresa, antes de guardar.",
+    "No repetir vencimiento desde Editar empresa ni cambiar de comercio sin continuidad."
+  ]
 }
