@@ -1,0 +1,417 @@
+{
+  "state": "EDITORIAL_REVIEW_NOT_A_NEW_RENDER",
+  "sourceVideo": "output/Pointly-tutorial-completo-1080p60.mp4",
+  "sourceSha256": "37bf5794973e2937a9442bc5d2d391789dab691988bdec14a048d288a1648b7c",
+  "sourceDurationSeconds": 970.4,
+  "requestedPurpose": "Recorrido práctico para conocer Pointly y aprender lo esencial; ya no una cobertura exhaustiva de todas las funciones.",
+  "targetSeconds": 300,
+  "estimatedReductionPercent": 69.1,
+  "timingStatus": "Presupuesto editorial estimado; el tiempo final dependerá de la nueva narración y de la lectura útil de la UI. No es un SRT ni una alineación definitiva.",
+  "sections": [
+    {
+      "title": "Qué es Pointly",
+      "targetSeconds": 15,
+      "sourceChapters": [
+        "01-intro"
+      ],
+      "learning": "Explicar clientes, compras y recompensas con la interfaz a la vista."
+    },
+    {
+      "title": "Empezar y configurar el comercio",
+      "targetSeconds": 40,
+      "sourceChapters": [
+        "02-access",
+        "03-profile",
+        "04-company",
+        "05-settings",
+        "07-navigation"
+      ],
+      "learning": "Unir acceso, alta y regla de puntos. Explicar una sola vez el vencimiento opcional."
+    },
+    {
+      "title": "Incorporar y encontrar clientes",
+      "targetSeconds": 35,
+      "sourceChapters": [
+        "08-client",
+        "09-qr",
+        "10-search"
+      ],
+      "learning": "Una alta manual, alternativa del QR y consulta breve del saldo e historial."
+    },
+    {
+      "title": "Registrar una compra",
+      "targetSeconds": 40,
+      "sourceChapters": [
+        "11-sale"
+      ],
+      "learning": "Una compra real, estimación de puntos y resultado. Omitir el capítulo de incidencias."
+    },
+    {
+      "title": "Crear un premio y registrar un canje",
+      "targetSeconds": 60,
+      "sourceChapters": [
+        "16-physical-reward",
+        "17-voucher",
+        "19-redeem"
+      ],
+      "learning": "Un premio físico con costo en puntos; mostrar el voucher como alternativa y concretar un canje con su efecto en el saldo."
+    },
+    {
+      "title": "Promociones y catálogo",
+      "targetSeconds": 40,
+      "sourceChapters": [
+        "13-promotion",
+        "15-products"
+      ],
+      "learning": "Un ejemplo de doble de puntos y una tarjeta de producto; sin repetir todos los campos ni las operaciones de mantenimiento."
+    },
+    {
+      "title": "Acompañar a los clientes",
+      "targetSeconds": 20,
+      "sourceChapters": [
+        "21-inactive",
+        "23-emails"
+      ],
+      "learning": "Mostrar inactividad, WhatsApp manual y avisos por correo, desde el beneficio cotidiano para el comercio."
+    },
+    {
+      "title": "Lo que ve el cliente",
+      "targetSeconds": 40,
+      "sourceChapters": [
+        "24-wallet"
+      ],
+      "learning": "Consulta con país y DNI, saldo, premios disponibles y comercios separados. Sin instalación ni configuración del navegador."
+    },
+    {
+      "title": "Cierre",
+      "targetSeconds": 10,
+      "sourceChapters": [
+        "30-close"
+      ],
+      "learning": "Cerrar el ciclo cliente, compra y premio, sin volver a enumerar toda la aplicación."
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": "01-intro",
+      "title": "Pointly, paso a paso",
+      "startSeconds": 0.0,
+      "durationSeconds": 25.85,
+      "decision": "CONDENSE",
+      "shortSection": [
+        "Qué es Pointly"
+      ],
+      "reason": "Conservar el aprendizaje principal y un solo ejemplo; retirar variantes, repeticiones y notas de implementación."
+    },
+    {
+      "chapter": "02-access",
+      "title": "Ingresar a tu cuenta",
+      "startSeconds": 25.85,
+      "durationSeconds": 37.03333333333333,
+      "decision": "CONDENSE",
+      "shortSection": [
+        "Empezar y configurar el comercio"
+      ],
+      "reason": "Conservar el aprendizaje principal y un solo ejemplo; retirar variantes, repeticiones y notas de implementación."
+    },
+    {
+      "chapter": "03-profile",
+      "title": "Primer ingreso",
+      "startSeconds": 62.88333333333333,
+      "durationSeconds": 25.85,
+      "decision": "CONDENSE",
+      "shortSection": [
+        "Empezar y configurar el comercio"
+      ],
+      "reason": "Conservar el aprendizaje principal y un solo ejemplo; retirar variantes, repeticiones y notas de implementación."
+    },
+    {
+      "chapter": "04-company",
+      "title": "Crear el comercio",
+      "startSeconds": 88.73333333333333,
+      "durationSeconds": 28.416666666666668,
+      "decision": "CONDENSE",
+      "shortSection": [
+        "Empezar y configurar el comercio"
+      ],
+      "reason": "Conservar el aprendizaje principal y un solo ejemplo; retirar variantes, repeticiones y notas de implementación."
+    },
+    {
+      "chapter": "05-settings",
+      "title": "Reglas y vencimientos",
+      "startSeconds": 117.15,
+      "durationSeconds": 34.333333333333336,
+      "decision": "CONDENSE",
+      "shortSection": [
+        "Empezar y configurar el comercio"
+      ],
+      "reason": "Conservar el aprendizaje principal y un solo ejemplo; retirar variantes, repeticiones y notas de implementación."
+    },
+    {
+      "chapter": "06-photo",
+      "title": "Foto y enlace del comercio",
+      "startSeconds": 151.48333333333332,
+      "durationSeconds": 33.13333333333333,
+      "decision": "REMOVE_AS_STANDALONE",
+      "shortSection": [],
+      "reason": "El recorte, formatos y reemplazo de fotos son ayuda específica; basta ver el negocio identificado en el recorrido."
+    },
+    {
+      "chapter": "07-navigation",
+      "title": "Orientarse en el panel",
+      "startSeconds": 184.61666666666667,
+      "durationSeconds": 38.733333333333334,
+      "decision": "CONDENSE",
+      "shortSection": [
+        "Empezar y configurar el comercio"
+      ],
+      "reason": "Usar brevemente el panel y los accesos cotidianos, sin enumerar todas las pestañas ni comentar gráficos ausentes."
+    },
+    {
+      "chapter": "08-client",
+      "title": "Agregar un cliente",
+      "startSeconds": 223.35,
+      "durationSeconds": 34.75,
+      "decision": "CONDENSE",
+      "shortSection": [
+        "Incorporar y encontrar clientes"
+      ],
+      "reason": "Conservar el aprendizaje principal y un solo ejemplo; retirar variantes, repeticiones y notas de implementación."
+    },
+    {
+      "chapter": "09-qr",
+      "title": "Registro por QR",
+      "startSeconds": 258.1,
+      "durationSeconds": 30.733333333333334,
+      "decision": "CONDENSE",
+      "shortSection": [
+        "Incorporar y encontrar clientes"
+      ],
+      "reason": "Conservar el aprendizaje principal y un solo ejemplo; retirar variantes, repeticiones y notas de implementación."
+    },
+    {
+      "chapter": "10-search",
+      "title": "Buscar y revisar clientes",
+      "startSeconds": 288.8333333333333,
+      "durationSeconds": 38.733333333333334,
+      "decision": "CONDENSE",
+      "shortSection": [
+        "Incorporar y encontrar clientes"
+      ],
+      "reason": "Conservar el aprendizaje principal y un solo ejemplo; retirar variantes, repeticiones y notas de implementación."
+    },
+    {
+      "chapter": "11-sale",
+      "title": "Registrar una compra",
+      "startSeconds": 327.56666666666666,
+      "durationSeconds": 30.25,
+      "decision": "CONDENSE",
+      "shortSection": [
+        "Registrar una compra"
+      ],
+      "reason": "Conservar el aprendizaje principal y un solo ejemplo; retirar variantes, repeticiones y notas de implementación."
+    },
+    {
+      "chapter": "12-sales-history",
+      "title": "Ventas e incidencias",
+      "startSeconds": 357.81666666666666,
+      "durationSeconds": 36.416666666666664,
+      "decision": "REMOVE_AS_STANDALONE",
+      "shortSection": [],
+      "reason": "Diagnóstico de campos, cortes de red y reintentos: innecesario para una primera visión."
+    },
+    {
+      "chapter": "13-promotion",
+      "title": "Crear una promociÃ³n",
+      "startSeconds": 394.23333333333335,
+      "durationSeconds": 30.816666666666666,
+      "decision": "CONDENSE",
+      "shortSection": [
+        "Promociones y catálogo"
+      ],
+      "reason": "Conservar el aprendizaje principal y un solo ejemplo; retirar variantes, repeticiones y notas de implementación."
+    },
+    {
+      "chapter": "14-promotion-life",
+      "title": "Editar, pausar y eliminar",
+      "startSeconds": 425.05,
+      "durationSeconds": 29.783333333333335,
+      "decision": "REMOVE_AS_STANDALONE",
+      "shortSection": [],
+      "reason": "Editar, pausar, reactivar y eliminar repite un patrón de mantenimiento."
+    },
+    {
+      "chapter": "15-products",
+      "title": "Productos del catÃ¡logo",
+      "startSeconds": 454.8333333333333,
+      "durationSeconds": 39.85,
+      "decision": "CONDENSE",
+      "shortSection": [
+        "Promociones y catálogo"
+      ],
+      "reason": "Conservar el aprendizaje principal y un solo ejemplo; retirar variantes, repeticiones y notas de implementación."
+    },
+    {
+      "chapter": "16-physical-reward",
+      "title": "Premios fÃ­sicos y calculadora",
+      "startSeconds": 494.68333333333334,
+      "durationSeconds": 32.53333333333333,
+      "decision": "CONDENSE",
+      "shortSection": [
+        "Crear un premio y registrar un canje"
+      ],
+      "reason": "Conservar el aprendizaje principal y un solo ejemplo; retirar variantes, repeticiones y notas de implementación."
+    },
+    {
+      "chapter": "17-voucher",
+      "title": "Vouchers de descuento",
+      "startSeconds": 527.2166666666667,
+      "durationSeconds": 28.816666666666666,
+      "decision": "CONDENSE",
+      "shortSection": [
+        "Crear un premio y registrar un canje"
+      ],
+      "reason": "Conservar el aprendizaje principal y un solo ejemplo; retirar variantes, repeticiones y notas de implementación."
+    },
+    {
+      "chapter": "18-reward-life",
+      "title": "Administrar premios",
+      "startSeconds": 556.0333333333333,
+      "durationSeconds": 29.533333333333335,
+      "decision": "REMOVE_AS_STANDALONE",
+      "shortSection": [],
+      "reason": "Repite el mismo patrón explicado para promociones."
+    },
+    {
+      "chapter": "19-redeem",
+      "title": "Registrar un canje",
+      "startSeconds": 585.5666666666667,
+      "durationSeconds": 31.383333333333333,
+      "decision": "CONDENSE",
+      "shortSection": [
+        "Crear un premio y registrar un canje"
+      ],
+      "reason": "Conservar el aprendizaje principal y un solo ejemplo; retirar variantes, repeticiones y notas de implementación."
+    },
+    {
+      "chapter": "20-redeem-errors",
+      "title": "Cuando no se puede canjear",
+      "startSeconds": 616.95,
+      "durationSeconds": 31.45,
+      "decision": "REMOVE_AS_STANDALONE",
+      "shortSection": [],
+      "reason": "Casos de rechazo, operaciones inciertas y reintentos: ayuda posterior."
+    },
+    {
+      "chapter": "21-inactive",
+      "title": "Clientes sin actividad",
+      "startSeconds": 648.4,
+      "durationSeconds": 29.45,
+      "decision": "CONDENSE",
+      "shortSection": [
+        "Acompañar a los clientes"
+      ],
+      "reason": "Conservar el aprendizaje principal y un solo ejemplo; retirar variantes, repeticiones y notas de implementación."
+    },
+    {
+      "chapter": "22-archive",
+      "title": "Archivar y reactivar",
+      "startSeconds": 677.85,
+      "durationSeconds": 29.616666666666667,
+      "decision": "REMOVE_AS_STANDALONE",
+      "shortSection": [],
+      "reason": "Archivo, reactivación y cambios de vista comercial/pública desvían el recorrido inicial."
+    },
+    {
+      "chapter": "23-emails",
+      "title": "Correos a clientes",
+      "startSeconds": 707.4666666666667,
+      "durationSeconds": 32.983333333333334,
+      "decision": "CONDENSE",
+      "shortSection": [
+        "Acompañar a los clientes"
+      ],
+      "reason": "Conservar el aprendizaje principal y un solo ejemplo; retirar variantes, repeticiones y notas de implementación."
+    },
+    {
+      "chapter": "24-wallet",
+      "title": "La billetera del cliente",
+      "startSeconds": 740.45,
+      "durationSeconds": 38.5,
+      "decision": "CONDENSE",
+      "shortSection": [
+        "Lo que ve el cliente"
+      ],
+      "reason": "Conservar el aprendizaje principal y un solo ejemplo; retirar variantes, repeticiones y notas de implementación."
+    },
+    {
+      "chapter": "25-expiration",
+      "title": "Detalle de puntos",
+      "startSeconds": 778.95,
+      "durationSeconds": 33.05,
+      "decision": "REMOVE_AS_STANDALONE",
+      "shortSection": [],
+      "reason": "Repite las advertencias de vencimiento y entra en paginación de lotes históricos."
+    },
+    {
+      "chapter": "26-wallet-access",
+      "title": "Guardar el acceso",
+      "startSeconds": 812.0,
+      "durationSeconds": 36.9,
+      "decision": "REMOVE_AS_STANDALONE",
+      "shortSection": [],
+      "reason": "Recordar/quitar accesos e instalar según navegador se reserva para ayuda específica."
+    },
+    {
+      "chapter": "27-company-status",
+      "title": "Estado del comercio y plan",
+      "startSeconds": 848.9,
+      "durationSeconds": 31.05,
+      "decision": "REMOVE_AS_STANDALONE",
+      "shortSection": [],
+      "reason": "Disponibilidad, cupos, planes y archivo tras treinta días: administración avanzada."
+    },
+    {
+      "chapter": "28-roles",
+      "title": "Permisos y administraciÃ³n",
+      "startSeconds": 879.95,
+      "durationSeconds": 32.81666666666667,
+      "decision": "REMOVE_AS_STANDALONE",
+      "shortSection": [],
+      "reason": "Vista de administración general y detalles de permisos/código ajenos al usuario comercial."
+    },
+    {
+      "chapter": "29-help",
+      "title": "Ayuda y problemas frecuentes",
+      "startSeconds": 912.7666666666667,
+      "durationSeconds": 31.7,
+      "decision": "REMOVE_AS_STANDALONE",
+      "shortSection": [],
+      "reason": "Tema, búsquedas vacías, errores y cierre de sesión no necesitan un capítulo propio aquí."
+    },
+    {
+      "chapter": "30-close",
+      "title": "Listo para el uso diario",
+      "startSeconds": 944.4666666666667,
+      "durationSeconds": 25.933333333333334,
+      "decision": "CONDENSE",
+      "shortSection": [
+        "Cierre"
+      ],
+      "reason": "Conservar el aprendizaje principal y un solo ejemplo; retirar variantes, repeticiones y notas de implementación."
+    }
+  ],
+  "removeFromClientNarration": [
+    "Niveles o IA desactivados, feature flags y código histórico.",
+    "Vista SUPER_ADMIN, permisos del servidor y ausencia de un panel de gráficos.",
+    "Detalles de proveedores o configuración del entorno DEMO y explicaciones sobre campos de API.",
+    "Listas de funciones que no existen, como carrito, stock o facturación."
+  ],
+  "retainConsequences": [
+    "Qué compra suma puntos y cuál es la estimación.",
+    "Cuántos puntos cuesta un premio y qué saldo queda al canjear.",
+    "Regla de vencimiento comunicada una sola vez.",
+    "El envío final por WhatsApp es manual; no prometer automatización inexistente."
+  ],
+  "preserveOriginal": true
+}
