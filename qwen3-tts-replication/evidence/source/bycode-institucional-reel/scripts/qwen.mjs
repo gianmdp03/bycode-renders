@@ -1,0 +1,12 @@
+import path from 'node:path';
+import fs from 'node:fs';
+import {spawnSync} from 'node:child_process';
+import {root,repo,python,ffmpeg,ffprobe} from './tools.mjs';
+const qwenPython=path.join(repo,'doctorchart-video-tutorial/.local/qwen-venv/Scripts/python.exe');
+const run=(bin,args,env=process.env)=>{const result=spawnSync(bin,args,{cwd:root,stdio:'inherit',windowsHide:true,env});if(result.error)throw result.error;if(result.status!==0)process.exit(result.status??1)};
+fs.writeFileSync(path.join(root,'qa/qwen-alignment.json'),JSON.stringify({status:'PENDING',reason:'Generación o realineación en curso; no renderizar el runtime anterior.'},null,2));
+run(qwenPython,['-u',path.join(root,'scripts/qwen-generate.py')]);
+run(python,['-u',path.join(root,'scripts/qwen-splice.py')],{...process.env,REEL_FFMPEG:ffmpeg,PYTHONIOENCODING:'utf-8'});
+run(python,['-u',path.join(root,'scripts/qwen-align.py')],{...process.env,REEL_FFMPEG:ffmpeg,REEL_FFPROBE:ffprobe,PYTHONIOENCODING:'utf-8'});
+run(process.execPath,[path.join(root,'scripts/render.mjs'),'qwen']);
+run(process.execPath,[path.join(root,'scripts/qa.mjs'),'out/bycode_preview_qwen_masculina.mp4']);

@@ -1,0 +1,30 @@
+[aist#0:0/pcm_s16le @ 000001f07c991a40] Guessed Channel Layout: stereo
+Input #0, wav, from 'qwen3-tts-replication/demo/public/reference.wav':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Duration: 00:00:06.88, bitrate: 1536 kb/s
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0: Audio: pcm_s16le, 192000 Hz, stereo, s16, 6144 kb/s
+      Metadata:
+        encoder         : Lavc61.19.100 pcm_s16le
+[Parsed_loudnorm_0 @ 000001f07c99b640] 
+{
+	"input_i" : "-16.73",
+	"input_tp" : "-4.51",
+	"input_lra" : "1.90",
+	"input_thresh" : "-26.82",
+	"output_i" : "-16.34",
+	"output_tp" : "-4.24",
+	"output_lra" : "0.40",
+	"output_thresh" : "-26.47",
+	"normalization_type" : "dynamic",
+	"target_offset" : "0.34"
+}
+[out#0/null @ 000001f07c990200] video:0KiB audio:5160KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:00:06.90 bitrate=N/A speed=26.3x    

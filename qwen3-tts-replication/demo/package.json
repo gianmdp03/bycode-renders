@@ -1,0 +1,5 @@
+{
+  "name":"bycode-replication-demo","version":"1.0.0","private":true,"type":"module",
+  "dependencies":{"@bycode/video-system":"file:../vendor/bycode-video-system-0.1.0.tgz","@remotion/bundler":"4.0.539","@remotion/renderer":"4.0.539","@remotion/cli":"4.0.539","@remotion/captions":"4.0.539","remotion":"4.0.539","react":"19.2.3","react-dom":"19.2.3"},
+  "scripts":{"render":"node render.mjs","studio":"remotion studio src/index.tsx --no-open"}
+}

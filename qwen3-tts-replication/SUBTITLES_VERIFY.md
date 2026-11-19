@@ -1,0 +1,15 @@
+# Prueba extremo a extremo y criterios
+
+Se realizó generación NUEVA con la instalación original (sin cambiarla), referencia masculina fija verificada y texto solicitado. WAV6,88s, 24kHz nativo → 48kHz estéreo PCM16, seed20261030/max_new_tokens384. Generación registrada~20,11s; VRAM asignada pico~2608,74MiB. No incluye tiempo de carga.
+
+Se procesó ese WAV definitivo con faster-whisper small revisión fija CPU/int8. 18 palabras, similitud normalizada1.0, sin diferencias; puntuación y marcas escritas restauradas sobre coincidencias. alignment.json conserva el reconocimiento y sus probabilidades: Bycode tiene confianza baja (~0,044) aun siendo texto coincidente, lo que NO debe ocultarse. El prompt de vocabulario puede influir. La pausa entre Software. y En queda fuera de los cues tutorial; no se fabricaron timestamps según texto.
+
+Se exportaron words.json, phrases.json, reference.srt UTF-8 y dos MP4 Remotion. Se revisaron imágenes reales renderizadas para legibilidad y ausencia de recortes. Tutorial usa fuente28px y frases, reel destaca la palabra activa con PromoCaptions. La iteración inicial de segmentación dejaba rápida aislada: se ajustó a 88 caracteres del segmentador revisado existente y se rerenderizó; versiones previas se conservan sólo como QA.
+
+La prueba final está en demo/public/renders-final/. El reporte demo/public/qa.json registra codecs, tamaños, FPS, duración, decodificación, correlación de AAC vs WAV y dropouts. Se comparan señales con correlación cruzada y bloques de100ms de voz; un desfase >40ms o correlación<0,98 falla. En el host se obtuvo correlación>0,9999, desfase0 y ningún dropout. Los clips duran~6,89s/413 frames, 60fps, AAC48kHz estéreo. La diferencia de duración respecto al WAV es redondeo de frames/encapsulado.
+
+Para revisión perceptual abrir reference.wav y ambos MP4. Confirmar Bycode/Pointly, acentos, última palabra completa, pausas, texto activo y ausencia de audio cortado. La auditoría técnica y la inspección visual NO sustituyen la aprobación humana de naturalidad/pronunciación ni prueban exactitud fonética de cada frontera. No se declara una escucha humana realizada ni marca aprobada.
+
+En el equipo nuevo test.ps1 genera en runs/ y ejecuta el mismo pipeline y QA. No basta abrir el WAV incluido o ejecutar scripts sin comparar salidas. Exigir igualdad de hashes de pesos/referencia/código, versiones pinneadas, texto/opciones y una revisión audiovisual; se permite variación de audio entre GPUs con justificación. La instalación limpia en ese equipo no fue ejecutada en esta auditoría.
+
+Medición del WAV final: -16,73 LUFS integrados y -4,51 dBTP (input_i/input_tp en evidence/reference-loudness.txt). Son medidas reales; -16 LUFS es el objetivo del filtro, no un valor garantizado por una sola pasada. Fotogramas extraídos del MP4 codificado en evidence/*-contact.png confirman legibilidad de ambos estilos durante la secuencia. El sondeo identifica vídeo420 de rango completo como yuvj420p; no confundir la etiqueta con un cambio de resolución.

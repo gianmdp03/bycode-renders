@@ -1,0 +1,146 @@
+{
+  "method": "faster-whisper small acoustic timestamps, CPU int8; NOT WhisperX forced alignment",
+  "audio_sha256": "913fee17bfda3412ccbbeec6e8520fa5cf949d18cf3c2ca106c1cf5e716067b1",
+  "duration": 6.88,
+  "words": [
+    {
+      "word": "Bienvenidos",
+      "start": 0.0,
+      "end": 0.7,
+      "probability": 0.9192329943180084,
+      "display": "Bienvenidos"
+    },
+    {
+      "word": "a",
+      "start": 0.7,
+      "end": 0.94,
+      "probability": 0.9957945346832275,
+      "display": "a"
+    },
+    {
+      "word": "Bycode",
+      "start": 0.94,
+      "end": 1.3,
+      "probability": 0.04398053977638483,
+      "display": "Bycode"
+    },
+    {
+      "word": "Software.",
+      "start": 1.3,
+      "end": 1.68,
+      "probability": 0.9832899570465088,
+      "display": "Software."
+    },
+    {
+      "word": "En",
+      "start": 2.24,
+      "end": 2.38,
+      "probability": 0.9920892715454102,
+      "display": "En"
+    },
+    {
+      "word": "este",
+      "start": 2.38,
+      "end": 2.56,
+      "probability": 0.9971936941146851,
+      "display": "este"
+    },
+    {
+      "word": "tutorial",
+      "start": 2.56,
+      "end": 2.9,
+      "probability": 0.9958986639976501,
+      "display": "tutorial"
+    },
+    {
+      "word": "vamos",
+      "start": 2.9,
+      "end": 3.28,
+      "probability": 0.7929940223693848,
+      "display": "vamos"
+    },
+    {
+      "word": "a",
+      "start": 3.28,
+      "end": 3.52,
+      "probability": 0.987510085105896,
+      "display": "a"
+    },
+    {
+      "word": "aprender",
+      "start": 3.52,
+      "end": 3.8,
+      "probability": 0.9979700446128845,
+      "display": "aprender"
+    },
+    {
+      "word": "a",
+      "start": 3.8,
+      "end": 3.98,
+      "probability": 0.998358428478241,
+      "display": "a"
+    },
+    {
+      "word": "utilizar",
+      "start": 3.98,
+      "end": 4.32,
+      "probability": 0.9833970665931702,
+      "display": "utilizar"
+    },
+    {
+      "word": "Pointly",
+      "start": 4.32,
+      "end": 4.98,
+      "probability": 0.7283189594745636,
+      "display": "Pointly"
+    },
+    {
+      "word": "de",
+      "start": 4.98,
+      "end": 5.2,
+      "probability": 0.9807809591293335,
+      "display": "de"
+    },
+    {
+      "word": "forma",
+      "start": 5.2,
+      "end": 5.42,
+      "probability": 0.9985314607620239,
+      "display": "forma"
+    },
+    {
+      "word": "sencilla",
+      "start": 5.42,
+      "end": 6.02,
+      "probability": 0.997538149356842,
+      "display": "sencilla"
+    },
+    {
+      "word": "y",
+      "start": 6.02,
+      "end": 6.28,
+      "probability": 0.99583899974823,
+      "display": "y"
+    },
+    {
+      "word": "rápida.",
+      "start": 6.28,
+      "end": 6.74,
+      "probability": 0.9970932304859161,
+      "display": "rápida."
+    }
+  ],
+  "transcript": "Bienvenidos a Bycode Software. En este tutorial vamos a aprender a utilizar Pointly de forma sencilla y rápida.",
+  "scriptSimilarity": 1.0,
+  "differences": [],
+  "status": "ACOUSTIC_MATCH",
+  "asr": {
+    "language": "es",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "condition_on_previous_text": false,
+    "initial_prompt": "Pointly, Bycode Software, DNI, QR, WhatsApp, JPEG, PNG, WebP."
+  },
+  "normalization": "Explicit brand aliases; only matched typography restored; unmatched ASR preserved"
+}

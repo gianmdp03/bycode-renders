@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "source_files_unchanged": 18,
+  "reference_sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9",
+  "tracked_git_diff": "No tracked changes; checked git status"
+}

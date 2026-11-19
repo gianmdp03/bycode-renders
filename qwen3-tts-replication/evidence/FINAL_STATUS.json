@@ -1,0 +1,13 @@
+{
+  "local_end_to_end": "TECHNICAL_PASS",
+  "fresh_Qwen_generation": true,
+  "acoustic_word_count": 18,
+  "word_script_match": 1.0,
+  "independent_demo_npm_ci_and_render": "PASS",
+  "pip_check_original_envs": "PASS",
+  "pinned_artifacts_dry_run": "PASS except Torch/torchaudio availability not re-downloaded; source CUDA installation used",
+  "model_and_voice_hashes": "PASS",
+  "production_preservation": "PASS",
+  "human_listening_approval": "PENDING",
+  "colleague_clean_installation": "NOT_RUN"
+}

@@ -1,0 +1,7 @@
+1
+00:00:00,000 --> 00:00:01,680
+Bienvenidos a Bycode Software.
+
+2
+00:00:02,240 --> 00:00:06,740
+En este tutorial vamos a aprender a utilizar Pointly de forma sencilla y rápida.

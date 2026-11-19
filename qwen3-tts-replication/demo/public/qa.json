@@ -1,0 +1,56 @@
+{
+  "status": "TECHNICAL_PASS",
+  "asr": "ACOUSTIC_MATCH",
+  "wordCount": 18,
+  "scriptSimilarity": 1.0,
+  "differences": [],
+  "human_listening_review": "Pending; technical checks do not certify naturalness, accent or word boundaries perceptually",
+  "videos": [
+    {
+      "mode": "tutorial",
+      "sha256": "97624a89d4456c9521efe5ebcc6c357a4d8cf2f3e3d5f8b681c0de8f0c9dd120",
+      "duration": 6.891,
+      "video": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "60/1",
+        "pix_fmt": "yuvj420p",
+        "nb_frames": "413"
+      },
+      "audio": {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2
+      },
+      "decodedAudioCorrelation": 0.9999733433715214,
+      "lagSeconds": 0.0,
+      "unexpectedDropouts": [],
+      "decodeErrors": "",
+      "pass": true
+    },
+    {
+      "mode": "reel",
+      "sha256": "dfb9fb5dee8a4ba4aad8ac37015f2fdf1e6ae1e35cea65041a77c142b9352faa",
+      "duration": 6.891,
+      "video": {
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "60/1",
+        "pix_fmt": "yuvj420p",
+        "nb_frames": "413"
+      },
+      "audio": {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2
+      },
+      "decodedAudioCorrelation": 0.9999733433715214,
+      "lagSeconds": 0.0,
+      "unexpectedDropouts": [],
+      "decodeErrors": "",
+      "pass": true
+    }
+  ]
+}

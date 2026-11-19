@@ -1,0 +1,492 @@
+[
+  {
+    "file": "audio-tools-requirements.lock.txt",
+    "bytes": 462,
+    "sha256": "c5ef576cb721df14f65d9d7965555a5c483437334b9a900c471d29cc8570911b"
+  },
+  {
+    "file": "demo/package-lock.json",
+    "bytes": 144308,
+    "sha256": "e5157a2f6f3bcbee80f4b02b06d6927848234d1d74a5c16a139f26eba2ff0ca0"
+  },
+  {
+    "file": "demo/package.json",
+    "bytes": 448,
+    "sha256": "2953662f123153bbc4d24b9df83cddedcc0de2b7b0036858e0e55977cea7c045"
+  },
+  {
+    "file": "demo/public/alignment.json",
+    "bytes": 3471,
+    "sha256": "261af5dfea26e9c4f28484ba4c7bea922b919a22b13dfc48d3191377d9bd06cf"
+  },
+  {
+    "file": "demo/public/fonts/google-sans.woff2",
+    "bytes": 130220,
+    "sha256": "b8059800eca3c2343d0213c3660b814190b3b598d7f1a884def558da39f77e03"
+  },
+  {
+    "file": "demo/public/fonts/OFL.txt",
+    "bytes": 4394,
+    "sha256": "07424db4089211e77dd8a0bca14fbf46e8801045d6db9061fbd6ce08e582594e"
+  },
+  {
+    "file": "demo/public/phrases.json",
+    "bytes": 379,
+    "sha256": "98da744fb9ad456713c3dfca719f753c79d060477a8eb9b47f8d25c3d7a0e25c"
+  },
+  {
+    "file": "demo/public/qa.json",
+    "bytes": 1529,
+    "sha256": "8ecfa9e229a63a4d46e69379edd5e1c5c6d405840f5a140652527d9f15af63a2"
+  },
+  {
+    "file": "demo/public/reference.generation.json",
+    "bytes": 1408,
+    "sha256": "f65634f26276e3504a768a3eaeae4fc2009882bde6d110a7ef1634df8be023c5"
+  },
+  {
+    "file": "demo/public/reference.raw.wav",
+    "bytes": 660560,
+    "sha256": "6e08c0fe98554da688f6ba91d45125282fe2712e924d9a54b00837a2151e345d"
+  },
+  {
+    "file": "demo/public/reference.srt",
+    "bytes": 185,
+    "sha256": "344dcb3ebbbef0927c30b52b3f81052f440a82daffd4a2ddf8fe5bcd99d6fea4"
+  },
+  {
+    "file": "demo/public/reference.wav",
+    "bytes": 1321038,
+    "sha256": "913fee17bfda3412ccbbeec6e8520fa5cf949d18cf3c2ca106c1cf5e716067b1"
+  },
+  {
+    "file": "demo/public/renders/reel.mp4",
+    "bytes": 516651,
+    "sha256": "6eb2db00c708f76a9fc294532159c8898f75ff9b060ae4e6a9ba7e883616588f"
+  },
+  {
+    "file": "demo/public/renders/reel.png",
+    "bytes": 74455,
+    "sha256": "37ba3d856153d838c2f3b93b9610a67c4bf515136d043edc2f3804378ba4fae1"
+  },
+  {
+    "file": "demo/public/renders/tutorial.mp4",
+    "bytes": 400875,
+    "sha256": "d13692c285f65f1abc38462730c0894c3f9150117522ef65a36069a7f1871217"
+  },
+  {
+    "file": "demo/public/renders/tutorial.png",
+    "bytes": 76696,
+    "sha256": "42434136592f63a2bbce56a27f04be10d9bc5b1ed8312a656a28347e0f6aa34c"
+  },
+  {
+    "file": "demo/public/renders-final/reel.mp4",
+    "bytes": 528762,
+    "sha256": "dfb9fb5dee8a4ba4aad8ac37015f2fdf1e6ae1e35cea65041a77c142b9352faa"
+  },
+  {
+    "file": "demo/public/renders-final/reel.png",
+    "bytes": 91796,
+    "sha256": "c8808e554f752eae0f1cbea8c4fe8f9a87623e030be452ff297981d0e8b69c9f"
+  },
+  {
+    "file": "demo/public/renders-final/tutorial.mp4",
+    "bytes": 402303,
+    "sha256": "97624a89d4456c9521efe5ebcc6c357a4d8cf2f3e3d5f8b681c0de8f0c9dd120"
+  },
+  {
+    "file": "demo/public/renders-final/tutorial.png",
+    "bytes": 77720,
+    "sha256": "04637a132a900f8835c6f75af1bd0eab77699a7ddb0c7f461ac7d3fee2a64a40"
+  },
+  {
+    "file": "demo/public/renders-reviewed/reel.mp4",
+    "bytes": 516651,
+    "sha256": "6eb2db00c708f76a9fc294532159c8898f75ff9b060ae4e6a9ba7e883616588f"
+  },
+  {
+    "file": "demo/public/renders-reviewed/reel.png",
+    "bytes": 74455,
+    "sha256": "37ba3d856153d838c2f3b93b9610a67c4bf515136d043edc2f3804378ba4fae1"
+  },
+  {
+    "file": "demo/public/renders-reviewed/tutorial.mp4",
+    "bytes": 402303,
+    "sha256": "97624a89d4456c9521efe5ebcc6c357a4d8cf2f3e3d5f8b681c0de8f0c9dd120"
+  },
+  {
+    "file": "demo/public/renders-reviewed/tutorial.png",
+    "bytes": 77720,
+    "sha256": "04637a132a900f8835c6f75af1bd0eab77699a7ddb0c7f461ac7d3fee2a64a40"
+  },
+  {
+    "file": "demo/public/words.json",
+    "bytes": 2499,
+    "sha256": "44fa4c8f12993ae76e1b93cb68db6132d02fe9d8f8bcdd44f22ff7fceea53ed1"
+  },
+  {
+    "file": "demo/render.mjs",
+    "bytes": 1762,
+    "sha256": "63115711e7361f6c45a03eea0feaeaf879118cb97cc4f8a7aa5d41cc3e7f681c"
+  },
+  {
+    "file": "demo/src/index.tsx",
+    "bytes": 2379,
+    "sha256": "12884d450710e48aaec667d41c1fba313cb440310e367581244527e41e8020e5"
+  },
+  {
+    "file": "DEPENDENCIES.md",
+    "bytes": 3194,
+    "sha256": "3a3f002a227042da1b4f39fbbf9518da0daf50430f05f0b45a3253e4d71eab97"
+  },
+  {
+    "file": "evidence/audio-tools-environment.json",
+    "bytes": 957,
+    "sha256": "967662d4e43b0681540d85460d12027732d4ccf2350b12147e41b32e3278775b"
+  },
+  {
+    "file": "evidence/cuda-runtime.json",
+    "bytes": 285,
+    "sha256": "2197571aed79785664d3d2ac93f3ff28e1c02023fbc6fc058223df7250761ff8"
+  },
+  {
+    "file": "evidence/ffmpeg-hash.json",
+    "bytes": 138,
+    "sha256": "9bb13b8e443dd9e652bfb485c5be57e34079c1cda7332da2a7b37e2374a85124"
+  },
+  {
+    "file": "evidence/final-qa-console.json",
+    "bytes": 1531,
+    "sha256": "e83142b23775d4270633a2ce5e05f2f7c0577b12539ef04a788bb5ad85be9add"
+  },
+  {
+    "file": "evidence/FINAL_STATUS.json",
+    "bytes": 512,
+    "sha256": "312512e72efac89825735fe639063355e4b25cb589157efd32e2183fd3241e7d"
+  },
+  {
+    "file": "evidence/host-tools.json",
+    "bytes": 3585,
+    "sha256": "d8879c36f09569d21d3ff117e34af4953cdad5e9f762c755079654daa2889777"
+  },
+  {
+    "file": "evidence/preservation-check.json",
+    "bytes": 213,
+    "sha256": "d24f153809aa62e4fd56b525fea6fd809b95e15d23ec8fc0008eb52bdde303f3"
+  },
+  {
+    "file": "evidence/qwen-availability.lock.txt",
+    "bytes": 1562,
+    "sha256": "2156bb6f479f489c4262618db9cab851fa55a0dcaa9fd99e5f15152fec61bb89"
+  },
+  {
+    "file": "evidence/qwen-code-hashes.json",
+    "bytes": 2446,
+    "sha256": "e8daf5d06102f39e5302f287f0aea62265a0baa54a0a211e6470793487fa45e3"
+  },
+  {
+    "file": "evidence/qwen-environment.json",
+    "bytes": 2677,
+    "sha256": "12c908d1a68f51c4f68399ac005323dcdf326730756382e0ca31015504228783"
+  },
+  {
+    "file": "evidence/qwen-install-dry-run.txt",
+    "bytes": 21826,
+    "sha256": "d53b6c0feb1549e7bfc6a1a3ee1873540b79cfdf96c0c53787f687aaf0a63f27"
+  },
+  {
+    "file": "evidence/qwen-wheel-verification.json",
+    "bytes": 105,
+    "sha256": "73559c2ea4ea4d8b5368b9f5676e88282f9bc172660a0b912a128f73d2044fe9"
+  },
+  {
+    "file": "evidence/reel-contact.png",
+    "bytes": 158985,
+    "sha256": "e561c1b3b664aa9fe98ce1117c9aacb4db0476733bde1d58f1917720e7f215bb"
+  },
+  {
+    "file": "evidence/reference-loudness.txt",
+    "bytes": 1167,
+    "sha256": "f6b0bb7fefe201d1ded79677956b0ad063a8daf163f16b81b1fd905cb50dce09"
+  },
+  {
+    "file": "evidence/source/bycode-institucional-reel/scripts/qwen-align.py",
+    "bytes": 8288,
+    "sha256": "815a8895017194c9d53a7915cd76f30cbec6106f8a63c99f581514992c240673"
+  },
+  {
+    "file": "evidence/source/bycode-institucional-reel/scripts/qwen-generate.py",
+    "bytes": 4839,
+    "sha256": "e71d024c80a9d6cd2d2b16c34c78921ef2982dc5cde9662e8f6aac1554bc0756"
+  },
+  {
+    "file": "evidence/source/bycode-institucional-reel/scripts/qwen.mjs",
+    "bytes": 1153,
+    "sha256": "109fb98907c09a6159100f307d4cc642c8bf1c3dc1e49274181e0ef47a26723e"
+  },
+  {
+    "file": "evidence/source/doctorchart-promo-reel/render/qwen.py",
+    "bytes": 11762,
+    "sha256": "da8934de447c55f8761cdebd2a5818edc1b5a925a1146c31fe666e4109180526"
+  },
+  {
+    "file": "evidence/source/doctorchart-video-tutorial/automation/compile-ai-video.py",
+    "bytes": 8070,
+    "sha256": "44381d6aa10eab18bc6c3a4b08c28c64db682a5c4c6476f4fa150c525c950e49"
+  },
+  {
+    "file": "evidence/source/doctorchart-video-tutorial/automation/qwen-worker.py",
+    "bytes": 4444,
+    "sha256": "29d862229333e36d98ed28e19c96acdaf0e0c419fd3cee16a66c96572ecb3242"
+  },
+  {
+    "file": "evidence/source/doctorchart-video-tutorial/automation/setup-qwen.py",
+    "bytes": 5255,
+    "sha256": "aa76531d2f32dd0431db933e4acd85edd9f8d7ffd7ded9f5064f90f6e92266cb"
+  },
+  {
+    "file": "evidence/source/doctorchart-video-tutorial/docs/qwen-base-provenance.json",
+    "bytes": 2241,
+    "sha256": "9e7cbea1cfee2c4c1b1f0ff54c39e4c807cb19e20881e1535b00f9683aa214fb"
+  },
+  {
+    "file": "evidence/source/doctorchart-video-tutorial/docs/qwen-provenance.json",
+    "bytes": 2255,
+    "sha256": "feeba8ac559233c61aed1a249bda19cf1160137ab46bbdc851aa2c2a84a5fc06"
+  },
+  {
+    "file": "evidence/source/pointly-promo-reel/scripts/align-mix.py",
+    "bytes": 8944,
+    "sha256": "c7dd837b4aa2afe8d03a3d50ac5e08d39afd3dc03c707436fd8717c417144aa0"
+  },
+  {
+    "file": "evidence/source/pointly-promo-reel/scripts/qwen-generate.py",
+    "bytes": 5050,
+    "sha256": "3119a5642ff3e38803a07b61c0d7c44f6ce9145ab563959b463ef0e2dbef1249"
+  },
+  {
+    "file": "evidence/source/pointly-video-tutorial/automation/align.py",
+    "bytes": 3631,
+    "sha256": "2e23839a5d0aa18271143729d5a33a463af42595ad0694ea7c1949b7920dc72c"
+  },
+  {
+    "file": "evidence/source/pointly-video-tutorial/automation/narrate.py",
+    "bytes": 3969,
+    "sha256": "6d8b4142db0d37e5b76ecc57ff7e501fe3c71d98b5411361bcc276357d89e192"
+  },
+  {
+    "file": "evidence/source/pointly-video-tutorial/automation/revise-captions.mjs",
+    "bytes": 2593,
+    "sha256": "fb1015ecbc3ada7bd86c1ca50219bd088eff1a492186f5b6b1d925b18ef5c85d"
+  },
+  {
+    "file": "evidence/source/pointly-video-tutorial/remotion/src/Chapter.tsx",
+    "bytes": 3646,
+    "sha256": "af27a6f9465c6ffb168dbaf1629e9b339b6fefe9ee9ac8dda8b5eb688b08fe3c"
+  },
+  {
+    "file": "evidence/source/pointly-video-tutorial/remotion/src/fonts.ts",
+    "bytes": 456,
+    "sha256": "c8340aa7f9c12f1743335eb2f3c0694c2f941306becfcef26f972731c7de84c8"
+  },
+  {
+    "file": "evidence/source/shared/bycode-video-system/src/bycode-brand/products.ts",
+    "bytes": 2833,
+    "sha256": "b42079a30a9f423382a663a73783170e64ea6c1982a4e7520414817efa880655"
+  },
+  {
+    "file": "evidence/source/shared/bycode-video-system/src/bycode-promo/captions.tsx",
+    "bytes": 1729,
+    "sha256": "7dd34f940b2744ec25c355d344c63a789edcdf37bd27e7598ca06766961e4238"
+  },
+  {
+    "file": "evidence/source-manifest.json",
+    "bytes": 2851,
+    "sha256": "03a5673deae471fa96315eb3a71b5e628cfd35e10d65aad1eb9dc6d67d396725"
+  },
+  {
+    "file": "evidence/subtitles-environment.json",
+    "bytes": 963,
+    "sha256": "fd508278d6ad6a93e56693b421a04d94354c57e34a0049ef0e60405901daa531"
+  },
+  {
+    "file": "evidence/subtitles-install-dry-run.txt",
+    "bytes": 6448,
+    "sha256": "baad4e3d688d036af8e454462103dc37bcb19d3a43c81782c392928eac964a87"
+  },
+  {
+    "file": "evidence/tutorial-contact.png",
+    "bytes": 173301,
+    "sha256": "b44774cd6b72ff1d5394556443d88934741e4537a6a7fdc604c621a937a60561"
+  },
+  {
+    "file": "evidence/whisper-download-metadata.json",
+    "bytes": 667,
+    "sha256": "9b2f6681cbef181fb0bb31ecd88babb988cdc5c73a894dae94bd1dde9c72f64b"
+  },
+  {
+    "file": "INSTALL_SUBTITLES_WINDOWS.md",
+    "bytes": 1598,
+    "sha256": "0c7447ecb47b61eb2037507f6999eea6a7c96bdf9d25b1cfd0496c508c6658a7"
+  },
+  {
+    "file": "INSTALL_WINDOWS.md",
+    "bytes": 5844,
+    "sha256": "699a9ec7a1423ccac99f110670ea2e06f31639317b37b54bb29c27acf3b69341"
+  },
+  {
+    "file": "INSTALLATION_REPORT.md",
+    "bytes": 5907,
+    "sha256": "1f6207d3500aab9fe6cc6dd688b5e723e50e22128b62cd25edce16ddbc197057"
+  },
+  {
+    "file": "LICENSES.md",
+    "bytes": 1689,
+    "sha256": "235b8486daf7a980acd135f7b3b48da0b9088e0d693068db782570718511f25d"
+  },
+  {
+    "file": "MODEL_AND_VOICE.md",
+    "bytes": 4328,
+    "sha256": "eebbe9b4f1c2b845d6cac1bcd4dbf1fbbc62a5cf183adc491c05ce8cd0cb20fe"
+  },
+  {
+    "file": "models-manifest.json",
+    "bytes": 6003,
+    "sha256": "7cf389b1b050b232a852a3a57f3d8b5a8ca27b4f8d0eb2a0638af2d911f36fc6"
+  },
+  {
+    "file": "PROMPT_FOR_CODEX.md",
+    "bytes": 5912,
+    "sha256": "20cb81324852d0c258537745d76c85e5eaa7ec4e7c85b87f8434e38cd6264eb3"
+  },
+  {
+    "file": "qwen-requirements.lock.txt",
+    "bytes": 1607,
+    "sha256": "6ac191b505ae81c2bd7aa01c222cfc4b7a2c95c873191934bbb917fea6411bdf"
+  },
+  {
+    "file": "README.md",
+    "bytes": 1464,
+    "sha256": "4b1514aefa73a240927d87670389f7da83bd16818c934b27d2ed225480cb43cb"
+  },
+  {
+    "file": "scripts/align.py",
+    "bytes": 4622,
+    "sha256": "3685dde1a3d60ee15a54c8a4ce5c773cf094c76e5ac3035f3ea9c1055849d5f9"
+  },
+  {
+    "file": "scripts/audit.py",
+    "bytes": 5407,
+    "sha256": "b887d7233133a15a1fa14ce63360dd92fec0971e3c3634442d4d2e23148cd8c8"
+  },
+  {
+    "file": "scripts/check_package.py",
+    "bytes": 376,
+    "sha256": "5c1f6c9852c30d6ab2c21ab3507aa94b5e36a186482c8cf74cb02835dfa9007c"
+  },
+  {
+    "file": "scripts/generate.py",
+    "bytes": 4936,
+    "sha256": "ea34eb4ac2ecf17545bbd8c69b3db85da89c0567ea0c2b87e78232d5c163abeb"
+  },
+  {
+    "file": "scripts/install.ps1",
+    "bytes": 2628,
+    "sha256": "f62a86c951d869147bedee6ea9932f570f8b4d1e505c29841dffe980bf23e558"
+  },
+  {
+    "file": "scripts/models.py",
+    "bytes": 1365,
+    "sha256": "c93776e771cc033aca6075246371fba6c1117c19ad6dc84801786466bcdaf114"
+  },
+  {
+    "file": "scripts/package.py",
+    "bytes": 1361,
+    "sha256": "8ab00c395fe40df5bbca647d759d5905a01e18bc9dce577fea4d6d0414b5c999"
+  },
+  {
+    "file": "scripts/qa.py",
+    "bytes": 3611,
+    "sha256": "596cee801a5c44bafb3e96dbb48cbc06e4d9a2ebb9292635cc7d200d0d65946c"
+  },
+  {
+    "file": "scripts/test.ps1",
+    "bytes": 1413,
+    "sha256": "575e3ac476c5d4dfed43d67bc3e953fc854d525a2bddcc266e54e22108062554"
+  },
+  {
+    "file": "scripts/verify.py",
+    "bytes": 1484,
+    "sha256": "a0e68bc5cfee2c00dca41ab7c698b4189c2b1eacfc08d673db587b1bed3fe9c0"
+  },
+  {
+    "file": "scripts/write_docs.py",
+    "bytes": 42735,
+    "sha256": "a7ec38c7cf41e5536c901b790139de28798c6d515a8b1ea6aedd2c83ee21c50e"
+  },
+  {
+    "file": "subtitles-requirements.lock.txt",
+    "bytes": 463,
+    "sha256": "870f4c4a813ad9f152762596afa053b49b82415cf269092226f0d12924548dc4"
+  },
+  {
+    "file": "SUBTITLES_DEPENDENCIES.md",
+    "bytes": 1342,
+    "sha256": "7f3e207e731eeee03d8f137e170fb61cc510eae03d4e13eeb6176a856699f6f5"
+  },
+  {
+    "file": "SUBTITLES_SYSTEM_REPORT.md",
+    "bytes": 4178,
+    "sha256": "70061155710bb6f67ff10885591f28adcf31255c5404602c9bed320ae059fff1"
+  },
+  {
+    "file": "SUBTITLES_VERIFY.md",
+    "bytes": 3077,
+    "sha256": "c506d8020723846585c5e9782da7a7080e07f1ea9b182c2cf494ce669af5f271"
+  },
+  {
+    "file": "SUBTITLES_WORKFLOW.md",
+    "bytes": 2329,
+    "sha256": "626b31cd58b2365de97362ef6584dc2fccdc8c808193ed503e9cadfaf5b70196"
+  },
+  {
+    "file": "test-text.json",
+    "bytes": 147,
+    "sha256": "84bffa29691b1880bdbaec6620ded4d333f609318edde2199de65b7aef4d2566"
+  },
+  {
+    "file": "vendor/bycode-video-system-0.1.0.tgz",
+    "bytes": 8096,
+    "sha256": "ad4209fbcf9c793fe3bbc863338367faf59cce27687511f26dd106deebf5989d"
+  },
+  {
+    "file": "vendor/QWEN-LICENSE.txt",
+    "bytes": 11343,
+    "sha256": "a44a6081c73ad75f0255bb2bb5cab74ef1829565a895a24e53a4f11290ab7655"
+  },
+  {
+    "file": "vendor/qwen_tts-0.1.1-py3-none-any.whl",
+    "bytes": 113529,
+    "sha256": "11a290d8dabc7ef91a90c54478c8ab19b3edb1d85c0882313721892bdc4af15d"
+  },
+  {
+    "file": "VERIFY_INSTALLATION.md",
+    "bytes": 2305,
+    "sha256": "434d398578e64adf8b857c0636d541d2faa2c8df9b0b044f38be8ec3da5c2b97"
+  },
+  {
+    "file": "voice/profile.json",
+    "bytes": 1919,
+    "sha256": "cd2228e044bfa5d674aa6fc9553f44f4b0fa1718a5bd7ba48a4562c9f5bf430f"
+  },
+  {
+    "file": "voice/reference-metadata.json",
+    "bytes": 2129,
+    "sha256": "d5d500a34ff52ff1659b95b84b93150c8395ab7a570c4b5b1666b6a5cb557519"
+  },
+  {
+    "file": "voice/reference.wav",
+    "bytes": 4961358,
+    "sha256": "37511600572dd075c64568c80ed829a0a7d35a38a4597f398579b548a1a730f9"
+  }
+]

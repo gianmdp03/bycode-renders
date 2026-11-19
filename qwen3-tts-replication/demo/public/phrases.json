@@ -1,0 +1,16 @@
+[
+  {
+    "text": "Bienvenidos a Bycode Software.",
+    "startMs": 0,
+    "endMs": 1680,
+    "timestampMs": null,
+    "confidence": 0.7355745064560324
+  },
+  {
+    "text": "En este tutorial vamos a aprender a utilizar Pointly de forma sencilla y rápida.",
+    "startMs": 2240,
+    "endMs": 6740,
+    "timestampMs": null,
+    "confidence": 0.9602509311267308
+  }
+]

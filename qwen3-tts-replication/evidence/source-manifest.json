@@ -1,0 +1,74 @@
+[
+  {
+    "path": "doctorchart-video-tutorial/automation/qwen-worker.py",
+    "sha256": "29d862229333e36d98ed28e19c96acdaf0e0c419fd3cee16a66c96572ecb3242"
+  },
+  {
+    "path": "doctorchart-video-tutorial/automation/compile-ai-video.py",
+    "sha256": "44381d6aa10eab18bc6c3a4b08c28c64db682a5c4c6476f4fa150c525c950e49"
+  },
+  {
+    "path": "doctorchart-video-tutorial/automation/setup-qwen.py",
+    "sha256": "aa76531d2f32dd0431db933e4acd85edd9f8d7ffd7ded9f5064f90f6e92266cb"
+  },
+  {
+    "path": "doctorchart-video-tutorial/docs/qwen-base-provenance.json",
+    "sha256": "9e7cbea1cfee2c4c1b1f0ff54c39e4c807cb19e20881e1535b00f9683aa214fb"
+  },
+  {
+    "path": "doctorchart-video-tutorial/docs/qwen-provenance.json",
+    "sha256": "feeba8ac559233c61aed1a249bda19cf1160137ab46bbdc851aa2c2a84a5fc06"
+  },
+  {
+    "path": "pointly-video-tutorial/automation/narrate.py",
+    "sha256": "6d8b4142db0d37e5b76ecc57ff7e501fe3c71d98b5411361bcc276357d89e192"
+  },
+  {
+    "path": "pointly-video-tutorial/automation/align.py",
+    "sha256": "2e23839a5d0aa18271143729d5a33a463af42595ad0694ea7c1949b7920dc72c"
+  },
+  {
+    "path": "pointly-video-tutorial/automation/revise-captions.mjs",
+    "sha256": "fb1015ecbc3ada7bd86c1ca50219bd088eff1a492186f5b6b1d925b18ef5c85d"
+  },
+  {
+    "path": "pointly-video-tutorial/remotion/src/Chapter.tsx",
+    "sha256": "af27a6f9465c6ffb168dbaf1629e9b339b6fefe9ee9ac8dda8b5eb688b08fe3c"
+  },
+  {
+    "path": "pointly-video-tutorial/remotion/src/fonts.ts",
+    "sha256": "c8340aa7f9c12f1743335eb2f3c0694c2f941306becfcef26f972731c7de84c8"
+  },
+  {
+    "path": "pointly-promo-reel/scripts/qwen-generate.py",
+    "sha256": "3119a5642ff3e38803a07b61c0d7c44f6ce9145ab563959b463ef0e2dbef1249"
+  },
+  {
+    "path": "pointly-promo-reel/scripts/align-mix.py",
+    "sha256": "c7dd837b4aa2afe8d03a3d50ac5e08d39afd3dc03c707436fd8717c417144aa0"
+  },
+  {
+    "path": "shared/bycode-video-system/src/bycode-promo/captions.tsx",
+    "sha256": "7dd34f940b2744ec25c355d344c63a789edcdf37bd27e7598ca06766961e4238"
+  },
+  {
+    "path": "shared/bycode-video-system/src/bycode-brand/products.ts",
+    "sha256": "b42079a30a9f423382a663a73783170e64ea6c1982a4e7520414817efa880655"
+  },
+  {
+    "path": "bycode-institucional-reel/scripts/qwen-generate.py",
+    "sha256": "e71d024c80a9d6cd2d2b16c34c78921ef2982dc5cde9662e8f6aac1554bc0756"
+  },
+  {
+    "path": "bycode-institucional-reel/scripts/qwen-align.py",
+    "sha256": "815a8895017194c9d53a7915cd76f30cbec6106f8a63c99f581514992c240673"
+  },
+  {
+    "path": "bycode-institucional-reel/scripts/qwen.mjs",
+    "sha256": "109fb98907c09a6159100f307d4cc642c8bf1c3dc1e49274181e0ef47a26723e"
+  },
+  {
+    "path": "doctorchart-promo-reel/render/qwen.py",
+    "sha256": "da8934de447c55f8761cdebd2a5818edc1b5a925a1146c31fe666e4109180526"
+  }
+]

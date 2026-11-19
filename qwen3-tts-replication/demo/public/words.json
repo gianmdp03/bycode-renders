@@ -1,0 +1,128 @@
+[
+  {
+    "text": "Bienvenidos",
+    "startMs": 0,
+    "endMs": 700,
+    "timestampMs": null,
+    "confidence": 0.9192329943180084
+  },
+  {
+    "text": "a",
+    "startMs": 700,
+    "endMs": 940,
+    "timestampMs": null,
+    "confidence": 0.9957945346832275
+  },
+  {
+    "text": "Bycode",
+    "startMs": 940,
+    "endMs": 1300,
+    "timestampMs": null,
+    "confidence": 0.04398053977638483
+  },
+  {
+    "text": "Software.",
+    "startMs": 1300,
+    "endMs": 1680,
+    "timestampMs": null,
+    "confidence": 0.9832899570465088
+  },
+  {
+    "text": "En",
+    "startMs": 2240,
+    "endMs": 2380,
+    "timestampMs": null,
+    "confidence": 0.9920892715454102
+  },
+  {
+    "text": "este",
+    "startMs": 2380,
+    "endMs": 2560,
+    "timestampMs": null,
+    "confidence": 0.9971936941146851
+  },
+  {
+    "text": "tutorial",
+    "startMs": 2560,
+    "endMs": 2900,
+    "timestampMs": null,
+    "confidence": 0.9958986639976501
+  },
+  {
+    "text": "vamos",
+    "startMs": 2900,
+    "endMs": 3280,
+    "timestampMs": null,
+    "confidence": 0.7929940223693848
+  },
+  {
+    "text": "a",
+    "startMs": 3280,
+    "endMs": 3520,
+    "timestampMs": null,
+    "confidence": 0.987510085105896
+  },
+  {
+    "text": "aprender",
+    "startMs": 3520,
+    "endMs": 3800,
+    "timestampMs": null,
+    "confidence": 0.9979700446128845
+  },
+  {
+    "text": "a",
+    "startMs": 3800,
+    "endMs": 3980,
+    "timestampMs": null,
+    "confidence": 0.998358428478241
+  },
+  {
+    "text": "utilizar",
+    "startMs": 3980,
+    "endMs": 4320,
+    "timestampMs": null,
+    "confidence": 0.9833970665931702
+  },
+  {
+    "text": "Pointly",
+    "startMs": 4320,
+    "endMs": 4980,
+    "timestampMs": null,
+    "confidence": 0.7283189594745636
+  },
+  {
+    "text": "de",
+    "startMs": 4980,
+    "endMs": 5200,
+    "timestampMs": null,
+    "confidence": 0.9807809591293335
+  },
+  {
+    "text": "forma",
+    "startMs": 5200,
+    "endMs": 5420,
+    "timestampMs": null,
+    "confidence": 0.9985314607620239
+  },
+  {
+    "text": "sencilla",
+    "startMs": 5420,
+    "endMs": 6020,
+    "timestampMs": null,
+    "confidence": 0.997538149356842
+  },
+  {
+    "text": "y",
+    "startMs": 6020,
+    "endMs": 6280,
+    "timestampMs": null,
+    "confidence": 0.99583899974823
+  },
+  {
+    "text": "rápida.",
+    "startMs": 6280,
+    "endMs": 6740,
+    "timestampMs": null,
+    "confidence": 0.9970932304859161
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "torch": "2.9.1+cu128",
+  "torch_cuda": "12.8",
+  "cudnn_runtime": 91002,
+  "capability": [
+    8,
+    9
+  ],
+  "bfloat16_supported": true,
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "separate_CUDA_Toolkit_version": "Not verified; not needed for wheel inference"
+}
